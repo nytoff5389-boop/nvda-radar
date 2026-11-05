@@ -1,6 +1,6 @@
 {
  "ticker": "NVDA",
- "generated_at": "2026-11-05T13:01:57.822978+00:00",
+ "generated_at": "2026-11-05T13:04:12.020415+00:00",
  "sample": false,
  "intraday": {
   "price": 200.13,
@@ -26,10 +26,10 @@
   "volume": 148337800
  },
  "verdict": {
-  "score": -0.08,
-  "level": "ปกติ",
-  "lean": "HOLD / รอสัญญาณ",
-  "key": "neutral",
+  "score": -0.75,
+  "level": "เสี่ยง",
+  "lean": "ระวัง / พิจารณาขายบางส่วน",
+  "key": "bad",
   "parts": [
    {
     "name": "แนวโน้มระยะยาว",
@@ -58,8 +58,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.67,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.33 จาก 9 ข่าว"
+    "value": 0.0,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.00 จาก 1 ข่าวที่ยืนยันแล้ว"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -72,52 +72,52 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 6,
+   "bull": 10,
    "bear": 8,
-   "bull_pct": 42.9,
+   "bull_pct": 55.6,
    "watchers": 674825,
    "sample": [
     {
+     "tag": "Bullish",
+     "body": "$COLD $AMZN $NVDA i try to tell yall. Keeping food cold is boring but essential.",
+     "user": "handmedown1",
+     "at": "2026-11-05T13:03:28Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$NVDA the reversal is coming. bought more.",
+     "user": "Rusti1976NioRealBull",
+     "at": "2026-11-05T13:02:42Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$AMD $MU $NVDA $SNDK $TSM Socialist alert!",
+     "user": "Hereinbama35",
+     "at": "2026-11-05T13:02:40Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$U not sure how that earnings could.have been any better... congrats everyone! Vector ads growth is insane and partnerships with $gooG $metA and $nvdA are incredible for long term growth. But remember not to sell, we&#39",
+     "user": "MuffinMan22",
+     "at": "2026-11-05T13:02:39Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$NVDA Most profitable company in the world and the stock is up 6% on the year!! Yup makes sense!!",
+     "user": "Skidoome",
+     "at": "2026-11-05T13:02:36Z"
+    },
+    {
      "tag": "Bearish",
-     "body": "$NVDA SELL SELL SELL !!",
-     "user": "TheonetrueJester",
-     "at": "2026-11-05T13:01:49Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$NVDA BUY BUY BUY !!",
-     "user": "TeslaDayTrader",
-     "at": "2026-11-05T13:01:16Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$NVDA you must be forgetting that a couple senators elected can&#39;t slow down this tidal wave of AI. They can make articles and say stuff, but nothing&#39;s gonna happen",
-     "user": "Redwhine",
-     "at": "2026-11-05T12:59:40Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$SOXL $NVDA $AMD $MU $SOXL THIS IS THE D-DAY FOR SEMIS All SEMIS ARE FOR SUPER SALE NOW, V RECOVERY FROM THESE LEVELS Very Bullish",
-     "user": "Stockadvisor07",
-     "at": "2026-11-05T12:59:16Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$MU MUST WATCH analysis! $AMD $NVDA $SNDK $SOXL https://youtu.be/PgCd_Vo5Xi8?is=tQMbKMdbWcWKv15r",
-     "user": "TribalSublime",
-     "at": "2026-11-05T12:59:13Z"
-    },
-    {
-     "tag": "Bearish",
-     "body": "$NVDA 170’s by the end of next week.",
-     "user": "StarLord13",
-     "at": "2026-11-05T12:58:58Z"
+     "body": "$NVDA $SOXL $MU $INTC $AMD",
+     "user": "23bobsmith23",
+     "at": "2026-11-05T13:02:34Z"
     }
    ]
   },
   "fear_greed": null,
   "vix": {
-   "value": 16.96,
+   "value": 16.94,
    "prev_close": 16.61,
    "week_ago": 17.2,
    "month_ago": 15.52
@@ -135,52 +135,15 @@
    {
     "t": "2026-11-05T13:01+00:00",
     "bull_pct": 42.9
+   },
+   {
+    "t": "2026-11-05T13:04+00:00",
+    "bull_pct": 55.6
    }
   ]
  },
  "outlook": {
-  "themes": [
-   {
-    "key": "demand",
-    "label": "ดีมานด์ AI / Data center",
-    "count": 4,
-    "tone": 0.5,
-    "example": "Nvidia Partner Hon Hai’s Sales Rise 46% Thanks to AI Demand",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY21OQzRnWEJXbm9XazB3Z096RHpjOU53ajNLTG5sb3RGS3JYcDFqZUpwVXNwT3dYRHhZeV90d3hxSVdDNE9Qa21zamctWUtEeGVqVkVLTmhGSUgxQ3ZpUGR5bWg3Q1pOY19qNjBVWlhuMlVxZWo1TDJoSlJENS01a0RxcThfblM0dXhkTGlYM0ZHOUhYNjBwREZwTk1va1hvS0M1cWljY081Z0tCYmc?oc=5"
-   },
-   {
-    "key": "china",
-    "label": "จีน / กฎส่งออกชิป",
-    "count": 2,
-    "tone": 0.5,
-    "example": "EXCLUSIVE: Nvidia chips pile up in Hong Kong as China withholds import approval",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHNUQnlURFBWSTlTSE5wNWUzekR0cDZfcWQzQVRFLVNweXJiSGhtSFZ6cWdvMXF4SHpLRy1YT1Y2QjJZMGxRajNaRGQ1Y25SVGkycEphaU4zTTRJSzV0QjNPTFMxeEl0Mm9CdGFQc0JJTHBNemVoSXdkTnhsR1FNR0t1b2hoUHdfSW0yVnlGMl95Qkd4dDAtMGdhYTFhUzRhc0U1Mm9fdGxLRnhacUNr?oc=5"
-   },
-   {
-    "key": "competition",
-    "label": "คู่แข่ง (AMD, Intel, ชิปของ Big Tech)",
-    "count": 1,
-    "tone": 1.0,
-    "example": "AMD Forecast Exceeds Estimates After AI Chip Demand Soars",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYURlOUxxRUMybEdmbkJoTHZiZEVTTUtCN0gyZ1RsV0s3YlEteXR1NFZIWDNwXzJKTUdCRUpJY0RWNlRqVC02M0VaMFgtY0piUFNGSkhKQmZ3bTVwMHFERHN6ZExPSnVFbWdBWDYxQnNnX0RJRnF6QVlld0FBeDhySGlrUEZ4bEtmWkkybFFVRU9EcnhRd2F5c1M1eGc2OFk5VG95X0dUa1dWUGhPZzJJ?oc=5"
-   },
-   {
-    "key": "supply",
-    "label": "การผลิต / ซัพพลาย (TSMC ฯลฯ)",
-    "count": 1,
-    "tone": 1.0,
-    "example": "Nvidia Partner Hon Hai’s Sales Rise 46% Thanks to AI Demand",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY21OQzRnWEJXbm9XazB3Z096RHpjOU53ajNLTG5sb3RGS3JYcDFqZUpwVXNwT3dYRHhZeV90d3hxSVdDNE9Qa21zamctWUtEeGVqVkVLTmhGSUgxQ3ZpUGR5bWg3Q1pOY19qNjBVWlhuMlVxZWo1TDJoSlJENS01a0RxcThfblM0dXhkTGlYM0ZHOUhYNjBwREZwTk1va1hvS0M1cWljY081Z0tCYmc?oc=5"
-   },
-   {
-    "key": "earnings",
-    "label": "งบการเงิน / คาดการณ์รายได้",
-    "count": 1,
-    "tone": 1.0,
-    "example": "AMD Forecast Exceeds Estimates After AI Chip Demand Soars",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYURlOUxxRUMybEdmbkJoTHZiZEVTTUtCN0gyZ1RsV0s3YlEteXR1NFZIWDNwXzJKTUdCRUpJY0RWNlRqVC02M0VaMFgtY0piUFNGSkhKQmZ3bTVwMHFERHN6ZExPSnVFbWdBWDYxQnNnX0RJRnF6QVlld0FBeDhySGlrUEZ4bEtmWkkybFFVRU9EcnhRd2F5c1M1eGc2OFk5VG95X0dUa1dWUGhPZzJJ?oc=5"
-   }
-  ],
+  "themes": [],
   "range": {
    "1w": {
     "pct": 4.6,
@@ -197,16 +160,100 @@
  },
  "news": [
   {
+   "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+   "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+   "domain": "nvidianews.nvidia.com",
+   "published": "2026-11-03T16:00:45+00:00",
+   "source": "NVIDIA Newsroom (ทางการ)",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "NVIDIA Newsroom (ทางการ)"
+   ],
+   "status": "official"
+  },
+  {
+   "title": "Nvidia Stock Is Back at $200. What History Suggests Is the Floor.",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ETFJPTERDSTNEbDJ4UWZ5dUt3ZkFrZEQ1Zm9WVGE0eVpqSk9YMGI2MXVKNjBRNS1NWmo4QjFfTDZBSVdhaHN5eGNDU3VJdkpoTE00a0g4Ukx3WWZXOTlvNDIwaGJYd2ZuNXVjZUVVUWhQN2hLT3dvcGRPTU1FTlk?oc=5",
+   "domain": "barrons.com",
+   "published": "2026-11-05T12:57:00+00:00",
+   "source": "Barron's",
+   "tier": 2,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Barron's"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Nvidia-Backed Humanoid Maker Agility Goes Public in First for the US",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNEFfTDRRc2FDSEtON0h2MDNVTUszdjVCSk9YX3BDQ092VEQ5Qm12SzBJbnczWWxxY1F3R2NNZEVBMDFzbDNRVEhGamxPWnRqVWlfdV8wbktCUHlSV3lSMnBfbFc0djBack5mOWlLZzloOEMtbmktWDFjc0p5Nm12Z2ZiUlVOREU3MWlfUGVzMENPOXVtRlRkOG13YVlHRWZDX0Z4ME5YVlNMUHAyZFJ6djRYVDBGWTNvU21n?oc=5",
+   "domain": "bloomberg.com",
+   "published": "2026-11-05T12:00:21+00:00",
+   "source": "Bloomberg",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Bloomberg"
+   ],
+   "status": "single"
+  },
+  {
    "title": "EXCLUSIVE: Nvidia chips pile up in Hong Kong as China withholds import approval",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHNUQnlURFBWSTlTSE5wNWUzekR0cDZfcWQzQVRFLVNweXJiSGhtSFZ6cWdvMXF4SHpLRy1YT1Y2QjJZMGxRajNaRGQ1Y25SVGkycEphaU4zTTRJSzV0QjNPTFMxeEl0Mm9CdGFQc0JJTHBNemVoSXdkTnhsR1FNR0t1b2hoUHdfSW0yVnlGMl95Qkd4dDAtMGdhYTFhUzRhc0U1Mm9fdGxLRnhacUNr?oc=5",
    "domain": "reuters.com",
-   "published": "2026-11-05T11:38:54+00:00",
+   "published": "2026-11-05T11:54:32+00:00",
    "source": "Reuters",
    "tier": 1,
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 1
+   "corroborated_by": 1,
+   "sources": [
+    "Reuters"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Nvidia-Backed Cohere Says IPO Timing Uncertain Despite Surging Revenue -- Interview",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNclhpcUpqaVFnUS1vc01YOExzV0pRRjBhTVBxQXFXMGNEX1d0TDhTc1owaGhrekotRVBhXzluMFg3c1RhdDQ3THUyVVF2UkFvTy1OTHNfTW9kd1VnZE1WRk5YQWhjQlRRZzhGTXFsckE1YVFhTWpETlY5WVZkeGRKOTJXNmFjV0pkT0FpRWprcGQ3V1A0MXdxUTc0NUlVWVl5MzRTdFRtdGw3WkJrMjd4RU5yRzUwUC0xdnphY2xpdnRKVEk1cUxTVjRpMWtPMklrMzdV?oc=5",
+   "domain": "marketwatch.com",
+   "published": "2026-11-05T11:49:00+00:00",
+   "source": "MarketWatch",
+   "tier": 2,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "MarketWatch"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "NVDA Stock Price | NVIDIA Corp. Stock Quote (U.S.: Nasdaq)",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rTUx0am9SNU4zUG1rZG02REFwVHRBSmgyanJKb1ZFRHZNbG91b2RIN1NTUUxsTS1JX0xFWmVkTmxsQWxleG1nN1VXZnVJby13cEdlX1B2dUs4aEhr?oc=5",
+   "domain": "marketwatch.com",
+   "published": "2026-11-05T08:49:18+00:00",
+   "source": "MarketWatch",
+   "tier": 2,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "MarketWatch"
+   ],
+   "status": "single"
   },
   {
    "title": "Nvidia Partner Hon Hai’s Sales Rise 46% Thanks to AI Demand",
@@ -218,7 +265,75 @@
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 1
+   "corroborated_by": 1,
+   "sources": [
+    "Bloomberg"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "NVIDIA Corp",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBBVW5EeWpnQUtfTkZJZDBOaU9jSmJGaW9Ma2VYdzhrdWl2SmxLT1BZTHdlUHkwd2F3RTVBc2F6ZDh0ZGM2QlhFNFdRZS1hSjJZX1Q5cjhDdTNnYV9HRWc?oc=5",
+   "domain": "bloomberg.com",
+   "published": "2026-11-05T07:14:22+00:00",
+   "source": "Bloomberg",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Bloomberg"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Canada’s Avenir Snaps Up Communications Firms That Serve Nvidia, Meta",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUzRZX3pRcXFjQ2hENTVfcGZYa28wR0pMN28zbURmRGlLU2xJSTgtckplTEQzWS1hYjRMWGk5UEVnX0RLTVBwY2l3N3dZYkl4S2VkY3d3TklMVHh0ajRDQ09MOVI4TV9hcUZ5T1JFTzlkY0dHUmlkdWVBczRLazNDaVppUTdib3pzU3dtemNsV2Y4TjVwR2dRSko5SVlMZHM3cTZJLVJSWnRWY3hGd2wtLXZEYmtaRTg1bUxfeUFDMjBTODRuSWc?oc=5",
+   "domain": "bloomberg.com",
+   "published": "2026-11-05T07:01:00+00:00",
+   "source": "Bloomberg",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Bloomberg"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Audi Announces Its First U.S. Factory; Nvidia, Micron Drive Earnings Boom",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQmNYbU14T29fbUlGcmZXY1FYaE9vZEVSaWpRU3NvT25oSDBuS2NKMEg2Ykk2ZEVDWHlOVXV5MUNJb3V3M19vVlBfNlVSWGwtZmdtTlRoMURzRzNmTWZZd3E2cFk3UnpLZllLcW9seTlBdnA4N1dpS01zYnpzSHRhWEJ5VXF2OGFWVU55UDFQTlpIWGJrYnNDVFhtaDhoWDI3M3dlSnc5dDlvN2lxbFhGRg?oc=5",
+   "domain": "wsj.com",
+   "published": "2026-11-04T23:11:51+00:00",
+   "source": "The Wall Street Journal",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "The Wall Street Journal"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Apple’s Supply Chain Faces Big Test From AI Chip Shortage",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GT2JYQXNPZVZQekZ4eVBvUGpRMDRva29mY2hRY0w2YlVCa3dkdjNpblF3eWEyUV9zdDVSTF9xV1ladXdYV2VsU2tKQ1N1VGdEbFFwbUtVS2dUMk1sOFJQelptSXRmQm1UX1JUekxOYmhDQ3pYT19GYktkaGFSVzg?oc=5",
+   "domain": "barrons.com",
+   "published": "2026-11-04T21:10:00+00:00",
+   "source": "Barron's",
+   "tier": 2,
+   "sentiment": -1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Barron's"
+   ],
+   "status": "single"
   },
   {
    "title": "Why Nvidia Stock Can Ride Out a Data-Center Crackdown",
@@ -230,7 +345,27 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 1
+   "corroborated_by": 1,
+   "sources": [
+    "Barron's"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Apollo Is Vastly Outspending the Neoclouds on AI Chips",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYnJsOG9nQVViay1ldU1Ha2JkN1VsMHQxV3FVTlllOWdyakxHX2NvTVU4Y2xKNUtxcFJJSzNzSmFTc25QczJnbW9ZbHlKTGR3MlJkT0V0UWZ5VklvQnYwR09zQy1vdEJfZzJXV1UtRUxYLXJNR0FfR2x1Y285b2QyOU1WQmxPNUhtU1EtXw?oc=5",
+   "domain": "theinformation.com",
+   "published": "2026-11-04T14:00:00+00:00",
+   "source": "The Information",
+   "tier": 2,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "The Information"
+   ],
+   "status": "single"
   },
   {
    "title": "Nvidia China Clients to Get 1% of $70 Billion RTX Chips Ordered",
@@ -242,19 +377,11 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "AMD Forecast Exceeds Estimates After AI Chip Demand Soars",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYURlOUxxRUMybEdmbkJoTHZiZEVTTUtCN0gyZ1RsV0s3YlEteXR1NFZIWDNwXzJKTUdCRUpJY0RWNlRqVC02M0VaMFgtY0piUFNGSkhKQmZ3bTVwMHFERHN6ZExPSnVFbWdBWDYxQnNnX0RJRnF6QVlld0FBeDhySGlrUEZ4bEtmWkkybFFVRU9EcnhRd2F5c1M1eGc2OFk5VG95X0dUa1dWUGhPZzJJ?oc=5",
-   "domain": "bloomberg.com",
-   "published": "2026-11-03T22:44:51+00:00",
-   "source": "Bloomberg",
-   "tier": 1,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
+   "corroborated_by": 1,
+   "sources": [
+    "Bloomberg"
+   ],
+   "status": "single"
   },
   {
    "title": "Nvidia and other Big Tech stocks lift the US market despite drops for Apple and much of Wall Street",
@@ -266,7 +393,27 @@
    "sentiment": -1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 1
+   "corroborated_by": 1,
+   "sources": [
+    "Associated Press"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "How Nvidia Shapes Policy in Washington, Midterms Affecting Data Centers, Apple Sales Cool — TITV [Video]",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBMTWhGT3BCT1V3WWNfSVFrM0JGZ0dlY0NGdGljejZjT3VSWUhBNzA4SmxSRXJPRjFXaTk1cmdvM2NYYlY2Zl8yYnNfb1dzbERSMkdj?oc=5",
+   "domain": "theinformation.com",
+   "published": "2026-11-03T18:47:30+00:00",
+   "source": "The Information",
+   "tier": 2,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "The Information"
+   ],
+   "status": "single"
   },
   {
    "title": "Nvidia Stock Jumps and It's Set to Surpass Apple Again",
@@ -278,7 +425,11 @@
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 1
+   "corroborated_by": 1,
+   "sources": [
+    "Barron's"
+   ],
+   "status": "single"
   },
   {
    "title": "Stocks making the biggest moves midday: Apple, Palantir, Nvidia, Coinbase, Bloom Energy & more",
@@ -290,19 +441,43 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 1
+   "corroborated_by": 1,
+   "sources": [
+    "CNBC"
+   ],
+   "status": "single"
   },
   {
-   "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-   "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
-   "domain": "nvidianews.nvidia.com",
-   "published": "2026-11-03T16:00:45+00:00",
-   "source": "NVIDIA Newsroom (ทางการ)",
-   "tier": 1,
+   "title": "Nvidia Vera Rubin Chips News & Analysis",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1UOEo0MWJBSEtPOWRDQ1Uxb0J0RXNjUXcwdVZKSktmM1dkTzE1NkZHS3RPb1V1TmZoZEQyaXRCMGk4bXh0UW1FZ0c5eUhrYl96ejd3V2FSMUJ0RFFIazJqLWs4SXZjUnlXb1Y2MHJB?oc=5",
+   "domain": "theinformation.com",
+   "published": "2026-11-03T17:29:05+00:00",
+   "source": "The Information",
+   "tier": 2,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 1
+   "corroborated_by": 1,
+   "sources": [
+    "The Information"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Should OpenAI Be Afraid of Jensen Huang?",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQm9WNWZnYWtNczNKbjNMd0RqX1ZpdWdLdUNmWkxFd2NHTGtjakk5emJfQi1QaGpneGRPbUNNNTQzaFVqallLUm13cVp1LXA5a0dFX2tpY215bUZROVZmWGYtbEpEMHFnazlCQXA1YndqQUxxeVRqbjh1ZjRqWjctMG0zMEMzZw?oc=5",
+   "domain": "theinformation.com",
+   "published": "2026-11-03T16:16:00+00:00",
+   "source": "The Information",
+   "tier": 2,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "The Information"
+   ],
+   "status": "single"
   }
  ],
  "errors": [
