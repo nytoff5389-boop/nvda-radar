@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
 <script src="lwc.js"></script>
+<script src="live.js"></script>
 <style>
 :root{
   --bg:#f1faf4;--surface:#ffffff;--raise:#eaf7ef;--ink:#2c4639;--ink2:#4a6858;--muted:#86a294;--line:#d5ecdf;
@@ -120,6 +121,12 @@ a{color:inherit}
 #floatQuote{min-height:150px}
 .pill{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:20;border:0;border-radius:999px;padding:10px 16px;font:700 15px Mali;
   background:var(--accent);color:#fff;box-shadow:0 10px 24px -8px rgba(0,0,0,.35);cursor:pointer}
+.livepx{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 10px;margin:4px 0 10px;padding:10px 14px;border-radius:18px;background:var(--raise)}
+.livepx .p{font:800 26px Nunito}.livepx .d{font:800 16px Nunito}.livepx .d.up{color:var(--up)}.livepx .d.down{color:var(--down)}
+.livepx .m{font-size:12.5px;color:var(--muted);width:100%}
+.livepx .dot{width:9px;height:9px;border-radius:50%;background:#ff5a6e;display:inline-block;animation:blink 1.6s infinite;margin-right:2px}
+@keyframes blink{50%{opacity:.25}}
+#floatLive{font:700 13px Nunito;text-align:center;color:var(--ink2);margin:2px 0}
 /* market clock */
 .clock{margin-top:14px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding:14px 20px}
 .clock .st{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:17px}
@@ -239,6 +246,7 @@ footer{margin-top:26px;text-align:center;font-size:13px;color:var(--muted)}
 <div class="float" id="float" role="dialog" aria-label="ราคาสด">
   <div class="grab"></div><button class="x" id="floatX" aria-label="ปิดหน้าต่างราคา">✕</button>
   <div id="floatQuote"></div>
+  <div id="floatLive"></div>
   <div class="hint">ปัดลงหรือปัดข้างเพื่อซ่อน 🐾</div>
 </div>
 <button class="pill" id="floatPill" hidden>💲 ราคาสด</button>
@@ -273,6 +281,7 @@ footer{margin-top:26px;text-align:center;font-size:13px;color:var(--muted)}
     </div>
     <div class="card">
       <div class="hi">ราคาตอนนี้ <span class="live"><span class="dot"></span>LIVE</span></div>
+      <div class="livepx" id="livePx" hidden></div>
       <div id="quote"></div>
       <ul class="tldr" id="tldr"></ul>
     </div>
@@ -508,6 +517,25 @@ function fallbackQuote(){
 }
 
 let data,filter="all",showAll=false;
+// ---- live price straight from the browser every 15 s (data file only refreshes every ~10 min) ----
+window.LIVE=null;
+function applyLive(){
+  const L=window.LIVE;if(!L)return;
+  const up=L.chg>=0,tt=new Date(L.t).toLocaleTimeString("th-TH",{hour:"2-digit",minute:"2-digit",second:"2-digit"});
+  const lab=LiveQuote.SES[L.ses];
+  $("livePx").hidden=false;
+  $("livePx").innerHTML=`<span><span class="dot"></span> <b>ราคาตอนนี้</b></span><span class="p num">$${fmt(L.price)}</span>
+    <span class="d num ${up?"up":"down"}">${up?"▲ +":"▼ "}${fmt(L.chg)}%</span><span class="m">${lab}${L.ses==="reg"?"":` · เทียบราคาปิด $${fmt(L.close)}`} · สด ${tt} น.</span>`;
+  $("floatLive").innerHTML=L.ses==="reg"?"":`${lab}: <b>$${fmt(L.price)}</b> <span style="color:var(--${up?"up":"down"})">${up?"+":""}${fmt(L.chg)}%</span>`;
+  if(!data)return;
+  $("tldr").innerHTML=tldr(data).map(([e,t])=>`<li><span>${e}</span><span>${t}</span></li>`).join("");
+  if(data.candles&&data.candles.length>=70)strategy(data);
+  renderOutlook(data);
+  $("extLab").textContent={pre:"🌅 Pre-market ตอนนี้",post:"🌙 After-hours ตอนนี้",reg:"☀️ ราคาตอนนี้ (ตลาดเปิด)",closed:"😴 ราคาล่าสุด (ตลาดปิด)"}[L.ses];
+  $("extPx").textContent="$"+fmt(L.price);
+  $("extChg").textContent=(up?"▲ +":"▼ ")+fmt(L.chg)+"%";$("extChg").className="delta num "+(up?"up":"down");
+}
+LiveQuote.poll([SYM],q=>{if(q[SYM]){window.LIVE=q[SYM];applyLive()}},15000);
 document.querySelectorAll(".seg button").forEach(b=>b.onclick=()=>{
   document.querySelectorAll(".seg button").forEach(x=>x.classList.toggle("on",x===b));
   const lw=b.dataset.t==="lw";$("tv").hidden=lw;$("lw").hidden=!lw;$("lwKey").hidden=!lw;if(lw)drawLW();
@@ -697,7 +725,7 @@ function renderOutlook(d){
     $("olAn").innerHTML=`<p style="margin:0">ยังไม่ได้เปิดส่วนนี้ 🔒</p><p class="muted small">ใส่ key ฟรีจาก Finnhub แล้วจะเห็นว่านักวิเคราะห์มองดีขึ้นหรือแย่ลง และวันประกาศงบครั้งถัดไป</p>`;
   }
 
-  const R=O.range,c=d.tech.close;
+  const R=O.range,c=window.LIVE?LIVE.price:d.tech.close;
   if(R){const lo=R["1m"].lo*0.97,hi=R["1m"].hi*1.03,x=v=>(v-lo)/(hi-lo)*100;
     $("olRange").innerHTML=`<div class="rangebar"><div class="band" style="left:${x(R["1m"].lo)}%;width:${x(R["1m"].hi)-x(R["1m"].lo)}%"></div>
       <div class="band w" style="left:${x(R["1w"].lo)}%;width:${x(R["1w"].hi)-x(R["1w"].lo)}%"></div><div class="now" style="left:${x(c)}%"></div></div>
@@ -713,7 +741,7 @@ function renderExt(d){
   $("extLab").textContent=lab;$("extPx").textContent="$"+fmt(last.c);
   $("extChg").textContent=(ch>=0?"▲ +":"▼ ")+fmt(ch)+"%";$("extChg").className="delta num "+(ch>=0?"up":"down");
   const tt=new Date(last.t*1000).toLocaleTimeString("th-TH",{timeZone:"Asia/Bangkok",hour:"2-digit",minute:"2-digit"});
-  $("extNote").innerHTML=`เทียบราคาปิดวันก่อน $${fmt(prev)} · ข้อมูลเวลา ${tt} น.<br>เส้นนี้อัปเดตทุก 10 นาที · ราคาสดวินาทีต่อวินาทีดูที่กล่องราคาด้านบน`;
+  $("extNote").innerHTML=`เทียบราคาปิดวันก่อน $${fmt(prev)} · ข้อมูลเวลา ${tt} น.<br>เส้นกราฟอัปเดตทุก 5–10 นาที · ตัวเลขราคาด้านบนเป็นราคาสด อัปเดตทุก 15 วินาที`;
   if(!window.LightweightCharts)return;
   const el=$("extChart");el.innerHTML="";
   const c2=LightweightCharts.createChart(el,{autoSize:true,layout:{background:{color:"transparent"},textColor:css("muted"),fontFamily:"Nunito"},
@@ -730,7 +758,7 @@ function renderExt(d){
 
 function strategy(d){
   const t=d.tech,C=d.candles,I=d.intraday,lastPt=I&&I.points&&I.points.length?I.points.at(-1):null;
-  const P=lastPt?lastPt.c:(I&&I.price)||t.close;
+  const P=window.LIVE?LIVE.price:(lastPt?lastPt.c:(I&&I.price)||t.close);
   const hi=n=>Math.max(...C.slice(-n).map(r=>r.h)),lo=n=>Math.min(...C.slice(-n).map(r=>r.l));
   const lv=[["เส้นเฉลี่ย 50 วัน",t.sma50],["เส้นเฉลี่ย 200 วัน",t.sma200],["ขอบล่าง Bollinger",t.boll_dn],["ขอบบน Bollinger",t.boll_up],
     ["จุดต่ำสุด 20 วัน",lo(20)],["จุดต่ำสุด 60 วัน",lo(60)],["จุดสูงสุด 20 วัน",hi(20)],["จุดสูงสุด 60 วัน",hi(60)]].filter(x=>x[1]);
@@ -787,9 +815,9 @@ function strategy(d){
 }
 
 function tldr(d){
-  const t=d.tech,items=[],ch=t.chg_pct;
-  const a=Math.abs(ch);
-  items.push([ch>=0?"📈":"📉",`รอบล่าสุด${ch>=0?"ขึ้น":"ลง"} <b class="num">${fmt(a)}%</b>`+(a>=4?" แรงกว่าปกติ":a<1?" ขยับนิดเดียว":"")]);
+  const t=d.tech,items=[],L=window.LIVE,ch=L?L.chg:t.chg_pct;
+  const a=Math.abs(ch),when=L?{pre:"ช่วง Pre-market ตอนนี้",post:"ช่วง After-hours ตอนนี้",reg:"วันนี้",closed:"รอบล่าสุด"}[L.ses]:"รอบล่าสุด";
+  items.push([ch>=0?"📈":"📉",`${when}${ch>=0?"ขึ้น":"ลง"} <b class="num">${fmt(a)}%</b>`+(a>=4?" แรงกว่าปกติ":a<1?" ขยับนิดเดียว":"")]);
   if(d.candles&&d.candles.length>=70){const r=regime(d);items.push([RG[r.k].face,`แนวโน้มข้างหน้า: <b>${RG[r.k].name}</b>`]);}
   const vn=d.news;
   if(vn.length){const pos=vn.filter(n=>n.sentiment>0.15).length,neg=vn.filter(n=>n.sentiment<-0.15).length;
@@ -802,7 +830,7 @@ function tldr(d){
 
 function render(d){
   data=d;
-  $("updated").textContent="อัปเดตเมื่อ "+ago(d.generated_at);
+  $("updated").textContent="ข่าว/วิเคราะห์อัปเดต "+ago(d.generated_at);
   $("sampleTag").innerHTML=d.sample?'<span class="sample">ข้อมูลตัวอย่าง</span>':"";
   const v=d.verdict,L=LV[v.key];
   $("face").textContent=L.face;$("lvl").textContent=L.name;$("lvl").style.color=`var(--${v.key})`;
@@ -832,6 +860,7 @@ function render(d){
   renderTrend(d);
   if(d.candles&&d.candles.length>=70)strategy(d);
   renderExt(d);
+  applyLive();
   renderOutlook(d);
   renderNews();
   $("newsErr").textContent=d.errors.length?"หมายเหตุ: บางแหล่งดึงไม่ได้ในรอบนี้ ("+d.errors.map(e=>e.split(":")[0]).join(", ")+")":"";
@@ -842,7 +871,7 @@ async function load(){
   try{const r=await fetch("data/"+SYM+".json?ts="+Date.now(),{cache:"no-store"});render(await r.json())}
   catch(e){$("updated").textContent="โหลดข้อมูลไม่สำเร็จ ลองรีเฟรชดูนะ"}
 }
-load();setInterval(load,2*60*1000);setInterval(()=>{if(data)$("updated").textContent="อัปเดตเมื่อ "+ago(data.generated_at)},30000);
+load();setInterval(load,2*60*1000);setInterval(()=>{if(data)$("updated").textContent="ข่าว/วิเคราะห์อัปเดต "+ago(data.generated_at)},30000);
 document.addEventListener("visibilitychange",()=>{if(!document.hidden)load()});
 </script>
 </body>

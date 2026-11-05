@@ -77,8 +77,10 @@ footer{text-align:center;color:var(--muted);font-size:13px;margin-top:26px}
       <div class="px" id="px-GOOGL">…</div><div class="ch" id="ch-GOOGL"></div><div class="lv" id="lv-GOOGL">กำลังโหลด</div>
     </a>
   </section>
+  <p class="sub" id="liveNote" style="text-align:center;margin-top:16px;font-size:13px"></p>
   <footer>ข้อมูลอัปเดตอัตโนมัติ · ไม่ใช่คำแนะนำการลงทุนนะ 💚</footer>
 </main>
+<script src="live.js"></script>
 <script>
 const LV={vbad:"🙀 เสี่ยงมาก",bad:"😿 เสี่ยง",neutral:"😺 ปกติ",good:"😸 ดี",vgood:"😻 ดีมาก"};
 const NAMES={NVDA:"เอ็นวิเดีย",GOOGL:"กูเกิล"};
@@ -106,12 +108,17 @@ document.querySelectorAll(".tile").forEach(a=>a.addEventListener("click",e=>{
   e.preventDefault();const s=a.dataset.s;chirp();say(`ไปดู ${NAMES[s]} กันเหมียว`);
   setTimeout(()=>{location.href=a.getAttribute("href")},650);
 }));
-// ---- tile data ----
+// ---- tile data: live price from the browser every 15 s, risk level from our data file ----
+const gotLive={};
+function showPx(s,px,c,ses){
+  if(px)document.getElementById("px-"+s).textContent="$"+Number(px).toFixed(2);
+  if(c!=null){const el=document.getElementById("ch-"+s);el.textContent=(c>=0?"▲ +":"▼ ")+Number(c).toFixed(2)+"%";el.className="ch "+(c>=0?"up":"down")}
+}
+LiveQuote.poll(["NVDA","GOOGL"],q=>{for(const s in q){gotLive[s]=1;showPx(s,q[s].price,q[s].chg,q[s].ses)}
+  document.getElementById("liveNote").textContent="🔴 ราคาสด อัปเดตล่าสุด "+new Date().toLocaleTimeString("th-TH",{hour:"2-digit",minute:"2-digit",second:"2-digit"})+" น. · "+LiveQuote.SES[LiveQuote.session()]+(LiveQuote.session()==="reg"?"":" (ราคา/เปอร์เซ็นต์เป็นราคานอกเวลา เทียบราคาปิดล่าสุด)")},15000);
 for(const s of ["NVDA","GOOGL"]){
   fetch(`data/${s}.json?ts=${Date.now()}`,{cache:"no-store"}).then(r=>r.json()).then(d=>{
-    const t=d.tech||{},c=t.chg_pct;
-    if(t.close)document.getElementById("px-"+s).textContent="$"+Number(t.close).toFixed(2);
-    if(c!=null){const el=document.getElementById("ch-"+s);el.textContent=(c>=0?"▲ +":"▼ ")+Number(c).toFixed(2)+"%";el.className="ch "+(c>=0?"up":"down")}
+    const t=d.tech||{};if(!gotLive[s])showPx(s,t.close,t.chg_pct,null);
     const k=d.verdict&&d.verdict.key;document.getElementById("lv-"+s).textContent=LV[k]||"—";
   }).catch(()=>{document.getElementById("px-"+s).textContent="";document.getElementById("lv-"+s).textContent="แตะเพื่อดู"});
 }
