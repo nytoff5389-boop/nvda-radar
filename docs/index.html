@@ -465,7 +465,7 @@ mountWidgets();
 $("nerd").addEventListener("toggle",()=>{if($("nerd").open&&!$("tvta").querySelector("iframe"))mountTA()});
 
 function fallbackQuote(){
-  const t=data.tech,live=data.intraday&&data.intraday.price,px=live?data.intraday.price:t.close,prev=live?data.intraday.prev_close:t.prev_close,ch=(px/prev-1)*100;
+  const t=data.tech,px=t.close,prev=t.prev_close,ch=(px/prev-1)*100;
   $("quote").innerHTML=`<div style="display:flex;flex-wrap:wrap;align-items:flex-end;gap:6px 12px;padding:8px 8px 0"><span class="price num">$${fmt(px)}</span>
     <span class="delta num ${ch>=0?"up":"down"}">${ch>=0?"▲ +":"▼ "}${fmt(ch)}%</span></div>`;
 }
@@ -671,7 +671,7 @@ function renderOutlook(d){
 
 function renderExt(d){
   const I=d.intraday;if(!I||!I.points||!I.points.length){$("extNote").textContent="ยังไม่มีข้อมูลราคานอกเวลาในรอบนี้";return}
-  const last=I.points.at(-1),prev=I.prev_close,ch=(last.c/prev-1)*100;
+  const last=I.points.at(-1),prev=last.s==="pre"?d.tech.close:d.tech.prev_close,ch=(last.c/prev-1)*100;
   const lab={pre:"🌅 Pre-market ตอนนี้",post:"🌙 After-hours ตอนนี้",reg:"☀️ ราคาเวลาปกติล่าสุด"}[last.s];
   $("extLab").textContent=lab;$("extPx").textContent="$"+fmt(last.c);
   $("extChg").textContent=(ch>=0?"▲ +":"▼ ")+fmt(ch)+"%";$("extChg").className="delta num "+(ch>=0?"up":"down");
@@ -681,7 +681,7 @@ function renderExt(d){
   const el=$("extChart");el.innerHTML="";
   const c2=LightweightCharts.createChart(el,{autoSize:true,layout:{background:{color:"transparent"},textColor:css("muted"),fontFamily:"Nunito"},
     grid:{vertLines:{visible:false},horzLines:{color:css("line")}},rightPriceScale:{borderVisible:false},
-    timeScale:{borderVisible:false,timeVisible:true,secondsVisible:false},
+    timeScale:{borderVisible:false,timeVisible:true,secondsVisible:false,tickMarkFormatter:t=>new Date(t*1000).toLocaleTimeString("th-TH",{timeZone:"Asia/Bangkok",hour:"2-digit",minute:"2-digit"})},
     localization:{timeFormatter:t=>new Date(t*1000).toLocaleTimeString("th-TH",{timeZone:"Asia/Bangkok",hour:"2-digit",minute:"2-digit"})},
     handleScroll:false,handleScale:false});
   const col={pre:"#f5a65b",reg:css("accent"),post:"#8ab6e8"};
@@ -750,7 +750,7 @@ function strategy(d){
 }
 
 function tldr(d){
-  const t=d.tech,items=[],live=d.intraday&&d.intraday.price,ch=live?(d.intraday.price/d.intraday.prev_close-1)*100:t.chg_pct;
+  const t=d.tech,items=[],ch=t.chg_pct;
   const a=Math.abs(ch);
   items.push([ch>=0?"📈":"📉",`รอบล่าสุด${ch>=0?"ขึ้น":"ลง"} <b class="num">${fmt(a)}%</b>`+(a>=4?" แรงกว่าปกติ":a<1?" ขยับนิดเดียว":"")]);
   if(d.candles&&d.candles.length>=70){const r=regime(d);items.push([RG[r.k].face,`แนวโน้มข้างหน้า: <b>${RG[r.k].name}</b>`]);}
