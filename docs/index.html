@@ -448,7 +448,7 @@ function fallbackQuote(){
     <span class="delta num ${ch>=0?"up":"down"}">${ch>=0?"▲ +":"▼ "}${fmt(ch)}%</span></div>`;
 }
 
-let data,filter="all";
+let data,filter="all",showAll=false;
 document.querySelectorAll(".seg button").forEach(b=>b.onclick=()=>{
   document.querySelectorAll(".seg button").forEach(x=>x.classList.toggle("on",x===b));
   const lw=b.dataset.t==="lw";$("tv").hidden=lw;$("lw").hidden=!lw;$("lwKey").hidden=!lw;if(lw)drawLW();
@@ -497,7 +497,8 @@ function renderNews(){
   $("newsCount").textContent=`(ยืนยันแล้ว ${all.filter(OK).length} · ยังไม่ยืนยัน ${all.filter(n=>!OK(n)).length})`;
   let html="";
   if(filter!=="no"){html+=`<li class="ngroup">✅ ยืนยันแล้ว <small>${ok.length} ข่าว</small></li>`+(ok.length?ok.map(newsCard).join(""):'<li class="muted small" style="list-style:none;margin:0 4px">ตอนนี้ยังไม่มีข่าวที่ยืนยันจากหลายแหล่ง 🐾</li>');}
-  if(filter!=="ok"){html+=`<li class="ngroup">⏳ ยังไม่ยืนยัน <small>${no.length} ข่าว · มีแหล่งเดียว อ่านแบบเผื่อใจไว้หน่อย</small></li>`+(no.length?no.map(newsCard).join(""):'<li class="muted small" style="list-style:none;margin:0 4px">ไม่มี</li>');}
+  if(filter!=="ok"){html+=`<li class="ngroup">⏳ ยังไม่ยืนยัน <small>${no.length} ข่าว · มีแหล่งเดียว อ่านแบบเผื่อใจไว้หน่อย</small></li>`+(no.length?no.slice(0,showAll?999:10).map(newsCard).join(""):'<li class="muted small" style="list-style:none;margin:0 4px">ไม่มี</li>');
+    if(no.length>10&&!showAll)html+=`<li style="list-style:none;text-align:center"><button class="fbtn" onclick="showAll=true;renderNews()">ดูข่าวที่ยังไม่ยืนยันทั้งหมด (${no.length}) 🐾</button></li>`;}
   $("news").innerHTML=html;
 }
 
