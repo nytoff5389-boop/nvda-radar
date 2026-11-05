@@ -1,6 +1,6 @@
 {
  "ticker": "NVDA",
- "generated_at": "2026-11-05T12:38:58.914110+00:00",
+ "generated_at": "2026-11-05T12:40:30.407805+00:00",
  "sample": false,
  "intraday": {
   "price": 200.13,
@@ -59,7 +59,7 @@
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
     "value": 0.48,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.24 จาก 40 ข่าว"
+    "why": "ค่าเฉลี่ยโทนข่าว +0.24 จาก 8 ข่าว"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -72,11 +72,17 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 11,
+   "bull": 12,
    "bear": 1,
-   "bull_pct": 91.7,
-   "watchers": 674812,
+   "bull_pct": 92.3,
+   "watchers": 674813,
    "sample": [
+    {
+     "tag": "Bullish",
+     "body": "$BB The future is now: BlackBerry QNX and Nvidia. The market is sleeping on $BB.TSX $NVDA https://www.facebook.com/share/r/1FKcnsobbT/",
+     "user": "REALALOY",
+     "at": "2026-11-05T12:39:27Z"
+    },
     {
      "tag": "Bullish",
      "body": "$NVDA my target price to buy $180. Come to me my love. I will load up 1000 shares.",
@@ -106,133 +112,29 @@
      "body": "$NVDA its cant be this easy",
      "user": "FrankyBot",
      "at": "2026-11-05T12:36:31Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$MU So much FUD out there on data centers. They said 10 states banned them which they did not. The Nevada question is to ban it outside of the Multi-species Habitat Conservation Easement only and not a full state at all.",
-     "user": "zepga1",
-     "at": "2026-11-05T12:34:08Z"
     }
    ]
   },
   "fear_greed": null,
+  "vix": {
+   "value": 16.9,
+   "prev_close": 16.61,
+   "week_ago": 17.2,
+   "month_ago": 15.52
+  },
   "analysts": null,
   "history": [
    {
     "t": "2026-11-05T12:38+00:00",
     "bull_pct": 91.7
+   },
+   {
+    "t": "2026-11-05T12:40+00:00",
+    "bull_pct": 92.3
    }
   ]
  },
  "news": [
-  {
-   "title": "The IPO Market Is Open For Anthropic. Not For Everyone Else.",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUl9Idk9HS21XSzJpc0NwdVlmSXU1X0xlZnZVMWlWY2c4eGVFMGJpNGVMSl81Y1djWUVvZl81RkFpUXh4aFZCRnVxel8yckF1cjhKZmJhc2tvSWlDVmtiZWtsZW1CeHJVX2Z3S0FyMER0TFZxaGFPWS1PNjZnam1SWG1uMzAtOTNyc0RWcUI1d1pxOXN2MGFvVWRPTQ?oc=5",
-   "domain": "wsj.com",
-   "published": "2026-11-05T12:31:40+00:00",
-   "source": "The Wall Street Journal",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "The midterms could fuel the K-shaped AI trade",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE85ZjJvMHpqdi03OUdNNnlyV2Y1Zk5pM1ZacjY2ZmJKSmNlTDBhSGw5TzRfZmdpTnFvWndCcFNGOTNxYmpJTHFoaVRHYk5iQkQzTWYyT2lQcmVETE5zdXZNZ21BNWMtY09NbVpEdzlxRnNGYjdxTUJmY29n?oc=5",
-   "domain": "cnbc.com",
-   "published": "2026-11-05T10:34:38+00:00",
-   "source": "CNBC",
-   "tier": 2,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Turkey's Erdogan says he wants to discuss ending Russia-Ukraine war with Putin after talks with Zelenskiy",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdjZURmhQRHFISDloNWJlU3RNLU9BaXlZT3VBWFZxdnhsLVBXcFhCZGJKeURqcFJaX1o0eGRZR25nWkFPT1ExbXRyelhjckE5d21wZG55SWZhckNFNmp0S2JmdTA0OS16eENHX1BDOThpX3ZldkF1RTFNSjhDS1NBOGtzTTBkbjBPenEwVTF0Z2JLeEEtd1hSS2gtUmFLMzhCLUQ5bVd1VVFnNFlvQ19oWERCU3ZzR2xiS3RiRVdPTQ?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-05T10:17:43+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "OpenAI kicks off charm offensive to change voters' view of data centers",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT3pvX1VfZi1WbVpNTl9weHZ0YUJ5RmhvVTgyOVRadlVyc01HeW1rdm5uRjhzMFRSSkJ4TW1yVmxHbkFvSnpTWkxWSGRIalRXM0dndmdtUXNTNTlYc0V2TGlxNTEtZm5iZDJlZXd5VUhjWUc1ejFXeTJpNHBzY2g4NllDX3dNWmo0eFBZQW1MUVR5Z2NVOUFMcENoLWZzMThDaGNXdERwWXJ6Mi1MTHc?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-05T10:10:01+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Tech Stocks Rise Despite Apple Slump",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZE9BRkVuT3ZjS1NnUjAtU0RRZjUwU2JQdXdLS0YtNTNYbFRTendtTTZkaDVUR1ppVThpYUtIVmJ0NkQtOVhyVVYxbzBZTlBhai1jOGh0WGpLWnhjbWV4NXVzMEFoUHFrRE9OOC1qT3BmYlhxZUNpSlJtVWlIVTBFaVZ2YUVPS0lGS1lpQi1LdzM0X2NFbnY2WHRFbGVjUGgwNG1RWlBHVGdrYk0?oc=5",
-   "domain": "wsj.com",
-   "published": "2026-11-05T09:30:02+00:00",
-   "source": "The Wall Street Journal",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Hong Kong's Joshua Wong: From teenage protest leader to a decade behind bars",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUGE2bTF5d19Gc1ptVkxkUnRQRW5mWWstQS15b3dhSGNlTG9XZVhwemU1RXdvalJnaDRneGVPVkFCRmFMVlZ4Q0VVN2Z0RGNwcjN0a05pMHo2Y3psNUloMWc0aUVVemNYOHJHRnJQbmk0N0xTN3JPY2pkZS1ncHBCVDJVNG9QRFl4UzFFaTQ0SUp1WHBGZU84MlF0RTd6VGZSdXpiNlJpeDRqQVUxRUNwLXFn?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-05T09:19:44+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Russia's Dmitriev in Washington for first US contact since Trump's midterm setback",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWkhXRFdJbFdiTmQySWJyWVRIbHhpdFlXaVRSQmh6UzJvbDJSbWZUdGRwM0VPaFpHbkVpc1VmSlAybEFJUTN0cmNMWkpuX1FJSE8zT3NBYXdXY05lLUhjTldMelM1eGdUWWVnbF9qb0s3VFMySFJ1Qk5GTFJmeXVHM1NLaHNEMzdrZjhXNWpEcVhOQTdSV3V6SVVMQU0xMGtNbUhkblZRdG82aUdvTWxLbHZQUmFpdEh5WUV4ZUgtZU1JcjFjaUxZ?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-05T09:15:47+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "India flags Chinese-linked AI tools in hacking campaign against financial firms",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTWVkN29DQ3RzdVJEWDZTU0JvTXZCSldfNVROUHNLMzFsTF9mSTN1Z1FCV2VQSE16MHR5YU1lR1lhVUgxdkhYQ2VpT0prNktfT3IybFhJTE0zbWZ4U3h5aWUzSTMxZm1JRTVDUkJXeHRGaHBpM1dUYnhDSzhqbVNkVlJMZmJMTS1nRC1vZzBDZDZlMjlzdUZINzZuMFpFM0VnOVRhUEdBZEEzSFRSUHBIX21QTEktTmdCYTFUTjZTUk5qeHpxU2RVdQ?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-05T08:41:48+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "China says US farm purchases hinge on tariff-cut deal",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbjZCZGJiUVFJRkdBeU1DaTExb3FMSmdaLVRuLTRrQWNnd3F5MDg1YnZlTUZfclBPRWhQZXdlbWxEakVXdlNidWVWbmhFcGZTVEpSOWlJSE1FTHhOWTVlUXkwSG5rTXRNTDE5ckRWTzhnYmx3LVVJSDE2S2JNQW9CTUNFanlFNWlqMkJWdFZTMzU0VnpzX2tua25aQS0zNTdsUDNRRA?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-05T07:44:00+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
   {
    "title": "Nvidia Partner Hon Hai’s Sales Rise 46% Thanks to AI Demand",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY21OQzRnWEJXbm9XazB3Z096RHpjOU53ajNLTG5sb3RGS3JYcDFqZUpwVXNwT3dYRHhZeV90d3hxSVdDNE9Qa21zamctWUtEeGVqVkVLTmhGSUgxQ3ZpUGR5bWg3Q1pOY19qNjBVWlhuMlVxZWo1TDJoSlJENS01a0RxcThfblM0dXhkTGlYM0ZHOUhYNjBwREZwTk1va1hvS0M1cWljY081Z0tCYmc?oc=5",
@@ -241,306 +143,6 @@
    "source": "Bloomberg",
    "tier": 1,
    "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Taiwan’s chipmakers shine brightest in living memory",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdlNwX3EtY3gtUnpkVl9yNm5PVHpTclRPeWxqX2VGdzNLMGFDVGQzR2hxb243NmFzckZxcndoMGVlaVRBOTFVNWZ5LVJ6akF3eER5OXZZeXJmRGdLRmpBaWxTRG1oRFFWZkU4ZkxfV0ZHMm9kemZPMHV6SWp2QWVLWG1Bd0c?oc=5",
-   "domain": "ft.com",
-   "published": "2026-11-05T07:37:09+00:00",
-   "source": "Financial Times",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "What the Democratic midterms sweep changes for U.S.-China relations",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTERvRl9OaDVyakJ4VkhwdUtibEdYUkNsdjMzNzdRWjFZXzBhWjNIOGZkd2hqYXktMDVtNF96X01BYXFlRjJLNUp4XzV3VkZnQV85WXFGaGFPRHNfak5TRE5xcy1BS19KMGhPWlNxMHM3d2U0LUo3dTdJRXBETDlpaEttdXR4ay1JOUhDcjlDR2FGenQyYkZHdWthMHBPb0ZhcV9ZMnZR0gGrAUFVX3lxTFBieGdIcE1iUlhaQlc0dXltN3cyMDZfUmJxSjBoSmNJTEM0UTBfNmVkUzBxbGRJOXRzNU5PTDNRcmp2RHlvX1RqOVhCektVRXdTM1MtUC1BSndZaEh4WXB3RlhnWk81QzNhVThubGRHMUQtSjN1U1pCM2dYVVA4LVRxaTdQZ2l6blhBYlF3clZDQkhJVHZZOWkwaU5JamRxdC10R051OGZIbEZfNA?oc=5",
-   "domain": "cnbc.com",
-   "published": "2026-11-05T06:54:52+00:00",
-   "source": "CNBC",
-   "tier": 2,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Microsoft will not expand Texas data center deal with UK's Nscale, source says",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb3YxSi01QlpvU2xqQVk1TUZQVTdjQnlqOUZwaFUzZ2txZHBJaHZ5bTVNOXpRZGV0czNzQkRCamNqNXZ2cUFoZ1JsV1l0cGFKazh4SXpjSlJ0Q1pMR0IyVWhfQkZlbTAtWFJ1ZERpbDdfNzZqaVlZUjg2a2RKNlRfS0N4OFMwSmpERG9EWng5MC1XXy1ENURJMUNWTTEyR3Q0UkE3WnRSMVJmVDAwdlJoVDhXa0h1YXpyYjBR?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-05T05:11:00+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Wall Street after the anti-Trump tsunami",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRkI5QXBaS19XRjRnekc5U2otU3BxUmdVeVk0Smd0S1JJQXV5b1c3RTlGN3I2MERjWWZoa1BXaWE5eXV3YnJBc1NGT3pNQUtxSDdKVDdhS3NLLXBZTUtOdzAwVzFod0ZlLWtqU1g5OW84bi1TOWItU0lyTWFQal8zZ1JqeDM?oc=5",
-   "domain": "ft.com",
-   "published": "2026-11-05T05:00:26+00:00",
-   "source": "Financial Times",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Microsoft rejects multibillion-dollar AI deal with UK’s Nscale",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdnNKc0t2WlRGTk9fTmRoLXFJUWkweF9tNXY1UG1FZjUxdkhGVGtUYmlvMmtvS2ZpX3VabTE1VW1jaUNGalhsbTRENTNTZXVwb1dfZ2FDaUJwUkxhYWc0cTA4Rm5wdENKclZPTVRaQV8zT1VpcHV3eVFIUmJUWUdiWlVRRkk?oc=5",
-   "domain": "ft.com",
-   "published": "2026-11-05T05:00:16+00:00",
-   "source": "Financial Times",
-   "tier": 1,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Building a UK answer to Anthropic requires more than tax relief",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLTY5cGNhSWZBWUJJTEhQZDZudjRpQVJwQnJpLVJkSmxxbGk3WDJvbHJnZHRDMDdxS2ZldU01Qk1tc0VBVC05aEZIYXVjNktOeG12TUtudUhhZVNWenFHcVM5WEdicFoyczVYUHdjQmY3ME9MUElCa2xtMVNLTXlyb1BVcWU?oc=5",
-   "domain": "ft.com",
-   "published": "2026-11-05T05:00:07+00:00",
-   "source": "Financial Times",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Iran's IRGC says two tankers and tugboat caught fire in Strait of Hormuz",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN2pHcmkxeDJDM184TXNiS2xIOUdXdHNrTXcyVHFKcUNGZEgtanhxTm9TR0UxWjA5cGlXSy12RVBLT3JYYVVBVEltbXFTNWtFT09OMVBIUkFEVlZiaW1mcVhPM3JfQ2tnZm1uRnJSQlVoX1FfNTl5bmh1c1pZMUJBVlVZeVdoWnlQMURoR0g0WVZYcjU4WDloZzRxMHh3Q24zMlRSYXV3MUFZTGxEQXM3NXNuNExxUQ?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-05T04:21:00+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "India's Apollo Hospitals slips as expansion costs cloud strong results",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUEZSdFREMVBlVVAtTEFCRGlSUGRESTFyTDNLLXlzTHRlYVhLWWVldDFtbkNra19BWHBYcjhVVEFmV0Y1RFNqbnBlUm1oeGJHZlU2T09hNWp5X09FZUQ0RUN1WVdTSXBoQ2QtbHZieVN2WFRyNkEtOXhsV25KVng1RGpCV2ZubWh4cm8wbGpob1VPV0twc1FuelZQVDZ0LVduNHFzMHgwVXJHM0VPbVd2T3VFaUw?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-05T04:19:00+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "ANC support falls sharply in early South Africa municipal election results",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnN3dFFLUkpFd0tTREdxWjlLMlRWTzRRcGhNdVVuMTl3OEJybmJFNndpQmZ1Y0RUYXF1dW94akRDVGFIbVQyUmIxdmIxZFR2dkdiNm52ZzB5TUxyU1NzRjR1VlNXRzBNZDlyLW8tLXZqeVpKN085NDdvN2tqNjdJU0VPeUduTk5HN0pMaFdNNFpsOExwMk8tYVROOG42R0x1MVVacUJBc013YnJ2Uml3cEtvcTZWZw?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-05T04:12:00+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Rupee finds its footing as oil worries cool, traders watch flow momentum",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQME9GZlNzY1R1djlUYWZnQ2lQRXE3ZHoxQ1VhOEZhaVRyVTY3TWZIRXhNMDNaemNtb0NFNzJZeTZtYlRCX0FtbFlYenA4Z0gtSkZBZVFRQThHZkRtcHhsR09wWXVhdl9CLUQ2Z19JNWpFWlI0N013RFR4VDFrSTFoZzVQS3F5Y216eWdlMTlZbWxldWY4TXh0M09TLTBuX3lUZ1ZWRzVaRHhxSENxT3E4Qlpwd0E?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-05T02:19:00+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Euro set for fourth straight daily rise as energy prices fall",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS3ZvRzF1aTlTZE9WT0NxYkU4TWFHTi04YnhEVXd1VTJRTXdibGtPdGZtTWkwZEVBLU0xNmtZaEc4R2lWZWVSdGJtY1FSdzhIazR5a2YwdDJoRzFFTHN1Z2FNb2l5b2x5SllyTE9sTTZTNkxFODFJVkhxOGhlblRTXzNiLTZpc3FKcXBqRzZUMjYtY3VXOHlnR0hPOFFYTldZaXpzSGNTbzlPNlhUdHF1amJTcFp1dw?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-05T01:06:00+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Copper is booming but not everyone is striking gold",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcDJvaDJraVZwaTVPdVE0Y1J2YnNGTDhnc1otMWZSN09LWDRzTlRmcFEwRnJZeDRSYzJoYTdzd0JpeGZxNHV2UFhVVWVrREh6TElKdkFXaTVHYTJCc0FlRHpmazJ0alRKcVdLM3pwUjctRFBVQktBN0JFTERZOEVMMVhNNHI?oc=5",
-   "domain": "ft.com",
-   "published": "2026-11-05T00:01:03+00:00",
-   "source": "Financial Times",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Wall Street ends higher after Democrats win Congress; data center stocks tumble",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbWpBY1VHMFd5a2tJXzM1RFFFQTl5Y09aVDgza095UkJKVzNnQ3F4VW1pMzBEazJKMGhlS21zUEdCLXJPOVhWdXRnZmlLRHliMDdqYmt2b2ZWYk5FeW85VnBSalpRd1E5b3BVSUZDU2VLMUNiQm41YWw1SUgxV2dWaUFZUkI2MllhY0Z5ZkZHcWNuQmdCaHBKbVRhck1meTRz?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-04T23:54:37+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.3333333333333333,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Jim Cramer warns investors may be reading too much into Wall Street's post-election rally",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1zZzVENjZFaHItSXZnSGk1Uno1Zkx4Z2hnTkxMOURPVUhTaEFwdjlTNzJ0RDFRUnJCdnRKYTkyVlIxNzAtbm10WmU5SlU0UzBKU3BpaEkySXNkbFhub1pWRUF4Yy02Nzh4aXdueklJQdIBdEFVX3lxTFBJMHRXYkkwYjlJSEtiWnpELWg0QXZBYmZuUDFUNnQtLUxYMFRkRzZHa1Jzc2FQZ0RuNkJhTWZuSVdBTzBYcGtTUW1QM28tUk1TQkV0UjlIVGF6N2p3dDhsZ2NSaGdWZUVtM01OSmIzb2lvcXFm?oc=5",
-   "domain": "cnbc.com",
-   "published": "2026-11-04T23:18:56+00:00",
-   "source": "CNBC",
-   "tier": 2,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Paraguay bank crisis spurs lawmakers' calls to impeach president",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQnVQS0hGM3R0Ynl5bHhWNDN2dkFQX1BqT3NWSnJaYzlXODRySlJ2TnNzZUdSY1FvWVBYMkxrOTQ2aDB1V2tlT1JuX3lwTVA0SzV4cTVzeGcwcHpoZUxleFpaYnFtQkhuQXJWYnoyalBmRm1pdi0wYXVuakM2c0ZLZzJ4LUN2c244MVV1a2tzd1BrZS1icjQxOFAtMXcwRXJiV2RqLV8tbnZxMEpHSlV4Uw?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-04T23:10:09+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Hong Kong activist Joshua Wong gets 10 years in jail on national security charge",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeW4tNlZjWHJjNXhIQXJhS3owZ3JIQ1U0VEo5RERfSGhldWx6Z0lQSzZTcmR5TU9aVzd3aWJaZVJwMHRIRVViMndnNDBESERVM2F6UWNyakVEMXdkNllqY3hOSTRzMV9yVGpIT1I1YkZjT01JNFF4cE05VW1VMzNNcjh2T1JqaEI5dGJBNGltcVhmaF9pYnM2WGg4MUJpOFRMY1NwcVVOR1RfdXRkaElFMEY2alEtWDhtYWswaA?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-04T23:02:00+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "AMD forecast eases AI spending fears as data-center sales surge",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM01ic0VHVkhaaTh2RV9KVV8zNHFCNW1TZnRlc29mMDg5T200aGRFZkdhd0JtYmtiZGt4LVJRdTdzWlV4dnhnRk9WVW5NWE1QWEFXSmhnZFVDNHpUVk94b0NFOEt4MXNLRWFmYTQzZnlZN3VvTGNtVzZFNnFHQVJ6NWlISXlsNFFBYnVVMnhXTVlOUHE0MWk2TWhYUFgtQ2Yzc1JzVHVRNmo5RmpvQ3Qwc3E3bkJVQTRnQ2JIX2x5NVg?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-04T22:39:36+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Goldman, Apollo in Talks to Sell SpaceX’s $40 Billion AI Deal",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSXh2SlMyd0Z6eHJwTVkyTnJOV09CZGhHWFVEQWg5SXZwbUxGdDBoNzV4WTQyV0Q2V3lSbWd5ZGNWQTNUQ2YtZExEMGVEWEtFTVI2VG4xS0U4VnNpWHVvaUVpT2xRSWtIYUlkb2pUUVp3SEV0NE9TQTBYY28tX004LVlTNlhXejhnUjN0WmVmdEIwTXVRbi1fWTdLMkhPQ043RmNGUGE0UXlaYUhMU2Zj?oc=5",
-   "domain": "bloomberg.com",
-   "published": "2026-11-04T21:10:21+00:00",
-   "source": "Bloomberg",
-   "tier": 1,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "French central banker: France alone must solve fiscal problems",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWWlZd01PaWM1UVlPWXptYmRoemxIREQ3UTdoMzg2VEZzRFhwM0gxNEtoOE9iX0hVTG52ckhLbHowMkxrWENrcDFHVnF3TzJKUjVFUkRmWmhmdkJKbXhCd05VLVFhcFIyWG1pTnQ1elVPZzhiVlQyQVZ0YUtENkdBWTQxSHJ0WTZTRmFlMzJGOGxJWHNoVF9TTHhQeTdtNkxfWHJxVXY3bVE5dw?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-04T19:51:43+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Democrats may go after data centers. That's not a reason to dump all your AI stocks",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWnJiRXFHNGRlNHpXcFplRVRua2JXX0s2UFNoU2FtQWpob2xKT19GOTdidUlGaGIyU3p1cUZIVXZGdlZqVmdzM0Vid05Vd2Rpa3NMVFlRRllNZTFvSTBwbzBYZGVIU2xPb3g5WEtuY1NtbmtQNnA3RG5hV3FxWi0yRzRIN25WRFB2UE9tTWhUdWZQSE0?oc=5",
-   "domain": "cnbc.com",
-   "published": "2026-11-04T19:47:00+00:00",
-   "source": "CNBC",
-   "tier": 2,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Voters Rejected A.I. in the Midterms. Now Comes an Era of Scrutiny.",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZ0FPcWhsTlBRblVjalZwNFVSenZnMDhzS3E1eVZyNlh2Wk5zZ3Nja1hUYVlpVjdBMjk1U2hDdmx4cmJXQ3ZqOXhnYVM4N0R6bl9Sc0hGcVlRWU5zYnhTNXZ5alBERVNETnRXTmJlRXJHTmdDX1VjYjROTlVyQ0l5VzNoVWN1M19PNGlmYQ?oc=5",
-   "domain": "nytimes.com",
-   "published": "2026-11-04T19:39:54+00:00",
-   "source": "The New York Times",
-   "tier": 2,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Hyperscalers and Apple surge after election results remove investor uncertainty",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWmplNFEtTXU2b1NKbUJMa01Wd09UUGVIdGVFLS1UM053RUNzRlpKX0pOb3JTcWFzZjlUSkdobEcyVTM5V3U5WTJKWDNnWHN4ejF1dXpGcFZ5eXY5eVVWaHVfZGpSb3pVVW8zWnlWeG5LUlFsWHF4V2FiWlFEbW4wSUt1MDE4UDZUSmdCclYycFdwNERTWTk2MlpCb2hUbUg2Q3Zmc3Jn0gGrAUFVX3lxTE9Rc0NOODZwbWVUdjMwQTNON09qTzYtcFdOSy1MaVRsWTh5TW1jT2NVdndaeW55RkowcXlwOEpiUTVzLXBsWjhWbmtSRWVzZWJBSi1DWnAxUlA3elBKUGdvZFpEQlNBckpUUjNFeWVYbENaTDNDT0Fqczdyd3VoU1JQS2wzcXd6QkRSUUxPU1c0c0J6ak1NUEdGZGk1Sms0X2hBbC1LNUNmV0I0VQ?oc=5",
-   "domain": "cnbc.com",
-   "published": "2026-11-04T19:37:43+00:00",
-   "source": "CNBC",
-   "tier": 2,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Top stocks to own now after Democrats sweep the midterms, according to CIBC",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQjJqZDgzUmFzeEhoc3hmbXBaalhDb0REMkU4Y0MwZmNnRHJteU9pRDZDRTlJY3Rmc1UycWNmMmVYX2pISk5JcVEzRlZwMTZuanl2ejJFYUt2X1BSRHZmTkdjanpjR2NzcXl4Rl9YN3VobUVoaV9XbnpRVERZdDllUkxYYWVIRXhwZzRnMmEyQWJpN2VlZnE1U0lLa0dqNDdQNEQ0UElvbjIzejJINlZKTg?oc=5",
-   "domain": "cnbc.com",
-   "published": "2026-11-04T19:27:39+00:00",
-   "source": "CNBC",
-   "tier": 2,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "Uber’s Delivery Business Narrows Gap With Ride-Sharing. Now Comes the Robo-Taxi Push.",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVUlnNF81Q2J6QW1nWFd6ZE5aYmdMOWNWaVNTQ01zR2hVdkNCLXl6N0RsdVNHZzJ5eGF0RHVMX3B4Q0FpR2MySVdyVHpzLXFUYVh2WkNvMENFX2lubU1aLWFRRjRQdl9hVnJJRnV4M1lReC1ZN09RSWVTWUVfUnZhek9hRQ?oc=5",
-   "domain": "barrons.com",
-   "published": "2026-11-04T19:10:00+00:00",
-   "source": "Barron's",
-   "tier": 2,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "We're cutting our Qnity price target but still loved the beat-and-raise quarter",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNHg0ZndaN2Z6Um5lWDRNcng2aWZuT2owVHdQQ0FJUEVFUm94VmJlWTFnbFB4Wm1rTWxEaHhqQVBxZm8yeGNPRTRqS3RDSjhEV243ZFgzOXlMR2d6RzlteFh5MFJYUWhVZkpYOFJNQUdpZ3lUam1xWDkyMUVySmJWc0VjRE9UZlRDNGpudDJRWkZKX1V0cjhtRXVwWGhOYVh6ZzJmZ29Dc3NXbFFUV2c2LUt4b1M3bm9URWxUZVZXV0hLa1N4V0RaUA?oc=5",
-   "domain": "cnbc.com",
-   "published": "2026-11-04T19:07:05+00:00",
-   "source": "CNBC",
-   "tier": 2,
-   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1
@@ -558,10 +160,46 @@
    "corroborated_by": 1
   },
   {
-   "title": "Amazon and the Other Mag 7 Stocks Rise After Elections, Set to Add $600 Billion in Market Cap",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONFMxa1VEd1M4VUlrS3l2LXpxbk9fZk1rZldwcTl6bmJ3cDNkNU9xR1U1Y2pCWDl5UGxRaUhXOGpleFdtT1BmV0xFaUd6bUNCc1FtTl9zRnVwUEE2eE5hTnVKbFNOODVOT2g2WHBrd2V5SEFiU0N3R0FaLS1NeWdUNQ?oc=5",
+   "title": "Nvidia China Clients to Get 1% of $70 Billion RTX Chips Ordered",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcDF2WGJ0VTU5c0hYZ3BSLTJzWHd4eHc2N0trQlNwZ2MzcjYwRnpOUXExalczVW9yODBJTXVnUDZ6MGVPQzI3allYS0Q3eG1qblB3Nm1oQlcyQ0xzOU9CTjdqR0dTeURvUzhSYkQ1dnJFbTVieFplUmU3Unh1VjlWNS02SVZWWk1NRVBWQ1hvWGxRczhqVWt4ektFUWRjMW1KMEpYRmpNY2N0X1dySmRuUzNB?oc=5",
+   "domain": "bloomberg.com",
+   "published": "2026-11-04T03:14:00+00:00",
+   "source": "Bloomberg",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1
+  },
+  {
+   "title": "AMD Forecast Exceeds Estimates After AI Chip Demand Soars",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYURlOUxxRUMybEdmbkJoTHZiZEVTTUtCN0gyZ1RsV0s3YlEteXR1NFZIWDNwXzJKTUdCRUpJY0RWNlRqVC02M0VaMFgtY0piUFNGSkhKQmZ3bTVwMHFERHN6ZExPSnVFbWdBWDYxQnNnX0RJRnF6QVlld0FBeDhySGlrUEZ4bEtmWkkybFFVRU9EcnhRd2F5c1M1eGc2OFk5VG95X0dUa1dWUGhPZzJJ?oc=5",
+   "domain": "bloomberg.com",
+   "published": "2026-11-03T22:44:51+00:00",
+   "source": "Bloomberg",
+   "tier": 1,
+   "sentiment": 1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1
+  },
+  {
+   "title": "Nvidia and other Big Tech stocks lift the US market despite drops for Apple and much of Wall Street",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOekRxNGUzaWpTRy1SLXpVUmlsbkNPVWMyQ3Q4WWx2eHFvRjhvUzViNUtXcGlxLVlmdlphQUc2bk5CX2ZwVmp5RnJQNTJxaVdjd0dra051ZUJNaVpQcVFVQjBPa1MtY0tEZ0N3MG9VMGJWWXZ4cXoyRzhKSm02NHJLbDdlYUpVbE4tbnhuOEZodFlmX0k?oc=5",
+   "domain": "apnews.com",
+   "published": "2026-11-03T22:01:00+00:00",
+   "source": "Associated Press",
+   "tier": 1,
+   "sentiment": -1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1
+  },
+  {
+   "title": "Nvidia Stock Jumps and It's Set to Surpass Apple Again",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYzZKaktWWi1qSmtNT3paUnJfRjB5QUpjODNwcUJQblg2TnlWaWt5OWxUSTRuTTA2dHM4OG15czlmbkxSZkhweXA2WXV3Nl9jXzVReWVZRUFRVE5TbXp1OEpNajZvTTlnelFOSDBpS1FuMGFpblMtX1JlTEtrdE83MlJPaw?oc=5",
    "domain": "barrons.com",
-   "published": "2026-11-04T17:26:27+00:00",
+   "published": "2026-11-03T18:14:00+00:00",
    "source": "Barron's",
    "tier": 2,
    "sentiment": 1.0,
@@ -570,37 +208,25 @@
    "corroborated_by": 1
   },
   {
-   "title": "Big Tech Stocks Soar as Traders Bet Democrats Will Slow AI Spend",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGlwYnVIMDJUbHRjR1FjQzZCYXdUamdNVklZblZtbGVLY20wczdvdFNNYkhKN3ZFOTlPMVJ0bTVlRXc5R3h5S0ZSc0dIN2pqc3ZsUmhwMkc5QmY1WW9lWE5pY3M0VEFWdGE1ZTFmZi1aV1lFWGQteFFzYWw5TENzTGNiaXNjQldncmRaMEhhM3pFcFpNVEY2NkkzdHBCWXU1WTQtM2Y5bmIwbUJ5ZjBTcXYxTlE1dw?oc=5",
-   "domain": "bloomberg.com",
-   "published": "2026-11-04T17:07:54+00:00",
-   "source": "Bloomberg",
-   "tier": 1,
-   "sentiment": 1.0,
+   "title": "Stocks making the biggest moves midday: Apple, Palantir, Nvidia, Coinbase, Bloom Energy & more",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMXJZcnRINEZBSDFrejl4SjN0Q04yZEpqWDQ3aHpHZ29pYUdqODNoVjRMZmVlcG1Qbk54RDNLLUNGX2I5aG5FTVN6S2xWQ0tIV1BQNzZMNUd5WExCRnBiVlhnWjRWb3BmU2NPWjVGeVZ6RmRRcE5vZ0NUWXNCdHJtSzNJRnZ4blN1NjB2SV9EaHYyU3EzM2t0OTl1ZVBoaVU?oc=5",
+   "domain": "cnbc.com",
+   "published": "2026-11-03T17:55:18+00:00",
+   "source": "CNBC",
+   "tier": 2,
+   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1
   },
   {
-   "title": "Sequoia Capital Plans to Close London Office, Cut Some Staff",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRnNPRThQXzJDcFUtRzRFUUVNRC1Nai1ya2hRZ1QxejhhZ2lRTnBsbkViNGlMMHhOYXNTZkMyYUg4VXlRRTNYQlNBcTB2aUhub3IyemtNMFBxMm1JcHk4Q1BuTVVwN05zWWVHU2gtRnlLa1pDRlk4eDUzZ0xoOWo5SlBjM1IzVHYzd3EybnV5a1JSRmxXU1FoODZWMWFBRGF6YUNLalFZSF9lUjNidVZ3?oc=5",
-   "domain": "bloomberg.com",
-   "published": "2026-11-04T16:37:07+00:00",
-   "source": "Bloomberg",
+   "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+   "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+   "domain": "nvidianews.nvidia.com",
+   "published": "2026-11-03T16:00:45+00:00",
+   "source": "NVIDIA Newsroom (ทางการ)",
    "tier": 1,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1
-  },
-  {
-   "title": "AMD shares rise as AI-driven data-center strength fuels growth outlook",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT1otSGFrSy03TGU4SkFJWHJ0SlJER0pMU0FvV3RIZm1udEtsLTlqazJwbzFEX1lNR3NGYWdNRnRBMDc1ZEk0elNtb2xHcXFFOEFqSnVsWkVRSTBpeHBPUEwtNDZtSUxuZUpKSnM1aXFlX2VUczJlNWRFSXM3MGxmRXAyYkt0dUloMlhaYVJZUVhqNmU2cGVpNkJaMXY3Sm5Qck04ZjNtbHdBSC02Q3hxd3BR?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-04T14:49:08+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 1.0,
+   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1
