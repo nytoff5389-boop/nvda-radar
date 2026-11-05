@@ -1,6 +1,6 @@
 {
  "ticker": "NVDA",
- "generated_at": "2026-11-05T13:04:58.255599+00:00",
+ "generated_at": "2026-11-05T13:05:39.097107+00:00",
  "sample": false,
  "intraday": {
   "price": 200.13,
@@ -26,10 +26,10 @@
   "volume": 148337800
  },
  "verdict": {
-  "score": -0.75,
-  "level": "เสี่ยง",
-  "lean": "ระวัง / พิจารณาขายบางส่วน",
-  "key": "bad",
+  "score": -0.63,
+  "level": "ปกติ",
+  "lean": "HOLD / รอสัญญาณ",
+  "key": "neutral",
   "parts": [
    {
     "name": "แนวโน้มระยะยาว",
@@ -58,8 +58,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.0,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.00 จาก 1 ข่าวที่ยืนยันแล้ว"
+    "value": 0.12,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.06 จาก 19 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -73,9 +73,9 @@
   "stocktwits": {
    "messages": 30,
    "bull": 11,
-   "bear": 6,
-   "bull_pct": 64.7,
-   "watchers": 674825,
+   "bear": 5,
+   "bull_pct": 68.8,
+   "watchers": 674826,
    "sample": [
     {
      "tag": "Bullish",
@@ -117,7 +117,7 @@
   },
   "fear_greed": null,
   "vix": {
-   "value": 16.92,
+   "value": 16.93,
    "prev_close": 16.61,
    "week_ago": 17.2,
    "month_ago": 15.52
@@ -143,6 +143,10 @@
    {
     "t": "2026-11-05T13:04+00:00",
     "bull_pct": 64.7
+   },
+   {
+    "t": "2026-11-05T13:05+00:00",
+    "bull_pct": 68.8
    }
   ]
  },
@@ -230,7 +234,7 @@
   },
   {
    "title": "Nvidia-Backed Humanoid Maker Agility Goes Public in First for the US",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNEFfTDRRc2FDSEtON0h2MDNVTUszdjVCSk9YX3BDQ092VEQ5Qm12SzBJbnczWWxxY1F3R2NNZEVBMDFzbDNRVEhGamxPWnRqVWlfdV8wbktCUHlSV3lSMnBfbFc0djBack5mOWlLZzloOEMtbmktWDFjc0p5Nm12Z2ZiUlVOREU3MWlfUGVzMENPOXVtRlRkOG13YVlHRWZDX0Z4ME5YVlNMUHAyZFJ6djRYVDBGWTNvU21n?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWXRfZUt3M2JTbExieW9pMWdwNXk5dmZmNGVsaUgwTXFoaWZwY1I3cHJkS3ZNTmtEQVNRRHo1WnN1ZXVhRzdYSk12MHNwVi1CdkNsNE0tdW00NUlYdDdKMU1ZWGlrQkhuMUs5SEpCeklPZkpTOFpIVnVEekszWXNveFgxWnFZSnN1clRyRE5RaWdjeW1Kd2Exel9jU3RuZnEzWXhMN0g2WC1HSXB4M21aZWxnTFRacUxUMnZQa01NdnJLZi13M1p1SHFaV3ZoeWFIcHFRXzlZTTRSdw?oc=5",
    "domain": "bloomberg.com",
    "published": "2026-11-05T12:00:21+00:00",
    "source": "Bloomberg",
