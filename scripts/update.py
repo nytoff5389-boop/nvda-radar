@@ -382,6 +382,8 @@ def collect_news(days: int = 2) -> tuple[list[dict], list[str]]:
     cutoff = now_utc() - dt.timedelta(days=days)
     relevant = re.compile(r"nvidia|nvda|jensen huang|blackwell|rubin|cuda|geforce|hopper|h100|h200|gb200|ai chip", re.I)
     raw = [it for it in raw if it["domain"] in ("nvidianews.nvidia.com", "sec.gov") or relevant.search(it["title"] or "")]
+    junk = re.compile(r"stock (price|quote)|\| ?(nvidia|nvda)|^nvidia corp\.?$|^nvda\b.*quote|price target.*\| ", re.I)
+    raw = [it for it in raw if not junk.search(it["title"] or "") and len((it["title"] or "").split()) >= 4]
     seen, items = set(), []
     for it in sorted(raw, key=lambda x: x["published"] or cutoff, reverse=True):
         if not it["title"] or (it["published"] and it["published"] < cutoff):
@@ -479,7 +481,7 @@ def build_outlook(news, tech):
     for label, days in (("1w", 5), ("1m", 21)):
         m = vol * math.sqrt(days / 252)  # 1-sigma move under a random-walk assumption
         rng[label] = {"pct": round(m * 100, 1), "lo": round(c * math.exp(-m), 2), "hi": round(c * math.exp(m), 2)}
-    good = [n for n in news if n.get("status") in ("official", "verified")] or [n for n in news if n["tier"] == 1]
+    good = [n for n in news if n.get("status") in ("official", "verified") or n["tier"] == 1]
     return {"themes": news_themes(good), "range": rng, "ai": claude_outlook(good, tech)}
 
 
