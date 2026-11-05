@@ -56,6 +56,11 @@ TRUSTED = {
     "asia.nikkei.com": ("Nikkei Asia", 2),
     "theinformation.com": ("The Information", 2),
 }
+# obvious content farms / auto-generated stock-spam sites are dropped entirely
+BLOCKED = {"marketbeat.com", "americanbankingnews.com", "tickerreport.com", "etfdailynews.com", "thelincolnianonline.com",
+           "dailypolitical.com", "themarketsdaily.com", "zolmax.com", "baseballnewssource.com", "watchlistnews.com",
+           "modernreaders.com", "thecerbatgem.com", "theenterpriseleader.com", "wkrb13.com", "defenseworld.net"}
+NAMES: dict[str, str] = {}
 NEWS_DOMAINS = [d for d in TRUSTED if d not in ("nvidianews.nvidia.com", "investor.nvidia.com", "sec.gov")]
 
 # Small finance-specific lexicon, in the spirit of Loughran & McDonald (2011).
@@ -252,11 +257,16 @@ def _gnews(q: str) -> list[dict]:
     out = []
     for it in ET.fromstring(http_get(url)).iter("item"):
         src = it.find("source")
-        d = domain_of((src.get("url") if src is not None else "") or "")
-        if not d:
-            continue  # publisher not on the trusted list -> drop
+        src_url = (src.get("url") if src is not None else "") or ""
+        d = domain_of(src_url)
+        name = None
+        if not d:  # publisher outside the trusted list: keep it, marked as a general (tier 3) source
+            host = (urllib.parse.urlparse(src_url).hostname or "").removeprefix("www.")
+            if not host or host in BLOCKED:
+                continue
+            d, name = host, (src.text or host).strip()
         title = re.sub(r"\s+-\s+[^-]+$", "", html.unescape(it.findtext("title") or "")).strip()
-        out.append({"title": title, "url": it.findtext("link"), "domain": d,
+        out.append({"title": title, "url": it.findtext("link"), "domain": d, "name": name,
                     "published": parse_date(it.findtext("pubDate"))})
     return out
 
@@ -271,6 +281,11 @@ def fetch_google_news(days: int) -> list[dict]:
         except Exception as e:  # noqa: BLE001
             fails += 1
             print("gnews", d, e, file=sys.stderr)
+    try:
+        items += _gnews(f"(Nvidia OR NVDA) when:{days}d")  # every publisher Google News carries
+        items += _gnews(f"Nvidia stock when:{days}d")
+    except Exception as e:  # noqa: BLE001
+        fails += 1
     try:
         items += _gnews(f"(Nvidia OR NVDA) ({' OR '.join('site:' + d for d in NEWS_DOMAINS)}) when:{days}d")
     except Exception as e:  # noqa: BLE001
@@ -392,11 +407,13 @@ def collect_news(days: int = 2) -> tuple[list[dict], list[str]]:
         if k in seen:
             continue
         seen.add(k)
-        name, tier = TRUSTED[it["domain"]]
+        name, tier = TRUSTED.get(it["domain"]) or (it.get("name") or it["domain"], 3)
+        NAMES[it["domain"]] = name
+        it.pop("name", None)
         items.append({**it, "source": name, "tier": tier,
                       "published": it["published"].isoformat() if it["published"] else None,
                       "sentiment": lexicon_sentiment(it["title"]), "impact": 1, "summary_th": ""})
-    items = items[:60]
+    items = items[:90]
     # Verification: a story counts as verified only if it comes from the company/regulator itself,
     # or at least 2 *different* trusted outlets (one of them Tier 1) report the same story within 48h.
     toks = [tokens(i["title"]) for i in items]
@@ -412,7 +429,7 @@ def collect_news(days: int = 2) -> tuple[list[dict], list[str]]:
             if close_in_time and (len(shared) >= 3 or (len(shared) >= 2 and j >= 0.2)):
                 outlets.add(ib["domain"]); tiers.add(ib["tier"])
         ia["corroborated_by"] = len(outlets)
-        ia["sources"] = sorted(TRUSTED[d][0] for d in outlets)
+        ia["sources"] = sorted(NAMES.get(d, d) for d in outlets)
         official = ia["domain"] in ("nvidianews.nvidia.com", "investor.nvidia.com", "sec.gov")
         ia["status"] = "official" if official else ("verified" if len(outlets) >= 2 and 1 in tiers else "single")
     # keep the most-corroborated version of each story first
@@ -600,9 +617,10 @@ def score(tech, anomalies, news):
     hv = tech["vol20_ann"] > 1.3 * tech["vol_median_1y"]
     add("ความผันผวน", -0.75 if hv else 0.25, "ผันผวนสูงกว่าปกติ" if hv else "ผันผวนในระดับปกติ")
     # single-source stories still count, at half the weight of verified/official ones
-    news = [dict(n, impact=n.get("impact", 1) * (1 if n.get("status") in ("official", "verified") else 0.5)) for n in news]
+    news = [dict(n, impact=n.get("impact", 1) * (1 if n.get("status") in ("official", "verified") else 0.5 if n["tier"] < 3 else 0.25))
+            for n in news]
     if news:
-        w = [(1.5 if n["tier"] == 1 else 1.0) * n.get("impact", 1) * (1 + 0.25 * (n["corroborated_by"] - 1))
+        w = [(1.5 if n["tier"] == 1 else 1.0 if n["tier"] == 2 else 0.6) * n.get("impact", 1) * (1 + 0.25 * (n["corroborated_by"] - 1))
              for n in news]
         s = sum(n["sentiment"] * wi for n, wi in zip(news, w)) / sum(w)
         add("ข่าว (sentiment ถ่วงน้ำหนัก)", s * 2, f"ค่าเฉลี่ยโทนข่าว {s:+.2f} จาก {len(news)} ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)")

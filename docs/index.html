@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#fff6f9">
+<meta name="theme-color" content="#f1faf4">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="เหมียวส่องหุ้น">
@@ -13,24 +13,24 @@
 <script src="lwc.js"></script>
 <style>
 :root{
-  --bg:#fff6f9;--surface:#ffffff;--raise:#fff0f5;--ink:#4a3646;--ink2:#6b5266;--muted:#a08799;--line:#f6dce7;
-  --accent:#ff8fb8;--accent-ink:#d6457d;--lav:#c9b6ff;--mint:#a8e6cf;
-  --vbad:#ff6b8b;--bad:#ffab76;--neutral:#b9a7c9;--good:#7fd1ae;--vgood:#3cbf8c;
-  --up:#3cbf8c;--down:#ff6b8b;--glow:rgba(255,143,184,.25);
-  --radius:28px;--shadow:0 2px 0 #f9e3ec,0 16px 36px -18px rgba(214,69,125,.28);
+  --bg:#f1faf4;--surface:#ffffff;--raise:#eaf7ef;--ink:#2c4639;--ink2:#4a6858;--muted:#86a294;--line:#d5ecdf;
+  --accent:#6cc79a;--accent-ink:#2a8a5b;--lav:#b9e4f2;--mint:#c9f0da;
+  --vbad:#ff7a8a;--bad:#ffad66;--neutral:#a7b8af;--good:#86d1a5;--vgood:#36ad78;
+  --up:#36ad78;--down:#ff6f80;--glow:rgba(108,199,154,.28);
+  --radius:28px;--shadow:0 2px 0 #e1f3e8,0 16px 36px -18px rgba(42,138,91,.28);
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#231a26;--surface:#2e2232;--raise:#3a2b3f;--ink:#fbeaf3;--ink2:#e6cfdd;--muted:#b49cb0;--line:#463549;
-  --accent:#ff9cc2;--accent-ink:#ffb3d1;--vbad:#ff7d98;--bad:#ffb98a;--neutral:#c3b2d1;--good:#8fdcbb;--vgood:#55d39f;
-  --up:#55d39f;--down:#ff7d98;--glow:rgba(255,156,194,.18);--shadow:none}}
+  --bg:#14211b;--surface:#1c2c24;--raise:#25392f;--ink:#e9f7ef;--ink2:#cbe3d6;--muted:#93b1a2;--line:#2f463a;
+  --accent:#86dcb0;--accent-ink:#9be8bf;--lav:#8ccbe0;--vbad:#ff8796;--bad:#ffbb80;--neutral:#a9bdb2;--good:#93dcb1;--vgood:#4fcf94;
+  --up:#4fcf94;--down:#ff8796;--glow:rgba(134,220,176,.16);--shadow:none}}
 :root[data-theme="dark"]{
-  --bg:#231a26;--surface:#2e2232;--raise:#3a2b3f;--ink:#fbeaf3;--ink2:#e6cfdd;--muted:#b49cb0;--line:#463549;
-  --accent:#ff9cc2;--accent-ink:#ffb3d1;--vbad:#ff7d98;--bad:#ffb98a;--neutral:#c3b2d1;--good:#8fdcbb;--vgood:#55d39f;
-  --up:#55d39f;--down:#ff7d98;--glow:rgba(255,156,194,.18);--shadow:none}
+  --bg:#14211b;--surface:#1c2c24;--raise:#25392f;--ink:#e9f7ef;--ink2:#cbe3d6;--muted:#93b1a2;--line:#2f463a;
+  --accent:#86dcb0;--accent-ink:#9be8bf;--lav:#8ccbe0;--vbad:#ff8796;--bad:#ffbb80;--neutral:#a9bdb2;--good:#93dcb1;--vgood:#4fcf94;
+  --up:#4fcf94;--down:#ff8796;--glow:rgba(134,220,176,.16);--shadow:none}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 Mali,system-ui,sans-serif;
-  background-image:radial-gradient(700px 380px at 90% -100px,var(--glow),transparent 70%),radial-gradient(600px 360px at 0% 30%,color-mix(in srgb,var(--lav) 22%,transparent),transparent 70%),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' fill='%23ff8fb8' fill-opacity='.07'%3E%3Cg transform='translate(30 30) rotate(-20)'%3E%3Cellipse cx='0' cy='8' rx='9' ry='7'/%3E%3Ccircle cx='-9' cy='-4' r='3.5'/%3E%3Ccircle cx='-3' cy='-9' r='3.5'/%3E%3Ccircle cx='4' cy='-9' r='3.5'/%3E%3Ccircle cx='10' cy='-4' r='3.5'/%3E%3C/g%3E%3Cg transform='translate(90 85) rotate(15)'%3E%3Cellipse cx='0' cy='8' rx='9' ry='7'/%3E%3Ccircle cx='-9' cy='-4' r='3.5'/%3E%3Ccircle cx='-3' cy='-9' r='3.5'/%3E%3Ccircle cx='4' cy='-9' r='3.5'/%3E%3Ccircle cx='10' cy='-4' r='3.5'/%3E%3C/g%3E%3C/svg%3E");background-repeat:no-repeat,no-repeat,repeat;background-attachment:scroll,scroll,fixed}
+  background-image:radial-gradient(700px 380px at 90% -100px,var(--glow),transparent 70%),radial-gradient(600px 360px at 0% 30%,color-mix(in srgb,var(--lav) 22%,transparent),transparent 70%),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' fill='%236cc79a' fill-opacity='.09'%3E%3Cg transform='translate(30 30) rotate(-20)'%3E%3Cellipse cx='0' cy='8' rx='9' ry='7'/%3E%3Ccircle cx='-9' cy='-4' r='3.5'/%3E%3Ccircle cx='-3' cy='-9' r='3.5'/%3E%3Ccircle cx='4' cy='-9' r='3.5'/%3E%3Ccircle cx='10' cy='-4' r='3.5'/%3E%3C/g%3E%3Cg transform='translate(90 85) rotate(15)'%3E%3Cellipse cx='0' cy='8' rx='9' ry='7'/%3E%3Ccircle cx='-9' cy='-4' r='3.5'/%3E%3Ccircle cx='-3' cy='-9' r='3.5'/%3E%3Ccircle cx='4' cy='-9' r='3.5'/%3E%3Ccircle cx='10' cy='-4' r='3.5'/%3E%3C/g%3E%3C/svg%3E");background-repeat:no-repeat,no-repeat,repeat;background-attachment:scroll,scroll,fixed}
 a{color:inherit}
 .num{font-family:Nunito,Mali,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-.01em}
 .wrap{max-width:1100px;margin:0 auto;padding:0 16px 56px}
@@ -88,6 +88,19 @@ a{color:inherit}
 .tsig div{background:var(--raise);border-radius:14px;padding:9px 12px;font-size:14.5px}
 .tabs3{display:flex;gap:6px;margin-top:14px}
 .tabs3 span{flex:1;text-align:center;padding:8px 4px;border-radius:14px;background:var(--raise);color:var(--muted);font-weight:600;font-size:15px}
+.strat{margin-top:14px;background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 16%,var(--surface)),var(--surface) 60%)}
+.strat h3{margin:0;font-size:21px}
+.strat .plan{font-size:18px;margin:8px 0 0;color:var(--ink2)}
+.ladder{display:grid;gap:8px;margin-top:16px}
+.lad{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;padding:11px 14px;border-radius:16px;background:var(--surface);border:1px solid var(--line)}
+.lad .e{font-size:22px}.lad b{font-size:15.5px}.lad small{display:block;color:var(--muted);font-size:13px;line-height:1.4}
+.lad .px{font-weight:800;font-size:17px;text-align:right;white-space:nowrap}
+.lad.now{border:2px dashed var(--accent)}
+.todo{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:8px}
+.todo li{display:flex;gap:10px;font-size:15.5px;align-items:flex-start}
+.todo li span:first-child{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:#fff;font:800 13px Nunito}
+.sgrid{display:grid;grid-template-columns:1.1fr 1fr;gap:18px}
+@media(max-width:900px){.sgrid{grid-template-columns:minmax(0,1fr)}}
 /* market clock */
 .clock{margin-top:14px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding:14px 20px}
 .clock .st{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:17px}
@@ -159,6 +172,9 @@ a{color:inherit}
 .news{list-style:none;margin:0;padding:0;display:grid;gap:10px}
 .nitem{display:flex;gap:14px;padding:15px;border-radius:18px;background:var(--surface);border:1px solid var(--line);text-decoration:none;transition:transform .15s}
 .nitem:hover{transform:translateY(-1px)}
+.ngroup{display:flex;align-items:center;gap:8px;font-weight:700;font-size:16px;margin:18px 4px 4px;list-style:none}
+.ngroup:first-child{margin-top:0}
+.ngroup small{font-weight:500;color:var(--muted);font-size:13px}
 .nface{flex:none;width:44px;height:44px;border-radius:14px;display:grid;place-items:center;font-size:22px;background:var(--raise)}
 .ntitle{font-weight:600;line-height:1.5;font-size:16.5px}
 .nth{font-size:14px;color:var(--muted);margin-top:4px}
@@ -202,19 +218,19 @@ footer{margin-top:26px;text-align:center;font-size:13px;color:var(--muted)}
 </div></div>
 
 <main class="wrap">
-  <section class=.hero" style="margin-top:70px">
+  <section class="hero" style="margin-top:70px">
     <div class="card peek">
       <svg class="cat" viewBox="0 0 92 56" aria-hidden="true"><g>
-<path d="M14 56 L18 18 L34 30 Z" fill="#ffd3e2" stroke="#4a3646" stroke-width="2.5" stroke-linejoin="round"/>
-<path d="M78 56 L74 18 L58 30 Z" fill="#ffd3e2" stroke="#4a3646" stroke-width="2.5" stroke-linejoin="round"/>
-<path d="M8 56 C8 30 26 24 46 24 C66 24 84 30 84 56 Z" fill="#fff" stroke="#4a3646" stroke-width="2.5"/>
-<path d="M22 22 L20 31 L28 28 Z M70 22 L72 31 L64 28 Z" fill="#ff8fb8"/>
-<ellipse cx="33" cy="42" rx="3.4" ry="4.4" fill="#4a3646"/><ellipse cx="59" cy="42" rx="3.4" ry="4.4" fill="#4a3646"/>
+<path d="M14 56 L18 18 L34 30 Z" fill="#d4f2e1" stroke="#2c4639" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M78 56 L74 18 L58 30 Z" fill="#d4f2e1" stroke="#2c4639" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M8 56 C8 30 26 24 46 24 C66 24 84 30 84 56 Z" fill="#fff" stroke="#2c4639" stroke-width="2.5"/>
+<path d="M22 22 L20 31 L28 28 Z M70 22 L72 31 L64 28 Z" fill="#8fd9b2"/>
+<ellipse cx="33" cy="42" rx="3.4" ry="4.4" fill="#2c4639"/><ellipse cx="59" cy="42" rx="3.4" ry="4.4" fill="#2c4639"/>
 <circle cx="34.2" cy="40.5" r="1.2" fill="#fff"/><circle cx="60.2" cy="40.5" r="1.2" fill="#fff"/>
 <path d="M43 48 L49 48 L46 51 Z" fill="#ff8fb8"/>
 <ellipse cx="24" cy="50" rx="5" ry="3" fill="#ffb3cc" opacity=".7"/><ellipse cx="68" cy="50" rx="5" ry="3" fill="#ffb3cc" opacity=".7"/>
-<path d="M2 46 L18 47 M2 52 L18 51 M90 46 L74 47 M90 52 L74 51" stroke="#4a3646" stroke-width="1.6" stroke-linecap="round"/>
-<path d="M30 56 q4 -5 8 0 M54 56 q4 -5 8 0" fill="#fff" stroke="#4a3646" stroke-width="2.2"/>
+<path d="M2 46 L18 47 M2 52 L18 51 M90 46 L74 47 M90 52 L74 51" stroke="#2c4639" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M30 56 q4 -5 8 0 M54 56 q4 -5 8 0" fill="#fff" stroke="#2c4639" stroke-width="2.2"/>
 </g></svg>
       <div class="mood">
         <div class="face" id="face">⏳</div>
@@ -234,6 +250,16 @@ footer{margin-top:26px;text-align:center;font-size:13px;color:var(--muted)}
       <div class="hi">ราคาตอนนี้ <span class="live"><span class="dot"></span>LIVE</span></div>
       <div id="quote"></div>
       <ul class="tldr" id="tldr"></ul>
+    </div>
+  </section>
+
+  <section class="card strat" id="strat">
+    <h3>🎯 กลยุทธ์ตอนนี้ <span class="muted small" style="font-weight:500">· เหมียวคิดให้จากกราฟและข่าว</span></h3>
+    <p class="plan" id="sPlan">กำลังคิด…</p>
+    <div class="sgrid">
+      <div class="ladder" id="sLadder"></div>
+      <div><ul class="todo" id="sTodo"></ul>
+        <p class="muted small" style="margin:14px 0 0">ราคาโซนต่างๆ คำนวณจากเส้นค่าเฉลี่ย กรอบ Bollinger และจุดต่ำ/สูงสุด 20–60 วัน อัปเดตทุกรอบ เป็นแนวทางคร่าวๆ ไม่ใช่คำแนะนำการลงทุน</p></div>
     </div>
   </section>
 
@@ -323,10 +349,11 @@ footer{margin-top:26px;text-align:center;font-size:13px;color:var(--muted)}
 
   <section class="sec">
     <h2>📰 ข่าวล่าสุด</h2>
-    <p class="lead">เฉพาะสำนักข่าวชั้นนำและแหล่งทางการ เหมียวเช็กให้ว่าข่าวไหนมีหลายแหล่งยืนยัน ข่าวไหนมาจากแหล่งเดียว <span id="newsCount"></span></p>
+    <p class="lead">รวมข่าวจากทุกสำนักไว้ที่เดียว เหมียวเช็กให้ว่าข่าวไหนยืนยันแล้ว (แหล่งทางการ หรือมีหลายสำนักรายงานตรงกันโดยมีสำนักชั้นนำอย่างน้อย 1 แห่ง) ข่าวไหนยังไม่ยืนยัน <span id="newsCount"></span></p>
     <div class="filters" id="filters">
       <button class="fbtn on" data-f="all">ทั้งหมด</button>
-      <button class="fbtn" data-f="ok">✅ ยืนยันหลายแหล่ง</button>
+      <button class="fbtn" data-f="ok">✅ ยืนยันแล้ว</button>
+      <button class="fbtn" data-f="no">⏳ ยังไม่ยืนยัน</button>
       <button class="fbtn" data-f="pos">😊 ข่าวดี</button>
       <button class="fbtn" data-f="neg">😬 ข่าวร้าย</button>
     </div>
@@ -344,7 +371,7 @@ footer{margin-top:26px;text-align:center;font-size:13px;color:var(--muted)}
     <div id="tvta"></div>
     <h4>วิธีคิด</h4>
     <ul>
-      <li><b>แหล่งข่าว:</b> Tier 1 = NVIDIA Newsroom, SEC, Reuters, Bloomberg, AP, WSJ, FT · Tier 2 = CNBC, Barron's, MarketWatch, NYT, The Economist, Nikkei Asia, The Information แหล่งอื่นตัดทิ้งหมด ค้นแยกทีละสำนักแล้วจับคู่เรื่องเดียวกันภายใน 48 ชม.</li><li><b>เกณฑ์ยืนยัน:</b> "ยืนยันหลายแหล่ง" = มาจาก NVIDIA/SEC โดยตรง หรือมีอย่างน้อย 2 สำนักต่างกัน (อย่างน้อย 1 แห่งเป็น Tier 1) รายงานตรงกัน ข่าวที่มาจากแหล่งเดียวก็แสดงและนำไปคิดคะแนน แต่ติดป้ายไว้และให้น้ำหนักแค่ครึ่งเดียว</li>
+      <li><b>แหล่งข่าว:</b> ดึงจากทุกสำนักที่ Google News มี (ตัดเว็บสแปมหุ้นอัตโนมัติออก) + NVIDIA Newsroom + SEC และค้นแยกทีละสำนักชั้นนำ: Tier 1 = Reuters, Bloomberg, AP, WSJ, FT · Tier 2 = CNBC, Barron's, MarketWatch, NYT, The Economist, Nikkei Asia, The Information · อื่นๆ = แหล่งทั่วไป</li><li><b>เกณฑ์ยืนยัน:</b> "ยืนยันแล้ว" = มาจาก NVIDIA/SEC โดยตรง หรือมีอย่างน้อย 2 สำนักต่างกันรายงานเรื่องเดียวกันภายใน 48 ชม. โดยมีสำนัก Tier 1 อย่างน้อย 1 แห่ง ข่าวที่ยังไม่ยืนยันก็นำไปคิดคะแนน แต่ให้น้ำหนักน้อยกว่า (สำนักชั้นนำครึ่งหนึ่ง แหล่งทั่วไปหนึ่งในสี่)</li>
       <li><b>ข่าวดี/ร้าย:</b> ใช้คำศัพท์การเงินแบบ Loughran–McDonald หรือ Claude ถ้าตั้งค่า API key ไว้</li>
       <li><b>เทคนิค:</b> SMA50/200, MACD, RSI14, Bollinger(20,2), ความผันผวน 20 วัน</li>
       <li><b>อะไรแปลกๆ:</b> ราคาวิ่งผิดปกติ (|z| ≥ 2.5), volume ≥ 2 เท่า, gap ≥ 3%, หลุด/ทะลุ Bollinger, Death/Golden Cross, ลงจากยอด ≥ 20%, ผันผวนสูงผิดปกติ, ระหว่างวัน ≥ 4%</li>
@@ -364,13 +391,13 @@ footer{margin-top:26px;text-align:center;font-size:13px;color:var(--muted)}
 
   <div class="disc"><span style="font-size:22px">🐱</span><div>เว็บนี้แค่ช่วยสรุปข้อมูลให้อ่านง่ายนะ <b>ไม่ใช่คำแนะนำการลงทุน</b> คำว่าซื้อ/ขายมาจากสูตรง่ายๆ ที่ผิดได้เสมอ ตัดสินใจเองและลงทุนเท่าที่รับความเสี่ยงไหวน้า</div></div>
   <div style="text-align:center"><svg class="sleepcat" viewBox="0 0 150 70" aria-hidden="true">
-<path d="M18 62 C10 40 40 28 72 30 C104 32 128 40 124 58 Z" fill="#fff" stroke="#4a3646" stroke-width="2.5"/>
-<path d="M120 56 C140 54 146 40 136 34" fill="none" stroke="#4a3646" stroke-width="5" stroke-linecap="round"/>
+<path d="M18 62 C10 40 40 28 72 30 C104 32 128 40 124 58 Z" fill="#fff" stroke="#2c4639" stroke-width="2.5"/>
+<path d="M120 56 C140 54 146 40 136 34" fill="none" stroke="#2c4639" stroke-width="5" stroke-linecap="round"/>
 <path d="M120 56 C140 54 146 40 136 34" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
-<path d="M22 44 L22 24 L36 34 Z M52 32 L56 14 L64 30 Z" fill="#ffd3e2" stroke="#4a3646" stroke-width="2.5" stroke-linejoin="round"/>
-<path d="M30 46 q4 3 8 0 M46 44 q4 3 8 0" fill="none" stroke="#4a3646" stroke-width="2" stroke-linecap="round"/>
+<path d="M22 44 L22 24 L36 34 Z M52 32 L56 14 L64 30 Z" fill="#d4f2e1" stroke="#2c4639" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M30 46 q4 3 8 0 M46 44 q4 3 8 0" fill="none" stroke="#2c4639" stroke-width="2" stroke-linecap="round"/>
 <ellipse cx="30" cy="54" rx="5" ry="3" fill="#ffb3cc"/>
-<text x="78" y="22" font-family="Nunito" font-weight="800" font-size="14" fill="#c9b6ff">z</text><text x="90" y="12" font-family="Nunito" font-weight="800" font-size="11" fill="#c9b6ff">z</text>
+<text x="78" y="22" font-family="Nunito" font-weight="800" font-size="14" fill="#6cc79a">z</text><text x="90" y="12" font-family="Nunito" font-weight="800" font-size="11" fill="#6cc79a">z</text>
 </svg><div class="muted small">น้องเหมียวเฝ้าหุ้นให้ตลอด 24 ชม. 🐾</div></div>
   <footer>ราคาและกราฟสดจาก TradingView · ข่าวและความเห็นอัปเดตทุก 10 นาทีตอนตลาดเปิด · หน้านี้รีเฟรชเองทุก 2 นาที</footer>
 </main>
@@ -449,22 +476,29 @@ function drawLW(){
 
 const newsMood=s=>s>0.15?["pos","😊","ข่าวดี"]:s<-0.15?["neg","😬","ข่าวร้าย"]:["","📄","กลางๆ"];
 const OK=n=>n.status==="official"||n.status==="verified"||(!n.status&&n.corroborated_by>1);
+function newsCard(n){
+  const [c,e,lab]=newsMood(n.sentiment),ok=OK(n);
+  const status=n.status==="official"?'<span class="tag ok">🏛️ แหล่งทางการ · ยืนยันแล้ว</span>'
+    :ok?`<span class="tag ok">✅ ยืนยันแล้ว ${n.corroborated_by} แหล่ง</span>`
+    :'<span class="tag" style="color:var(--bad)">⏳ ยังไม่ยืนยัน · แหล่งเดียว</span>';
+  const tier=n.tier===1?'<span class="tag">⭐ สำนักข่าวชั้นนำ</span>':n.tier===2?'<span class="tag">สำนักข่าวการเงิน</span>':'<span class="tag">แหล่งทั่วไป</span>';
+  const also=ok&&n.status!=="official"&&n.sources?`<div class="nth">รายงานโดย: ${esc(n.sources.map(x=>x.replace(/ \(.*\)/,"")).join(" · "))}</div>`:"";
+  return `<li><a class="nitem" href="${esc(n.url)}" target="_blank" rel="noopener">
+    <span class="nface" style="${c?`background:color-mix(in srgb,var(--${c==="pos"?"up":"down"}) 14%,transparent)`:""}">${e}</span>
+    <span style="min-width:0"><div class="ntitle">${esc(n.summary_th||n.title)}</div>
+    ${n.summary_th?`<div class="nth">${esc(n.title)}</div>`:""}${also}
+    <div class="meta"><b style="color:var(--ink2)">${esc(n.source.replace(/ \(.*\)/,""))}</b><span>· ${ago(n.published)}</span>
+      ${status}${tier}<span class="tag">${lab}</span></div></span></a></li>`;
+}
 function renderNews(){
-  const all=data.news,ok=all.filter(OK),single=all.filter(n=>!OK(n));
-  let list=all.filter(n=>filter==="all"||(filter==="ok"&&OK(n))||(filter==="pos"&&n.sentiment>0.15)||(filter==="neg"&&n.sentiment<-0.15));
-  list=[...list].sort((a,b)=>(b.published||"").localeCompare(a.published||""));
-  $("newsCount").textContent=`(ยืนยันหลายแหล่ง ${ok.length} · แหล่งเดียว ${single.length})`;
-  $("news").innerHTML=list.length?list.map(n=>{const [c,e,lab]=newsMood(n.sentiment);
-    const badge=n.status==="official"?'<span class="tag ok">🏛️ แหล่งทางการ</span>'
-      :OK(n)?`<span class="tag ok">✅ ยืนยันแล้ว ${n.corroborated_by} แหล่ง: ${esc((n.sources||[]).join(", "))}</span>`
-      :`<span class="tag" style="color:var(--bad)">📰 มาจากแหล่งข่าวเดียว</span>`;
-    return `<li><a class="nitem" href="${esc(n.url)}" target="_blank" rel="noopener" >
-      <span class="nface" style="${c?`background:color-mix(in srgb,var(--${c==="pos"?"up":"down"}) 14%,transparent)`:""}">${e}</span>
-      <span style="min-width:0"><div class="ntitle">${esc(n.summary_th||n.title)}</div>
-      ${n.summary_th?`<div class="nth">${esc(n.title)}</div>`:""}
-      <div class="meta"><b style="color:var(--ink2)">${esc(n.source.replace(" (ทางการ)","").replace(" (เอกสารทางการ)",""))}</b><span>· ${ago(n.published)}</span>
-        <span class="tag">${lab}</span>${badge}</div></span></a></li>`}).join("")
-    :`<li class="muted">${filter==="ok"?"ช่วงนี้ยังไม่มีข่าวที่หลายสำนักรายงานตรงกัน 🐾":"ยังไม่มีข่าวในหมวดนี้"}</li>`;
+  const all=[...data.news].sort((a,b)=>(b.published||"").localeCompare(a.published||""));
+  const mood=n=>filter==="pos"?n.sentiment>0.15:filter==="neg"?n.sentiment<-0.15:true;
+  const ok=all.filter(n=>OK(n)&&mood(n)),no=all.filter(n=>!OK(n)&&mood(n)).sort((a,b)=>a.tier-b.tier||(b.published||"").localeCompare(a.published||""));
+  $("newsCount").textContent=`(ยืนยันแล้ว ${all.filter(OK).length} · ยังไม่ยืนยัน ${all.filter(n=>!OK(n)).length})`;
+  let html="";
+  if(filter!=="no"){html+=`<li class="ngroup">✅ ยืนยันแล้ว <small>${ok.length} ข่าว</small></li>`+(ok.length?ok.map(newsCard).join(""):'<li class="muted small" style="list-style:none;margin:0 4px">ตอนนี้ยังไม่มีข่าวที่ยืนยันจากหลายแหล่ง 🐾</li>');}
+  if(filter!=="ok"){html+=`<li class="ngroup">⏳ ยังไม่ยืนยัน <small>${no.length} ข่าว · มีแหล่งเดียว อ่านแบบเผื่อใจไว้หน่อย</small></li>`+(no.length?no.map(newsCard).join(""):'<li class="muted small" style="list-style:none;margin:0 4px">ไม่มี</li>');}
+  $("news").innerHTML=html;
 }
 
 function renderCrowd(S){
@@ -612,6 +646,50 @@ function renderOutlook(d){
       <p class="muted small" style="margin:12px 0 0">ประมาณ 2 ใน 3 ของครั้ง ราคาจะอยู่ในช่วงนี้ ถ้าความผันผวนเท่า 20 วันที่ผ่านมา ช่วงกว้าง = เสี่ยงมาก · ไม่ใช่การทายราคา</p>`;}
 }
 
+function strategy(d){
+  const t=d.tech,C=d.candles,live=d.intraday&&d.intraday.price,P=live?d.intraday.price:t.close;
+  const hi=n=>Math.max(...C.slice(-n).map(r=>r.h)),lo=n=>Math.min(...C.slice(-n).map(r=>r.l));
+  const lv=[["เส้นเฉลี่ย 50 วัน",t.sma50],["เส้นเฉลี่ย 200 วัน",t.sma200],["ขอบล่าง Bollinger",t.boll_dn],["ขอบบน Bollinger",t.boll_up],
+    ["จุดต่ำสุด 20 วัน",lo(20)],["จุดต่ำสุด 60 วัน",lo(60)],["จุดสูงสุด 20 วัน",hi(20)],["จุดสูงสุด 60 วัน",hi(60)]].filter(x=>x[1]);
+  const sup=lv.filter(x=>x[1]<P*0.985).sort((a,b)=>b[1]-a[1]),res=lv.filter(x=>x[1]>P*1.015).sort((a,b)=>a[1]-b[1]);
+  const m=(d.outlook&&d.outlook.range)?d.outlook.range["1w"].pct/100:0.05;
+  const s1=sup[0]||["ราคาย่อ 1 สัปดาห์ปกติ",P*(1-m)],s2=sup[1]||[s1[0],s1[1]*(1-m/2)];
+  const r1=res[0]||["ราคาเด้ง 1 สัปดาห์ปกติ",P*(1+m)],r2=res[1]||[r1[0],r1[1]*(1+m/2)];
+  const stop=s2[1]*0.96,r=regime(d),k=d.verdict.key;
+  const ne=d.sentiment&&d.sentiment.analysts&&d.sentiment.analysts.next_earnings;
+  const days=ne&&ne.date?Math.ceil((new Date(ne.date+"T21:00:00Z")-Date.now())/864e5):null;
+  const $f=x=>"$"+fmt(x,0);
+  let plan,todo;
+  if(r.k==="down"||k==="vbad"){
+    plan=`😿 กราฟยังเป็นขาลง <b>อย่าเพิ่งรับมีด</b> รอให้ราคาลงมาโซน ${$f(s2[1])}–${$f(s1[1])} และเริ่มหยุดลงก่อน ค่อยลองซื้อไม้แรกเล็กๆ`;
+    todo=[`ถ้ายังไม่มีหุ้น: ตั้งเตือนราคาไว้ที่ ${$f(s1[1])} แล้วรอดูว่าราคาหยุดลงได้ไหม (เช่น ปิดบวก 2 วันติด)`,
+      `ซื้อไม้แรกแค่ 1 ใน 3 ของเงินที่ตั้งใจลง เผื่อลงต่อจะได้มีเงินเก็บเพิ่มแถว ${$f(s2[1])}`,
+      `ถ้ามีหุ้นอยู่แล้ว: ถ้าเด้งไปแถว ${$f(r1[1])} อาจขายบางส่วนลดความเสี่ยง`,
+      `ถ้าหลุด ${$f(stop)} แปลว่าขาลงแรงกว่าที่คิด ให้หยุดซื้อเพิ่มแล้วคิดใหม่`];
+  }else if(r.k==="up"&&(k==="good"||k==="vgood"||k==="neutral")){
+    plan=`😼 กราฟเป็นขาขึ้น <b>ถือต่อได้</b> ถ้ายังไม่มีของอย่าไล่ราคา รอย่อมาแถว ${$f(s1[1])} แล้วค่อยทยอยเก็บ`;
+    todo=[`ถ้ามีหุ้นอยู่: ถือต่อ และขยับจุดตัดขาดทุนขึ้นมาไว้ใต้ ${$f(s1[1])} เล็กน้อย`,
+      `ถ้ายังไม่มี: รอราคาย่อมาโซน ${$f(s2[1])}–${$f(s1[1])} แล้วซื้อทีละน้อย`,
+      t.rsi>=70?`ราคาร้อนแรงแล้ว (RSI ${fmt(t.rsi,0)}) ถ้าขึ้นไปแถว ${$f(r1[1])} ขายทำกำไรบางส่วนได้`:`เป้าถัดไปที่ต้องดูคือ ${$f(r1[1])} ถ้าผ่านได้ ทางขึ้นต่อไปที่ ${$f(r2[1])}`,
+      `ถ้าหลุด ${$f(stop)} แนวโน้มขาขึ้นอาจจบ ให้ลดของลง`];
+  }else{
+    plan=`🐱 ตอนนี้กราฟแกว่งในกรอบ <b>ซื้อแถวขอบล่าง ขายแถวขอบบน</b> กรอบคร่าวๆ คือ ${$f(s1[1])} – ${$f(r1[1])}`;
+    todo=[`อยากซื้อ: รอราคาลงมาใกล้ ${$f(s1[1])} แล้วทยอยซื้อ ไม่ต้องรีบซื้อตรงกลางกรอบ`,
+      `มีหุ้นอยู่: ถ้าขึ้นไปแถว ${$f(r1[1])} ขายบางส่วนเก็บกำไรได้`,
+      `ถ้าทะลุ ${$f(r1[1])} ขึ้นไปได้แรงๆ อาจเริ่มเป็นขาขึ้น ถือต่อได้`,
+      `ถ้าหลุด ${$f(stop)} อาจกลายเป็นขาลง ให้ระวัง`];
+  }
+  if(days!=null&&days>=0&&days<=10)todo.unshift(`🗓️ อีก ${days} วันประกาศงบ ราคาอาจกระโดดแรงทั้งขึ้นและลง ลดขนาดไม้ลงหน่อย`);
+  if(d.anomalies.some(a=>a.sev===3))todo.unshift("🙀 มีสัญญาณผิดปกติรุนแรงวันนี้ ใจเย็นๆ รอให้ราคานิ่งก่อนค่อยตัดสินใจ");
+  const lad=[["💰","โซนขายทำกำไรบางส่วน",`${r1[0]} / ${r2[0]}`,`${$f(r1[1])} – ${$f(r2[1])}`,""],
+    ["📍","ราคาตอนนี้","",$f(P),"now"],
+    ["🛒","โซนน่าทยอยซื้อ",`${s1[0]} / ${s2[0]}`,`${$f(s2[1])} – ${$f(s1[1])}`,""],
+    ["🛑","ถ้าหลุดราคานี้ให้คิดใหม่","ต่ำกว่าโซนซื้อลงไปอีกราว 4%",$f(stop),""]];
+  $("sPlan").innerHTML=plan;
+  $("sLadder").innerHTML=lad.map(([e,a,b,px,c])=>`<div class="lad ${c}"><span class="e">${e}</span><span><b>${a}</b>${b?`<small>${esc(b)}</small>`:""}</span><span class="px num">${px}</span></div>`).join("");
+  $("sTodo").innerHTML=todo.slice(0,5).map((x,i)=>`<li><span>${i+1}</span><span>${x}</span></li>`).join("");
+}
+
 function tldr(d){
   const t=d.tech,items=[],live=d.intraday&&d.intraday.price,ch=live?(d.intraday.price/d.intraday.prev_close-1)*100:t.chg_pct;
   const a=Math.abs(ch);
@@ -656,6 +734,7 @@ function render(d){
 
   renderCrowd(d.sentiment);
   renderTrend(d);
+  if(d.candles&&d.candles.length>=70)strategy(d);
   renderOutlook(d);
   renderNews();
   $("newsErr").textContent=d.errors.length?"หมายเหตุ: บางแหล่งดึงไม่ได้ในรอบนี้ ("+d.errors.map(e=>e.split(":")[0]).join(", ")+")":"";
