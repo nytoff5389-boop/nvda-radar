@@ -29,9 +29,32 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "docs" / "data.json"
-STATE = ROOT / "data" / "state.json"
+# ---- per-stock settings ----
+CFG = {
+    "NVDA": {"name": "Nvidia", "cik": "1045810", "q": "(Nvidia OR NVDA)", "q2": "Nvidia stock",
+             "official": ("nvidianews.nvidia.com", "https://nvidianews.nvidia.com/releases.xml", "NVIDIA Newsroom (ทางการ)"),
+             "rel": r"nvidia|nvda|jensen huang|blackwell|rubin|cuda|geforce|hopper|h100|h200|gb200|ai chip"},
+    "GOOGL": {"name": "Alphabet (Google)", "cik": "1652044", "q": "(Alphabet OR GOOGL OR \"Google parent\")",
+              "q2": "Google stock Alphabet",
+              "official": ("blog.google", "https://blog.google/rss/", "Google Blog (ทางการ)"),
+              "rel": r"alphabet|googl|google|waymo|gemini|youtube|pichai|deepmind|\btpu"},
+}
 TICKER = "NVDA"
+OUT = ROOT / "docs" / "data" / "NVDA.json"
+STATE = ROOT / "data" / "state-NVDA.json"
+
+
+def use_ticker(t: str):
+    global TICKER, OUT, STATE
+    TICKER = t
+    OUT = ROOT / "docs" / "data" / f"{t}.json"
+    STATE = ROOT / "data" / f"state-{t}.json"
+    if t == "NVDA" and not STATE.exists() and (ROOT / "data" / "state.json").exists():
+        STATE.write_text((ROOT / "data" / "state.json").read_text())
+
+
+def official_domains():
+    return {"sec.gov", "investor.nvidia.com", CFG[TICKER]["official"][0]}
 UA = "Mozilla/5.0 (compatible; nvda-news-dashboard/1.0)"
 SEC_UA = os.environ.get("SEC_USER_AGENT") or "nvda-radar dashboard (github.com/nytoff5389-boop/nvda-radar) nvda-radar-bot@users.noreply.github.com"
 
@@ -42,6 +65,8 @@ SEC_UA = os.environ.get("SEC_USER_AGENT") or "nvda-radar dashboard (github.com/n
 TRUSTED = {
     "nvidianews.nvidia.com": ("NVIDIA Newsroom (ทางการ)", 1),
     "investor.nvidia.com": ("NVIDIA IR (ทางการ)", 1),
+    "blog.google": ("Google Blog (ทางการ)", 1),
+    "abc.xyz": ("Alphabet IR (ทางการ)", 1),
     "sec.gov": ("SEC EDGAR (เอกสารทางการ)", 1),
     "reuters.com": ("Reuters", 1),
     "bloomberg.com": ("Bloomberg", 1),
@@ -61,7 +86,7 @@ BLOCKED = {"marketbeat.com", "americanbankingnews.com", "tickerreport.com", "etf
            "dailypolitical.com", "themarketsdaily.com", "zolmax.com", "baseballnewssource.com", "watchlistnews.com",
            "modernreaders.com", "thecerbatgem.com", "theenterpriseleader.com", "wkrb13.com", "defenseworld.net"}
 NAMES: dict[str, str] = {}
-NEWS_DOMAINS = [d for d in TRUSTED if d not in ("nvidianews.nvidia.com", "investor.nvidia.com", "sec.gov")]
+NEWS_DOMAINS = [d for d in TRUSTED if d not in ("nvidianews.nvidia.com", "investor.nvidia.com", "sec.gov", "blog.google", "abc.xyz")]
 
 # Small finance-specific lexicon, in the spirit of Loughran & McDonald (2011).
 POS = """beat beats record surge surges soar soars jump jumps rally rallies gain gains rise rises
@@ -290,17 +315,17 @@ def fetch_google_news(days: int) -> list[dict]:
     items, fails = [], 0
     for d in NEWS_DOMAINS:
         try:
-            items += _gnews(f"(Nvidia OR NVDA) site:{d} when:{days}d")
+            items += _gnews(f"{CFG[TICKER]['q']} site:{d} when:{days}d")
         except Exception as e:  # noqa: BLE001
             fails += 1
             print("gnews", d, e, file=sys.stderr)
     try:
-        items += _gnews(f"(Nvidia OR NVDA) when:{days}d")  # every publisher Google News carries
-        items += _gnews(f"Nvidia stock when:{days}d")
+        items += _gnews(f"{CFG[TICKER]['q']} when:{days}d")  # every publisher Google News carries
+        items += _gnews(f"{CFG[TICKER]['q2']} when:{days}d")
     except Exception as e:  # noqa: BLE001
         fails += 1
     try:
-        items += _gnews(f"(Nvidia OR NVDA) ({' OR '.join('site:' + d for d in NEWS_DOMAINS)}) when:{days}d")
+        items += _gnews(f"{CFG[TICKER]['q']} ({' OR '.join('site:' + d for d in NEWS_DOMAINS)}) when:{days}d")
     except Exception as e:  # noqa: BLE001
         fails += 1
     if fails > len(NEWS_DOMAINS) // 2:
@@ -309,9 +334,10 @@ def fetch_google_news(days: int) -> list[dict]:
 
 
 def fetch_nvidia_newsroom() -> list[dict]:
-    root = ET.fromstring(http_get("https://nvidianews.nvidia.com/releases.xml"))
+    dom, url, _ = CFG[TICKER]["official"]
+    root = ET.fromstring(http_get(url))
     return [{"title": html.unescape(it.findtext("title") or "").strip(), "url": it.findtext("link"),
-             "domain": "nvidianews.nvidia.com", "published": parse_date(it.findtext("pubDate"))}
+             "domain": dom, "published": parse_date(it.findtext("pubDate"))}
             for it in root.iter("item")]
 
 
@@ -321,7 +347,8 @@ FORM_TH = {"8-K": "รายงานเหตุการณ์สำคัญ"
 
 
 def fetch_sec_filings() -> list[dict]:
-    raw = json.loads(http_get("https://data.sec.gov/submissions/CIK0001045810.json",
+    cik = CFG[TICKER]["cik"]
+    raw = json.loads(http_get(f"https://data.sec.gov/submissions/CIK{int(cik):010d}.json",
                               {"User-Agent": SEC_UA, "Accept-Encoding": "identity"}))
     r = raw["filings"]["recent"]
     out = []
@@ -329,7 +356,7 @@ def fetch_sec_filings() -> list[dict]:
         form, acc, doc = r["form"][i], r["accessionNumber"][i], r["primaryDocument"][i]
         if form not in FORM_TH:
             continue
-        url = f"https://www.sec.gov/Archives/edgar/data/1045810/{acc.replace('-', '')}/{doc}"
+        url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc.replace('-', '')}/{doc}"
         when = r.get("acceptanceDateTime", [None] * 99)[i] or r["filingDate"][i]
         out.append({"title": f"SEC Form {form}: {FORM_TH[form]}", "url": url, "domain": "sec.gov",
                     "published": parse_date(when)})
@@ -375,9 +402,9 @@ def claude_enrich(items: list[dict]) -> bool:
         return False
     listing = "\n".join(f"{i}. [{it['source']}] {it['title']}" for i, it in enumerate(items))
     prompt = (
-        "You are a careful equity news analyst. For each NVIDIA (NVDA) headline below, return JSON "
+        f"You are a careful equity news analyst. For each {CFG[TICKER]['name']} ({TICKER}) headline below, return JSON "
         "array items {\"i\": index, \"th\": one-sentence Thai summary of the headline only (no speculation),"
-        " \"sent\": number from -1 (very negative for NVDA shareholders) to 1 (very positive), "
+        f" \"sent\": number from -1 (very negative for {TICKER} shareholders) to 1 (very positive), "
         "\"impact\": 1-3 expected materiality}. Base it only on the headline text. Output JSON only.\n\n"
         + listing)
     body = json.dumps({"model": os.environ.get("CLAUDE_MODEL", "claude-sonnet-5-5"), "max_tokens": 4000,
@@ -402,14 +429,14 @@ def claude_enrich(items: list[dict]) -> bool:
 def collect_news(days: int = 2) -> tuple[list[dict], list[str]]:
     errors, raw = [], []
     for name, fn in (("Google News", lambda: fetch_google_news(days)),
-                     ("NVIDIA Newsroom", fetch_nvidia_newsroom), ("SEC EDGAR", fetch_sec_filings)):
+                     ("Official newsroom", fetch_nvidia_newsroom), ("SEC EDGAR", fetch_sec_filings)):
         try:
             raw += fn()
         except Exception as e:  # noqa: BLE001
             errors.append(f"{name}: {e}")
     cutoff = now_utc() - dt.timedelta(days=days)
-    relevant = re.compile(r"nvidia|nvda|jensen huang|blackwell|rubin|cuda|geforce|hopper|h100|h200|gb200|ai chip", re.I)
-    raw = [it for it in raw if it["domain"] in ("nvidianews.nvidia.com", "sec.gov") or relevant.search(it["title"] or "")]
+    relevant = re.compile(CFG[TICKER]["rel"], re.I)
+    raw = [it for it in raw if it["domain"] in ("sec.gov",) or relevant.search(it["title"] or "")]
     junk = re.compile(r"stock (price|quote)|\| ?(nvidia|nvda)|^nvidia corp\.?$|^nvda\b.*quote|price target.*\| ", re.I)
     raw = [it for it in raw if not junk.search(it["title"] or "") and len((it["title"] or "").split()) >= 4]
     seen, items = set(), []
@@ -443,7 +470,7 @@ def collect_news(days: int = 2) -> tuple[list[dict], list[str]]:
                 outlets.add(ib["domain"]); tiers.add(ib["tier"])
         ia["corroborated_by"] = len(outlets)
         ia["sources"] = sorted(NAMES.get(d, d) for d in outlets)
-        official = ia["domain"] in ("nvidianews.nvidia.com", "investor.nvidia.com", "sec.gov")
+        official = ia["domain"] in official_domains()
         ia["status"] = "official" if official else ("verified" if len(outlets) >= 2 and 1 in tiers else "single")
     # keep the most-corroborated version of each story first
     items.sort(key=lambda x: ({"official": 0, "verified": 1, "single": 2}[x["status"]], -(x["corroborated_by"]), x["tier"]))
@@ -471,9 +498,20 @@ THEMES = [  # (key, Thai label, regex)
 ]
 
 
+THEMES_GOOGL = [
+    ("antitrust", "คดีผูกขาด / กฎหมาย (DOJ, EU)", r"antitrust|doj|justice department|monopoly|lawsuit|court|judge|\beu\b|fine|regulat"),
+    ("ai_search", "AI แข่งกับ Search (OpenAI, Gemini)", r"openai|chatgpt|gemini|search|perplexity|ai overview|\bai\b"),
+    ("cloud", "Google Cloud", r"cloud|gcp|data.?center|capex|tpu"),
+    ("ads", "รายได้โฆษณา / YouTube", r"\bads?\b|advertis|youtube"),
+    ("waymo", "Waymo / Other Bets", r"waymo|robotaxi|other bets|verily|deepmind|quantum"),
+    ("earnings", "งบการเงิน / คาดการณ์รายได้", r"earnings|revenue|guidance|forecast|quarter|results|eps|profit"),
+    ("valuation", "ราคาแพง / ฟองสบู่ AI", r"bubble|valuation|overvalued|expensive|sell-?off|correction"),
+]
+
+
 def news_themes(news: list[dict]) -> list[dict]:
     out = []
-    for key, label, rx in THEMES:
+    for key, label, rx in (THEMES_GOOGL if TICKER == "GOOGL" else THEMES):
         hits = [n for n in news if re.search(rx, n["title"], re.I)]
         if not hits:
             continue
@@ -488,8 +526,8 @@ def claude_outlook(news: list[dict], tech: dict) -> list[str] | None:
     if not key or not news:
         return None
     heads = "\n".join(f"- [{n['source']}] {n['title']}" for n in news[:25])
-    prompt = ("From only these recent NVIDIA headlines, list the 3 most important forward-looking risks or catalysts "
-              "for NVDA shareholders over the next 1-3 months. Write each as one short, casual, easy Thai sentence "
+    prompt = (f"From only these recent {CFG[TICKER]['name']} headlines, list the 3 most important forward-looking risks or catalysts "
+              f"for {TICKER} shareholders over the next 1-3 months. Write each as one short, casual, easy Thai sentence "
               "(no jargon, no price predictions, no advice). Output a JSON array of 3 strings only.\n\n" + heads)
     body = json.dumps({"model": os.environ.get("CLAUDE_MODEL", "claude-sonnet-5-5"), "max_tokens": 800,
                        "messages": [{"role": "user", "content": prompt}]}).encode()
@@ -731,7 +769,7 @@ def main():
                                 "post": {"start": t0 + 118 * 300, "end": t0 + 166 * 300}}}
         global fetch_google_news, fetch_nvidia_newsroom, fetch_sec_filings
         sn = synthetic_news()
-        fetch_google_news = lambda days: [x for x in sn if x["domain"] not in ("nvidianews.nvidia.com", "sec.gov")]  # noqa: E731
+        fetch_google_news = lambda days: [x for x in sn if x["domain"] not in ("nvidianews.nvidia.com", "sec.gov", "blog.google")]  # noqa: E731
         fetch_nvidia_newsroom = lambda: [x for x in sn if x["domain"] == "nvidianews.nvidia.com"]  # noqa: E731
         fetch_sec_filings = lambda: [x for x in sn if x["domain"] == "sec.gov"]  # noqa: E731
     else:
@@ -779,16 +817,25 @@ def main():
         sev = max(a["sev"] for a in new)
         notify("\n".join("• " + a["text"] for a in new) +
                f"\nระดับ: {verdict['level']} ({verdict['lean']})\n{page}\n(ไม่ใช่คำแนะนำการลงทุน)",
-               title="⚠️ NVDA กราฟผิดปกติ", priority=5 if sev >= 3 else 4, tags="warning")
+               title=f"⚠️ {TICKER} กราฟผิดปกติ", priority=5 if sev >= 3 else 4, tags="warning")
     if os.environ.get("MODE") == "daily" and not offline:
         top = "\n".join(f"• [{n['source']}] {n['summary_th'] or n['title']}" for n in news[:6])
-        notify(f"ราคา ${tech['close']:.2f} ({tech['chg_pct']:+.2f}%)\n"
+        notify(f"{TICKER} ราคา ${tech['close']:.2f} ({tech['chg_pct']:+.2f}%)\n"
                f"ระดับ: {verdict['level']} → {verdict['lean']}\n{top}\n{page}\n(ไม่ใช่คำแนะนำการลงทุน)",
-               title="📰 สรุป NVDA ประจำวัน", tags="newspaper")
+               title=f"📰 สรุป {TICKER} ประจำวัน", tags="newspaper")
     state["sent"] = (state["sent"] + [a["key"] for a in new])[-300:]
     STATE.parent.mkdir(parents=True, exist_ok=True)
     STATE.write_text(json.dumps(state))
 
 
 if __name__ == "__main__":
-    main()
+    if os.environ.get("MODE") == "test":
+        main()
+    else:
+        for t in [x.strip().upper() for x in os.environ.get("TICKERS", "NVDA,GOOGL").split(",") if x.strip()]:
+            use_ticker(t)
+            NAMES.clear()
+            try:
+                main()
+            except Exception as e:  # noqa: BLE001  one stock failing must not stop the others
+                print(f"{t} failed: {e}", file=sys.stderr)
