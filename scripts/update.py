@@ -246,25 +246,37 @@ def parse_date(s: str | None) -> dt.datetime | None:
             return None
 
 
-def fetch_google_news(days: int) -> list[dict]:
-    """Google News RSS restricted to whitelisted domains; we re-verify the <source> domain."""
-    items = []
-    sites = " OR ".join(f"site:{d}" for d in NEWS_DOMAINS)
-    q = f"(Nvidia OR NVDA) ({sites}) when:{days}d"
+def _gnews(q: str) -> list[dict]:
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
         {"q": q, "hl": "en-US", "gl": "US", "ceid": "US:en"})
-    root = ET.fromstring(http_get(url))
-    for it in root.iter("item"):
+    out = []
+    for it in ET.fromstring(http_get(url)).iter("item"):
         src = it.find("source")
-        src_url = src.get("url") if src is not None else ""
-        d = domain_of(src_url or "")
+        d = domain_of((src.get("url") if src is not None else "") or "")
         if not d:
-            continue  # not a trusted outlet -> drop
-        title = html.unescape(it.findtext("title") or "")
-        # Google appends " - Outlet" to titles
-        title = re.sub(r"\s+-\s+[^-]+$", "", title).strip()
-        items.append({"title": title, "url": it.findtext("link"), "domain": d,
-                      "published": parse_date(it.findtext("pubDate"))})
+            continue  # publisher not on the trusted list -> drop
+        title = re.sub(r"\s+-\s+[^-]+$", "", html.unescape(it.findtext("title") or "")).strip()
+        out.append({"title": title, "url": it.findtext("link"), "domain": d,
+                    "published": parse_date(it.findtext("pubDate"))})
+    return out
+
+
+def fetch_google_news(days: int) -> list[dict]:
+    """One Google News query per trusted outlet (so each outlet is searched on its own, which
+    makes cross-outlet corroboration possible), plus one combined query. Publisher domain is re-verified."""
+    items, fails = [], 0
+    for d in NEWS_DOMAINS:
+        try:
+            items += _gnews(f"(Nvidia OR NVDA) site:{d} when:{days}d")
+        except Exception as e:  # noqa: BLE001
+            fails += 1
+            print("gnews", d, e, file=sys.stderr)
+    try:
+        items += _gnews(f"(Nvidia OR NVDA) ({' OR '.join('site:' + d for d in NEWS_DOMAINS)}) when:{days}d")
+    except Exception as e:  # noqa: BLE001
+        fails += 1
+    if fails > len(NEWS_DOMAINS) // 2:
+        raise RuntimeError(f"{fails} Google News queries failed")
     return items
 
 
@@ -296,10 +308,29 @@ def fetch_sec_filings() -> list[dict]:
     return out
 
 
+SYN = {"curb": "restrict", "restriction": "restrict", "limit": "restrict", "ban": "restrict", "control": "restrict",
+       "weigh": "consider", "mull": "consider", "plan": "consider", "eye": "consider",
+       "slump": "fall", "drop": "fall", "tumble": "fall", "sink": "fall", "slide": "fall", "plunge": "fall",
+       "jump": "rise", "surge": "rise", "soar": "rise", "climb": "rise", "rally": "rise", "gain": "rise",
+       "semiconductor": "chip", "processor": "chip", "gpu": "chip", "beijing": "china", "chinese": "china",
+       "washington": "us", "u.s.": "us", "biden": "us", "trump": "us", "administration": "us",
+       "result": "earning", "quarterly": "earning", "revenue": "earning", "sale": "earning"}
+
+
 def tokens(s: str) -> set[str]:
-    stop = {"nvidia", "nvda", "the", "a", "an", "to", "of", "in", "on", "for", "and", "as", "is", "with",
-            "its", "at", "by", "from", "says", "after", "stock", "shares"}
-    return {w for w in re.findall(r"[a-z0-9$%.]+", s.lower()) if w not in stop and len(w) > 2}
+    stop = {"nvidia", "nvda", "the", "a", "an", "to", "of", "in", "on", "for", "and", "as", "is", "with", "its",
+            "at", "by", "from", "says", "said", "after", "stock", "shares", "share", "new", "over", "amid", "more"}
+    out = set()
+    for w in re.findall(r"[a-z0-9$%.]+", s.lower()):
+        w = w.strip(".")
+        if w in stop or len(w) < 2:
+            continue
+        if len(w) > 4 and w.endswith("s") and not w.endswith("ss"):
+            w = w[:-1]
+        w = SYN.get(w, w)
+        if len(w) > 2 or w in ("us", "ai"):
+            out.add(w)
+    return out
 
 
 def lexicon_sentiment(title: str) -> float:
@@ -363,17 +394,35 @@ def collect_news(days: int = 2) -> tuple[list[dict], list[str]]:
         items.append({**it, "source": name, "tier": tier,
                       "published": it["published"].isoformat() if it["published"] else None,
                       "sentiment": lexicon_sentiment(it["title"]), "impact": 1, "summary_th": ""})
-    items = items[:40]
-    # corroboration: how many *distinct* trusted outlets carry a similar headline
+    items = items[:60]
+    # Verification: a story counts as verified only if it comes from the company/regulator itself,
+    # or at least 2 *different* trusted outlets (one of them Tier 1) report the same story within 48h.
     toks = [tokens(i["title"]) for i in items]
+    when = [dt.datetime.fromisoformat(i["published"]) if i["published"] else None for i in items]
     for a, ia in enumerate(items):
-        outlets = {ia["domain"]}
+        outlets, tiers = {ia["domain"]}, {ia["tier"]}
         for b, ib in enumerate(items):
-            if a != b and toks[a] and toks[b]:
-                j = len(toks[a] & toks[b]) / len(toks[a] | toks[b])
-                if j >= 0.25:
-                    outlets.add(ib["domain"])
+            if a == b or ib["domain"] in outlets or not toks[a] or not toks[b]:
+                continue
+            shared = toks[a] & toks[b]
+            j = len(shared) / len(toks[a] | toks[b])
+            close_in_time = not (when[a] and when[b]) or abs((when[a] - when[b]).total_seconds()) <= 48 * 3600
+            if close_in_time and (len(shared) >= 3 or (len(shared) >= 2 and j >= 0.2)):
+                outlets.add(ib["domain"]); tiers.add(ib["tier"])
         ia["corroborated_by"] = len(outlets)
+        ia["sources"] = sorted(TRUSTED[d][0] for d in outlets)
+        official = ia["domain"] in ("nvidianews.nvidia.com", "investor.nvidia.com", "sec.gov")
+        ia["status"] = "official" if official else ("verified" if len(outlets) >= 2 and 1 in tiers else "single")
+    # keep the most-corroborated version of each story first
+    items.sort(key=lambda x: ({"official": 0, "verified": 1, "single": 2}[x["status"]], -(x["corroborated_by"]), -x.get("_t", 0)))
+    # collapse the same story told by several outlets into one card (sources list keeps every outlet)
+    kept, kept_toks = [], []
+    for it in items:
+        t = tokens(it["title"])
+        if it["status"] != "official" and any(len(t & k) >= 3 or (len(t & k) >= 2 and len(t & k) / len(t | k) >= 0.2) for k in kept_toks):
+            continue
+        kept.append(it); kept_toks.append(t)
+    items[:] = kept
     used_claude = claude_enrich(items)
     return items, errors + ([] if used_claude or not os.environ.get("ANTHROPIC_API_KEY") else ["Claude enrich failed"])
 
@@ -430,7 +479,8 @@ def build_outlook(news, tech):
     for label, days in (("1w", 5), ("1m", 21)):
         m = vol * math.sqrt(days / 252)  # 1-sigma move under a random-walk assumption
         rng[label] = {"pct": round(m * 100, 1), "lo": round(c * math.exp(-m), 2), "hi": round(c * math.exp(m), 2)}
-    return {"themes": news_themes(news), "range": rng, "ai": claude_outlook(news, tech)}
+    good = [n for n in news if n.get("status") in ("official", "verified")] or [n for n in news if n["tier"] == 1]
+    return {"themes": news_themes(good), "range": rng, "ai": claude_outlook(good, tech)}
 
 
 # --------------------------- investor sentiment ---------------------------
@@ -547,11 +597,15 @@ def score(tech, anomalies, news):
         add("RSI", 0, f"RSI {r:.0f} อยู่ในช่วงปกติ")
     hv = tech["vol20_ann"] > 1.3 * tech["vol_median_1y"]
     add("ความผันผวน", -0.75 if hv else 0.25, "ผันผวนสูงกว่าปกติ" if hv else "ผันผวนในระดับปกติ")
+    used = [n for n in news if n.get("status") in ("official", "verified")]
+    if not used:  # fall back to single-source Tier 1 stories at half weight
+        used = [dict(n, impact=n.get("impact", 1) * 0.5) for n in news if n["tier"] == 1]
+    news = used
     if news:
         w = [(1.5 if n["tier"] == 1 else 1.0) * n.get("impact", 1) * (1 + 0.25 * (n["corroborated_by"] - 1))
              for n in news]
         s = sum(n["sentiment"] * wi for n, wi in zip(news, w)) / sum(w)
-        add("ข่าว (sentiment ถ่วงน้ำหนัก)", s * 2, f"ค่าเฉลี่ยโทนข่าว {s:+.2f} จาก {len(news)} ข่าว")
+        add("ข่าว (sentiment ถ่วงน้ำหนัก)", s * 2, f"ค่าเฉลี่ยโทนข่าว {s:+.2f} จาก {len(news)} ข่าวที่ยืนยันแล้ว")
     else:
         add("ข่าว (sentiment ถ่วงน้ำหนัก)", 0, "ไม่มีข่าวจากแหล่งน่าเชื่อถือในช่วงนี้")
     sev = sum(a["sev"] for a in anomalies if not a["key"].startswith(("gx-", "rsil-")))
