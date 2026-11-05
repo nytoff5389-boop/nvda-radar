@@ -113,14 +113,27 @@ def fetch_daily() -> list[dict]:
 
 
 def fetch_intraday() -> dict | None:
+    """Today's 5-minute line including pre-market and after-hours."""
     try:
         raw = json.loads(http_get(
-            f"https://query1.finance.yahoo.com/v8/finance/chart/{TICKER}?range=1d&interval=5m"))
+            f"https://query1.finance.yahoo.com/v8/finance/chart/{TICKER}?range=1d&interval=5m&includePrePost=true"))
         r = raw["chart"]["result"][0]
         m = r["meta"]
-        closes = [c for c in r["indicators"]["quote"][0]["close"] if c is not None]
-        return {"price": m.get("regularMarketPrice"), "prev_close": m.get("chartPreviousClose"),
-                "time": m.get("regularMarketTime"), "closes_5m": closes}
+        tp = m.get("currentTradingPeriod") or {}
+        reg = tp.get("regular") or {}
+        pts = []
+        for t, c in zip(r.get("timestamp") or [], r["indicators"]["quote"][0]["close"]):
+            if c is None:
+                continue
+            sess = "pre" if reg.get("start") and t < reg["start"] else "post" if reg.get("end") and t >= reg["end"] else "reg"
+            pts.append({"t": t, "c": round(c, 2), "s": sess})
+        pre = [p for p in pts if p["s"] == "pre"]
+        post = [p for p in pts if p["s"] == "post"]
+        return {"price": m.get("regularMarketPrice"), "prev_close": m.get("chartPreviousClose") or m.get("previousClose"),
+                "time": m.get("regularMarketTime"), "points": pts,
+                "pre": pre[-1] if pre else None, "post": post[-1] if post else None,
+                "periods": {k: {"start": (tp.get(k) or {}).get("start"), "end": (tp.get(k) or {}).get("end")}
+                            for k in ("pre", "regular", "post")}}
     except Exception as e:  # noqa: BLE001
         print("intraday failed:", e, file=sys.stderr)
         return None
@@ -709,7 +722,13 @@ def main():
     offline = os.environ.get("OFFLINE_SAMPLE") == "1"
     errors = []
     if offline:
-        rows, intraday = synthetic_daily(), None
+        rows = synthetic_daily()
+        base, t0 = rows[-1]["c"], int(now_utc().timestamp()) - 6 * 3600
+        pts = [{"t": t0 + i * 300, "c": round(base * (1 + 0.004 * math.sin(i / 7) + i * 0.0002), 2),
+                "s": "pre" if i < 40 else "reg"} for i in range(70)]
+        intraday = {"price": base, "prev_close": rows[-2]["c"], "time": t0, "points": pts, "pre": pts[39], "post": None,
+                    "periods": {"pre": {"start": t0, "end": t0 + 40 * 300}, "regular": {"start": t0 + 40 * 300, "end": t0 + 118 * 300},
+                                "post": {"start": t0 + 118 * 300, "end": t0 + 166 * 300}}}
         global fetch_google_news, fetch_nvidia_newsroom, fetch_sec_filings
         sn = synthetic_news()
         fetch_google_news = lambda days: [x for x in sn if x["domain"] not in ("nvidianews.nvidia.com", "sec.gov")]  # noqa: E731
@@ -744,7 +763,7 @@ def main():
 
     data = {
         "ticker": TICKER, "generated_at": now_utc().isoformat(), "sample": offline,
-        "intraday": intraday and {k: intraday[k] for k in ("price", "prev_close", "time")},
+        "intraday": intraday and {k: intraday.get(k) for k in ("price", "prev_close", "time", "points", "pre", "post", "periods")},
         "tech": {k: (round(v, 4) if isinstance(v, float) else v) for k, v in tech.items()},
         "verdict": verdict, "anomalies": anomalies, "sentiment": sentiment, "outlook": build_outlook(news, tech), "news": news, "errors": errors,
         "candles": [{k: (round(v, 3) if isinstance(v, float) else v) for k, v in r.items()} for r in rows[-260:]],

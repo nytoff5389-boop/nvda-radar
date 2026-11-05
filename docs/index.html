@@ -101,6 +101,15 @@ a{color:inherit}
 .todo li span:first-child{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:#fff;font:800 13px Nunito}
 .sgrid{display:grid;grid-template-columns:1.1fr 1fr;gap:18px}
 @media(max-width:900px){.sgrid{grid-template-columns:minmax(0,1fr)}}
+.buynow{display:flex;gap:14px;align-items:center;padding:14px 16px;border-radius:20px;margin:12px 0 4px;border:2px solid}
+.buynow .e{font-size:40px;line-height:1}
+.buynow .q{font-size:13.5px;color:var(--muted)}
+.buynow .a{font-size:22px;font-weight:700;line-height:1.35}
+.buynow .w{font-size:15px;color:var(--ink2)}
+.ext{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:18px;align-items:center}
+@media(max-width:800px){.ext{grid-template-columns:minmax(0,1fr)}}
+#extChart{height:200px;width:100%}
+.extp{font-size:36px;font-weight:800;line-height:1.1}
 /* market clock */
 .clock{margin-top:14px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding:14px 20px}
 .clock .st{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:17px}
@@ -255,6 +264,7 @@ footer{margin-top:26px;text-align:center;font-size:13px;color:var(--muted)}
 
   <section class="card strat" id="strat">
     <h3>🎯 กลยุทธ์ตอนนี้ <span class="muted small" style="font-weight:500">· เหมียวคิดให้จากกราฟและข่าว</span></h3>
+    <div class="buynow" id="buyNow"></div>
     <p class="plan" id="sPlan">กำลังคิด…</p>
     <div class="sgrid">
       <div class="ladder" id="sLadder"></div>
@@ -267,6 +277,18 @@ footer{margin-top:26px;text-align:center;font-size:13px;color:var(--muted)}
     <span class="st" id="mkState">🕘 ตลาดหุ้นสหรัฐฯ</span>
     <span class="cd" id="mkCount"></span>
     <div class="sess" id="mkSess"></div>
+  </section>
+
+  <section class="card" style="margin-top:14px">
+    <div class="ext">
+      <div>
+        <div class="hi" id="extLab">🌅 ราคานอกเวลา (Pre-market / After-hours)</div>
+        <div><span class="extp num" id="extPx">–</span> <span class="delta num" id="extChg"></span></div>
+        <div class="muted small" id="extNote"></div>
+        <div class="keyline" style="margin-top:10px"><span><i style="background:#f5a65b"></i>Pre-market</span><span><i style="background:var(--accent)"></i>เวลาปกติ</span><span><i style="background:#8ab6e8"></i>After-hours</span></div>
+      </div>
+      <div id="extChart"></div>
+    </div>
   </section>
 
   <section class="alerts" id="alerts">
@@ -433,7 +455,7 @@ function mountTA(){tvWidget("tvta","embed-widget-technical-analysis.js",{symbol:
   isTransparent:true,showIntervalTabs:true,displayMode:"multiple",locale:"th_TH",colorTheme:isDark()?"dark":"light"})}
 function mountWidgets(){
   const th=isDark()?"dark":"light";
-  tvWidget("quote","embed-widget-single-quote.js",{symbol:"NASDAQ:NVDA",width:"100%",colorTheme:th,isTransparent:true,locale:"th_TH"});
+  tvWidget("quote","embed-widget-symbol-info.js",{symbol:"NASDAQ:NVDA",width:"100%",colorTheme:th,isTransparent:true,locale:"th_TH"});
   tvWidget("tv","embed-widget-advanced-chart.js",{symbol:"NASDAQ:NVDA",interval:"D",timezone:"Asia/Bangkok",theme:th,style:"1",
     locale:"th_TH",autosize:true,allow_symbol_change:false,hide_side_toolbar:true,hide_top_toolbar:false,backgroundColor:css("surface"),gridColor:css("line")});
   if($("nerd").open)mountTA();
@@ -647,12 +669,36 @@ function renderOutlook(d){
       <p class="muted small" style="margin:12px 0 0">ประมาณ 2 ใน 3 ของครั้ง ราคาจะอยู่ในช่วงนี้ ถ้าความผันผวนเท่า 20 วันที่ผ่านมา ช่วงกว้าง = เสี่ยงมาก · ไม่ใช่การทายราคา</p>`;}
 }
 
+function renderExt(d){
+  const I=d.intraday;if(!I||!I.points||!I.points.length){$("extNote").textContent="ยังไม่มีข้อมูลราคานอกเวลาในรอบนี้";return}
+  const last=I.points.at(-1),prev=I.prev_close,ch=(last.c/prev-1)*100;
+  const lab={pre:"🌅 Pre-market ตอนนี้",post:"🌙 After-hours ตอนนี้",reg:"☀️ ราคาเวลาปกติล่าสุด"}[last.s];
+  $("extLab").textContent=lab;$("extPx").textContent="$"+fmt(last.c);
+  $("extChg").textContent=(ch>=0?"▲ +":"▼ ")+fmt(ch)+"%";$("extChg").className="delta num "+(ch>=0?"up":"down");
+  const tt=new Date(last.t*1000).toLocaleTimeString("th-TH",{timeZone:"Asia/Bangkok",hour:"2-digit",minute:"2-digit"});
+  $("extNote").innerHTML=`เทียบราคาปิดวันก่อน $${fmt(prev)} · ข้อมูลเวลา ${tt} น.<br>เส้นนี้อัปเดตทุก 10 นาที · ราคาสดวินาทีต่อวินาทีดูที่กล่องราคาด้านบน`;
+  if(!window.LightweightCharts)return;
+  const el=$("extChart");el.innerHTML="";
+  const c2=LightweightCharts.createChart(el,{autoSize:true,layout:{background:{color:"transparent"},textColor:css("muted"),fontFamily:"Nunito"},
+    grid:{vertLines:{visible:false},horzLines:{color:css("line")}},rightPriceScale:{borderVisible:false},
+    timeScale:{borderVisible:false,timeVisible:true,secondsVisible:false},
+    localization:{timeFormatter:t=>new Date(t*1000).toLocaleTimeString("th-TH",{timeZone:"Asia/Bangkok",hour:"2-digit",minute:"2-digit"})},
+    handleScroll:false,handleScale:false});
+  const col={pre:"#f5a65b",reg:css("accent"),post:"#8ab6e8"};
+  const ser=c2.addLineSeries({lineWidth:2.5,priceLineVisible:false,lastValueVisible:true});
+  ser.setData(I.points.map(p=>({time:p.t,value:p.c,color:col[p.s]})));
+  ser.createPriceLine({price:prev,color:css("muted"),lineWidth:1,lineStyle:2,axisLabelVisible:true,title:"ปิดวันก่อน"});
+  c2.timeScale().fitContent();
+}
+
 function strategy(d){
-  const t=d.tech,C=d.candles,live=d.intraday&&d.intraday.price,P=live?d.intraday.price:t.close;
+  const t=d.tech,C=d.candles,I=d.intraday,lastPt=I&&I.points&&I.points.length?I.points.at(-1):null;
+  const P=lastPt?lastPt.c:(I&&I.price)||t.close;
   const hi=n=>Math.max(...C.slice(-n).map(r=>r.h)),lo=n=>Math.min(...C.slice(-n).map(r=>r.l));
   const lv=[["เส้นเฉลี่ย 50 วัน",t.sma50],["เส้นเฉลี่ย 200 วัน",t.sma200],["ขอบล่าง Bollinger",t.boll_dn],["ขอบบน Bollinger",t.boll_up],
     ["จุดต่ำสุด 20 วัน",lo(20)],["จุดต่ำสุด 60 วัน",lo(60)],["จุดสูงสุด 20 วัน",hi(20)],["จุดสูงสุด 60 วัน",hi(60)]].filter(x=>x[1]);
-  const sup=lv.filter(x=>x[1]<P*0.985).sort((a,b)=>b[1]-a[1]),res=lv.filter(x=>x[1]>P*1.015).sort((a,b)=>a[1]-b[1]);
+  const uniq=arr=>arr.filter((x,i)=>i===0||Math.abs(x[1]/arr[i-1][1]-1)>0.015);
+  const sup=uniq(lv.filter(x=>x[1]<P*0.985).sort((a,b)=>b[1]-a[1])),res=uniq(lv.filter(x=>x[1]>P*1.015).sort((a,b)=>a[1]-b[1]));
   const m=(d.outlook&&d.outlook.range)?d.outlook.range["1w"].pct/100:0.05;
   const s1=sup[0]||["ราคาย่อ 1 สัปดาห์ปกติ",P*(1-m)],s2=sup[1]||[s1[0],s1[1]*(1-m/2)];
   const r1=res[0]||["ราคาเด้ง 1 สัปดาห์ปกติ",P*(1+m)],r2=res[1]||[r1[0],r1[1]*(1+m/2)];
@@ -686,6 +732,18 @@ function strategy(d){
     ["📍","ราคาตอนนี้","",$f(P),"now"],
     ["🛒","โซนน่าทยอยซื้อ",`${s1[0]} / ${s2[0]}`,`${$f(s2[1])} – ${$f(s1[1])}`,""],
     ["🛑","ถ้าหลุดราคานี้ให้คิดใหม่","ต่ำกว่าโซนซื้อลงไปอีกราว 4%",$f(stop),""]];
+  const near=(x,y,pct)=>Math.abs(x/y-1)<=pct;
+  let bn;
+  if(d.anomalies.some(a=>a.sev===3))bn=["🙀","ยังไม่ควรซื้อตอนนี้","bad",`วันนี้กราฟผิดปกติแรง รอให้ราคานิ่งก่อน แล้วค่อยดูโซน ${$f(s1[1])}`];
+  else if(P<stop)bn=["🛑","ยังไม่ควรซื้อ","vbad",`ราคาหลุด ${$f(stop)} ลงมาแล้ว แนวโน้มอ่อนแรงกว่าที่คิด รอให้หยุดลงก่อน`];
+  else if(P<=s1[1]*1.01)bn=r.k==="down"?["🐾","ลองซื้อได้ แต่ทีละน้อย","good",`ราคาลงมาถึงโซนน่าซื้อ (${$f(s2[1])}–${$f(s1[1])}) แล้ว แต่กราฟยังขาลง ซื้อไม้เล็กๆ ก่อน`]
+    :["😺","ซื้อได้ ทยอยเก็บ","vgood",`ราคาอยู่ในโซนน่าซื้อ ${$f(s2[1])}–${$f(s1[1])} พอดี`];
+  else if(r.k==="up"&&near(P,s1[1],0.03))bn=["😺","ซื้อได้ ทยอยเก็บ","vgood",`ขาขึ้น และราคาย่อมาใกล้แนวรับ ${$f(s1[1])}`];
+  else if(P>=r1[1]*0.99)bn=["✋","ไม่ควรซื้อตอนนี้","bad",`ราคาขึ้นมาใกล้โซนขาย ${$f(r1[1])} แล้ว ถ้ามีของอยู่ให้คิดเรื่องขายบางส่วนแทน`];
+  else if(r.k==="up")bn=["🐱","ถือได้ แต่ยังไม่ควรไล่ซื้อ","neutral",`รอให้ย่อมาแถว ${$f(s1[1])} ก่อนค่อยซื้อเพิ่ม`];
+  else bn=["⏳","ยังไม่ควรซื้อ รอก่อน","bad",`ราคาตอนนี้ ${$f(P)} ยังสูงกว่าโซนน่าซื้อ ${$f(s1[1])} อยู่ ${fmt((P/s1[1]-1)*100,1)}%`];
+  $("buyNow").innerHTML=`<span class="e">${bn[0]}</span><span><div class="q">ควรซื้อตอนนี้ไหม?</div><div class="a" style="color:var(--${bn[2]})">${bn[1]}</div><div class="w">${bn[3]}</div></span>`;
+  $("buyNow").style.cssText=`border-color:color-mix(in srgb,var(--${bn[2]}) 55%,transparent);background:color-mix(in srgb,var(--${bn[2]}) 10%,var(--surface))`;
   $("sPlan").innerHTML=plan;
   $("sLadder").innerHTML=lad.map(([e,a,b,px,c])=>`<div class="lad ${c}"><span class="e">${e}</span><span><b>${a}</b>${b?`<small>${esc(b)}</small>`:""}</span><span class="px num">${px}</span></div>`).join("");
   $("sTodo").innerHTML=todo.slice(0,5).map((x,i)=>`<li><span>${i+1}</span><span>${x}</span></li>`).join("");
@@ -736,6 +794,7 @@ function render(d){
   renderCrowd(d.sentiment);
   renderTrend(d);
   if(d.candles&&d.candles.length>=70)strategy(d);
+  renderExt(d);
   renderOutlook(d);
   renderNews();
   $("newsErr").textContent=d.errors.length?"หมายเหตุ: บางแหล่งดึงไม่ได้ในรอบนี้ ("+d.errors.map(e=>e.split(":")[0]).join(", ")+")":"";
