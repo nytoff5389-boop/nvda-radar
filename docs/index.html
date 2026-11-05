@@ -3,259 +3,354 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#0b0d10">
+<meta name="theme-color" content="#fff6f9">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<title>NVDA เรดาร์ข่าว</title>
+<meta name="apple-mobile-web-app-title" content="เหมียวส่องหุ้น">
+<title>เหมียวส่องหุ้น NVDA</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
 <script src="lwc.js"></script>
 <style>
 :root{
-  --bg:#f3f5f2;--surface:#ffffff;--raise:#f6f7f5;--ink:#0f1215;--ink2:#3b424c;--muted:#6b737e;--line:#e4e7e2;
-  --accent:#76b900;--accent-ink:#3d6b00;
-  --vbad:#e5484d;--bad:#f2830d;--neutral:#8b929c;--good:#6bb82c;--vgood:#18a957;
-  --up:#18a957;--down:#e5484d;--glow:rgba(118,185,0,.16);
-  --radius:20px;--shadow:0 1px 0 rgba(0,0,0,.03),0 12px 32px -14px rgba(16,24,16,.14);
+  --bg:#fff6f9;--surface:#ffffff;--raise:#fff0f5;--ink:#4a3646;--ink2:#6b5266;--muted:#a08799;--line:#f6dce7;
+  --accent:#ff8fb8;--accent-ink:#d6457d;--lav:#c9b6ff;--mint:#a8e6cf;
+  --vbad:#ff6b8b;--bad:#ffab76;--neutral:#b9a7c9;--good:#7fd1ae;--vgood:#3cbf8c;
+  --up:#3cbf8c;--down:#ff6b8b;--glow:rgba(255,143,184,.25);
+  --radius:28px;--shadow:0 2px 0 #f9e3ec,0 16px 36px -18px rgba(214,69,125,.28);
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#0b0d10;--surface:#13161b;--raise:#1a1e25;--ink:#f2f4f6;--ink2:#c5cad1;--muted:#8a929d;--line:#252a33;
-  --accent-ink:#a6e04a;--vbad:#ff5c62;--bad:#ff9d3d;--neutral:#8d95a0;--good:#9ad75a;--vgood:#2fd27a;
-  --up:#2fd27a;--down:#ff5c62;--glow:rgba(118,185,0,.2);--shadow:none}}
+  --bg:#231a26;--surface:#2e2232;--raise:#3a2b3f;--ink:#fbeaf3;--ink2:#e6cfdd;--muted:#b49cb0;--line:#463549;
+  --accent:#ff9cc2;--accent-ink:#ffb3d1;--vbad:#ff7d98;--bad:#ffb98a;--neutral:#c3b2d1;--good:#8fdcbb;--vgood:#55d39f;
+  --up:#55d39f;--down:#ff7d98;--glow:rgba(255,156,194,.18);--shadow:none}}
 :root[data-theme="dark"]{
-  --bg:#0b0d10;--surface:#13161b;--raise:#1a1e25;--ink:#f2f4f6;--ink2:#c5cad1;--muted:#8a929d;--line:#252a33;
-  --accent-ink:#a6e04a;--vbad:#ff5c62;--bad:#ff9d3d;--neutral:#8d95a0;--good:#9ad75a;--vgood:#2fd27a;
-  --up:#2fd27a;--down:#ff5c62;--glow:rgba(118,185,0,.2);--shadow:none}
+  --bg:#231a26;--surface:#2e2232;--raise:#3a2b3f;--ink:#fbeaf3;--ink2:#e6cfdd;--muted:#b49cb0;--line:#463549;
+  --accent:#ff9cc2;--accent-ink:#ffb3d1;--vbad:#ff7d98;--bad:#ffb98a;--neutral:#c3b2d1;--good:#8fdcbb;--vgood:#55d39f;
+  --up:#55d39f;--down:#ff7d98;--glow:rgba(255,156,194,.18);--shadow:none}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "IBM Plex Sans Thai",system-ui,sans-serif;
-  background-image:radial-gradient(900px 420px at 85% -120px,var(--glow),transparent 70%);background-repeat:no-repeat}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 Mali,system-ui,sans-serif;
+  background-image:radial-gradient(700px 380px at 90% -100px,var(--glow),transparent 70%),radial-gradient(600px 360px at 0% 30%,color-mix(in srgb,var(--lav) 22%,transparent),transparent 70%),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' fill='%23ff8fb8' fill-opacity='.07'%3E%3Cg transform='translate(30 30) rotate(-20)'%3E%3Cellipse cx='0' cy='8' rx='9' ry='7'/%3E%3Ccircle cx='-9' cy='-4' r='3.5'/%3E%3Ccircle cx='-3' cy='-9' r='3.5'/%3E%3Ccircle cx='4' cy='-9' r='3.5'/%3E%3Ccircle cx='10' cy='-4' r='3.5'/%3E%3C/g%3E%3Cg transform='translate(90 85) rotate(15)'%3E%3Cellipse cx='0' cy='8' rx='9' ry='7'/%3E%3Ccircle cx='-9' cy='-4' r='3.5'/%3E%3Ccircle cx='-3' cy='-9' r='3.5'/%3E%3Ccircle cx='4' cy='-9' r='3.5'/%3E%3Ccircle cx='10' cy='-4' r='3.5'/%3E%3C/g%3E%3C/svg%3E");background-repeat:no-repeat,no-repeat,repeat;background-attachment:scroll,scroll,fixed}
 a{color:inherit}
-.num{font-family:Inter,"IBM Plex Sans Thai",sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-.01em}
-.wrap{max-width:1160px;margin:0 auto;padding:0 16px 48px}
+.num{font-family:Nunito,Mali,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px 56px}
+.muted{color:var(--muted)}.small{font-size:14px}
 
 .top{position:sticky;top:0;z-index:10;backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);
   background:color-mix(in srgb,var(--bg) 80%,transparent);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top)}
-.top .in{max-width:1160px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:12px}
-.logo{width:34px;height:34px;border-radius:10px;background:var(--accent);display:grid;place-items:center;color:#0b0d10;font:800 13px Inter;flex:none}
-.brand{font-weight:700;line-height:1.2}.brand small{display:block;font-weight:400;color:var(--muted);font-size:12px}
+.top .in{max-width:1100px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:12px}
+.logo{width:38px;height:38px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--lav));display:grid;place-items:center;font-size:19px;flex:none}
+.brand{font-weight:700;line-height:1.2}.brand small{display:block;font-weight:400;color:var(--muted);font-size:12.5px}
 .sp{flex:1}
-.pill{display:inline-flex;align-items:center;gap:7px;padding:5px 12px;border-radius:999px;font-weight:600;font-size:13px;white-space:nowrap}
-.dot{width:8px;height:8px;border-radius:50%;background:currentColor;box-shadow:0 0 0 4px color-mix(in srgb,currentColor 22%,transparent);animation:pulse 2s infinite}
+.iconbtn{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:11px;width:38px;height:38px;cursor:pointer;font-size:17px;flex:none}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);min-width:0}
+.sec{margin-top:36px}
+.sec>h2{font-size:22px;margin:0 4px 4px;line-height:1.3}
+.sec>.lead{color:var(--muted);margin:0 4px 14px;font-size:15px}
+.grid{display:grid;gap:14px}
+.g2{grid-template-columns:1.25fr 1fr}.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:900px){.g2,.g3{grid-template-columns:minmax(0,1fr)}}
+.live{display:inline-flex;align-items:center;gap:6px;font:800 11.5px Nunito;color:var(--vbad);letter-spacing:.06em;vertical-align:middle}
+.dot{width:7px;height:7px;border-radius:50%;background:currentColor;box-shadow:0 0 0 4px color-mix(in srgb,currentColor 22%,transparent);animation:pulse 2s infinite}
 @keyframes pulse{50%{box-shadow:0 0 0 7px transparent}}
-.iconbtn{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;width:36px;height:36px;cursor:pointer;font-size:16px;flex:none}
 
-.hero{display:grid;gap:16px;grid-template-columns:1.1fr 1fr;margin-top:20px}
-.row{display:grid;gap:16px;margin-top:16px}
-.row.two{grid-template-columns:1.6fr 1fr}
-.row.three{grid-template-columns:repeat(3,minmax(0,1fr))}
-@media(max-width:900px){.hero,.row.two,.row.three{grid-template-columns:minmax(0,1fr)}}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow);min-width:0}
-.eyebrow{font-size:12.5px;font-weight:600;letter-spacing:.04em;color:var(--muted);margin:0 0 10px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-h2{font-size:19px;margin:0 0 4px;display:flex;align-items:center;gap:8px}
-.sub{color:var(--muted);font-size:13.5px;margin:0 0 16px}
-.muted{color:var(--muted)}.small{font-size:13px}
-.livetag{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:700;color:var(--vbad);letter-spacing:.06em}
-.livetag .dot{width:7px;height:7px}
-
+/* hero */
+.hero{margin-top:20px;display:grid;gap:14px;grid-template-columns:1.25fr 1fr}
+@media(max-width:900px){.hero{grid-template-columns:minmax(0,1fr)}}
+.mood{display:flex;gap:18px;align-items:center}
+.face{font-size:68px;line-height:1;flex:none;filter:drop-shadow(0 6px 14px rgba(0,0,0,.15))}
+.hi{font-size:15px;color:var(--muted)}
+.lvl{font-size:38px;font-weight:700;line-height:1.45;margin-top:2px}
+.say{font-size:18px;margin:12px 0 0;color:var(--ink2)}
+.chip{display:inline-flex;align-items:center;gap:6px;margin-top:14px;padding:8px 16px;border-radius:999px;font-weight:700;font-size:16px}
+.steps{display:flex;gap:6px;margin-top:18px}
+.steps span{flex:1;height:8px;border-radius:99px;background:var(--raise)}
+.stepsLab{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted);margin-top:6px}
 #quote{min-height:96px;margin:-6px -8px 0}
-.fallback{display:flex;flex-wrap:wrap;align-items:flex-end;gap:6px 12px}
-.price{font-size:clamp(38px,8vw,52px);font-weight:800;line-height:1}
+.price{font-size:44px;font-weight:800;line-height:1}
 .delta{font-weight:700;font-size:16px;padding:4px 10px;border-radius:10px}
 .up{color:var(--up)}.down{color:var(--down)}
 .delta.up{background:color-mix(in srgb,var(--up) 13%,transparent)}.delta.down{background:color-mix(in srgb,var(--down) 13%,transparent)}
-.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:16px}
-.stat{background:var(--raise);border-radius:14px;padding:12px 14px}
-.stat .k{font-size:12.5px;color:var(--muted)}
-.stat .v{font-size:20px;font-weight:700;margin-top:2px}
-.stat .h{font-size:12.5px;font-weight:600}
+.tldr{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:10px}
+.tldr li{display:flex;gap:12px;align-items:flex-start;background:var(--raise);border-radius:16px;padding:12px 14px;font-size:16px}
+.tldr li span:first-child{font-size:22px;line-height:1.2;flex:none}
 
-.verdict{display:flex;flex-direction:column;align-items:center;text-align:center}
-.gauge{width:100%;max-width:300px}
-.lvl{font-size:36px;font-weight:700;line-height:1.1;margin-top:4px}
-.lean{display:inline-block;margin-top:10px;padding:8px 16px;border-radius:12px;font-weight:600;font-size:15px}
-.legend{display:flex;justify-content:space-between;width:100%;max-width:300px;font-size:11.5px;color:var(--muted);margin-top:2px}
-
-.alertbar{margin-top:16px;border-radius:var(--radius);padding:16px 18px;border:1px solid color-mix(in srgb,var(--bad) 40%,transparent);
+.peek{position:relative}
+.peek .cat{position:absolute;right:26px;top:-60px;width:120px;height:73px;pointer-events:none}
+.sleepcat{display:block;margin:28px auto 0;width:150px}
+.card{position:relative}
+.chip,.fbtn,.seg button{font-family:Mali,sans-serif}
+.trend{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:center}
+.trend .tface{font-size:64px;line-height:1}
+.trend .tname{font-size:30px;font-weight:700;line-height:1.45}
+.tsig{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px;margin-top:14px}
+.tsig div{background:var(--raise);border-radius:14px;padding:9px 12px;font-size:14.5px}
+.tabs3{display:flex;gap:6px;margin-top:14px}
+.tabs3 span{flex:1;text-align:center;padding:8px 4px;border-radius:14px;background:var(--raise);color:var(--muted);font-weight:600;font-size:15px}
+/* market clock */
+.clock{margin-top:14px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding:14px 20px}
+.clock .st{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:17px}
+.clock .cd{font-size:15px;color:var(--ink2)}
+.sess{display:flex;gap:8px;flex-wrap:wrap;margin-left:auto}
+.sess span{font-size:13px;padding:4px 10px;border-radius:999px;background:var(--raise);color:var(--muted)}
+.sess span.on{background:color-mix(in srgb,var(--accent) 18%,transparent);color:var(--accent-ink);font-weight:700}
+@media(max-width:700px){.sess{margin-left:0}}
+/* buy hold sell */
+.bhs{margin-top:18px;display:grid;gap:8px}
+.bhs .r{display:grid;grid-template-columns:62px 1fr 48px;align-items:center;gap:10px;font-size:15px}
+.bhs .t{height:12px;background:var(--raise);border-radius:99px;overflow:hidden}
+.bhs .t div{height:100%;border-radius:99px}
+.bhs b{text-align:right}
+/* outlook */
+.theme{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line);font-size:15px}
+.theme:last-child{border-bottom:0}
+.theme .e{font-size:18px;line-height:1.4}
+.theme small{display:block;color:var(--muted);font-size:13px}
+.rangebar{position:relative;height:40px;margin:18px 6px 6px}
+.rangebar .band{position:absolute;top:14px;height:12px;border-radius:99px;background:color-mix(in srgb,var(--accent) 30%,transparent)}
+.rangebar .band.w{background:color-mix(in srgb,var(--accent) 60%,transparent)}
+.rangebar .now{position:absolute;top:6px;width:4px;height:28px;border-radius:2px;background:var(--ink);transform:translateX(-50%)}
+.ev{background:var(--raise);border-radius:14px;padding:12px 14px;margin-top:12px;font-size:15px}
+/* alerts */
+.alerts{margin-top:14px;border-radius:var(--radius);padding:18px 20px;border:1px solid color-mix(in srgb,var(--bad) 40%,transparent);
   background:linear-gradient(135deg,color-mix(in srgb,var(--bad) 13%,var(--surface)),var(--surface))}
-.alertbar.ok{border-color:color-mix(in srgb,var(--up) 35%,transparent);background:linear-gradient(135deg,color-mix(in srgb,var(--up) 10%,var(--surface)),var(--surface))}
-.alertbar h3{margin:0 0 10px;font-size:16.5px}
-.alist{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-.aitem{display:flex;gap:10px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px;font-size:14.5px}
-.sev{flex:none;font-size:11px;font-weight:700;padding:2px 8px;border-radius:6px;color:#fff;margin-top:3px}
+.alerts.ok{border-color:color-mix(in srgb,var(--up) 35%,transparent);background:linear-gradient(135deg,color-mix(in srgb,var(--up) 10%,var(--surface)),var(--surface))}
+.alerts h3{margin:0;font-size:18px}
+.alist{display:grid;gap:8px;margin-top:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.aitem{display:flex;gap:10px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:11px 13px;font-size:15.5px}
+.aitem .e{font-size:20px;line-height:1.3}
 
+/* chart */
 .seg{display:inline-flex;background:var(--raise);border-radius:12px;padding:4px;gap:4px}
-.seg button{font:inherit;font-size:14px;font-weight:600;border:0;background:transparent;color:var(--muted);padding:6px 14px;border-radius:9px;cursor:pointer}
+.seg button{font:inherit;font-size:15px;font-weight:600;border:0;background:transparent;color:var(--muted);padding:6px 16px;border-radius:9px;cursor:pointer}
 .seg button.on{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.14)}
-.charthead{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:12px}
-#tv,#lw{height:440px;width:100%;border-radius:12px;overflow:hidden}
-@media(max-width:600px){#tv,#lw{height:340px}}
-.keyline{display:flex;gap:14px;font-size:12.5px;color:var(--muted);margin-top:8px;flex-wrap:wrap}
+.chead{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:12px}
+#tv,#lw{height:420px;width:100%;border-radius:14px;overflow:hidden}
+@media(max-width:600px){#tv,#lw{height:330px}}
+.keyline{display:flex;gap:14px;font-size:13px;color:var(--muted);margin-top:8px;flex-wrap:wrap}
 .keyline i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:4px}
 
-/* sentiment */
-.bigmeter{display:flex;align-items:baseline;gap:8px}
-.bigmeter .n{font-size:40px;font-weight:800;line-height:1}
-.split{display:flex;height:12px;border-radius:99px;overflow:hidden;margin:14px 0 6px;background:var(--raise)}
+/* crowd */
+.ctitle{font-weight:700;font-size:17px;display:flex;align-items:center;gap:8px}
+.csub{font-size:13.5px;color:var(--muted);margin-bottom:12px}
+.big{font-size:42px;font-weight:800;line-height:1.05}
+.verdict{font-weight:700;font-size:17px}
+.split{display:flex;height:14px;border-radius:99px;overflow:hidden;margin:14px 0 6px;background:var(--raise)}
 .split div{height:100%}
-.splitlab{display:flex;justify-content:space-between;font-size:13px;font-weight:600}
-.spark{width:100%;height:56px;margin-top:10px}
-.posts{display:grid;gap:8px;margin-top:14px}
-.post{font-size:13.5px;background:var(--raise);border-radius:12px;padding:10px 12px;color:var(--ink2)}
-.post b{font-size:11px;padding:1px 7px;border-radius:5px;color:#fff;margin-right:6px}
-.fg{position:relative;height:12px;border-radius:99px;margin:16px 0 6px;
-  background:linear-gradient(90deg,var(--vbad),var(--bad),var(--neutral),var(--good),var(--vgood))}
-.fg i{position:absolute;top:-5px;width:6px;height:22px;border-radius:3px;background:var(--ink);border:2px solid var(--surface);transform:translateX(-50%)}
-.kv{display:grid;grid-template-columns:1fr auto;gap:6px 12px;font-size:14px;margin-top:12px}
+.splitlab{display:flex;justify-content:space-between;font-size:14px;font-weight:600}
+.spark{width:100%;height:50px;margin-top:10px}
+.posts{display:grid;gap:8px;margin-top:12px}
+.post{font-size:14px;background:var(--raise);border-radius:12px;padding:10px 12px;color:var(--ink2)}
+.post b{font-size:12px;padding:1px 8px;border-radius:6px;color:#fff;margin-right:6px}
+.fg{position:relative;height:14px;border-radius:99px;margin:16px 0 6px;background:linear-gradient(90deg,var(--vbad),var(--bad),var(--neutral),var(--good),var(--vgood))}
+.fg i{position:absolute;top:-5px;width:8px;height:24px;border-radius:4px;background:var(--ink);border:2px solid var(--surface);transform:translateX(-50%)}
+.kv{display:grid;grid-template-columns:1fr auto;gap:4px 12px;font-size:14.5px;margin-top:12px}
 .kv span:nth-child(even){font-weight:700;text-align:right}
-.stack{display:flex;height:28px;border-radius:10px;overflow:hidden;margin-top:14px}
-.stack div{display:grid;place-items:center;font:700 12px Inter;color:#fff;min-width:0}
-.legend2{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12.5px;color:var(--muted);margin-top:8px}
+.stack{display:flex;height:30px;border-radius:10px;overflow:hidden;margin-top:14px}
+.stack div{display:grid;place-items:center;font:800 12px Nunito;color:#fff;min-width:0}
+.legend2{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:13px;color:var(--muted);margin-top:8px}
 .legend2 i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:4px;vertical-align:-1px}
-#tvta{height:400px}
 
-.bars{display:grid;gap:14px}
-.bar .t{display:flex;justify-content:space-between;font-size:14px;gap:8px}
+/* news */
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.fbtn{font:inherit;font-size:14.5px;font-weight:600;border:1px solid var(--line);background:var(--surface);color:var(--ink2);padding:6px 15px;border-radius:999px;cursor:pointer}
+.fbtn.on{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.news{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.nitem{display:flex;gap:14px;padding:15px;border-radius:18px;background:var(--surface);border:1px solid var(--line);text-decoration:none;transition:transform .15s}
+.nitem:hover{transform:translateY(-1px)}
+.nface{flex:none;width:44px;height:44px;border-radius:14px;display:grid;place-items:center;font-size:22px;background:var(--raise)}
+.ntitle{font-weight:600;line-height:1.5;font-size:16.5px}
+.nth{font-size:14px;color:var(--muted);margin-top:4px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 10px;margin-top:8px;font-size:13px;color:var(--muted);align-items:center}
+.tag{font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--raise);color:var(--ink2)}
+.tag.ok{color:var(--accent-ink);background:color-mix(in srgb,var(--accent) 14%,transparent)}
+
+/* nerd zone */
+details.nerd{margin-top:36px}
+details.nerd>summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}
+details.nerd>summary::-webkit-details-marker{display:none}
+details.nerd>summary b{font-size:19px}
+details.nerd>summary::after{content:"ดู ▾";font-size:14px;font-weight:600;color:var(--muted);flex:none}
+details.nerd[open]>summary::after{content:"ซ่อน ▴"}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:16px}
+.stat{background:var(--raise);border-radius:14px;padding:12px 14px}
+.stat .k{font-size:13px;color:var(--muted)}.stat .v{font-size:20px;font-weight:700}.stat .h{font-size:13px;font-weight:600}
+.bars{display:grid;gap:14px;margin-top:8px}
+.bar .t{display:flex;justify-content:space-between;font-size:15px;gap:8px}
 .track{position:relative;height:8px;background:var(--raise);border-radius:99px;margin-top:6px}
 .track::after{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:2px;background:var(--line)}
 .fill{position:absolute;top:0;bottom:0;border-radius:99px}
-.bar .why{font-size:12.5px;color:var(--muted);margin-top:3px}
+.bar .why{font-size:13px;color:var(--muted);margin-top:3px}
+#tvta{height:400px}
+h4{margin:24px 0 6px;font-size:16px}
+.nerd li{font-size:14.5px;margin-bottom:6px}
+.refs li{font-size:13.5px;overflow-wrap:anywhere}
 
-.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
-.chipbtn{font:inherit;font-size:13.5px;font-weight:600;border:1px solid var(--line);background:var(--surface);color:var(--ink2);padding:5px 14px;border-radius:999px;cursor:pointer}
-.chipbtn.on{background:var(--ink);color:var(--surface);border-color:var(--ink)}
-.news{list-style:none;margin:0;padding:0;display:grid;gap:10px}
-.nitem{display:flex;gap:14px;padding:14px;border-radius:16px;background:var(--raise);border-left:4px solid var(--neutral);text-decoration:none;transition:transform .15s}
-.nitem:hover{transform:translateY(-1px)}
-.nitem.pos{border-left-color:var(--up)}.nitem.neg{border-left-color:var(--down)}
-.av{flex:none;width:40px;height:40px;border-radius:12px;display:grid;place-items:center;font:800 12px Inter;color:#fff}
-.ntitle{font-weight:600;line-height:1.45}
-.nth{font-size:14px;color:var(--muted);margin-top:4px}
-.meta{display:flex;flex-wrap:wrap;gap:6px 10px;margin-top:8px;font-size:12.5px;color:var(--muted);align-items:center}
-.tag{font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:6px;background:var(--surface);border:1px solid var(--line);color:var(--ink2)}
-.tag.ok{color:var(--accent-ink);border-color:color-mix(in srgb,var(--accent) 50%,transparent)}
-.tag.pos{color:var(--up)}.tag.neg{color:var(--down)}
-
-.disc{margin-top:16px;display:flex;gap:12px;align-items:flex-start;font-size:13.5px;color:var(--ink2);padding:14px 16px;border-radius:16px;background:var(--raise);border:1px dashed var(--line)}
-details{margin-top:16px}
-details summary{cursor:pointer;font-weight:700;list-style:none;display:flex;justify-content:space-between}
-details summary::-webkit-details-marker{display:none}
-details summary::after{content:"＋";color:var(--muted)}details[open] summary::after{content:"－"}
-details li{margin-bottom:6px;font-size:14px}
-.refs li{font-size:13px;overflow-wrap:anywhere}
-.sample{background:var(--bad);color:#fff;font-size:11.5px;font-weight:700;padding:2px 8px;border-radius:6px}
-footer{margin-top:24px;text-align:center;font-size:12.5px;color:var(--muted)}
+.disc{margin-top:20px;display:flex;gap:12px;align-items:flex-start;font-size:15px;color:var(--ink2);padding:16px 18px;border-radius:18px;background:var(--raise)}
+.sample{white-space:nowrap;background:var(--bad);color:#fff;font-size:12px;font-weight:700;padding:2px 9px;border-radius:999px}
+footer{margin-top:26px;text-align:center;font-size:13px;color:var(--muted)}
 </style>
 </head>
 <body>
 <div class="top"><div class="in">
-  <div class="logo">NV</div>
-  <div class="brand">NVDA เรดาร์<small id="updated">กำลังโหลด…</small></div>
+  <div class="logo">🐾</div>
+  <div class="brand">เหมียวส่องหุ้น NVDA<small id="updated">กำลังโหลด…</small></div>
   <div class="sp"></div>
-  <span class="pill" id="topPill"><span class="dot"></span><span>–</span></span>
+  <span id="sampleTag"></span>
   <button class="iconbtn" id="themeBtn" title="สลับโหมดสว่าง/มืด" aria-label="สลับธีม">🌗</button>
 </div></div>
 
 <main class="wrap">
-  <section class="hero">
+  <section class=.hero" style="margin-top:70px">
+    <div class="card peek">
+      <svg class="cat" viewBox="0 0 92 56" aria-hidden="true"><g>
+<path d="M14 56 L18 18 L34 30 Z" fill="#ffd3e2" stroke="#4a3646" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M78 56 L74 18 L58 30 Z" fill="#ffd3e2" stroke="#4a3646" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M8 56 C8 30 26 24 46 24 C66 24 84 30 84 56 Z" fill="#fff" stroke="#4a3646" stroke-width="2.5"/>
+<path d="M22 22 L20 31 L28 28 Z M70 22 L72 31 L64 28 Z" fill="#ff8fb8"/>
+<ellipse cx="33" cy="42" rx="3.4" ry="4.4" fill="#4a3646"/><ellipse cx="59" cy="42" rx="3.4" ry="4.4" fill="#4a3646"/>
+<circle cx="34.2" cy="40.5" r="1.2" fill="#fff"/><circle cx="60.2" cy="40.5" r="1.2" fill="#fff"/>
+<path d="M43 48 L49 48 L46 51 Z" fill="#ff8fb8"/>
+<ellipse cx="24" cy="50" rx="5" ry="3" fill="#ffb3cc" opacity=".7"/><ellipse cx="68" cy="50" rx="5" ry="3" fill="#ffb3cc" opacity=".7"/>
+<path d="M2 46 L18 47 M2 52 L18 51 M90 46 L74 47 M90 52 L74 51" stroke="#4a3646" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M30 56 q4 -5 8 0 M54 56 q4 -5 8 0" fill="#fff" stroke="#4a3646" stroke-width="2.2"/>
+</g></svg>
+      <div class="mood">
+        <div class="face" id="face">⏳</div>
+        <div>
+          <div class="hi">เหมียวว่าวันนี้ Nvidia…</div>
+          <div class="lvl" id="lvl">กำลังดู…</div>
+        </div>
+      </div>
+      <p class="say" id="say"></p>
+      <span class="chip" id="chip"></span>
+      <div class="steps" id="steps"></div>
+      <div class="stepsLab"><span>🙀 เสี่ยงมาก</span><span>ดีมาก 😻</span></div>
+      <div class="bhs" id="bhs"></div>
+      <p class="muted small" style="margin:8px 0 0">% = สัญญาณวันนี้เอียงไปทางไหนมากแค่ไหน ไม่ใช่โอกาสได้กำไร</p>
+    </div>
     <div class="card">
-      <p class="eyebrow">NVIDIA · NASDAQ: NVDA <span class="livetag"><span class="dot"></span>LIVE</span> <span id="sampleTag"></span></p>
+      <div class="hi">ราคาตอนนี้ <span class="live"><span class="dot"></span>LIVE</span></div>
       <div id="quote"></div>
-      <div class="stats" id="stats"></div>
-    </div>
-    <div class="card verdict">
-      <p class="eyebrow">ระดับความเสี่ยงวันนี้</p>
-      <svg class="gauge" viewBox="0 0 240 135" id="gauge" aria-hidden="true"></svg>
-      <div class="legend"><span>เสี่ยงมาก</span><span>ดีมาก</span></div>
-      <div class="lvl" id="lvl">–</div>
-      <div class="lean" id="lean"></div>
-      <div class="muted small num" id="scoreTxt" style="margin-top:8px"></div>
+      <ul class="tldr" id="tldr"></ul>
     </div>
   </section>
 
-  <section class="alertbar" id="alertbar">
-    <h3 id="alertTitle">กำลังตรวจกราฟ…</h3>
-    <div class="alist" id="alerts"></div>
+  <section class="card clock" id="clock">
+    <span class="st" id="mkState">🕘 ตลาดหุ้นสหรัฐฯ</span>
+    <span class="cd" id="mkCount"></span>
+    <div class="sess" id="mkSess"></div>
   </section>
 
-  <section class="row">
+  <section class="alerts" id="alerts">
+    <h3 id="aTitle">กำลังส่องกราฟ…</h3>
+    <div class="alist" id="alist"></div>
+  </section>
+
+  <section class="sec">
     <div class="card">
-      <div class="charthead">
-        <h2 style="margin:0">กราฟราคา <span class="livetag"><span class="dot"></span>LIVE</span></h2>
-        <div class="seg"><button class="on" data-t="tv">สด</button><button data-t="lw">วิเคราะห์</button></div>
+      <div class="chead">
+        <b style="font-size:19px">📈 กราฟ <span class="live"><span class="dot"></span>LIVE</span></b>
+        <div class="seg"><button class="on" data-t="tv">สด</button><button data-t="lw">ย้อนหลัง</button></div>
       </div>
       <div id="tv"></div>
       <div id="lw" hidden></div>
-      <div class="keyline" id="lwKey" hidden><span><i style="background:#3b82f6"></i>SMA 50</span><span><i style="background:#c084fc"></i>SMA 200</span><span>▼ วันที่พบความผิดปกติ</span></div>
+      <div class="keyline" id="lwKey" hidden><span><i style="background:#3b82f6"></i>เส้นเฉลี่ย 50 วัน</span><span><i style="background:#c084fc"></i>เส้นเฉลี่ย 200 วัน</span><span>▼ วันที่มีอะไรแปลกๆ</span></div>
     </div>
   </section>
 
-  <h2 style="margin:32px 4px 4px">💬 นักลงทุนคนอื่นคิดอย่างไร</h2>
-  <p class="sub" style="margin-left:4px">รวมความเห็น 3 กลุ่ม: นักลงทุนรายย่อย, อารมณ์ตลาดโดยรวม และนักวิเคราะห์ (ใช้ประกอบ ไม่ได้นำไปคิดในคะแนนความเสี่ยง)</p>
-  <section class="row three" style="margin-top:0">
-    <div class="card">
-      <p class="eyebrow">รายย่อย · StockTwits</p>
-      <div class="bigmeter"><span class="n num" id="stBull">–</span><span class="muted">มองขึ้น</span></div>
-      <div class="split" id="stSplit"></div>
-      <div class="splitlab"><span class="up" id="stBullN"></span><span class="down" id="stBearN"></span></div>
-      <svg class="spark" id="stSpark" preserveAspectRatio="none"></svg>
-      <div class="muted small" id="stNote"></div>
-      <div class="posts" id="stPosts"></div>
-    </div>
-    <div class="card">
-      <p class="eyebrow" id="mkEyebrow">อารมณ์ตลาดหุ้นสหรัฐฯ</p>
-      <div class="bigmeter"><span class="n num" id="fgScore">–</span><span id="fgLab" style="font-weight:700"></span></div>
-      <div class="fg"><i id="fgPin" style="left:50%"></i></div>
-      <div class="splitlab muted" id="mkScale"><span>กลัวสุดขีด</span><span>โลภสุดขีด</span></div>
-      <div class="kv" id="fgKv"></div>
-      <p class="muted small" style="margin-top:12px" id="mkNote"></p>
-    </div>
-    <div class="card">
-      <p class="eyebrow">นักวิเคราะห์ Wall Street</p>
-      <div id="anBox"></div>
-    </div>
-  </section>
-  <section class="row" style="margin-top:16px">
-    <div class="card">
-      <h2>📡 สัญญาณเทคนิคสด <span class="livetag"><span class="dot"></span>LIVE</span></h2>
-      <p class="sub">สรุปจาก 26 indicators โดย TradingView อัปเดตทันทีตามราคา เลือกกรอบเวลาได้</p>
-      <div id="tvta"></div>
-    </div>
-  </section>
-
-  <section class="row two">
-    <div class="card">
-      <h2>📰 ข่าวที่ผ่านการคัดกรอง <span class="muted small" id="newsCount"></span></h2>
-      <p class="sub">เฉพาะ Reuters · Bloomberg · AP · WSJ · FT · CNBC · Barron's · NVIDIA · SEC ฯลฯ ใน 48 ชม.</p>
-      <div class="filters" id="filters">
-        <button class="chipbtn on" data-f="all">ทั้งหมด</button>
-        <button class="chipbtn" data-f="pos">ข่าวดี</button>
-        <button class="chipbtn" data-f="neg">ข่าวร้าย</button>
-        <button class="chipbtn" data-f="t1">แหล่งหลัก</button>
+  <section class="sec">
+    <h2>💬 คนอื่นคิดยังไงกันบ้าง</h2>
+    <p class="lead">ดูไว้ประกอบเฉยๆ นะ คนในโซเชียลก็คิดผิดได้ (ส่วนนี้ไม่ได้เอาไปคิดคะแนน)</p>
+    <div class="grid g3">
+      <div class="card">
+        <div class="ctitle">🙋 นักลงทุนรายย่อย</div>
+        <div class="csub">จากโพสต์ล่าสุดบน StockTwits</div>
+        <div><span class="big num" id="stBig">–</span> <span class="verdict" id="stSay"></span></div>
+        <div class="split" id="stSplit"></div>
+        <div class="splitlab"><span class="up" id="stBull"></span><span class="down" id="stBear"></span></div>
+        <svg class="spark" id="stSpark" preserveAspectRatio="none"></svg>
+        <div class="muted small" id="stNote"></div>
+        <div class="posts" id="stPosts"></div>
       </div>
-      <ul class="news" id="news"></ul>
-      <div class="muted small" id="newsErr" style="margin-top:10px"></div>
-    </div>
-    <div class="card">
-      <h2>🧮 คะแนนมาจากไหน</h2>
-      <p class="sub">แท่งไปทางขวา = ดีต่อราคา · ไปทางซ้าย = เพิ่มความเสี่ยง</p>
-      <div class="bars" id="parts"></div>
+      <div class="card">
+        <div class="ctitle">🌡️ อารมณ์ตลาดโดยรวม</div>
+        <div class="csub" id="mkSrc">ทั้งตลาดหุ้นสหรัฐฯ ไม่ใช่แค่ NVDA</div>
+        <div><span class="big num" id="mkBig">–</span> <span class="verdict" id="mkSay"></span></div>
+        <div class="fg"><i id="mkPin" style="left:50%"></i></div>
+        <div class="splitlab muted" id="mkScale"><span>กลัว</span><span>ชิล</span></div>
+        <div class="kv" id="mkKv"></div>
+        <p class="muted small" id="mkNote" style="margin:12px 0 0"></p>
+      </div>
+      <div class="card">
+        <div class="ctitle">🎩 นักวิเคราะห์</div>
+        <div class="csub">โบรกฯ และนักวิเคราะห์ Wall Street</div>
+        <div id="anBox"></div>
+      </div>
     </div>
   </section>
 
-  <div class="disc"><span style="font-size:20px">⚠️</span><div><b>ไม่ใช่คำแนะนำการลงทุน</b> ระดับความเสี่ยงและคำว่า Buy/Sell มาจากกฎทางเทคนิคและโทนข่าวแบบง่าย ความเห็นนักลงทุนบนโซเชียลอาจมีอคติหรือถูกปั่น งานวิจัยพบว่าสัญญาณเหล่านี้พยากรณ์ได้จำกัด โปรดตัดสินใจด้วยตนเอง</div></div>
+  <section class="sec">
+    <h2>🔮 มองไปข้างหน้า</h2>
+    <p class="lead">แนวโน้มและความเสี่ยงที่ต้องจับตาในอีก 1–3 เดือน จากกราฟ ข่าว นักวิเคราะห์ และสถิติ</p>
+    <div class="card" style="margin-bottom:14px">
+      <div class="trend"><div class="tface" id="tFace">🐱</div>
+        <div><div class="hi">เหมียวว่าช่วงข้างหน้าน่าจะเป็น…</div><div class="tname" id="tName">–</div><div class="muted" id="tSay"></div></div></div>
+      <div class="tabs3" id="tTabs"></div>
+      <div class="tsig" id="tSig"></div>
+      <p class="muted small" style="margin:12px 0 0">ดูจากทิศทางของกราฟ 3 เดือนล่าสุด งานวิจัยพบว่าหุ้นที่มีแนวโน้มชัดมักไปต่อในทิศเดิมได้ระยะหนึ่ง (Moskowitz et al. 2012) แต่กลับตัวกะทันหันได้เสมอ โดยเฉพาะช่วงประกาศงบหรือมีข่าวใหญ่</p>
+    </div>
+    <div class="grid g3">
+      <div class="card">
+        <div class="ctitle">📰 จากข่าว</div>
+        <div class="csub">ประเด็นที่ข่าวพูดถึง เรียงจากน่ากังวลที่สุด</div>
+        <div id="olThemes"></div>
+        <div id="olAi"></div>
+      </div>
+      <div class="card">
+        <div class="ctitle">🎩 จากนักวิเคราะห์</div>
+        <div class="csub">นักวิเคราะห์เปลี่ยนมุมมองไปทางไหน + งานใหญ่ที่จะมาถึง</div>
+        <div id="olAn"></div>
+      </div>
+      <div class="card">
+        <div class="ctitle">📊 จากสถิติ</div>
+        <div class="csub">ถ้าแกว่งเท่าช่วงที่ผ่านมา ราคาน่าจะอยู่แถวไหน</div>
+        <div id="olRange"></div>
+      </div>
+    </div>
+  </section>
 
-  <details class="card">
-    <summary>วิธีคิดคะแนนและงานวิจัยอ้างอิง</summary>
+  <section class="sec">
+    <h2>📰 ข่าวล่าสุด</h2>
+    <p class="lead">คัดมาเฉพาะสำนักข่าวใหญ่ที่เชื่อถือได้ ใน 2 วันที่ผ่านมา <span id="newsCount"></span></p>
+    <div class="filters" id="filters">
+      <button class="fbtn on" data-f="all">ทั้งหมด</button>
+      <button class="fbtn" data-f="pos">😊 ข่าวดี</button>
+      <button class="fbtn" data-f="neg">😬 ข่าวร้าย</button>
+      <button class="fbtn" data-f="t1">⭐ แหล่งหลัก</button>
+    </div>
+    <ul class="news" id="news"></ul>
+    <div class="muted small" id="newsErr" style="margin-top:10px"></div>
+  </section>
+
+  <details class="card nerd" id="nerd">
+    <summary><span><b>🤓 สำหรับสายเทคนิค</b><br><span class="muted small">ตัวเลข อินดิเคเตอร์ และที่มาของคะแนน</span></span></summary>
+    <div class="stats" id="stats"></div>
+    <h4>คะแนนมาจากอะไรบ้าง</h4>
+    <p class="muted small" style="margin:0 0 8px">แท่งไปทางขวา = ดีต่อราคา · ไปทางซ้าย = เสี่ยงขึ้น · คะแนนรวม <b class="num" id="scoreTxt"></b></p>
+    <div class="bars" id="parts"></div>
+    <h4>สัญญาณเทคนิคสดจาก TradingView <span class="live"><span class="dot"></span>LIVE</span></h4>
+    <div id="tvta"></div>
+    <h4>วิธีคิด</h4>
     <ul>
-      <li><b>คัดแหล่งข่าว:</b> Tier 1 = NVIDIA Newsroom, SEC EDGAR, Reuters, Bloomberg, AP, WSJ, FT · Tier 2 = CNBC, Barron's, MarketWatch, NYT, The Economist, Nikkei Asia, The Information แหล่งอื่นถูกตัดทิ้ง "ยืนยัน N แหล่ง" คือจำนวนสำนักข่าวต่างกันที่รายงานเรื่องคล้ายกัน</li>
-      <li><b>โทนข่าว:</b> พจนานุกรมคำการเงินแบบ Loughran–McDonald อย่างย่อ หรือ Claude (เมื่อตั้งค่า API key) ข่าว Tier 1 และข่าวที่ยืนยันหลายแหล่งมีน้ำหนักมากกว่า</li>
+      <li><b>แหล่งข่าว:</b> แหล่งหลัก = NVIDIA Newsroom, SEC, Reuters, Bloomberg, AP, WSJ, FT · รอง = CNBC, Barron's, MarketWatch, NYT, The Economist, Nikkei Asia, The Information แหล่งอื่นตัดทิ้งหมด "ยืนยัน N แหล่ง" = มีกี่สำนักรายงานเรื่องเดียวกัน</li>
+      <li><b>ข่าวดี/ร้าย:</b> ใช้คำศัพท์การเงินแบบ Loughran–McDonald หรือ Claude ถ้าตั้งค่า API key ไว้</li>
       <li><b>เทคนิค:</b> SMA50/200, MACD, RSI14, Bollinger(20,2), ความผันผวน 20 วัน</li>
-      <li><b>ความผิดปกติ:</b> |z| ≥ 2.5 เทียบ 60 วัน · volume ≥ 2 เท่า · gap ≥ 3% · หลุด/ทะลุ Bollinger · Death/Golden Cross · drawdown ≥ 20% · ผันผวน ≥ 1.5 เท่าของค่ากลาง · ระหว่างวัน ≥ 4%</li>
-      <li><b>ความเห็นนักลงทุน:</b> สัดส่วนโพสต์ที่ผู้ใช้ติดป้าย Bullish/Bearish ใน 30 โพสต์ล่าสุดบน StockTwits, CNN Fear &amp; Greed Index (ถ้าดึงไม่ได้จะใช้ดัชนี VIX แทน), จำนวนคำแนะนำของนักวิเคราะห์ (Finnhub)</li>
+      <li><b>อะไรแปลกๆ:</b> ราคาวิ่งผิดปกติ (|z| ≥ 2.5), volume ≥ 2 เท่า, gap ≥ 3%, หลุด/ทะลุ Bollinger, Death/Golden Cross, ลงจากยอด ≥ 20%, ผันผวนสูงผิดปกติ, ระหว่างวัน ≥ 4%</li>
       <li><b>ระดับ:</b> คะแนน ≤ −2.5 เสี่ยงมาก · ≤ −0.75 เสี่ยง · &lt; 0.75 ปกติ · ≤ 2.5 ดี · มากกว่านั้น ดีมาก</li>
     </ul>
-    <p class="muted small">ข้อจำกัด: โทนข่าวเชิงลบกดราคาได้ในระยะสั้นแต่มักกลับตัวในไม่กี่วัน (Tetlock 2007) ความเห็นบนโซเชียลมีข้อมูลบางส่วนที่พยากรณ์ผลตอบแทนได้ (Chen et al. 2014) แต่ไม่สม่ำเสมอ กฎ moving average ได้ผลลดลงเมื่อหักต้นทุนและแก้ data-snooping (Brock et al. 1992; Sullivan et al. 1999; Park &amp; Irwin 2007)</p>
+    <p class="muted small">งานวิจัยบอกว่า: ข่าวร้ายกดราคาได้ช่วงสั้นแต่มักเด้งกลับในไม่กี่วัน (Tetlock 2007) ความเห็นบนโซเชียลพอมีข้อมูลบ้างแต่ไม่สม่ำเสมอ (Chen et al. 2014) และสัญญาณเส้นค่าเฉลี่ยได้ผลน้อยลงเมื่อหักค่าธรรมเนียม (Brock et al. 1992; Sullivan et al. 1999; Park &amp; Irwin 2007)</p>
     <ol class="refs">
       <li>Tetlock, P. C. (2007). Giving Content to Investor Sentiment: The Role of Media in the Stock Market. <i>Journal of Finance</i>. <a href="https://doi.org/10.1111/j.1540-6261.2007.01232.x">doi.org/10.1111/j.1540-6261.2007.01232.x</a></li>
       <li>Chen, H., De, P., Hu, Y. &amp; Hwang, B.-H. (2014). Wisdom of Crowds: The Value of Stock Opinions Transmitted Through Social Media. <i>Review of Financial Studies</i>. <a href="https://doi.org/10.1093/rfs/hhu001">doi.org/10.1093/rfs/hhu001</a></li>
@@ -265,11 +360,27 @@ footer{margin-top:24px;text-align:center;font-size:12.5px;color:var(--muted)}
       <li>Park, C.-H. &amp; Irwin, S. H. (2007). What Do We Know About the Profitability of Technical Analysis? <i>Journal of Economic Surveys</i>. <a href="https://doi.org/10.1111/j.1467-6419.2007.00519.x">doi.org/10.1111/j.1467-6419.2007.00519.x</a></li>
     </ol>
   </details>
-  <footer>ราคา กราฟ และสัญญาณเทคนิค: สดจาก TradingView · ข่าว ความเห็นนักลงทุน และคะแนน: อัปเดตทุก 10 นาทีช่วงตลาดสหรัฐฯ เปิด · หน้านี้ดึงข้อมูลใหม่เองทุก 2 นาที</footer>
+
+  <div class="disc"><span style="font-size:22px">🐱</span><div>เว็บนี้แค่ช่วยสรุปข้อมูลให้อ่านง่ายนะ <b>ไม่ใช่คำแนะนำการลงทุน</b> คำว่าซื้อ/ขายมาจากสูตรง่ายๆ ที่ผิดได้เสมอ ตัดสินใจเองและลงทุนเท่าที่รับความเสี่ยงไหวน้า</div></div>
+  <div style="text-align:center"><svg class="sleepcat" viewBox="0 0 150 70" aria-hidden="true">
+<path d="M18 62 C10 40 40 28 72 30 C104 32 128 40 124 58 Z" fill="#fff" stroke="#4a3646" stroke-width="2.5"/>
+<path d="M120 56 C140 54 146 40 136 34" fill="none" stroke="#4a3646" stroke-width="5" stroke-linecap="round"/>
+<path d="M120 56 C140 54 146 40 136 34" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+<path d="M22 44 L22 24 L36 34 Z M52 32 L56 14 L64 30 Z" fill="#ffd3e2" stroke="#4a3646" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M30 46 q4 3 8 0 M46 44 q4 3 8 0" fill="none" stroke="#4a3646" stroke-width="2" stroke-linecap="round"/>
+<ellipse cx="30" cy="54" rx="5" ry="3" fill="#ffb3cc"/>
+<text x="78" y="22" font-family="Nunito" font-weight="800" font-size="14" fill="#c9b6ff">z</text><text x="90" y="12" font-family="Nunito" font-weight="800" font-size="11" fill="#c9b6ff">z</text>
+</svg><div class="muted small">น้องเหมียวเฝ้าหุ้นให้ตลอด 24 ชม. 🐾</div></div>
+  <footer>ราคาและกราฟสดจาก TradingView · ข่าวและความเห็นอัปเดตทุก 10 นาทีตอนตลาดเปิด · หน้านี้รีเฟรชเองทุก 2 นาที</footer>
 </main>
 
 <script>
-const LEVELS=[["เสี่ยงมาก","vbad"],["เสี่ยง","bad"],["ปกติ","neutral"],["ดี","good"],["ดีมาก","vgood"]];
+const LV={vbad:{name:"เสี่ยงมาก",face:"🙀",chip:"👋 เอนไปทางขาย",say:"ช่วงนี้อันตรายหน่อย ถ้าถืออยู่ลองคิดเรื่องลดของลงบ้าง"},
+  bad:{name:"เสี่ยง",face:"😿",chip:"✋ ระวัง อย่าเพิ่งซื้อเพิ่ม",say:"มีสัญญาณไม่ค่อยดี ใจเย็นๆ ก่อน อาจขายบางส่วนเก็บกำไรไว้ก็ได้"},
+  neutral:{name:"ปกติ",face:"🐱",chip:"🤝 ถือไว้ก่อน รอดูต่อ",say:"ยังไม่มีอะไรหวือหวา ไม่ต้องรีบทำอะไร"},
+  good:{name:"ดี",face:"😺",chip:"👍 ทยอยเก็บได้",say:"สัญญาณค่อนข้างดี ถ้าอยากซื้อก็ค่อยๆ ทยอยเก็บ"},
+  vgood:{name:"ดีมาก",face:"😻",chip:"🚀 เอนไปทางซื้อ",say:"ภาพรวมดีมาก แต่อย่าลืมว่าขึ้นแรงก็ย่อแรงได้"}};
+const KEYS=["vbad","bad","neutral","good","vgood"];
 const css=k=>getComputedStyle(document.documentElement).getPropertyValue("--"+k).trim();
 const $=id=>document.getElementById(id);
 const fmt=(x,d=2)=>x==null||isNaN(x)?"–":Number(x).toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d});
@@ -278,16 +389,11 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 const isDark=()=>{const t=document.documentElement.dataset.theme;return t?t==="dark":matchMedia("(prefers-color-scheme: dark)").matches};
 const ago=iso=>{if(!iso)return"";const m=(Date.now()-new Date(iso))/6e4;
   return m<60?Math.max(1,Math.round(m))+" นาทีที่แล้ว":m<1440?Math.round(m/60)+" ชม.ที่แล้ว":Math.round(m/1440)+" วันที่แล้ว"};
-const AV={"Reuters":["R","#ff8000"],"Bloomberg":["B","#5b2ee8"],"Associated Press":["AP","#d0021b"],"The Wall Street Journal":["WSJ","#222"],
-  "Financial Times":["FT","#c4794d"],"CNBC":["CN","#0060a8"],"Barron's":["BA","#1a3c6e"],"MarketWatch":["MW","#3d8b37"],
-  "The New York Times":["NYT","#333"],"The Economist":["E","#e3120b"],"Nikkei Asia":["NK","#0b3d91"],"The Information":["TI","#555"]};
-const av=src=>src.startsWith("NVIDIA")?["NV","#76b900"]:src.startsWith("SEC")?["SEC","#1f4e79"]:AV[src]||[src[0],"#555"];
 
 try{const t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}
 $("themeBtn").onclick=()=>{const n=isDark()?"light":"dark";document.documentElement.dataset.theme=n;
   try{localStorage.setItem("theme",n)}catch(e){};mountWidgets();if(data)render(data)};
 
-// ---- TradingView live widgets (no API key needed) ----
 function tvWidget(id,file,cfg){
   const el=$(id);el.innerHTML="";
   const box=document.createElement("div");box.className="tradingview-widget-container";box.style.height="100%";
@@ -295,21 +401,23 @@ function tvWidget(id,file,cfg){
   const s=document.createElement("script");s.src="https://s3.tradingview.com/external-embedding/"+file;s.async=true;s.innerHTML=JSON.stringify(cfg);
   box.append(inner,s);el.append(box);
 }
+function mountTA(){tvWidget("tvta","embed-widget-technical-analysis.js",{symbol:"NASDAQ:NVDA",interval:"1h",width:"100%",height:"100%",
+  isTransparent:true,showIntervalTabs:true,displayMode:"multiple",locale:"th_TH",colorTheme:isDark()?"dark":"light"})}
 function mountWidgets(){
   const th=isDark()?"dark":"light";
   tvWidget("quote","embed-widget-single-quote.js",{symbol:"NASDAQ:NVDA",width:"100%",colorTheme:th,isTransparent:true,locale:"th_TH"});
   tvWidget("tv","embed-widget-advanced-chart.js",{symbol:"NASDAQ:NVDA",interval:"D",timezone:"Asia/Bangkok",theme:th,style:"1",
-    locale:"th_TH",autosize:true,allow_symbol_change:false,hide_side_toolbar:true,backgroundColor:css("surface"),gridColor:css("line"),studies:["STD;RSI"]});
-  tvWidget("tvta","embed-widget-technical-analysis.js",{symbol:"NASDAQ:NVDA",interval:"1h",width:"100%",height:"100%",isTransparent:true,
-    showIntervalTabs:true,displayMode:"multiple",locale:"th_TH",colorTheme:th});
+    locale:"th_TH",autosize:true,allow_symbol_change:false,hide_side_toolbar:true,hide_top_toolbar:false,backgroundColor:css("surface"),gridColor:css("line")});
+  if($("nerd").open)mountTA();
   setTimeout(()=>{if(!$("quote").querySelector("iframe")&&data)fallbackQuote()},6000);
 }
 mountWidgets();
+$("nerd").addEventListener("toggle",()=>{if($("nerd").open&&!$("tvta").querySelector("iframe"))mountTA()});
+
 function fallbackQuote(){
   const t=data.tech,live=data.intraday&&data.intraday.price,px=live?data.intraday.price:t.close,prev=live?data.intraday.prev_close:t.prev_close,ch=(px/prev-1)*100;
-  $("quote").innerHTML=`<div class="fallback" style="padding:6px 8px"><span class="price num">$${fmt(px)}</span>
-    <span class="delta num ${ch>=0?"up":"down"}">${ch>=0?"▲ +":"▼ "}${fmt(ch)}%</span></div>
-    <div class="muted small" style="padding:0 8px">ราคา ณ รอบอัปเดตล่าสุด</div>`;
+  $("quote").innerHTML=`<div style="display:flex;flex-wrap:wrap;align-items:flex-end;gap:6px 12px;padding:8px 8px 0"><span class="price num">$${fmt(px)}</span>
+    <span class="delta num ${ch>=0?"up":"down"}">${ch>=0?"▲ +":"▼ "}${fmt(ch)}%</span></div>`;
 }
 
 let data,filter="all";
@@ -324,7 +432,7 @@ document.querySelectorAll("#filters button").forEach(b=>b.onclick=()=>{
 function drawLW(){
   if(!data||!window.LightweightCharts)return;
   const el=$("lw");el.innerHTML="";
-  const chart=LightweightCharts.createChart(el,{autoSize:true,layout:{background:{color:"transparent"},textColor:css("muted"),fontFamily:"Inter"},
+  const chart=LightweightCharts.createChart(el,{autoSize:true,layout:{background:{color:"transparent"},textColor:css("muted"),fontFamily:"Nunito"},
     grid:{vertLines:{visible:false},horzLines:{color:css("line")}},rightPriceScale:{borderVisible:false},timeScale:{borderVisible:false},crosshair:{mode:0}});
   const cs=chart.addCandlestickSeries({upColor:css("up"),downColor:css("down"),borderVisible:false,wickUpColor:css("up"),wickDownColor:css("down")});
   cs.setData(data.candles.map(r=>({time:r.t,open:r.o,high:r.h,low:r.l,close:r.c})));
@@ -334,130 +442,224 @@ function drawLW(){
   const vs=chart.addHistogramSeries({priceScaleId:"v",priceFormat:{type:"volume"},lastValueVisible:false,priceLineVisible:false});
   chart.priceScale("v").applyOptions({scaleMargins:{top:.84,bottom:0}});
   vs.setData(data.candles.map(r=>({time:r.t,value:r.v,color:(r.c>=r.o?css("up"):css("down"))+"40"})));
-  if(data.anomalies.length)cs.setMarkers([{time:data.candles.at(-1).t,position:"aboveBar",color:css("vbad"),shape:"arrowDown",text:"ผิดปกติ"}]);
+  if(data.anomalies.length)cs.setMarkers([{time:data.candles.at(-1).t,position:"aboveBar",color:css("vbad"),shape:"arrowDown",text:"แปลกๆ"}]);
   chart.timeScale().setVisibleLogicalRange({from:data.candles.length-130,to:data.candles.length+2});
 }
 
-function gauge(score,key){
-  const cx=120,cy=118,r=92,w=18,gap=2.4,seg=36,col=LEVELS.map(l=>css(l[1]));
-  const pt=(a,rr=r)=>[cx-rr*Math.cos(Math.PI*a/180),cy-rr*Math.sin(Math.PI*a/180)];
-  let s="";
-  for(let i=0;i<5;i++){const [x0,y0]=pt(i*seg+gap/2),[x1,y1]=pt((i+1)*seg-gap/2),on=LEVELS[i][1]===key;
-    s+=`<path d="M${x0} ${y0} A${r} ${r} 0 0 1 ${x1} ${y1}" stroke="${col[i]}" stroke-width="${on?w+6:w}" fill="none" opacity="${on?1:.25}"/>`}
-  const a=(Math.max(-5,Math.min(5,score))+5)/10*180,[nx,ny]=pt(a,r-30);
-  s+=`<line x1="${cx}" y1="${cy}" x2="${nx}" y2="${ny}" stroke="${css("ink")}" stroke-width="4" stroke-linecap="round"/>
-      <circle cx="${cx}" cy="${cy}" r="9" fill="${css("ink")}"/><circle cx="${cx}" cy="${cy}" r="3.5" fill="${css("surface")}"/>`;
-  $("gauge").innerHTML=s;
-}
-
+const newsMood=s=>s>0.15?["pos","😊","ข่าวดี"]:s<-0.15?["neg","😬","ข่าวร้าย"]:["","📄","กลางๆ"];
 function renderNews(){
   const all=data.news,list=all.filter(n=>filter==="all"||(filter==="pos"&&n.sentiment>0.15)||(filter==="neg"&&n.sentiment<-0.15)||(filter==="t1"&&n.tier===1));
-  $("newsCount").textContent=all.length+" ข่าว";
-  $("news").innerHTML=list.length?list.map(n=>{
-    const s=n.sentiment,c=s>0.15?"pos":s<-0.15?"neg":"",lab=s>0.15?"ข่าวดี":s<-0.15?"ข่าวร้าย":"เป็นกลาง",[a,bg]=av(n.source);
-    return `<li><a class="nitem ${c}" href="${esc(n.url)}" target="_blank" rel="noopener">
-      <span class="av" style="background:${bg}">${esc(a)}</span>
+  $("newsCount").textContent=`(${all.length} ข่าว)`;
+  $("news").innerHTML=list.length?list.map(n=>{const [c,e,lab]=newsMood(n.sentiment);
+    return `<li><a class="nitem" href="${esc(n.url)}" target="_blank" rel="noopener">
+      <span class="nface" style="${c?`background:color-mix(in srgb,var(--${c==="pos"?"up":"down"}) 14%,transparent)`:""}">${e}</span>
       <span style="min-width:0"><div class="ntitle">${esc(n.summary_th||n.title)}</div>
       ${n.summary_th?`<div class="nth">${esc(n.title)}</div>`:""}
-      <div class="meta"><b style="color:var(--ink2)">${esc(n.source)}</b><span>${ago(n.published)}</span>
-        <span class="tag ${c}">${lab}</span>${n.tier===1?'<span class="tag ok">แหล่งหลัก</span>':""}
-        ${n.corroborated_by>1?`<span class="tag ok">✓ ยืนยัน ${n.corroborated_by} แหล่ง</span>`:""}</div></span></a></li>`}).join("")
-    :'<li class="muted">ไม่มีข่าวในหมวดนี้</li>';
+      <div class="meta"><b style="color:var(--ink2)">${esc(n.source.replace(" (ทางการ)",""))}</b><span>· ${ago(n.published)}</span>
+        <span class="tag">${lab}</span>${n.tier===1?'<span class="tag ok">⭐ แหล่งหลัก</span>':""}
+        ${n.corroborated_by>1?`<span class="tag ok">✓ ${n.corroborated_by} สำนักรายงานตรงกัน</span>`:""}</div></span></a></li>`}).join("")
+    :'<li class="muted">ยังไม่มีข่าวในหมวดนี้</li>';
 }
 
-function renderSentiment(S){
+function renderCrowd(S){
   S=S||{};
   const st=S.stocktwits;
   if(st&&st.bull_pct!=null){
-    const b=st.bull_pct,c=b>=60?"up":b<=40?"down":"";
-    $("stBull").textContent=fmt(b,0)+"%";$("stBull").className="n num "+c;
+    const b=st.bull_pct,say=b>=70?["คึกมาก 🔥","up"]:b>=55?["ค่อนข้างมองขึ้น","up"]:b>45?["ครึ่งๆ","neutral"]:b>30?["ค่อนข้างกังวล","down"]:["กลัวกันหนัก 🥶","down"];
+    $("stBig").textContent=fmt(b,0)+"%";$("stBig").className="big num "+(b>=55?"up":b<=45?"down":"");
+    $("stSay").textContent="มองขึ้น · "+say[0];
     $("stSplit").innerHTML=`<div style="width:${b}%;background:var(--up)"></div><div style="width:${100-b}%;background:var(--down)"></div>`;
-    $("stBullN").textContent="🐂 กระทิง "+st.bull;$("stBearN").textContent="หมี "+st.bear+" 🐻";
-    $("stNote").textContent=`จาก ${st.messages} โพสต์ล่าสุด (ติดป้าย ${st.bull+st.bear})`+(st.watchers?` · ผู้ติดตาม ${fmt(st.watchers,0)} คน`:"");
-    $("stPosts").innerHTML=(st.sample||[]).slice(0,3).map(p=>`<div class="post"><b style="background:var(--${p.tag==="Bullish"?"up":"down"})">${p.tag==="Bullish"?"กระทิง":"หมี"}</b>${esc(p.body)}<div class="muted small">${ago(p.at)}</div></div>`).join("");
-  }else{$("stBull").textContent="–";$("stNote").textContent="ดึงข้อมูล StockTwits ไม่ได้ในรอบนี้"}
+    $("stBull").textContent="🐂 มองขึ้น "+st.bull;$("stBear").textContent="มองลง "+st.bear+" 🐻";
+    $("stNote").textContent=`จาก ${st.bull+st.bear} โพสต์ที่บอกฝั่งชัดเจน`;
+    $("stPosts").innerHTML=(st.sample||[]).slice(0,2).map(p=>`<div class="post"><b style="background:var(--${p.tag==="Bullish"?"up":"down"})">${p.tag==="Bullish"?"🐂 ขึ้น":"🐻 ลง"}</b>${esc(p.body)}<div class="muted small">${ago(p.at)}</div></div>`).join("");
+  }else{$("stBig").textContent="–";$("stNote").textContent="รอบนี้ดึงข้อมูลไม่ได้ เดี๋ยวลองใหม่"}
   const h=(S.history||[]).map(x=>x.bull_pct);
-  if(h.length>1){const W=300,H=56,mn=Math.min(...h,40),mx=Math.max(...h,60),y=v=>H-4-(v-mn)/(mx-mn||1)*(H-8);
-    const pts=h.map((v,i)=>`${(i/(h.length-1)*W).toFixed(1)},${y(v).toFixed(1)}`).join(" ");
+  if(h.length>1){const W=300,H=50,mn=Math.min(...h,40),mx=Math.max(...h,60),y=v=>H-4-(v-mn)/(mx-mn||1)*(H-8);
     $("stSpark").setAttribute("viewBox",`0 0 ${W} ${H}`);
     $("stSpark").innerHTML=`<line x1="0" x2="${W}" y1="${y(50)}" y2="${y(50)}" stroke="${css("line")}" stroke-dasharray="3 3"/>
-      <polyline points="${pts}" fill="none" stroke="${css("accent")}" stroke-width="2" vector-effect="non-scaling-stroke"/>`;
+      <polyline points="${h.map((v,i)=>`${(i/(h.length-1)*W).toFixed(1)},${y(v).toFixed(1)}`).join(" ")}" fill="none" stroke="${css("accent")}" stroke-width="2" vector-effect="non-scaling-stroke"/>`;
   }else $("stSpark").innerHTML="";
 
   const fg=S.fear_greed,vx=S.vix;
   if(fg&&fg.score!=null){
-    const L={"extreme fear":["กลัวสุดขีด","vbad"],"fear":["กลัว","bad"],"neutral":["เป็นกลาง","neutral"],"greed":["โลภ","good"],"extreme greed":["โลภสุดขีด","vgood"]}[fg.rating]||[fg.rating,"neutral"];
-    $("mkEyebrow").textContent="อารมณ์ตลาดหุ้นสหรัฐฯ · CNN Fear & Greed";
-    $("fgScore").textContent=fmt(fg.score,0);$("fgLab").textContent=L[0];$("fgLab").style.color=`var(--${L[1]})`;$("fgPin").style.left=fg.score+"%";
-    $("mkScale").innerHTML="<span>กลัวสุดขีด</span><span>โลภสุดขีด</span>";
-    $("fgKv").innerHTML=[["เมื่อวาน",fg.previous_close],["1 สัปดาห์ก่อน",fg.previous_1_week],["1 เดือนก่อน",fg.previous_1_month]]
-      .map(([k,v])=>`<span class="muted">${k}</span><span class="num">${fmt(v,0)}</span>`).join("");
-    $("mkNote").textContent="ดัชนีวัดอารมณ์ทั้งตลาด ไม่ใช่เฉพาะ NVDA ค่าต่ำ = นักลงทุนกลัว ค่าสูง = นักลงทุนโลภ";
+    const L={"extreme fear":["กลัวสุดๆ 😱","vbad"],"fear":["กลัว 😨","bad"],"neutral":["เฉยๆ 😐","neutral"],"greed":["โลภ 🤑","good"],"extreme greed":["โลภสุดๆ 🤑🤑","vgood"]}[fg.rating]||[fg.rating,"neutral"];
+    $("mkSrc").textContent="CNN Fear & Greed · ทั้งตลาดหุ้นสหรัฐฯ";
+    $("mkBig").textContent=fmt(fg.score,0);$("mkSay").textContent=L[0];$("mkSay").style.color=`var(--${L[1]})`;$("mkPin").style.left=fg.score+"%";
+    $("mkScale").innerHTML="<span>กลัว</span><span>โลภ</span>";
+    $("mkKv").innerHTML=[["เมื่อวาน",fg.previous_close],["สัปดาห์ก่อน",fg.previous_1_week],["เดือนก่อน",fg.previous_1_month]].map(([k,v])=>`<span class="muted">${k}</span><span class="num">${fmt(v,0)}</span>`).join("");
+    $("mkNote").textContent="0 = กลัวสุดๆ · 100 = โลภสุดๆ";
   }else if(vx&&vx.value!=null){
-    const v=vx.value,L=v>=30?["กลัวมาก","vbad"]:v>=20?["กังวล","bad"]:v>=15?["ปกติ","neutral"]:["ชะล่าใจ/โลภ","good"];
-    $("mkEyebrow").textContent="ดัชนีความกลัวตลาดสหรัฐฯ · VIX";
-    $("fgScore").textContent=fmt(v,1);$("fgLab").textContent=L[0];$("fgLab").style.color=`var(--${L[1]})`;
-    $("fgPin").style.left=Math.max(0,Math.min(100,100-(v-10)/30*100))+"%";
-    $("mkScale").innerHTML="<span>กลัว (VIX 40)</span><span>สงบ (VIX 10)</span>";
-    $("fgKv").innerHTML=[["เมื่อวาน",vx.prev_close],["1 สัปดาห์ก่อน",vx.week_ago],["1 เดือนก่อน",vx.month_ago]]
-      .map(([k,x])=>`<span class="muted">${k}</span><span class="num">${fmt(x,1)}</span>`).join("");
-    $("mkNote").textContent="VIX วัดความผันผวนที่ตลาดคาดใน 30 วันข้างหน้า ยิ่งสูง = นักลงทุนยิ่งกลัว (ต่ำกว่า 15 สงบ · 20–30 กังวล · เกิน 30 กลัวมาก)";
-  }else{$("fgScore").textContent="–";$("fgLab").textContent="ดึงข้อมูลไม่ได้ในรอบนี้"}
+    const v=vx.value,L=v>=30?["กลัวกันมาก 😱","vbad"]:v>=20?["เริ่มกังวล 😨","bad"]:v>=15?["ปกติดี 😐","neutral"]:["ชิลมาก 😎","good"];
+    $("mkSrc").textContent="ดัชนีความกลัว VIX · ทั้งตลาดหุ้นสหรัฐฯ";
+    $("mkBig").textContent=fmt(v,1);$("mkSay").textContent=L[0];$("mkSay").style.color=`var(--${L[1]})`;
+    $("mkPin").style.left=Math.max(0,Math.min(100,100-(v-10)/30*100))+"%";
+    $("mkScale").innerHTML="<span>กลัว</span><span>ชิล</span>";
+    $("mkKv").innerHTML=[["เมื่อวาน",vx.prev_close],["สัปดาห์ก่อน",vx.week_ago],["เดือนก่อน",vx.month_ago]].map(([k,x])=>`<span class="muted">${k}</span><span class="num">${fmt(x,1)}</span>`).join("");
+    $("mkNote").textContent="ยิ่งตัวเลขสูง คนยิ่งกลัว · ต่ำกว่า 15 ชิล · 20–30 กังวล · เกิน 30 กลัวมาก";
+  }else{$("mkBig").textContent="–";$("mkSay").textContent="รอบนี้ดึงไม่ได้"}
 
   const an=S.analysts;
   if(an){
-    const parts=[["ซื้อมาก",an.strongBuy,"vgood"],["ซื้อ",an.buy,"good"],["ถือ",an.hold,"neutral"],["ขาย",an.sell,"bad"],["ขายมาก",an.strongSell,"vbad"]];
-    const tot=parts.reduce((a,p)=>a+(p[1]||0),0),buy=(an.strongBuy||0)+(an.buy||0);
-    $("anBox").innerHTML=`<div class="bigmeter"><span class="n num up">${fmt(buy/tot*100,0)}%</span><span class="muted">แนะนำซื้อ</span></div>
+    const parts=[["ซื้อเลย",an.strongBuy,"vgood"],["ซื้อ",an.buy,"good"],["ถือ",an.hold,"neutral"],["ขาย",an.sell,"bad"],["ขายเลย",an.strongSell,"vbad"]];
+    const tot=parts.reduce((a,p)=>a+(p[1]||0),0),buy=(an.strongBuy||0)+(an.buy||0),pct=buy/tot*100;
+    $("anBox").innerHTML=`<div><span class="big num ${pct>=50?"up":""}">${fmt(pct,0)}%</span> <span class="verdict">บอกให้ซื้อ</span></div>
       <div class="stack">${parts.filter(p=>p[1]).map(p=>`<div style="flex:${p[1]};background:var(--${p[2]})">${p[1]}</div>`).join("")}</div>
       <div class="legend2">${parts.map(p=>`<span><i style="background:var(--${p[2]})"></i>${p[0]} ${p[1]||0}</span>`).join("")}</div>
-      <p class="muted small" style="margin-top:12px">จากนักวิเคราะห์ ${tot} ราย · ข้อมูลรอบ ${esc(an.period)} (Finnhub)</p>`;
+      <p class="muted small" style="margin:12px 0 0">จากนักวิเคราะห์ ${tot} คน · ข้อมูลรอบ ${esc(an.period)}</p>`;
   }else{
-    $("anBox").innerHTML=`<p class="muted small" style="margin:0">ยังไม่ได้เปิดใช้ (ใส่ FINNHUB_API_KEY ฟรีเพื่อแสดงจำนวนคำแนะนำ ซื้อ/ถือ/ขาย)</p>
-      <p class="small" style="margin-top:10px">ระหว่างนี้ดูสัญญาณเทคนิคสดจาก TradingView ด้านล่าง</p>`;
+    $("anBox").innerHTML=`<p style="margin:0">ยังไม่ได้เปิดส่วนนี้ 🔒</p><p class="muted small">ต้องใส่ key ฟรีจาก Finnhub ก่อน ถึงจะเห็นว่านักวิเคราะห์กี่คนบอกซื้อ/ถือ/ขาย<br>ระหว่างนี้ลองเปิดดู "สัญญาณเทคนิคสด" ในส่วนสายเทคนิคด้านล่างได้</p>`;
   }
+}
+
+// ---- US market clock (handles US daylight saving automatically) ----
+const HOLI=new Set(["2026-01-01","2026-01-19","2026-02-16","2026-04-03","2026-05-25","2026-06-19","2026-07-03","2026-09-07","2026-11-26","2026-12-25",
+  "2027-01-01","2027-01-18","2027-02-15","2027-03-26","2027-05-31","2027-06-18","2027-07-05","2027-09-06","2027-11-25","2027-12-24"]);
+const HALF=new Set(["2026-11-27","2026-12-24","2027-11-26"]);
+function nyNow(){const p=Object.fromEntries(new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hourCycle:"h23",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit"}).formatToParts(new Date()).map(x=>[x.type,x.value]));
+  return {y:+p.year,m:+p.month,d:+p.day,min:+p.hour*60+ +p.minute+ +p.second/60}}
+function clock(){
+  const n=nyNow(),offset=Date.UTC(n.y,n.m-1,n.d,0,0)+n.min*6e4-Date.now();
+  const at=(y,m,d,min)=>new Date(Date.UTC(y,m-1,d,0,0)+min*6e4-offset);
+  const key=(y,m,d)=>new Date(Date.UTC(y,m-1,d)).toISOString().slice(0,10);
+  const trading=(y,m,d)=>{const w=new Date(Date.UTC(y,m-1,d)).getUTCDay();return w>0&&w<6&&!HOLI.has(key(y,m,d))};
+  const close=(y,m,d)=>HALF.has(key(y,m,d))?780:960;
+  const th=dt=>dt.toLocaleTimeString("th-TH",{timeZone:"Asia/Bangkok",hour:"2-digit",minute:"2-digit"});
+  const left=dt=>{const m=Math.max(0,Math.round((dt-Date.now())/6e4)),h=Math.floor(m/60);return(h?h+" ชม. ":"")+(m%60)+" นาที"};
+  const today=trading(n.y,n.m,n.d),c=close(n.y,n.m,n.d);
+  let state,cd,sess;
+  if(today&&n.min>=570&&n.min<c){state=["🟢 ตลาดเปิดอยู่","up"];cd=`ปิดในอีก ${left(at(n.y,n.m,n.d,c))} (ปิด ${th(at(n.y,n.m,n.d,c))} น.)`;sess="reg"}
+  else if(today&&n.min>=240&&n.min<570){state=["🌅 ช่วงก่อนตลาดเปิด (Pre-market)","bad"];cd=`ตลาดเปิดจริงในอีก ${left(at(n.y,n.m,n.d,570))} (${th(at(n.y,n.m,n.d,570))} น.)`;sess="pre"}
+  else if(today&&n.min>=c&&n.min<1200){state=["🌙 ช่วงหลังตลาดปิด (After-hours)","bad"];cd=`ซื้อขายนอกเวลาได้อีก ${left(at(n.y,n.m,n.d,1200))}`;sess="post"}
+  else{state=["🔴 ตลาดปิด","down"];
+    let y=n.y,m=n.m,d=n.d;if(today&&n.min<240){}else{for(let i=0;i<10;i++){const t=new Date(Date.UTC(y,m-1,d+1));y=t.getUTCFullYear();m=t.getUTCMonth()+1;d=t.getUTCDate();if(trading(y,m,d))break}}
+    if(!trading(y,m,d)){for(let i=0;i<10;i++){const t=new Date(Date.UTC(y,m-1,d+1));y=t.getUTCFullYear();m=t.getUTCMonth()+1;d=t.getUTCDate();if(trading(y,m,d))break}}
+    const o=at(y,m,d,570);cd=`เปิดอีกครั้งในอีก ${left(o)} (${o.toLocaleString("th-TH",{timeZone:"Asia/Bangkok",weekday:"short",hour:"2-digit",minute:"2-digit"})} น.)`;sess=""}
+  const o=at(n.y,n.m,n.d,570),cl=at(n.y,n.m,n.d,c),pr=at(n.y,n.m,n.d,240),af=at(n.y,n.m,n.d,1200);
+  $("mkState").textContent=state[0];$("mkCount").textContent=cd;
+  $("mkSess").innerHTML=`<span class="${sess==="pre"?"on":""}">ก่อนเปิด ${th(pr)}–${th(o)}</span><span class="${sess==="reg"?"on":""}">เวลาปกติ ${th(o)}–${th(cl)}</span><span class="${sess==="post"?"on":""}">หลังปิด ${th(cl)}–${th(af)}</span><span>เวลาไทย</span>`;
+}
+clock();setInterval(clock,30000);
+
+function bhs(score){
+  const sig=x=>1/(1+Math.exp(-x));let b=sig(1.2*(score-0.75)),s=sig(1.2*(-score-0.75));
+  if(b+s>1){const k=b+s;b/=k;s/=k}const h=1-b-s;
+  const P=[["🟢 ซื้อ",b,"up"],["⚪ ถือ",h,"neutral"],["🔴 ขาย",s,"down"]].map(x=>[x[0],Math.round(x[1]*100),x[2]]);
+  const diff=100-P.reduce((a,x)=>a+x[1],0);P[1][1]+=diff;
+  $("bhs").innerHTML=P.map(([l,p,c])=>`<div class="r"><span>${l}</span><div class="t"><div style="width:${p}%;background:var(--${c})"></div></div><b class="num">${p}%</b></div>`).join("");
+}
+
+function regime(d){
+  const C=d.candles,n=C.length-1,c=C.map(r=>r.c),last=C[n],p20=C[n-20];
+  const slope=(last.sma50-p20.sma50)/p20.sma50*100,ret63=(c[n]/c[n-63]-1)*100;
+  let path=0;for(let i=n-19;i<=n;i++)path+=Math.abs(c[i]-c[i-1]);const er=Math.abs(c[n]-c[n-20])/path;
+  const sig=[[last.c>last.sma50,"ราคาอยู่เหนือเส้นเฉลี่ย 50 วัน","ราคาอยู่ใต้เส้นเฉลี่ย 50 วัน"],
+    [last.c>last.sma200,"ราคาอยู่เหนือเส้นเฉลี่ย 200 วัน","ราคาอยู่ใต้เส้นเฉลี่ย 200 วัน"],
+    [slope>0,`เส้น 50 วันกำลังชี้ขึ้น (${slope>0?"+":""}${fmt(slope,1)}% ใน 1 เดือน)`,`เส้น 50 วันกำลังชี้ลง (${fmt(slope,1)}% ใน 1 เดือน)`],
+    [ret63>0,`3 เดือนที่ผ่านมาขึ้น ${fmt(ret63,1)}%`,`3 เดือนที่ผ่านมาลง ${fmt(Math.abs(ret63),1)}%`]];
+  const b=sig.filter(x=>x[0]).length;
+  let k=b>=3&&er>=0.2?"up":b<=1&&er>=0.2?"down":"swing";
+  return {k,b,er,sig};
+}
+const RG={up:{face:"😼",name:"ขาขึ้น 📈",c:"up",say:"กราฟกำลังไต่ขึ้นอย่างมีทิศทาง"},
+  down:{face:"😿",name:"ขาลง 📉",c:"down",say:"กราฟกำลังไหลลง ระวังรับมีด"},
+  swing:{face:"🐱",name:"สวิง ไซด์เวย์ 〰️",c:"neutral",say:"ขึ้นๆ ลงๆ ยังไม่เลือกทาง"}};
+function renderTrend(d){
+  if(!d.candles||d.candles.length<70)return;
+  const r=regime(d),R=RG[r.k],strength=r.k==="swing"?"":r.b===4&&r.er>=0.35?" · แนวโน้มชัดมาก":r.b>=3||r.b<=1?" · ค่อนข้างชัด":"";
+  $("tFace").textContent=R.face;$("tName").textContent=R.name;$("tName").style.color=`var(--${R.c})`;
+  $("tSay").textContent=R.say+strength;
+  $("tTabs").innerHTML=[["down","📉 ขาลง"],["swing","〰️ สวิง"],["up","📈 ขาขึ้น"]].map(([k,l])=>`<span style="${k===r.k?`background:color-mix(in srgb,var(--${RG[k].c}) 22%,transparent);color:var(--${RG[k].c})`:""}">${l}</span>`).join("");
+  $("tSig").innerHTML=r.sig.map(([ok,a,b])=>`<div>${ok?"✅":"❌"} ${ok?a:b}</div>`).join("")+
+    `<div>${r.er>=0.2?"🧭":"〰️"} ${r.er>=0.2?"เดือนนี้วิ่งเป็นทิศทาง":"เดือนนี้แกว่งไปมา ไม่ค่อยมีทิศ"} (${fmt(r.er*100,0)}/100)</div>`;
+  return r;
+}
+
+function renderOutlook(d){
+  const O=d.outlook;
+  if(!O){$("olThemes").innerHTML='<p class="muted small">กำลังเก็บข้อมูลรอบแรก รออัปเดตครั้งถัดไปนะ</p>';$("olAn").innerHTML="";$("olRange").innerHTML="";return}
+  $("olThemes").innerHTML=O.themes.length?O.themes.slice(0,5).map(t=>{const [e,w]=t.tone<-0.15?["⚠️","น่ากังวล"]:t.tone>0.15?["✅","เป็นบวก"]:["👀","จับตาไว้"];
+    return `<div class="theme"><span class="e">${e}</span><span><b>${esc(t.label)}</b> · ${w}<small>${t.count} ข่าว · เช่น "${esc(t.example.slice(0,90))}"</small></span></div>`}).join("")
+    :'<p class="muted small">ช่วงนี้ไม่มีประเด็นเด่นในข่าว</p>';
+  $("olAi").innerHTML=O.ai&&O.ai.length?`<div class="ev"><b>🤖 Claude สรุปจากข่าว</b><ul style="margin:6px 0 0;padding-left:20px">${O.ai.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`:"";
+
+  const an=d.sentiment&&d.sentiment.analysts;
+  if(an&&an.history&&an.history.length>1){
+    const pct=x=>{const t=x.strongBuy+x.buy+x.hold+x.sell+x.strongSell;return t?(x.strongBuy+x.buy)/t*100:0};
+    const now=pct(an.history[0]),old=pct(an.history.at(-1)),dlt=now-old;
+    const say=dlt>=3?["📈 มองดีขึ้นเรื่อยๆ","up"]:dlt<=-3?["📉 เริ่มมองแย่ลง","down"]:["➡️ มุมมองคงเดิม","neutral"];
+    let ev="";const ne=an.next_earnings;
+    if(ne&&ne.date){const dd=Math.ceil((new Date(ne.date+"T21:00:00Z")-Date.now())/864e5);
+      ev=`<div class="ev">🗓️ <b>ประกาศงบครั้งถัดไป</b> ${new Date(ne.date+"T12:00:00Z").toLocaleDateString("th-TH",{day:"numeric",month:"short",year:"2-digit"})} ${ne.hour==="amc"?"(หลังตลาดปิด ≈ เช้าวันถัดไปเวลาไทย)":ne.hour==="bmo"?"(ก่อนตลาดเปิด)":""}<br><span class="muted small">อีก ${dd} วัน · ช่วงประกาศงบราคามักแกว่งแรงกว่าปกติ${ne.eps_est?` · นักวิเคราะห์คาด EPS $${fmt(ne.eps_est)}`:""}</span></div>`}
+    $("olAn").innerHTML=`<div><span class="big num">${fmt(now,0)}%</span> <span class="verdict">บอกให้ซื้อ</span></div>
+      <div class="verdict" style="color:var(--${say[1]});margin-top:6px">${say[0]}</div>
+      <p class="muted small" style="margin:4px 0 0">${fmt(old,0)}% → ${fmt(now,0)}% ในช่วง ${an.history.length} เดือนที่ผ่านมา</p>${ev}`;
+  }else{
+    $("olAn").innerHTML=`<p style="margin:0">ยังไม่ได้เปิดส่วนนี้ 🔒</p><p class="muted small">ใส่ key ฟรีจาก Finnhub แล้วจะเห็นว่านักวิเคราะห์มองดีขึ้นหรือแย่ลง และวันประกาศงบครั้งถัดไป</p>`;
+  }
+
+  const R=O.range,c=d.tech.close;
+  if(R){const lo=R["1m"].lo*0.97,hi=R["1m"].hi*1.03,x=v=>(v-lo)/(hi-lo)*100;
+    $("olRange").innerHTML=`<div class="rangebar"><div class="band" style="left:${x(R["1m"].lo)}%;width:${x(R["1m"].hi)-x(R["1m"].lo)}%"></div>
+      <div class="band w" style="left:${x(R["1w"].lo)}%;width:${x(R["1w"].hi)-x(R["1w"].lo)}%"></div><div class="now" style="left:${x(c)}%"></div></div>
+      <div class="kv"><span class="muted">1 สัปดาห์</span><span class="num">$${fmt(R["1w"].lo,0)} – $${fmt(R["1w"].hi,0)} <span class="muted">(±${R["1w"].pct}%)</span></span>
+      <span class="muted">1 เดือน</span><span class="num">$${fmt(R["1m"].lo,0)} – $${fmt(R["1m"].hi,0)} <span class="muted">(±${R["1m"].pct}%)</span></span></div>
+      <p class="muted small" style="margin:12px 0 0">ประมาณ 2 ใน 3 ของครั้ง ราคาจะอยู่ในช่วงนี้ ถ้าความผันผวนเท่า 20 วันที่ผ่านมา ช่วงกว้าง = เสี่ยงมาก · ไม่ใช่การทายราคา</p>`;}
+}
+
+function tldr(d){
+  const t=d.tech,items=[],live=d.intraday&&d.intraday.price,ch=live?(d.intraday.price/d.intraday.prev_close-1)*100:t.chg_pct;
+  const a=Math.abs(ch);
+  items.push([ch>=0?"📈":"📉",`รอบล่าสุด${ch>=0?"ขึ้น":"ลง"} <b class="num">${fmt(a)}%</b>`+(a>=4?" แรงกว่าปกติ":a<1?" ขยับนิดเดียว":"")]);
+  if(d.candles&&d.candles.length>=70){const r=regime(d);items.push([RG[r.k].face,`แนวโน้มข้างหน้า: <b>${RG[r.k].name}</b>`]);}
+  if(d.news.length){const pos=d.news.filter(n=>n.sentiment>0.15).length,neg=d.news.filter(n=>n.sentiment<-0.15).length;
+    items.push(["📰",pos>neg?`ข่าวช่วงนี้<b>ส่วนใหญ่ดี</b> (ดี ${pos} · ร้าย ${neg})`:neg>pos?`ข่าวช่วงนี้<b>ร้ายมากกว่าดี</b> (ร้าย ${neg} · ดี ${pos})`:`ข่าวช่วงนี้<b>กลางๆ</b> ดีกับร้ายพอๆ กัน`]);}
+  const st=d.sentiment&&d.sentiment.stocktwits;
+  if(st&&st.bull_pct!=null)items.push(["💬",`คนในโซเชียล<b>${st.bull_pct>=55?"มองขึ้น":st.bull_pct<=45?"มองลง":"ยังแบ่งฝั่ง"}</b> ${fmt(st.bull_pct,0)}%`]);
+  if(t.rsi>=70)items.push(["🌶️","ราคาวิ่งร้อนแรงไปหน่อย ระวังย่อ"]);else if(t.rsi<=30)items.push(["🧊","โดนเทขายหนัก อาจมีเด้ง"]);
+  return items.slice(0,4);
 }
 
 function render(d){
   data=d;
-  $("updated").textContent="อัปเดต "+new Date(d.generated_at).toLocaleString("th-TH",{timeZone:"Asia/Bangkok",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})+" น.";
+  $("updated").textContent="อัปเดตเมื่อ "+ago(d.generated_at);
   $("sampleTag").innerHTML=d.sample?'<span class="sample">ข้อมูลตัวอย่าง</span>':"";
+  const v=d.verdict,L=LV[v.key];
+  $("face").textContent=L.face;$("lvl").textContent=L.name;$("lvl").style.color=`var(--${v.key})`;
+  $("say").textContent=L.say;
+  $("chip").textContent=L.chip;$("chip").style.cssText=`color:var(--${v.key});background:color-mix(in srgb,var(--${v.key}) 15%,transparent)`;
+  $("steps").innerHTML=KEYS.map(k=>`<span style="${k===v.key?`background:var(--${k})`:""}"></span>`).join("");
+  bhs(v.score);
+  $("tldr").innerHTML=tldr(d).map(([e,t])=>`<li><span>${e}</span><span>${t}</span></li>`).join("");
+
+  const A=d.anomalies,EM={3:"🔴",2:"🟠",1:"🟡"};
+  $("alerts").classList.toggle("ok",!A.length);
+  $("aTitle").textContent=A.length?`🙀 เหมียวเจออะไรแปลกๆ ${A.length} เรื่อง`:"😸 เหมียวส่องกราฟแล้ว ไม่มีอะไรแปลก สบายใจได้";
+  $("alist").innerHTML=[...A].sort((a,b)=>b.sev-a.sev).map(a=>`<div class="aitem"><span class="e">${EM[a.sev]}</span><span>${esc(a.text)}</span></div>`).join("");
+
   const t=d.tech;
-  const rsiH=t.rsi>=70?["ร้อนแรงเกินไป","bad"]:t.rsi<=30?["ถูกเทขายหนัก","good"]:["ปกติ","neutral"];
-  const trend=t.close>t.sma200?(t.sma50>t.sma200?["ขาขึ้น","vgood"]:["ฟื้นตัว","good"]):(t.sma50<t.sma200?["ขาลง","vbad"]:["อ่อนตัว","bad"]);
-  const vr=t.vol20_ann/t.vol_median_1y,volH=vr>1.3?["สูงกว่าปกติ","bad"]:vr<0.8?["นิ่ง","good"]:["ปกติ","neutral"];
-  const ddH=t.drawdown_pct<=-20?["ลงแรง","vbad"]:t.drawdown_pct<=-10?["ย่อตัว","bad"]:["ใกล้จุดสูงสุด","good"];
-  $("stats").innerHTML=[["แนวโน้ม",trend[0],"เทียบเส้น SMA 200",trend[1]],["RSI 14",fmt(t.rsi,0),rsiH[0],rsiH[1]],
-    ["ความผันผวน (ต่อปี)",fmt(t.vol20_ann*100,0)+"%",volH[0],volH[1]],["จากจุดสูงสุด 52 สัปดาห์",fmt(t.drawdown_pct,1)+"%",ddH[0],ddH[1]]]
-    .map(([k,v,h,c])=>`<div class="stat"><div class="k">${k}</div><div class="v num">${v}</div><div class="h" style="color:var(--${c})">${h}</div></div>`).join("");
-
-  const v=d.verdict;gauge(v.score,v.key);
-  $("lvl").textContent=v.level;$("lvl").style.color=`var(--${v.key})`;
-  $("lean").textContent=v.lean;$("lean").style.cssText=`color:var(--${v.key});background:color-mix(in srgb,var(--${v.key}) 14%,transparent)`;
-  $("scoreTxt").textContent="คะแนนรวม "+sgn(v.score);
-  $("topPill").innerHTML=`<span class="dot"></span>${esc(v.level)}`;$("topPill").style.cssText=`color:var(--${v.key});background:color-mix(in srgb,var(--${v.key}) 14%,transparent)`;
-
+  $("stats").innerHTML=[["ราคาปิด","$"+fmt(t.close)],["SMA 50","$"+fmt(t.sma50)],["SMA 200","$"+fmt(t.sma200)],["RSI 14",fmt(t.rsi,1)],
+    ["MACD hist",fmt(t.macd_hist)],["Bollinger บน","$"+fmt(t.boll_up)],["Bollinger ล่าง","$"+fmt(t.boll_dn)],["ผันผวน 20 วัน",fmt(t.vol20_ann*100,0)+"%"],
+    ["จากยอด 52 สัปดาห์",fmt(t.drawdown_pct,1)+"%"],["Volume / เฉลี่ย",fmt(t.volume/t.avg_vol20,2)+"×"]]
+    .map(([k,x])=>`<div class="stat"><div class="k">${k}</div><div class="v num">${x}</div></div>`).join("");
+  $("scoreTxt").textContent=sgn(v.score);
   $("parts").innerHTML=v.parts.map(p=>{const w=Math.min(50,Math.abs(p.value)/2*50),c=p.value>0?"up":p.value<0?"down":"neutral";
     return `<div class="bar"><div class="t"><span>${esc(p.name)}</span><b class="num" style="color:var(--${c})">${sgn(p.value)}</b></div>
       <div class="track"><div class="fill" style="background:var(--${c});${p.value>=0?"left:50%":"right:50%"};width:${w}%"></div></div>
       <div class="why">${esc(p.why)}</div></div>`}).join("");
 
-  const A=d.anomalies,SV={3:["รุนแรง","vbad"],2:["เฝ้าระวัง","bad"],1:["สังเกต","neutral"]};
-  $("alertbar").classList.toggle("ok",!A.length);
-  $("alertTitle").textContent=A.length?`🚨 พบความผิดปกติของกราฟ ${A.length} รายการ`:"✅ กราฟปกติ ไม่พบสัญญาณผิดปกติในรอบล่าสุด";
-  $("alerts").innerHTML=[...A].sort((a,b)=>b.sev-a.sev).map(a=>`<div class="aitem"><span class="sev" style="background:var(--${SV[a.sev][1]})">${SV[a.sev][0]}</span><span>${esc(a.text)}</span></div>`).join("");
-
-  renderSentiment(d.sentiment);
+  renderCrowd(d.sentiment);
+  renderTrend(d);
+  renderOutlook(d);
   renderNews();
-  $("newsErr").textContent=d.errors.length?"หมายเหตุ: ดึงบางแหล่งไม่สำเร็จ ("+d.errors.join("; ")+")":"";
+  $("newsErr").textContent=d.errors.length?"หมายเหตุ: บางแหล่งดึงไม่ได้ในรอบนี้ ("+d.errors.map(e=>e.split(":")[0]).join(", ")+")":"";
   if(!$("lw").hidden)drawLW();
 }
 
 async function load(){
   try{const r=await fetch("data.json?ts="+Date.now(),{cache:"no-store"});render(await r.json())}
-  catch(e){$("updated").textContent="โหลดข้อมูลไม่สำเร็จ"}
+  catch(e){$("updated").textContent="โหลดข้อมูลไม่สำเร็จ ลองรีเฟรชดูนะ"}
 }
-load();setInterval(load,2*60*1000);
+load();setInterval(load,2*60*1000);setInterval(()=>{if(data)$("updated").textContent="อัปเดตเมื่อ "+ago(data.generated_at)},30000);
 document.addEventListener("visibilitychange",()=>{if(!document.hidden)load()});
 </script>
 </body>

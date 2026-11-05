@@ -378,6 +378,61 @@ def collect_news(days: int = 2) -> tuple[list[dict], list[str]]:
     return items, errors + ([] if used_claude or not os.environ.get("ANTHROPIC_API_KEY") else ["Claude enrich failed"])
 
 
+# ------------------------------ outlook -----------------------------------
+THEMES = [  # (key, Thai label, regex)
+    ("china", "จีน / กฎส่งออกชิป", r"china|chinese|export|curb|ban|beijing|huawei|h20|tariff"),
+    ("regulation", "กฎหมาย / คดี / ภาครัฐ", r"antitrust|lawsuit|probe|regulat|doj|ftc|\beu\b|court|sue|fine"),
+    ("competition", "คู่แข่ง (AMD, Intel, ชิปของ Big Tech)", r"\bamd\b|intel|broadcom|tpu|trainium|custom chip|asic|rival|competit"),
+    ("demand", "ดีมานด์ AI / Data center", r"demand|data.?center|hyperscal|capex|order|backlog|blackwell|rubin|ai spending"),
+    ("supply", "การผลิต / ซัพพลาย (TSMC ฯลฯ)", r"tsmc|supply|shortage|foxconn|hon hai|packaging|cowos|yield|delay"),
+    ("earnings", "งบการเงิน / คาดการณ์รายได้", r"earnings|revenue|guidance|forecast|quarter|results|eps|profit"),
+    ("valuation", "ราคาแพง / ฟองสบู่ AI", r"bubble|valuation|overvalued|expensive|sell-?off|correction"),
+]
+
+
+def news_themes(news: list[dict]) -> list[dict]:
+    out = []
+    for key, label, rx in THEMES:
+        hits = [n for n in news if re.search(rx, n["title"], re.I)]
+        if not hits:
+            continue
+        tone = sum(n["sentiment"] for n in hits) / len(hits)
+        out.append({"key": key, "label": label, "count": len(hits), "tone": round(tone, 2),
+                    "example": hits[0]["summary_th"] or hits[0]["title"], "url": hits[0]["url"]})
+    return sorted(out, key=lambda x: (x["tone"], -x["count"]))
+
+
+def claude_outlook(news: list[dict], tech: dict) -> list[str] | None:
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    if not key or not news:
+        return None
+    heads = "\n".join(f"- [{n['source']}] {n['title']}" for n in news[:25])
+    prompt = ("From only these recent NVIDIA headlines, list the 3 most important forward-looking risks or catalysts "
+              "for NVDA shareholders over the next 1-3 months. Write each as one short, casual, easy Thai sentence "
+              "(no jargon, no price predictions, no advice). Output a JSON array of 3 strings only.\n\n" + heads)
+    body = json.dumps({"model": os.environ.get("CLAUDE_MODEL", "claude-sonnet-5-5"), "max_tokens": 800,
+                       "messages": [{"role": "user", "content": prompt}]}).encode()
+    req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, headers={
+        "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            txt = json.loads(r.read())["content"][0]["text"]
+        return [str(x) for x in json.loads(txt[txt.find("["): txt.rfind("]") + 1])][:3]
+    except Exception as e:  # noqa: BLE001
+        print("claude outlook failed:", e, file=sys.stderr)
+        return None
+
+
+def build_outlook(news, tech):
+    vol = tech["vol20_ann"]
+    c = tech["close"]
+    rng = {}
+    for label, days in (("1w", 5), ("1m", 21)):
+        m = vol * math.sqrt(days / 252)  # 1-sigma move under a random-walk assumption
+        rng[label] = {"pct": round(m * 100, 1), "lo": round(c * math.exp(-m), 2), "hi": round(c * math.exp(m), 2)}
+    return {"themes": news_themes(news), "range": rng, "ai": claude_outlook(news, tech)}
+
+
 # --------------------------- investor sentiment ---------------------------
 def fetch_stocktwits() -> dict:
     raw = json.loads(http_get(f"https://api.stocktwits.com/api/2/streams/symbol/{TICKER}.json"))
@@ -423,8 +478,22 @@ def fetch_analysts() -> dict | None:
     arr = json.loads(http_get(f"https://finnhub.io/api/v1/stock/recommendation?symbol={TICKER}&token={key}"))
     if not arr:
         return None
-    a = arr[0]
-    return {k: a.get(k) for k in ("period", "strongBuy", "buy", "hold", "sell", "strongSell")}
+    keys = ("period", "strongBuy", "buy", "hold", "sell", "strongSell")
+    a = {k: arr[0].get(k) for k in keys}
+    a["history"] = [{k: x.get(k) for k in keys} for x in arr[:6]]
+    try:
+        today = now_utc().date()
+        cal = json.loads(http_get(
+            f"https://finnhub.io/api/v1/calendar/earnings?symbol={TICKER}&from={today}"
+            f"&to={today + dt.timedelta(days=120)}&token={key}"))
+        ev = sorted(cal.get("earningsCalendar", []), key=lambda e: e.get("date", ""))
+        if ev:
+            e = ev[0]
+            a["next_earnings"] = {"date": e.get("date"), "hour": e.get("hour"), "eps_est": e.get("epsEstimate"),
+                                  "rev_est": e.get("revenueEstimate")}
+    except Exception as e:  # noqa: BLE001
+        print("earnings calendar failed:", e, file=sys.stderr)
+    return a
 
 
 def collect_sentiment(state: dict) -> tuple[dict, list[str]]:
@@ -583,7 +652,12 @@ def main():
             {"tag": "Bullish", "body": "Data center demand is not slowing, buying the dip", "user": "sample2", "at": now_utc().isoformat()}]},
             "vix": {"value": 21.4, "prev_close": 18.9, "week_ago": 17.2, "month_ago": 16.1},
             "fear_greed": {"score": 38.0, "rating": "fear", "previous_close": 44.0, "previous_1_week": 52.0, "previous_1_month": 61.0},
-            "analysts": {"period": "2026-11-01", "strongBuy": 24, "buy": 38, "hold": 7, "sell": 1, "strongSell": 0},
+            "analysts": {"period": "2026-11-01", "strongBuy": 24, "buy": 38, "hold": 7, "sell": 1, "strongSell": 0,
+                         "history": [{"period": "2026-11-01", "strongBuy": 24, "buy": 38, "hold": 7, "sell": 1, "strongSell": 0},
+                                     {"period": "2026-10-01", "strongBuy": 23, "buy": 37, "hold": 8, "sell": 1, "strongSell": 0},
+                                     {"period": "2026-09-01", "strongBuy": 22, "buy": 36, "hold": 9, "sell": 2, "strongSell": 0},
+                                     {"period": "2026-08-01", "strongBuy": 22, "buy": 35, "hold": 10, "sell": 2, "strongSell": 0}],
+                         "next_earnings": {"date": "2026-11-19", "hour": "amc", "eps_est": 1.42, "rev_est": 6.3e10}},
             "history": [{"t": (now_utc() - dt.timedelta(hours=40 - i)).isoformat(timespec="minutes"),
                          "bull_pct": round(70 - i * 0.35 + random.uniform(-4, 4), 1)} for i in range(40)]}
         serr = []
@@ -600,7 +674,7 @@ def main():
         "ticker": TICKER, "generated_at": now_utc().isoformat(), "sample": offline,
         "intraday": intraday and {k: intraday[k] for k in ("price", "prev_close", "time")},
         "tech": {k: (round(v, 4) if isinstance(v, float) else v) for k, v in tech.items()},
-        "verdict": verdict, "anomalies": anomalies, "sentiment": sentiment, "news": news, "errors": errors,
+        "verdict": verdict, "anomalies": anomalies, "sentiment": sentiment, "outlook": build_outlook(news, tech), "news": news, "errors": errors,
         "candles": [{k: (round(v, 3) if isinstance(v, float) else v) for k, v in r.items()} for r in rows[-260:]],
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
