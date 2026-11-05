@@ -203,12 +203,12 @@ footer{margin-top:24px;text-align:center;font-size:12.5px;color:var(--muted)}
       <div class="posts" id="stPosts"></div>
     </div>
     <div class="card">
-      <p class="eyebrow">อารมณ์ตลาดหุ้นสหรัฐฯ · CNN Fear &amp; Greed</p>
+      <p class="eyebrow" id="mkEyebrow">อารมณ์ตลาดหุ้นสหรัฐฯ</p>
       <div class="bigmeter"><span class="n num" id="fgScore">–</span><span id="fgLab" style="font-weight:700"></span></div>
       <div class="fg"><i id="fgPin" style="left:50%"></i></div>
-      <div class="splitlab muted"><span>กลัวสุดขีด</span><span>โลภสุดขีด</span></div>
+      <div class="splitlab muted" id="mkScale"><span>กลัวสุดขีด</span><span>โลภสุดขีด</span></div>
       <div class="kv" id="fgKv"></div>
-      <p class="muted small" style="margin-top:12px">ดัชนีวัดอารมณ์ทั้งตลาด ไม่ใช่เฉพาะ NVDA ค่าต่ำ = นักลงทุนกลัว ค่าสูง = นักลงทุนโลภ</p>
+      <p class="muted small" style="margin-top:12px" id="mkNote"></p>
     </div>
     <div class="card">
       <p class="eyebrow">นักวิเคราะห์ Wall Street</p>
@@ -252,7 +252,7 @@ footer{margin-top:24px;text-align:center;font-size:12.5px;color:var(--muted)}
       <li><b>โทนข่าว:</b> พจนานุกรมคำการเงินแบบ Loughran–McDonald อย่างย่อ หรือ Claude (เมื่อตั้งค่า API key) ข่าว Tier 1 และข่าวที่ยืนยันหลายแหล่งมีน้ำหนักมากกว่า</li>
       <li><b>เทคนิค:</b> SMA50/200, MACD, RSI14, Bollinger(20,2), ความผันผวน 20 วัน</li>
       <li><b>ความผิดปกติ:</b> |z| ≥ 2.5 เทียบ 60 วัน · volume ≥ 2 เท่า · gap ≥ 3% · หลุด/ทะลุ Bollinger · Death/Golden Cross · drawdown ≥ 20% · ผันผวน ≥ 1.5 เท่าของค่ากลาง · ระหว่างวัน ≥ 4%</li>
-      <li><b>ความเห็นนักลงทุน:</b> สัดส่วนโพสต์ที่ผู้ใช้ติดป้าย Bullish/Bearish ใน 30 โพสต์ล่าสุดบน StockTwits, CNN Fear &amp; Greed Index, จำนวนคำแนะนำของนักวิเคราะห์ (Finnhub)</li>
+      <li><b>ความเห็นนักลงทุน:</b> สัดส่วนโพสต์ที่ผู้ใช้ติดป้าย Bullish/Bearish ใน 30 โพสต์ล่าสุดบน StockTwits, CNN Fear &amp; Greed Index (ถ้าดึงไม่ได้จะใช้ดัชนี VIX แทน), จำนวนคำแนะนำของนักวิเคราะห์ (Finnhub)</li>
       <li><b>ระดับ:</b> คะแนน ≤ −2.5 เสี่ยงมาก · ≤ −0.75 เสี่ยง · &lt; 0.75 ปกติ · ≤ 2.5 ดี · มากกว่านั้น ดีมาก</li>
     </ul>
     <p class="muted small">ข้อจำกัด: โทนข่าวเชิงลบกดราคาได้ในระยะสั้นแต่มักกลับตัวในไม่กี่วัน (Tetlock 2007) ความเห็นบนโซเชียลมีข้อมูลบางส่วนที่พยากรณ์ผลตอบแทนได้ (Chen et al. 2014) แต่ไม่สม่ำเสมอ กฎ moving average ได้ผลลดลงเมื่อหักต้นทุนและแก้ data-snooping (Brock et al. 1992; Sullivan et al. 1999; Park &amp; Irwin 2007)</p>
@@ -384,12 +384,24 @@ function renderSentiment(S){
       <polyline points="${pts}" fill="none" stroke="${css("accent")}" stroke-width="2" vector-effect="non-scaling-stroke"/>`;
   }else $("stSpark").innerHTML="";
 
-  const fg=S.fear_greed;
+  const fg=S.fear_greed,vx=S.vix;
   if(fg&&fg.score!=null){
     const L={"extreme fear":["กลัวสุดขีด","vbad"],"fear":["กลัว","bad"],"neutral":["เป็นกลาง","neutral"],"greed":["โลภ","good"],"extreme greed":["โลภสุดขีด","vgood"]}[fg.rating]||[fg.rating,"neutral"];
+    $("mkEyebrow").textContent="อารมณ์ตลาดหุ้นสหรัฐฯ · CNN Fear & Greed";
     $("fgScore").textContent=fmt(fg.score,0);$("fgLab").textContent=L[0];$("fgLab").style.color=`var(--${L[1]})`;$("fgPin").style.left=fg.score+"%";
+    $("mkScale").innerHTML="<span>กลัวสุดขีด</span><span>โลภสุดขีด</span>";
     $("fgKv").innerHTML=[["เมื่อวาน",fg.previous_close],["1 สัปดาห์ก่อน",fg.previous_1_week],["1 เดือนก่อน",fg.previous_1_month]]
       .map(([k,v])=>`<span class="muted">${k}</span><span class="num">${fmt(v,0)}</span>`).join("");
+    $("mkNote").textContent="ดัชนีวัดอารมณ์ทั้งตลาด ไม่ใช่เฉพาะ NVDA ค่าต่ำ = นักลงทุนกลัว ค่าสูง = นักลงทุนโลภ";
+  }else if(vx&&vx.value!=null){
+    const v=vx.value,L=v>=30?["กลัวมาก","vbad"]:v>=20?["กังวล","bad"]:v>=15?["ปกติ","neutral"]:["ชะล่าใจ/โลภ","good"];
+    $("mkEyebrow").textContent="ดัชนีความกลัวตลาดสหรัฐฯ · VIX";
+    $("fgScore").textContent=fmt(v,1);$("fgLab").textContent=L[0];$("fgLab").style.color=`var(--${L[1]})`;
+    $("fgPin").style.left=Math.max(0,Math.min(100,100-(v-10)/30*100))+"%";
+    $("mkScale").innerHTML="<span>กลัว (VIX 40)</span><span>สงบ (VIX 10)</span>";
+    $("fgKv").innerHTML=[["เมื่อวาน",vx.prev_close],["1 สัปดาห์ก่อน",vx.week_ago],["1 เดือนก่อน",vx.month_ago]]
+      .map(([k,x])=>`<span class="muted">${k}</span><span class="num">${fmt(x,1)}</span>`).join("");
+    $("mkNote").textContent="VIX วัดความผันผวนที่ตลาดคาดใน 30 วันข้างหน้า ยิ่งสูง = นักลงทุนยิ่งกลัว (ต่ำกว่า 15 สงบ · 20–30 กังวล · เกิน 30 กลัวมาก)";
   }else{$("fgScore").textContent="–";$("fgLab").textContent="ดึงข้อมูลไม่ได้ในรอบนี้"}
 
   const an=S.analysts;

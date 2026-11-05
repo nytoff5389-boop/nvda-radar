@@ -33,7 +33,7 @@ OUT = ROOT / "docs" / "data.json"
 STATE = ROOT / "data" / "state.json"
 TICKER = "NVDA"
 UA = "Mozilla/5.0 (compatible; nvda-news-dashboard/1.0)"
-SEC_UA = os.environ.get("SEC_USER_AGENT", "nvda-news-dashboard github-actions")
+SEC_UA = os.environ.get("SEC_USER_AGENT") or "nvda-radar dashboard (github.com/nytoff5389-boop/nvda-radar) nvda-radar-bot@users.noreply.github.com"
 
 # --------------------------------------------------------------------------
 # Trusted sources. tier 1 = primary source / major wire, tier 2 = major
@@ -275,17 +275,24 @@ def fetch_nvidia_newsroom() -> list[dict]:
             for it in root.iter("item")]
 
 
+FORM_TH = {"8-K": "รายงานเหตุการณ์สำคัญ", "10-Q": "งบการเงินรายไตรมาส", "10-K": "รายงานประจำปี",
+           "4": "ผู้บริหาร/วงในซื้อขายหุ้น", "144": "แจ้งความประสงค์ขายหุ้น", "SC 13G": "ผู้ถือหุ้นใหญ่",
+           "SC 13G/A": "ผู้ถือหุ้นใหญ่ (แก้ไข)", "DEF 14A": "หนังสือเชิญประชุมผู้ถือหุ้น"}
+
+
 def fetch_sec_filings() -> list[dict]:
-    url = ("https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810"
-           "&type=&dateb=&owner=exclude&count=20&output=atom")
-    ns = {"a": "http://www.w3.org/2005/Atom"}
-    root = ET.fromstring(http_get(url, {"User-Agent": SEC_UA}))
+    raw = json.loads(http_get("https://data.sec.gov/submissions/CIK0001045810.json",
+                              {"User-Agent": SEC_UA, "Accept-Encoding": "identity"}))
+    r = raw["filings"]["recent"]
     out = []
-    for e in root.findall("a:entry", ns):
-        link = e.find("a:link", ns)
-        out.append({"title": "SEC: " + (e.findtext("a:title", "", ns) or "").strip(),
-                    "url": link.get("href") if link is not None else "",
-                    "domain": "sec.gov", "published": parse_date(e.findtext("a:updated", None, ns))})
+    for i in range(min(40, len(r["form"]))):
+        form, acc, doc = r["form"][i], r["accessionNumber"][i], r["primaryDocument"][i]
+        if form not in FORM_TH:
+            continue
+        url = f"https://www.sec.gov/Archives/edgar/data/1045810/{acc.replace('-', '')}/{doc}"
+        when = r.get("acceptanceDateTime", [None] * 99)[i] or r["filingDate"][i]
+        out.append({"title": f"SEC Form {form}: {FORM_TH[form]}", "url": url, "domain": "sec.gov",
+                    "published": parse_date(when)})
     return out
 
 
@@ -342,6 +349,8 @@ def collect_news(days: int = 2) -> tuple[list[dict], list[str]]:
         except Exception as e:  # noqa: BLE001
             errors.append(f"{name}: {e}")
     cutoff = now_utc() - dt.timedelta(days=days)
+    relevant = re.compile(r"nvidia|nvda|jensen huang|blackwell|rubin|cuda|geforce|hopper|h100|h200|gb200|ai chip", re.I)
+    raw = [it for it in raw if it["domain"] in ("nvidianews.nvidia.com", "sec.gov") or relevant.search(it["title"] or "")]
     seen, items = set(), []
     for it in sorted(raw, key=lambda x: x["published"] or cutoff, reverse=True):
         if not it["title"] or (it["published"] and it["published"] < cutoff):
@@ -397,6 +406,16 @@ def fetch_fear_greed() -> dict:
             for k in ("score", "rating", "previous_close", "previous_1_week", "previous_1_month")}
 
 
+def fetch_vix() -> dict:
+    raw = json.loads(http_get("https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=1mo&interval=1d"))
+    r = raw["chart"]["result"][0]
+    closes = [c for c in r["indicators"]["quote"][0]["close"] if c is not None]
+    v = r["meta"].get("regularMarketPrice") or closes[-1]
+    return {"value": round(v, 2), "prev_close": round(closes[-2], 2) if len(closes) > 1 else None,
+            "week_ago": round(closes[-6], 2) if len(closes) > 5 else None,
+            "month_ago": round(closes[0], 2) if closes else None}
+
+
 def fetch_analysts() -> dict | None:
     key = os.environ.get("FINNHUB_API_KEY")
     if not key:
@@ -410,7 +429,7 @@ def fetch_analysts() -> dict | None:
 
 def collect_sentiment(state: dict) -> tuple[dict, list[str]]:
     out, errs = {}, []
-    for name, fn in (("stocktwits", fetch_stocktwits), ("fear_greed", fetch_fear_greed), ("analysts", fetch_analysts)):
+    for name, fn in (("stocktwits", fetch_stocktwits), ("fear_greed", fetch_fear_greed), ("vix", fetch_vix), ("analysts", fetch_analysts)):
         try:
             out[name] = fn()
         except Exception as e:  # noqa: BLE001
@@ -560,6 +579,7 @@ def main():
         sentiment = {"stocktwits": {"messages": 30, "bull": 14, "bear": 9, "bull_pct": 60.9, "watchers": 712345, "sample": [
             {"tag": "Bearish", "body": "Export curbs headline again, expecting a gap down tomorrow", "user": "sample1", "at": now_utc().isoformat()},
             {"tag": "Bullish", "body": "Data center demand is not slowing, buying the dip", "user": "sample2", "at": now_utc().isoformat()}]},
+            "vix": {"value": 21.4, "prev_close": 18.9, "week_ago": 17.2, "month_ago": 16.1},
             "fear_greed": {"score": 38.0, "rating": "fear", "previous_close": 44.0, "previous_1_week": 52.0, "previous_1_month": 61.0},
             "analysts": {"period": "2026-11-01", "strongBuy": 24, "buy": 38, "hold": 7, "sell": 1, "strongSell": 0},
             "history": [{"t": (now_utc() - dt.timedelta(hours=40 - i)).isoformat(timespec="minutes"),
