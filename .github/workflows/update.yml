@@ -1,0 +1,51 @@
+name: Update NVDA dashboard
+
+on:
+  schedule:
+    # สรุปประจำวัน 12:30 UTC = 19:30 เวลาไทย (ก่อนตลาดสหรัฐฯ เปิด)
+    - cron: "30 12 * * 1-5"
+    # ตรวจกราฟ+ความเห็นนักลงทุนทุก 10 นาทีระหว่างตลาดสหรัฐฯ เปิด (ประมาณ 13:30-21:00 UTC)
+    - cron: "*/10 13-21 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "daily = อัปเดต+ส่งสรุป, test = ส่งแจ้งเตือนทดสอบเข้ามือถือ"
+        type: choice
+        options: [daily, test]
+        default: daily
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nvda-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch prices + news, score, alert
+        env:
+          MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event.schedule == '30 12 * * 1-5' && 'daily' || 'intraday') }}
+          PAGE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT || 'nvda-news-dashboard github-actions' }}
+        run: python scripts/update.py
+      - name: Commit data
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.mode != 'test' }}
+        run: |
+          git config user.name "nvda-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data.json data/state.json
+          git diff --cached --quiet || git commit -m "data: update $(date -u +%FT%TZ)"
+          git push
