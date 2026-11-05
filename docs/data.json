@@ -1,6 +1,6 @@
 {
  "ticker": "NVDA",
- "generated_at": "2026-11-05T13:04:12.020415+00:00",
+ "generated_at": "2026-11-05T13:04:58.255599+00:00",
  "sample": false,
  "intraday": {
   "price": 200.13,
@@ -72,11 +72,17 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 10,
-   "bear": 8,
-   "bull_pct": 55.6,
+   "bull": 11,
+   "bear": 6,
+   "bull_pct": 64.7,
    "watchers": 674825,
    "sample": [
+    {
+     "tag": "Bullish",
+     "body": "$NVDA what’s going on money is moving right selling AI and buying google and Amazon and msft",
+     "user": "bassel15",
+     "at": "2026-11-05T13:04:15Z"
+    },
     {
      "tag": "Bullish",
      "body": "$COLD $AMZN $NVDA i try to tell yall. Keeping food cold is boring but essential.",
@@ -106,18 +112,12 @@
      "body": "$NVDA Most profitable company in the world and the stock is up 6% on the year!! Yup makes sense!!",
      "user": "Skidoome",
      "at": "2026-11-05T13:02:36Z"
-    },
-    {
-     "tag": "Bearish",
-     "body": "$NVDA $SOXL $MU $INTC $AMD",
-     "user": "23bobsmith23",
-     "at": "2026-11-05T13:02:34Z"
     }
    ]
   },
   "fear_greed": null,
   "vix": {
-   "value": 16.94,
+   "value": 16.92,
    "prev_close": 16.61,
    "week_ago": 17.2,
    "month_ago": 15.52
@@ -139,11 +139,48 @@
    {
     "t": "2026-11-05T13:04+00:00",
     "bull_pct": 55.6
+   },
+   {
+    "t": "2026-11-05T13:04+00:00",
+    "bull_pct": 64.7
    }
   ]
  },
  "outlook": {
-  "themes": [],
+  "themes": [
+   {
+    "key": "earnings",
+    "label": "งบการเงิน / คาดการณ์รายได้",
+    "count": 1,
+    "tone": 0.0,
+    "example": "Audi Announces Its First U.S. Factory; Nvidia, Micron Drive Earnings Boom",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQmNYbU14T29fbUlGcmZXY1FYaE9vZEVSaWpRU3NvT25oSDBuS2NKMEg2Ykk2ZEVDWHlOVXV5MUNJb3V3M19vVlBfNlVSWGwtZmdtTlRoMURzRzNmTWZZd3E2cFk3UnpLZllLcW9seTlBdnA4N1dpS01zYnpzSHRhWEJ5VXF2OGFWVU55UDFQTlpIWGJrYnNDVFhtaDhoWDI3M3dlSnc5dDlvN2lxbFhGRg?oc=5"
+   },
+   {
+    "key": "china",
+    "label": "จีน / กฎส่งออกชิป",
+    "count": 2,
+    "tone": 0.5,
+    "example": "EXCLUSIVE: Nvidia chips pile up in Hong Kong as China withholds import approval",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHNUQnlURFBWSTlTSE5wNWUzekR0cDZfcWQzQVRFLVNweXJiSGhtSFZ6cWdvMXF4SHpLRy1YT1Y2QjJZMGxRajNaRGQ1Y25SVGkycEphaU4zTTRJSzV0QjNPTFMxeEl0Mm9CdGFQc0JJTHBNemVoSXdkTnhsR1FNR0t1b2hoUHdfSW0yVnlGMl95Qkd4dDAtMGdhYTFhUzRhc0U1Mm9fdGxLRnhacUNr?oc=5"
+   },
+   {
+    "key": "demand",
+    "label": "ดีมานด์ AI / Data center",
+    "count": 2,
+    "tone": 0.5,
+    "example": "Nvidia Partner Hon Hai’s Sales Rise 46% Thanks to AI Demand",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY21OQzRnWEJXbm9XazB3Z096RHpjOU53ajNLTG5sb3RGS3JYcDFqZUpwVXNwT3dYRHhZeV90d3hxSVdDNE9Qa21zamctWUtEeGVqVkVLTmhGSUgxQ3ZpUGR5bWg3Q1pOY19qNjBVWlhuMlVxZWo1TDJoSlJENS01a0RxcThfblM0dXhkTGlYM0ZHOUhYNjBwREZwTk1va1hvS0M1cWljY081Z0tCYmc?oc=5"
+   },
+   {
+    "key": "supply",
+    "label": "การผลิต / ซัพพลาย (TSMC ฯลฯ)",
+    "count": 1,
+    "tone": 1.0,
+    "example": "Nvidia Partner Hon Hai’s Sales Rise 46% Thanks to AI Demand",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY21OQzRnWEJXbm9XazB3Z096RHpjOU53ajNLTG5sb3RGS3JYcDFqZUpwVXNwT3dYRHhZeV90d3hxSVdDNE9Qa21zamctWUtEeGVqVkVLTmhGSUgxQ3ZpUGR5bWg3Q1pOY19qNjBVWlhuMlVxZWo1TDJoSlJENS01a0RxcThfblM0dXhkTGlYM0ZHOUhYNjBwREZwTk1va1hvS0M1cWljY081Z0tCYmc?oc=5"
+   }
+  ],
   "range": {
    "1w": {
     "pct": 4.6,
@@ -240,22 +277,6 @@
    "status": "single"
   },
   {
-   "title": "NVDA Stock Price | NVIDIA Corp. Stock Quote (U.S.: Nasdaq)",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9rTUx0am9SNU4zUG1rZG02REFwVHRBSmgyanJKb1ZFRHZNbG91b2RIN1NTUUxsTS1JX0xFWmVkTmxsQWxleG1nN1VXZnVJby13cEdlX1B2dUs4aEhr?oc=5",
-   "domain": "marketwatch.com",
-   "published": "2026-11-05T08:49:18+00:00",
-   "source": "MarketWatch",
-   "tier": 2,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "MarketWatch"
-   ],
-   "status": "single"
-  },
-  {
    "title": "Nvidia Partner Hon Hai’s Sales Rise 46% Thanks to AI Demand",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY21OQzRnWEJXbm9XazB3Z096RHpjOU53ajNLTG5sb3RGS3JYcDFqZUpwVXNwT3dYRHhZeV90d3hxSVdDNE9Qa21zamctWUtEeGVqVkVLTmhGSUgxQ3ZpUGR5bWg3Q1pOY19qNjBVWlhuMlVxZWo1TDJoSlJENS01a0RxcThfblM0dXhkTGlYM0ZHOUhYNjBwREZwTk1va1hvS0M1cWljY081Z0tCYmc?oc=5",
    "domain": "bloomberg.com",
@@ -263,22 +284,6 @@
    "source": "Bloomberg",
    "tier": 1,
    "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Bloomberg"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "NVIDIA Corp",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBBVW5EeWpnQUtfTkZJZDBOaU9jSmJGaW9Ma2VYdzhrdWl2SmxLT1BZTHdlUHkwd2F3RTVBc2F6ZDh0ZGM2QlhFNFdRZS1hSjJZX1Q5cjhDdTNnYV9HRWc?oc=5",
-   "domain": "bloomberg.com",
-   "published": "2026-11-05T07:14:22+00:00",
-   "source": "Bloomberg",
-   "tier": 1,
-   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
@@ -300,6 +305,22 @@
    "corroborated_by": 1,
    "sources": [
     "Bloomberg"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "NVIDIA Corporation, NVDA2:BUE directors and dealings",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxUGxBVU42VnFiYUtTT3MyMVhXTlJCVFU1RGpZNHo4dWQxcDFsNFhZV3YzaWFyRkNmS2w5Q0x5a0pheTZscU10ai1KVkxjR0k1YlVOYWZ3Z1dnTUZJeGoxOWtLbFU5azdpTU5sNmNEYTFObmNVa1Bz?oc=5",
+   "domain": "ft.com",
+   "published": "2026-11-05T03:32:02+00:00",
+   "source": "Financial Times",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Financial Times"
    ],
    "status": "single"
   },
