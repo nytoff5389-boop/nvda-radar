@@ -323,12 +323,12 @@ footer{margin-top:26px;text-align:center;font-size:13px;color:var(--muted)}
 
   <section class="sec">
     <h2>📰 ข่าวล่าสุด</h2>
-    <p class="lead">เหมียวให้ผ่านแค่ข่าวจากแหล่งทางการ (NVIDIA, SEC) หรือข่าวที่สำนักข่าวชั้นนำอย่างน้อย 2 แห่งรายงานตรงกันเท่านั้น <span id="newsCount"></span></p>
+    <p class="lead">เฉพาะสำนักข่าวชั้นนำและแหล่งทางการ เหมียวเช็กให้ว่าข่าวไหนมีหลายแหล่งยืนยัน ข่าวไหนมาจากแหล่งเดียว <span id="newsCount"></span></p>
     <div class="filters" id="filters">
-      <button class="fbtn on" data-f="all">✅ ยืนยันแล้ว</button>
+      <button class="fbtn on" data-f="all">ทั้งหมด</button>
+      <button class="fbtn" data-f="ok">✅ ยืนยันหลายแหล่ง</button>
       <button class="fbtn" data-f="pos">😊 ข่าวดี</button>
       <button class="fbtn" data-f="neg">😬 ข่าวร้าย</button>
-      <button class="fbtn" data-f="single">⏳ รอยืนยัน</button>
     </div>
     <ul class="news" id="news"></ul>
     <div class="muted small" id="newsErr" style="margin-top:10px"></div>
@@ -344,7 +344,7 @@ footer{margin-top:26px;text-align:center;font-size:13px;color:var(--muted)}
     <div id="tvta"></div>
     <h4>วิธีคิด</h4>
     <ul>
-      <li><b>แหล่งข่าว:</b> Tier 1 = NVIDIA Newsroom, SEC, Reuters, Bloomberg, AP, WSJ, FT · Tier 2 = CNBC, Barron's, MarketWatch, NYT, The Economist, Nikkei Asia, The Information แหล่งอื่นตัดทิ้งหมด ค้นแยกทีละสำนักแล้วจับคู่เรื่องเดียวกันภายใน 48 ชม.</li><li><b>เกณฑ์ยืนยัน:</b> ข่าวจะขึ้นหน้าเว็บและถูกนำไปคิดคะแนนได้ก็ต่อเมื่อมาจาก NVIDIA/SEC โดยตรง หรือมีอย่างน้อย 2 สำนักต่างกัน (อย่างน้อย 1 แห่งเป็น Tier 1) รายงานตรงกัน ข่าวแหล่งเดียวแยกไว้ในแท็บ "รอยืนยัน"</li>
+      <li><b>แหล่งข่าว:</b> Tier 1 = NVIDIA Newsroom, SEC, Reuters, Bloomberg, AP, WSJ, FT · Tier 2 = CNBC, Barron's, MarketWatch, NYT, The Economist, Nikkei Asia, The Information แหล่งอื่นตัดทิ้งหมด ค้นแยกทีละสำนักแล้วจับคู่เรื่องเดียวกันภายใน 48 ชม.</li><li><b>เกณฑ์ยืนยัน:</b> "ยืนยันหลายแหล่ง" = มาจาก NVIDIA/SEC โดยตรง หรือมีอย่างน้อย 2 สำนักต่างกัน (อย่างน้อย 1 แห่งเป็น Tier 1) รายงานตรงกัน ข่าวที่มาจากแหล่งเดียวก็แสดงและนำไปคิดคะแนน แต่ติดป้ายไว้และให้น้ำหนักแค่ครึ่งเดียว</li>
       <li><b>ข่าวดี/ร้าย:</b> ใช้คำศัพท์การเงินแบบ Loughran–McDonald หรือ Claude ถ้าตั้งค่า API key ไว้</li>
       <li><b>เทคนิค:</b> SMA50/200, MACD, RSI14, Bollinger(20,2), ความผันผวน 20 วัน</li>
       <li><b>อะไรแปลกๆ:</b> ราคาวิ่งผิดปกติ (|z| ≥ 2.5), volume ≥ 2 เท่า, gap ≥ 3%, หลุด/ทะลุ Bollinger, Death/Golden Cross, ลงจากยอด ≥ 20%, ผันผวนสูงผิดปกติ, ระหว่างวัน ≥ 4%</li>
@@ -451,20 +451,20 @@ const newsMood=s=>s>0.15?["pos","😊","ข่าวดี"]:s<-0.15?["neg","�
 const OK=n=>n.status==="official"||n.status==="verified"||(!n.status&&n.corroborated_by>1);
 function renderNews(){
   const all=data.news,ok=all.filter(OK),single=all.filter(n=>!OK(n));
-  let list=filter==="single"?single:ok.filter(n=>filter==="all"||(filter==="pos"&&n.sentiment>0.15)||(filter==="neg"&&n.sentiment<-0.15));
+  let list=all.filter(n=>filter==="all"||(filter==="ok"&&OK(n))||(filter==="pos"&&n.sentiment>0.15)||(filter==="neg"&&n.sentiment<-0.15));
   list=[...list].sort((a,b)=>(b.published||"").localeCompare(a.published||""));
-  $("newsCount").textContent=`(ยืนยันแล้ว ${ok.length} · รอยืนยัน ${single.length})`;
+  $("newsCount").textContent=`(ยืนยันหลายแหล่ง ${ok.length} · แหล่งเดียว ${single.length})`;
   $("news").innerHTML=list.length?list.map(n=>{const [c,e,lab]=newsMood(n.sentiment);
     const badge=n.status==="official"?'<span class="tag ok">🏛️ แหล่งทางการ</span>'
       :OK(n)?`<span class="tag ok">✅ ยืนยันแล้ว ${n.corroborated_by} แหล่ง: ${esc((n.sources||[]).join(", "))}</span>`
-      :'<span class="tag" style="color:var(--bad)">⏳ ยังมีแหล่งเดียว อย่าเพิ่งเชื่อ 100%</span>';
-    return `<li><a class="nitem" href="${esc(n.url)}" target="_blank" rel="noopener" style="${OK(n)?"":"opacity:.8"}">
+      :`<span class="tag" style="color:var(--bad)">📰 มาจากแหล่งข่าวเดียว</span>`;
+    return `<li><a class="nitem" href="${esc(n.url)}" target="_blank" rel="noopener" >
       <span class="nface" style="${c?`background:color-mix(in srgb,var(--${c==="pos"?"up":"down"}) 14%,transparent)`:""}">${e}</span>
       <span style="min-width:0"><div class="ntitle">${esc(n.summary_th||n.title)}</div>
       ${n.summary_th?`<div class="nth">${esc(n.title)}</div>`:""}
       <div class="meta"><b style="color:var(--ink2)">${esc(n.source.replace(" (ทางการ)","").replace(" (เอกสารทางการ)",""))}</b><span>· ${ago(n.published)}</span>
         <span class="tag">${lab}</span>${badge}</div></span></a></li>`}).join("")
-    :`<li class="muted">${filter==="single"?"ไม่มีข่าวรอยืนยัน":"ช่วงนี้ยังไม่มีข่าวที่ผ่านการยืนยันจากหลายแหล่ง เหมียวขอรอให้ชัวร์ก่อนนะ 🐾"}</li>`;
+    :`<li class="muted">${filter==="ok"?"ช่วงนี้ยังไม่มีข่าวที่หลายสำนักรายงานตรงกัน 🐾":"ยังไม่มีข่าวในหมวดนี้"}</li>`;
 }
 
 function renderCrowd(S){
@@ -617,7 +617,7 @@ function tldr(d){
   const a=Math.abs(ch);
   items.push([ch>=0?"📈":"📉",`รอบล่าสุด${ch>=0?"ขึ้น":"ลง"} <b class="num">${fmt(a)}%</b>`+(a>=4?" แรงกว่าปกติ":a<1?" ขยับนิดเดียว":"")]);
   if(d.candles&&d.candles.length>=70){const r=regime(d);items.push([RG[r.k].face,`แนวโน้มข้างหน้า: <b>${RG[r.k].name}</b>`]);}
-  const vn=d.news.filter(OK);
+  const vn=d.news;
   if(vn.length){const pos=vn.filter(n=>n.sentiment>0.15).length,neg=vn.filter(n=>n.sentiment<-0.15).length;
     items.push(["📰",pos>neg?`ข่าวช่วงนี้<b>ส่วนใหญ่ดี</b> (ดี ${pos} · ร้าย ${neg})`:neg>pos?`ข่าวช่วงนี้<b>ร้ายมากกว่าดี</b> (ร้าย ${neg} · ดี ${pos})`:`ข่าวช่วงนี้<b>กลางๆ</b> ดีกับร้ายพอๆ กัน`]);}
   const st=d.sentiment&&d.sentiment.stocktwits;

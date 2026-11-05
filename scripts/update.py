@@ -599,15 +599,13 @@ def score(tech, anomalies, news):
         add("RSI", 0, f"RSI {r:.0f} อยู่ในช่วงปกติ")
     hv = tech["vol20_ann"] > 1.3 * tech["vol_median_1y"]
     add("ความผันผวน", -0.75 if hv else 0.25, "ผันผวนสูงกว่าปกติ" if hv else "ผันผวนในระดับปกติ")
-    used = [n for n in news if n.get("status") in ("official", "verified")]
-    if not used:  # fall back to single-source Tier 1 stories at half weight
-        used = [dict(n, impact=n.get("impact", 1) * 0.5) for n in news if n["tier"] == 1]
-    news = used
+    # single-source stories still count, at half the weight of verified/official ones
+    news = [dict(n, impact=n.get("impact", 1) * (1 if n.get("status") in ("official", "verified") else 0.5)) for n in news]
     if news:
         w = [(1.5 if n["tier"] == 1 else 1.0) * n.get("impact", 1) * (1 + 0.25 * (n["corroborated_by"] - 1))
              for n in news]
         s = sum(n["sentiment"] * wi for n, wi in zip(news, w)) / sum(w)
-        add("ข่าว (sentiment ถ่วงน้ำหนัก)", s * 2, f"ค่าเฉลี่ยโทนข่าว {s:+.2f} จาก {len(news)} ข่าวที่ยืนยันแล้ว")
+        add("ข่าว (sentiment ถ่วงน้ำหนัก)", s * 2, f"ค่าเฉลี่ยโทนข่าว {s:+.2f} จาก {len(news)} ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)")
     else:
         add("ข่าว (sentiment ถ่วงน้ำหนัก)", 0, "ไม่มีข่าวจากแหล่งน่าเชื่อถือในช่วงนี้")
     sev = sum(a["sev"] for a in anomalies if not a["key"].startswith(("gx-", "rsil-")))
