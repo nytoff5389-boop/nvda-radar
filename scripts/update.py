@@ -435,6 +435,8 @@ def collect_sentiment(state: dict) -> tuple[dict, list[str]]:
         except Exception as e:  # noqa: BLE001
             out[name] = None
             errs.append(f"{name}: {e}")
+    if out.get("vix"):  # CNN often blocks bots; VIX stands in, so no need to surface that error
+        errs = [e for e in errs if not e.startswith("fear_greed")]
     st = out.get("stocktwits")
     hist = state.get("senti_hist", [])
     if st and st.get("bull_pct") is not None:
