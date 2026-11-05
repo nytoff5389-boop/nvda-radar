@@ -1,6 +1,6 @@
 {
  "ticker": "NVDA",
- "generated_at": "2026-11-05T12:40:30.407805+00:00",
+ "generated_at": "2026-11-05T13:01:57.822978+00:00",
  "sample": false,
  "intraday": {
   "price": 200.13,
@@ -26,7 +26,7 @@
   "volume": 148337800
  },
  "verdict": {
-  "score": -0.27,
+  "score": -0.08,
   "level": "ปกติ",
   "lean": "HOLD / รอสัญญาณ",
   "key": "neutral",
@@ -58,8 +58,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.48,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.24 จาก 8 ข่าว"
+    "value": 0.67,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.33 จาก 9 ข่าว"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -72,52 +72,52 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 12,
-   "bear": 1,
-   "bull_pct": 92.3,
-   "watchers": 674813,
+   "bull": 6,
+   "bear": 8,
+   "bull_pct": 42.9,
+   "watchers": 674825,
    "sample": [
     {
-     "tag": "Bullish",
-     "body": "$BB The future is now: BlackBerry QNX and Nvidia. The market is sleeping on $BB.TSX $NVDA https://www.facebook.com/share/r/1FKcnsobbT/",
-     "user": "REALALOY",
-     "at": "2026-11-05T12:39:27Z"
+     "tag": "Bearish",
+     "body": "$NVDA SELL SELL SELL !!",
+     "user": "TheonetrueJester",
+     "at": "2026-11-05T13:01:49Z"
     },
     {
      "tag": "Bullish",
-     "body": "$NVDA my target price to buy $180. Come to me my love. I will load up 1000 shares.",
-     "user": "AmericanNinja",
-     "at": "2026-11-05T12:38:06Z"
+     "body": "$NVDA BUY BUY BUY !!",
+     "user": "TeslaDayTrader",
+     "at": "2026-11-05T13:01:16Z"
     },
     {
      "tag": "Bullish",
-     "body": "$NVDA",
-     "user": "Crakerjac",
-     "at": "2026-11-05T12:37:04Z"
+     "body": "$NVDA you must be forgetting that a couple senators elected can&#39;t slow down this tidal wave of AI. They can make articles and say stuff, but nothing&#39;s gonna happen",
+     "user": "Redwhine",
+     "at": "2026-11-05T12:59:40Z"
     },
     {
      "tag": "Bullish",
-     "body": "$NVDA forward p/e is quite unique",
-     "user": "DomLuminous",
-     "at": "2026-11-05T12:36:45Z"
+     "body": "$SOXL $NVDA $AMD $MU $SOXL THIS IS THE D-DAY FOR SEMIS All SEMIS ARE FOR SUPER SALE NOW, V RECOVERY FROM THESE LEVELS Very Bullish",
+     "user": "Stockadvisor07",
+     "at": "2026-11-05T12:59:16Z"
     },
     {
      "tag": "Bullish",
-     "body": "$NVDA When I get back from work today this thing better be green you know what I mean? :) Great days coming. ( imho )",
-     "user": "Crakerjac",
-     "at": "2026-11-05T12:36:40Z"
+     "body": "$MU MUST WATCH analysis! $AMD $NVDA $SNDK $SOXL https://youtu.be/PgCd_Vo5Xi8?is=tQMbKMdbWcWKv15r",
+     "user": "TribalSublime",
+     "at": "2026-11-05T12:59:13Z"
     },
     {
      "tag": "Bearish",
-     "body": "$NVDA its cant be this easy",
-     "user": "FrankyBot",
-     "at": "2026-11-05T12:36:31Z"
+     "body": "$NVDA 170’s by the end of next week.",
+     "user": "StarLord13",
+     "at": "2026-11-05T12:58:58Z"
     }
    ]
   },
   "fear_greed": null,
   "vix": {
-   "value": 16.9,
+   "value": 16.96,
    "prev_close": 16.61,
    "week_ago": 17.2,
    "month_ago": 15.52
@@ -131,10 +131,83 @@
    {
     "t": "2026-11-05T12:40+00:00",
     "bull_pct": 92.3
+   },
+   {
+    "t": "2026-11-05T13:01+00:00",
+    "bull_pct": 42.9
    }
   ]
  },
+ "outlook": {
+  "themes": [
+   {
+    "key": "demand",
+    "label": "ดีมานด์ AI / Data center",
+    "count": 4,
+    "tone": 0.5,
+    "example": "Nvidia Partner Hon Hai’s Sales Rise 46% Thanks to AI Demand",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY21OQzRnWEJXbm9XazB3Z096RHpjOU53ajNLTG5sb3RGS3JYcDFqZUpwVXNwT3dYRHhZeV90d3hxSVdDNE9Qa21zamctWUtEeGVqVkVLTmhGSUgxQ3ZpUGR5bWg3Q1pOY19qNjBVWlhuMlVxZWo1TDJoSlJENS01a0RxcThfblM0dXhkTGlYM0ZHOUhYNjBwREZwTk1va1hvS0M1cWljY081Z0tCYmc?oc=5"
+   },
+   {
+    "key": "china",
+    "label": "จีน / กฎส่งออกชิป",
+    "count": 2,
+    "tone": 0.5,
+    "example": "EXCLUSIVE: Nvidia chips pile up in Hong Kong as China withholds import approval",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHNUQnlURFBWSTlTSE5wNWUzekR0cDZfcWQzQVRFLVNweXJiSGhtSFZ6cWdvMXF4SHpLRy1YT1Y2QjJZMGxRajNaRGQ1Y25SVGkycEphaU4zTTRJSzV0QjNPTFMxeEl0Mm9CdGFQc0JJTHBNemVoSXdkTnhsR1FNR0t1b2hoUHdfSW0yVnlGMl95Qkd4dDAtMGdhYTFhUzRhc0U1Mm9fdGxLRnhacUNr?oc=5"
+   },
+   {
+    "key": "competition",
+    "label": "คู่แข่ง (AMD, Intel, ชิปของ Big Tech)",
+    "count": 1,
+    "tone": 1.0,
+    "example": "AMD Forecast Exceeds Estimates After AI Chip Demand Soars",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYURlOUxxRUMybEdmbkJoTHZiZEVTTUtCN0gyZ1RsV0s3YlEteXR1NFZIWDNwXzJKTUdCRUpJY0RWNlRqVC02M0VaMFgtY0piUFNGSkhKQmZ3bTVwMHFERHN6ZExPSnVFbWdBWDYxQnNnX0RJRnF6QVlld0FBeDhySGlrUEZ4bEtmWkkybFFVRU9EcnhRd2F5c1M1eGc2OFk5VG95X0dUa1dWUGhPZzJJ?oc=5"
+   },
+   {
+    "key": "supply",
+    "label": "การผลิต / ซัพพลาย (TSMC ฯลฯ)",
+    "count": 1,
+    "tone": 1.0,
+    "example": "Nvidia Partner Hon Hai’s Sales Rise 46% Thanks to AI Demand",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY21OQzRnWEJXbm9XazB3Z096RHpjOU53ajNLTG5sb3RGS3JYcDFqZUpwVXNwT3dYRHhZeV90d3hxSVdDNE9Qa21zamctWUtEeGVqVkVLTmhGSUgxQ3ZpUGR5bWg3Q1pOY19qNjBVWlhuMlVxZWo1TDJoSlJENS01a0RxcThfblM0dXhkTGlYM0ZHOUhYNjBwREZwTk1va1hvS0M1cWljY081Z0tCYmc?oc=5"
+   },
+   {
+    "key": "earnings",
+    "label": "งบการเงิน / คาดการณ์รายได้",
+    "count": 1,
+    "tone": 1.0,
+    "example": "AMD Forecast Exceeds Estimates After AI Chip Demand Soars",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYURlOUxxRUMybEdmbkJoTHZiZEVTTUtCN0gyZ1RsV0s3YlEteXR1NFZIWDNwXzJKTUdCRUpJY0RWNlRqVC02M0VaMFgtY0piUFNGSkhKQmZ3bTVwMHFERHN6ZExPSnVFbWdBWDYxQnNnX0RJRnF6QVlld0FBeDhySGlrUEZ4bEtmWkkybFFVRU9EcnhRd2F5c1M1eGc2OFk5VG95X0dUa1dWUGhPZzJJ?oc=5"
+   }
+  ],
+  "range": {
+   "1w": {
+    "pct": 4.6,
+    "lo": 191.06,
+    "hi": 209.63
+   },
+   "1m": {
+    "pct": 9.5,
+    "lo": 181.99,
+    "hi": 220.08
+   }
+  },
+  "ai": null
+ },
  "news": [
+  {
+   "title": "EXCLUSIVE: Nvidia chips pile up in Hong Kong as China withholds import approval",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHNUQnlURFBWSTlTSE5wNWUzekR0cDZfcWQzQVRFLVNweXJiSGhtSFZ6cWdvMXF4SHpLRy1YT1Y2QjJZMGxRajNaRGQ1Y25SVGkycEphaU4zTTRJSzV0QjNPTFMxeEl0Mm9CdGFQc0JJTHBNemVoSXdkTnhsR1FNR0t1b2hoUHdfSW0yVnlGMl95Qkd4dDAtMGdhYTFhUzRhc0U1Mm9fdGxLRnhacUNr?oc=5",
+   "domain": "reuters.com",
+   "published": "2026-11-05T11:38:54+00:00",
+   "source": "Reuters",
+   "tier": 1,
+   "sentiment": 1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1
+  },
   {
    "title": "Nvidia Partner Hon Hai’s Sales Rise 46% Thanks to AI Demand",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY21OQzRnWEJXbm9XazB3Z096RHpjOU53ajNLTG5sb3RGS3JYcDFqZUpwVXNwT3dYRHhZeV90d3hxSVdDNE9Qa21zamctWUtEeGVqVkVLTmhGSUgxQ3ZpUGR5bWg3Q1pOY19qNjBVWlhuMlVxZWo1TDJoSlJENS01a0RxcThfblM0dXhkTGlYM0ZHOUhYNjBwREZwTk1va1hvS0M1cWljY081Z0tCYmc?oc=5",
@@ -233,7 +306,6 @@
   }
  ],
  "errors": [
-  "fear_greed: HTTP Error 418: Unknown Error",
   "SEC EDGAR: HTTP Error 403: Forbidden"
  ],
  "candles": [
