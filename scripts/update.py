@@ -433,7 +433,7 @@ def collect_news(days: int = 2) -> tuple[list[dict], list[str]]:
         official = ia["domain"] in ("nvidianews.nvidia.com", "investor.nvidia.com", "sec.gov")
         ia["status"] = "official" if official else ("verified" if len(outlets) >= 2 and 1 in tiers else "single")
     # keep the most-corroborated version of each story first
-    items.sort(key=lambda x: ({"official": 0, "verified": 1, "single": 2}[x["status"]], -(x["corroborated_by"]), -x.get("_t", 0)))
+    items.sort(key=lambda x: ({"official": 0, "verified": 1, "single": 2}[x["status"]], -(x["corroborated_by"]), x["tier"]))
     # collapse the same story told by several outlets into one card (sources list keeps every outlet)
     kept, kept_toks = [], []
     for it in items:
