@@ -1,11 +1,11 @@
 {
  "ticker": "NVDA",
- "generated_at": "2026-11-06T19:38:12.503180+00:00",
+ "generated_at": "2026-11-06T20:59:36.185469+00:00",
  "sample": false,
  "intraday": {
-  "price": 187.215,
+  "price": 186.62,
   "prev_close": 181.6,
-  "time": 1793993885,
+  "time": 1793998704,
   "points": [
    {
     "t": 1793955600,
@@ -294,7 +294,7 @@
    },
    {
     "t": 1793972700,
-    "c": 189.63,
+    "c": 189.65,
     "s": "pre"
    },
    {
@@ -644,12 +644,92 @@
    },
    {
     "t": 1793993700,
-    "c": 187.18,
+    "c": 187.24,
     "s": "reg"
    },
    {
-    "t": 1793993885,
-    "c": 187.21,
+    "t": 1793994000,
+    "c": 187.44,
+    "s": "reg"
+   },
+   {
+    "t": 1793994300,
+    "c": 187.81,
+    "s": "reg"
+   },
+   {
+    "t": 1793994600,
+    "c": 187.52,
+    "s": "reg"
+   },
+   {
+    "t": 1793994900,
+    "c": 188.46,
+    "s": "reg"
+   },
+   {
+    "t": 1793995200,
+    "c": 187.81,
+    "s": "reg"
+   },
+   {
+    "t": 1793995500,
+    "c": 188.4,
+    "s": "reg"
+   },
+   {
+    "t": 1793995800,
+    "c": 188.55,
+    "s": "reg"
+   },
+   {
+    "t": 1793996100,
+    "c": 187.99,
+    "s": "reg"
+   },
+   {
+    "t": 1793996400,
+    "c": 188.09,
+    "s": "reg"
+   },
+   {
+    "t": 1793996700,
+    "c": 188.14,
+    "s": "reg"
+   },
+   {
+    "t": 1793997000,
+    "c": 187.73,
+    "s": "reg"
+   },
+   {
+    "t": 1793997300,
+    "c": 187.74,
+    "s": "reg"
+   },
+   {
+    "t": 1793997600,
+    "c": 187.32,
+    "s": "reg"
+   },
+   {
+    "t": 1793997900,
+    "c": 187.35,
+    "s": "reg"
+   },
+   {
+    "t": 1793998200,
+    "c": 186.56,
+    "s": "reg"
+   },
+   {
+    "t": 1793998500,
+    "c": 186.64,
+    "s": "reg"
+   },
+   {
+    "t": 1793998704,
+    "c": 186.62,
     "s": "reg"
    }
   ],
@@ -675,25 +755,25 @@
   }
  },
  "tech": {
-  "close": 187.215,
+  "close": 186.62,
   "prev_close": 181.6,
-  "chg_pct": 3.092,
-  "sma20": 211.5758,
-  "sma50": 219.8247,
-  "sma200": 204.6755,
-  "rsi": 31.3261,
-  "macd_hist": -3.1601,
-  "vol20_ann": 0.469,
+  "chg_pct": 2.7643,
+  "sma20": 211.546,
+  "sma50": 219.8128,
+  "sma200": 204.6725,
+  "rsi": 30.7424,
+  "macd_hist": -3.1981,
+  "vol20_ann": 0.4656,
   "vol_median_1y": 0.3722,
-  "boll_up": 234.6632,
-  "boll_dn": 188.4883,
+  "boll_up": 234.7601,
+  "boll_dn": 188.3319,
   "hi52": 243.37,
-  "drawdown_pct": -23.0739,
+  "drawdown_pct": -23.3184,
   "avg_vol20": 112920530.0,
-  "volume": 127012480
+  "volume": 151217621
  },
  "verdict": {
-  "score": -2.38,
+  "score": -2.37,
   "level": "เสี่ยง",
   "lean": "ระวัง / พิจารณาขายบางส่วน",
   "key": "bad",
@@ -725,8 +805,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": -0.13,
-    "why": "ค่าเฉลี่ยโทนข่าว -0.06 จาก 58 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": -0.12,
+    "why": "ค่าเฉลี่ยโทนข่าว -0.06 จาก 59 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -749,58 +829,58 @@
   {
    "key": "dd-2026-11-06",
    "sev": 2,
-   "text": "ราคาต่ำกว่าจุดสูงสุด 52 สัปดาห์ -23.1% (เข้าเขต bear market)"
+   "text": "ราคาต่ำกว่าจุดสูงสุด 52 สัปดาห์ -23.3% (เข้าเขต bear market)"
   }
  ],
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 15,
-   "bear": 1,
-   "bull_pct": 93.8,
-   "watchers": 675538,
+   "bull": 16,
+   "bear": 5,
+   "bull_pct": 76.2,
+   "watchers": 675552,
    "sample": [
     {
-     "tag": "Bearish",
-     "body": "$NVDA anthropic will be delayed with current market conditions",
-     "user": "MakeIGVGreatAgain",
-     "at": "2026-11-06T19:37:54Z"
+     "tag": "Bullish",
+     "body": "$IONQ $QNT The new $AMD and $NVDA",
+     "user": "Socrates69",
+     "at": "2026-11-06T20:57:26Z"
     },
     {
      "tag": "Bullish",
-     "body": "$NVDA $7000,000",
-     "user": "Hn20",
-     "at": "2026-11-06T19:35:24Z"
+     "body": "$NVDA .",
+     "user": "econometrics101",
+     "at": "2026-11-06T20:55:37Z"
     },
     {
      "tag": "Bullish",
-     "body": "$AMD Is AMD Instinct MI400 Series starting to take market share from the king of AI $NVDA ? ￼ From their latest earnings report it sure looks like it unless there’s just an overwhelming amount of demand for GPUs’s.",
-     "user": "Vader1977",
-     "at": "2026-11-06T19:33:26Z"
+     "body": "$NBIS $NVDA $APLD Nebius Group N.V. $NBIS Shares Newly Acquired by Rakuten Investment Management Inc. MarketBeat",
+     "user": "sam92",
+     "at": "2026-11-06T20:51:39Z"
     },
     {
      "tag": "Bullish",
-     "body": "$NVDA Wouldn&#39;t be surprised if they have this trading sideways until ER. 🙄",
-     "user": "DietWater",
-     "at": "2026-11-06T19:33:19Z"
+     "body": "$NVDA $MU $SOXL $AAPL I CANT WAIT FOR THE DEMOCRATS TO OPEN ALL THE BOARDERS AGAIN AND DEFUND THE POLICE, GET RID OF ICE. LET TRANNIES PLAY WOMEN SPORTS AND USE GIRLS RESTROOMS. THEN GAS PRICES WILL DROP AND INFLATION WI",
+     "user": "CNGLLC",
+     "at": "2026-11-06T20:51:08Z"
     },
     {
      "tag": "Bullish",
-     "body": "$NVDA Golden buying opportunity",
-     "user": "fanttomas",
-     "at": "2026-11-06T19:32:22Z"
+     "body": "$NVDA hold",
+     "user": "Ssharma19",
+     "at": "2026-11-06T20:50:40Z"
     },
     {
      "tag": "Bullish",
-     "body": "$NVDA MMS don’t wanna payout 187.5 calls or puts Both of u getting destroyed.",
-     "user": "theKINGofREGARDS",
-     "at": "2026-11-06T19:29:26Z"
+     "body": "$NVDA I&#39;m holding strong and not worried but dangit this one is making me mad lol $210-220 needs to get here already 😅",
+     "user": "tryingtoretire1",
+     "at": "2026-11-06T20:48:33Z"
     }
    ]
   },
   "fear_greed": null,
   "vix": {
-   "value": 24.94,
+   "value": 24.87,
    "prev_close": 28.18,
    "week_ago": 19.42,
    "month_ago": 15.01
@@ -866,6 +946,10 @@
    {
     "t": "2026-11-06T19:38+00:00",
     "bull_pct": 93.8
+   },
+   {
+    "t": "2026-11-06T20:59+00:00",
+    "bull_pct": 76.2
    }
   ]
  },
@@ -899,13 +983,13 @@
   "range": {
    "1w": {
     "pct": 6.6,
-    "lo": 175.25,
-    "hi": 200.0
+    "lo": 174.77,
+    "hi": 199.27
    },
    "1m": {
-    "pct": 13.5,
-    "lo": 163.51,
-    "hi": 214.36
+    "pct": 13.4,
+    "lo": 163.15,
+    "hi": 213.47
    }
   },
   "ai": null
@@ -941,11 +1025,10 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 5,
+   "corroborated_by": 4,
    "sources": [
     "Bloomberg",
     "Dealroom",
-    "Moomoo",
     "Tom's Hardware",
     "Yahoo Finance"
    ],
@@ -961,17 +1044,53 @@
    "sentiment": -1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 9,
+   "corroborated_by": 8,
    "sources": [
     "Barron's",
     "Beinsure",
     "Investor's Business Daily",
     "MarketWatch",
-    "Seeking Alpha",
+    "Moomoo",
     "The Motley Fool",
     "Yahoo Finance",
-    "Yahoo Finance Singapore",
-    "Zacks Investment Research"
+    "Yahoo Finance Singapore"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "$11.4 million shipment of Nvidia cargo stolen from Oakland, Calif.",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX196RU5qTWRkQ1FiMGluMzhqMXNoT3MzSVNVZFRfaHJza2ZwMm0wZWl3QWV1Q05sYmhjN3F3alNOeXVDdzdnMWZ5ektPWkFwcUVIYjdjUW1UdXpYQVJiTkJ6VlF5emlYQXVQWWtreDAxNHRaajNlMmhOS0oyLUZRXy1Za0J4MkItVmlVOFFXdUxSTmVK0gGaAUFVX3lxTE45bkYtc1o0TGJTWV83dHQ4d2F3VTlrckhVQmdPandrMUZQc0xxYy1uMG1OX1N2aDV2Z2JjSVMxVzBxTXpwRzdPQ3RSOUFYWGRLRVUxV2IxWGt5LVc4LXA1NXB1amxQLXNPbWY2aVY1Q1NkcnJ4V3hZYl9XNl9TbVo5VzRsZFNKRE10bE9JVS1UbUFlODNYS3FOa2c?oc=5",
+   "domain": "abc7news.com",
+   "published": "2026-11-06T02:37:52+00:00",
+   "source": "ABC7 Bay Area",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 4,
+   "sources": [
+    "ABC7 Bay Area",
+    "Gadget Review",
+    "KTVU",
+    "Tom's Hardware"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "NVDA Stock Rebounds 4% but $180 Support Remains Critical After Midterm Selloff for Nvidia",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMmJnVGV0bDlYY3Q0OVBJLXExYkgtakQ4emVyUktySWkwUHVsWkhia0s1bXZIeXEyWW8wREJLUXRIMHlfbHpzTEpRdmRQeHA3c0R1amRFWVVfd2RxTGY3WmI3cmJUYWF2X3lYckxPMVVQV1c5MXBvaE55R2dCMXBzb0FNYl9lV1JxeHNqbmc4OFNNcllXWXJyZVkzOTg5dENjcUdDVGRzeWJYQUxKejJXWktPS25NUUpYLVR2bnpKanFzeUg3NUt2QlNn?oc=5",
+   "domain": "fxleaders.com",
+   "published": "2026-11-06T20:26:28+00:00",
+   "source": "FXLeaders",
+   "tier": 3,
+   "sentiment": -1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 3,
+   "sources": [
+    "FXLeaders",
+    "MarketWatch",
+    "Moomoo"
    ],
    "status": "single"
   },
@@ -1012,24 +1131,6 @@
    "status": "single"
   },
   {
-   "title": "$11.4 million shipment of Nvidia cargo stolen from Oakland, Calif.",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX196RU5qTWRkQ1FiMGluMzhqMXNoT3MzSVNVZFRfaHJza2ZwMm0wZWl3QWV1Q05sYmhjN3F3alNOeXVDdzdnMWZ5ektPWkFwcUVIYjdjUW1UdXpYQVJiTkJ6VlF5emlYQXVQWWtreDAxNHRaajNlMmhOS0oyLUZRXy1Za0J4MkItVmlVOFFXdUxSTmVK0gGaAUFVX3lxTE45bkYtc1o0TGJTWV83dHQ4d2F3VTlrckhVQmdPandrMUZQc0xxYy1uMG1OX1N2aDV2Z2JjSVMxVzBxTXpwRzdPQ3RSOUFYWGRLRVUxV2IxWGt5LVc4LXA1NXB1amxQLXNPbWY2aVY1Q1NkcnJ4V3hZYl9XNl9TbVo5VzRsZFNKRE10bE9JVS1UbUFlODNYS3FOa2c?oc=5",
-   "domain": "abc7news.com",
-   "published": "2026-11-06T02:37:52+00:00",
-   "source": "ABC7 Bay Area",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "ABC7 Bay Area",
-    "KTVU",
-    "Tom's Hardware"
-   ],
-   "status": "single"
-  },
-  {
    "title": "Key Republicans seek briefing from Nvidia CEO over Chinese spy allegations",
    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQmxZQTFUZUxPMjRWM1J0TWJweWhnN1I5NllCNXlHelY5b29OdVQ2akZxZlNPckRCYUNhREQzVGFING14clRqcTRFcmZvdWNiazFKWl9kQUN1Y0s3dWVPSGRLZk5JUTdVNW9LcHJtb0d0VzhsZmUwUDVlNjZLNWYwZzBKYVhUaGpDVUtvZ29VRmZPaUJ4OGlOejlJMmduTkRyeFpWRmtDZm1nMFE2UGMtdVFBd041eWMwOEZQazE1U0RSWEJ0Wm1ockx4N2lSQmd5MGRPWm9vQ2JrNTJVa0w3cWNWZw?oc=5",
    "domain": "asia.nikkei.com",
@@ -1047,18 +1148,18 @@
    "status": "single"
   },
   {
-   "title": "House G.O.P. Leaders Ask Nvidia’s Huang to Speak in Closed-Door Briefing",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTVE0YTFsVlR6ZHViNFNYZzc2VnhtZ3JWOTlmSU5fSWtqVk1wSVUza1dmd2lPOHNiU2JwSHF5RXZzOWd1RHJZNU12OEV5aVZ5RlZ3U3J5TWFNV25YUUFJN25Dc1E4S3lWbURJSy1uU0JSZzl1eFlVd241ci1FZWt3MnUwRnRzMGgxQkN2YjFKclBsbk9EUHMyNkxn?oc=5",
-   "domain": "nytimes.com",
-   "published": "2026-11-05T23:39:27+00:00",
-   "source": "The New York Times",
-   "tier": 2,
+   "title": "Nvidia Is Reportedly Pouring Billions Into AI's Next Big Bottleneck: Advanced Chip Packaging",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWXJBTDJKOXhBbkRBNlU2Ym1kVTNWZVE1X2RoZllySTJabEpZaXF3NnBVSktZM2Q5UVE2VHhoV0p4NEllODBjRFkzVFdTUEx0TlNnaWFuZUZvYWR2MkYyc3pIa1VFd2lzM2JRY21wUkRMZ3o3WXlkM2phS1lTbVFwdkJCWUVldDQ4RTF2WXZCMndtUQ?oc=5",
+   "domain": "benzinga.com",
+   "published": "2026-11-06T20:30:07+00:00",
+   "source": "Benzinga",
+   "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 2,
    "sources": [
-    "The New York Times",
+    "Benzinga",
     "Yahoo Finance"
    ],
    "status": "single"
@@ -1098,23 +1199,6 @@
    "status": "single"
   },
   {
-   "title": "TSMC rises on report of potential push into advanced memory for Nvidia",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRGNTQTdxUFhhMmJMcEpnNUcwdldseWVRTmIyREZtblRncFM3cld4Y2VISnRhWW9rVDdPVHMwaDNVVFNsRjZTZmxaRXZhcm1idmk0NGZPTjlwMHJCdWwxSTBidVh5Vy1ZTjlfeDNBUjQzSDQwV1kweUlJMDdVeV9IVnRteEVsRTBhNmVfUVBUT1FqamRSN1F4RGswdXU?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-06T15:13:00+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "Moomoo",
-    "Yahoo Finance"
-   ],
-   "status": "single"
-  },
-  {
    "title": "Nvidia wants to repurpose over 130 old telco buildings as tiny data centers, report claims — company in talks with Brightspeed after pitching idea to parent company Apollo Global Management",
    "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxNMEwyQ0h1OHFLZ3B4QmIxTkJPOEpUZ3RnMER6eTdLT25xUmJzSnBWRlRiU2xrLU1CSEc4cUJsMnE1Z3BQOTg0REkwSzJMZkF6S2RtYWI0Q1dnMUdHZDBhTGsxN0xPX25LM21mUDVpX1JoV2pIb0ZOM01Vb3FtNFFPV1FEUDBzNDdHTnh1Ry1RWHpwcWhJWE0wbGxuQ1hOdF9JZE5fTXB4NllZU3FGWXkwcVdBUHJUSnFQTjI0VF81dTgta1pqcVYtd2h6UHRxR0VQUklYSnR4Q3RkRW8zdE5lZzNldFpnQ1ZYRmdkZ0d2cE5qQ254b202Z1I4dFlfcjRfcUN5WXgtcnZXcEdKWU1PRXV2bzBDTGY3bVRnZElXajctSWRFWlpvTzI4LW5PbThjOVkyTl95MXgtTGlIeTNjNVBQOUdnclFVZVlQeDdpazlwUjQ2M1JKTzA4V1pKcnM?oc=5",
    "domain": "tomshardware.com",
@@ -1132,19 +1216,18 @@
    "status": "single"
   },
   {
-   "title": "Not Nvidia. Not Palantir. The Midterms Just Made This Magnificent Artificial Intelligence (AI) Stock the Safer Bet.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbHQ5ZVBHQ2RxRHZaLU5hWXlBT1lwTllRY0ZaamFmazUxTzIxZGE5eVl5X1VBWFJTeHRUbEhkc3hnT3ZhNVozZDJ6U1FtUkFsM0lsUFBSdGl1Tzc3aXJQeDgxQWdsVHlQRG12X29NUlFTbTlRRTFEOXY4LXRBRUo4VVZkWkZqdGhVS1pvelVjMTEwUEZKdTBUSw?oc=5",
-   "domain": "fool.com",
-   "published": "2026-11-06T11:00:00+00:00",
-   "source": "The Motley Fool",
-   "tier": 3,
+   "title": "The Sudden Death of an Nvidia AI Prodigy Leaves Behind Bitter Accusations",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVG5uendtNnNFc0xkbm42NUZkMVdIMVVxU1k2NEhNWXVUOUE0UEdwNFpIdV9INXdRR0QteVJzanlGUmVybWV6Nk92bnBUTlUtV2NtaDdTc0ZtcmY4ZkJGU0dBaktkbHVfXzR2MGlPWE5RMWRCZ1RUZVhneDFMNTdqTWlienlTSGowNlZVaW9vb3lBd09XU3F2VkJxcDYwNXRTZ053MmpUR19vMld2V01z?oc=5",
+   "domain": "wsj.com",
+   "published": "2026-11-06T19:37:06+00:00",
+   "source": "The Wall Street Journal",
+   "tier": 1,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 2,
+   "corroborated_by": 1,
    "sources": [
-    "The Motley Fool",
-    "Yahoo Finance"
+    "The Wall Street Journal"
    ],
    "status": "single"
   },
@@ -1177,6 +1260,22 @@
    "corroborated_by": 1,
    "sources": [
     "Bloomberg"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Stock Market Outlook: Nvidia Earnings, Anthropic’s IPO, and the Fed Rate Decision",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdVM5RWx2cGx4U3R0Z3pJMzRzQ1NWaURpbkhvRnRXbzhPU3dVcVRmbVBuT05DOUJ4aXduWGhWYXBzQVZSbVhpU3FHVkQxdnBIWEFLSHBzNGJuc2VWR0Exb3F4dkFSazFNM0ZvQkhrYm1jMzlQcDVGVGQ0RUlYWW5ZVUIzRng1Z3YxZFZmaC1TbWUzSVhoTUJfY3Nn?oc=5",
+   "domain": "barrons.com",
+   "published": "2026-11-06T19:57:00+00:00",
+   "source": "Barron's",
+   "tier": 2,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Barron's"
    ],
    "status": "single"
   },
@@ -1277,6 +1376,70 @@
    "status": "single"
   },
   {
+   "title": "Nvidia faces a more hostile Washington",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdDBPSkdSNzJVSHRwZXUzLTk0MzFCRTlxb1pwajN3WDVUUzZIc3NnakVsX3ZGQjMzRUhkdXFab091bGIxZ01Ib2M4bWUweU1zaUEyWVZUZHlyVjNOMkRtSVJSNkhwZzcxZl9BcGh2TUlBTU9DM3dsOElQVnd4RWxaZ2d6S3FGTkgy?oc=5",
+   "domain": "semafor.com",
+   "published": "2026-11-06T20:41:00+00:00",
+   "source": "Semafor",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Semafor"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Krispy Kreme Is Beating Nvidia, and That’s Not Even the Chip Giant’s Biggest Problem",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOX0JVbC1JMUlaM0hRN1dHV2tnYzIwbmlObXdiMFFsbjVrdXZhZ3J4b0E1c3hpUnNucENmaE9Td3BSdzFWUGZNd09KaURQRmphUmZ1OHQ3dENKbVZkZE1jM2pMZEdHSXNTd0NMZmd1T0dQWG5WbTQtM0pQZnB3Wk9EcEVSXzY0ODNDbTNCVFZxemt5OEtvQW9jTjdvZUtKTjdWQVM0WGptcVFEd3ZiRVFhaldR?oc=5",
+   "domain": "gizmodo.com",
+   "published": "2026-11-06T20:25:46+00:00",
+   "source": "Gizmodo",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Gizmodo"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Why Nvidia’s founder gave Scripps Research free computing power",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSUU3UjQwQXZQTjJaS0FhUlllNFA4aU15UjAzbWdwa0RDUE01ZHdKZ3hYYk1ZLVZXRnZqMDNFdFdsRE9zT05sRXdaWEJfWFM5OHhpOS1IVXg0eTBvQ0pCSWNqSVFHOEhLakxmWnBWck1Pb3g0TnNhWDJhRUlRQzMyN0ZxQVA3ZzhRcHVPR3VTb2htVkZ6MWY2REZodF9EdUJyZU5qWlp3?oc=5",
+   "domain": "eastbaytimes.com",
+   "published": "2026-11-06T19:51:08+00:00",
+   "source": "East Bay Times",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "East Bay Times"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "NVIDIA RTX 5070 Ti Climbs $160 in Eight Days, Now 79% Over MSRP",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc1duaGJaTWsyTkZVM3RTMjZrQ1VTOXJvSDFmVjJmbGdISnQ5SzBGU1dqX2EyTVVfNHIycy05YV9oUEtycllBWi1tSnhUVUt0X2FDUElkTkxwMTdzRjBnamEyWlBuMzVKNWFoUHVUME5GVnJIMUU2THU3ZHJPN0JtenV6dDU5LTRBMGJVTFZZNWVGa2hjOFdtTE13ZUFYaFdR0gGmAUFVX3lxTFBNQmZkc1ZJWEFZcTJHYlFEUVE4NDNMeHY0WVB1YnJUNHA5ejFNMUZlcy1hTV9aaGN0LW44ckw0WUthU0dzQmVqeThpVjh0TzRZY0FlaExZUzFMczd3RjBWUE5YN0hldVhKTGlxZjNjNWRTY0hoNEtROGVvRk9PaDhEZFlHUWxnaldUT3NjNWZBSENvRExTVjdiNk5JV2FMUWRMVWZ6WXc?oc=5",
+   "domain": "techpowerup.com",
+   "published": "2026-11-06T19:44:10+00:00",
+   "source": "TechPowerUp",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "TechPowerUp"
+   ],
+   "status": "single"
+  },
+  {
    "title": "Experts warn stolen NVIDIA hardware could pose national security risks",
    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaTBJU2JJMC04UVlPS0RLQ0NUbHVCRFZlSng4VERicTdxSzAwNnZVRVJvc1ZqZVRlZHBtMjduZ3ljUzVUclU1V0ZtN1JRbkllVGpDRy1tUWRrbVYtY0l1VFJnVzN0ZVRDM0JRSmxnN0VIcmtNZVJlaEtrOTh3RF9tMHRHbWdUY1EzRVgzUTlHUnRFZ0ZhMmhuTE1uWWRnU0s0Q2o1UEJXZEk1dUFDRlF6bHQ5cGNqTThQelc3RUhfWXdVTVRwWF9zaHZwbE81dmpHZ05RYVhRV1hrOXo0Sk8yRTlBZW8?oc=5",
    "domain": "abc10.com",
@@ -1325,38 +1488,6 @@
    "status": "single"
   },
   {
-   "title": "Investor Warns Nvidia Is Repeating Cisco's Fatal Mistake",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMG9DM1pUWGdTWmNzRW55eS1jeVhHWVNkWUc2bWt6Mk9ZZjJJSE9zZkJDUDVQSHVPVnRJc3ZTdUZ4MGpJNnpPeXVMeE41ZHhKY1dHelpZeGZuZmhyMVhjdTd5dlBlOGNSNEhNNVBkTUNDTGRjdFpPSTBUS05ub3pqTmhoR3NOU1lXYjVVQjFmMXRtMDlkbzBjT3owaHlIdHhfTVkxbm9qZlRlbV9rRXpkVkxqcDdYOFk?oc=5",
-   "domain": "tradingview.com",
-   "published": "2026-11-06T18:18:00+00:00",
-   "source": "TradingView",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "TradingView"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Nvidia and AMD Could Recover Despite New Restrictions on Texas Data Centers",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQd2VkQkRHMG1OLUtSb09SeHRHdmpSRVVOWGw3VEFhUzg2Z2VMZzZ0c1NjTVE5a18xaFU1Ymxpc0ZnWlNYbUpHaDl3ZjBxZ05ETVVkcWdOanZtVDRmQ0VXQ0JkRE9aVXJBN1JNYllMUlBwRWxraldfQUM5d2s5cThzWmV1Q3lEWkd6ZjZSbEhTLXhMeW85b1pDSHZBMDFZd3FQQ0thTXVhaXp1V2loYlZ6VDJEWDluLVRUajlWRg?oc=5",
-   "domain": "investing.com",
-   "published": "2026-11-06T18:04:19+00:00",
-   "source": "Investing.com",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Investing.com"
-   ],
-   "status": "single"
-  },
-  {
    "title": "America's Greatest Opportunities: Nvidia Goes From Gaming Backbone To AI Powerhouse",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaVREVWNINEZtcVI3MHA5MDlsbDRlQmZkdnNKZ01DcGRmOUtid1lWdGJDUFBzZGdEQmdzQTVWaDdTbFA4SGNuRHB0YkVjb01IUkE4bUJKcVBGelRyakpYZjJoSVc3YUIxazhqcnZWdk5vWnUxLVVIR1ZkcFg0Y1MxYzZmeXpRaTNzS3VVY25oUXctd1BIaTQtWHFGODNGVXdtaloyTUN2eUdvVUVRYzQxWDF5d3N6dw?oc=5",
    "domain": "investors.com",
@@ -1369,22 +1500,6 @@
    "corroborated_by": 1,
    "sources": [
     "Investor's Business Daily"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "GE Vernova Has Something Nvidia Needs Under a Democratic Congress",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcGgtYl9PdGotdVRKRGdGcHlOcGpsTmRqSVlwZF93QWRWSXBQS2ozcmFXaGZfWUFOZTVsQkZLUmZCR0xNN1Z3MlF1Q1VjY0JoUjktT1hpZVFCR09xeUxfd09pNDM0UlVNU2lXaEwxdFFWZGNHNXlSVlNVa19WRTluY1hWczFHTktVeFVrY3J1WmpiamtlRElzNjE4S0M1dGRKVDFCaElCZ3gyelFvQlE?oc=5",
-   "domain": "247wallst.com",
-   "published": "2026-11-06T17:45:00+00:00",
-   "source": "24/7 Wall St.",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "24/7 Wall St."
    ],
    "status": "single"
   },
@@ -1437,40 +1552,24 @@
    "status": "single"
   },
   {
-   "title": "Fermaca to deploy 60MW of AI capacity in Mexico with Nvidia by 2027",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbW9oWkhnaG4yd243S0tmZ3hWMkNlenFFb2RUM2tjV0p4Y1RNcHVOWEJLVzh0NWlTZUh3bjZzQjJIZWxGMF80WFhYMVQtNlJ0aVAwU1pKX2ZjX0djeUZZMXYtRDRpUlVMNVMtUXdueVR3NUxyazJjSmFnVTQ3TGpkcXQxSVNmeEhzUWNOM2tlRENMN2NtX0FiSm5vYy1NNXNpMGtwTw?oc=5",
-   "domain": "bnamericas.com",
-   "published": "2026-11-06T16:33:25+00:00",
-   "source": "BNamericas",
+   "title": "Nvidia Bulls Defy the Pullback With Another Massive $42.8M Options Bet | Smart Money Option",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVG16ZHhPZXVNMnVNWUVfM1N0SmxXN1k2eDI0T2N3VEJyVG5QbU9WSW9XdERORVI4NjJ1allUS3ZySG01RmZNZGtybTI0NUVXSllqbGJnUlNxMmRKOEptVUl5WTZYSnh4WlViWkgyNWNGUkFWUHVpMVVTOEZ3eU00V0xHbF90SWtTRlQ2UEI3TC10VVVTZzZVZ3p6V0pURmh5OUt6aW90SVdMbGN6alUyRA?oc=5",
+   "domain": "moomoo.com",
+   "published": "2026-11-06T16:10:00+00:00",
+   "source": "Moomoo",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "BNamericas"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Can SMCI's Collaboration With NVDA Help it Challenge DELL & HPE?",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOHVxdnJKYkNGTmszODNWTGhPWkNBM1JJN0Y5ZE0wd2hpcEN0Z1dBcDI0YS1ZSURKMm1LV2QtdHJhUm9zSEU5S3ZsNWNyYWZWWG93QV96YXY5VXlKZ1FacVhQbldadGN2TDhOOGlTb2JTWGhIQnNpZkh6Y3RtM0FYTUl6czgyN0lONTV5VFBZV2tpRWxrdy1Da1F1UXdGcUEzbUVrWXIwaGJ0dEJZbnNMZE55MGoyaEo3ZUM1bVZ5MlRxRGxlSkNNcXRyOGJIX0pKRnVfcUdsN0Q5X0ppUGc?oc=5",
-   "domain": "theglobeandmail.com",
-   "published": "2026-11-06T16:14:59+00:00",
-   "source": "The Globe and Mail",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "The Globe and Mail"
+    "Moomoo"
    ],
    "status": "single"
   },
   {
    "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5uWEtGcnlKWnRLb2lvR3F6Nml1a0hpYzFtYzJvcjhfeUxMYllnQ1BGZUZydWx1TjNHZHpsdldmNFB3WVFEdWEwVA?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUy1GbUVmMWhpLXRkYzZobGdzU0VxSlhvb1VzQVNJZnZxQlduaU4xNTktcUJMZEtaNzZLdnVJYUtFNTlSU0RlRFhyM0l4QkhWMDlvTjhrdzRtdUVxS1pBMmNoX005YTJoRzFFMlZGem5HZVBRN1Ixa1Z6Q0l5eGxVTw?oc=5",
    "domain": "blogs.nvidia.com",
    "published": "2026-11-06T16:03:19+00:00",
    "source": "NVIDIA Blog",
@@ -1497,6 +1596,22 @@
    "corroborated_by": 1,
    "sources": [
     "The Futurum Group"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "TSMC rises on report of potential push into advanced memory for Nvidia",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRGNTQTdxUFhhMmJMcEpnNUcwdldseWVRTmIyREZtblRncFM3cld4Y2VISnRhWW9rVDdPVHMwaDNVVFNsRjZTZmxaRXZhcm1idmk0NGZPTjlwMHJCdWwxSTBidVh5Vy1ZTjlfeDNBUjQzSDQwV1kweUlJMDdVeV9IVnRteEVsRTBhNmVfUVBUT1FqamRSN1F4RGswdXU?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-06T15:13:00+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Yahoo Finance"
    ],
    "status": "single"
   },
@@ -1545,22 +1660,6 @@
    "corroborated_by": 1,
    "sources": [
     "Moomoo"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for Nvidia's Growth Runway?",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVkFyQ2dkdmp3Qm1MT3VCZ2FTOVlsNWRJNUtYbVU0R1lnZm1waWZmZjZ2NEplelFqR0p4S1Z5bkFJMTdTTmtIelR3MllsMWhSLWlTMWt4bkc2RW5fUXJxcWpZQjM4S2VGYVB6VzBHSVU2Z1lNbnBpX2xkS3lnaUdPWk5pY1VxMHpWVUh6MjF0SVh6SkItM1dPb2hR?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-06T14:35:00+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Yahoo Finance"
    ],
    "status": "single"
   },
@@ -1741,18 +1840,18 @@
    "status": "single"
   },
   {
-   "title": "Nasdaq Suffers Worst AI Panic in Years as Nvidia, SanDisk, and Western Digital Sink",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDVEMlZHbjZKNGp1bDhYM3d6eEROTUhJbE9ZUlNzYWZrNF9NVWJRM2hxeHRDZ1p5M2thMWlXak1uYWtaOEhBSjlQU09HMlhua2FpX0tjYU9LaHE4YWo2MkR1WmZNMDVwNU1hcWhqS29OdzBhWFJHeHl4bzZaSHd4WkRSd2JzcFgxVFBVVl9vLUlLdHJMQ3JfNQ?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-06T10:37:07+00:00",
-   "source": "Yahoo Finance",
+   "title": "Not Nvidia. Not Palantir. The Midterms Just Made This Magnificent Artificial Intelligence (AI) Stock the Safer Bet.",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbHQ5ZVBHQ2RxRHZaLU5hWXlBT1lwTllRY0ZaamFmazUxTzIxZGE5eVl5X1VBWFJTeHRUbEhkc3hnT3ZhNVozZDJ6U1FtUkFsM0lsUFBSdGl1Tzc3aXJQeDgxQWdsVHlQRG12X29NUlFTbTlRRTFEOXY4LXRBRUo4VVZkWkZqdGhVS1pvelVjMTEwUEZKdTBUSw?oc=5",
+   "domain": "fool.com",
+   "published": "2026-11-06T11:00:00+00:00",
+   "source": "The Motley Fool",
    "tier": 3,
-   "sentiment": -1.0,
+   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "Yahoo Finance"
+    "The Motley Fool"
    ],
    "status": "single"
   },
@@ -5245,13 +5344,13 @@
    "o": 191.14,
    "h": 194.895,
    "l": 185.22,
-   "c": 187.215,
-   "v": 127012480,
-   "sma20": 211.576,
-   "sma50": 219.825,
-   "sma200": 204.675,
-   "rsi": 31.326,
-   "macd_hist": -3.16
+   "c": 186.62,
+   "v": 151217621,
+   "sma20": 211.546,
+   "sma50": 219.813,
+   "sma200": 204.673,
+   "rsi": 30.742,
+   "macd_hist": -3.198
   }
  ]
 }
