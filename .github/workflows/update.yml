@@ -7,6 +7,8 @@ on:
     # ทุก 10 นาที ตั้งแต่ Pre-market ถึง After-hours (08:00-01:00 UTC ≈ 15:00-08:00 เวลาไทย)
     - cron: "*/5 8-23 * * 1-5"
     - cron: "*/5 0 * * 2-6"
+    # keepalive: กันไม่ให้ GitHub ปิด scheduled workflow เมื่อ repo ไม่มี activity 60 วัน (วันที่ 1 และ 15 ของเดือน 03:17 UTC)
+    - cron: "17 3 1,15 * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -27,10 +29,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-python@v5
+        if: ${{ github.event.schedule != '17 3 1,15 * *' }}
         with:
           python-version: "3.12"
       - name: Fetch prices + news, score, alert
+        if: ${{ github.event.schedule != '17 3 1,15 * *' }}
         env:
           MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event.schedule == '30 12 * * 1-5' && 'daily' || 'intraday') }}
           PAGE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
@@ -43,10 +49,27 @@ jobs:
           SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT || 'nvda-news-dashboard github-actions' }}
         run: python scripts/update.py
       - name: Commit data
-        if: ${{ github.event_name != 'workflow_dispatch' || inputs.mode != 'test' }}
+        if: ${{ github.event.schedule != '17 3 1,15 * *' && (github.event_name != 'workflow_dispatch' || inputs.mode != 'test') }}
         run: |
           git config user.name "nvda-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/data data/
           git diff --cached --quiet || git commit -m "data: update $(date -u +%FT%TZ)"
+          git push
+      - name: Keepalive heartbeat
+        # ทำเฉพาะรอบที่รันตามเวลา และเฉพาะวันที่ 1 และ 15 (UTC) วันละครั้ง
+        if: ${{ github.event_name == 'schedule' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          day=$(date -u +%d)
+          if [ "$day" != "01" ] && [ "$day" != "15" ]; then echo "not day 1/15, skip"; exit 0; fi
+          today=$(date -u +%F)
+          if grep -q "^$today" .heartbeat 2>/dev/null; then echo "heartbeat already written today"; exit 0; fi
+          git config user.name "nvda-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --quiet origin "${GITHUB_REF_NAME}"
+          date -u +%FT%TZ > .heartbeat
+          git add .heartbeat
+          git commit -m "chore: keepalive heartbeat $(date -u +%FT%TZ) [skip ci]"
           git push
