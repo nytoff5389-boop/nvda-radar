@@ -1,7 +1,7 @@
 // Live quotes straight from the browser (no server delay).
 // Primary: TradingView scanner (CORS allowed, includes pre/after-hours). Fallback: CNBC quote service.
 (function(){
-  const TV={NVDA:"NASDAQ:NVDA",GOOGL:"NASDAQ:GOOGL"};
+  const TV={NVDA:"NASDAQ:NVDA",GOOGL:"NASDAQ:GOOGL",TTWO:"NASDAQ:TTWO"};
   function session(){
     const p=Object.fromEntries(new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour12:false,weekday:"short",hour:"2-digit",minute:"2-digit"})
       .formatToParts(new Date()).map(x=>[x.type,x.value]));

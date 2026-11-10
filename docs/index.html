@@ -24,7 +24,8 @@ header{text-align:center;margin:8px 0 24px}
 h1{font-size:clamp(26px,6vw,36px);margin:6px 0 2px;line-height:1.45}
 .sub{color:var(--ink2);margin:0}
 .speak{margin-top:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink2);border-radius:999px;padding:8px 16px;font:600 14px Mali;cursor:pointer}
-.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media (max-width:700px){.grid{grid-template-columns:repeat(2,1fr)}.grid .tile:last-child:nth-child(odd){grid-column:1/-1;justify-self:center;width:calc(50% - 9px)}}
 
 .tile{aspect-ratio:1/1;border:2px solid var(--line);border-radius:32px;background:var(--surface);box-shadow:var(--shadow);
   display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:14px;cursor:pointer;
@@ -35,6 +36,7 @@ h1{font-size:clamp(26px,6vw,36px);margin:6px 0 2px;line-height:1.45}
   font:800 clamp(18px,5vw,26px) Nunito;color:#fff;margin-bottom:6px}
 .tile.nvda .badge{background:linear-gradient(135deg,#7bd389,#36ad78)}
 .tile.googl .badge{background:linear-gradient(135deg,#8fc8f5,#5b9be6)}
+.tile.ttwo .badge{background:linear-gradient(135deg,#c9a7f5,#8f6be0)}
 .tile .tk{font:800 clamp(20px,5.5vw,28px) Nunito;letter-spacing:.5px}
 .tile .nm{color:var(--muted);font-size:clamp(13px,3.4vw,15px)}
 .tile .px{font:800 clamp(17px,4.6vw,22px) Nunito;margin-top:4px}
@@ -76,6 +78,11 @@ footer{text-align:center;color:var(--muted);font-size:13px;margin-top:26px}
       <div class="tk">GOOGL</div><div class="nm">Google (Alphabet)</div>
       <div class="px" id="px-GOOGL">…</div><div class="ch" id="ch-GOOGL"></div><div class="lv" id="lv-GOOGL">กำลังโหลด</div>
     </a>
+    <a class="tile ttwo" href="stock.html?s=TTWO" data-s="TTWO">
+      <span class="paw">🐾</span><div class="badge">T2</div>
+      <div class="tk">TTWO</div><div class="nm">Take-Two (GTA)</div>
+      <div class="px" id="px-TTWO">…</div><div class="ch" id="ch-TTWO"></div><div class="lv" id="lv-TTWO">กำลังโหลด</div>
+    </a>
   </section>
   <p class="sub" id="liveNote" style="text-align:center;margin-top:16px;font-size:13px"></p>
   <footer>ข้อมูลอัปเดตอัตโนมัติ · ไม่ใช่คำแนะนำการลงทุนนะ 💚</footer>
@@ -83,7 +90,7 @@ footer{text-align:center;color:var(--muted);font-size:13px;margin-top:26px}
 <script src="live.js"></script>
 <script>
 const LV={vbad:"🙀 เสี่ยงมาก",bad:"😿 เสี่ยง",neutral:"😺 ปกติ",good:"😸 ดี",vgood:"😻 ดีมาก"};
-const NAMES={NVDA:"เอ็นวิเดีย",GOOGL:"กูเกิล"};
+const NAMES={NVDA:"เอ็นวิเดีย",GOOGL:"กูเกิล",TTWO:"เทคทู"};
 // ---- sound: soft "meow" chirp with WebAudio + Thai voice (browsers need a tap first) ----
 let ac=null;
 function chirp(){
@@ -114,9 +121,9 @@ function showPx(s,px,c,ses){
   if(px)document.getElementById("px-"+s).textContent="$"+Number(px).toFixed(2);
   if(c!=null){const el=document.getElementById("ch-"+s);el.textContent=(c>=0?"▲ +":"▼ ")+Number(c).toFixed(2)+"%";el.className="ch "+(c>=0?"up":"down")}
 }
-LiveQuote.poll(["NVDA","GOOGL"],q=>{for(const s in q){gotLive[s]=1;showPx(s,q[s].price,q[s].chg,q[s].ses)}
+LiveQuote.poll(["NVDA","GOOGL","TTWO"],q=>{for(const s in q){gotLive[s]=1;showPx(s,q[s].price,q[s].chg,q[s].ses)}
   document.getElementById("liveNote").textContent="🔴 ราคาสด อัปเดตล่าสุด "+new Date().toLocaleTimeString("th-TH",{hour:"2-digit",minute:"2-digit",second:"2-digit"})+" น. · "+LiveQuote.SES[LiveQuote.session()]+(LiveQuote.session()==="reg"?"":" (ราคา/เปอร์เซ็นต์เป็นราคานอกเวลา เทียบราคาปิดล่าสุด)")},15000);
-for(const s of ["NVDA","GOOGL"]){
+for(const s of ["NVDA","GOOGL","TTWO"]){
   fetch(`data/${s}.json?ts=${Date.now()}`,{cache:"no-store"}).then(r=>r.json()).then(d=>{
     const t=d.tech||{};if(!gotLive[s])showPx(s,t.close,t.chg_pct,null);
     const k=d.verdict&&d.verdict.key;document.getElementById("lv-"+s).textContent=LV[k]||"—";

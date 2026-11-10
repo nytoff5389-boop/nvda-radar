@@ -450,7 +450,7 @@ footer{margin-top:26px;text-align:center;font-size:13px;color:var(--muted)}
 </main>
 
 <script>
-const STOCKS={NVDA:{tv:"NASDAQ:NVDA",name:"Nvidia",emoji:"🟢"},GOOGL:{tv:"NASDAQ:GOOGL",name:"Google",emoji:"🔵"}};
+const STOCKS={NVDA:{tv:"NASDAQ:NVDA",name:"Nvidia",emoji:"🟢"},GOOGL:{tv:"NASDAQ:GOOGL",name:"Google",emoji:"🔵"},TTWO:{tv:"NASDAQ:TTWO",name:"Take-Two",emoji:"🎮"}};
 const SYM=((new URLSearchParams(location.search)).get("s")||"NVDA").toUpperCase().replace(/[^A-Z]/g,"");
 const META=STOCKS[SYM]||STOCKS.NVDA;
 document.title=`เหมียวส่องหุ้น ${SYM}`;

@@ -38,6 +38,11 @@ CFG = {
               "q2": "Google stock Alphabet",
               "official": ("blog.google", "https://blog.google/rss/", "Google Blog (ทางการ)"),
               "rel": r"alphabet|googl|google|waymo|gemini|youtube|pichai|deepmind|\btpu"},
+    "TTWO": {"name": "Take-Two Interactive", "cik": "946581", "q": "(\"Take-Two\" OR TTWO OR \"Take Two Interactive\")",
+             "q2": "Take-Two stock GTA 6",
+             # no public RSS: official releases are found through Google News limited to the company's own sites
+             "official": ("take2games.com", "gnews:(site:take2games.com OR site:rockstargames.com) when:30d", "Take-Two IR (ทางการ)"),
+             "rel": r"take-?two|ttwo|rockstar|gta|grand theft auto|2k|zynga|strauss zelnick|borderlands|nba 2k|red dead|bioshock|civilization"},
 }
 TICKER = "NVDA"
 OUT = ROOT / "docs" / "data" / "NVDA.json"
@@ -54,7 +59,8 @@ def use_ticker(t: str):
 
 
 def official_domains():
-    return {"sec.gov", "investor.nvidia.com", CFG[TICKER]["official"][0]}
+    extra = {"rockstargames.com"} if TICKER == "TTWO" else set()
+    return {"sec.gov", "investor.nvidia.com", CFG[TICKER]["official"][0]} | extra
 UA = "Mozilla/5.0 (compatible; nvda-news-dashboard/1.0)"
 SEC_UA = os.environ.get("SEC_USER_AGENT") or "nvda-radar dashboard (github.com/nytoff5389-boop/nvda-radar) nvda-radar-bot@users.noreply.github.com"
 
@@ -67,6 +73,8 @@ TRUSTED = {
     "investor.nvidia.com": ("NVIDIA IR (ทางการ)", 1),
     "blog.google": ("Google Blog (ทางการ)", 1),
     "abc.xyz": ("Alphabet IR (ทางการ)", 1),
+    "take2games.com": ("Take-Two IR (ทางการ)", 1),
+    "rockstargames.com": ("Rockstar Games (ทางการ)", 1),
     "sec.gov": ("SEC EDGAR (เอกสารทางการ)", 1),
     "reuters.com": ("Reuters", 1),
     "bloomberg.com": ("Bloomberg", 1),
@@ -86,7 +94,7 @@ BLOCKED = {"marketbeat.com", "americanbankingnews.com", "tickerreport.com", "etf
            "dailypolitical.com", "themarketsdaily.com", "zolmax.com", "baseballnewssource.com", "watchlistnews.com",
            "modernreaders.com", "thecerbatgem.com", "theenterpriseleader.com", "wkrb13.com", "defenseworld.net"}
 NAMES: dict[str, str] = {}
-NEWS_DOMAINS = [d for d in TRUSTED if d not in ("nvidianews.nvidia.com", "investor.nvidia.com", "sec.gov", "blog.google", "abc.xyz")]
+NEWS_DOMAINS = [d for d in TRUSTED if d not in ("nvidianews.nvidia.com", "investor.nvidia.com", "sec.gov", "blog.google", "abc.xyz", "take2games.com", "rockstargames.com")]
 
 # Small finance-specific lexicon, in the spirit of Loughran & McDonald (2011).
 POS = """beat beats record surge surges soar soars jump jumps rally rallies gain gains rise rises
@@ -335,6 +343,8 @@ def fetch_google_news(days: int) -> list[dict]:
 
 def fetch_nvidia_newsroom() -> list[dict]:
     dom, url, _ = CFG[TICKER]["official"]
+    if url.startswith("gnews:"):
+        return [it for it in _gnews(url[6:]) if it["domain"] in official_domains()]
     root = ET.fromstring(http_get(url))
     return [{"title": html.unescape(it.findtext("title") or "").strip(), "url": it.findtext("link"),
              "domain": dom, "published": parse_date(it.findtext("pubDate"))}
@@ -509,9 +519,20 @@ THEMES_GOOGL = [
 ]
 
 
+THEMES_TTWO = [
+    ("gta", "GTA 6 / วันวางขาย", r"gta|grand theft auto|rockstar|delay|launch|release date|trailer"),
+    ("earnings", "งบการเงิน / คาดการณ์รายได้", r"earnings|revenue|guidance|forecast|quarter|results|eps|bookings|profit"),
+    ("mobile", "เกมมือถือ (Zynga)", r"zynga|mobile|match factory|toon blast"),
+    ("sports", "เกมกีฬา NBA 2K / WWE 2K", r"nba 2k|wwe 2k|2k sports|pga"),
+    ("platform", "ราคาเกม / Console / ค่าธรรมเนียม", r"price|\$80|\$70|console|switch|playstation|xbox|steam"),
+    ("cost", "ปลดพนักงาน / ต้นทุน / AI", r"layoff|cost|restructur|\bai\b|union"),
+    ("valuation", "ราคาแพง / เทขาย", r"valuation|overvalued|expensive|sell-?off|downgrade|upgrade|price target"),
+]
+
+
 def news_themes(news: list[dict]) -> list[dict]:
     out = []
-    for key, label, rx in (THEMES_GOOGL if TICKER == "GOOGL" else THEMES):
+    for key, label, rx in {"GOOGL": THEMES_GOOGL, "TTWO": THEMES_TTWO}.get(TICKER, THEMES):
         hits = [n for n in news if re.search(rx, n["title"], re.I)]
         if not hits:
             continue
@@ -832,7 +853,7 @@ if __name__ == "__main__":
     if os.environ.get("MODE") == "test":
         main()
     else:
-        for t in [x.strip().upper() for x in os.environ.get("TICKERS", "NVDA,GOOGL").split(",") if x.strip()]:
+        for t in [x.strip().upper() for x in os.environ.get("TICKERS", "NVDA,GOOGL,TTWO").split(",") if x.strip()]:
             use_ticker(t)
             NAMES.clear()
             try:
