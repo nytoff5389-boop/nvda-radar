@@ -1,0 +1,4640 @@
+{
+ "ticker": "TTWO",
+ "generated_at": "2026-11-10T04:00:57.170740+00:00",
+ "sample": false,
+ "intraday": {
+  "price": 207.4,
+  "prev_close": 214.87,
+  "time": 1794258000,
+  "points": [
+   {
+    "t": 1794214800,
+    "c": 219.0,
+    "s": "pre"
+   },
+   {
+    "t": 1794215100,
+    "c": 218.45,
+    "s": "pre"
+   },
+   {
+    "t": 1794215400,
+    "c": 217.92,
+    "s": "pre"
+   },
+   {
+    "t": 1794216000,
+    "c": 217.76,
+    "s": "pre"
+   },
+   {
+    "t": 1794218100,
+    "c": 217.93,
+    "s": "pre"
+   },
+   {
+    "t": 1794219300,
+    "c": 217.66,
+    "s": "pre"
+   },
+   {
+    "t": 1794222300,
+    "c": 217.75,
+    "s": "pre"
+   },
+   {
+    "t": 1794225600,
+    "c": 216.9,
+    "s": "pre"
+   },
+   {
+    "t": 1794225900,
+    "c": 217.05,
+    "s": "pre"
+   },
+   {
+    "t": 1794226200,
+    "c": 217.35,
+    "s": "pre"
+   },
+   {
+    "t": 1794226500,
+    "c": 217.35,
+    "s": "pre"
+   },
+   {
+    "t": 1794226800,
+    "c": 217.06,
+    "s": "pre"
+   },
+   {
+    "t": 1794227100,
+    "c": 217.04,
+    "s": "pre"
+   },
+   {
+    "t": 1794227700,
+    "c": 217.2,
+    "s": "pre"
+   },
+   {
+    "t": 1794228000,
+    "c": 217.38,
+    "s": "pre"
+   },
+   {
+    "t": 1794228600,
+    "c": 217.08,
+    "s": "pre"
+   },
+   {
+    "t": 1794228900,
+    "c": 217.11,
+    "s": "pre"
+   },
+   {
+    "t": 1794229200,
+    "c": 217.09,
+    "s": "pre"
+   },
+   {
+    "t": 1794229800,
+    "c": 217.65,
+    "s": "pre"
+   },
+   {
+    "t": 1794230100,
+    "c": 217.2,
+    "s": "pre"
+   },
+   {
+    "t": 1794230400,
+    "c": 217.3,
+    "s": "pre"
+   },
+   {
+    "t": 1794231900,
+    "c": 217.36,
+    "s": "pre"
+   },
+   {
+    "t": 1794232200,
+    "c": 216.99,
+    "s": "pre"
+   },
+   {
+    "t": 1794232500,
+    "c": 217.0,
+    "s": "pre"
+   },
+   {
+    "t": 1794232800,
+    "c": 217.0,
+    "s": "pre"
+   },
+   {
+    "t": 1794233100,
+    "c": 217.0,
+    "s": "pre"
+   },
+   {
+    "t": 1794233400,
+    "c": 217.0,
+    "s": "pre"
+   },
+   {
+    "t": 1794233700,
+    "c": 217.0,
+    "s": "pre"
+   },
+   {
+    "t": 1794234000,
+    "c": 217.0,
+    "s": "pre"
+   },
+   {
+    "t": 1794234300,
+    "c": 216.5,
+    "s": "pre"
+   },
+   {
+    "t": 1794234600,
+    "c": 215.27,
+    "s": "reg"
+   },
+   {
+    "t": 1794234900,
+    "c": 215.96,
+    "s": "reg"
+   },
+   {
+    "t": 1794235200,
+    "c": 216.44,
+    "s": "reg"
+   },
+   {
+    "t": 1794235500,
+    "c": 215.21,
+    "s": "reg"
+   },
+   {
+    "t": 1794235800,
+    "c": 214.79,
+    "s": "reg"
+   },
+   {
+    "t": 1794236100,
+    "c": 213.96,
+    "s": "reg"
+   },
+   {
+    "t": 1794236400,
+    "c": 214.06,
+    "s": "reg"
+   },
+   {
+    "t": 1794236700,
+    "c": 213.64,
+    "s": "reg"
+   },
+   {
+    "t": 1794237000,
+    "c": 214.91,
+    "s": "reg"
+   },
+   {
+    "t": 1794237300,
+    "c": 213.58,
+    "s": "reg"
+   },
+   {
+    "t": 1794237600,
+    "c": 212.63,
+    "s": "reg"
+   },
+   {
+    "t": 1794237900,
+    "c": 212.16,
+    "s": "reg"
+   },
+   {
+    "t": 1794238200,
+    "c": 212.12,
+    "s": "reg"
+   },
+   {
+    "t": 1794238500,
+    "c": 213.15,
+    "s": "reg"
+   },
+   {
+    "t": 1794238800,
+    "c": 212.34,
+    "s": "reg"
+   },
+   {
+    "t": 1794239100,
+    "c": 212.82,
+    "s": "reg"
+   },
+   {
+    "t": 1794239400,
+    "c": 213.24,
+    "s": "reg"
+   },
+   {
+    "t": 1794239700,
+    "c": 213.94,
+    "s": "reg"
+   },
+   {
+    "t": 1794240000,
+    "c": 214.06,
+    "s": "reg"
+   },
+   {
+    "t": 1794240300,
+    "c": 213.62,
+    "s": "reg"
+   },
+   {
+    "t": 1794240600,
+    "c": 213.12,
+    "s": "reg"
+   },
+   {
+    "t": 1794240900,
+    "c": 213.24,
+    "s": "reg"
+   },
+   {
+    "t": 1794241200,
+    "c": 213.99,
+    "s": "reg"
+   },
+   {
+    "t": 1794241500,
+    "c": 213.42,
+    "s": "reg"
+   },
+   {
+    "t": 1794241800,
+    "c": 213.41,
+    "s": "reg"
+   },
+   {
+    "t": 1794242100,
+    "c": 213.18,
+    "s": "reg"
+   },
+   {
+    "t": 1794242400,
+    "c": 212.93,
+    "s": "reg"
+   },
+   {
+    "t": 1794242700,
+    "c": 213.15,
+    "s": "reg"
+   },
+   {
+    "t": 1794243000,
+    "c": 212.85,
+    "s": "reg"
+   },
+   {
+    "t": 1794243300,
+    "c": 212.34,
+    "s": "reg"
+   },
+   {
+    "t": 1794243600,
+    "c": 212.04,
+    "s": "reg"
+   },
+   {
+    "t": 1794243900,
+    "c": 212.18,
+    "s": "reg"
+   },
+   {
+    "t": 1794244200,
+    "c": 212.38,
+    "s": "reg"
+   },
+   {
+    "t": 1794244500,
+    "c": 212.51,
+    "s": "reg"
+   },
+   {
+    "t": 1794244800,
+    "c": 212.68,
+    "s": "reg"
+   },
+   {
+    "t": 1794245100,
+    "c": 212.97,
+    "s": "reg"
+   },
+   {
+    "t": 1794245400,
+    "c": 212.99,
+    "s": "reg"
+   },
+   {
+    "t": 1794245700,
+    "c": 212.86,
+    "s": "reg"
+   },
+   {
+    "t": 1794246000,
+    "c": 212.29,
+    "s": "reg"
+   },
+   {
+    "t": 1794246300,
+    "c": 211.9,
+    "s": "reg"
+   },
+   {
+    "t": 1794246600,
+    "c": 212.38,
+    "s": "reg"
+   },
+   {
+    "t": 1794246900,
+    "c": 212.24,
+    "s": "reg"
+   },
+   {
+    "t": 1794247200,
+    "c": 211.71,
+    "s": "reg"
+   },
+   {
+    "t": 1794247500,
+    "c": 209.77,
+    "s": "reg"
+   },
+   {
+    "t": 1794247800,
+    "c": 210.51,
+    "s": "reg"
+   },
+   {
+    "t": 1794248100,
+    "c": 210.7,
+    "s": "reg"
+   },
+   {
+    "t": 1794248400,
+    "c": 208.81,
+    "s": "reg"
+   },
+   {
+    "t": 1794248700,
+    "c": 209.66,
+    "s": "reg"
+   },
+   {
+    "t": 1794249000,
+    "c": 210.61,
+    "s": "reg"
+   },
+   {
+    "t": 1794249300,
+    "c": 209.92,
+    "s": "reg"
+   },
+   {
+    "t": 1794249600,
+    "c": 210.27,
+    "s": "reg"
+   },
+   {
+    "t": 1794249900,
+    "c": 210.44,
+    "s": "reg"
+   },
+   {
+    "t": 1794250200,
+    "c": 210.69,
+    "s": "reg"
+   },
+   {
+    "t": 1794250500,
+    "c": 211.13,
+    "s": "reg"
+   },
+   {
+    "t": 1794250800,
+    "c": 211.34,
+    "s": "reg"
+   },
+   {
+    "t": 1794251100,
+    "c": 210.71,
+    "s": "reg"
+   },
+   {
+    "t": 1794251400,
+    "c": 211.0,
+    "s": "reg"
+   },
+   {
+    "t": 1794251700,
+    "c": 210.19,
+    "s": "reg"
+   },
+   {
+    "t": 1794252000,
+    "c": 210.49,
+    "s": "reg"
+   },
+   {
+    "t": 1794252300,
+    "c": 210.92,
+    "s": "reg"
+   },
+   {
+    "t": 1794252600,
+    "c": 210.64,
+    "s": "reg"
+   },
+   {
+    "t": 1794252900,
+    "c": 211.55,
+    "s": "reg"
+   },
+   {
+    "t": 1794253200,
+    "c": 211.01,
+    "s": "reg"
+   },
+   {
+    "t": 1794253500,
+    "c": 210.88,
+    "s": "reg"
+   },
+   {
+    "t": 1794253800,
+    "c": 211.1,
+    "s": "reg"
+   },
+   {
+    "t": 1794254100,
+    "c": 210.74,
+    "s": "reg"
+   },
+   {
+    "t": 1794254400,
+    "c": 210.68,
+    "s": "reg"
+   },
+   {
+    "t": 1794254700,
+    "c": 211.24,
+    "s": "reg"
+   },
+   {
+    "t": 1794255000,
+    "c": 211.1,
+    "s": "reg"
+   },
+   {
+    "t": 1794255300,
+    "c": 211.49,
+    "s": "reg"
+   },
+   {
+    "t": 1794255600,
+    "c": 211.46,
+    "s": "reg"
+   },
+   {
+    "t": 1794255900,
+    "c": 210.26,
+    "s": "reg"
+   },
+   {
+    "t": 1794256200,
+    "c": 207.8,
+    "s": "reg"
+   },
+   {
+    "t": 1794256500,
+    "c": 209.03,
+    "s": "reg"
+   },
+   {
+    "t": 1794256800,
+    "c": 207.56,
+    "s": "reg"
+   },
+   {
+    "t": 1794257100,
+    "c": 208.15,
+    "s": "reg"
+   },
+   {
+    "t": 1794257400,
+    "c": 208.49,
+    "s": "reg"
+   },
+   {
+    "t": 1794257700,
+    "c": 207.33,
+    "s": "reg"
+   },
+   {
+    "t": 1794258000,
+    "c": 208.0,
+    "s": "post"
+   },
+   {
+    "t": 1794258300,
+    "c": 201.49,
+    "s": "post"
+   },
+   {
+    "t": 1794258600,
+    "c": 209.82,
+    "s": "post"
+   },
+   {
+    "t": 1794258900,
+    "c": 214.55,
+    "s": "post"
+   },
+   {
+    "t": 1794259200,
+    "c": 215.82,
+    "s": "post"
+   },
+   {
+    "t": 1794259500,
+    "c": 216.0,
+    "s": "post"
+   },
+   {
+    "t": 1794259800,
+    "c": 218.86,
+    "s": "post"
+   },
+   {
+    "t": 1794260100,
+    "c": 218.07,
+    "s": "post"
+   },
+   {
+    "t": 1794260400,
+    "c": 215.33,
+    "s": "post"
+   },
+   {
+    "t": 1794260700,
+    "c": 215.17,
+    "s": "post"
+   },
+   {
+    "t": 1794261000,
+    "c": 216.12,
+    "s": "post"
+   },
+   {
+    "t": 1794261300,
+    "c": 216.0,
+    "s": "post"
+   },
+   {
+    "t": 1794261600,
+    "c": 216.48,
+    "s": "post"
+   },
+   {
+    "t": 1794261900,
+    "c": 215.04,
+    "s": "post"
+   },
+   {
+    "t": 1794262200,
+    "c": 215.5,
+    "s": "post"
+   },
+   {
+    "t": 1794262500,
+    "c": 215.68,
+    "s": "post"
+   },
+   {
+    "t": 1794262800,
+    "c": 215.0,
+    "s": "post"
+   },
+   {
+    "t": 1794263100,
+    "c": 215.48,
+    "s": "post"
+   },
+   {
+    "t": 1794263400,
+    "c": 215.04,
+    "s": "post"
+   },
+   {
+    "t": 1794263700,
+    "c": 215.8,
+    "s": "post"
+   },
+   {
+    "t": 1794264000,
+    "c": 215.8,
+    "s": "post"
+   },
+   {
+    "t": 1794264300,
+    "c": 215.5,
+    "s": "post"
+   },
+   {
+    "t": 1794264600,
+    "c": 215.25,
+    "s": "post"
+   },
+   {
+    "t": 1794264900,
+    "c": 215.47,
+    "s": "post"
+   },
+   {
+    "t": 1794265200,
+    "c": 215.92,
+    "s": "post"
+   },
+   {
+    "t": 1794265500,
+    "c": 215.73,
+    "s": "post"
+   },
+   {
+    "t": 1794265800,
+    "c": 216.2,
+    "s": "post"
+   },
+   {
+    "t": 1794266100,
+    "c": 216.35,
+    "s": "post"
+   },
+   {
+    "t": 1794266700,
+    "c": 216.49,
+    "s": "post"
+   },
+   {
+    "t": 1794267300,
+    "c": 216.03,
+    "s": "post"
+   },
+   {
+    "t": 1794268500,
+    "c": 216.2,
+    "s": "post"
+   },
+   {
+    "t": 1794270900,
+    "c": 217.0,
+    "s": "post"
+   },
+   {
+    "t": 1794271200,
+    "c": 217.0,
+    "s": "post"
+   },
+   {
+    "t": 1794271500,
+    "c": 217.0,
+    "s": "post"
+   },
+   {
+    "t": 1794271800,
+    "c": 216.16,
+    "s": "post"
+   },
+   {
+    "t": 1794272100,
+    "c": 216.37,
+    "s": "post"
+   },
+   {
+    "t": 1794272394,
+    "c": 216.37,
+    "s": "post"
+   }
+  ],
+  "pre": {
+   "t": 1794234300,
+   "c": 216.5,
+   "s": "pre"
+  },
+  "post": {
+   "t": 1794272394,
+   "c": 216.37,
+   "s": "post"
+  },
+  "periods": {
+   "pre": {
+    "start": 1794214800,
+    "end": 1794234600
+   },
+   "regular": {
+    "start": 1794234600,
+    "end": 1794258000
+   },
+   "post": {
+    "start": 1794258000,
+    "end": 1794272400
+   }
+  }
+ },
+ "tech": {
+  "close": 207.4,
+  "prev_close": 214.87,
+  "chg_pct": -3.4765,
+  "sma20": 203.0295,
+  "sma50": 206.9658,
+  "sma200": 218.7335,
+  "rsi": 52.321,
+  "macd_hist": 1.8406,
+  "vol20_ann": 0.3966,
+  "vol_median_1y": 0.3216,
+  "boll_up": 216.5353,
+  "boll_dn": 189.5237,
+  "hi52": 265.94,
+  "drawdown_pct": -22.0125,
+  "avg_vol20": 2745100.0,
+  "volume": 6018700
+ },
+ "verdict": {
+  "score": -1.98,
+  "level": "เสี่ยง",
+  "lean": "ระวัง / พิจารณาขายบางส่วน",
+  "key": "bad",
+  "parts": [
+   {
+    "name": "แนวโน้มระยะยาว",
+    "value": -1,
+    "why": "ราคาอยู่ใต้ SMA200"
+   },
+   {
+    "name": "แนวโน้มระยะกลาง",
+    "value": -0.5,
+    "why": "SMA50 < SMA200"
+   },
+   {
+    "name": "โมเมนตัม MACD",
+    "value": 0.5,
+    "why": "MACD histogram เป็นบวก"
+   },
+   {
+    "name": "RSI",
+    "value": 0,
+    "why": "RSI 52 อยู่ในช่วงปกติ"
+   },
+   {
+    "name": "ความผันผวน",
+    "value": 0.25,
+    "why": "ผันผวนในระดับปกติ"
+   },
+   {
+    "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
+    "value": -0.23,
+    "why": "ค่าเฉลี่ยโทนข่าว -0.11 จาก 10 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+   },
+   {
+    "name": "ความผิดปกติของกราฟ",
+    "value": -1.0,
+    "why": "พบ 2 สัญญาณผิดปกติ"
+   }
+  ]
+ },
+ "anomalies": [
+  {
+   "key": "vol-2026-11-09",
+   "sev": 2,
+   "text": "ปริมาณซื้อขายพุ่ง 2.2 เท่าของค่าเฉลี่ย 20 วัน"
+  },
+  {
+   "key": "dd-2026-11-09",
+   "sev": 2,
+   "text": "ราคาต่ำกว่าจุดสูงสุด 52 สัปดาห์ -22.0% (เข้าเขต bear market)"
+  }
+ ],
+ "sentiment": {
+  "stocktwits": {
+   "messages": 30,
+   "bull": 7,
+   "bear": 1,
+   "bull_pct": 87.5,
+   "watchers": 24996,
+   "sample": [
+    {
+     "tag": "Bullish",
+     "body": "$TTWO hopefully we see $280-$300 by EOY.",
+     "user": "Siccest1",
+     "at": "2026-11-10T00:56:06Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO I&#39;m really looking forward to this board when those reviews hit.",
+     "user": "Robomage",
+     "at": "2026-11-10T00:21:38Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TLN $AMZN $TTWO $AEM",
+     "user": "ksoption",
+     "at": "2026-11-09T22:51:59Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO To anyone else that hates StockDaddy, that guy is a loser",
+     "user": "Fogy",
+     "at": "2026-11-09T22:40:52Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$APLD $TTWO 💭",
+     "user": "RallyRocket",
+     "at": "2026-11-09T22:35:47Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO Take-Two CEO, On Unchanged Bookings Guidance, Says “We’re Days Away From The Launch Of GTA 6, We Tend To Avoid Claiming Success Before It Occurs ... There’s Really No Need To Update Numbers Right Now”; On AI In Gam",
+     "user": "Stoxpo",
+     "at": "2026-11-09T22:23:51Z"
+    }
+   ]
+  },
+  "fear_greed": null,
+  "vix": {
+   "value": 19.92,
+   "prev_close": 25.64,
+   "week_ago": 21.15,
+   "month_ago": 14.84
+  },
+  "analysts": null,
+  "history": [
+   {
+    "t": "2026-11-10T04:00+00:00",
+    "bull_pct": 87.5
+   }
+  ]
+ },
+ "outlook": {
+  "themes": [
+   {
+    "key": "sports",
+    "label": "เกมกีฬา NBA 2K / WWE 2K",
+    "count": 1,
+    "tone": -1.0,
+    "example": "Take-Two Q2 net bookings fall 18% to $1.6bn as NBA 2K27 misses forecast but GTA 6 pre-orders are \"tracking far in excess\" of expectations",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZ19IQnJEVVdWUW9INHE4UDc5R19EdWJKd0xkQy16dkFwNW1CY3pzbkFSU1IyMlRpY2tqdTNoaW5CZG9NZFh5SDhtR2R0UTBLY20tcVQxcDZibG5ISldwRHNYczhFTHFLTHFQWTZOZEFrMHE4R21fTzc0YXFaelNhbnA0WkduSzk0MFY5SlN4dHBxN29GbVFncFk0eXBqdkVDLUlsanU0ZkVZUVVDUEVyLThKRFZPTjVCcjZsMUZyTXMxTldDbWRpdTRTdmVqVDdLV3Z0U1kycDJGczBfTHVVcjFmV3BQNXJDRnVMcTVBX0t4dU1x?oc=5"
+   },
+   {
+    "key": "gta",
+    "label": "GTA 6 / วันวางขาย",
+    "count": 2,
+    "tone": -0.5,
+    "example": "Take-Two Q2 net bookings fall 18% to $1.6bn as NBA 2K27 misses forecast but GTA 6 pre-orders are \"tracking far in excess\" of expectations",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZ19IQnJEVVdWUW9INHE4UDc5R19EdWJKd0xkQy16dkFwNW1CY3pzbkFSU1IyMlRpY2tqdTNoaW5CZG9NZFh5SDhtR2R0UTBLY20tcVQxcDZibG5ISldwRHNYczhFTHFLTHFQWTZOZEFrMHE4R21fTzc0YXFaelNhbnA0WkduSzk0MFY5SlN4dHBxN29GbVFncFk0eXBqdkVDLUlsanU0ZkVZUVVDUEVyLThKRFZPTjVCcjZsMUZyTXMxTldDbWRpdTRTdmVqVDdLV3Z0U1kycDJGczBfTHVVcjFmV3BQNXJDRnVMcTVBX0t4dU1x?oc=5"
+   },
+   {
+    "key": "earnings",
+    "label": "งบการเงิน / คาดการณ์รายได้",
+    "count": 4,
+    "tone": -0.25,
+    "example": "Take-Two Interactive Software, Inc. Reports Results for Fiscal Second Quarter 2027 - Take-Two Interactive Software, Inc.",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY0hFRVZsMWo0eVRsYmswWFp3T2ZORTRRNjhSUFFoLWR5SmRZU3hSczFvSjFnYXo0M0swVVk4RzlzZG1DQ1EzcGw1bFdDaWM2MkVUZUVhY1JJUmtLTDQyamFtNloyNkFNOW43ZHg4Wm9EaGUyOHlpN1FoRDRsTG9iVDRwc3RSTkxIQUdZcUZob3NGcUFVTGhJMA?oc=5"
+   }
+  ],
+  "range": {
+   "1w": {
+    "pct": 5.6,
+    "lo": 196.13,
+    "hi": 219.31
+   },
+   "1m": {
+    "pct": 11.4,
+    "lo": 184.97,
+    "hi": 232.55
+   }
+  },
+  "ai": null
+ },
+ "news": [
+  {
+   "title": "Take-Two Interactive Software, Inc. Reports Results for Fiscal Second Quarter 2027 - Take-Two Interactive Software, Inc.",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY0hFRVZsMWo0eVRsYmswWFp3T2ZORTRRNjhSUFFoLWR5SmRZU3hSczFvSjFnYXo0M0swVVk4RzlzZG1DQ1EzcGw1bFdDaWM2MkVUZUVhY1JJUmtLTDQyamFtNloyNkFNOW43ZHg4Wm9EaGUyOHlpN1FoRDRsTG9iVDRwc3RSTkxIQUdZcUZob3NGcUFVTGhJMA?oc=5",
+   "domain": "take2games.com",
+   "published": "2026-11-09T22:05:57+00:00",
+   "source": "Take-Two IR (ทางการ)",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 26,
+   "sources": [
+    "24/7 Wall St.",
+    "Benzinga",
+    "Bloomberg",
+    "GamesBeat",
+    "GuruFocus",
+    "Indy100",
+    "Inven Global",
+    "Investing.com",
+    "Investing.com Canada",
+    "Investing.com South Africa",
+    "Investor's Business Daily",
+    "KuCoin",
+    "MLQ.ai",
+    "Reuters",
+    "Shacknews",
+    "Simply Wall St",
+    "Startup Fortune",
+    "Stock Titan",
+    "StreetInsider",
+    "Take-Two IR (ทางการ)",
+    "The Lufkin Daily News",
+    "The Wall Street Journal",
+    "TwistedVoxel",
+    "Yahoo Finance",
+    "Yahoo! Finance Canada",
+    "www.marketscreener.com"
+   ],
+   "status": "official"
+  },
+  {
+   "title": "1 SAFE HARBOR – Nicole Shevins • Good Afternoon. Thank you for joining our conference call to discuss our results for the s - Take-Two Interactive Software, Inc.",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNREVyb1hOM0V6RFU1MTZVcnpzR2RrZUFxSThTN2pZWWliUGlDOVR6dmFHNGxyNVdUcTdjREQ0RkJUeGRPei1yVS1xbUJubS13em9Ddk9wUHRtbG5GdFpFcURoS3Q1SEhHelZLb3psYVFyb0tHZUZ2WTNfMndUeUNQSQ?oc=5",
+   "domain": "take2games.com",
+   "published": "2026-11-09T23:12:31+00:00",
+   "source": "Take-Two IR (ทางการ)",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 25,
+   "sources": [
+    "Barron's",
+    "Benzinga",
+    "Bloomberg",
+    "GamesBeat",
+    "GamesIndustry.biz",
+    "GuruFocus",
+    "Indy100",
+    "Investing.com",
+    "Investing.com Canada",
+    "Investing.com South Africa",
+    "Investor's Business Daily",
+    "KuCoin",
+    "Reuters",
+    "Shacknews",
+    "Simply Wall St",
+    "Startup Fortune",
+    "StreetInsider",
+    "Take-Two IR (ทางการ)",
+    "The Lufkin Daily News",
+    "The Wall Street Journal",
+    "TwistedVoxel",
+    "Yahoo Finance",
+    "Yahoo! Finance Canada",
+    "finehomesandliving.com",
+    "www.marketscreener.com"
+   ],
+   "status": "official"
+  },
+  {
+   "title": "TTWO 2Q27 Earnings Release - Take-Two Interactive Software, Inc.",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPamxrN2w2dWg4RWt5ZnBkN3FZS0FMZXBabGhFWjlrakZ2MjMwVlhQTFlxaW90SXZkbkVyYlEwOUhjRHdwZDZfYmR0R0RtNkw0SzdBU20yYUZCVU5uX1hDV0owZGpFRmh1QVI4NXVaUmVTaS1XbTZ0SXVaM0NRMHZERA?oc=5",
+   "domain": "take2games.com",
+   "published": "2026-11-09T22:30:25+00:00",
+   "source": "Take-Two IR (ทางการ)",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 25,
+   "sources": [
+    "Benzinga",
+    "Bloomberg",
+    "GamesBeat",
+    "GuruFocus",
+    "Indy100",
+    "Insider Gaming",
+    "Investing.com",
+    "Investing.com Canada",
+    "Investing.com South Africa",
+    "Investor's Business Daily",
+    "KuCoin",
+    "Reuters",
+    "Seeking Alpha",
+    "Shacknews",
+    "Simply Wall St",
+    "Startup Fortune",
+    "StreetInsider",
+    "Take-Two IR (ทางการ)",
+    "The Lufkin Daily News",
+    "The Wall Street Journal",
+    "TradingView",
+    "TwistedVoxel",
+    "Yahoo Finance",
+    "Yahoo! Finance Canada",
+    "www.marketscreener.com"
+   ],
+   "status": "official"
+  },
+  {
+   "title": "- Take-Two Interactive Software, Inc.",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE55eG5ibldqWHBWRjRYandPVTc1alA5c2s0MkdjNjJvYXBJNWVPRTlsNzVaWGVuVnBhbmRqYTlqR2lFTWFWN3N3?oc=5",
+   "domain": "take2games.com",
+   "published": "2026-11-09T16:18:31+00:00",
+   "source": "Take-Two IR (ทางการ)",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 17,
+   "sources": [
+    "24/7 Wall St.",
+    "AskTraders.com",
+    "Benzinga",
+    "GuruFocus",
+    "Indy100",
+    "Insider Gaming",
+    "Investor's Business Daily",
+    "KuCoin",
+    "Shacknews",
+    "Simply Wall St",
+    "StreetInsider",
+    "Take-Two IR (ทางการ)",
+    "The Wall Street Journal",
+    "TradingView",
+    "Yahoo Finance",
+    "Yahoo! Finance Canada",
+    "www.marketscreener.com"
+   ],
+   "status": "official"
+  },
+  {
+   "title": "(NASDAQ: TTWO) - Take-Two Interactive Software, Inc.",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWXpxOWhSVXhjNV9vNUlqRWExZklsWTk0QnJwVWZOYWQxTVFSS0Z1cFFrY0pIWnBQaEF5UHpaT2VxSzk5eWJTdXZaMDIzZDFfbEJNN21tMWtSc0lOaHZ4bjNkM0Y0WWVQVmFBSUdoSERLdFRucUV6ZHNsdzJhUF9NXw?oc=5",
+   "domain": "take2games.com",
+   "published": "2026-11-09T22:30:25+00:00",
+   "source": "Take-Two IR (ทางการ)",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 15,
+   "sources": [
+    "AskTraders.com",
+    "Benzinga",
+    "GuruFocus",
+    "Indy100",
+    "Investor's Business Daily",
+    "KuCoin",
+    "Seeking Alpha",
+    "Shacknews",
+    "Simply Wall St",
+    "StreetInsider",
+    "Take-Two IR (ทางการ)",
+    "The Wall Street Journal",
+    "Yahoo Finance",
+    "Yahoo! Finance Canada",
+    "www.marketscreener.com"
+   ],
+   "status": "official"
+  },
+  {
+   "title": "Take-Two Q2 net bookings fall 18% to $1.6bn as NBA 2K27 misses forecast but GTA 6 pre-orders are \"tracking far in excess\" of expectations",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZ19IQnJEVVdWUW9INHE4UDc5R19EdWJKd0xkQy16dkFwNW1CY3pzbkFSU1IyMlRpY2tqdTNoaW5CZG9NZFh5SDhtR2R0UTBLY20tcVQxcDZibG5ISldwRHNYczhFTHFLTHFQWTZOZEFrMHE4R21fTzc0YXFaelNhbnA0WkduSzk0MFY5SlN4dHBxN29GbVFncFk0eXBqdkVDLUlsanU0ZkVZUVVDUEVyLThKRFZPTjVCcjZsMUZyTXMxTldDbWRpdTRTdmVqVDdLV3Z0U1kycDJGczBfTHVVcjFmV3BQNXJDRnVMcTVBX0t4dU1x?oc=5",
+   "domain": "gamesindustry.biz",
+   "published": "2026-11-09T21:22:20+00:00",
+   "source": "GamesIndustry.biz",
+   "tier": 3,
+   "sentiment": -1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 39,
+   "sources": [
+    "24/7 Wall St.",
+    "Barron's",
+    "Benzinga",
+    "BigGo Finance",
+    "Bloomberg",
+    "Eurogamer.net",
+    "FourWeekMBA",
+    "GameDev.net",
+    "GamesBeat",
+    "GamesIndustry.biz",
+    "GosuGamers",
+    "GuruFocus",
+    "IGN",
+    "Indy100",
+    "Insider Gaming",
+    "Inven Global",
+    "Investing.com",
+    "Investing.com Canada",
+    "Kotaku",
+    "KuCoin",
+    "MLQ.ai",
+    "PC Gamer",
+    "Push Square",
+    "Reuters",
+    "RockstarINTEL",
+    "Seeking Alpha",
+    "Shacknews",
+    "Startup Fortune",
+    "Stock Titan",
+    "StreetInsider",
+    "The Lufkin Daily News",
+    "The Verge",
+    "The Wall Street Journal",
+    "TradingView",
+    "TweakTown",
+    "TwistedVoxel",
+    "Yahoo Finance",
+    "Yahoo Finance UK",
+    "finehomesandliving.com"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "Grand Theft Auto 6 PC and physical disc news will come from Rockstar, confirms Take-Two",
+   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPQXRPRHI5Tk5uTmtNVnpxSEQwWnNTN21NN1dGOEl4UllWZFRvVGpaMzA5eWVfZlFrVEViMHI2X0xYNDFIS3MyTE9tSXNjVEtPaGJMeVZ3elMtV2dLREhKVm5sSXZ3Nmhxamtsd3MwWENCSjdiYnNiU1E0OFJwcDVqUnllSHZtdW1GMmxRLU5NOXZ0RTlnWXFkX0lZRUZZNGJYOUhoME54cHVQWURQRnJZQ3FNTzJ2VXczbnNGVk9HeWo0bEctVTJqdll5SUF3T2YwMVdTV3p4Q28xRnZqU1RDS0NJZ0llOTk2LURpeDdNa1VOUXgyd3NQUFdYMXI2YlJCZWlJbEFWSjdzeEJmSmllbzRDd1NEZw?oc=5",
+   "domain": "tweaktown.com",
+   "published": "2026-11-10T02:57:14+00:00",
+   "source": "TweakTown",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 11,
+   "sources": [
+    "Associated Press",
+    "Benzinga",
+    "Bloomberg",
+    "Eurogamer.net",
+    "Insider Gaming",
+    "Investor's Business Daily",
+    "Shacknews",
+    "The Verge",
+    "TradingView",
+    "TweakTown",
+    "Yahoo Finance"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "'It's Not Going to Be Delayed Again' — Strauss Zelnick on GTA 6 Expectations, GTA Online, and the Next 10 Years",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOVhrRUhQbmlRbGY5OEItTzhpbmNicjJDSmEwTm9CZUJWcEZucTdjZmVRTTZKc0k4VENVRS1veU85enkyZ3JZYTliZ1NSQW5Jb3lZNkpMdHV0dlphNk9IXzdrVnNvY1N5YnBQOVRseGhJQ3otRHJKbmlDRy1hSktIdWJjWUFjVWQyMzA5UkVXZWNtVV9RRnZ3QXVwQWd0ZFhZdmJUUHV5ZnlPVloyT2NxU2xaZm8?oc=5",
+   "domain": "ign.com",
+   "published": "2026-11-09T21:17:02+00:00",
+   "source": "IGN",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 6,
+   "sources": [
+    "Benzinga",
+    "Eurogamer.net",
+    "GamesBeat",
+    "GamesIndustry.biz",
+    "IGN",
+    "Yahoo Finance UK"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Stocks making big moves after hours: QMCO, TTWO, TTD",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaExZVEdKQk0xQUtSVURXYldRZHJiVG1tS0ZueUc0Z21yWkxUOVNxbDhRYWhxN2QzOXY1UGRZUHFjZlF1b09lMFpDeGRTaVlJNy1MclRRMFhKMnNfaHdmcXM0emJPeGtNbldsRkNtS2RpSTJCei1Wc3FRcC1zcjZEYm8zX09ucU1sV1VITVpnWmJtaDYzbVNNTlBsSjZsMHhkVUFaM2dzNDhWaWRXc09fcXlR?oc=5",
+   "domain": "tradingview.com",
+   "published": "2026-11-09T21:55:06+00:00",
+   "source": "TradingView",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "Investing.com",
+    "TradingView"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "GTA 6 Caused Some Gamers to Hold Off on Buying New Games",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYzBrZWV0d3FzelA5bkppcjJMQW5Fb3I1MFdXM3IyXzBuclZfc25DZTlJTEQ2c1NkS1JEeWhDdWVNSkJKTlNWcm4wbnFEdlc3OEUwSWtUQkNUbHM3V3MzZ1lUSXNwZUJxU3lQOXp0ZllpZElMam5Mc1dEclBpNmdxRmpMc2JSV0EzOWgyb2dMNE5kUVNqZy1PbXBmaVplUVl0bUpFTmlwS1hrRDVYY0JUWEthTVUtQ3MtVERYZGphZ3pldHFUZHZPdzJlSkk0RElQT0dxMzV3?oc=5",
+   "domain": "ign.com",
+   "published": "2026-11-09T21:42:47+00:00",
+   "source": "IGN",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "IGN"
+   ],
+   "status": "single"
+  }
+ ],
+ "errors": [
+  "SEC EDGAR: HTTP Error 403: Forbidden"
+ ],
+ "candles": [
+  {
+   "t": "2025-10-28",
+   "o": 254.64,
+   "h": 256.2,
+   "l": 251.41,
+   "c": 251.57,
+   "v": 1455600,
+   "sma20": 257.217,
+   "sma50": 248.548,
+   "sma200": 225.73,
+   "rsi": 45.405,
+   "macd_hist": -1.406
+  },
+  {
+   "t": "2025-10-29",
+   "o": 250.12,
+   "h": 252.75,
+   "l": 249.24,
+   "c": 251.73,
+   "v": 1520300,
+   "sma20": 257.033,
+   "sma50": 249.016,
+   "sma200": 226.095,
+   "rsi": 45.693,
+   "macd_hist": -1.482
+  },
+  {
+   "t": "2025-10-30",
+   "o": 251.46,
+   "h": 255.98,
+   "l": 250.0,
+   "c": 252.78,
+   "v": 1264900,
+   "sma20": 256.825,
+   "sma50": 249.498,
+   "sma200": 226.458,
+   "rsi": 47.645,
+   "macd_hist": -1.408
+  },
+  {
+   "t": "2025-10-31",
+   "o": 253.16,
+   "h": 257.09,
+   "l": 253.16,
+   "c": 256.37,
+   "v": 1411100,
+   "sma20": 256.76,
+   "sma50": 250.068,
+   "sma200": 226.834,
+   "rsi": 53.764,
+   "macd_hist": -1.078
+  },
+  {
+   "t": "2025-11-03",
+   "o": 257.75,
+   "h": 257.75,
+   "l": 251.33,
+   "c": 255.65,
+   "v": 1513300,
+   "sma20": 256.693,
+   "sma50": 250.6,
+   "sma200": 227.195,
+   "rsi": 52.44,
+   "macd_hist": -0.878
+  },
+  {
+   "t": "2025-11-04",
+   "o": 256.06,
+   "h": 256.06,
+   "l": 250.33,
+   "c": 252.43,
+   "v": 1818500,
+   "sma20": 256.29,
+   "sma50": 251.012,
+   "sma200": 227.525,
+   "rsi": 46.881,
+   "macd_hist": -0.927
+  },
+  {
+   "t": "2025-11-05",
+   "o": 253.71,
+   "h": 256.27,
+   "l": 249.99,
+   "c": 254.76,
+   "v": 2309400,
+   "sma20": 256.124,
+   "sma50": 251.491,
+   "sma200": 227.873,
+   "rsi": 50.934,
+   "macd_hist": -0.773
+  },
+  {
+   "t": "2025-11-06",
+   "o": 253.09,
+   "h": 256.92,
+   "l": 252.04,
+   "c": 252.4,
+   "v": 3324700,
+   "sma20": 255.909,
+   "sma50": 251.898,
+   "sma200": 228.195,
+   "rsi": 47.02,
+   "macd_hist": -0.798
+  },
+  {
+   "t": "2025-11-07",
+   "o": 232.03,
+   "h": 243.56,
+   "l": 227.25,
+   "c": 232.0,
+   "v": 5792500,
+   "sma20": 254.911,
+   "sma50": 251.84,
+   "sma200": 228.436,
+   "rsi": 27.412,
+   "macd_hist": -2.083
+  },
+  {
+   "t": "2025-11-10",
+   "o": 231.97,
+   "h": 237.02,
+   "l": 229.1,
+   "c": 234.06,
+   "v": 3222600,
+   "sma20": 253.78,
+   "sma50": 251.856,
+   "sma200": 228.679,
+   "rsi": 30.561,
+   "macd_hist": -2.652
+  },
+  {
+   "t": "2025-11-11",
+   "o": 234.06,
+   "h": 241.43,
+   "l": 233.2,
+   "c": 240.7,
+   "v": 2072300,
+   "sma20": 252.929,
+   "sma50": 251.851,
+   "sma200": 228.943,
+   "rsi": 39.649,
+   "macd_hist": -2.445
+  },
+  {
+   "t": "2025-11-12",
+   "o": 241.05,
+   "h": 242.6,
+   "l": 238.29,
+   "c": 240.34,
+   "v": 1317400,
+   "sma20": 251.871,
+   "sma50": 251.881,
+   "sma200": 229.209,
+   "rsi": 39.349,
+   "macd_hist": -2.203
+  },
+  {
+   "t": "2025-11-13",
+   "o": 239.52,
+   "h": 242.09,
+   "l": 237.27,
+   "c": 237.55,
+   "v": 1358200,
+   "sma20": 250.787,
+   "sma50": 251.819,
+   "sma200": 229.447,
+   "rsi": 37.006,
+   "macd_hist": -2.101
+  },
+  {
+   "t": "2025-11-14",
+   "o": 235.95,
+   "h": 238.27,
+   "l": 234.01,
+   "c": 235.03,
+   "v": 1542800,
+   "sma20": 249.471,
+   "sma50": 251.726,
+   "sma200": 229.666,
+   "rsi": 34.981,
+   "macd_hist": -2.072
+  },
+  {
+   "t": "2025-11-17",
+   "o": 235.11,
+   "h": 236.48,
+   "l": 232.24,
+   "c": 233.58,
+   "v": 1456900,
+   "sma20": 248.035,
+   "sma50": 251.422,
+   "sma200": 229.906,
+   "rsi": 33.833,
+   "macd_hist": -2.015
+  },
+  {
+   "t": "2025-11-18",
+   "o": 233.4,
+   "h": 239.92,
+   "l": 231.5,
+   "c": 239.09,
+   "v": 1867400,
+   "sma20": 246.976,
+   "sma50": 251.246,
+   "sma200": 230.171,
+   "rsi": 41.664,
+   "macd_hist": -1.497
+  },
+  {
+   "t": "2025-11-19",
+   "o": 238.52,
+   "h": 244.24,
+   "l": 236.63,
+   "c": 240.46,
+   "v": 2097100,
+   "sma20": 246.221,
+   "sma50": 251.175,
+   "sma200": 230.456,
+   "rsi": 43.456,
+   "macd_hist": -0.976
+  },
+  {
+   "t": "2025-11-20",
+   "o": 242.41,
+   "h": 243.45,
+   "l": 234.42,
+   "c": 235.37,
+   "v": 1717300,
+   "sma20": 245.263,
+   "sma50": 250.951,
+   "sma200": 230.708,
+   "rsi": 38.7,
+   "macd_hist": -0.892
+  },
+  {
+   "t": "2025-11-21",
+   "o": 234.86,
+   "h": 238.37,
+   "l": 234.02,
+   "c": 235.47,
+   "v": 1759800,
+   "sma20": 244.28,
+   "sma50": 250.736,
+   "sma200": 230.97,
+   "rsi": 38.842,
+   "macd_hist": -0.752
+  },
+  {
+   "t": "2025-11-24",
+   "o": 234.9,
+   "h": 240.37,
+   "l": 234.89,
+   "c": 239.07,
+   "v": 2272200,
+   "sma20": 243.52,
+   "sma50": 250.572,
+   "sma200": 231.121,
+   "rsi": 43.869,
+   "macd_hist": -0.359
+  },
+  {
+   "t": "2025-11-25",
+   "o": 239.62,
+   "h": 242.42,
+   "l": 238.81,
+   "c": 241.84,
+   "v": 1142000,
+   "sma20": 243.034,
+   "sma50": 250.454,
+   "sma200": 231.268,
+   "rsi": 47.449,
+   "macd_hist": 0.118
+  },
+  {
+   "t": "2025-11-26",
+   "o": 242.5,
+   "h": 245.54,
+   "l": 241.86,
+   "c": 243.63,
+   "v": 1026800,
+   "sma20": 242.629,
+   "sma50": 250.316,
+   "sma200": 231.436,
+   "rsi": 49.683,
+   "macd_hist": 0.562
+  },
+  {
+   "t": "2025-11-28",
+   "o": 244.78,
+   "h": 246.49,
+   "l": 243.74,
+   "c": 246.07,
+   "v": 590100,
+   "sma20": 242.293,
+   "sma50": 250.243,
+   "sma200": 231.621,
+   "rsi": 52.637,
+   "macd_hist": 1.001
+  },
+  {
+   "t": "2025-12-01",
+   "o": 246.07,
+   "h": 249.85,
+   "l": 242.5,
+   "c": 249.34,
+   "v": 1706700,
+   "sma20": 241.942,
+   "sma50": 250.213,
+   "sma200": 231.817,
+   "rsi": 56.338,
+   "macd_hist": 1.465
+  },
+  {
+   "t": "2025-12-02",
+   "o": 249.24,
+   "h": 250.0,
+   "l": 246.56,
+   "c": 246.83,
+   "v": 1321300,
+   "sma20": 241.501,
+   "sma50": 250.117,
+   "sma200": 232.007,
+   "rsi": 52.92,
+   "macd_hist": 1.548
+  },
+  {
+   "t": "2025-12-03",
+   "o": 246.26,
+   "h": 246.55,
+   "l": 242.98,
+   "c": 244.95,
+   "v": 849300,
+   "sma20": 241.127,
+   "sma50": 249.99,
+   "sma200": 232.15,
+   "rsi": 50.451,
+   "macd_hist": 1.425
+  },
+  {
+   "t": "2025-12-04",
+   "o": 244.21,
+   "h": 247.9,
+   "l": 242.19,
+   "c": 247.51,
+   "v": 1013900,
+   "sma20": 240.764,
+   "sma50": 250.058,
+   "sma200": 232.312,
+   "rsi": 53.624,
+   "macd_hist": 1.459
+  },
+  {
+   "t": "2025-12-05",
+   "o": 247.7,
+   "h": 251.34,
+   "l": 246.84,
+   "c": 247.88,
+   "v": 1362400,
+   "sma20": 240.539,
+   "sma50": 250.113,
+   "sma200": 232.475,
+   "rsi": 54.081,
+   "macd_hist": 1.446
+  },
+  {
+   "t": "2025-12-08",
+   "o": 248.52,
+   "h": 248.95,
+   "l": 245.99,
+   "c": 247.28,
+   "v": 1096100,
+   "sma20": 241.303,
+   "sma50": 249.936,
+   "sma200": 232.653,
+   "rsi": 53.165,
+   "macd_hist": 1.34
+  },
+  {
+   "t": "2025-12-09",
+   "o": 247.0,
+   "h": 249.5,
+   "l": 246.23,
+   "c": 248.73,
+   "v": 1356600,
+   "sma20": 242.036,
+   "sma50": 249.712,
+   "sma200": 232.837,
+   "rsi": 55.143,
+   "macd_hist": 1.308
+  },
+  {
+   "t": "2025-12-10",
+   "o": 249.29,
+   "h": 250.18,
+   "l": 245.36,
+   "c": 246.02,
+   "v": 1150000,
+   "sma20": 242.302,
+   "sma50": 249.465,
+   "sma200": 233.027,
+   "rsi": 50.823,
+   "macd_hist": 1.057
+  },
+  {
+   "t": "2025-12-11",
+   "o": 244.01,
+   "h": 246.74,
+   "l": 242.06,
+   "c": 242.41,
+   "v": 1478400,
+   "sma20": 242.406,
+   "sma50": 249.205,
+   "sma200": 233.194,
+   "rsi": 45.689,
+   "macd_hist": 0.621
+  },
+  {
+   "t": "2025-12-12",
+   "o": 242.16,
+   "h": 243.3,
+   "l": 240.5,
+   "c": 241.47,
+   "v": 1529900,
+   "sma20": 242.602,
+   "sma50": 248.896,
+   "sma200": 233.36,
+   "rsi": 44.43,
+   "macd_hist": 0.261
+  },
+  {
+   "t": "2025-12-15",
+   "o": 244.28,
+   "h": 246.84,
+   "l": 242.65,
+   "c": 244.56,
+   "v": 1888600,
+   "sma20": 243.078,
+   "sma50": 248.633,
+   "sma200": 233.523,
+   "rsi": 49.368,
+   "macd_hist": 0.224
+  },
+  {
+   "t": "2025-12-16",
+   "o": 244.5,
+   "h": 246.91,
+   "l": 243.19,
+   "c": 244.53,
+   "v": 1526900,
+   "sma20": 243.626,
+   "sma50": 248.384,
+   "sma200": 233.706,
+   "rsi": 49.322,
+   "macd_hist": 0.192
+  },
+  {
+   "t": "2025-12-17",
+   "o": 244.69,
+   "h": 246.2,
+   "l": 240.28,
+   "c": 240.55,
+   "v": 1563900,
+   "sma20": 243.699,
+   "sma50": 247.985,
+   "sma200": 233.866,
+   "rsi": 43.547,
+   "macd_hist": -0.087
+  },
+  {
+   "t": "2025-12-18",
+   "o": 242.98,
+   "h": 246.85,
+   "l": 241.38,
+   "c": 246.65,
+   "v": 1810300,
+   "sma20": 244.008,
+   "sma50": 247.757,
+   "sma200": 234.025,
+   "rsi": 52.69,
+   "macd_hist": 0.136
+  },
+  {
+   "t": "2025-12-19",
+   "o": 246.2,
+   "h": 250.38,
+   "l": 244.39,
+   "c": 247.4,
+   "v": 3905400,
+   "sma20": 244.61,
+   "sma50": 247.571,
+   "sma200": 234.222,
+   "rsi": 53.684,
+   "macd_hist": 0.321
+  },
+  {
+   "t": "2025-12-22",
+   "o": 247.4,
+   "h": 249.78,
+   "l": 247.06,
+   "c": 248.58,
+   "v": 1084600,
+   "sma20": 245.265,
+   "sma50": 247.503,
+   "sma200": 234.444,
+   "rsi": 55.275,
+   "macd_hist": 0.499
+  },
+  {
+   "t": "2025-12-23",
+   "o": 248.54,
+   "h": 249.46,
+   "l": 247.66,
+   "c": 249.23,
+   "v": 648200,
+   "sma20": 245.773,
+   "sma50": 247.354,
+   "sma200": 234.68,
+   "rsi": 56.168,
+   "macd_hist": 0.628
+  },
+  {
+   "t": "2025-12-24",
+   "o": 249.23,
+   "h": 251.72,
+   "l": 248.76,
+   "c": 251.6,
+   "v": 485800,
+   "sma20": 246.261,
+   "sma50": 247.232,
+   "sma200": 234.919,
+   "rsi": 59.355,
+   "macd_hist": 0.828
+  },
+  {
+   "t": "2025-12-26",
+   "o": 250.74,
+   "h": 256.29,
+   "l": 249.84,
+   "c": 256.09,
+   "v": 920700,
+   "sma20": 246.884,
+   "sma50": 247.124,
+   "sma200": 235.173,
+   "rsi": 64.606,
+   "macd_hist": 1.196
+  },
+  {
+   "t": "2025-12-29",
+   "o": 255.0,
+   "h": 256.57,
+   "l": 254.16,
+   "c": 255.7,
+   "v": 1076200,
+   "sma20": 247.365,
+   "sma50": 247.053,
+   "sma200": 235.433,
+   "rsi": 63.835,
+   "macd_hist": 1.335
+  },
+  {
+   "t": "2025-12-30",
+   "o": 255.41,
+   "h": 260.04,
+   "l": 254.46,
+   "c": 257.91,
+   "v": 1073400,
+   "sma20": 247.794,
+   "sma50": 246.984,
+   "sma200": 235.7,
+   "rsi": 66.291,
+   "macd_hist": 1.487
+  },
+  {
+   "t": "2025-12-31",
+   "o": 257.91,
+   "h": 258.39,
+   "l": 255.91,
+   "c": 256.03,
+   "v": 808000,
+   "sma20": 248.254,
+   "sma50": 246.859,
+   "sma200": 235.948,
+   "rsi": 62.408,
+   "macd_hist": 1.374
+  },
+  {
+   "t": "2026-01-02",
+   "o": 257.71,
+   "h": 257.71,
+   "l": 250.2,
+   "c": 251.6,
+   "v": 1317900,
+   "sma20": 248.586,
+   "sma50": 246.686,
+   "sma200": 236.184,
+   "rsi": 54.332,
+   "macd_hist": 0.935
+  },
+  {
+   "t": "2026-01-05",
+   "o": 252.43,
+   "h": 258.56,
+   "l": 251.35,
+   "c": 257.31,
+   "v": 1108700,
+   "sma20": 249.076,
+   "sma50": 246.721,
+   "sma200": 236.426,
+   "rsi": 61.286,
+   "macd_hist": 0.961
+  },
+  {
+   "t": "2026-01-06",
+   "o": 257.29,
+   "h": 257.8,
+   "l": 253.58,
+   "c": 254.35,
+   "v": 922100,
+   "sma20": 249.4,
+   "sma50": 246.717,
+   "sma200": 236.65,
+   "rsi": 56.484,
+   "macd_hist": 0.719
+  },
+  {
+   "t": "2026-01-07",
+   "o": 253.66,
+   "h": 257.15,
+   "l": 251.28,
+   "c": 256.67,
+   "v": 1192400,
+   "sma20": 249.87,
+   "sma50": 246.748,
+   "sma200": 236.866,
+   "rsi": 59.184,
+   "macd_hist": 0.66
+  },
+  {
+   "t": "2026-01-08",
+   "o": 256.94,
+   "h": 257.91,
+   "l": 250.59,
+   "c": 252.38,
+   "v": 1567800,
+   "sma20": 250.052,
+   "sma50": 246.71,
+   "sma200": 237.06,
+   "rsi": 52.676,
+   "macd_hist": 0.293
+  },
+  {
+   "t": "2026-01-09",
+   "o": 252.71,
+   "h": 254.8,
+   "l": 249.34,
+   "c": 250.71,
+   "v": 1013600,
+   "sma20": 250.287,
+   "sma50": 246.693,
+   "sma200": 237.224,
+   "rsi": 50.356,
+   "macd_hist": -0.08
+  },
+  {
+   "t": "2026-01-12",
+   "o": 249.04,
+   "h": 251.21,
+   "l": 245.74,
+   "c": 248.92,
+   "v": 1177100,
+   "sma20": 250.612,
+   "sma50": 246.637,
+   "sma200": 237.389,
+   "rsi": 47.918,
+   "macd_hist": -0.445
+  },
+  {
+   "t": "2026-01-13",
+   "o": 248.94,
+   "h": 250.49,
+   "l": 244.77,
+   "c": 247.49,
+   "v": 1158600,
+   "sma20": 250.913,
+   "sma50": 246.531,
+   "sma200": 237.555,
+   "rsi": 46.003,
+   "macd_hist": -0.762
+  },
+  {
+   "t": "2026-01-14",
+   "o": 246.68,
+   "h": 246.75,
+   "l": 241.51,
+   "c": 245.49,
+   "v": 1454700,
+   "sma20": 250.96,
+   "sma50": 246.313,
+   "sma200": 237.73,
+   "rsi": 43.39,
+   "macd_hist": -1.066
+  },
+  {
+   "t": "2026-01-15",
+   "o": 245.48,
+   "h": 246.0,
+   "l": 242.55,
+   "c": 244.34,
+   "v": 1083900,
+   "sma20": 250.95,
+   "sma50": 246.087,
+   "sma200": 237.916,
+   "rsi": 41.916,
+   "macd_hist": -1.291
+  },
+  {
+   "t": "2026-01-16",
+   "o": 244.97,
+   "h": 245.03,
+   "l": 239.0,
+   "c": 240.14,
+   "v": 1718300,
+   "sma20": 250.93,
+   "sma50": 245.841,
+   "sma200": 238.066,
+   "rsi": 36.976,
+   "macd_hist": -1.645
+  },
+  {
+   "t": "2026-01-20",
+   "o": 239.0,
+   "h": 242.92,
+   "l": 237.06,
+   "c": 240.61,
+   "v": 1350400,
+   "sma20": 250.628,
+   "sma50": 245.558,
+   "sma200": 238.213,
+   "rsi": 37.859,
+   "macd_hist": -1.76
+  },
+  {
+   "t": "2026-01-21",
+   "o": 240.61,
+   "h": 241.0,
+   "l": 236.01,
+   "c": 238.23,
+   "v": 1267600,
+   "sma20": 250.169,
+   "sma50": 245.275,
+   "sma200": 238.36,
+   "rsi": 35.172,
+   "macd_hist": -1.897
+  },
+  {
+   "t": "2026-01-22",
+   "o": 239.56,
+   "h": 241.55,
+   "l": 233.85,
+   "c": 241.1,
+   "v": 1625500,
+   "sma20": 249.795,
+   "sma50": 245.457,
+   "sma200": 238.592,
+   "rsi": 40.642,
+   "macd_hist": -1.701
+  },
+  {
+   "t": "2026-01-23",
+   "o": 241.14,
+   "h": 245.82,
+   "l": 240.94,
+   "c": 245.73,
+   "v": 1174900,
+   "sma20": 249.62,
+   "sma50": 245.69,
+   "sma200": 238.833,
+   "rsi": 48.23,
+   "macd_hist": -1.191
+  },
+  {
+   "t": "2026-01-26",
+   "o": 245.57,
+   "h": 247.2,
+   "l": 244.06,
+   "c": 245.63,
+   "v": 1204700,
+   "sma20": 249.322,
+   "sma50": 245.789,
+   "sma200": 239.08,
+   "rsi": 48.087,
+   "macd_hist": -0.809
+  },
+  {
+   "t": "2026-01-27",
+   "o": 246.05,
+   "h": 248.54,
+   "l": 242.73,
+   "c": 245.52,
+   "v": 1173800,
+   "sma20": 248.793,
+   "sma50": 245.893,
+   "sma200": 239.267,
+   "rsi": 47.919,
+   "macd_hist": -0.527
+  },
+  {
+   "t": "2026-01-28",
+   "o": 245.99,
+   "h": 248.55,
+   "l": 242.33,
+   "c": 243.18,
+   "v": 1554600,
+   "sma20": 248.167,
+   "sma50": 246.005,
+   "sma200": 239.461,
+   "rsi": 44.362,
+   "macd_hist": -0.463
+  },
+  {
+   "t": "2026-01-29",
+   "o": 241.04,
+   "h": 243.71,
+   "l": 236.13,
+   "c": 239.27,
+   "v": 1907100,
+   "sma20": 247.235,
+   "sma50": 246.09,
+   "sma200": 239.597,
+   "rsi": 39.135,
+   "macd_hist": -0.639
+  },
+  {
+   "t": "2026-01-30",
+   "o": 237.67,
+   "h": 238.15,
+   "l": 211.13,
+   "c": 220.3,
+   "v": 9097800,
+   "sma20": 245.449,
+   "sma50": 245.824,
+   "sma200": 239.634,
+   "rsi": 24.223,
+   "macd_hist": -1.915
+  },
+  {
+   "t": "2026-02-02",
+   "o": 225.51,
+   "h": 229.08,
+   "l": 220.35,
+   "c": 221.81,
+   "v": 4345800,
+   "sma20": 243.959,
+   "sma50": 245.479,
+   "sma200": 239.67,
+   "rsi": 26.619,
+   "macd_hist": -2.502
+  },
+  {
+   "t": "2026-02-03",
+   "o": 220.98,
+   "h": 221.16,
+   "l": 206.61,
+   "c": 212.17,
+   "v": 5266500,
+   "sma20": 241.702,
+   "sma50": 244.913,
+   "sma200": 239.674,
+   "rsi": 21.865,
+   "macd_hist": -3.333
+  },
+  {
+   "t": "2026-02-04",
+   "o": 207.71,
+   "h": 209.05,
+   "l": 197.45,
+   "c": 200.76,
+   "v": 5743300,
+   "sma20": 239.023,
+   "sma50": 244.221,
+   "sma200": 239.614,
+   "rsi": 17.81,
+   "macd_hist": -4.378
+  },
+  {
+   "t": "2026-02-05",
+   "o": 201.78,
+   "h": 203.78,
+   "l": 192.2,
+   "c": 193.24,
+   "v": 3995400,
+   "sma20": 235.851,
+   "sma50": 243.376,
+   "sma200": 239.554,
+   "rsi": 15.738,
+   "macd_hist": -5.245
+  },
+  {
+   "t": "2026-02-06",
+   "o": 197.42,
+   "h": 198.07,
+   "l": 189.45,
+   "c": 195.59,
+   "v": 3100300,
+   "sma20": 233.012,
+   "sma50": 242.507,
+   "sma200": 239.482,
+   "rsi": 18.912,
+   "macd_hist": -5.313
+  },
+  {
+   "t": "2026-02-09",
+   "o": 197.5,
+   "h": 205.66,
+   "l": 196.33,
+   "c": 205.03,
+   "v": 4129000,
+   "sma20": 230.728,
+   "sma50": 241.77,
+   "sma200": 239.441,
+   "rsi": 30.275,
+   "macd_hist": -4.411
+  },
+  {
+   "t": "2026-02-10",
+   "o": 212.49,
+   "h": 213.53,
+   "l": 208.73,
+   "c": 210.71,
+   "v": 4145200,
+   "sma20": 228.817,
+   "sma50": 241.112,
+   "sma200": 239.381,
+   "rsi": 36.079,
+   "macd_hist": -3.179
+  },
+  {
+   "t": "2026-02-11",
+   "o": 208.0,
+   "h": 210.24,
+   "l": 199.36,
+   "c": 203.89,
+   "v": 4207300,
+   "sma20": 226.637,
+   "sma50": 240.268,
+   "sma200": 239.274,
+   "rsi": 32.573,
+   "macd_hist": -2.596
+  },
+  {
+   "t": "2026-02-12",
+   "o": 203.4,
+   "h": 204.2,
+   "l": 189.29,
+   "c": 190.36,
+   "v": 5020800,
+   "sma20": 223.881,
+   "sma50": 239.089,
+   "sma200": 239.098,
+   "rsi": 26.973,
+   "macd_hist": -2.871
+  },
+  {
+   "t": "2026-02-13",
+   "o": 191.9,
+   "h": 194.68,
+   "l": 188.65,
+   "c": 193.67,
+   "v": 2575400,
+   "sma20": 221.347,
+   "sma50": 238.026,
+   "sma200": 238.912,
+   "rsi": 30.138,
+   "macd_hist": -2.589
+  },
+  {
+   "t": "2026-02-17",
+   "o": 193.65,
+   "h": 196.83,
+   "l": 191.88,
+   "c": 193.87,
+   "v": 2160800,
+   "sma20": 219.033,
+   "sma50": 237.004,
+   "sma200": 238.715,
+   "rsi": 30.334,
+   "macd_hist": -2.166
+  },
+  {
+   "t": "2026-02-18",
+   "o": 194.73,
+   "h": 200.09,
+   "l": 193.89,
+   "c": 199.13,
+   "v": 1931000,
+   "sma20": 216.96,
+   "sma50": 236.036,
+   "sma200": 238.535,
+   "rsi": 35.473,
+   "macd_hist": -1.347
+  },
+  {
+   "t": "2026-02-19",
+   "o": 199.03,
+   "h": 204.6,
+   "l": 198.75,
+   "c": 201.37,
+   "v": 2139600,
+   "sma20": 215.117,
+   "sma50": 235.106,
+   "sma200": 238.444,
+   "rsi": 37.584,
+   "macd_hist": -0.514
+  },
+  {
+   "t": "2026-02-20",
+   "o": 199.12,
+   "h": 202.94,
+   "l": 197.2,
+   "c": 199.72,
+   "v": 1872600,
+   "sma20": 213.047,
+   "sma50": 234.155,
+   "sma200": 238.316,
+   "rsi": 36.633,
+   "macd_hist": 0.037
+  },
+  {
+   "t": "2026-02-23",
+   "o": 199.17,
+   "h": 199.33,
+   "l": 194.14,
+   "c": 195.59,
+   "v": 1962800,
+   "sma20": 210.54,
+   "sma50": 233.092,
+   "sma200": 238.135,
+   "rsi": 34.294,
+   "macd_hist": 0.225
+  },
+  {
+   "t": "2026-02-24",
+   "o": 194.77,
+   "h": 204.51,
+   "l": 192.63,
+   "c": 204.19,
+   "v": 1982500,
+   "sma20": 208.468,
+   "sma50": 232.256,
+   "sma200": 238.024,
+   "rsi": 42.524,
+   "macd_hist": 0.987
+  },
+  {
+   "t": "2026-02-25",
+   "o": 204.85,
+   "h": 207.98,
+   "l": 202.84,
+   "c": 207.31,
+   "v": 2416600,
+   "sma20": 206.558,
+   "sma50": 231.554,
+   "sma200": 237.934,
+   "rsi": 45.205,
+   "macd_hist": 1.717
+  },
+  {
+   "t": "2026-02-26",
+   "o": 207.76,
+   "h": 214.15,
+   "l": 207.75,
+   "c": 213.29,
+   "v": 2231300,
+   "sma20": 205.063,
+   "sma50": 230.99,
+   "sma200": 237.867,
+   "rsi": 50.018,
+   "macd_hist": 2.567
+  },
+  {
+   "t": "2026-02-27",
+   "o": 210.31,
+   "h": 213.68,
+   "l": 209.37,
+   "c": 211.48,
+   "v": 2234800,
+   "sma20": 203.674,
+   "sma50": 230.328,
+   "sma200": 237.793,
+   "rsi": 48.626,
+   "macd_hist": 2.945
+  },
+  {
+   "t": "2026-03-02",
+   "o": 209.0,
+   "h": 215.96,
+   "l": 208.78,
+   "c": 213.88,
+   "v": 1966800,
+   "sma20": 203.353,
+   "sma50": 229.715,
+   "sma200": 237.732,
+   "rsi": 50.589,
+   "macd_hist": 3.269
+  },
+  {
+   "t": "2026-03-03",
+   "o": 209.78,
+   "h": 221.08,
+   "l": 208.51,
+   "c": 217.05,
+   "v": 2367200,
+   "sma20": 203.115,
+   "sma50": 229.245,
+   "sma200": 237.67,
+   "rsi": 53.137,
+   "macd_hist": 3.584
+  },
+  {
+   "t": "2026-03-04",
+   "o": 217.92,
+   "h": 219.45,
+   "l": 211.32,
+   "c": 215.77,
+   "v": 2471000,
+   "sma20": 203.295,
+   "sma50": 228.628,
+   "sma200": 237.587,
+   "rsi": 51.972,
+   "macd_hist": 3.585
+  },
+  {
+   "t": "2026-03-05",
+   "o": 213.09,
+   "h": 216.17,
+   "l": 210.82,
+   "c": 212.53,
+   "v": 2112200,
+   "sma20": 203.883,
+   "sma50": 227.93,
+   "sma200": 237.516,
+   "rsi": 49.04,
+   "macd_hist": 3.255
+  },
+  {
+   "t": "2026-03-06",
+   "o": 210.82,
+   "h": 212.46,
+   "l": 208.69,
+   "c": 211.5,
+   "v": 1587400,
+   "sma20": 204.796,
+   "sma50": 227.189,
+   "sma200": 237.4,
+   "rsi": 48.111,
+   "macd_hist": 2.869
+  },
+  {
+   "t": "2026-03-09",
+   "o": 208.69,
+   "h": 214.84,
+   "l": 208.01,
+   "c": 214.63,
+   "v": 1876300,
+   "sma20": 205.749,
+   "sma50": 226.497,
+   "sma200": 237.286,
+   "rsi": 51.14,
+   "macd_hist": 2.728
+  },
+  {
+   "t": "2026-03-10",
+   "o": 214.77,
+   "h": 216.0,
+   "l": 207.8,
+   "c": 209.08,
+   "v": 1877800,
+   "sma20": 205.951,
+   "sma50": 225.646,
+   "sma200": 237.197,
+   "rsi": 46.01,
+   "macd_hist": 2.186
+  },
+  {
+   "t": "2026-03-11",
+   "o": 209.13,
+   "h": 211.64,
+   "l": 207.5,
+   "c": 211.09,
+   "v": 1868800,
+   "sma20": 205.97,
+   "sma50": 224.746,
+   "sma200": 237.123,
+   "rsi": 48.043,
+   "macd_hist": 1.9
+  },
+  {
+   "t": "2026-03-12",
+   "o": 210.68,
+   "h": 212.81,
+   "l": 208.17,
+   "c": 209.2,
+   "v": 1351900,
+   "sma20": 206.235,
+   "sma50": 223.816,
+   "sma200": 237.044,
+   "rsi": 46.279,
+   "macd_hist": 1.535
+  },
+  {
+   "t": "2026-03-13",
+   "o": 209.33,
+   "h": 210.35,
+   "l": 203.9,
+   "c": 208.58,
+   "v": 1633800,
+   "sma20": 207.146,
+   "sma50": 222.83,
+   "sma200": 236.955,
+   "rsi": 45.686,
+   "macd_hist": 1.218
+  },
+  {
+   "t": "2026-03-16",
+   "o": 209.46,
+   "h": 212.02,
+   "l": 207.45,
+   "c": 207.69,
+   "v": 2129900,
+   "sma20": 207.847,
+   "sma50": 221.863,
+   "sma200": 236.852,
+   "rsi": 44.799,
+   "macd_hist": 0.928
+  },
+  {
+   "t": "2026-03-17",
+   "o": 209.06,
+   "h": 213.0,
+   "l": 206.44,
+   "c": 206.72,
+   "v": 1587400,
+   "sma20": 208.49,
+   "sma50": 220.965,
+   "sma200": 236.759,
+   "rsi": 43.801,
+   "macd_hist": 0.662
+  },
+  {
+   "t": "2026-03-18",
+   "o": 204.8,
+   "h": 208.9,
+   "l": 203.62,
+   "c": 204.22,
+   "v": 1497500,
+   "sma20": 208.744,
+   "sma50": 219.904,
+   "sma200": 236.648,
+   "rsi": 41.25,
+   "macd_hist": 0.327
+  },
+  {
+   "t": "2026-03-19",
+   "o": 203.4,
+   "h": 206.38,
+   "l": 199.55,
+   "c": 201.75,
+   "v": 1626000,
+   "sma20": 208.764,
+   "sma50": 218.852,
+   "sma200": 236.519,
+   "rsi": 38.843,
+   "macd_hist": -0.034
+  },
+  {
+   "t": "2026-03-20",
+   "o": 200.71,
+   "h": 202.39,
+   "l": 198.02,
+   "c": 200.63,
+   "v": 3698600,
+   "sma20": 208.809,
+   "sma50": 217.731,
+   "sma200": 236.374,
+   "rsi": 37.767,
+   "macd_hist": -0.305
+  },
+  {
+   "t": "2026-03-23",
+   "o": 201.34,
+   "h": 203.44,
+   "l": 199.19,
+   "c": 200.84,
+   "v": 1875900,
+   "sma20": 209.072,
+   "sma50": 216.7,
+   "sma200": 236.232,
+   "rsi": 38.113,
+   "macd_hist": -0.42
+  },
+  {
+   "t": "2026-03-24",
+   "o": 199.57,
+   "h": 199.92,
+   "l": 191.0,
+   "c": 191.37,
+   "v": 2465200,
+   "sma20": 208.431,
+   "sma50": 215.513,
+   "sma200": 236.034,
+   "rsi": 30.006,
+   "macd_hist": -1.049
+  },
+  {
+   "t": "2026-03-25",
+   "o": 194.06,
+   "h": 195.89,
+   "l": 188.23,
+   "c": 193.05,
+   "v": 1931200,
+   "sma20": 207.718,
+   "sma50": 214.396,
+   "sma200": 235.836,
+   "rsi": 32.739,
+   "macd_hist": -1.252
+  },
+  {
+   "t": "2026-03-26",
+   "o": 190.5,
+   "h": 197.17,
+   "l": 190.35,
+   "c": 194.72,
+   "v": 1677400,
+   "sma20": 206.789,
+   "sma50": 213.34,
+   "sma200": 235.642,
+   "rsi": 35.438,
+   "macd_hist": -1.175
+  },
+  {
+   "t": "2026-03-27",
+   "o": 193.0,
+   "h": 194.0,
+   "l": 187.63,
+   "c": 189.69,
+   "v": 1867400,
+   "sma20": 205.7,
+   "sma50": 212.224,
+   "sma200": 235.416,
+   "rsi": 31.357,
+   "macd_hist": -1.353
+  },
+  {
+   "t": "2026-03-30",
+   "o": 192.79,
+   "h": 195.62,
+   "l": 191.23,
+   "c": 193.08,
+   "v": 2086700,
+   "sma20": 204.66,
+   "sma50": 211.199,
+   "sma200": 235.207,
+   "rsi": 36.652,
+   "macd_hist": -1.139
+  },
+  {
+   "t": "2026-03-31",
+   "o": 194.24,
+   "h": 198.51,
+   "l": 193.38,
+   "c": 197.5,
+   "v": 2085100,
+   "sma20": 203.682,
+   "sma50": 210.346,
+   "sma200": 235.023,
+   "rsi": 42.843,
+   "macd_hist": -0.624
+  },
+  {
+   "t": "2026-04-01",
+   "o": 198.0,
+   "h": 199.48,
+   "l": 196.55,
+   "c": 198.2,
+   "v": 1348600,
+   "sma20": 202.804,
+   "sma50": 209.498,
+   "sma200": 234.862,
+   "rsi": 43.78,
+   "macd_hist": -0.182
+  },
+  {
+   "t": "2026-04-02",
+   "o": 195.11,
+   "h": 202.13,
+   "l": 193.9,
+   "c": 199.87,
+   "v": 1473500,
+   "sma20": 202.171,
+   "sma50": 208.731,
+   "sma200": 234.669,
+   "rsi": 46.052,
+   "macd_hist": 0.252
+  },
+  {
+   "t": "2026-04-06",
+   "o": 199.8,
+   "h": 199.92,
+   "l": 193.79,
+   "c": 196.69,
+   "v": 1405700,
+   "sma20": 201.43,
+   "sma50": 207.843,
+   "sma200": 234.465,
+   "rsi": 42.527,
+   "macd_hist": 0.35
+  },
+  {
+   "t": "2026-04-07",
+   "o": 195.84,
+   "h": 198.63,
+   "l": 193.94,
+   "c": 198.33,
+   "v": 1247500,
+   "sma20": 200.615,
+   "sma50": 206.895,
+   "sma200": 234.264,
+   "rsi": 44.871,
+   "macd_hist": 0.537
+  },
+  {
+   "t": "2026-04-08",
+   "o": 202.82,
+   "h": 205.11,
+   "l": 201.13,
+   "c": 202.13,
+   "v": 1646600,
+   "sma20": 200.268,
+   "sma50": 206.025,
+   "sma200": 234.083,
+   "rsi": 49.963,
+   "macd_hist": 0.908
+  },
+  {
+   "t": "2026-04-09",
+   "o": 201.01,
+   "h": 201.21,
+   "l": 197.59,
+   "c": 198.05,
+   "v": 1493800,
+   "sma20": 199.616,
+   "sma50": 205.075,
+   "sma200": 233.865,
+   "rsi": 45.142,
+   "macd_hist": 0.87
+  },
+  {
+   "t": "2026-04-10",
+   "o": 197.4,
+   "h": 199.21,
+   "l": 194.51,
+   "c": 197.07,
+   "v": 1532900,
+   "sma20": 199.009,
+   "sma50": 204.153,
+   "sma200": 233.635,
+   "rsi": 44.043,
+   "macd_hist": 0.773
+  },
+  {
+   "t": "2026-04-13",
+   "o": 197.48,
+   "h": 202.19,
+   "l": 196.01,
+   "c": 201.36,
+   "v": 2078800,
+   "sma20": 198.648,
+   "sma50": 203.395,
+   "sma200": 233.434,
+   "rsi": 49.805,
+   "macd_hist": 0.978
+  },
+  {
+   "t": "2026-04-14",
+   "o": 202.52,
+   "h": 207.84,
+   "l": 202.26,
+   "c": 205.1,
+   "v": 1731000,
+   "sma20": 198.519,
+   "sma50": 203.091,
+   "sma200": 233.262,
+   "rsi": 54.23,
+   "macd_hist": 1.326
+  },
+  {
+   "t": "2026-04-15",
+   "o": 207.66,
+   "h": 215.37,
+   "l": 206.58,
+   "c": 214.15,
+   "v": 1951700,
+   "sma20": 198.89,
+   "sma50": 202.938,
+   "sma200": 233.126,
+   "rsi": 62.78,
+   "macd_hist": 2.079
+  },
+  {
+   "t": "2026-04-16",
+   "o": 216.73,
+   "h": 217.05,
+   "l": 212.75,
+   "c": 213.93,
+   "v": 1384000,
+   "sma20": 199.376,
+   "sma50": 202.973,
+   "sma200": 232.981,
+   "rsi": 62.475,
+   "macd_hist": 2.452
+  },
+  {
+   "t": "2026-04-17",
+   "o": 217.92,
+   "h": 218.7,
+   "l": 211.72,
+   "c": 212.04,
+   "v": 1792400,
+   "sma20": 199.89,
+   "sma50": 203.199,
+   "sma200": 232.841,
+   "rsi": 59.783,
+   "macd_hist": 2.454
+  },
+  {
+   "t": "2026-04-20",
+   "o": 212.14,
+   "h": 216.95,
+   "l": 210.78,
+   "c": 216.85,
+   "v": 1384300,
+   "sma20": 200.701,
+   "sma50": 203.671,
+   "sma200": 232.728,
+   "rsi": 64.03,
+   "macd_hist": 2.646
+  },
+  {
+   "t": "2026-04-21",
+   "o": 218.0,
+   "h": 219.87,
+   "l": 215.73,
+   "c": 217.65,
+   "v": 1165800,
+   "sma20": 201.542,
+   "sma50": 204.112,
+   "sma200": 232.616,
+   "rsi": 64.698,
+   "macd_hist": 2.685
+  },
+  {
+   "t": "2026-04-22",
+   "o": 219.09,
+   "h": 221.22,
+   "l": 216.68,
+   "c": 218.19,
+   "v": 1246500,
+   "sma20": 202.883,
+   "sma50": 204.375,
+   "sma200": 232.494,
+   "rsi": 65.168,
+   "macd_hist": 2.602
+  },
+  {
+   "t": "2026-04-23",
+   "o": 215.01,
+   "h": 215.01,
+   "l": 206.45,
+   "c": 209.9,
+   "v": 1587900,
+   "sma20": 203.725,
+   "sma50": 204.359,
+   "sma200": 232.341,
+   "rsi": 53.41,
+   "macd_hist": 1.879
+  },
+  {
+   "t": "2026-04-24",
+   "o": 210.99,
+   "h": 211.0,
+   "l": 207.8,
+   "c": 210.75,
+   "v": 1101500,
+   "sma20": 204.526,
+   "sma50": 204.496,
+   "sma200": 232.183,
+   "rsi": 54.32,
+   "macd_hist": 1.372
+  },
+  {
+   "t": "2026-04-27",
+   "o": 209.23,
+   "h": 216.35,
+   "l": 208.75,
+   "c": 213.77,
+   "v": 1532900,
+   "sma20": 205.731,
+   "sma50": 204.964,
+   "sma200": 232.075,
+   "rsi": 57.497,
+   "macd_hist": 1.161
+  },
+  {
+   "t": "2026-04-28",
+   "o": 213.05,
+   "h": 215.79,
+   "l": 211.26,
+   "c": 213.01,
+   "v": 929000,
+   "sma20": 206.727,
+   "sma50": 205.351,
+   "sma200": 231.971,
+   "rsi": 56.433,
+   "macd_hist": 0.903
+  },
+  {
+   "t": "2026-04-29",
+   "o": 212.59,
+   "h": 215.92,
+   "l": 209.51,
+   "c": 215.34,
+   "v": 1028000,
+   "sma20": 207.619,
+   "sma50": 205.781,
+   "sma200": 231.855,
+   "rsi": 58.941,
+   "macd_hist": 0.825
+  },
+  {
+   "t": "2026-04-30",
+   "o": 213.48,
+   "h": 215.5,
+   "l": 211.33,
+   "c": 213.76,
+   "v": 1430800,
+   "sma20": 208.397,
+   "sma50": 206.073,
+   "sma200": 231.735,
+   "rsi": 56.563,
+   "macd_hist": 0.612
+  },
+  {
+   "t": "2026-05-01",
+   "o": 215.46,
+   "h": 217.36,
+   "l": 211.58,
+   "c": 216.03,
+   "v": 1042200,
+   "sma20": 209.205,
+   "sma50": 206.366,
+   "sma200": 231.622,
+   "rsi": 59.115,
+   "macd_hist": 0.57
+  },
+  {
+   "t": "2026-05-04",
+   "o": 219.35,
+   "h": 227.02,
+   "l": 218.21,
+   "c": 225.18,
+   "v": 2046300,
+   "sma20": 210.629,
+   "sma50": 206.876,
+   "sma200": 231.578,
+   "rsi": 67.423,
+   "macd_hist": 1.075
+  },
+  {
+   "t": "2026-05-05",
+   "o": 226.0,
+   "h": 226.44,
+   "l": 221.94,
+   "c": 223.11,
+   "v": 1310300,
+   "sma20": 211.868,
+   "sma50": 207.426,
+   "sma200": 231.538,
+   "rsi": 64.242,
+   "macd_hist": 1.178
+  },
+  {
+   "t": "2026-05-06",
+   "o": 221.0,
+   "h": 225.14,
+   "l": 218.7,
+   "c": 222.0,
+   "v": 1850700,
+   "sma20": 212.862,
+   "sma50": 207.782,
+   "sma200": 231.49,
+   "rsi": 62.539,
+   "macd_hist": 1.082
+  },
+  {
+   "t": "2026-05-07",
+   "o": 225.06,
+   "h": 227.02,
+   "l": 222.16,
+   "c": 223.5,
+   "v": 1901200,
+   "sma20": 214.134,
+   "sma50": 208.106,
+   "sma200": 231.452,
+   "rsi": 63.931,
+   "macd_hist": 1.031
+  },
+  {
+   "t": "2026-05-08",
+   "o": 222.64,
+   "h": 222.98,
+   "l": 219.71,
+   "c": 220.45,
+   "v": 1756100,
+   "sma20": 215.303,
+   "sma50": 208.249,
+   "sma200": 231.411,
+   "rsi": 59.12,
+   "macd_hist": 0.717
+  },
+  {
+   "t": "2026-05-11",
+   "o": 221.41,
+   "h": 224.93,
+   "l": 219.04,
+   "c": 221.47,
+   "v": 2061000,
+   "sma20": 216.309,
+   "sma50": 208.449,
+   "sma200": 231.389,
+   "rsi": 60.199,
+   "macd_hist": 0.514
+  },
+  {
+   "t": "2026-05-12",
+   "o": 224.36,
+   "h": 228.79,
+   "l": 221.7,
+   "c": 225.99,
+   "v": 1785600,
+   "sma20": 217.353,
+   "sma50": 208.691,
+   "sma200": 231.395,
+   "rsi": 64.65,
+   "macd_hist": 0.613
+  },
+  {
+   "t": "2026-05-13",
+   "o": 224.93,
+   "h": 228.95,
+   "l": 221.73,
+   "c": 226.99,
+   "v": 1660500,
+   "sma20": 217.995,
+   "sma50": 208.89,
+   "sma200": 231.4,
+   "rsi": 65.567,
+   "macd_hist": 0.669
+  },
+  {
+   "t": "2026-05-14",
+   "o": 239.5,
+   "h": 246.25,
+   "l": 236.5,
+   "c": 242.41,
+   "v": 3667000,
+   "sma20": 219.419,
+   "sma50": 209.423,
+   "sma200": 231.492,
+   "rsi": 75.938,
+   "macd_hist": 1.615
+  },
+  {
+   "t": "2026-05-15",
+   "o": 243.77,
+   "h": 246.24,
+   "l": 240.29,
+   "c": 242.44,
+   "v": 1959500,
+   "sma20": 220.939,
+   "sma50": 210.021,
+   "sma200": 231.585,
+   "rsi": 75.953,
+   "macd_hist": 2.084
+  },
+  {
+   "t": "2026-05-18",
+   "o": 233.35,
+   "h": 244.13,
+   "l": 231.96,
+   "c": 242.16,
+   "v": 2339700,
+   "sma20": 222.205,
+   "sma50": 210.634,
+   "sma200": 231.682,
+   "rsi": 75.474,
+   "macd_hist": 2.203
+  },
+  {
+   "t": "2026-05-19",
+   "o": 240.4,
+   "h": 242.16,
+   "l": 235.9,
+   "c": 238.14,
+   "v": 1784800,
+   "sma20": 223.229,
+   "sma50": 211.104,
+   "sma200": 231.77,
+   "rsi": 68.777,
+   "macd_hist": 1.854
+  },
+  {
+   "t": "2026-05-20",
+   "o": 236.1,
+   "h": 237.32,
+   "l": 233.13,
+   "c": 236.62,
+   "v": 1859200,
+   "sma20": 224.151,
+   "sma50": 211.655,
+   "sma200": 231.823,
+   "rsi": 66.378,
+   "macd_hist": 1.385
+  },
+  {
+   "t": "2026-05-21",
+   "o": 236.3,
+   "h": 241.91,
+   "l": 236.1,
+   "c": 238.08,
+   "v": 4202700,
+   "sma20": 225.56,
+   "sma50": 212.195,
+   "sma200": 231.884,
+   "rsi": 67.549,
+   "macd_hist": 1.053
+  },
+  {
+   "t": "2026-05-22",
+   "o": 243.75,
+   "h": 247.0,
+   "l": 220.56,
+   "c": 227.55,
+   "v": 7045300,
+   "sma20": 226.4,
+   "sma50": 212.562,
+   "sma200": 231.886,
+   "rsi": 53.169,
+   "macd_hist": 0.056
+  },
+  {
+   "t": "2026-05-26",
+   "o": 225.13,
+   "h": 230.64,
+   "l": 220.49,
+   "c": 220.67,
+   "v": 3239500,
+   "sma20": 226.745,
+   "sma50": 212.804,
+   "sma200": 231.857,
+   "rsi": 46.243,
+   "macd_hist": -1.073
+  },
+  {
+   "t": "2026-05-27",
+   "o": 217.97,
+   "h": 224.11,
+   "l": 216.4,
+   "c": 218.46,
+   "v": 2976800,
+   "sma20": 227.018,
+   "sma50": 213.019,
+   "sma200": 231.862,
+   "rsi": 44.248,
+   "macd_hist": -1.925
+  },
+  {
+   "t": "2026-05-28",
+   "o": 219.67,
+   "h": 221.48,
+   "l": 216.31,
+   "c": 217.87,
+   "v": 2730600,
+   "sma20": 227.144,
+   "sma50": 213.242,
+   "sma200": 231.838,
+   "rsi": 43.707,
+   "macd_hist": -2.45
+  },
+  {
+   "t": "2026-05-29",
+   "o": 218.26,
+   "h": 227.78,
+   "l": 217.85,
+   "c": 224.16,
+   "v": 6487100,
+   "sma20": 227.664,
+   "sma50": 213.641,
+   "sma200": 231.796,
+   "rsi": 50.646,
+   "macd_hist": -2.299
+  },
+  {
+   "t": "2026-06-01",
+   "o": 227.99,
+   "h": 231.02,
+   "l": 223.88,
+   "c": 226.98,
+   "v": 2625800,
+   "sma20": 228.212,
+   "sma50": 214.146,
+   "sma200": 231.75,
+   "rsi": 53.418,
+   "macd_hist": -1.948
+  },
+  {
+   "t": "2026-06-02",
+   "o": 222.26,
+   "h": 224.0,
+   "l": 217.36,
+   "c": 222.38,
+   "v": 2682900,
+   "sma20": 228.072,
+   "sma50": 214.581,
+   "sma200": 231.696,
+   "rsi": 48.62,
+   "macd_hist": -1.958
+  },
+  {
+   "t": "2026-06-03",
+   "o": 220.0,
+   "h": 220.79,
+   "l": 214.29,
+   "c": 215.8,
+   "v": 2188500,
+   "sma20": 227.706,
+   "sma50": 214.88,
+   "sma200": 231.614,
+   "rsi": 42.711,
+   "macd_hist": -2.318
+  },
+  {
+   "t": "2026-06-04",
+   "o": 217.01,
+   "h": 220.75,
+   "l": 216.35,
+   "c": 216.65,
+   "v": 1942200,
+   "sma20": 227.439,
+   "sma50": 215.385,
+   "sma200": 231.535,
+   "rsi": 43.664,
+   "macd_hist": -2.397
+  },
+  {
+   "t": "2026-06-05",
+   "o": 217.33,
+   "h": 220.29,
+   "l": 212.78,
+   "c": 214.39,
+   "v": 1989800,
+   "sma20": 226.983,
+   "sma50": 215.812,
+   "sma200": 231.465,
+   "rsi": 41.679,
+   "macd_hist": -2.49
+  },
+  {
+   "t": "2026-06-08",
+   "o": 214.0,
+   "h": 214.36,
+   "l": 208.5,
+   "c": 212.55,
+   "v": 2481100,
+   "sma20": 226.588,
+   "sma50": 216.169,
+   "sma200": 231.384,
+   "rsi": 40.082,
+   "macd_hist": -2.554
+  },
+  {
+   "t": "2026-06-09",
+   "o": 210.69,
+   "h": 213.32,
+   "l": 207.91,
+   "c": 212.05,
+   "v": 1770000,
+   "sma20": 226.117,
+   "sma50": 216.616,
+   "sma200": 231.305,
+   "rsi": 39.638,
+   "macd_hist": -2.504
+  },
+  {
+   "t": "2026-06-10",
+   "o": 209.96,
+   "h": 214.17,
+   "l": 208.82,
+   "c": 210.46,
+   "v": 1999800,
+   "sma20": 225.341,
+   "sma50": 216.964,
+   "sma200": 231.213,
+   "rsi": 38.187,
+   "macd_hist": -2.451
+  },
+  {
+   "t": "2026-06-11",
+   "o": 207.24,
+   "h": 213.77,
+   "l": 206.0,
+   "c": 212.08,
+   "v": 1865400,
+   "sma20": 224.595,
+   "sma50": 217.255,
+   "sma200": 231.114,
+   "rsi": 40.573,
+   "macd_hist": -2.187
+  },
+  {
+   "t": "2026-06-12",
+   "o": 211.26,
+   "h": 213.26,
+   "l": 209.0,
+   "c": 211.75,
+   "v": 1495200,
+   "sma20": 223.062,
+   "sma50": 217.526,
+   "sma200": 231.018,
+   "rsi": 40.232,
+   "macd_hist": -1.925
+  },
+  {
+   "t": "2026-06-15",
+   "o": 213.01,
+   "h": 217.37,
+   "l": 211.75,
+   "c": 216.23,
+   "v": 1632500,
+   "sma20": 221.752,
+   "sma50": 217.853,
+   "sma200": 230.939,
+   "rsi": 46.767,
+   "macd_hist": -1.366
+  },
+  {
+   "t": "2026-06-16",
+   "o": 217.0,
+   "h": 230.5,
+   "l": 214.03,
+   "c": 229.97,
+   "v": 3489400,
+   "sma20": 221.142,
+   "sma50": 218.519,
+   "sma200": 230.915,
+   "rsi": 60.889,
+   "macd_hist": -0.057
+  },
+  {
+   "t": "2026-06-17",
+   "o": 227.83,
+   "h": 234.72,
+   "l": 226.45,
+   "c": 228.03,
+   "v": 2674900,
+   "sma20": 220.637,
+   "sma50": 219.113,
+   "sma200": 230.889,
+   "rsi": 58.528,
+   "macd_hist": 0.654
+  },
+  {
+   "t": "2026-06-18",
+   "o": 239.14,
+   "h": 242.15,
+   "l": 233.23,
+   "c": 239.28,
+   "v": 7241500,
+   "sma20": 220.77,
+   "sma50": 219.856,
+   "sma200": 230.88,
+   "rsi": 66.613,
+   "macd_hist": 1.793
+  },
+  {
+   "t": "2026-06-22",
+   "o": 244.61,
+   "h": 251.24,
+   "l": 237.2,
+   "c": 239.57,
+   "v": 4373100,
+   "sma20": 220.844,
+   "sma50": 220.686,
+   "sma200": 230.884,
+   "rsi": 66.793,
+   "macd_hist": 2.437
+  },
+  {
+   "t": "2026-06-23",
+   "o": 240.48,
+   "h": 247.42,
+   "l": 240.1,
+   "c": 242.64,
+   "v": 3151200,
+   "sma20": 221.599,
+   "sma50": 221.598,
+   "sma200": 230.894,
+   "rsi": 68.713,
+   "macd_hist": 2.908
+  },
+  {
+   "t": "2026-06-24",
+   "o": 247.06,
+   "h": 249.29,
+   "l": 234.0,
+   "c": 235.77,
+   "v": 4145000,
+   "sma20": 222.354,
+   "sma50": 222.286,
+   "sma200": 230.874,
+   "rsi": 60.31,
+   "macd_hist": 2.606
+  },
+  {
+   "t": "2026-06-25",
+   "o": 237.02,
+   "h": 240.84,
+   "l": 230.67,
+   "c": 238.72,
+   "v": 2851200,
+   "sma20": 223.367,
+   "sma50": 222.958,
+   "sma200": 230.824,
+   "rsi": 62.434,
+   "macd_hist": 2.456
+  },
+  {
+   "t": "2026-06-26",
+   "o": 240.84,
+   "h": 241.1,
+   "l": 233.4,
+   "c": 238.53,
+   "v": 6491700,
+   "sma20": 224.4,
+   "sma50": 223.446,
+   "sma200": 230.777,
+   "rsi": 62.203,
+   "macd_hist": 2.202
+  },
+  {
+   "t": "2026-06-29",
+   "o": 243.24,
+   "h": 250.47,
+   "l": 242.45,
+   "c": 247.15,
+   "v": 3795100,
+   "sma20": 225.549,
+   "sma50": 224.11,
+   "sma200": 230.793,
+   "rsi": 67.988,
+   "macd_hist": 2.455
+  },
+  {
+   "t": "2026-06-30",
+   "o": 244.5,
+   "h": 252.95,
+   "l": 243.22,
+   "c": 249.98,
+   "v": 3116300,
+   "sma20": 226.699,
+   "sma50": 224.869,
+   "sma200": 230.81,
+   "rsi": 69.632,
+   "macd_hist": 2.636
+  },
+  {
+   "t": "2026-07-01",
+   "o": 252.53,
+   "h": 253.2,
+   "l": 248.14,
+   "c": 250.32,
+   "v": 2305200,
+   "sma20": 228.096,
+   "sma50": 225.539,
+   "sma200": 230.83,
+   "rsi": 69.832,
+   "macd_hist": 2.598
+  },
+  {
+   "t": "2026-07-02",
+   "o": 250.32,
+   "h": 255.27,
+   "l": 249.14,
+   "c": 254.99,
+   "v": 2033700,
+   "sma20": 230.056,
+   "sma50": 226.285,
+   "sma200": 230.869,
+   "rsi": 72.515,
+   "macd_hist": 2.695
+  },
+  {
+   "t": "2026-07-06",
+   "o": 252.99,
+   "h": 258.51,
+   "l": 252.64,
+   "c": 258.41,
+   "v": 1898400,
+   "sma20": 232.144,
+   "sma50": 227.09,
+   "sma200": 230.922,
+   "rsi": 74.316,
+   "macd_hist": 2.786
+  },
+  {
+   "t": "2026-07-07",
+   "o": 263.08,
+   "h": 265.94,
+   "l": 256.86,
+   "c": 257.79,
+   "v": 2058900,
+   "sma20": 234.314,
+   "sma50": 228.048,
+   "sma200": 230.959,
+   "rsi": 73.377,
+   "macd_hist": 2.604
+  },
+  {
+   "t": "2026-07-08",
+   "o": 256.94,
+   "h": 259.99,
+   "l": 250.92,
+   "c": 251.38,
+   "v": 1543900,
+   "sma20": 236.255,
+   "sma50": 228.86,
+   "sma200": 230.967,
+   "rsi": 64.329,
+   "macd_hist": 1.885
+  },
+  {
+   "t": "2026-07-09",
+   "o": 251.65,
+   "h": 253.86,
+   "l": 244.3,
+   "c": 246.1,
+   "v": 2375700,
+   "sma20": 237.958,
+   "sma50": 229.507,
+   "sma200": 230.943,
+   "rsi": 57.986,
+   "macd_hist": 0.935
+  },
+  {
+   "t": "2026-07-10",
+   "o": 247.37,
+   "h": 249.0,
+   "l": 242.25,
+   "c": 243.2,
+   "v": 2249100,
+   "sma20": 239.595,
+   "sma50": 230.111,
+   "sma200": 230.901,
+   "rsi": 54.791,
+   "macd_hist": 0.04
+  },
+  {
+   "t": "2026-07-13",
+   "o": 242.98,
+   "h": 246.7,
+   "l": 242.98,
+   "c": 244.1,
+   "v": 1252300,
+   "sma20": 241.196,
+   "sma50": 230.686,
+   "sma200": 230.865,
+   "rsi": 55.608,
+   "macd_hist": -0.531
+  },
+  {
+   "t": "2026-07-14",
+   "o": 237.19,
+   "h": 241.86,
+   "l": 236.24,
+   "c": 237.04,
+   "v": 1461500,
+   "sma20": 242.46,
+   "sma50": 231.151,
+   "sma200": 230.83,
+   "rsi": 48.238,
+   "macd_hist": -1.377
+  },
+  {
+   "t": "2026-07-15",
+   "o": 237.49,
+   "h": 246.19,
+   "l": 237.25,
+   "c": 243.8,
+   "v": 1630200,
+   "sma20": 243.839,
+   "sma50": 231.707,
+   "sma200": 230.823,
+   "rsi": 54.462,
+   "macd_hist": -1.465
+  },
+  {
+   "t": "2026-07-16",
+   "o": 243.0,
+   "h": 243.5,
+   "l": 238.0,
+   "c": 239.57,
+   "v": 1558400,
+   "sma20": 244.319,
+   "sma50": 231.995,
+   "sma200": 230.74,
+   "rsi": 50.38,
+   "macd_hist": -1.771
+  },
+  {
+   "t": "2026-07-17",
+   "o": 235.64,
+   "h": 239.25,
+   "l": 232.5,
+   "c": 236.68,
+   "v": 2361000,
+   "sma20": 244.751,
+   "sma50": 232.266,
+   "sma200": 230.624,
+   "rsi": 47.747,
+   "macd_hist": -2.109
+  },
+  {
+   "t": "2026-07-20",
+   "o": 236.8,
+   "h": 241.79,
+   "l": 236.75,
+   "c": 238.98,
+   "v": 1352100,
+   "sma20": 244.736,
+   "sma50": 232.606,
+   "sma200": 230.527,
+   "rsi": 49.987,
+   "macd_hist": -2.112
+  },
+  {
+   "t": "2026-07-21",
+   "o": 237.83,
+   "h": 239.38,
+   "l": 235.3,
+   "c": 235.93,
+   "v": 1195700,
+   "sma20": 244.554,
+   "sma50": 232.854,
+   "sma200": 230.43,
+   "rsi": 47.103,
+   "macd_hist": -2.243
+  },
+  {
+   "t": "2026-07-22",
+   "o": 236.24,
+   "h": 236.5,
+   "l": 232.57,
+   "c": 233.58,
+   "v": 1273800,
+   "sma20": 244.101,
+   "sma50": 233.117,
+   "sma200": 230.313,
+   "rsi": 44.951,
+   "macd_hist": -2.397
+  },
+  {
+   "t": "2026-07-23",
+   "o": 231.87,
+   "h": 233.18,
+   "l": 228.5,
+   "c": 230.25,
+   "v": 1486000,
+   "sma20": 243.825,
+   "sma50": 233.292,
+   "sma200": 230.176,
+   "rsi": 42.022,
+   "macd_hist": -2.614
+  },
+  {
+   "t": "2026-07-24",
+   "o": 231.69,
+   "h": 234.16,
+   "l": 229.56,
+   "c": 231.65,
+   "v": 1343400,
+   "sma20": 243.472,
+   "sma50": 233.406,
+   "sma200": 230.049,
+   "rsi": 43.684,
+   "macd_hist": -2.551
+  },
+  {
+   "t": "2026-07-27",
+   "o": 237.93,
+   "h": 244.51,
+   "l": 235.62,
+   "c": 243.95,
+   "v": 2027500,
+   "sma20": 243.743,
+   "sma50": 233.745,
+   "sma200": 229.966,
+   "rsi": 55.698,
+   "macd_hist": -1.616
+  },
+  {
+   "t": "2026-07-28",
+   "o": 245.22,
+   "h": 248.7,
+   "l": 241.42,
+   "c": 247.62,
+   "v": 1943100,
+   "sma20": 243.766,
+   "sma50": 233.849,
+   "sma200": 229.914,
+   "rsi": 58.54,
+   "macd_hist": -0.729
+  },
+  {
+   "t": "2026-07-29",
+   "o": 248.17,
+   "h": 250.93,
+   "l": 246.06,
+   "c": 246.43,
+   "v": 2480600,
+   "sma20": 243.589,
+   "sma50": 233.929,
+   "sma200": 229.863,
+   "rsi": 57.257,
+   "macd_hist": -0.227
+  },
+  {
+   "t": "2026-07-30",
+   "o": 242.02,
+   "h": 247.66,
+   "l": 242.02,
+   "c": 247.43,
+   "v": 2309500,
+   "sma20": 243.444,
+   "sma50": 234.034,
+   "sma200": 229.84,
+   "rsi": 58.088,
+   "macd_hist": 0.147
+  },
+  {
+   "t": "2026-07-31",
+   "o": 246.37,
+   "h": 247.08,
+   "l": 237.96,
+   "c": 242.92,
+   "v": 1931000,
+   "sma20": 242.84,
+   "sma50": 234.13,
+   "sma200": 229.771,
+   "rsi": 53.076,
+   "macd_hist": 0.069
+  },
+  {
+   "t": "2026-08-03",
+   "o": 246.05,
+   "h": 248.46,
+   "l": 243.76,
+   "c": 245.15,
+   "v": 1630000,
+   "sma20": 242.177,
+   "sma50": 234.3,
+   "sma200": 229.709,
+   "rsi": 55.137,
+   "macd_hist": 0.142
+  },
+  {
+   "t": "2026-08-04",
+   "o": 244.19,
+   "h": 246.25,
+   "l": 239.51,
+   "c": 240.22,
+   "v": 2096600,
+   "sma20": 241.299,
+   "sma50": 234.343,
+   "sma200": 229.602,
+   "rsi": 49.917,
+   "macd_hist": -0.151
+  },
+  {
+   "t": "2026-08-05",
+   "o": 242.76,
+   "h": 243.51,
+   "l": 232.34,
+   "c": 234.91,
+   "v": 2109200,
+   "sma20": 240.475,
+   "sma50": 234.49,
+   "sma200": 229.481,
+   "rsi": 44.977,
+   "macd_hist": -0.683
+  },
+  {
+   "t": "2026-08-06",
+   "o": 240.66,
+   "h": 242.97,
+   "l": 228.2,
+   "c": 232.47,
+   "v": 3985700,
+   "sma20": 239.794,
+   "sma50": 234.726,
+   "sma200": 229.336,
+   "rsi": 42.878,
+   "macd_hist": -1.151
+  },
+  {
+   "t": "2026-08-07",
+   "o": 233.5,
+   "h": 247.54,
+   "l": 231.07,
+   "c": 246.5,
+   "v": 3987100,
+   "sma20": 239.959,
+   "sma50": 235.287,
+   "sma200": 229.257,
+   "rsi": 55.687,
+   "macd_hist": -0.501
+  },
+  {
+   "t": "2026-08-10",
+   "o": 247.55,
+   "h": 256.62,
+   "l": 247.34,
+   "c": 253.57,
+   "v": 3776700,
+   "sma20": 240.432,
+   "sma50": 236.001,
+   "sma200": 229.224,
+   "rsi": 60.495,
+   "macd_hist": 0.372
+  },
+  {
+   "t": "2026-08-11",
+   "o": 253.37,
+   "h": 254.95,
+   "l": 247.83,
+   "c": 250.5,
+   "v": 2447600,
+   "sma20": 241.105,
+   "sma50": 236.528,
+   "sma200": 229.198,
+   "rsi": 57.574,
+   "macd_hist": 0.692
+  },
+  {
+   "t": "2026-08-12",
+   "o": 248.38,
+   "h": 248.96,
+   "l": 242.21,
+   "c": 243.0,
+   "v": 1842200,
+   "sma20": 241.065,
+   "sma50": 236.848,
+   "sma200": 229.141,
+   "rsi": 51.084,
+   "macd_hist": 0.363
+  },
+  {
+   "t": "2026-08-13",
+   "o": 243.77,
+   "h": 245.43,
+   "l": 239.52,
+   "c": 241.91,
+   "v": 1667600,
+   "sma20": 241.182,
+   "sma50": 237.239,
+   "sma200": 229.075,
+   "rsi": 50.199,
+   "macd_hist": 0.054
+  },
+  {
+   "t": "2026-08-14",
+   "o": 242.34,
+   "h": 248.98,
+   "l": 242.34,
+   "c": 246.95,
+   "v": 1118900,
+   "sma20": 241.696,
+   "sma50": 237.862,
+   "sma200": 229.038,
+   "rsi": 54.156,
+   "macd_hist": 0.165
+  },
+  {
+   "t": "2026-08-17",
+   "o": 245.01,
+   "h": 247.63,
+   "l": 241.04,
+   "c": 241.61,
+   "v": 1654700,
+   "sma20": 241.827,
+   "sma50": 238.361,
+   "sma200": 228.988,
+   "rsi": 49.654,
+   "macd_hist": -0.131
+  },
+  {
+   "t": "2026-08-18",
+   "o": 243.58,
+   "h": 248.39,
+   "l": 241.76,
+   "c": 242.4,
+   "v": 1907900,
+   "sma20": 242.151,
+   "sma50": 238.921,
+   "sma200": 228.942,
+   "rsi": 50.312,
+   "macd_hist": -0.274
+  },
+  {
+   "t": "2026-08-19",
+   "o": 242.4,
+   "h": 246.5,
+   "l": 236.24,
+   "c": 237.04,
+   "v": 2667100,
+   "sma20": 242.324,
+   "sma50": 239.411,
+   "sma200": 228.863,
+   "rsi": 45.926,
+   "macd_hist": -0.705
+  },
+  {
+   "t": "2026-08-20",
+   "o": 236.88,
+   "h": 241.23,
+   "l": 231.58,
+   "c": 240.15,
+   "v": 2445800,
+   "sma20": 242.819,
+   "sma50": 239.973,
+   "sma200": 228.782,
+   "rsi": 48.719,
+   "macd_hist": -0.753
+  },
+  {
+   "t": "2026-08-21",
+   "o": 242.78,
+   "h": 245.68,
+   "l": 239.45,
+   "c": 239.62,
+   "v": 1618900,
+   "sma20": 243.217,
+   "sma50": 240.556,
+   "sma200": 228.702,
+   "rsi": 48.262,
+   "macd_hist": -0.788
+  },
+  {
+   "t": "2026-08-24",
+   "o": 239.79,
+   "h": 242.37,
+   "l": 232.71,
+   "c": 233.5,
+   "v": 2712900,
+   "sma20": 242.695,
+   "sma50": 240.985,
+   "sma200": 228.607,
+   "rsi": 43.214,
+   "macd_hist": -1.168
+  },
+  {
+   "t": "2026-08-25",
+   "o": 233.5,
+   "h": 237.49,
+   "l": 232.44,
+   "c": 232.93,
+   "v": 1591600,
+   "sma20": 241.96,
+   "sma50": 241.408,
+   "sma200": 228.498,
+   "rsi": 42.766,
+   "macd_hist": -1.388
+  },
+  {
+   "t": "2026-08-26",
+   "o": 232.58,
+   "h": 241.29,
+   "l": 232.48,
+   "c": 233.45,
+   "v": 2165900,
+   "sma20": 241.311,
+   "sma50": 241.753,
+   "sma200": 228.403,
+   "rsi": 43.344,
+   "macd_hist": -1.423
+  },
+  {
+   "t": "2026-08-27",
+   "o": 234.9,
+   "h": 238.25,
+   "l": 225.1,
+   "c": 233.0,
+   "v": 4228100,
+   "sma20": 240.59,
+   "sma50": 241.813,
+   "sma200": 228.408,
+   "rsi": 42.94,
+   "macd_hist": -1.4
+  },
+  {
+   "t": "2026-08-28",
+   "o": 239.0,
+   "h": 240.54,
+   "l": 232.15,
+   "c": 235.39,
+   "v": 3706600,
+   "sma20": 240.213,
+   "sma50": 241.961,
+   "sma200": 228.415,
+   "rsi": 45.828,
+   "macd_hist": -1.156
+  },
+  {
+   "t": "2026-08-31",
+   "o": 233.56,
+   "h": 234.57,
+   "l": 216.76,
+   "c": 219.7,
+   "v": 6843700,
+   "sma20": 238.941,
+   "sma50": 241.569,
+   "sma200": 228.31,
+   "rsi": 33.75,
+   "macd_hist": -1.938
+  },
+  {
+   "t": "2026-09-01",
+   "o": 217.01,
+   "h": 219.54,
+   "l": 214.14,
+   "c": 216.68,
+   "v": 2802300,
+   "sma20": 237.764,
+   "sma50": 241.111,
+   "sma200": 228.191,
+   "rsi": 32.002,
+   "macd_hist": -2.509
+  },
+  {
+   "t": "2026-09-02",
+   "o": 216.06,
+   "h": 220.71,
+   "l": 214.85,
+   "c": 216.14,
+   "v": 2483600,
+   "sma20": 236.825,
+   "sma50": 240.581,
+   "sma200": 228.084,
+   "rsi": 31.686,
+   "macd_hist": -2.754
+  },
+  {
+   "t": "2026-09-03",
+   "o": 216.96,
+   "h": 220.58,
+   "l": 213.6,
+   "c": 214.13,
+   "v": 2701500,
+   "sma20": 235.908,
+   "sma50": 240.148,
+   "sma200": 227.98,
+   "rsi": 30.479,
+   "macd_hist": -2.869
+  },
+  {
+   "t": "2026-09-04",
+   "o": 211.95,
+   "h": 216.99,
+   "l": 211.33,
+   "c": 214.69,
+   "v": 2080000,
+   "sma20": 234.318,
+   "sma50": 239.668,
+   "sma200": 227.885,
+   "rsi": 31.265,
+   "macd_hist": -2.726
+  },
+  {
+   "t": "2026-09-08",
+   "o": 213.84,
+   "h": 216.26,
+   "l": 210.15,
+   "c": 213.29,
+   "v": 2575900,
+   "sma20": 232.304,
+   "sma50": 239.163,
+   "sma200": 227.756,
+   "rsi": 30.342,
+   "macd_hist": -2.549
+  },
+  {
+   "t": "2026-09-09",
+   "o": 212.39,
+   "h": 213.19,
+   "l": 208.52,
+   "c": 211.14,
+   "v": 2176800,
+   "sma20": 230.336,
+   "sma50": 238.443,
+   "sma200": 227.61,
+   "rsi": 28.93,
+   "macd_hist": -2.4
+  },
+  {
+   "t": "2026-09-10",
+   "o": 209.68,
+   "h": 219.58,
+   "l": 209.25,
+   "c": 216.96,
+   "v": 2474100,
+   "sma20": 229.034,
+   "sma50": 237.782,
+   "sma200": 227.518,
+   "rsi": 37.421,
+   "macd_hist": -1.763
+  },
+  {
+   "t": "2026-09-11",
+   "o": 217.6,
+   "h": 219.84,
+   "l": 215.27,
+   "c": 215.47,
+   "v": 1343800,
+   "sma20": 227.712,
+   "sma50": 237.085,
+   "sma200": 227.418,
+   "rsi": 36.227,
+   "macd_hist": -1.317
+  },
+  {
+   "t": "2026-09-14",
+   "o": 218.43,
+   "h": 224.26,
+   "l": 214.54,
+   "c": 222.91,
+   "v": 2192700,
+   "sma20": 226.51,
+   "sma50": 236.444,
+   "sma200": 227.337,
+   "rsi": 45.562,
+   "macd_hist": -0.44
+  },
+  {
+   "t": "2026-09-15",
+   "o": 220.24,
+   "h": 220.45,
+   "l": 211.54,
+   "c": 211.91,
+   "v": 2554200,
+   "sma20": 225.025,
+   "sma50": 235.514,
+   "sma200": 227.187,
+   "rsi": 36.95,
+   "macd_hist": -0.515
+  },
+  {
+   "t": "2026-09-16",
+   "o": 211.59,
+   "h": 215.0,
+   "l": 210.72,
+   "c": 211.81,
+   "v": 2156900,
+   "sma20": 223.495,
+   "sma50": 234.594,
+   "sma200": 227.028,
+   "rsi": 36.882,
+   "macd_hist": -0.486
+  },
+  {
+   "t": "2026-09-17",
+   "o": 212.5,
+   "h": 213.46,
+   "l": 207.77,
+   "c": 210.62,
+   "v": 2635900,
+   "sma20": 222.174,
+   "sma50": 233.779,
+   "sma200": 226.851,
+   "rsi": 36.029,
+   "macd_hist": -0.461
+  },
+  {
+   "t": "2026-09-18",
+   "o": 210.8,
+   "h": 211.8,
+   "l": 205.19,
+   "c": 205.45,
+   "v": 5711000,
+   "sma20": 220.439,
+   "sma50": 232.966,
+   "sma200": 226.632,
+   "rsi": 32.512,
+   "macd_hist": -0.694
+  },
+  {
+   "t": "2026-09-21",
+   "o": 206.2,
+   "h": 210.5,
+   "l": 204.0,
+   "c": 209.92,
+   "v": 2633600,
+   "sma20": 218.954,
+   "sma50": 232.3,
+   "sma200": 226.447,
+   "rsi": 38.135,
+   "macd_hist": -0.46
+  },
+  {
+   "t": "2026-09-22",
+   "o": 211.71,
+   "h": 211.8,
+   "l": 204.25,
+   "c": 205.53,
+   "v": 3023200,
+   "sma20": 217.556,
+   "sma50": 231.529,
+   "sma200": 226.25,
+   "rsi": 35.047,
+   "macd_hist": -0.508
+  },
+  {
+   "t": "2026-09-23",
+   "o": 206.26,
+   "h": 208.78,
+   "l": 203.19,
+   "c": 206.32,
+   "v": 2422500,
+   "sma20": 216.225,
+   "sma50": 230.915,
+   "sma200": 226.044,
+   "rsi": 36.051,
+   "macd_hist": -0.4
+  },
+  {
+   "t": "2026-09-24",
+   "o": 207.2,
+   "h": 209.4,
+   "l": 202.37,
+   "c": 202.98,
+   "v": 2334100,
+   "sma20": 214.702,
+   "sma50": 230.098,
+   "sma200": 225.819,
+   "rsi": 33.681,
+   "macd_hist": -0.463
+  },
+  {
+   "t": "2026-09-25",
+   "o": 203.48,
+   "h": 203.99,
+   "l": 200.55,
+   "c": 201.44,
+   "v": 2076300,
+   "sma20": 213.124,
+   "sma50": 229.336,
+   "sma200": 225.59,
+   "rsi": 32.616,
+   "macd_hist": -0.512
+  },
+  {
+   "t": "2026-09-28",
+   "o": 200.72,
+   "h": 203.55,
+   "l": 199.46,
+   "c": 202.35,
+   "v": 2072900,
+   "sma20": 211.472,
+   "sma50": 228.649,
+   "sma200": 225.358,
+   "rsi": 33.945,
+   "macd_hist": -0.394
+  },
+  {
+   "t": "2026-09-29",
+   "o": 202.35,
+   "h": 203.08,
+   "l": 200.0,
+   "c": 202.78,
+   "v": 1955700,
+   "sma20": 210.626,
+   "sma50": 227.925,
+   "sma200": 225.142,
+   "rsi": 34.601,
+   "macd_hist": -0.206
+  },
+  {
+   "t": "2026-09-30",
+   "o": 203.69,
+   "h": 210.15,
+   "l": 203.0,
+   "c": 207.5,
+   "v": 2448000,
+   "sma20": 210.167,
+   "sma50": 227.356,
+   "sma200": 224.968,
+   "rsi": 41.474,
+   "macd_hist": 0.289
+  },
+  {
+   "t": "2026-10-01",
+   "o": 207.5,
+   "h": 207.88,
+   "l": 200.44,
+   "c": 203.62,
+   "v": 2658000,
+   "sma20": 209.541,
+   "sma50": 226.757,
+   "sma200": 224.778,
+   "rsi": 37.944,
+   "macd_hist": 0.402
+  },
+  {
+   "t": "2026-10-02",
+   "o": 203.69,
+   "h": 204.68,
+   "l": 201.2,
+   "c": 202.73,
+   "v": 1596000,
+   "sma20": 208.971,
+   "sma50": 226.207,
+   "sma200": 224.569,
+   "rsi": 37.163,
+   "macd_hist": 0.459
+  },
+  {
+   "t": "2026-10-05",
+   "o": 202.73,
+   "h": 204.59,
+   "l": 201.58,
+   "c": 203.46,
+   "v": 2229100,
+   "sma20": 208.41,
+   "sma50": 225.643,
+   "sma200": 224.364,
+   "rsi": 38.285,
+   "macd_hist": 0.581
+  },
+  {
+   "t": "2026-10-06",
+   "o": 203.31,
+   "h": 205.01,
+   "l": 201.7,
+   "c": 202.53,
+   "v": 2053700,
+   "sma20": 207.872,
+   "sma50": 224.815,
+   "sma200": 224.174,
+   "rsi": 37.369,
+   "macd_hist": 0.629
+  },
+  {
+   "t": "2026-10-07",
+   "o": 201.53,
+   "h": 205.89,
+   "l": 201.32,
+   "c": 204.01,
+   "v": 2207600,
+   "sma20": 207.515,
+   "sma50": 223.942,
+   "sma200": 223.961,
+   "rsi": 39.836,
+   "macd_hist": 0.782
+  },
+  {
+   "t": "2026-10-08",
+   "o": 204.75,
+   "h": 212.33,
+   "l": 203.72,
+   "c": 209.37,
+   "v": 2710000,
+   "sma20": 207.135,
+   "sma50": 223.201,
+   "sma200": 223.77,
+   "rsi": 47.848,
+   "macd_hist": 1.237
+  },
+  {
+   "t": "2026-10-09",
+   "o": 211.95,
+   "h": 215.66,
+   "l": 210.0,
+   "c": 213.44,
+   "v": 1933700,
+   "sma20": 207.034,
+   "sma50": 222.521,
+   "sma200": 223.595,
+   "rsi": 52.969,
+   "macd_hist": 1.773
+  },
+  {
+   "t": "2026-10-12",
+   "o": 213.51,
+   "h": 214.68,
+   "l": 206.56,
+   "c": 208.82,
+   "v": 1891100,
+   "sma20": 206.329,
+   "sma50": 221.839,
+   "sma200": 223.393,
+   "rsi": 47.292,
+   "macd_hist": 1.773
+  },
+  {
+   "t": "2026-10-13",
+   "o": 209.09,
+   "h": 209.55,
+   "l": 196.3,
+   "c": 200.32,
+   "v": 5207800,
+   "sma20": 205.75,
+   "sma50": 220.943,
+   "sma200": 223.136,
+   "rsi": 39.008,
+   "macd_hist": 1.186
+  },
+  {
+   "t": "2026-10-14",
+   "o": 203.12,
+   "h": 206.71,
+   "l": 200.93,
+   "c": 201.23,
+   "v": 2609500,
+   "sma20": 205.221,
+   "sma50": 220.163,
+   "sma200": 222.862,
+   "rsi": 40.216,
+   "macd_hist": 0.858
+  },
+  {
+   "t": "2026-10-15",
+   "o": 202.92,
+   "h": 210.81,
+   "l": 202.49,
+   "c": 209.38,
+   "v": 3154800,
+   "sma20": 205.159,
+   "sma50": 219.652,
+   "sma200": 222.63,
+   "rsi": 49.8,
+   "macd_hist": 1.172
+  },
+  {
+   "t": "2026-10-16",
+   "o": 210.54,
+   "h": 212.16,
+   "l": 203.71,
+   "c": 205.28,
+   "v": 2593900,
+   "sma20": 205.151,
+   "sma50": 219.109,
+   "sma200": 222.367,
+   "rsi": 45.82,
+   "macd_hist": 1.085
+  },
+  {
+   "t": "2026-10-19",
+   "o": 205.19,
+   "h": 206.57,
+   "l": 204.0,
+   "c": 204.92,
+   "v": 1690900,
+   "sma20": 204.901,
+   "sma50": 218.277,
+   "sma200": 222.112,
+   "rsi": 45.477,
+   "macd_hist": 0.989
+  },
+  {
+   "t": "2026-10-20",
+   "o": 205.65,
+   "h": 207.37,
+   "l": 204.95,
+   "c": 206.7,
+   "v": 1292600,
+   "sma20": 204.959,
+   "sma50": 217.34,
+   "sma200": 221.887,
+   "rsi": 47.57,
+   "macd_hist": 1.027
+  },
+  {
+   "t": "2026-10-21",
+   "o": 206.36,
+   "h": 208.4,
+   "l": 204.28,
+   "c": 206.16,
+   "v": 2178400,
+   "sma20": 204.951,
+   "sma50": 216.453,
+   "sma200": 221.631,
+   "rsi": 46.981,
+   "macd_hist": 0.995
+  },
+  {
+   "t": "2026-10-22",
+   "o": 206.48,
+   "h": 212.0,
+   "l": 206.45,
+   "c": 207.81,
+   "v": 2355800,
+   "sma20": 205.193,
+   "sma50": 215.749,
+   "sma200": 221.399,
+   "rsi": 49.058,
+   "macd_hist": 1.06
+  },
+  {
+   "t": "2026-10-23",
+   "o": 207.64,
+   "h": 208.38,
+   "l": 203.53,
+   "c": 203.69,
+   "v": 1563800,
+   "sma20": 205.305,
+   "sma50": 214.985,
+   "sma200": 221.134,
+   "rsi": 44.383,
+   "macd_hist": 0.81
+  },
+  {
+   "t": "2026-10-26",
+   "o": 203.74,
+   "h": 204.07,
+   "l": 199.9,
+   "c": 203.35,
+   "v": 1670300,
+   "sma20": 205.355,
+   "sma50": 214.113,
+   "sma200": 220.889,
+   "rsi": 44.01,
+   "macd_hist": 0.617
+  },
+  {
+   "t": "2026-10-27",
+   "o": 204.39,
+   "h": 204.51,
+   "l": 199.6,
+   "c": 201.28,
+   "v": 1949400,
+   "sma20": 205.28,
+   "sma50": 213.306,
+   "sma200": 220.641,
+   "rsi": 41.713,
+   "macd_hist": 0.357
+  },
+  {
+   "t": "2026-10-28",
+   "o": 200.23,
+   "h": 201.5,
+   "l": 195.03,
+   "c": 195.29,
+   "v": 2114100,
+   "sma20": 204.669,
+   "sma50": 212.364,
+   "sma200": 220.373,
+   "rsi": 35.877,
+   "macd_hist": -0.183
+  },
+  {
+   "t": "2026-10-29",
+   "o": 196.23,
+   "h": 196.43,
+   "l": 191.58,
+   "c": 193.39,
+   "v": 2309800,
+   "sma20": 204.158,
+   "sma50": 211.491,
+   "sma200": 220.103,
+   "rsi": 34.241,
+   "macd_hist": -0.608
+  },
+  {
+   "t": "2026-10-30",
+   "o": 192.1,
+   "h": 194.34,
+   "l": 183.86,
+   "c": 190.17,
+   "v": 3575700,
+   "sma20": 203.53,
+   "sma50": 210.491,
+   "sma200": 219.826,
+   "rsi": 31.61,
+   "macd_hist": -1.021
+  },
+  {
+   "t": "2026-11-02",
+   "o": 191.01,
+   "h": 196.0,
+   "l": 190.34,
+   "c": 192.1,
+   "v": 2854200,
+   "sma20": 202.962,
+   "sma50": 209.541,
+   "sma200": 219.565,
+   "rsi": 34.842,
+   "macd_hist": -1.075
+  },
+  {
+   "t": "2026-11-03",
+   "o": 193.5,
+   "h": 197.43,
+   "l": 192.96,
+   "c": 194.99,
+   "v": 2305000,
+   "sma20": 202.585,
+   "sma50": 208.771,
+   "sma200": 219.339,
+   "rsi": 39.456,
+   "macd_hist": -0.836
+  },
+  {
+   "t": "2026-11-04",
+   "o": 199.23,
+   "h": 213.0,
+   "l": 197.95,
+   "c": 208.9,
+   "v": 4449400,
+   "sma20": 202.83,
+   "sma50": 208.29,
+   "sma200": 219.181,
+   "rsi": 55.711,
+   "macd_hist": 0.278
+  },
+  {
+   "t": "2026-11-05",
+   "o": 214.87,
+   "h": 218.78,
+   "l": 207.1,
+   "c": 213.36,
+   "v": 5883500,
+   "sma20": 203.029,
+   "sma50": 207.888,
+   "sma200": 219.056,
+   "rsi": 59.469,
+   "macd_hist": 1.279
+  },
+  {
+   "t": "2026-11-06",
+   "o": 210.63,
+   "h": 217.7,
+   "l": 209.72,
+   "c": 214.87,
+   "v": 3252000,
+   "sma20": 203.101,
+   "sma50": 207.526,
+   "sma200": 218.925,
+   "rsi": 60.685,
+   "macd_hist": 1.965
+  },
+  {
+   "t": "2026-11-09",
+   "o": 216.26,
+   "h": 217.0,
+   "l": 206.36,
+   "c": 207.4,
+   "v": 6018700,
+   "sma20": 203.029,
+   "sma50": 206.966,
+   "sma200": 218.734,
+   "rsi": 52.321,
+   "macd_hist": 1.841
+  }
+ ]
+}
