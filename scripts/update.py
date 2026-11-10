@@ -344,7 +344,13 @@ def fetch_google_news(days: int) -> list[dict]:
 def fetch_nvidia_newsroom() -> list[dict]:
     dom, url, _ = CFG[TICKER]["official"]
     if url.startswith("gnews:"):
-        return [it for it in _gnews(url[6:]) if it["domain"] in official_domains()]
+        out = []
+        for it in _gnews(url[6:]):
+            t = re.sub(r"\s*[-|]\s*Take-Two Interactive Software,? Inc\.?\s*$", "", it["title"]).strip(" -|")
+            # skip bare page titles and transcript fragments ("- Take-Two ...", "1 SAFE HARBOR ...")
+            if it["domain"] in official_domains() and len(t.split()) >= 4 and not re.match(r"^\(?\d|^\(nasdaq", t, re.I):
+                out.append({**it, "title": t})
+        return out
     root = ET.fromstring(http_get(url))
     return [{"title": html.unescape(it.findtext("title") or "").strip(), "url": it.findtext("link"),
              "domain": dom, "published": parse_date(it.findtext("pubDate"))}
