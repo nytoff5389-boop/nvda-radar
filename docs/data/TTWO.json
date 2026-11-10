@@ -1,6 +1,6 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-10T04:00:57.170740+00:00",
+ "generated_at": "2026-11-10T04:01:55.775355+00:00",
  "sample": false,
  "intraday": {
   "price": 207.4,
@@ -579,7 +579,7 @@
    },
    {
     "t": 1794259800,
-    "c": 218.86,
+    "c": 218.68,
     "s": "post"
    },
    {
@@ -698,6 +698,11 @@
     "s": "post"
    },
    {
+    "t": 1794267900,
+    "c": 215.78,
+    "s": "post"
+   },
+   {
     "t": 1794268500,
     "c": 216.2,
     "s": "post"
@@ -777,7 +782,7 @@
   "volume": 6018700
  },
  "verdict": {
-  "score": -1.98,
+  "score": -2.27,
   "level": "เสี่ยง",
   "lean": "ระวัง / พิจารณาขายบางส่วน",
   "key": "bad",
@@ -809,8 +814,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": -0.23,
-    "why": "ค่าเฉลี่ยโทนข่าว -0.11 จาก 10 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": -0.52,
+    "why": "ค่าเฉลี่ยโทนข่าว -0.26 จาก 8 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -889,6 +894,10 @@
    {
     "t": "2026-11-10T04:00+00:00",
     "bull_pct": 87.5
+   },
+   {
+    "t": "2026-11-10T04:01+00:00",
+    "bull_pct": 87.5
    }
   ]
  },
@@ -913,9 +922,9 @@
    {
     "key": "earnings",
     "label": "งบการเงิน / คาดการณ์รายได้",
-    "count": 4,
-    "tone": -0.25,
-    "example": "Take-Two Interactive Software, Inc. Reports Results for Fiscal Second Quarter 2027 - Take-Two Interactive Software, Inc.",
+    "count": 3,
+    "tone": -0.33,
+    "example": "Take-Two Interactive Software, Inc. Reports Results for Fiscal Second Quarter 2027",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY0hFRVZsMWo0eVRsYmswWFp3T2ZORTRRNjhSUFFoLWR5SmRZU3hSczFvSjFnYXo0M0swVVk4RzlzZG1DQ1EzcGw1bFdDaWM2MkVUZUVhY1JJUmtLTDQyamFtNloyNkFNOW43ZHg4Wm9EaGUyOHlpN1FoRDRsTG9iVDRwc3RSTkxIQUdZcUZob3NGcUFVTGhJMA?oc=5"
    }
   ],
@@ -935,7 +944,7 @@
  },
  "news": [
   {
-   "title": "Take-Two Interactive Software, Inc. Reports Results for Fiscal Second Quarter 2027 - Take-Two Interactive Software, Inc.",
+   "title": "Take-Two Interactive Software, Inc. Reports Results for Fiscal Second Quarter 2027",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY0hFRVZsMWo0eVRsYmswWFp3T2ZORTRRNjhSUFFoLWR5SmRZU3hSczFvSjFnYXo0M0swVVk4RzlzZG1DQ1EzcGw1bFdDaWM2MkVUZUVhY1JJUmtLTDQyamFtNloyNkFNOW43ZHg4Wm9EaGUyOHlpN1FoRDRsTG9iVDRwc3RSTkxIQUdZcUZob3NGcUFVTGhJMA?oc=5",
    "domain": "take2games.com",
    "published": "2026-11-09T22:05:57+00:00",
@@ -944,7 +953,7 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 26,
+   "corroborated_by": 28,
    "sources": [
     "24/7 Wall St.",
     "Benzinga",
@@ -955,6 +964,7 @@
     "Inven Global",
     "Investing.com",
     "Investing.com Canada",
+    "Investing.com India",
     "Investing.com South Africa",
     "Investor's Business Daily",
     "KuCoin",
@@ -971,52 +981,13 @@
     "TwistedVoxel",
     "Yahoo Finance",
     "Yahoo! Finance Canada",
-    "www.marketscreener.com"
+    "www.marketscreener.com",
+    "富途牛牛"
    ],
    "status": "official"
   },
   {
-   "title": "1 SAFE HARBOR – Nicole Shevins • Good Afternoon. Thank you for joining our conference call to discuss our results for the s - Take-Two Interactive Software, Inc.",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNREVyb1hOM0V6RFU1MTZVcnpzR2RrZUFxSThTN2pZWWliUGlDOVR6dmFHNGxyNVdUcTdjREQ0RkJUeGRPei1yVS1xbUJubS13em9Ddk9wUHRtbG5GdFpFcURoS3Q1SEhHelZLb3psYVFyb0tHZUZ2WTNfMndUeUNQSQ?oc=5",
-   "domain": "take2games.com",
-   "published": "2026-11-09T23:12:31+00:00",
-   "source": "Take-Two IR (ทางการ)",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 25,
-   "sources": [
-    "Barron's",
-    "Benzinga",
-    "Bloomberg",
-    "GamesBeat",
-    "GamesIndustry.biz",
-    "GuruFocus",
-    "Indy100",
-    "Investing.com",
-    "Investing.com Canada",
-    "Investing.com South Africa",
-    "Investor's Business Daily",
-    "KuCoin",
-    "Reuters",
-    "Shacknews",
-    "Simply Wall St",
-    "Startup Fortune",
-    "StreetInsider",
-    "Take-Two IR (ทางการ)",
-    "The Lufkin Daily News",
-    "The Wall Street Journal",
-    "TwistedVoxel",
-    "Yahoo Finance",
-    "Yahoo! Finance Canada",
-    "finehomesandliving.com",
-    "www.marketscreener.com"
-   ],
-   "status": "official"
-  },
-  {
-   "title": "TTWO 2Q27 Earnings Release - Take-Two Interactive Software, Inc.",
+   "title": "TTWO 2Q27 Earnings Release",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPamxrN2w2dWg4RWt5ZnBkN3FZS0FMZXBabGhFWjlrakZ2MjMwVlhQTFlxaW90SXZkbkVyYlEwOUhjRHdwZDZfYmR0R0RtNkw0SzdBU20yYUZCVU5uX1hDV0owZGpFRmh1QVI4NXVaUmVTaS1XbTZ0SXVaM0NRMHZERA?oc=5",
    "domain": "take2games.com",
    "published": "2026-11-09T22:30:25+00:00",
@@ -1025,95 +996,11 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 25,
+   "corroborated_by": 3,
    "sources": [
-    "Benzinga",
-    "Bloomberg",
-    "GamesBeat",
-    "GuruFocus",
-    "Indy100",
-    "Insider Gaming",
-    "Investing.com",
-    "Investing.com Canada",
-    "Investing.com South Africa",
-    "Investor's Business Daily",
-    "KuCoin",
-    "Reuters",
-    "Seeking Alpha",
-    "Shacknews",
-    "Simply Wall St",
-    "Startup Fortune",
-    "StreetInsider",
     "Take-Two IR (ทางการ)",
-    "The Lufkin Daily News",
-    "The Wall Street Journal",
     "TradingView",
-    "TwistedVoxel",
-    "Yahoo Finance",
-    "Yahoo! Finance Canada",
-    "www.marketscreener.com"
-   ],
-   "status": "official"
-  },
-  {
-   "title": "- Take-Two Interactive Software, Inc.",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE55eG5ibldqWHBWRjRYandPVTc1alA5c2s0MkdjNjJvYXBJNWVPRTlsNzVaWGVuVnBhbmRqYTlqR2lFTWFWN3N3?oc=5",
-   "domain": "take2games.com",
-   "published": "2026-11-09T16:18:31+00:00",
-   "source": "Take-Two IR (ทางการ)",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 17,
-   "sources": [
-    "24/7 Wall St.",
-    "AskTraders.com",
-    "Benzinga",
-    "GuruFocus",
-    "Indy100",
-    "Insider Gaming",
-    "Investor's Business Daily",
-    "KuCoin",
-    "Shacknews",
-    "Simply Wall St",
-    "StreetInsider",
-    "Take-Two IR (ทางการ)",
-    "The Wall Street Journal",
-    "TradingView",
-    "Yahoo Finance",
-    "Yahoo! Finance Canada",
-    "www.marketscreener.com"
-   ],
-   "status": "official"
-  },
-  {
-   "title": "(NASDAQ: TTWO) - Take-Two Interactive Software, Inc.",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWXpxOWhSVXhjNV9vNUlqRWExZklsWTk0QnJwVWZOYWQxTVFSS0Z1cFFrY0pIWnBQaEF5UHpaT2VxSzk5eWJTdXZaMDIzZDFfbEJNN21tMWtSc0lOaHZ4bjNkM0Y0WWVQVmFBSUdoSERLdFRucUV6ZHNsdzJhUF9NXw?oc=5",
-   "domain": "take2games.com",
-   "published": "2026-11-09T22:30:25+00:00",
-   "source": "Take-Two IR (ทางการ)",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 15,
-   "sources": [
-    "AskTraders.com",
-    "Benzinga",
-    "GuruFocus",
-    "Indy100",
-    "Investor's Business Daily",
-    "KuCoin",
-    "Seeking Alpha",
-    "Shacknews",
-    "Simply Wall St",
-    "StreetInsider",
-    "Take-Two IR (ทางการ)",
-    "The Wall Street Journal",
-    "Yahoo Finance",
-    "Yahoo! Finance Canada",
-    "www.marketscreener.com"
+    "Yahoo Finance"
    ],
    "status": "official"
   },
@@ -1127,7 +1014,7 @@
    "sentiment": -1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 39,
+   "corroborated_by": 42,
    "sources": [
     "24/7 Wall St.",
     "Barron's",
@@ -1147,6 +1034,7 @@
     "Inven Global",
     "Investing.com",
     "Investing.com Canada",
+    "Investing.com India",
     "Kotaku",
     "KuCoin",
     "MLQ.ai",
@@ -1167,7 +1055,9 @@
     "TwistedVoxel",
     "Yahoo Finance",
     "Yahoo Finance UK",
-    "finehomesandliving.com"
+    "Yahoo! Finance Canada",
+    "finehomesandliving.com",
+    "富途牛牛"
    ],
    "status": "verified"
   },
@@ -1181,7 +1071,7 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 11,
+   "corroborated_by": 12,
    "sources": [
     "Associated Press",
     "Benzinga",
@@ -1193,9 +1083,35 @@
     "The Verge",
     "TradingView",
     "TweakTown",
-    "Yahoo Finance"
+    "Yahoo Finance",
+    "富途牛牛"
    ],
    "status": "verified"
+  },
+  {
+   "title": "Take-Two Holds Outlook, Shares Rise",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aYVVGc3BjdGwyU3J3YzU0a3hnS1llSjdHQTUyTjNRZmxvNWRxX3RsZFJ1dENhYnRHN1Y3YTJ6N3h4Si1WaGJEQ1Y5VElqSmpqTmJRUW50WUplekdRTzJVcmZ0SmZ1Uk1LcGRRVVlMSjJmSHRGbTYwS1RBQQ?oc=5",
+   "domain": "asktraders.com",
+   "published": "2026-11-09T21:37:06+00:00",
+   "source": "AskTraders.com",
+   "tier": 3,
+   "sentiment": 1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 10,
+   "sources": [
+    "24/7 Wall St.",
+    "AskTraders.com",
+    "Benzinga",
+    "Insider Gaming",
+    "Investing.com",
+    "Investor's Business Daily",
+    "MLQ.ai",
+    "TradingView",
+    "Yahoo Finance",
+    "Yahoo! Finance Canada"
+   ],
+   "status": "single"
   },
   {
    "title": "'It's Not Going to Be Delayed Again' — Strauss Zelnick on GTA 6 Expectations, GTA Online, and the Next 10 Years",
