@@ -1,6 +1,6 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-11T01:28:22.989435+00:00",
+ "generated_at": "2026-11-11T04:10:43.601621+00:00",
  "sample": false,
  "intraday": {
   "price": 224.64,
@@ -754,33 +754,33 @@
   }
  },
  "tech": {
-  "close": 207.4,
-  "prev_close": 214.87,
-  "chg_pct": -3.4765,
-  "sma20": 203.0295,
-  "sma50": 206.9658,
-  "sma200": 218.7335,
-  "rsi": 52.321,
-  "macd_hist": 1.8406,
-  "vol20_ann": 0.3966,
+  "close": 224.64,
+  "prev_close": 207.4,
+  "chg_pct": 8.3124,
+  "sma20": 204.2455,
+  "sma50": 207.0646,
+  "sma200": 218.6286,
+  "rsi": 64.4865,
+  "macd_hist": 2.7872,
+  "vol20_ann": 0.4556,
   "vol_median_1y": 0.3216,
-  "boll_up": 216.5353,
-  "boll_dn": 189.5237,
+  "boll_up": 220.6292,
+  "boll_dn": 187.8618,
   "hi52": 265.94,
-  "drawdown_pct": -22.0125,
-  "avg_vol20": 2745100.0,
-  "volume": 6053500
+  "drawdown_pct": -15.5298,
+  "avg_vol20": 2953220.0,
+  "volume": 8433800
  },
  "verdict": {
-  "score": -2.29,
+  "score": -0.82,
   "level": "เสี่ยง",
   "lean": "ระวัง / พิจารณาขายบางส่วน",
   "key": "bad",
   "parts": [
    {
     "name": "แนวโน้มระยะยาว",
-    "value": -1,
-    "why": "ราคาอยู่ใต้ SMA200"
+    "value": 1,
+    "why": "ราคาอยู่เหนือ SMA200"
    },
    {
     "name": "แนวโน้มระยะกลาง",
@@ -795,35 +795,45 @@
    {
     "name": "RSI",
     "value": 0,
-    "why": "RSI 52 อยู่ในช่วงปกติ"
+    "why": "RSI 64 อยู่ในช่วงปกติ"
    },
    {
     "name": "ความผันผวน",
-    "value": 0.25,
-    "why": "ผันผวนในระดับปกติ"
+    "value": -0.75,
+    "why": "ผันผวนสูงกว่าปกติ"
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": -0.04,
-    "why": "ค่าเฉลี่ยโทนข่าว -0.02 จาก 11 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.43,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.21 จาก 16 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
     "value": -1.5,
-    "why": "พบ 3 สัญญาณผิดปกติ"
+    "why": "พบ 5 สัญญาณผิดปกติ"
    }
   ]
  },
  "anomalies": [
   {
-   "key": "vol-2026-11-09",
-   "sev": 2,
-   "text": "ปริมาณซื้อขายพุ่ง 2.2 เท่าของค่าเฉลี่ย 20 วัน"
+   "key": "z-2026-11-10",
+   "sev": 3,
+   "text": "ราคาเคลื่อนไหวผิดปกติ +8.31% (z-score +3.8 เทียบ 60 วัน)"
   },
   {
-   "key": "dd-2026-11-09",
+   "key": "vol-2026-11-10",
    "sev": 2,
-   "text": "ราคาต่ำกว่าจุดสูงสุด 52 สัปดาห์ -22.0% (เข้าเขต bear market)"
+   "text": "ปริมาณซื้อขายพุ่ง 2.9 เท่าของค่าเฉลี่ย 20 วัน"
+  },
+  {
+   "key": "gap-2026-11-10",
+   "sev": 2,
+   "text": "ราคาเปิดกระโดด (gap) +5.23% จากราคาปิดวันก่อน"
+  },
+  {
+   "key": "bbu-2026-11-10",
+   "sev": 1,
+   "text": "ราคาปิดทะลุกรอบบน Bollinger Band (20,2) อาจร้อนแรงเกินไป"
   },
   {
    "key": "intra-2026-11-10-4",
@@ -834,46 +844,46 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 15,
-   "bear": 1,
-   "bull_pct": 93.8,
-   "watchers": 25142,
+   "bull": 10,
+   "bear": 0,
+   "bull_pct": 100.0,
+   "watchers": 25167,
    "sample": [
     {
      "tag": "Bullish",
-     "body": "$TTWO They are really smart with the intervals. If you released it too fast like IV, V, VI people would get tired of it!",
-     "user": "Annie_Preferred",
-     "at": "2026-11-11T01:10:20Z"
+     "body": "$TTWO :^) feels good to have bought in the high 180&#39;s",
+     "user": "ValueFinderTrader",
+     "at": "2026-11-11T04:06:53Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO Here’s a thing, maybe you should think twice before you short. You had megawhales beating down the stock accumulating in the past 2 months, pumping it back up pre-launch, and then you short it? I guess whales colle",
-     "user": "dothlmate",
-     "at": "2026-11-11T01:03:20Z"
+     "body": "$TTWO green before GTA VI",
+     "user": "Gb1122",
+     "at": "2026-11-11T04:04:15Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO Downloading now. The home screen music is so nice. Pretty much 8 days and a few hours remaining.",
+     "body": "$TTWO is the game bigger than the blueray capacity, i mean red dead2 had 2 discs...aint no way they shipping 8 discs🤣😩...gimme the DL...cuz aint now way im waiting around to insert each one🤣🫠⚰️...im gonna add a few more ",
+     "user": "CaymanStyleBeef",
+     "at": "2026-11-11T03:39:36Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO Looks like release is at 9pm November 18th for the west coast homies. Clear your calendars, the whole world is stopping for an entire week when this launches.",
      "user": "Marsh_",
-     "at": "2026-11-10T22:57:19Z"
+     "at": "2026-11-11T03:25:55Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO Skip a new PS5 and buy 3 shares of stock. Pretty soon it will be buying one share!",
+     "body": "$TTWO Stocks are going to fluctuate. Like my bf said, you have to know when to hold and to fold!",
      "user": "Annie_Preferred",
-     "at": "2026-11-10T22:40:42Z"
+     "at": "2026-11-11T02:46:43Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO GTA VI downloaded to my PS5 today. 30FPS is a bummer. Hope the PC release is out soon. PS5 is outdated now.",
-     "user": "August_West",
-     "at": "2026-11-10T22:24:52Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO Strauss wanted to underplay it and then build momentum. Sort of like real estate agents underprice houses and try to start an auction!",
-     "user": "Annie_Preferred",
-     "at": "2026-11-10T22:07:50Z"
+     "body": "$TTWO The only game where half the working population is calling in sick so they can stay home to play it.",
+     "user": "PotionX1900",
+     "at": "2026-11-11T02:39:37Z"
     }
    ]
   },
@@ -913,6 +923,10 @@
    {
     "t": "2026-11-11T01:28+00:00",
     "bull_pct": 93.8
+   },
+   {
+    "t": "2026-11-11T04:10+00:00",
+    "bull_pct": 100.0
    }
   ]
  },
@@ -922,42 +936,63 @@
     "key": "earnings",
     "label": "งบการเงิน / คาดการณ์รายได้",
     "count": 1,
-    "tone": -0.33,
-    "example": "Take-Two Q2 Earnings Beat on Lower Costs Despite Bookings Miss",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWlBpSGtCVnNhQjJja0taZ0Y1TGFuNEhUNFV4LTRSLXpLMG41Mk95UFQxOURyMnhqemdUMWJycWJEN2NQcEY5LWpzT0JEV3dUX2w3Z3djZl9QcXplRjk2QzhrdFRsLVE2Z0ZiM29ma2hmVDI5alMwQkc0WkhnOGd6UGk3a3NzNzBfZ1dqQmhHanNUU1g3YlY1NUNDY184SzFOdU1EZVFR?oc=5"
-   },
-   {
-    "key": "cost",
-    "label": "ปลดพนักงาน / ต้นทุน / AI",
-    "count": 1,
-    "tone": -0.33,
-    "example": "Take-Two Q2 Earnings Beat on Lower Costs Despite Bookings Miss",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWlBpSGtCVnNhQjJja0taZ0Y1TGFuNEhUNFV4LTRSLXpLMG41Mk95UFQxOURyMnhqemdUMWJycWJEN2NQcEY5LWpzT0JEV3dUX2w3Z3djZl9QcXplRjk2QzhrdFRsLVE2Z0ZiM29ma2hmVDI5alMwQkc0WkhnOGd6UGk3a3NzNzBfZ1dqQmhHanNUU1g3YlY1NUNDY184SzFOdU1EZVFR?oc=5"
+    "tone": 0.0,
+    "example": "TD Cowen reiterates Buy on Take-Two stock, keeps $284 target",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNd1RvOFAtVERPVUhxR2l1MTF2VjM2b0RUUHA5b2RmVVAwY1JuZlhzbWtQZUlPUk1WWWtXUVBwdEE4SWpnemxYQnN5NGNZdExVeVZFcVIxdzZSUXNGN2JZdG9Yemx4ekJwc3p4S0pubDdEb2YyTExra0IyTEU4Z082eW5vVWg2cUhQTlpJRXRDOFlBeG9UNnE3cEdZWDNSRDNxVmdoS0o4YVFhY18zM2Jsc2xTTnpRSGJf?oc=5"
    },
    {
     "key": "gta",
     "label": "GTA 6 / วันวางขาย",
-    "count": 3,
-    "tone": 0.0,
-    "example": "Grand Theft Auto VI - Pre-Load Now",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wQkdMR0dtTWFydzdQZkl0ZUdDbm5kWGlMS2xrQTdaRDdZbko3NWFWeGNtaExDUDlBQnBCb2tQS3Z5ZElGWVRZa2lmWENaVzhfVG11RlV0TVg?oc=5"
+    "count": 4,
+    "tone": 0.08,
+    "example": "Grand Theft Auto Online - Wavves",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdGw1ODNKLUtEQWJPOTJhbnpkN2o0TkRFLVE4cDRmRFRNS0FpSHVicGxrRTVIUG4tZFJ5MTFPb1lNOWxyQVNkVEU5OFZ1VmZFTzNrYnRUT3NKSmNKZmp4SThZZVZEckFmLU9GSVlfeHpGd1JmUk9IWndfcW5MOURRUEwyWDJRcGVRUHBKVlR3OFVOWU41dE5iT28xcTRPbzZhUm1KN2NDNThaMUlXM3l4WjZYRjQ1UQ?oc=5"
+   },
+   {
+    "key": "platform",
+    "label": "ราคาเกม / Console / ค่าธรรมเนียม",
+    "count": 1,
+    "tone": 1.0,
+    "example": "XBOX CEO Reveals 'New 10-Year Strategic Partnership' with Take-Two",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTU9qR3JDWFpXRGVBZ3lxcnFYUkRaLTFja2lFQjl4RkdUTFNfUmsyc3JEQVZBRU1SZHdsNktfUXVwb2lKenVZQ1kwWHlFV20xck9iZzJLSVlJUjhNTmVGYUowVHZKWlZLMUFWRThWM2hMZU5veDRwNmdTNTRRQTl6Xw?oc=5"
    }
   ],
   "range": {
    "1w": {
-    "pct": 5.6,
-    "lo": 196.13,
-    "hi": 219.31
+    "pct": 6.4,
+    "lo": 210.68,
+    "hi": 239.53
    },
    "1m": {
-    "pct": 11.4,
-    "lo": 184.97,
-    "hi": 232.55
+    "pct": 13.2,
+    "lo": 196.95,
+    "hi": 256.22
    }
   },
   "ai": null
  },
  "news": [
+  {
+   "title": "Grand Theft Auto Online - Wavves",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdGw1ODNKLUtEQWJPOTJhbnpkN2o0TkRFLVE4cDRmRFRNS0FpSHVicGxrRTVIUG4tZFJ5MTFPb1lNOWxyQVNkVEU5OFZ1VmZFTzNrYnRUT3NKSmNKZmp4SThZZVZEckFmLU9GSVlfeHpGd1JmUk9IWndfcW5MOURRUEwyWDJRcGVRUHBKVlR3OFVOWU41dE5iT28xcTRPbzZhUm1KN2NDNThaMUlXM3l4WjZYRjQ1UQ?oc=5",
+   "domain": "rockstargames.com",
+   "published": "2026-11-10T22:17:40+00:00",
+   "source": "Rockstar Games (ทางการ)",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 6,
+   "sources": [
+    "Associated Press",
+    "Game Developer",
+    "Nintendo Wire",
+    "Proactive financial news",
+    "Rockstar Games (ทางการ)",
+    "Yahoo Finance"
+   ],
+   "status": "official"
+  },
   {
    "title": "Grand Theft Auto VI - Pre-Load Now",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wQkdMR0dtTWFydzdQZkl0ZUdDbm5kWGlMS2xrQTdaRDdZbko3NWFWeGNtaExDUDlBQnBCb2tQS3Z5ZElGWVRZa2lmWENaVzhfVG11RlV0TVg?oc=5",
@@ -981,9 +1016,9 @@
   },
   {
    "title": "Pre-Load Grand Theft Auto VI Now",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRUIwSHA3cDJtSVNNcGhQTkNMMDFaOXR6MF9Xc0lSZ3hxRVRWS0NOVTdNbGNMWFJYb001cWVQUDFINmhhTzBrbERTeEpSZ0xET251U3BzUkxTSnNXblNZYmM1TUZUSHVPazJ2ZUNtRzdUeE83a2Fuc3BmNG4zMkZaTHNLeTd3a2xyMi12NmphdC1aWHNPUlBxUV90MlFjQQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUDVjbDJNdEJUc3FSZHFQcTNfT3NTa0RkcWJad1ZFX0NJYW5Oa0RmR3pjQ3Noa2lBemlLS0tvZG0xWGFmLUhuV0VXMzVFaDBNaGZZdkd6QVpwaUQtQklPX05tT0tiRC1JVEhPcnRGNlN5VUZDMDk0dTg0RFZuczcwMUNYdXJYWHhDTXhCLWFzRk45OUtrblBybzd2STVzZw?oc=5",
    "domain": "rockstargames.com",
-   "published": "2026-11-10T17:20:58+00:00",
+   "published": "2026-11-10T14:19:37+00:00",
    "source": "Rockstar Games (ทางการ)",
    "tier": 1,
    "sentiment": 0.0,
@@ -1001,93 +1036,192 @@
    "status": "official"
   },
   {
-   "title": "GTA 6 presales are 'running far in excess of our expectations,' Take-Two Interactive CEO says",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE95Z094d3ZjQmdVdS0tNXVSaS02cFI2aDh0UE1PcTJCUVMtOUNCZWtYYjhacGd6dGhfQk9BcF8teHlweG1GbDhhZTVRbU1xOTJkczlnclFtazlQLV9FVVRJdW5WdzQ0cWlFNVFVWi1pX3VzNjdH?oc=5",
-   "domain": "polygon.com",
-   "published": "2026-11-10T12:24:51+00:00",
-   "source": "Polygon.com",
+   "title": "Today's Top Movers : Take-Two Stock Surges Ahead of GTA VI Launch, Nvidia Plunges Further Amid Spy Scandal",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQaVV4dUN1TDhJNlljeUNleHJlQ0piTkFObzNjQWI2SjVINHcyZkh2d1lVbkZUdDJkRGVXR1N1TV9ocHl0ZU1sQ3JjdmRoXzhZZGZoNEVQQmVYcDFtT0YzSEJ0X2lSNkw0T09KZkF6RG56X3pKNEU5S2NFM2VuUm4tc2dFTWZmMzQ1eGpzRXdla0lWcDhTLTJmWlgtUEJycGxyQmRfNHMzbmlYc1l0QkdoZWtKbnF1NmhVT2Jxd1l1a0tqX0w4QlNYVWZVUTEtM2FZdjdyejhxQThoRVljWUlSd2hOUF8?oc=5",
+   "domain": "marketscreener.com",
+   "published": "2026-11-10T16:47:13+00:00",
+   "source": "marketscreener.com",
    "tier": 3,
-   "sentiment": 0.0,
+   "sentiment": 0.3333333333333333,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 46,
+   "corroborated_by": 42,
    "sources": [
     "24/7 Wall St.",
     "Barchart.com",
     "Barron's",
+    "BeInCrypto",
     "Benzinga",
+    "Bloomberg",
     "CNBC",
     "DualShockers",
-    "Gagadget.com",
-    "Game Developer",
     "GameSpot",
     "Gamereactor UK",
     "GamesHub",
     "GamesRadar+",
     "GamingBolt",
-    "GoNintendo",
     "GuruFocus",
     "IGN",
-    "Insider Gaming",
     "Inven Global",
     "Investing.com",
+    "Investing.com India",
+    "Moomoo",
     "Nintendo Everything",
-    "Nintendo Wire",
     "Pluang",
     "Polygon.com",
     "Proactive financial news",
     "Quantisnow",
-    "Reuters",
     "Rock Paper Shotgun",
     "RockstarINTEL",
     "Seeking Alpha",
     "Simply Wall St",
     "Stocks Down Under",
-    "Stocktwits",
     "The Cryptonomist",
+    "The Globe and Mail",
     "The Next Web",
     "The Tech Buzz",
-    "TheStreet",
-    "TradingKey",
     "TradingView",
     "TweakTown",
-    "VGChartz",
     "Video Games Chronicle",
     "Wccftech",
     "XTB.com",
     "Yahoo Finance",
+    "Yahoo Finance Australia",
     "marketscreener.com",
     "shattered.io"
    ],
    "status": "verified"
   },
   {
-   "title": "Stock Movers: Take-Two, Nvidia, CoreWeave",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOU1mTkszSmhnOExLNk5rY2xfZFBUSFJma2tRNFZRVTh4Zm1wSF91NnU4MWFwNUNWM1Q4THY1YzhfMWt3X1F5TTJtdzRYc1BObjY2dUVvQ1JpdjJ2WWdHSWpSTl8xZ002dGV5Y1R1eGhRcW9ZT0xYLURCd0ZvNkFSQkNKNHFOWGJnV0s3Q3F3RGdvRml5SXY2N1lB?oc=5",
-   "domain": "bloomberg.com",
-   "published": "2026-11-10T21:18:16+00:00",
-   "source": "Bloomberg",
-   "tier": 1,
-   "sentiment": 0.0,
+   "title": "XBOX CEO Reveals 'New 10-Year Strategic Partnership' with Take-Two",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTU9qR3JDWFpXRGVBZ3lxcnFYUkRaLTFja2lFQjl4RkdUTFNfUmsyc3JEQVZBRU1SZHdsNktfUXVwb2lKenVZQ1kwWHlFV20xck9iZzJLSVlJUjhNTmVGYUowVHZKWlZLMUFWRThWM2hMZU5veDRwNmdTNTRRQTl6Xw?oc=5",
+   "domain": "insider-gaming.com",
+   "published": "2026-11-10T16:22:31+00:00",
+   "source": "Insider Gaming",
+   "tier": 3,
+   "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 13,
+   "corroborated_by": 20,
    "sources": [
     "Barron's",
     "Bloomberg",
-    "DualShockers",
+    "CNBC",
+    "Game Developer",
     "GameSpot",
-    "GuruFocus",
+    "Gamereactor UK",
+    "GamesRadar+",
+    "GamingBolt",
+    "GoNintendo",
     "Insider Gaming",
-    "Investing.com",
-    "Seeking Alpha",
-    "The Globe and Mail",
+    "Inven Global",
+    "Nintendo Wire",
+    "Polygon.com",
+    "Rock Paper Shotgun",
+    "RockstarINTEL",
     "The Next Web",
-    "The Tech Buzz",
-    "Yahoo Finance",
-    "marketscreener.com"
+    "TradingView",
+    "TweakTown",
+    "VGChartz",
+    "Wccftech"
    ],
    "status": "verified"
+  },
+  {
+   "title": "Take-Two Interactive Software Q3: The Game Is Just The Beginning",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObWVqZFlOMWVOck9UdVJwdFhNQlJjbFdLQVhVNXBZZEdNWlpmY1F0VWlCSTZ4SExNcVpCeHdBM2ZLbVNvUm5mWkJnakhTVktzV1FnRTFVLUdLQXV1RW8yVU5XZXRCcEMxeVhPMUdRSVBRRDdMWGd1c1FEMUpqMkN3Rjg5c1hRREMxLUdqYlI0WG5fUmdMcXBIekJsZm9idWVlMUtaNk8xaw?oc=5",
+   "domain": "seekingalpha.com",
+   "published": "2026-11-10T13:00:00+00:00",
+   "source": "Seeking Alpha",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 15,
+   "sources": [
+    "Barchart.com",
+    "Benzinga",
+    "Bloomberg",
+    "CNBC",
+    "GuruFocus",
+    "Investing.com",
+    "Polygon.com",
+    "Proactive financial news",
+    "Seeking Alpha",
+    "Simply Wall St",
+    "The Cryptonomist",
+    "The Globe and Mail",
+    "TradingKey",
+    "XTB.com",
+    "Yahoo Finance"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "TD Cowen reiterates Buy on Take-Two stock, keeps $284 target",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNd1RvOFAtVERPVUhxR2l1MTF2VjM2b0RUUHA5b2RmVVAwY1JuZlhzbWtQZUlPUk1WWWtXUVBwdEE4SWpnemxYQnN5NGNZdExVeVZFcVIxdzZSUXNGN2JZdG9Yemx4ekJwc3p4S0pubDdEb2YyTExra0IyTEU4Z082eW5vVWg2cUhQTlpJRXRDOFlBeG9UNnE3cEdZWDNSRDNxVmdoS0o4YVFhY18zM2Jsc2xTTnpRSGJf?oc=5",
+   "domain": "investing.com",
+   "published": "2026-11-10T14:05:35+00:00",
+   "source": "Investing.com",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 7,
+   "sources": [
+    "Bloomberg",
+    "Investing.com",
+    "Investing.com India",
+    "Pluang",
+    "Simply Wall St",
+    "The Tech Buzz",
+    "Yahoo Finance"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "Take-Two: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMTVZQ01Gd2EtM3A2NUpvd3dpVFlKbU9vQ1lxVmMwQndtM3BrUzFNeWNKUEgwRWJmNDFVNk9JSjRBSWJIRFhLLVk0NENpekV2UWtGVjJvNVVGeGtXR0N3QTB6ZkdteDZnX3VRbG1uUm92TE5TS1psY0o0c3NDSGpNYkNGVGIwZ3VTNy0xYnJfRlVwLWs?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-10T12:01:08+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "Bloomberg",
+    "Yahoo Finance"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "TTWO Stock In Focus As GTA VI Preorders Run ‘Far In Excess’ Of Expectations — UBS Trims Target",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRUMtMmxXd2FVYlJfc1l3UklsR1RVV25JcjZWblZLUlhqNWhtWmlsWDdoWXhrdWE4UGJ5amEtaENXQzN2M0xOeUJFRnllSVI2cHllellqelQzeXNjMnFSV2tnWjcxX3F5WEI0REhqSzJzODA3ZldzcDg3NzRuZTZma3JLdWVHVE9Hb2pzMk1SV014Zw?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-10T14:15:20+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 12,
+   "sources": [
+    "24/7 Wall St.",
+    "CNBC",
+    "GamesHub",
+    "Polygon.com",
+    "Quantisnow",
+    "Seeking Alpha",
+    "Simply Wall St",
+    "Stocks Down Under",
+    "The Next Web",
+    "TweakTown",
+    "Video Games Chronicle",
+    "Yahoo Finance"
+   ],
+   "status": "single"
   },
   {
    "title": "Take-Two Q2 Earnings Beat on Lower Costs Despite Bookings Miss",
@@ -1099,46 +1233,40 @@
    "sentiment": -0.3333333333333333,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 12,
+   "corroborated_by": 10,
    "sources": [
     "Finimize",
-    "Gagadget.com",
     "GamingBolt",
     "Investing.com",
     "Proactive financial news",
     "Quantisnow",
-    "Reuters",
     "Simply Wall St",
     "Stocks Down Under",
     "XTB.com",
     "Yahoo Finance",
     "Zacks Investment Research"
    ],
-   "status": "verified"
+   "status": "single"
   },
   {
-   "title": "Nvidia, Hims & Hers, JBS, Take-Two, and More Stocks That Explain Today’s Market",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdndnanVlN3UxOHM4aWlNRkR2cEQxUDlqYXpYUHFFdmV0ZlNSQ2txakh3Xy11dE16RXJncXh2RUNRY3FwZVBuam1qeE1wZk5Wai1RcDVHdWRNdXNoZlRrWWZUX01SanpwdUNmeDAtbm9tNUl2LWRWNXU0MGZaREdiam93?oc=5",
-   "domain": "barrons.com",
-   "published": "2026-11-10T11:24:00+00:00",
-   "source": "Barron's",
-   "tier": 2,
-   "sentiment": 0.0,
+   "title": "TTWO Stock Rises Premarket: GTA 6 Boss Explains Why Keeping Its Satire Relevant Is Harder Than Ever",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcGxPNjNQazZ3NkNvNFZ5Qkp6M21Yb3V0aVdYa0Z4NGZpNGtuZkMtUVVWaUFmUkZuOTJGNXotZzFFcHhUdXQ3MDlEaFRmMVF1TTNRTVdaVUpoTDd6QnppNUFQMEhRUDJfcjlpQ3RuM0kyOUc0cjJFcFplalMwNVBwQXdNeUw0NXpRUEN3MjhFSjFZYm9QMHRWYTg5cVYyd1JyMmJrVUVFZVgyZkkwYnBacEpyazk1NmNVbTFJbWlOMERLR0hqekpzX0t0Q1NkdDkxZlRLYVBOcHk5WVMyRk9LaWM4SnRWYXkyaDBkRnA5OWtNWVVs?oc=5",
+   "domain": "stocktwits.com",
+   "published": "2026-11-11T01:01:38+00:00",
+   "source": "Stocktwits",
+   "tier": 3,
+   "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 9,
+   "corroborated_by": 5,
    "sources": [
-    "Barron's",
-    "Benzinga",
-    "Bloomberg",
-    "Investing.com",
-    "Moomoo",
-    "The Globe and Mail",
-    "TradingView",
-    "TweakTown",
-    "marketscreener.com"
+    "Seeking Alpha",
+    "Simply Wall St",
+    "Stocks Down Under",
+    "Stocktwits",
+    "Yahoo Finance"
    ],
-   "status": "verified"
+   "status": "single"
   },
   {
    "title": "TTWO Q2 Earnings Call Highlights GTA VI Outlook and Booking Trends",
@@ -1159,19 +1287,18 @@
    "status": "single"
   },
   {
-   "title": "GTA 6 Prepares for Star-Studded Miami Launch as Wall Street Eyes 37% Stock Rally",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5pRUxyWW56WWZoMWIzMDVxZEdBRklnU2k1WEtzaWZ0cFU3ai1LNGxTeVFSNEp2VFJBbzZEMFdkMmE1ZzlCcllTYU5WeGtPMEhqVWxUbHBTaURkQWsyczFWdWxoZG5JRk5RYWlST0RYMUhzVV9hTTlZ?oc=5",
-   "domain": "beincrypto.com",
-   "published": "2026-11-10T18:19:32+00:00",
-   "source": "BeInCrypto",
+   "title": "Dow, S&P 500, Nasdaq Futures Edge Higher After Red-Hot Inflation Data And Nvidia Losses: CRWV, TTWO, NLST, NBIS In Focus",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNVVE3TDlhR0k4OWdFd3BEWGZLVXBqRmp6dHFRVnFnTzl6Vnh0V0NCbGUwTkp3M3g3Wk5Ta3FYeUJ0VHZLZnpFajRva3ZWYUpVYjdfeHRDSFdpcDM4WjhpTk1iZ2dhZnhBVWg3amZfNWJ2QmhGcG9mQVlpSjdLMktZMzlUSzh4ZlRTYmZaREV2dlJOdU41c3NzQ2lueGxKNVN6OXQtUUZTMlZ0Q0RoTGdaZ2I5bEZ1QlhWcVhmMV9SNUM0WGhUbW9UVFpXaU0zWnVVd2JZT0MtclFBQ3VybnlRaHVKb05EUWRra250dTdnQ0ZoNUtaSTlLeVFRb1JnbVcySm9NTTNB?oc=5",
+   "domain": "tradingview.com",
+   "published": "2026-11-11T03:51:00+00:00",
+   "source": "TradingView",
    "tier": 3,
-   "sentiment": 1.0,
+   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 2,
+   "corroborated_by": 1,
    "sources": [
-    "BeInCrypto",
-    "marketscreener.com"
+    "TradingView"
    ],
    "status": "single"
   },
@@ -1208,18 +1335,18 @@
    "status": "single"
   },
   {
-   "title": "S&P 500 Movers | Winners: COHR, MPWR, AMD | Losers: FSLR, NVDA, TTWO",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaTRQTExYenhPYkdkUGRNTHVkdk9TQWZDMkU1bVZkVzRKMU41cm1uVHhnTFlLcWxPSnBpc0Z3TFVnbENrbzlSbTJjbmVHbkJROTl0YVFma3ZseHQ0QU1ISzdEMmdXd1ZtYU56UkF0SE13Nk9jUldJMFpwN1pDWkZNaUc3NVBUVzBRMmxad3RUUkRSNGpvVDRNWm1oTXpZaEtFT3k3RHlyb3hzRFJXbUdIV1ppWU54SXhj?oc=5",
-   "domain": "trefis.com",
-   "published": "2026-11-10T06:20:51+00:00",
-   "source": "Trefis",
+   "title": "Wall Street Breakfast Podcast: Preorder It Like You Stole It (undefined:TTWO)",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUTdoekpLLTdZNllMWTkydE5RTjBKY296Q0YzNTFWSzQzckhUWm1iQy1fTXZPZW9LeHkzcWQ0NXA4cWxiU2RPWHJKdDNJcDRkTWJ1T2Mtblk3MnpnWFczMVQzc3VBZnc1dDRPQTN0VFBReHdxX3RnYkZSN3p5QWVEZkZsV3VyQ2xadlJOdVVtbUlneU5iMldPZmZvaWV0dmZWamc?oc=5",
+   "domain": "seekingalpha.com",
+   "published": "2026-11-10T11:27:00+00:00",
+   "source": "Seeking Alpha",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "Trefis"
+    "Seeking Alpha"
    ],
    "status": "single"
   }
@@ -1228,19 +1355,6 @@
   "SEC EDGAR: HTTP Error 403: Forbidden"
  ],
  "candles": [
-  {
-   "t": "2025-10-28",
-   "o": 254.64,
-   "h": 256.2,
-   "l": 251.41,
-   "c": 251.57,
-   "v": 1455600,
-   "sma20": 257.217,
-   "sma50": 248.548,
-   "sma200": 225.73,
-   "rsi": 45.405,
-   "macd_hist": -1.406
-  },
   {
    "t": "2025-10-29",
    "o": 250.12,
@@ -4607,6 +4721,19 @@
    "sma200": 218.734,
    "rsi": 52.321,
    "macd_hist": 1.841
+  },
+  {
+   "t": "2026-11-10",
+   "o": 218.25,
+   "h": 229.46,
+   "l": 214.29,
+   "c": 224.64,
+   "v": 8433800,
+   "sma20": 204.245,
+   "sma50": 207.065,
+   "sma200": 218.629,
+   "rsi": 64.486,
+   "macd_hist": 2.787
   }
  ]
 }
