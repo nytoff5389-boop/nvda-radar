@@ -1,11 +1,11 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-11T19:48:52.962163+00:00",
+ "generated_at": "2026-11-11T22:17:58.964107+00:00",
  "sample": false,
  "intraday": {
-  "price": 230.74,
+  "price": 231.31,
   "prev_close": 224.64,
-  "time": 1794426509,
+  "time": 1794430800,
   "points": [
    {
     "t": 1794396600,
@@ -469,13 +469,133 @@
    },
    {
     "t": 1794426300,
-    "c": 230.9,
+    "c": 231.0,
     "s": "reg"
    },
    {
-    "t": 1794426509,
-    "c": 230.74,
+    "t": 1794426600,
+    "c": 231.44,
     "s": "reg"
+   },
+   {
+    "t": 1794426900,
+    "c": 231.46,
+    "s": "reg"
+   },
+   {
+    "t": 1794427200,
+    "c": 231.01,
+    "s": "reg"
+   },
+   {
+    "t": 1794427500,
+    "c": 230.99,
+    "s": "reg"
+   },
+   {
+    "t": 1794427800,
+    "c": 231.1,
+    "s": "reg"
+   },
+   {
+    "t": 1794428100,
+    "c": 231.7,
+    "s": "reg"
+   },
+   {
+    "t": 1794428400,
+    "c": 231.92,
+    "s": "reg"
+   },
+   {
+    "t": 1794428700,
+    "c": 231.93,
+    "s": "reg"
+   },
+   {
+    "t": 1794429000,
+    "c": 231.79,
+    "s": "reg"
+   },
+   {
+    "t": 1794429300,
+    "c": 231.98,
+    "s": "reg"
+   },
+   {
+    "t": 1794429600,
+    "c": 231.86,
+    "s": "reg"
+   },
+   {
+    "t": 1794429900,
+    "c": 232.1,
+    "s": "reg"
+   },
+   {
+    "t": 1794430200,
+    "c": 231.93,
+    "s": "reg"
+   },
+   {
+    "t": 1794430500,
+    "c": 230.98,
+    "s": "reg"
+   },
+   {
+    "t": 1794430800,
+    "c": 231.31,
+    "s": "post"
+   },
+   {
+    "t": 1794431100,
+    "c": 231.31,
+    "s": "post"
+   },
+   {
+    "t": 1794432300,
+    "c": 231.31,
+    "s": "post"
+   },
+   {
+    "t": 1794432900,
+    "c": 232.1,
+    "s": "post"
+   },
+   {
+    "t": 1794433200,
+    "c": 231.31,
+    "s": "post"
+   },
+   {
+    "t": 1794433800,
+    "c": 231.55,
+    "s": "post"
+   },
+   {
+    "t": 1794434100,
+    "c": 231.31,
+    "s": "post"
+   },
+   {
+    "t": 1794434400,
+    "c": 232.24,
+    "s": "post"
+   },
+   {
+    "t": 1794434700,
+    "c": 231.98,
+    "s": "post"
+   },
+   {
+    "t": 1794435000,
+    "c": 231.8,
+    "s": "post"
+   },
+   {
+    "t": 1794435255,
+    "c": 232.15,
+    "s": "post"
    }
   ],
   "pre": {
@@ -483,7 +603,11 @@
    "c": 228.47,
    "s": "pre"
   },
-  "post": null,
+  "post": {
+   "t": 1794435255,
+   "c": 232.15,
+   "s": "post"
+  },
   "periods": {
    "pre": {
     "start": 1794387600,
@@ -500,22 +624,22 @@
   }
  },
  "tech": {
-  "close": 230.74,
+  "close": 231.31,
   "prev_close": 224.64,
-  "chg_pct": 2.7155,
-  "sma20": 205.721,
-  "sma50": 207.3458,
-  "sma200": 218.5547,
-  "rsi": 67.6333,
-  "macd_hist": 3.6383,
-  "vol20_ann": 0.4614,
+  "chg_pct": 2.9692,
+  "sma20": 205.7495,
+  "sma50": 207.3572,
+  "sma200": 218.5575,
+  "rsi": 67.8991,
+  "macd_hist": 3.6747,
+  "vol20_ann": 0.4628,
   "vol_median_1y": 0.3219,
-  "boll_up": 225.6782,
-  "boll_dn": 185.7638,
+  "boll_up": 225.8506,
+  "boll_dn": 185.6484,
   "hi52": 265.94,
-  "drawdown_pct": -13.2361,
+  "drawdown_pct": -13.0217,
   "avg_vol20": 3115095.0,
-  "volume": 3788198
+  "volume": 5296323
  },
  "verdict": {
   "score": 0.01,
@@ -570,52 +694,52 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 12,
+   "bull": 10,
    "bear": 7,
-   "bull_pct": 63.2,
-   "watchers": 25224,
+   "bull_pct": 58.8,
+   "watchers": 25234,
    "sample": [
     {
      "tag": "Bearish",
-     "body": "$TTWO $3.80.",
+     "body": "$TTWO",
      "user": "Ryuk",
-     "at": "2026-11-11T19:43:08Z"
+     "at": "2026-11-11T21:28:49Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO Anyone know how long before counting pre orders is stopped and considered regular sales? Is it any order before it’s officially released?",
+     "user": "Jewstock",
+     "at": "2026-11-11T21:18:26Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO This is conspiracy brained...but I believe GTA 6 is being marketed as a single player experience because the online feature will be available through the GTA+ subscription. Its the reason why when you preorder they",
+     "user": "MikeyS2k",
+     "at": "2026-11-11T21:05:21Z"
     },
     {
      "tag": "Bearish",
-     "body": "$TTWO For those saying I&#39;m down…",
+     "body": "$TTWO",
      "user": "Ryuk",
-     "at": "2026-11-11T19:42:20Z"
+     "at": "2026-11-11T21:03:31Z"
     },
     {
      "tag": "Bearish",
-     "body": "$TTWO $3.55.",
+     "body": "$TTWO",
      "user": "Ryuk",
-     "at": "2026-11-11T19:40:35Z"
+     "at": "2026-11-11T20:58:53Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO Buy the dip",
-     "user": "Trapaveli",
-     "at": "2026-11-11T19:26:44Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO Good gaming stock own during holidays!",
-     "user": "WSBet",
-     "at": "2026-11-11T19:25:30Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO we glide back to 233-235 into close :^)",
-     "user": "ValueFinderTrader",
-     "at": "2026-11-11T18:58:43Z"
+     "body": "$TTWO please go back to 233 so that Ryuk STFU, i dont even care to break the 235 resistance level atp, i just want that mf to lose more money",
+     "user": "djembollo",
+     "at": "2026-11-11T20:41:45Z"
     }
    ]
   },
   "fear_greed": null,
   "vix": {
-   "value": 17.54,
+   "value": 17.49,
    "prev_close": 19.46,
    "week_ago": 16.61,
    "month_ago": 15.21
@@ -661,6 +785,10 @@
    {
     "t": "2026-11-11T19:48+00:00",
     "bull_pct": 63.2
+   },
+   {
+    "t": "2026-11-11T22:17+00:00",
+    "bull_pct": 58.8
    }
   ]
  },
@@ -669,7 +797,7 @@
    {
     "key": "gta",
     "label": "GTA 6 / วันวางขาย",
-    "count": 6,
+    "count": 7,
     "tone": 0.0,
     "example": "Grand Theft Auto Online - Wavves",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdGw1ODNKLUtEQWJPOTJhbnpkN2o0TkRFLVE4cDRmRFRNS0FpSHVicGxrRTVIUG4tZFJ5MTFPb1lNOWxyQVNkVEU5OFZ1VmZFTzNrYnRUT3NKSmNKZmp4SThZZVZEckFmLU9GSVlfeHpGd1JmUk9IWndfcW5MOURRUEwyWDJRcGVRUHBKVlR3OFVOWU41dE5iT28xcTRPbzZhUm1KN2NDNThaMUlXM3l4WjZYRjQ1UQ?oc=5"
@@ -694,13 +822,13 @@
   "range": {
    "1w": {
     "pct": 6.5,
-    "lo": 216.22,
-    "hi": 246.23
+    "lo": 216.71,
+    "hi": 246.89
    },
    "1m": {
-    "pct": 13.3,
-    "lo": 201.97,
-    "hi": 263.61
+    "pct": 13.4,
+    "lo": 202.38,
+    "hi": 264.37
    }
   },
   "ai": null
@@ -722,13 +850,13 @@
     "Benzinga",
     "CNBC",
     "IGN India",
-    "Investing.com",
     "Polygon.com",
     "Proactive financial news",
     "Pulse 2.0",
     "Seeking Alpha",
     "StreetInsider",
     "Take-Two IR (ทางการ)",
+    "The Motley Fool",
     "TradingKey",
     "XTB.com",
     "Yahoo Finance",
@@ -746,11 +874,12 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 11,
+   "corroborated_by": 12,
    "sources": [
     "Associated Press",
     "Bloomberg",
     "FanBolt",
+    "Forbes Middle East",
     "Game Developer",
     "Investor's Business Daily",
     "Nintendo Wire",
@@ -772,11 +901,12 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 11,
+   "corroborated_by": 12,
    "sources": [
     "Associated Press",
     "Bloomberg",
     "FanBolt",
+    "Forbes Middle East",
     "Game Developer",
     "Investor's Business Daily",
     "Nintendo Wire",
@@ -798,11 +928,12 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 11,
+   "corroborated_by": 12,
    "sources": [
     "Associated Press",
     "Bloomberg",
     "FanBolt",
+    "Forbes Middle East",
     "Game Developer",
     "Investor's Business Daily",
     "Nintendo Wire",
@@ -824,11 +955,12 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 11,
+   "corroborated_by": 12,
    "sources": [
     "Associated Press",
     "Bloomberg",
     "FanBolt",
+    "Forbes Middle East",
     "Game Developer",
     "Investor's Business Daily",
     "Nintendo Wire",
@@ -866,39 +998,41 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 36,
+   "corroborated_by": 38,
    "sources": [
     "24/7 Wall St.",
     "Barchart.com",
-    "Barron's",
     "Benzinga",
     "Bloomberg",
+    "Briefs Finance",
     "CNBC",
+    "DualShockers",
     "FanBolt",
     "Game Developer",
     "GameSpot",
-    "Gamereactor UK",
     "GamingBolt",
     "IGN India",
     "Inven Global",
     "Investing.com",
-    "Investing.com South Africa",
+    "Investing.com India",
+    "MIXED News",
+    "Nintendo Everything",
     "Nintendo Life",
     "Pluang",
     "Polygon.com",
     "Proactive financial news",
     "Pulse 2.0",
     "Quantisnow",
+    "RockstarINTEL",
     "Seeking Alpha",
     "Stocks Down Under",
-    "Stocktwits",
     "StreetInsider",
+    "The Motley Fool",
     "The Next Web",
     "The Tech Buzz",
     "TheStreet",
     "TradingKey",
     "TradingView",
-    "TweakTown",
     "XTB.com",
     "Yahoo Finance",
     "Zacks Investment Research",
@@ -917,24 +1051,22 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 18,
+   "corroborated_by": 16,
    "sources": [
-    "Barron's",
-    "Benzinga",
     "Bloomberg",
+    "Briefs Finance",
     "CNBC",
     "Game Developer",
-    "Gamereactor UK",
     "GamingBolt",
     "IGN India",
     "Insider Gaming",
+    "MIXED News",
     "Nintendo Wire",
     "Polygon.com",
     "Quantisnow",
     "Quartz",
     "The Next Web",
     "TheStreet",
-    "TweakTown",
     "Yahoo Finance",
     "marketscreener.com"
    ],
@@ -950,10 +1082,11 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 13,
+   "corroborated_by": 14,
    "sources": [
     "Barron's",
     "Bloomberg",
+    "DualShockers",
     "GameSpot",
     "Insider Gaming",
     "Investing.com",
@@ -965,26 +1098,6 @@
     "Trefis",
     "Yahoo Finance",
     "marketscreener.com"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "Nvidia, Hims & Hers, JBS, Take-Two, and More Stocks That Explain Today’s Market",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdndnanVlN3UxOHM4aWlNRkR2cEQxUDlqYXpYUHFFdmV0ZlNSQ2txakh3Xy11dE16RXJncXh2RUNRY3FwZVBuam1qeE1wZk5Wai1RcDVHdWRNdXNoZlRrWWZUX01SanpwdUNmeDAtbm9tNUl2LWRWNXU0MGZaREdiam93?oc=5",
-   "domain": "barrons.com",
-   "published": "2026-11-10T11:24:00+00:00",
-   "source": "Barron's",
-   "tier": 2,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 5,
-   "sources": [
-    "Barron's",
-    "Benzinga",
-    "Bloomberg",
-    "The Globe and Mail",
-    "TradingView"
    ],
    "status": "verified"
   },
@@ -1023,6 +1136,39 @@
    "status": "single"
   },
   {
+   "title": "GTA 6 ‘taking a lot of attention away from any other video games at the moment’: Reese",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOaXEyMzkyMzl4TWRqWHR3Q2E5VkNyVUg3VnRnOEJkaVV3Z3lyRF9UYWVxY09HNDllQTBwTHpaSUNoMUp3TDVDSEFOQ3c3azljS0s5WkRsc2dPQ1BDc2JDNHhZd0MzMHVfd2h2eUxwcHFyYUplMVZpd2dhQzZjSzU1NzFtbjNRYzhYN1pTRG81TmEwRG9aMGtPQ2FvNkRyV0ZoSG43RFEyX2NhSHllc3ViYno1WTYwOVA3OHJ4b2pJa2ROLVBqRUh1UWtDdXVKWWtIOVhNdWVFTi10VndNY3BVZTdBSFV4Zw?oc=5",
+   "domain": "bnnbloomberg.ca",
+   "published": "2026-11-10T17:18:37+00:00",
+   "source": "BNN Bloomberg",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "BNN Bloomberg",
+    "Briefs Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Bloomberg Businessweek Daily: GTA 6 Is Coming",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdXFXMl9CLWlON3ZlNC1pXzZTMHZnWUxneEpFd3V1QkhZNkNlUXM5UEExM3FSVXZ6czhheVZQMHlsOUpQcU41VnRpVDRkTXRnU2cxYjVqRUhTSkFvLXk0QjAxTjZRRTl1RkZKOG16aExZRFdKT1J6bFk0bWtSejN5SjRhU3pkU25CTWtqbjE5QjhJVllQdGpoOUFSRTJLMXB0SVE?oc=5",
+   "domain": "bloomberg.com",
+   "published": "2026-11-11T22:00:27+00:00",
+   "source": "Bloomberg",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Bloomberg"
+   ],
+   "status": "single"
+  },
+  {
    "title": "Take-Two Pulls the Popular RDR2 Mexico Mod From Nexus Mods",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRFVuNjA5SS1zVlh2Q1p6TWMxNGFJWXlsWEpiMUpmd1I4XzVocmNlSVhxVFExQXFrMG50aGFLenVYQzlsLXdpalk2c0NGczJYc3VRNlQ4YWl1MUhJVXB6V2tRbnhwaTdKYTBpSk9yOEVWUkkwempOblcwZ2czTzZDZGNsb3d0WEhBUnRDT0ZB?oc=5",
    "domain": "rdr2.org",
@@ -1051,22 +1197,6 @@
    "corroborated_by": 1,
    "sources": [
     "Trefis"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "GTA 6 ‘taking a lot of attention away from any other video games at the moment’: Reese",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOaXEyMzkyMzl4TWRqWHR3Q2E5VkNyVUg3VnRnOEJkaVV3Z3lyRF9UYWVxY09HNDllQTBwTHpaSUNoMUp3TDVDSEFOQ3c3azljS0s5WkRsc2dPQ1BDc2JDNHhZd0MzMHVfd2h2eUxwcHFyYUplMVZpd2dhQzZjSzU1NzFtbjNRYzhYN1pTRG81TmEwRG9aMGtPQ2FvNkRyV0ZoSG43RFEyX2NhSHllc3ViYno1WTYwOVA3OHJ4b2pJa2ROLVBqRUh1UWtDdXVKWWtIOVhNdWVFTi10VndNY3BVZTdBSFV4Zw?oc=5",
-   "domain": "bnnbloomberg.ca",
-   "published": "2026-11-10T17:18:37+00:00",
-   "source": "BNN Bloomberg",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "BNN Bloomberg"
    ],
    "status": "single"
   },
@@ -4463,13 +4593,13 @@
    "o": 227.57,
    "h": 237.4,
    "l": 225.21,
-   "c": 230.74,
-   "v": 3788198,
-   "sma20": 205.721,
-   "sma50": 207.346,
-   "sma200": 218.555,
-   "rsi": 67.633,
-   "macd_hist": 3.638
+   "c": 231.31,
+   "v": 5296323,
+   "sma20": 205.749,
+   "sma50": 207.357,
+   "sma200": 218.558,
+   "rsi": 67.899,
+   "macd_hist": 3.675
   }
  ]
 }
