@@ -1,11 +1,11 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-12T16:27:55.237707+00:00",
+ "generated_at": "2026-11-12T20:18:09.259836+00:00",
  "sample": false,
  "intraday": {
-  "price": 225.61,
+  "price": 227.83,
   "prev_close": 231.31,
-  "time": 1794500866,
+  "time": 1794514669,
   "points": [
    {
     "t": 1794474000,
@@ -339,12 +339,242 @@
    },
    {
     "t": 1794500700,
-    "c": 225.42,
+    "c": 225.68,
     "s": "reg"
    },
    {
-    "t": 1794500866,
-    "c": 225.61,
+    "t": 1794501000,
+    "c": 225.5,
+    "s": "reg"
+   },
+   {
+    "t": 1794501300,
+    "c": 225.82,
+    "s": "reg"
+   },
+   {
+    "t": 1794501600,
+    "c": 225.67,
+    "s": "reg"
+   },
+   {
+    "t": 1794501900,
+    "c": 225.71,
+    "s": "reg"
+   },
+   {
+    "t": 1794502200,
+    "c": 225.23,
+    "s": "reg"
+   },
+   {
+    "t": 1794502500,
+    "c": 225.76,
+    "s": "reg"
+   },
+   {
+    "t": 1794502800,
+    "c": 225.77,
+    "s": "reg"
+   },
+   {
+    "t": 1794503100,
+    "c": 226.12,
+    "s": "reg"
+   },
+   {
+    "t": 1794503400,
+    "c": 226.51,
+    "s": "reg"
+   },
+   {
+    "t": 1794503700,
+    "c": 226.15,
+    "s": "reg"
+   },
+   {
+    "t": 1794504000,
+    "c": 226.63,
+    "s": "reg"
+   },
+   {
+    "t": 1794504300,
+    "c": 226.85,
+    "s": "reg"
+   },
+   {
+    "t": 1794504600,
+    "c": 226.78,
+    "s": "reg"
+   },
+   {
+    "t": 1794504900,
+    "c": 226.51,
+    "s": "reg"
+   },
+   {
+    "t": 1794505200,
+    "c": 228.0,
+    "s": "reg"
+   },
+   {
+    "t": 1794505500,
+    "c": 228.58,
+    "s": "reg"
+   },
+   {
+    "t": 1794505800,
+    "c": 228.68,
+    "s": "reg"
+   },
+   {
+    "t": 1794506100,
+    "c": 227.82,
+    "s": "reg"
+   },
+   {
+    "t": 1794506400,
+    "c": 227.58,
+    "s": "reg"
+   },
+   {
+    "t": 1794506700,
+    "c": 227.09,
+    "s": "reg"
+   },
+   {
+    "t": 1794507000,
+    "c": 227.24,
+    "s": "reg"
+   },
+   {
+    "t": 1794507300,
+    "c": 227.42,
+    "s": "reg"
+   },
+   {
+    "t": 1794507600,
+    "c": 227.5,
+    "s": "reg"
+   },
+   {
+    "t": 1794507900,
+    "c": 228.0,
+    "s": "reg"
+   },
+   {
+    "t": 1794508200,
+    "c": 228.73,
+    "s": "reg"
+   },
+   {
+    "t": 1794508500,
+    "c": 228.98,
+    "s": "reg"
+   },
+   {
+    "t": 1794508800,
+    "c": 228.51,
+    "s": "reg"
+   },
+   {
+    "t": 1794509100,
+    "c": 228.63,
+    "s": "reg"
+   },
+   {
+    "t": 1794509400,
+    "c": 228.45,
+    "s": "reg"
+   },
+   {
+    "t": 1794509700,
+    "c": 228.33,
+    "s": "reg"
+   },
+   {
+    "t": 1794510000,
+    "c": 228.68,
+    "s": "reg"
+   },
+   {
+    "t": 1794510300,
+    "c": 228.77,
+    "s": "reg"
+   },
+   {
+    "t": 1794510600,
+    "c": 228.99,
+    "s": "reg"
+   },
+   {
+    "t": 1794510900,
+    "c": 228.61,
+    "s": "reg"
+   },
+   {
+    "t": 1794511200,
+    "c": 228.4,
+    "s": "reg"
+   },
+   {
+    "t": 1794511500,
+    "c": 227.79,
+    "s": "reg"
+   },
+   {
+    "t": 1794511800,
+    "c": 227.67,
+    "s": "reg"
+   },
+   {
+    "t": 1794512100,
+    "c": 227.84,
+    "s": "reg"
+   },
+   {
+    "t": 1794512400,
+    "c": 227.75,
+    "s": "reg"
+   },
+   {
+    "t": 1794512700,
+    "c": 227.71,
+    "s": "reg"
+   },
+   {
+    "t": 1794513000,
+    "c": 228.07,
+    "s": "reg"
+   },
+   {
+    "t": 1794513300,
+    "c": 228.19,
+    "s": "reg"
+   },
+   {
+    "t": 1794513600,
+    "c": 228.04,
+    "s": "reg"
+   },
+   {
+    "t": 1794513900,
+    "c": 228.42,
+    "s": "reg"
+   },
+   {
+    "t": 1794514200,
+    "c": 228.06,
+    "s": "reg"
+   },
+   {
+    "t": 1794514500,
+    "c": 227.94,
+    "s": "reg"
+   },
+   {
+    "t": 1794514669,
+    "c": 227.83,
     "s": "reg"
    }
   ],
@@ -370,28 +600,28 @@
   }
  },
  "tech": {
-  "close": 225.61,
+  "close": 227.83,
   "prev_close": 231.31,
-  "chg_pct": -2.4642,
-  "sma20": 206.561,
-  "sma50": 207.5466,
-  "sma200": 218.4697,
-  "rsi": 62.3823,
-  "macd_hist": 3.6807,
-  "vol20_ann": 0.4592,
+  "chg_pct": -1.5045,
+  "sma20": 206.672,
+  "sma50": 207.591,
+  "sma200": 218.4808,
+  "rsi": 64.4209,
+  "macd_hist": 3.8224,
+  "vol20_ann": 0.4527,
   "vol_median_1y": 0.3219,
-  "boll_up": 228.4167,
-  "boll_dn": 184.7053,
+  "boll_up": 228.9324,
+  "boll_dn": 184.4116,
   "hi52": 265.94,
-  "drawdown_pct": -15.1651,
+  "drawdown_pct": -14.3303,
   "avg_vol20": 3250205.0,
-  "volume": 1325216
+  "volume": 2418079
  },
  "verdict": {
-  "score": 0.64,
-  "level": "ปกติ",
-  "lean": "HOLD / รอสัญญาณ",
-  "key": "neutral",
+  "score": 0.82,
+  "level": "ดี",
+  "lean": "ทยอยสะสม (โน้มไปทาง BUY)",
+  "key": "good",
   "parts": [
    {
     "name": "แนวโน้มระยะยาว",
@@ -411,7 +641,7 @@
    {
     "name": "RSI",
     "value": 0,
-    "why": "RSI 62 อยู่ในช่วงปกติ"
+    "why": "RSI 64 อยู่ในช่วงปกติ"
    },
    {
     "name": "ความผันผวน",
@@ -420,8 +650,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.39,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.20 จาก 16 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.57,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.29 จาก 20 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -434,52 +664,52 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 11,
-   "bear": 5,
-   "bull_pct": 68.8,
-   "watchers": 25274,
+   "bull": 16,
+   "bear": 3,
+   "bull_pct": 84.2,
+   "watchers": 25288,
    "sample": [
     {
      "tag": "Bullish",
-     "body": "$TTWO reversal to green",
-     "user": "ValueFinderTrader",
-     "at": "2026-11-12T16:13:19Z"
+     "body": "$TTWO opened position here",
+     "user": "BobJohnBuoy666",
+     "at": "2026-11-12T20:01:28Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO qqq now up, Nvidia up $18 from its bottom. When we going to start moving up.",
-     "user": "Greenzombie04",
-     "at": "2026-11-12T16:08:09Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO 7 days until grand theft auto VI.",
-     "user": "Jewstock",
-     "at": "2026-11-12T16:07:08Z"
+     "body": "$TTWO Will smash expectations especially when they open the gates to PC",
+     "user": "sunnyg123",
+     "at": "2026-11-12T19:37:38Z"
     },
     {
      "tag": "Bearish",
-     "body": "$TTWO RYUK WAS RIGHT.",
-     "user": "Ryuk",
-     "at": "2026-11-12T15:53:57Z"
+     "body": "$TTWO already setting high expectations. Need to sell 19 mil ultimate edition copies on day 1...",
+     "user": "amex_platinum",
+     "at": "2026-11-12T19:13:46Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO if this stock ever breaks out to all time highs now is pivotal...",
-     "user": "MikeyS2k",
-     "at": "2026-11-12T15:49:23Z"
+     "body": "$TTWO You know when media complains that &quot;GTA 6 has way too much genital exposure&quot; that the game is going to be a hit. Let&#39;s GOOO!",
+     "user": "Arc_Viper",
+     "at": "2026-11-12T19:09:38Z"
     },
     {
-     "tag": "Bearish",
-     "body": "$TTWO This rug is going to be legendary.",
-     "user": "MittensMeowOuts",
-     "at": "2026-11-12T15:36:29Z"
+     "tag": "Bullish",
+     "body": "$TTWO Updated my spreadsheet to reflect updated price per copy and made some other adjustments. This is for what it&#39;s worth to anyone being brainwashed by the shorty haters thinking it&#39;s over hyped, and the sales",
+     "user": "mentalapex",
+     "at": "2026-11-12T19:08:01Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO late buyers will be coming starting next week",
+     "user": "Jimsonlima",
+     "at": "2026-11-12T18:55:26Z"
     }
    ]
   },
   "fear_greed": null,
   "vix": {
-   "value": 17.42,
+   "value": 18.72,
    "prev_close": 17.49,
    "week_ago": 28.18,
    "month_ago": 15.21
@@ -541,6 +771,10 @@
    {
     "t": "2026-11-12T16:27+00:00",
     "bull_pct": 68.8
+   },
+   {
+    "t": "2026-11-12T20:18+00:00",
+    "bull_pct": 84.2
    }
   ]
  },
@@ -565,14 +799,14 @@
   ],
   "range": {
    "1w": {
-    "pct": 6.5,
-    "lo": 211.48,
-    "hi": 240.69
+    "pct": 6.4,
+    "lo": 213.76,
+    "hi": 242.83
    },
    "1m": {
-    "pct": 13.3,
-    "lo": 197.6,
-    "hi": 257.59
+    "pct": 13.1,
+    "lo": 199.92,
+    "hi": 259.64
    }
   },
   "ai": null
@@ -582,30 +816,26 @@
    "title": "Take-Two Interactive Software, Inc. Reports Results for Fiscal Second Quarter 2027",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY0hFRVZsMWo0eVRsYmswWFp3T2ZORTRRNjhSUFFoLWR5SmRZU3hSczFvSjFnYXo0M0swVVk4RzlzZG1DQ1EzcGw1bFdDaWM2MkVUZUVhY1JJUmtLTDQyamFtNloyNkFNOW43ZHg4Wm9EaGUyOHlpN1FoRDRsTG9iVDRwc3RSTkxIQUdZcUZob3NGcUFVTGhJMA?oc=5",
    "domain": "take2games.com",
-   "published": "2026-11-11T15:25:37+00:00",
+   "published": "2026-11-11T22:03:45+00:00",
    "source": "Take-Two IR (ทางการ)",
    "tier": 1,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 17,
+   "corroborated_by": 13,
    "sources": [
-    "Barchart.com",
+    "BigGo Finance",
+    "Blockonomi",
     "Business Insider",
-    "Finimize",
     "IGN India",
     "JournalArta",
     "Pulse 2.0",
-    "Seeking Alpha",
     "Simply Wall St",
     "StreetInsider",
     "Take-Two IR (ทางการ)",
-    "The Cryptonomist",
-    "The Wall Street Journal",
-    "TradingKey",
+    "TipRanks",
     "Yahoo Finance",
     "Yahoo Finance Singapore",
-    "Zacks Investment Research",
     "bdnews24.com"
    ],
    "status": "official"
@@ -620,41 +850,13 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 11,
+   "corroborated_by": 9,
    "sources": [
     "Barron's",
     "Bloomberg",
     "FanBolt",
-    "Game Developer",
     "Investor's Business Daily",
     "Kalkine Media",
-    "Nintendo Wire",
-    "Pulse 2.0",
-    "Quartz",
-    "Rockstar Games (ทางการ)",
-    "Yahoo Finance"
-   ],
-   "status": "official"
-  },
-  {
-   "title": "Grand Theft Auto VI - Pre-Load Now",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wQkdMR0dtTWFydzdQZkl0ZUdDbm5kWGlMS2xrQTdaRDdZbko3NWFWeGNtaExDUDlBQnBCb2tQS3Z5ZElGWVRZa2lmWENaVzhfVG11RlV0TVg?oc=5",
-   "domain": "rockstargames.com",
-   "published": "2026-11-10T20:28:13+00:00",
-   "source": "Rockstar Games (ทางการ)",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 11,
-   "sources": [
-    "Barron's",
-    "Bloomberg",
-    "FanBolt",
-    "Game Developer",
-    "Investor's Business Daily",
-    "Kalkine Media",
-    "Nintendo Wire",
     "Pulse 2.0",
     "Quartz",
     "Rockstar Games (ทางการ)",
@@ -679,122 +881,175 @@
    "status": "official"
   },
   {
-   "title": "Take-Two jumps 8% on a down day as Zelnick says GTA VI preorders beat expectations",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSFNlT3l4WTFyZUdLdFFBQmZzbXdQVGxTY003SWVHMV95QWRxRHF1a3BoRDVKZi1oUGZyMGExWTRvSzlWWjk5NE5Ib0ZOcmNJcVRMZ0ZFTUdwU2R0VVpFRW1oOHZlU0x3NmxhamZYSE90cE85N19PenlaaThWSmd1dDBBdWpKY3FJdlZ2TGdoS3V0eWdGSllDUzBOUVRtTWwzakVr?oc=5",
-   "domain": "quantisnow.com",
-   "published": "2026-11-10T22:09:50+00:00",
-   "source": "Quantisnow",
+   "title": "Take-Two (TTWO) Eyes GTA VI Launch as Key Growth Catalyst Ahead of November 19 Release",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVmYxck9qQkRRazBCQjRjTm1STktLQjc4ejF3M0dLemZqSHlRcDhkTFlSZHdGdnFQUy01UWw2a3kwZHEwVGR3bjNJZkFuZGdCVGg5ZHB2cTZ1blpnNVlXWjQ5N3BUbVJkbm5ldEV1T0ROeGc5VkswYUdlaFE4eG5iQ3c0d1lNUXdYWVpzdC1FbE9WbV9mVV9aRi1DNnZPZHF2REx3N0pkTFJnU0U2VldreXJnM19CQVJ3dnZGQjdBbw?oc=5",
+   "domain": "gurufocus.com",
+   "published": "2026-11-12T17:18:45+00:00",
+   "source": "GuruFocus",
    "tier": 3,
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 45,
+   "corroborated_by": 49,
    "sources": [
     "Barchart.com",
     "Barron's",
+    "BeInCrypto",
+    "BigGo Finance",
+    "Blockonomi",
     "Bloomberg",
     "Briefs Finance",
     "Business Insider",
     "Business Insider Africa",
     "ChannelNews.com.au",
+    "EarlyGame",
     "FanBolt",
-    "Game Developer",
-    "GameSpot",
+    "GGRecon",
+    "GamesRadar+",
     "GamingBolt",
-    "IGN",
+    "GuruFocus",
+    "HOLR Magazine",
     "IGN India",
     "India News Network",
-    "Inven Global",
     "Investing.com",
     "JournalArta",
     "Kalkine Media",
+    "Khel Now",
     "MIXED News",
+    "Mashable",
     "My Nintendo News",
     "Nintendo Life",
     "NoobFeed",
     "Notebookcheck",
-    "Quantisnow",
-    "Rock Paper Shotgun",
-    "Seeking Alpha",
+    "Power Up Gaming",
+    "Pulse 2.0",
     "Simply Wall St",
-    "The Cryptonomist",
+    "Softonic",
+    "StreetInsider",
     "The Escapist",
-    "The Tech Buzz",
-    "The Wall Street Journal",
     "TheGamer",
     "TheStreet",
-    "TradingKey",
-    "TradingView",
-    "TweakTown",
+    "TipRanks",
+    "Tribune Online",
+    "UNILAD Tech",
     "Yahoo Finance",
     "Yahoo Finance Singapore",
-    "Zacks Investment Research",
     "ad-hoc-news.de",
     "bdnews24.com",
     "iXBT.games",
     "inkl",
     "marketscreener.com",
+    "www.levelup.com",
     "게임메카"
    ],
    "status": "verified"
   },
   {
-   "title": "Take-Two CEO calls Zelda: Ocarina of Time \"terrific,\" says Nintendo should \"be very proud\"",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdWJmVlpPcF96dWpESWFIcDJPdjhnM0E1WDdkd000RXgtU2xqRDctX0JsU3dlbmQ5eEFOQndXb3h5OXlGeld4Rjk2eTlMcFltWkRDRHY3ekRFXzc0SmExWFZBRWQ3M01uSlJuYjcyTVRicjhFbFJuT3hPdXFnQ2ZQRmM3MG9OcWh4d1gxeWoyZk9tTGFSbFNxcEtOZTJhNUdLVi15dVhtYmJjaTBTdU9hVVNzZEVUTFI1a0ZkbE9wVQ?oc=5",
-   "domain": "gonintendo.com",
-   "published": "2026-11-10T19:16:23+00:00",
-   "source": "GoNintendo",
+   "title": "Take-Two CEO Says Discs Will Become Gaming's Vinyl: 'It’s Going To Be A Very Small Part Of The Business'",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYkEtV0VmYnB3d3ZJYm55OHVvblhUb3ZRUFhZVDVBZ1NYeW5KSWJmVmpkTUt6RGFQY1FsMDE5QWVoSTM0cnRURVliUWs0QW4xY19HWlVJZzNPYXAzMzBKZDRSVVp5Zjc1WlFLNENIU29SRmZHRW9ocE1mUU1od2hibE92ZG9MSmdEN1Y0ZnB0amExVjBKMnl1SlUwV1lHODE5YVVkY3Aya2dGOUo4NF9NdDdHcWs2MGtEYUhpUWMwLVRILXJ2N2tOdQ?oc=5",
+   "domain": "kotaku.com",
+   "published": "2026-11-12T17:06:51+00:00",
+   "source": "Kotaku",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 17,
+   "corroborated_by": 22,
    "sources": [
-    "BigGo Finance",
     "Bloomberg",
-    "Game Developer",
+    "Business Insider Africa",
+    "EGW.News",
+    "EarlyGame",
     "GameSpot",
     "GamingBolt",
-    "GoNintendo",
+    "HOLR Magazine",
     "IGN India",
+    "Khel Now",
+    "Kotaku",
     "MIXED News",
-    "My Nintendo News",
-    "Nintendo Life",
-    "Nintendo Wire",
+    "NoobFeed",
     "Quartz",
-    "Rock Paper Shotgun",
     "TheStreet",
+    "Trefis",
+    "UNILAD Tech",
+    "VGChartz",
     "Yahoo Finance",
     "inkl",
+    "marketscreener.com",
+    "www.levelup.com",
     "게임메카"
    ],
    "status": "verified"
   },
   {
-   "title": "Stock Movers: Take-Two, Nvidia, CoreWeave",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOU1mTkszSmhnOExLNk5rY2xfZFBUSFJma2tRNFZRVTh4Zm1wSF91NnU4MWFwNUNWM1Q4THY1YzhfMWt3X1F5TTJtdzRYc1BObjY2dUVvQ1JpdjJ2WWdHSWpSTl8xZ002dGV5Y1R1eGhRcW9ZT0xYLURCd0ZvNkFSQkNKNHFOWGJnV0s3Q3F3RGdvRml5SXY2N1lB?oc=5",
-   "domain": "bloomberg.com",
-   "published": "2026-11-10T21:18:16+00:00",
-   "source": "Bloomberg",
-   "tier": 1,
+   "title": "Why Did Take-Two Stock Move?",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbDB0QktxdXFmVzcxcGpqdV9YS3hFNjJaUDdycEhtNHJUVy1IcXJBUTNoMFRDdUl6ZEJGWno4SE52S1NQZElXNkQ1N1BEeEp6Nm5LNmpiY1lMMlVHbWt5QkFMVGtpSzc4R0tqZk8yanQyVmUxZHpzYzl5UV9RaUpweDhjSmZDZW9xWFBjMGdjbTN2dw?oc=5",
+   "domain": "trefis.com",
+   "published": "2026-11-11T16:04:50+00:00",
+   "source": "Trefis",
+   "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 11,
+   "corroborated_by": 10,
    "sources": [
     "Barron's",
     "Bloomberg",
+    "GGRecon",
+    "HOLR Magazine",
     "India News Network",
-    "Investing.com",
+    "Power Up Gaming",
     "Simply Wall St",
-    "StreetInsider",
-    "The Globe and Mail",
-    "The Tech Buzz",
     "Trefis",
-    "Yahoo Finance",
+    "iXBT.games",
     "marketscreener.com"
    ],
    "status": "verified"
+  },
+  {
+   "title": "GTA VI Needs To Hit $1.9B In Sales To Meet Investor Expectations, Says BofA – Analyst Sees 33% Potential Upside In TTWO Stock",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNWkJfcWt0Mm5XNmsyS0JHRzkyLXdNbk5GcFZDWUdvLU5iTEh2OGphVjdDak9XYkZPYWM2NVNOckt1REFBSUFncnlPTDdJcmZVYzk3RHlWWHRVM255VzRYaWlQV0FFQy04cHdaT2FFRTBYTDFCZmF6RDF5TFRVczVNb0xBZHE4WnFvNUFFSWo4aDBRUko5d08zWEFHazBBdFNhNjBvNDk2VjFMUW9PMjk4NnVwcnh4bV9UWWV2QkxveWctNmJmaFplVEgxaVpPeko3bjBpdXZGS3V1M0l5WlEwT1djQlNuTy1wTnhIQ0xKZndIcXJuLWdvOXcyNGJZb1Y5TUthay1xQlBsOE1CU0E?oc=5",
+   "domain": "tradingview.com",
+   "published": "2026-11-12T18:00:30+00:00",
+   "source": "TradingView",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 10,
+   "sources": [
+    "Barchart.com",
+    "BigGo Finance",
+    "Blockonomi",
+    "Business Insider",
+    "Proactive financial news",
+    "Simply Wall St",
+    "TipRanks",
+    "TradingView",
+    "Yahoo Finance",
+    "Yahoo Finance Singapore"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Nostalgia Pays Off: Blizzard, Nintendo and Take-Two Ride Classic IPs to Record Launches",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pYVJQLV9ic3VVNE90eEVzVUV2bmc1cGNROTZuSkFFa1BUVWxXV0NiZkRWU21BblZ3c1pmR2x3UnBZZ0t2eGIwbUFLSVc3MVdZbnZ6enVCbUJfRmktcEJQbGQwYzNNSjU2VHctMUJMMV9DTC12NkE?oc=5",
+   "domain": "finance.biggo.com",
+   "published": "2026-11-12T11:00:05+00:00",
+   "source": "BigGo Finance",
+   "tier": 3,
+   "sentiment": 1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 5,
+   "sources": [
+    "BigGo Finance",
+    "EGW.News",
+    "GamesRadar+",
+    "IGN India",
+    "ad-hoc-news.de"
+   ],
+   "status": "single"
   },
   {
    "title": "GTA VI Sales May Break Records: GAMR Offers Exposure",
@@ -815,38 +1070,87 @@
    "status": "single"
   },
   {
-   "title": "GTA 6 Prepares for Star-Studded Miami Launch as Wall Street Eyes 37% Stock Rally",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5pRUxyWW56WWZoMWIzMDVxZEdBRklnU2k1WEtzaWZ0cFU3ai1LNGxTeVFSNEp2VFJBbzZEMFdkMmE1ZzlCcllTYU5WeGtPMEhqVWxUbHBTaURkQWsyczFWdWxoZG5JRk5RYWlST0RYMUhzVV9hTTlZ?oc=5",
-   "domain": "beincrypto.com",
-   "published": "2026-11-11T17:22:36+00:00",
-   "source": "BeInCrypto",
-   "tier": 3,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "BeInCrypto",
-    "Business Insider Africa",
-    "Yahoo Finance"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "GTA 6 will stream on Xbox One through Xbox Cloud Gaming",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxWDkxQW5WdU9fdlRoUUt2MGZBdkRTNzdTOVFZUkw4c0VIRmtFd1pOUVBDNGNKRTVhLXVTQTB3akM4T1BYaU00S2tabGlialZSNWpnT2lOaE5tVzVpYTRoM2E0NGVYd2Zj?oc=5",
-   "domain": "tbreak.com",
-   "published": "2026-11-10T19:51:32+00:00",
-   "source": "Tbreak UAE",
+   "title": "TTWO Jumps 8% to Test $229.37 as GTA VI Preorders Outweigh a Bookings Miss",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOSXNpZjdzdEJUR1hVTnRGbXlNemFhT0Q5UkZJS0ZlQ0loMUY5YmVnaDV0YWMwYk0wWl92bnV4cUlfekJSTUc1bUpidklhZzhtdUV4Q3NnT2QyLXh4Z05Td1E4WHdfWGkzUjIyUnNxMTJweE9wV1pyd3pYaWM4NS1lUWQ1U1g4X0hrVzBMa1JHQnhKX2s3RjJiQ0FyZlpDVW8ySi1fQkpqSVNxaGFSVmxTb2xHYXNRVlp6dmdQOEpkbXBkWWJLZ1ZOQXZMQ0t2WmxjZnJ6Z3c0MDB1aHBUNVJQZjQ3YUtRdEVXazZBSA?oc=5",
+   "domain": "tradingkey.com",
+   "published": "2026-11-11T12:30:30+00:00",
+   "source": "TradingKey",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 3,
    "sources": [
-    "Inven Global",
-    "NoobFeed",
-    "Tbreak UAE"
+    "Simply Wall St",
+    "TradingKey",
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "GTA VI Hits an Estimated $1 Billion in Presales Before Launch Day",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVkZwZ093WGhWVDdNMlhOU0dPUTd1cHlzeHMyNl9WdVFQZkdqRkJhRm15azhfa1d0WkU0dmljeDBRNU1nSFU1Tjk5QlllZW4zTTZxYTNFSDZQRFYxVk1NNHM1Vlo0SEhlWUVCcURxZ3Q2Tkt0bmFPM2ZKcm85eXhsd1JGblNsOTVfd1RMdGlic2NJTE1la0E?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-12T18:15:24+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "Mashable",
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "PS5 Passes 100 Million Shipments as GTA VI Prepares to Launch",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOGQ4eGhUdnF2VW9rQXRlUGVremxBaTRHTEc4bk4yR254RXZ4WG9BUnBOSWRmV29iSEFMa3p1bERwcTFrUGRhZ3NiZzJ5MTVZNG4yOXlEMjdHTHZDTkdFNUlLRnVpZFZXYzE5YWdzS2R6MGt0anBkSE11UmdVTHVxaW1vWjlUZThSSGFGanZmeUZYdUhYNXBBSQ?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-11T18:21:31+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "BeInCrypto",
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "GTA 6 launches next week, and you can already pre-load the game",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVXZxb01zVzlwNzJBYUxtcldOU0JVNkVjemFaM2FOT1V0ZjJLd09jTVpsVkJJY1pFdWx1WDFLSFlxekNLTUM3SnNXQWFNSlI1TDFVbWN2bFBpZ003d0RxaE82NGdiWjU5OGlELU5QR3d3YUdydXFYU2hlRDhVNm50dU9iQXhhc2dwNEU1T0pBOF94ODlCRmozRTB5VnRtRVVCY0JGUk9JeFhZbVl1eHp6X0NRdWJXRGRlaldfTF9PZlQzSmtO?oc=5",
+   "domain": "independent.co.uk",
+   "published": "2026-11-11T15:56:35+00:00",
+   "source": "The Independent",
+   "tier": 3,
+   "sentiment": 1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "Softonic",
+    "The Independent"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Watch Twitch CEO: GTA VI Could Be Our Biggest Moment",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdnVQVk1IODY3SU5udXN5cnkxQkw1TUZMVXdCS0pEdmhJaE5xdE9lc21nMElEQ3pXT1N6cF9TSV90dDliWWtCWWxId0RTcVd1SkFJaGhwTjQxaWYwRTNwaUYyb0tuR1JwcmFoRjFCTG50a1dYdmxuTjhfazFCZm1zMDNNUVFlNjJkczBlczRXekk0ZGJFREYzMlp4RDVFdm5MZVE?oc=5",
+   "domain": "bloomberg.com",
+   "published": "2026-11-12T19:10:14+00:00",
+   "source": "Bloomberg",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Bloomberg"
    ],
    "status": "single"
   },
@@ -4323,13 +4627,13 @@
    "o": 232.16,
    "h": 232.99,
    "l": 223.16,
-   "c": 225.61,
-   "v": 1325216,
-   "sma20": 206.561,
-   "sma50": 207.547,
-   "sma200": 218.47,
-   "rsi": 62.382,
-   "macd_hist": 3.681
+   "c": 227.83,
+   "v": 2418079,
+   "sma20": 206.672,
+   "sma50": 207.591,
+   "sma200": 218.481,
+   "rsi": 64.421,
+   "macd_hist": 3.822
   }
  ]
 }
