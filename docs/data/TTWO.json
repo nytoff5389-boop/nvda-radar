@@ -1,6 +1,6 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-12T22:23:13.999170+00:00",
+ "generated_at": "2026-11-13T02:43:20.154710+00:00",
  "sample": false,
  "intraday": {
   "price": 226.95,
@@ -646,6 +646,76 @@
     "t": 1794519600,
     "c": 227.61,
     "s": "post"
+   },
+   {
+    "t": 1794522000,
+    "c": 227.64,
+    "s": "post"
+   },
+   {
+    "t": 1794522600,
+    "c": 227.69,
+    "s": "post"
+   },
+   {
+    "t": 1794523500,
+    "c": 227.8,
+    "s": "post"
+   },
+   {
+    "t": 1794523800,
+    "c": 227.8,
+    "s": "post"
+   },
+   {
+    "t": 1794524100,
+    "c": 227.5,
+    "s": "post"
+   },
+   {
+    "t": 1794525000,
+    "c": 228.0,
+    "s": "post"
+   },
+   {
+    "t": 1794525300,
+    "c": 227.89,
+    "s": "post"
+   },
+   {
+    "t": 1794527100,
+    "c": 228.56,
+    "s": "post"
+   },
+   {
+    "t": 1794527400,
+    "c": 228.4,
+    "s": "post"
+   },
+   {
+    "t": 1794528000,
+    "c": 228.38,
+    "s": "post"
+   },
+   {
+    "t": 1794528300,
+    "c": 228.19,
+    "s": "post"
+   },
+   {
+    "t": 1794529500,
+    "c": 227.36,
+    "s": "post"
+   },
+   {
+    "t": 1794531300,
+    "c": 227.47,
+    "s": "post"
+   },
+   {
+    "t": 1794531478,
+    "c": 227.47,
+    "s": "post"
    }
   ],
   "pre": {
@@ -654,8 +724,8 @@
    "s": "pre"
   },
   "post": {
-   "t": 1794519600,
-   "c": 227.61,
+   "t": 1794531478,
+   "c": 227.47,
    "s": "post"
   },
   "periods": {
@@ -689,10 +759,10 @@
   "hi52": 265.94,
   "drawdown_pct": -14.6612,
   "avg_vol20": 3250205.0,
-  "volume": 3286220
+  "volume": 3289600
  },
  "verdict": {
-  "score": 0.9,
+  "score": 0.94,
   "level": "ดี",
   "lean": "ทยอยสะสม (โน้มไปทาง BUY)",
   "key": "good",
@@ -724,8 +794,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.65,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.32 จาก 18 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.69,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.34 จาก 20 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -738,46 +808,46 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 15,
+   "bull": 16,
    "bear": 3,
-   "bull_pct": 83.3,
-   "watchers": 25294,
+   "bull_pct": 84.2,
+   "watchers": 25301,
    "sample": [
     {
      "tag": "Bullish",
-     "body": "$TTWO https://www.gamespot.com/articles/gta-6-has-sold-almost-8-million-copies-so-far-and-ps5-is-dominating-the-split-of-course/",
-     "user": "dcsb",
-     "at": "2026-11-12T21:52:00Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO Wow ... all the GTA6 downloading took out Microsoft Outlook!",
+     "body": "$TTWO My bf said that Russian girl on top of the Empire State Building is hot ... they ought to talk to her about a game!",
      "user": "Annie_Preferred",
-     "at": "2026-11-12T20:52:04Z"
+     "at": "2026-11-13T01:44:45Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO @mentalapex Using your numbers, I would value the stock at 325$",
-     "user": "Abstractionist",
-     "at": "2026-11-12T20:35:38Z"
+     "body": "$TTWO Buy stock and get your piece of the $596 billion video game industry!",
+     "user": "Annie_Preferred",
+     "at": "2026-11-13T00:54:53Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO opened position here",
-     "user": "BobJohnBuoy666",
-     "at": "2026-11-12T20:01:28Z"
+     "body": "$TTWO The data is showing that close to 90% of people that preordered, purchased the ultimate edition. With the recent data estimating 11mil copies preordered so far, I&#39;d say yea, at least 17mil will be ultimate at l",
+     "user": "mentalapex",
+     "at": "2026-11-13T00:33:28Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO Will smash expectations especially when they open the gates to PC",
-     "user": "sunnyg123",
-     "at": "2026-11-12T19:37:38Z"
+     "body": "$TTWO Please tell me they have some serious cybersecurity. I don&#39;t want North Korea stealing the games!",
+     "user": "Annie_Preferred",
+     "at": "2026-11-13T00:28:12Z"
     },
     {
      "tag": "Bearish",
-     "body": "$TTWO already setting high expectations. Need to sell 19 mil ultimate edition copies on day 1...",
+     "body": "$TTWO 11 mil copies sold and stock is in gutters. That&#39;s all I need to know.",
      "user": "amex_platinum",
-     "at": "2026-11-12T19:13:46Z"
+     "at": "2026-11-13T00:11:24Z"
+    },
+    {
+     "tag": "Bearish",
+     "body": "$TTWO Bulls talk about this game like it’s going to cure cancer. Lol.",
+     "user": "Ryuk",
+     "at": "2026-11-12T23:17:26Z"
     }
    ]
   },
@@ -853,6 +923,10 @@
    {
     "t": "2026-11-12T22:23+00:00",
     "bull_pct": 83.3
+   },
+   {
+    "t": "2026-11-13T02:43+00:00",
+    "bull_pct": 84.2
    }
   ]
  },
@@ -864,15 +938,23 @@
     "count": 1,
     "tone": 0.0,
     "example": "Take-Two Interactive Software, Inc. Reports Results for Fiscal Second Quarter 2027",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY0hFRVZsMWo0eVRsYmswWFp3T2ZORTRRNjhSUFFoLWR5SmRZU3hSczFvSjFnYXo0M0swVVk4RzlzZG1DQ1EzcGw1bFdDaWM2MkVUZUVhY1JJUmtLTDQyamFtNloyNkFNOW43ZHg4Wm9EaGUyOHlpN1FoRDRsTG9iVDRwc3RSTkxIQUdZcUZob3NGcUFVTGhJMA?oc=5"
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQWVnZlhUY1FTMjdhWTVodGVoZXJPSmJ4b0xtQ2tPdUJPRFlwQVVYdkpPTGtSYXRQZkZnSHFIcmlNRV9NWkduVkJkZ3p6RUlDVlNsOGJ5RHVwWmJfekRlVG1qTGprUDRVaFZza1ZkYjJEWlNLbDNhTE1jT1JUOGlnQUhEekxZaUR0QktHM1l4U0pQdUkyNlJz?oc=5"
    },
    {
     "key": "gta",
     "label": "GTA 6 / วันวางขาย",
     "count": 4,
     "tone": 0.25,
-    "example": "Take-Two (TTWO) Eyes GTA VI Launch as Key Growth Catalyst Ahead of November 19 Release",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVmYxck9qQkRRazBCQjRjTm1STktLQjc4ejF3M0dLemZqSHlRcDhkTFlSZHdGdnFQUy01UWw2a3kwZHEwVGR3bjNJZkFuZGdCVGg5ZHB2cTZ1blpnNVlXWjQ5N3BUbVJkbm5ldEV1T0ROeGc5VkswYUdlaFE4eG5iQ3c0d1lNUXdYWVpzdC1FbE9WbV9mVV9aRi1DNnZPZHF2REx3N0pkTFJnU0U2VldreXJnM19CQVJ3dnZGQjdBbw?oc=5"
+    "example": "Follow affmalyt Franklin by Rockstar Games in Grand Theft Auto Online",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QSGJmY25NSVIwTU1tT2NETzdCRjhaN1JTWTJzZ2JEc0llLV9CT1lFalhVeGkzMzZ0eEtnUW41dDhGd3FXaWRyU2FmSTlISUJUdnRabEU3MmliTUFQQkI0OS1qZ3FDbWpwN3R4N1d6S0N4amtfdGRr?oc=5"
+   },
+   {
+    "key": "platform",
+    "label": "ราคาเกม / Console / ค่าธรรมเนียม",
+    "count": 1,
+    "tone": 1.0,
+    "example": "Xbox CEO Announces 10-Year Strategic Partnership With Take-Two - News",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSmZoc240ZHhoSlVmN09ISWlycXo2blQ0RHB5QXhneHhiZkhtUW9jbXN0Nm9JbDZRUExVaDl6WXZzSlF5dmlmRDJMVFJPVmlUNzlrQ1dLdk0zZ2pQMXNnWTRKTTF1NjA3SHMxN0JtTWhwdDBvLThxclR0LTY5UTJTZGQwMExFYnN5T05mNFQzQXFxMTg2Vjgxc0VON3ppZ1I0aG9maVJ3?oc=5"
    }
   ],
   "range": {
@@ -892,7 +974,7 @@
  "news": [
   {
    "title": "Take-Two Interactive Software, Inc. Reports Results for Fiscal Second Quarter 2027",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY0hFRVZsMWo0eVRsYmswWFp3T2ZORTRRNjhSUFFoLWR5SmRZU3hSczFvSjFnYXo0M0swVVk4RzlzZG1DQ1EzcGw1bFdDaWM2MkVUZUVhY1JJUmtLTDQyamFtNloyNkFNOW43ZHg4Wm9EaGUyOHlpN1FoRDRsTG9iVDRwc3RSTkxIQUdZcUZob3NGcUFVTGhJMA?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQWVnZlhUY1FTMjdhWTVodGVoZXJPSmJ4b0xtQ2tPdUJPRFlwQVVYdkpPTGtSYXRQZkZnSHFIcmlNRV9NWkduVkJkZ3p6RUlDVlNsOGJ5RHVwWmJfekRlVG1qTGprUDRVaFZza1ZkYjJEWlNLbDNhTE1jT1JUOGlnQUhEekxZaUR0QktHM1l4U0pQdUkyNlJz?oc=5",
    "domain": "take2games.com",
    "published": "2026-11-11T22:03:45+00:00",
    "source": "Take-Two IR (ทางการ)",
@@ -900,21 +982,48 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 13,
+   "corroborated_by": 16,
    "sources": [
     "BigGo Finance",
     "Blockonomi",
     "Business Insider",
-    "IGN India",
+    "GuruFocus",
     "JournalArta",
+    "MarketWatch",
+    "Moomoo",
     "Pulse 2.0",
+    "Simply Wall St",
     "StreetInsider",
     "Take-Two IR (ทางการ)",
+    "The Globe and Mail",
     "TipRanks",
-    "Yahoo Finance",
     "Yahoo Finance Singapore",
     "ad-hoc-news.de",
     "bdnews24.com"
+   ],
+   "status": "official"
+  },
+  {
+   "title": "Follow affmalyt Franklin by Rockstar Games in Grand Theft Auto Online",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QSGJmY25NSVIwTU1tT2NETzdCRjhaN1JTWTJzZ2JEc0llLV9CT1lFalhVeGkzMzZ0eEtnUW41dDhGd3FXaWRyU2FmSTlISUJUdnRabEU3MmliTUFQQkI0OS1qZ3FDbWpwN3R4N1d6S0N4amtfdGRr?oc=5",
+   "domain": "rockstargames.com",
+   "published": "2026-11-13T00:27:21+00:00",
+   "source": "Rockstar Games (ทางการ)",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 9,
+   "sources": [
+    "Barron's",
+    "Bloomberg",
+    "FanBolt",
+    "Investor's Business Daily",
+    "Kalkine Media",
+    "Pulse 2.0",
+    "Quartz",
+    "Rockstar Games (ทางการ)",
+    "Yahoo Finance"
    ],
    "status": "official"
   },
@@ -944,7 +1053,7 @@
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 51,
+   "corroborated_by": 47,
    "sources": [
     "Barchart.com",
     "Barron's",
@@ -959,29 +1068,29 @@
     "EarlyGame",
     "FanBolt",
     "GGRecon",
-    "GameRant",
     "GamesRadar+",
     "GamingBolt",
     "GuruFocus",
-    "HOLR Magazine",
-    "Happy Gamer",
-    "IGN India",
     "India News Network",
+    "Insider Gaming",
     "Investing.com",
     "JournalArta",
     "Kalkine Media",
-    "Khel Now",
+    "LevelUp",
     "MIXED News",
     "Mashable",
     "My Nintendo News",
     "NoobFeed",
     "Notebookcheck",
+    "OpenCritic",
     "Power Up Gaming",
     "Pulse 2.0",
     "Simply Wall St",
     "Softonic",
     "StreetInsider",
+    "TOKENPOST",
     "The Escapist",
+    "The Globe and Mail",
     "TheGamer",
     "TheStreet",
     "TipRanks",
@@ -991,55 +1100,75 @@
     "Yahoo Finance Singapore",
     "ad-hoc-news.de",
     "bdnews24.com",
-    "iXBT.games",
     "inkl",
-    "marketscreener.com",
-    "se7en.ws",
-    "www.levelup.com",
-    "www.tokenpost.com"
+    "marketscreener.com"
    ],
    "status": "verified"
   },
   {
-   "title": "Take-Two CEO is betting his video game empire on Grand Theft Auto VI",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1NbGpmbHZENThIUF9YLUhnLXc5LWI3MXpmbk0yd0pWVWJwT0ZjbHdqamFMOHlpbXNNb1pISlF1WV9uTFU5N1hsbGtTVnVrTW5RSU43b1RwLWsya0szMkh6VTV6Skd0ckdwZ2pleldQRFhMTFlI?oc=5",
-   "domain": "qz.com",
-   "published": "2026-11-11T14:18:24+00:00",
-   "source": "Quartz",
+   "title": "Xbox CEO Announces 10-Year Strategic Partnership With Take-Two - News",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSmZoc240ZHhoSlVmN09ISWlycXo2blQ0RHB5QXhneHhiZkhtUW9jbXN0Nm9JbDZRUExVaDl6WXZzSlF5dmlmRDJMVFJPVmlUNzlrQ1dLdk0zZ2pQMXNnWTRKTTF1NjA3SHMxN0JtTWhwdDBvLThxclR0LTY5UTJTZGQwMExFYnN5T05mNFQzQXFxMTg2Vjgxc0VON3ppZ1I0aG9maVJ3?oc=5",
+   "domain": "vgchartz.com",
+   "published": "2026-11-12T00:02:03+00:00",
+   "source": "VGChartz",
    "tier": 3,
-   "sentiment": 0.0,
+   "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 28,
+   "corroborated_by": 20,
    "sources": [
-    "Barron's",
     "Bloomberg",
-    "Briefs Finance",
-    "Business Insider",
+    "Business Insider Africa",
+    "ChannelNews.com.au",
     "EGW.News",
     "EarlyGame",
-    "FanBolt",
-    "GameSpot",
-    "GamesRadar+",
     "GamingBolt",
-    "HOLR Magazine",
-    "IGN India",
     "Insider Gaming",
-    "Investor's Business Daily",
-    "Kalkine Media",
-    "Khel Now",
     "Kotaku",
+    "LevelUp",
     "MIXED News",
-    "Pulse 2.0",
+    "NoobFeed",
     "Quartz",
-    "TheGamer",
+    "The Escapist",
     "TheStreet",
     "UNILAD Tech",
     "VGChartz",
     "Yahoo Finance",
+    "ad-hoc-news.de",
     "inkl",
-    "marketscreener.com",
-    "www.levelup.com"
+    "marketscreener.com"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "Games Will Have A Physical Footprint Forever, Take-Two Boss Says, But It’ll Be “Very Small”",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR3o5cnJGM19fM0lLVzRJeWhDQjZBZXhtR1B5b0xkNmFQUFlTNS1MeTd3eWlSZUNGUFI3WEg3SmFCcC1hcDhpUnFhakN6T0FvOVBabEwyWmMzMFN3Z0d4TXVfZHQ1S1JZNE1rQnFRQTZDdWpEYU5nTWNiV0RzUXB6WV92Yk93R0M3RGtsUWFYQjQ2VGdjT1NTWDBwbXJ2WlYtQXF3SVdyaktVZnU1U3F3SkpLREpZa0JpRWxVRHJ3?oc=5",
+   "domain": "gamespot.com",
+   "published": "2026-11-12T20:19:44+00:00",
+   "source": "GameSpot",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 17,
+   "sources": [
+    "Bloomberg",
+    "Briefs Finance",
+    "EarlyGame",
+    "FanBolt",
+    "GGRecon",
+    "GameSpot",
+    "GamesRadar+",
+    "GamingBolt",
+    "Insider Gaming",
+    "Kotaku",
+    "My Nintendo News",
+    "NoobFeed",
+    "Power Up Gaming",
+    "Quartz",
+    "TheGamer",
+    "Yahoo Finance",
+    "ad-hoc-news.de"
    ],
    "status": "verified"
   },
@@ -1053,17 +1182,16 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 10,
+   "corroborated_by": 9,
    "sources": [
     "Barron's",
     "Bloomberg",
     "GGRecon",
-    "HOLR Magazine",
     "India News Network",
     "Power Up Gaming",
     "Simply Wall St",
     "Trefis",
-    "iXBT.games",
+    "Yahoo Finance",
     "marketscreener.com"
    ],
    "status": "verified"
@@ -1087,22 +1215,22 @@
   },
   {
    "title": "GTA VI Needs To Hit $1.9B In Sales To Meet Investor Expectations, Says BofA – Analyst Sees 33% Potential Upside In TTWO Stock",
-   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPNGUtZ0lNdjVwY1ZCWmQ1NzgyX2VlSFo4YVdEa0wybi1rRVFWTEdzR21RUU5sTDNGamhDZjcwall1WXE5RElnazFMYTdhS3hEcVcybGFvc05rUG5xTFM5dzduSXpSN0VidEFMOWJWZWpOSlpaalMyamVxV2pnZG5wb1QwZXEtaGlHcUItbThWaFFhVXlmSDNpOGIyV0dYb1N6V0VlaW1tRmVaY1BmR21fMjNTN19jU21Fc29HaGpnYlppLUVralFTajNwRk5ZejJQektCdzVvZjN6RktTZ1lOLU1QTjRKd2VYN2xfMExYVEdtMmdfUkVoOWhCYlpaTWhBcGVTLVJYOTN5QzEwOXfSAZMCQVVfeXFMTnJpeDJ5YzFKaUZIVFhOLUJRTFJVOWkwbnlPalpLYzd6d3gyTnpvdGkyV3NfdDRxS0RxT0hib0FiT2ZhOFZWMzR0NHFGdGhydVpqVHZUa1M3NVc5bU9oTkE1NXNaQnp6cHJQa2hlcnp2M0xISVJyQUJTcmxDQVp3dWFfX1FRWDg4Q1FQWW1yVmJUcnhqaFVWM3hsQm1TNm50Zy1zZ1Z4WVRfeVRBbWdKMVZ4Q2dCdXE1YzRjcE51Y3dqZmhCXzVXb2dMQUVaSUgwdXRwUnpzNmxjWlhGb1ZMa1I2bUVXNWk3YnRWY3VfRDhEd3g1MzBrZ0Exa3pZcEx5eDFXSEV2NWlZeEcyd2c5Q3RUQ3M?oc=5",
-   "domain": "newsable.asianetnews.com",
-   "published": "2026-11-12T20:00:02+00:00",
-   "source": "Asianet Newsable",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSnRRUGFOeVl5b1lkOUZ2Z2lCVXhfN1Z1UUFoNFlxdnhpSlhybFNjdXlNdFJBUkllY1VHeUVDWGVaa1JqWnU5TkJZVGRaQkthSEpmUGUwVGN3bk5ZdE5nMVVna1hFSXZDcndWNi1nU3ltd3VtcU9fWTdrWjhOb2VSMlptMURWZlZDSGFKZWRQS29ycGpUUS04N3FOcnlKbk9hMzdhTXJxSE84NXVXR3RaTHJKUVJwRkdnQWc0czZ4Y3RxRTQ4MTQwRHplVG00Nmhx?oc=5",
+   "domain": "stocktwits.com",
+   "published": "2026-11-12T17:46:55+00:00",
+   "source": "Stocktwits",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 8,
    "sources": [
-    "Asianet Newsable",
     "Barchart.com",
     "BigGo Finance",
     "Blockonomi",
     "Business Insider",
     "Proactive financial news",
+    "Stocktwits",
     "TipRanks",
     "Yahoo Finance Singapore"
    ],
@@ -1112,19 +1240,17 @@
    "title": "Nostalgia Pays Off: Blizzard, Nintendo and Take-Two Ride Classic IPs to Record Launches",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pYVJQLV9ic3VVNE90eEVzVUV2bmc1cGNROTZuSkFFa1BUVWxXV0NiZkRWU21BblZ3c1pmR2x3UnBZZ0t2eGIwbUFLSVc3MVdZbnZ6enVCbUJfRmktcEJQbGQwYzNNSjU2VHctMUJMMV9DTC12NkE?oc=5",
    "domain": "finance.biggo.com",
-   "published": "2026-11-12T11:00:05+00:00",
+   "published": "2026-11-12T10:55:00+00:00",
    "source": "BigGo Finance",
    "tier": 3,
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 6,
+   "corroborated_by": 4,
    "sources": [
     "BigGo Finance",
     "EGW.News",
     "GamesRadar+",
-    "Happy Gamer",
-    "IGN India",
     "ad-hoc-news.de"
    ],
    "status": "single"
@@ -1139,29 +1265,10 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 3,
+   "corroborated_by": 2,
    "sources": [
     "Barchart.com",
-    "IGN India",
     "ScreenRant"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "GTA VI Sales May Break Records: GAMR Offers Exposure",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNDREV2dJeHpERFYyNWdzTGJDQVlxd0JSR3BTM0JHWFlwZE9TZzkzRmN2TG5Bd1J2eW9QTUdzcVZELXZxSWhkM1hLYVRkYUl0cE84UTNIZ1lLeFN3cUVNMWJ3Ui1XVFVGSE02V3NwVFVBbXZRcjI3eHRkZGoyYWtCdw?oc=5",
-   "domain": "etfdb.com",
-   "published": "2026-11-11T18:36:40+00:00",
-   "source": "ETF Database",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "ETF Database",
-    "IGN India",
-    "ad-hoc-news.de"
    ],
    "status": "single"
   },
@@ -1179,6 +1286,23 @@
    "sources": [
     "Mashable",
     "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "GTA VI Sales May Break Records: GAMR Offers Exposure",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNDREV2dJeHpERFYyNWdzTGJDQVlxd0JSR3BTM0JHWFlwZE9TZzkzRmN2TG5Bd1J2eW9QTUdzcVZELXZxSWhkM1hLYVRkYUl0cE84UTNIZ1lLeFN3cUVNMWJ3Ui1XVFVGSE02V3NwVFVBbXZRcjI3eHRkZGoyYWtCdw?oc=5",
+   "domain": "etfdb.com",
+   "published": "2026-11-11T18:36:40+00:00",
+   "source": "ETF Database",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "ETF Database",
+    "ad-hoc-news.de"
    ],
    "status": "single"
   },
@@ -1249,18 +1373,18 @@
    "status": "single"
   },
   {
-   "title": "Take-Two Pulls the Popular RDR2 Mexico Mod From Nexus Mods",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRFVuNjA5SS1zVlh2Q1p6TWMxNGFJWXlsWEpiMUpmd1I4XzVocmNlSVhxVFExQXFrMG50aGFLenVYQzlsLXdpalk2c0NGczJYc3VRNlQ4YWl1MUhJVXB6V2tRbnhwaTdKYTBpSk9yOEVWUkkwempOblcwZ2czTzZDZGNsb3d0WEhBUnRDT0ZB?oc=5",
-   "domain": "rdr2.org",
-   "published": "2026-11-11T15:40:11+00:00",
-   "source": "RDR2.org",
+   "title": "This Tech Company is Giving 7,000 Employees Day Off to Play GTA 6",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNM3dpSkJtdThVWnJHQjhxazdQX29YT25EZ2tuRVhydW91WlN6NzF1MlBtcDRFUG4zb3hnTUVQWDlLUzM2c21uUTBVczhXM2xLTkR6cUNNRGkwaUF5LThfU1FtNWdNZXVWUmJvLTJHMjhPektfNjJFbmJuYm9ZTHl1SFFjQWdXVkVEdWJCa3JtQ3pURTdrbExPcnUwODVMRGxoejR5N1ZydWNlcEc2ekItU2F5ekpuTkE?oc=5",
+   "domain": "benzinga.com",
+   "published": "2026-11-12T22:20:46+00:00",
+   "source": "Benzinga",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "RDR2.org"
+    "Benzinga"
    ],
    "status": "single"
   },
@@ -4674,7 +4798,7 @@
    "h": 232.99,
    "l": 223.16,
    "c": 226.95,
-   "v": 3286220,
+   "v": 3289600,
    "sma20": 206.628,
    "sma50": 207.573,
    "sma200": 218.476,
