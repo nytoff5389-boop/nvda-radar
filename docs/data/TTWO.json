@@ -1,11 +1,11 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-13T15:47:53.270257+00:00",
+ "generated_at": "2026-11-13T19:57:27.644184+00:00",
  "sample": false,
  "intraday": {
-  "price": 228.43,
+  "price": 228.415,
   "prev_close": 226.95,
-  "time": 1794584858,
+  "time": 1794599836,
   "points": [
    {
     "t": 1794560400,
@@ -239,12 +239,262 @@
    },
    {
     "t": 1794584700,
+    "c": 228.48,
+    "s": "reg"
+   },
+   {
+    "t": 1794585000,
+    "c": 229.0,
+    "s": "reg"
+   },
+   {
+    "t": 1794585300,
+    "c": 229.34,
+    "s": "reg"
+   },
+   {
+    "t": 1794585600,
+    "c": 229.59,
+    "s": "reg"
+   },
+   {
+    "t": 1794585900,
+    "c": 229.98,
+    "s": "reg"
+   },
+   {
+    "t": 1794586200,
+    "c": 229.39,
+    "s": "reg"
+   },
+   {
+    "t": 1794586500,
+    "c": 228.62,
+    "s": "reg"
+   },
+   {
+    "t": 1794586800,
+    "c": 228.74,
+    "s": "reg"
+   },
+   {
+    "t": 1794587100,
+    "c": 229.16,
+    "s": "reg"
+   },
+   {
+    "t": 1794587400,
+    "c": 228.68,
+    "s": "reg"
+   },
+   {
+    "t": 1794587700,
+    "c": 228.7,
+    "s": "reg"
+   },
+   {
+    "t": 1794588000,
+    "c": 229.16,
+    "s": "reg"
+   },
+   {
+    "t": 1794588300,
+    "c": 228.97,
+    "s": "reg"
+   },
+   {
+    "t": 1794588600,
+    "c": 228.86,
+    "s": "reg"
+   },
+   {
+    "t": 1794588900,
+    "c": 228.45,
+    "s": "reg"
+   },
+   {
+    "t": 1794589200,
+    "c": 228.54,
+    "s": "reg"
+   },
+   {
+    "t": 1794589500,
+    "c": 229.04,
+    "s": "reg"
+   },
+   {
+    "t": 1794589800,
+    "c": 229.21,
+    "s": "reg"
+   },
+   {
+    "t": 1794590100,
+    "c": 228.93,
+    "s": "reg"
+   },
+   {
+    "t": 1794590400,
+    "c": 229.13,
+    "s": "reg"
+   },
+   {
+    "t": 1794590700,
+    "c": 229.48,
+    "s": "reg"
+   },
+   {
+    "t": 1794591000,
+    "c": 229.61,
+    "s": "reg"
+   },
+   {
+    "t": 1794591300,
+    "c": 229.04,
+    "s": "reg"
+   },
+   {
+    "t": 1794591600,
+    "c": 228.63,
+    "s": "reg"
+   },
+   {
+    "t": 1794591900,
+    "c": 229.01,
+    "s": "reg"
+   },
+   {
+    "t": 1794592200,
+    "c": 228.77,
+    "s": "reg"
+   },
+   {
+    "t": 1794592500,
+    "c": 228.51,
+    "s": "reg"
+   },
+   {
+    "t": 1794592800,
     "c": 228.27,
     "s": "reg"
    },
    {
-    "t": 1794584858,
-    "c": 228.43,
+    "t": 1794593100,
+    "c": 228.49,
+    "s": "reg"
+   },
+   {
+    "t": 1794593400,
+    "c": 228.65,
+    "s": "reg"
+   },
+   {
+    "t": 1794593700,
+    "c": 228.45,
+    "s": "reg"
+   },
+   {
+    "t": 1794594000,
+    "c": 228.25,
+    "s": "reg"
+   },
+   {
+    "t": 1794594300,
+    "c": 228.93,
+    "s": "reg"
+   },
+   {
+    "t": 1794594600,
+    "c": 228.69,
+    "s": "reg"
+   },
+   {
+    "t": 1794594900,
+    "c": 228.64,
+    "s": "reg"
+   },
+   {
+    "t": 1794595200,
+    "c": 228.5,
+    "s": "reg"
+   },
+   {
+    "t": 1794595500,
+    "c": 228.64,
+    "s": "reg"
+   },
+   {
+    "t": 1794595800,
+    "c": 228.54,
+    "s": "reg"
+   },
+   {
+    "t": 1794596100,
+    "c": 228.16,
+    "s": "reg"
+   },
+   {
+    "t": 1794596400,
+    "c": 228.03,
+    "s": "reg"
+   },
+   {
+    "t": 1794596700,
+    "c": 228.01,
+    "s": "reg"
+   },
+   {
+    "t": 1794597000,
+    "c": 227.74,
+    "s": "reg"
+   },
+   {
+    "t": 1794597300,
+    "c": 227.94,
+    "s": "reg"
+   },
+   {
+    "t": 1794597600,
+    "c": 228.17,
+    "s": "reg"
+   },
+   {
+    "t": 1794597900,
+    "c": 228.62,
+    "s": "reg"
+   },
+   {
+    "t": 1794598200,
+    "c": 228.2,
+    "s": "reg"
+   },
+   {
+    "t": 1794598500,
+    "c": 228.27,
+    "s": "reg"
+   },
+   {
+    "t": 1794598800,
+    "c": 227.85,
+    "s": "reg"
+   },
+   {
+    "t": 1794599100,
+    "c": 228.15,
+    "s": "reg"
+   },
+   {
+    "t": 1794599400,
+    "c": 228.4,
+    "s": "reg"
+   },
+   {
+    "t": 1794599700,
+    "c": 228.4,
+    "s": "reg"
+   },
+   {
+    "t": 1794599836,
+    "c": 228.41,
     "s": "reg"
    }
   ],
@@ -270,25 +520,25 @@
   }
  },
  "tech": {
-  "close": 228.43,
+  "close": 228.415,
   "prev_close": 226.95,
-  "chg_pct": 0.6521,
-  "sma20": 207.7855,
-  "sma50": 207.8594,
-  "sma200": 218.4222,
-  "rsi": 64.4211,
-  "macd_hist": 3.7182,
+  "chg_pct": 0.6455,
+  "sma20": 207.7847,
+  "sma50": 207.8591,
+  "sma200": 218.4221,
+  "rsi": 64.4129,
+  "macd_hist": 3.7173,
   "vol20_ann": 0.4467,
   "vol_median_1y": 0.3219,
-  "boll_up": 231.8181,
-  "boll_dn": 183.7529,
+  "boll_up": 231.8148,
+  "boll_dn": 183.7547,
   "hi52": 265.94,
-  "drawdown_pct": -14.1047,
+  "drawdown_pct": -14.1103,
   "avg_vol20": 3256945.0,
-  "volume": 825776
+  "volume": 1914913
  },
  "verdict": {
-  "score": 0.34,
+  "score": 0.3,
   "level": "ปกติ",
   "lean": "HOLD / รอสัญญาณ",
   "key": "neutral",
@@ -320,8 +570,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.09,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.04 จาก 20 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.05,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.03 จาก 18 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -334,11 +584,29 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 18,
-   "bear": 6,
-   "bull_pct": 75.0,
-   "watchers": 25320,
+   "bull": 11,
+   "bear": 7,
+   "bull_pct": 61.1,
+   "watchers": 25328,
    "sample": [
+    {
+     "tag": "Bullish",
+     "body": "$CRWV $TTWO CNBC talking about take two and GTA6. I need Jim Cramer to play this game on CNBC",
+     "user": "Cogsey",
+     "at": "2026-11-13T19:51:12Z"
+    },
+    {
+     "tag": "Bearish",
+     "body": "$TTWO Gorgeous Short..... Wow. Glad I stumbled on to it.",
+     "user": "prd001",
+     "at": "2026-11-13T16:46:44Z"
+    },
+    {
+     "tag": "Bearish",
+     "body": "$TTWO",
+     "user": "Ryuk",
+     "at": "2026-11-13T16:18:12Z"
+    },
     {
      "tag": "Bullish",
      "body": "$TTWO Handy day in the casino.",
@@ -356,30 +624,12 @@
      "body": "$TTWO 300",
      "user": "Bunnyhop_Capital",
      "at": "2026-11-13T15:10:03Z"
-    },
-    {
-     "tag": "Bearish",
-     "body": "$TTWO Panic hits in 30 mins.",
-     "user": "Ryuk",
-     "at": "2026-11-13T15:07:59Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO Where do we think we&#39;ll be by release day? I was hoping for a new high but the manipulation is strong with this one. My guess would be 243",
-     "user": "beezee8",
-     "at": "2026-11-13T15:05:30Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO Someone’s trying so hard to keep this down…They know if any significant upward momentum starts it’s going to create a massive FOFO run up! It’s obvious this is being held down!",
-     "user": "JOCO2025",
-     "at": "2026-11-13T15:00:21Z"
     }
    ]
   },
   "fear_greed": null,
   "vix": {
-   "value": 20.25,
+   "value": 19.04,
    "prev_close": 18.7,
    "week_ago": 25.64,
    "month_ago": 15.27
@@ -461,6 +711,10 @@
    {
     "t": "2026-11-13T15:47+00:00",
     "bull_pct": 75.0
+   },
+   {
+    "t": "2026-11-13T19:57+00:00",
+    "bull_pct": 61.1
    }
   ]
  },
@@ -471,8 +725,8 @@
     "label": "GTA 6 / วันวางขาย",
     "count": 5,
     "tone": 0.0,
-    "example": "Follow affmalyt Franklin by Rockstar Games in Grand Theft Auto Online",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QSGJmY25NSVIwTU1tT2NETzdCRjhaN1JTWTJzZ2JEc0llLV9CT1lFalhVeGkzMzZ0eEtnUW41dDhGd3FXaWRyU2FmSTlISUJUdnRabEU3MmliTUFQQkI0OS1qZ3FDbWpwN3R4N1d6S0N4amtfdGRr?oc=5"
+    "example": "Career Openings at Rockstar Games",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOWVlMU1hdFRjRWQySHQxUnBRR1YwaEJWX1ZsRzJLeE12UzVGcV9IS3hiMnJ4NnR0dkpmWlYtWWhINHBpOEZ3OFhTUExid0ZyZHdJMS1vNkJHWkc2SUlTUWdBLXFpMkxtLVkweDhWRFBHQksycE5DWGZ2MHREOVJrLWo5M3gySzNXUzl0YmstVHBmUnpodEtxaXZrYTBXU21OY040ektwcTNEMmlHSEtOYXF3V2g1MFhR?oc=5"
    },
    {
     "key": "earnings",
@@ -494,13 +748,13 @@
   "range": {
    "1w": {
     "pct": 6.3,
-    "lo": 214.5,
-    "hi": 243.26
+    "lo": 214.49,
+    "hi": 243.25
    },
    "1m": {
     "pct": 12.9,
-    "lo": 200.8,
-    "hi": 259.87
+    "lo": 200.78,
+    "hi": 259.85
    }
   },
   "ai": null
@@ -516,8 +770,9 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 18,
+   "corroborated_by": 17,
    "sources": [
+    "Benzinga",
     "BigGo Finance",
     "Blockonomi",
     "Business Insider",
@@ -527,35 +782,13 @@
     "JournalArta",
     "MarketWatch",
     "Moomoo",
-    "Pulse 2.0",
     "Simply Wall St",
     "Take-Two IR (ทางการ)",
-    "The Globe and Mail",
     "TipRanks",
     "Yahoo Finance",
     "Yahoo Finance Singapore",
     "Yahoo! Finance Canada",
     "ad-hoc-news.de"
-   ],
-   "status": "official"
-  },
-  {
-   "title": "Follow affmalyt Franklin by Rockstar Games in Grand Theft Auto Online",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QSGJmY25NSVIwTU1tT2NETzdCRjhaN1JTWTJzZ2JEc0llLV9CT1lFalhVeGkzMzZ0eEtnUW41dDhGd3FXaWRyU2FmSTlISUJUdnRabEU3MmliTUFQQkI0OS1qZ3FDbWpwN3R4N1d6S0N4amtfdGRr?oc=5",
-   "domain": "rockstargames.com",
-   "published": "2026-11-13T00:27:21+00:00",
-   "source": "Rockstar Games (ทางการ)",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 5,
-   "sources": [
-    "Associated Press",
-    "Barron's",
-    "Forbes Middle East",
-    "Pulse 2.0",
-    "Rockstar Games (ทางการ)"
    ],
    "status": "official"
   },
@@ -586,11 +819,12 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 46,
+   "corroborated_by": 45,
    "sources": [
     "Analytics Insight",
     "Barron's",
     "Beebom",
+    "Benzinga",
     "BigGo Finance",
     "Blockonomi",
     "Bloomberg",
@@ -599,7 +833,6 @@
     "CNBC TV18",
     "Central Oregon Daily",
     "ChannelNews.com.au",
-    "GGRecon",
     "GameByte",
     "GameSpot",
     "GamerBraves",
@@ -613,44 +846,63 @@
     "Instant Gaming News",
     "Kotaku",
     "LevelUp",
-    "MIXED News",
     "Moomoo",
     "NeoTeo",
-    "NoobFeed",
     "Notebookcheck",
     "OpenCritic",
     "Power Up Gaming",
     "Simply Wall St",
+    "Spiel Times",
     "TOKENPOST",
     "Tbreak UAE",
     "Tech4Gamers",
+    "TechPowerUp",
     "The Escapist",
-    "The Globe and Mail",
     "TheGamer",
     "TipRanks",
     "VGChartz",
     "Yahoo Finance",
     "Yahoo Finance Singapore",
     "ad-hoc-news.de",
-    "marketscreener.com",
+    "eTeknix",
     "se7en.ws"
    ],
    "status": "verified"
   },
   {
-   "title": "The David Rubenstein Show: Strauss Zelnick",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORWdjdXprQnFuTEdsVzBHbllsN1FObUVFTTRnaS12OXlwTVBqNjloSXdfTzBzakVZejhTbkRyaFozaGExQ0FfM2RzQzVtWTRXWlJFT3JqRE9IS21QaW8wLTYtV1lWYXBQZ2I2eWpQWWpJQWpUX21OQm9wTlJBWHlGUjhCN2o0cjB0Y2RIa0p1ZlEzLWZaNTlRNUVUaklnUQ?oc=5",
-   "domain": "bloomberg.com",
-   "published": "2026-11-12T14:41:54+00:00",
-   "source": "Bloomberg",
+   "title": "'Grand Theft Auto VI' is almost here. What to know about the characters, music and billions at stake",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbnJrbHE5SXBnU3h4ZjViR0FJNGdwYW0ybkFhQUtndEFMd0FBUUp0b2x1eWE2QWpVX2NWQWM2Q3c4NVJPcEFMaHpUQ0YtRGtOMnZoSEdPTEg3SmVCajdTam1PRVdMT0UxWXhabkZPRnhqYXBEMlF3UEJPRkVzSVpTVEZOQkdFVVhRTHc?oc=5",
+   "domain": "apnews.com",
+   "published": "2026-11-12T09:01:57+00:00",
+   "source": "Associated Press",
    "tier": 1,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 2,
+   "corroborated_by": 4,
+   "sources": [
+    "Associated Press",
+    "Barron's",
+    "Bloomberg",
+    "CNBC"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "Strauss Zelnick Believes Arrogance Threatens Continued Success",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OUTI4MVFPLUUwbEVCcXFVd0JYRGp1OURTa2RyNEhHdTBpUGFQNmZKdHZnaE5QX1NhckVKUUdWRGpvRFdqOXhUcmdETXBMR1laSGV3UXFZNXg2OWpDcWZnQVZ0S3JLeno2NVRSalJBZlBPRFk3ZHFheWgxNA?oc=5",
+   "domain": "insider-gaming.com",
+   "published": "2026-11-12T22:05:20+00:00",
+   "source": "Insider Gaming",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 3,
    "sources": [
     "Bloomberg",
-    "Insider Gaming"
+    "Insider Gaming",
+    "eTeknix"
    ],
    "status": "verified"
   },
@@ -664,8 +916,9 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 7,
+   "corroborated_by": 8,
    "sources": [
+    "Benzinga",
     "BigGo Finance",
     "Blockonomi",
     "Business Insider",
@@ -677,44 +930,20 @@
    "status": "single"
   },
   {
-   "title": "Is Take-Two Still The Business You Bought?",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNc19wNEczbERTbVN2SmQ0Z0R3SENHcHBKNWk0R0NQVzltS05sYTE1SlVyWU5OTTFaanhJTVpqbGdFbU41cEpnOUQ5V1dsdnVjVTZwRmZ2V3kxRWpxeFVxa3BCdlE3N1piaWVrQUZOQ2lidklrSG9pbEw3WEVGVWVrQXZfeGpSUmM0eFJIdU5aOEJTNE1h?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-11T17:54:04+00:00",
-   "source": "Yahoo Finance",
+   "title": "Can GTA 6 download codes be seen through sealed boxes? Warning goes viral days before launch",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSmtJenVNUXd5UWN4Zkp5akN4MjVLUVRuRG1JVVg3WlpDdzg3ZGpuQkNqTm9ld2dnQlN1akhXNi11aXBKWGRmRk5mMXh2VEFPX1V3U0QwdjRGRnE5dUd4TGNvY3NfVkZhd3BMaVlVOG1aOXpwNUVySmNvbW1lQzQzSDlNVFRzSWd4ZGdVZE1tUDdBWU5sWHQ1RE1hVjMyV0VqVml4Mmphc19CLW1QNm1xUWtHclZfVzdWWkloanRKN3gxRDZYVURZ?oc=5",
+   "domain": "dexerto.com",
+   "published": "2026-11-13T19:52:43+00:00",
+   "source": "Dexerto",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 7,
-   "sources": [
-    "Barron's",
-    "GGRecon",
-    "Insider Gaming",
-    "Kotaku",
-    "Yahoo Finance",
-    "ad-hoc-news.de",
-    "marketscreener.com"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "GTA 6 preorders top $1 billion as Hollywood eyes record launch weekend",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92RGloZ1BMRFV1cDI1UndXNXpFTTNUVFhrWHU5ZzhNb2tzQTRmWk5udGlvZmlrc3ZIUFNwR1dhaG84Q1l4TlJKbUxFRzhpMG1ndFVfN1Jzd1VtT2RTVnd2bXd0WGdCblkwc00tUlFB?oc=5",
-   "domain": "mashable.com",
-   "published": "2026-11-11T21:55:23+00:00",
-   "source": "Mashable",
-   "tier": 3,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 6,
+   "corroborated_by": 4,
    "sources": [
     "BigGo Finance",
-    "GamesRadar+",
-    "GuruFocus",
-    "MIXED News",
-    "Mashable",
+    "Business Insider",
+    "Dexerto",
     "Yahoo Finance"
    ],
    "status": "single"
@@ -729,12 +958,29 @@
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 4,
+   "corroborated_by": 3,
    "sources": [
     "GuruFocus",
-    "MIXED News",
     "TOKENPOST",
     "Tribune Online"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Nostalgia Pays Off: Blizzard, Nintendo and Take-Two Ride Classic IPs to Record Launches",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pYVJQLV9ic3VVNE90eEVzVUV2bmc1cGNROTZuSkFFa1BUVWxXV0NiZkRWU21BblZ3c1pmR2x3UnBZZ0t2eGIwbUFLSVc3MVdZbnZ6enVCbUJfRmktcEJQbGQwYzNNSjU2VHctMUJMMV9DTC12NkE?oc=5",
+   "domain": "finance.biggo.com",
+   "published": "2026-11-12T10:55:00+00:00",
+   "source": "BigGo Finance",
+   "tier": 3,
+   "sentiment": 1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 3,
+   "sources": [
+    "Benzinga",
+    "BigGo Finance",
+    "GamesRadar+"
    ],
    "status": "single"
   },
@@ -790,36 +1036,18 @@
    "status": "single"
   },
   {
-   "title": "Nostalgia Pays Off: Blizzard, Nintendo and Take-Two Ride Classic IPs to Record Launches",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pYVJQLV9ic3VVNE90eEVzVUV2bmc1cGNROTZuSkFFa1BUVWxXV0NiZkRWU21BblZ3c1pmR2x3UnBZZ0t2eGIwbUFLSVc3MVdZbnZ6enVCbUJfRmktcEJQbGQwYzNNSjU2VHctMUJMMV9DTC12NkE?oc=5",
-   "domain": "finance.biggo.com",
-   "published": "2026-11-12T10:55:00+00:00",
-   "source": "BigGo Finance",
-   "tier": 3,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "BigGo Finance",
-    "GamesRadar+"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "GTA VI Sales May Break Records: GAMR Offers Exposure",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNDREV2dJeHpERFYyNWdzTGJDQVlxd0JSR3BTM0JHWFlwZE9TZzkzRmN2TG5Bd1J2eW9QTUdzcVZELXZxSWhkM1hLYVRkYUl0cE84UTNIZ1lLeFN3cUVNMWJ3Ui1XVFVGSE02V3NwVFVBbXZRcjI3eHRkZGoyYWtCdw?oc=5",
-   "domain": "etfdb.com",
-   "published": "2026-11-11T18:36:40+00:00",
-   "source": "ETF Database",
-   "tier": 3,
+   "title": "Live Q&A: Ask Jason Schreier Anything About GTA VI",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTXNmdzdiOFBsa0drWnBCNTRxMk5nR1hiN1J5X1pZWjY1N1kzYkNSeVlMcl9xZTRaZG1WREMzZ1hGZ1A5clY1UzRLN0hQRmRsQXl6dk1rcG1kRkhvXzRudjBwbFBoSTUzSU5xcHFmdkJ5R25QLVpvTmJlZ0RZSFNiLXJwdXRSQ3A1Z21fT3BNVFkzNWplbHVxQklBNmszSXNCTER2LWtmUnkySWVX?oc=5",
+   "domain": "bloomberg.com",
+   "published": "2026-11-13T16:33:13+00:00",
+   "source": "Bloomberg",
+   "tier": 1,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 2,
+   "corroborated_by": 1,
    "sources": [
-    "ETF Database",
-    "GamesRadar+"
+    "Bloomberg"
    ],
    "status": "single"
   },
@@ -840,18 +1068,18 @@
    "status": "single"
   },
   {
-   "title": "Bloomberg Businessweek Daily: GTA 6 Is Coming",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdXFXMl9CLWlON3ZlNC1pXzZTMHZnWUxneEpFd3V1QkhZNkNlUXM5UEExM3FSVXZ6czhheVZQMHlsOUpQcU41VnRpVDRkTXRnU2cxYjVqRUhTSkFvLXk0QjAxTjZRRTl1RkZKOG16aExZRFdKT1J6bFk0bWtSejN5SjRhU3pkU25CTWtqbjE5QjhJVllQdGpoOUFSRTJLMXB0SVE?oc=5",
-   "domain": "bloomberg.com",
-   "published": "2026-11-11T22:00:38+00:00",
-   "source": "Bloomberg",
-   "tier": 1,
+   "title": "Kalshi is hiring a 'GTA VI Researcher' to livestream the game and study its economy",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQlR4S2QtZUc5QUlLSkxRb0lVWUVsWEw2OXBiMVE1SHkxUWV6Y1M0d1RRa2REdlRXWF9HRHlfM1RvTHRyR2hLZ2VlNVliMlgxX1VIOEJrQlY2VEtsdGxRZ3pYTkdxdnlXVHRKLXJlLVhaSEV6V0lGVUY5S2VmN01nQkVjMlV3OUppMzlXTkZERU82WW9weGQ2OWRMVFlkT1VXSFk1cGxWRk40LXJqQUQzRk14eFFYVm5UMWdoQlF4aV9VeUdpaW1LUUxQWGVKXzROWVc1WThXM2o?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-13T11:00:00+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "Bloomberg"
+    "Yahoo Finance"
    ],
    "status": "single"
   },
@@ -888,29 +1116,13 @@
    "status": "single"
   },
   {
-   "title": "Dear Take-Two Stock Fans, Mark Your Calendars for November 19",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVkNLVTJaSm9HTllndllTWnpkOVBmYlozdmxmczRlMUppamtxaDZjaWotclhRODVucTBQY0llZ21VZ1FSWFlzYzBCYzF5ZkgtNU1sdG91c1cybzA1RlF2eHBtMGZwaTdtOEV2OHpRRzlHMW1pcUZ3TEFtZEZsdTF4UGhvVUJ5VWRVSFhUU0JuLTlaeXVzNVB5LW9lTE0wT1k?oc=5",
-   "domain": "gurufocus.com",
-   "published": "2026-11-11T21:23:58+00:00",
-   "source": "GuruFocus",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "GuruFocus"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "PS5 Passes 100 Million Shipments as GTA VI Prepares to Launch",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOGQ4eGhUdnF2VW9rQXRlUGVremxBaTRHTEc4bk4yR254RXZ4WG9BUnBOSWRmV29iSEFMa3p1bERwcTFrUGRhZ3NiZzJ5MTVZNG4yOXlEMjdHTHZDTkdFNUlLRnVpZFZXYzE5YWdzS2R6MGt0anBkSE11UmdVTHVxaW1vWjlUZThSSGFGanZmeUZYdUhYNXBBSQ?oc=5",
+   "title": "TTWO261113P00220000 Interactive Stock Chart | TTWO Nov 2026 220.000 put Stock",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvZVFuUm1vUHQ2dENzVUpfOWJxUGJNVzBWMjV0UG90T1NDTW9HVUx4b0dUUlNfNzZuMnFhbXhPR0ViNnVYRUxiWDFISU1GMmVlVWlEM1VrWUVVS2ItUWNrQQ?oc=5",
    "domain": "finance.yahoo.com",
-   "published": "2026-11-11T18:21:31+00:00",
+   "published": "2026-11-12T03:31:52+00:00",
    "source": "Yahoo Finance",
    "tier": 3,
-   "sentiment": 1.0,
+   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
@@ -4296,13 +4508,13 @@
    "o": 230.72,
    "h": 233.32,
    "l": 226.68,
-   "c": 228.43,
-   "v": 825776,
+   "c": 228.415,
+   "v": 1914913,
    "sma20": 207.785,
    "sma50": 207.859,
    "sma200": 218.422,
-   "rsi": 64.421,
-   "macd_hist": 3.718
+   "rsi": 64.413,
+   "macd_hist": 3.717
   }
  ]
 }
