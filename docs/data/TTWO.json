@@ -1,6 +1,6 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-13T02:43:20.154710+00:00",
+ "generated_at": "2026-11-13T04:37:09.200155+00:00",
  "sample": false,
  "intraday": {
   "price": 226.95,
@@ -762,10 +762,10 @@
   "volume": 3289600
  },
  "verdict": {
-  "score": 0.94,
-  "level": "ดี",
-  "lean": "ทยอยสะสม (โน้มไปทาง BUY)",
-  "key": "good",
+  "score": 0.74,
+  "level": "ปกติ",
+  "lean": "HOLD / รอสัญญาณ",
+  "key": "neutral",
   "parts": [
    {
     "name": "แนวโน้มระยะยาว",
@@ -794,8 +794,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.69,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.34 จาก 20 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.49,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.25 จาก 19 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -811,8 +811,14 @@
    "bull": 16,
    "bear": 3,
    "bull_pct": 84.2,
-   "watchers": 25301,
+   "watchers": 25305,
    "sample": [
+    {
+     "tag": "Bullish",
+     "body": "$TTWO The post below mine is going to come from someone who is special. We seeing $300 soon",
+     "user": "Fogy",
+     "at": "2026-11-13T04:22:00Z"
+    },
     {
      "tag": "Bullish",
      "body": "$TTWO My bf said that Russian girl on top of the Empire State Building is hot ... they ought to talk to her about a game!",
@@ -842,12 +848,6 @@
      "body": "$TTWO 11 mil copies sold and stock is in gutters. That&#39;s all I need to know.",
      "user": "amex_platinum",
      "at": "2026-11-13T00:11:24Z"
-    },
-    {
-     "tag": "Bearish",
-     "body": "$TTWO Bulls talk about this game like it’s going to cure cancer. Lol.",
-     "user": "Ryuk",
-     "at": "2026-11-12T23:17:26Z"
     }
    ]
   },
@@ -927,6 +927,10 @@
    {
     "t": "2026-11-13T02:43+00:00",
     "bull_pct": 84.2
+   },
+   {
+    "t": "2026-11-13T04:37+00:00",
+    "bull_pct": 84.2
    }
   ]
  },
@@ -947,14 +951,6 @@
     "tone": 0.25,
     "example": "Follow affmalyt Franklin by Rockstar Games in Grand Theft Auto Online",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5QSGJmY25NSVIwTU1tT2NETzdCRjhaN1JTWTJzZ2JEc0llLV9CT1lFalhVeGkzMzZ0eEtnUW41dDhGd3FXaWRyU2FmSTlISUJUdnRabEU3MmliTUFQQkI0OS1qZ3FDbWpwN3R4N1d6S0N4amtfdGRr?oc=5"
-   },
-   {
-    "key": "platform",
-    "label": "ราคาเกม / Console / ค่าธรรมเนียม",
-    "count": 1,
-    "tone": 1.0,
-    "example": "Xbox CEO Announces 10-Year Strategic Partnership With Take-Two - News",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSmZoc240ZHhoSlVmN09ISWlycXo2blQ0RHB5QXhneHhiZkhtUW9jbXN0Nm9JbDZRUExVaDl6WXZzSlF5dmlmRDJMVFJPVmlUNzlrQ1dLdk0zZ2pQMXNnWTRKTTF1NjA3SHMxN0JtTWhwdDBvLThxclR0LTY5UTJTZGQwMExFYnN5T05mNFQzQXFxMTg2Vjgxc0VON3ppZ1I0aG9maVJ3?oc=5"
    }
   ],
   "range": {
@@ -982,7 +978,7 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 16,
+   "corroborated_by": 14,
    "sources": [
     "BigGo Finance",
     "Blockonomi",
@@ -990,10 +986,8 @@
     "GuruFocus",
     "JournalArta",
     "MarketWatch",
-    "Moomoo",
     "Pulse 2.0",
     "Simply Wall St",
-    "StreetInsider",
     "Take-Two IR (ทางการ)",
     "The Globe and Mail",
     "TipRanks",
@@ -1028,6 +1022,22 @@
    "status": "official"
   },
   {
+   "title": "Career Openings at Rockstar Games",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOWVlMU1hdFRjRWQySHQxUnBRR1YwaEJWX1ZsRzJLeE12UzVGcV9IS3hiMnJ4NnR0dkpmWlYtWWhINHBpOEZ3OFhTUExid0ZyZHdJMS1vNkJHWkc2SUlTUWdBLXFpMkxtLVkweDhWRFBHQksycE5DWGZ2MHREOVJrLWo5M3gySzNXUzl0YmstVHBmUnpodEtxaXZrYTBXU21OY040ektwcTNEMmlHSEtOYXF3V2g1MFhR?oc=5",
+   "domain": "rockstargames.com",
+   "published": "2026-11-12T13:13:54+00:00",
+   "source": "Rockstar Games (ทางการ)",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Rockstar Games (ทางการ)"
+   ],
+   "status": "official"
+  },
+  {
    "title": "Red Dead Redemption 2",
    "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPVWVOYjRxZDdROXVUanVqWFJCWFpJSmQtS1dudEo0dFdIbGowZ0tacThvRGVabU9FMnV1dUx6bmNjX2U3M19CdzFwWHUySjNxMThGd045UWNCeGVEWm5Mcm9ZX3djTmlKUmpieHAxTzRPMU9kM1ZsV3BWNzlFR2NmckxVeWFGNlBZdnBUUkpjN3NiYmlhb3NRQ1FaUC00Tjl2V0FBbUY1TWtVWENvel9GQWN6ajQzV28xTzBQVTNOanZtZWtxMGhUYlcwaFY4LU9tWjV3emdtNGc1S19lSTBmcTZkX0pTRTFleXRHM2hDWFMxcTZ6UE0wMXhrNTlfN1hhVkdEWE5QR2tGRjZiRTFpWXZNMWJKNnZtRjBtcF9mVEozdlRFU3BzcHoxYUktQ2tybXhtSEZPSUhvQ1RTN3c?oc=5",
    "domain": "rockstargames.com",
@@ -1053,7 +1063,7 @@
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 47,
+   "corroborated_by": 49,
    "sources": [
     "Barchart.com",
     "Barron's",
@@ -1071,6 +1081,8 @@
     "GamesRadar+",
     "GamingBolt",
     "GuruFocus",
+    "HOLR Magazine",
+    "Happy Gamer",
     "India News Network",
     "Insider Gaming",
     "Investing.com",
@@ -1087,7 +1099,6 @@
     "Pulse 2.0",
     "Simply Wall St",
     "Softonic",
-    "StreetInsider",
     "TOKENPOST",
     "The Escapist",
     "The Globe and Mail",
@@ -1101,42 +1112,45 @@
     "ad-hoc-news.de",
     "bdnews24.com",
     "inkl",
-    "marketscreener.com"
+    "marketscreener.com",
+    "se7en.ws"
    ],
    "status": "verified"
   },
   {
-   "title": "Xbox CEO Announces 10-Year Strategic Partnership With Take-Two - News",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSmZoc240ZHhoSlVmN09ISWlycXo2blQ0RHB5QXhneHhiZkhtUW9jbXN0Nm9JbDZRUExVaDl6WXZzSlF5dmlmRDJMVFJPVmlUNzlrQ1dLdk0zZ2pQMXNnWTRKTTF1NjA3SHMxN0JtTWhwdDBvLThxclR0LTY5UTJTZGQwMExFYnN5T05mNFQzQXFxMTg2Vjgxc0VON3ppZ1I0aG9maVJ3?oc=5",
-   "domain": "vgchartz.com",
-   "published": "2026-11-12T00:02:03+00:00",
-   "source": "VGChartz",
+   "title": "The Legend of Zelda: Ocarina of Time Remake is “Terrific”, Says Take-Two CEO",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ2RxbjJQTjd3QzI1UU1wSGNSaTBLZjU4NUpjZEZ2Wkd0MzJERFZOZGVCRjRaR05yTl9kMm5QR05VSTlxWElTQlZSd0xlTjBkWUJEWFp2aHJ1VTU5bHZoOWs4b3JNNVY2ODlMc25qOFRPZ05ZcmtoVU9WelV2WENpTXRMWXJSSHJ4WFJDcEpDdWx4aER5aHRsa3AxNA?oc=5",
+   "domain": "gamingbolt.com",
+   "published": "2026-11-12T23:20:20+00:00",
+   "source": "GamingBolt",
    "tier": 3,
-   "sentiment": 1.0,
+   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 20,
+   "corroborated_by": 22,
    "sources": [
     "Bloomberg",
-    "Business Insider Africa",
-    "ChannelNews.com.au",
     "EGW.News",
     "EarlyGame",
+    "GamesRadar+",
     "GamingBolt",
+    "HOLR Magazine",
+    "Happy Gamer",
     "Insider Gaming",
     "Kotaku",
     "LevelUp",
     "MIXED News",
-    "NoobFeed",
+    "My Nintendo News",
+    "OpenCritic",
     "Quartz",
-    "The Escapist",
+    "The Globe and Mail",
     "TheStreet",
     "UNILAD Tech",
     "VGChartz",
     "Yahoo Finance",
-    "ad-hoc-news.de",
     "inkl",
-    "marketscreener.com"
+    "marketscreener.com",
+    "se7en.ws"
    ],
    "status": "verified"
   },
@@ -1182,11 +1196,12 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 9,
+   "corroborated_by": 10,
    "sources": [
     "Barron's",
     "Bloomberg",
     "GGRecon",
+    "HOLR Magazine",
     "India News Network",
     "Power Up Gaming",
     "Simply Wall St",
@@ -1341,22 +1356,6 @@
    "status": "single"
   },
   {
-   "title": "Watch Twitch CEO: GTA VI Could Be Our Biggest Moment",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdnVQVk1IODY3SU5udXN5cnkxQkw1TUZMVXdCS0pEdmhJaE5xdE9lc21nMElEQ3pXT1N6cF9TSV90dDliWWtCWWxId0RTcVd1SkFJaGhwTjQxaWYwRTNwaUYyb0tuR1JwcmFoRjFCTG50a1dYdmxuTjhfazFCZm1zMDNNUVFlNjJkczBlczRXekk0ZGJFREYzMlp4RDVFdm5MZVE?oc=5",
-   "domain": "bloomberg.com",
-   "published": "2026-11-12T19:10:14+00:00",
-   "source": "Bloomberg",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Bloomberg"
-   ],
-   "status": "single"
-  },
-  {
    "title": "Bloomberg Businessweek Daily: GTA 6 Is Coming",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdXFXMl9CLWlON3ZlNC1pXzZTMHZnWUxneEpFd3V1QkhZNkNlUXM5UEExM3FSVXZ6czhheVZQMHlsOUpQcU41VnRpVDRkTXRnU2cxYjVqRUhTSkFvLXk0QjAxTjZRRTl1RkZKOG16aExZRFdKT1J6bFk0bWtSejN5SjRhU3pkU25CTWtqbjE5QjhJVllQdGpoOUFSRTJLMXB0SVE?oc=5",
    "domain": "bloomberg.com",
@@ -1401,22 +1400,6 @@
    "corroborated_by": 1,
    "sources": [
     "TradingKey"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "When does GTA 6 Online come out? No date yet, and it won't be there on November 19",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMnFISGY5bWo4Sk41OU9zSjFCbFE2WFlkaHVvRlh1cmtVbGNKOTJuWkE1bHltVXJ1UGpSZ0pOd29ya1ZvRU91MkdUSTByeF81VU1wbi1FQnM0eDlWT3VVQ1JDQmRtMF9aMWRqS1NzUkVmcldWaVZiNzVIUGJIcWE5Qmx0S0RLYkxVNWxoMUpEMkxlVUVnUzdDVmZYSE9tcFlWdGMzR2FUWWtwejZ2?oc=5",
-   "domain": "nacionale.com",
-   "published": "2026-11-11T11:50:00+00:00",
-   "source": "Nacionale",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Nacionale"
    ],
    "status": "single"
   }

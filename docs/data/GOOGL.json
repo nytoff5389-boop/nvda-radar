@@ -1,6 +1,6 @@
 {
  "ticker": "GOOGL",
- "generated_at": "2026-11-13T02:43:14.305364+00:00",
+ "generated_at": "2026-11-13T04:37:03.387243+00:00",
  "sample": false,
  "intraday": {
   "price": 298.7,
@@ -1012,7 +1012,7 @@
   "volume": 35346300
  },
  "verdict": {
-  "score": -2.55,
+  "score": -2.57,
   "level": "เสี่ยงมาก",
   "lean": "โน้มไปทาง SELL / ลดสถานะ",
   "key": "vbad",
@@ -1044,8 +1044,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.2,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.10 จาก 46 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.18,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.09 จาก 49 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -1069,11 +1069,23 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 8,
-   "bear": 3,
-   "bull_pct": 72.7,
-   "watchers": 239304,
+   "bull": 7,
+   "bear": 4,
+   "bull_pct": 63.6,
+   "watchers": 239318,
    "sample": [
+    {
+     "tag": "Bullish",
+     "body": "$GOOG $GOOGL should benefit from Outlook being down. Gmail it is going forward! $MSFT",
+     "user": "Annie_Preferred",
+     "at": "2026-11-13T03:55:13Z"
+    },
+    {
+     "tag": "Bearish",
+     "body": "@Slatedave exactly my point. they are trying to offset losses by piling into other like $AAPL and $GOOGL and $AVGO to float spy - maybe... however, the reality is they are all in the AI trade. I think risk is being overl",
+     "user": "E458",
+     "at": "2026-11-13T03:43:48Z"
+    },
     {
      "tag": "Bearish",
      "body": "$QQQ between 680 and 675 is something I love to too going into Friday. $MSFT got slap with outlook $GOOGL went through same issue and $NVDA gonna bleed hopefully earning can safe it before it tanks to 120",
@@ -1097,18 +1109,6 @@
      "body": "$GOOGL googles own ai says the stock is fairly valued and not a bargin",
      "user": "bamman1126",
      "at": "2026-11-13T02:05:14Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$SPY $QQQ $GOOGL $TSLA",
-     "user": "AlphaBull_10M",
-     "at": "2026-11-13T02:01:40Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "My bad boys $GOOGL and $TSLA are leading the hyperscaler overnight. I&#39;m including TSLA since they co-own Terafab with $SPCX and they are expected to merge. $SPY $QQQ",
-     "user": "AlphaBull_10M",
-     "at": "2026-11-13T01:53:47Z"
     }
    ]
   },
@@ -1236,6 +1236,10 @@
    {
     "t": "2026-11-13T02:43+00:00",
     "bull_pct": 72.7
+   },
+   {
+    "t": "2026-11-13T04:36+00:00",
+    "bull_pct": 63.6
    }
   ]
  },
@@ -1266,10 +1270,18 @@
     "url": "https://blog.google/products/ads-commerce/invalid-traffic-overview-google-ads/"
    },
    {
+    "key": "earnings",
+    "label": "งบการเงิน / คาดการณ์รายได้",
+    "count": 1,
+    "tone": 0.0,
+    "example": "Alphabet Stock Forecast: AI Spending Weighs on GOOGL",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVWFpcjRlUFNnMklqdW1RaS1qT21DV2RCX1FrZDZFRUQ0TUM1MTVaLUlJT2xKSWQyeEV6TGZDNGtMb0l4R2t5SDRHRDhqdkZEYmY4dERKMnVyN3hiaS1BLUF5eWRUeDZuS3lWSm4yQUlkOHlhRktFZlVWS2ptcGw1ZklPVFFfM0hVS1hvUGVXVDRsQ2pvRnRTMG9UX3g?oc=5"
+   },
+   {
     "key": "ai_search",
     "label": "AI แข่งกับ Search (OpenAI, Gemini)",
-    "count": 9,
-    "tone": 0.11,
+    "count": 10,
+    "tone": 0.1,
     "example": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
     "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
    }
@@ -1427,7 +1439,7 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 15,
+   "corroborated_by": 13,
    "sources": [
     "BigGo Finance",
     "Bloomberg",
@@ -1439,11 +1451,30 @@
     "Simply Wall St",
     "TipRanks",
     "TradingView",
-    "WTVB",
     "Yahoo Finance",
     "Zawya",
-    "marketscreener.com",
     "富途牛牛"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "Form 4 Alphabet Inc Class A For: 12 November By Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOEdMejlSaFZRSktZUnVfVFN0eExSaFFUcGRSMDlHYnFmVXZXNlFmQVhRNFFhX1ZzUXQ5NVJNZkZKTm5ZeHlXcjEyUkl4czlRZThLc0lLcm5yemU5dlA1bUlxeXhVLXg0XzNwazFGWXBVSDdlUExDVWtGQ1BfdmNuWGk0ajRib05QOWFlNUt6SDFibVpnaEhEV3B1dlFheF9sUGJGaUJ5OA?oc=5",
+   "domain": "uk.investing.com",
+   "published": "2026-11-12T19:02:00+00:00",
+   "source": "Investing.com UK",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 6,
+   "sources": [
+    "Financial Times",
+    "FinancialContent",
+    "GlobeNewswire",
+    "Investing.com Canada",
+    "Investing.com UK",
+    "PR Newswire"
    ],
    "status": "verified"
   },
@@ -1464,6 +1495,25 @@
     "Bloomberg",
     "The Motley Fool",
     "Yahoo Finance"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "Alphabet Stock Forecast: AI Spending Weighs on GOOGL",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVWFpcjRlUFNnMklqdW1RaS1qT21DV2RCX1FrZDZFRUQ0TUM1MTVaLUlJT2xKSWQyeEV6TGZDNGtMb0l4R2t5SDRHRDhqdkZEYmY4dERKMnVyN3hiaS1BLUF5eWRUeDZuS3lWSm4yQUlkOHlhRktFZlVWS2ptcGw1ZklPVFFfM0hVS1hvUGVXVDRsQ2pvRnRTMG9UX3g?oc=5",
+   "domain": "equiti.com",
+   "published": "2026-11-12T17:51:48+00:00",
+   "source": "www.equiti.com",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 4,
+   "sources": [
+    "Financial Times",
+    "GlobeNewswire",
+    "Simply Wall St",
+    "www.equiti.com"
    ],
    "status": "verified"
   },
@@ -1505,7 +1555,7 @@
    "title": "Google: Trending News, Latest Updates, Analysis",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0xcUZzWkVQekZacW03c3o4OVFVWWlFeUZubDlxenhEa3NYMmduMmVud2JmUkh6WXVqQndkbW1NX0xoN1UwWFoxZm1PTQ?oc=5",
    "domain": "bloomberg.com",
-   "published": "2026-11-12T14:33:51+00:00",
+   "published": "2026-11-12T16:31:38+00:00",
    "source": "Bloomberg",
    "tier": 1,
    "sentiment": 0.0,
@@ -1517,52 +1567,6 @@
     "The Information"
    ],
    "status": "verified"
-  },
-  {
-   "title": "Kaplan Fox Alerts Investors to an Upcoming Deadline of December 1, 2026 in the Alphabet Inc. (NASDAQ: GOOGL, GOOG) Securities Class Action",
-   "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxOcVdMYTNGR3dERjF5RkI0UGQ0WDQ0M21QWG5tSHZOTXZnOUdrazY2ZGdSRWlpMWlRTnhnYUIwRUtSeFdrRElrSDlyeHotWUlpbnpYWm9CWkJUWGtzT3ZKTlRwSkFwQWVTbXBkVzJEaFZsMm4wQUhUaS02N2E0SGxZN1JLVXZjaWNfTWFXdVRROHRDQjkzQlUwRWVNOTJnSEZsVHJHbkNvc0F4SnNZR0tSbzBSNjdwa2hkWW53WHY3STJKSkM0Nm4yeXFMN2NuSWxmX2lqRThmbXd1Zk1tbGtLTG9icnJIMVlZNk5lcll3NUZWQkZmajBaTTBMSEhtVmEwVFliYlVadFQ3ZFJqNWlJNlFZWmg0Z25DaGREZHpIcldXN3lTQWNDN1NQRlFSdGdncHc?oc=5",
-   "domain": "markets.financialcontent.com",
-   "published": "2026-11-12T17:20:00+00:00",
-   "source": "FinancialContent",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 8,
-   "sources": [
-    "FinancialContent",
-    "Foreign Policy Journal",
-    "GlobeNewswire",
-    "Investing.com UK",
-    "PR Newswire",
-    "Seeking Alpha",
-    "Stock Titan",
-    "Stockhouse"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Alphabet Plans Multi-Currency Debt Sale in HK, Singapore",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQWg1aXVMZjJJb3ZwY1JUMFotX3pFVUNCZVpIMS1zZ1VZcDhQcTRGZWxnOVQxSVVuSERMS1AtRUlHb3pyVzEwZHlyV3lYWU5fQWdPcW13R1lGcW9OOENhTEZfaUVhN1B1QVlKWldUTmEtNjFJVGl5VGNyZWVoaFF3X05KQVNnQjI4NmN6LUJfRTVLVGZDWlJhR3RJX3g?oc=5",
-   "domain": "tradingpedia.com",
-   "published": "2026-11-12T12:26:06+00:00",
-   "source": "TradingPedia",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 8,
-   "sources": [
-    "BigGo Finance",
-    "Seeking Alpha",
-    "Simply Wall St",
-    "Stock Titan",
-    "TipRanks",
-    "TradingPedia",
-    "WTVB",
-    "Zawya"
-   ],
-   "status": "single"
   },
   {
    "title": "Alphabet shares climb on Nvidia leadership change and Anthropic stake",
@@ -1587,6 +1591,66 @@
    "status": "single"
   },
   {
+   "title": "Alphabet Plans Multi-Currency Debt Sale in HK, Singapore",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQWg1aXVMZjJJb3ZwY1JUMFotX3pFVUNCZVpIMS1zZ1VZcDhQcTRGZWxnOVQxSVVuSERMS1AtRUlHb3pyVzEwZHlyV3lYWU5fQWdPcW13R1lGcW9OOENhTEZfaUVhN1B1QVlKWldUTmEtNjFJVGl5VGNyZWVoaFF3X05KQVNnQjI4NmN6LUJfRTVLVGZDWlJhR3RJX3g?oc=5",
+   "domain": "tradingpedia.com",
+   "published": "2026-11-12T12:26:06+00:00",
+   "source": "TradingPedia",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 6,
+   "sources": [
+    "BigGo Finance",
+    "Seeking Alpha",
+    "Simply Wall St",
+    "TipRanks",
+    "TradingPedia",
+    "Zawya"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "HSBC says the time is right to buy Alphabet (GOOG:NASDAQ)",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUzhERjNSY1B6Y0FUMGFTemR6NTF3RFJmRmNZOXpWbWNKem9VTElvcmhmbVdvOFRwUGs1dHpDSHpLVk5IQjh6Z2dUbjlNUDhZYmdrSkY1WVpLd3Y0YzNDRnRYazZSQVMwYzJkd1BxYUNnYkRCRE9PeHF3d19Ib05mbHQ2UTljaktv?oc=5",
+   "domain": "seekingalpha.com",
+   "published": "2026-11-12T19:31:53+00:00",
+   "source": "Seeking Alpha",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 5,
+   "sources": [
+    "Benzinga",
+    "FinancialContent",
+    "Foreign Policy Journal",
+    "Seeking Alpha",
+    "TradingView"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Alphabet: Punished For Its Cash Flow, Not Its Business (NASDAQ:GOOGL)",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVlRzemNhVjZYcXBVSWNxZlJYeXdHVDBBN0xiR21ISUJDbXViM0U0NS1xakZNMWkzY2V3QlA3VGVDR0VtSms4b0hhYmc2bnV3Zy1OY2RfS3FKcWVreDhDUmFGZ1U5NmxfbjQ5NFluMlZsRW9XbWxhOXZfTHdvajBKVzJPbkVUUG1ycDhlOEFOSWJRUW51d0h6cg?oc=5",
+   "domain": "seekingalpha.com",
+   "published": "2026-11-12T14:51:08+00:00",
+   "source": "Seeking Alpha",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 4,
+   "sources": [
+    "FinancialContent",
+    "Moomoo",
+    "Seeking Alpha",
+    "Traders Union"
+   ],
+   "status": "single"
+  },
+  {
    "title": "Google parent draws $5 billion in orders for AI debt sale",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOY3Y1NlJTZmxOUGNnYjd4VmotZ0h0emtFenFNY3VDbXU4bFFfVjNiMm5yRDJQX05YWkM1amhNVF83ZzZPclFYNm90TkpJWk9tRk1IbjZ4VG9Bbkk2TFNhX3BtLWdxVm1hcC1YWEVTQV9RcFdMR3ZraUQxYllQV1BxYV9mLTFNc3hnVDFxMnFCOV84cGZSd1JpNGl3?oc=5",
    "domain": "finance.yahoo.com",
@@ -1596,11 +1660,10 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 5,
+   "corroborated_by": 4,
    "sources": [
     "Simply Wall St",
     "TipRanks",
-    "WTVB",
     "Yahoo Finance",
     "Zawya"
    ],
@@ -1625,38 +1688,20 @@
    "status": "single"
   },
   {
-   "title": "Form 144 Alphabet For: 12 November By Investing.com",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObFctczFYbmcyakxLTDZzQmQwWXgxWUNsWU16LW5rYU56MERwYUVjbVFGeVItS21nN0hMeU1zYXJxZlRST1NNcXJ1OXNwRWpsRHIycEw3ZHltd2g3aWQtZWlobHNCLUhROUpTRzR6cFJxUGtoWFFINnRaV0xXSjJua2RDZV9STi1iNHJ0TzF1RXhFRUgwSjFDMWpR?oc=5",
-   "domain": "in.investing.com",
-   "published": "2026-11-12T21:48:53+00:00",
-   "source": "Investing.com India",
+   "title": "Alphabet faces proposed securities class action over Gemini 3.5 Pro disclosures | 2026-11-12 | Investing News",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc2s2dHE3Q014dWU0Rk92OXNCWDFtbnlvN3M1N3BhQ0VtdFpzQ3owLTR2M1NLZDJlU1d5ZFlrRkpRUGc3MUpTSE93ZkFsTnNENm5sV3MzeXBORkdpcm5hNXFVcE16cEJsVzVpbGYxSUFfNlFKbnVVbkU2SUhkQ3hWdzRtUnVvcTlVM28yY21MdDl3aVJwamlQMlBKY2F3UVY0VzhLd3BRYWFGWjV1M05hRVpnMDFmaXJKWHFiSXRtOWJSejZCREE?oc=5",
+   "domain": "stockhouse.com",
+   "published": "2026-11-12T21:21:28+00:00",
+   "source": "Stockhouse",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 3,
    "sources": [
-    "Investing.com India",
-    "Investing.com UK",
-    "Moomoo"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Bond issue launch supports Alphabet with greater cash flow flexibility and Asian investor reach",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQmJIV0ZTM2FBRHQxYkZtLXNHUnNpeUZsYmtjY2szZjIzaEM1NHUzYlRCR3g4bVJYTnNFMk01WFFEYi1tX3dSZWltRGw0M01EejBMdnhPTTRlVS0tYVpzbV9td1RBX1N1ZWtQQnJ4QlpXZm1TLXE0VGdqQWJXTy1WcFVjNFg?oc=5",
-   "domain": "tradersunion.com",
-   "published": "2026-11-12T19:41:26+00:00",
-   "source": "Traders Union",
-   "tier": 3,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "Seeking Alpha",
-    "TipRanks",
-    "Traders Union"
+    "FinancialContent",
+    "PR Newswire",
+    "Stockhouse"
    ],
    "status": "single"
   },
@@ -1679,24 +1724,6 @@
    "status": "single"
   },
   {
-   "title": "Alphabet Stock Forecast: AI Spending Weighs on GOOGL",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVWFpcjRlUFNnMklqdW1RaS1qT21DV2RCX1FrZDZFRUQ0TUM1MTVaLUlJT2xKSWQyeEV6TGZDNGtMb0l4R2t5SDRHRDhqdkZEYmY4dERKMnVyN3hiaS1BLUF5eWRUeDZuS3lWSm4yQUlkOHlhRktFZlVWS2ptcGw1ZklPVFFfM0hVS1hvUGVXVDRsQ2pvRnRTMG9UX3g?oc=5",
-   "domain": "equiti.com",
-   "published": "2026-11-12T17:51:48+00:00",
-   "source": "www.equiti.com",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "GlobeNewswire",
-    "Simply Wall St",
-    "www.equiti.com"
-   ],
-   "status": "single"
-  },
-  {
    "title": "GOOGL Stock Recovers but Faces $300 as Google Commits $10 Billion to Anthropic",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdDQ0aUFkY1BoX0lFUGQzcGpLMDJ4LWJiRUprazdrcnA2MlZ4dzgzT1BlTTJKd3ZfRG5USDlCMmZCcFVqbEIyaVhKNFBXMldfejcxWWVmRTNpUjc0Q0ZIajJRV2d5dDhiVEJBdHZ6OEkyVmQtZ2o0SzBCdnRQNFgyM0h6VkIwUnpIdXVDZWtCSDJ4ZlhUWFVDS2FPQ0xvVmVBOVZxUURIY0xyQjQtRC1ONWtpdVlTYTVXdmdB?oc=5",
    "domain": "fxleaders.com",
@@ -1711,6 +1738,23 @@
     "Blockonomi",
     "FXLeaders",
     "TradingView"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "GOOGL, GOOG DEADLINE: ROSEN, A LONGSTANDING FIRM,",
+   "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPNzRZRktrSnk0LVRWaWZXT2ZOdFBLZTNGUjFraW1lcHpqWW9rX2YzZEZZQ3p2a2cyS2JNemRka3IzUVVSMTNlZXg4empFYWRDTF9USmRLOWxUSE5yc0tibGVMMGhDR3dCc2Q0X1NQY0JwLVd4MzZtM3RqT0hwVF80VVdGc1NIOUh5VVdSbWpMdTJhbF9tbm9aLW5EVHFOalFySFc4TDBLMFdMSlJkTzMtVHljQ01sb3pIY054dlpqekxuRlVBa1N5UVBSUklmUTEtZGdGY3h1bHpWVjlER0FTREx1NGthbnljQldTaHJuVFB3Q3JjZ3hrYnE2TTJyang2Nnl4ejRWZmI3blZyWlc1SGd3SGhvQlhGdTFheVVuZjJqT3FMYjJoYlBPTklFLTBKUVRxbWFCRWtsUzNYUl9wMlRySWhIYW5sR0dpdUctSm1WX3pDLWc?oc=5",
+   "domain": "globenewswire.com",
+   "published": "2026-11-13T01:24:00+00:00",
+   "source": "GlobeNewswire",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "FinancialContent",
+    "GlobeNewswire"
    ],
    "status": "single"
   },
@@ -1732,6 +1776,40 @@
    "status": "single"
   },
   {
+   "title": "Form 144 | Alphabet-C(GOOG.US) Insider Proposes to Sell 9.94 Million in Common Stocks",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOUNLbnRDeHkyQlh5U3VDNHZ1NHlRd2lqNDFMU04xbGdSdHhlaUk3bTdBQm9BdGIwVE5DZTZYeEo0Y2tVYmhCSFBhWE1PbVI0V1hkbEtwTGFtaENlajZmelFDTTFzaXNFRXQtbWxjVm41TFpHRHQ3dWEwVWUzSmVvNml0WGNULTRVdDktMXk0RTBoMUtlNF9LVTQzMk5ILU0?oc=5",
+   "domain": "moomoo.com",
+   "published": "2026-11-12T21:26:13+00:00",
+   "source": "Moomoo",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "Investing.com Canada",
+    "Moomoo"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "The Lawrence Page Trust II plans to sell 9,760 shares each of Alphabet (GOOG) Class A and Class C stock.",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOEVRQkpWX2pLNnhMelRSUmVpUjlIczQ2VHlPSklxMW13djZTN01nOEJuTGM0R3BaWFBYN21RN1BiZTRqWllxcUdfZjJlcDk2a0NuaTdfcml5VUh6T3FOdUhScXFldlVwZnhZeGIxLUluU291UUhYRVpOM2NLdlgydVZaZ3NGSFZPV1ZlaEpNVnBmR1U?oc=5",
+   "domain": "stocktitan.net",
+   "published": "2026-11-12T21:24:08+00:00",
+   "source": "Stock Titan",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "FinancialContent",
+    "Stock Titan"
+   ],
+   "status": "single"
+  },
+  {
    "title": "Alphabet's Wing to build $125M drone factory in Fort Worth",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS2NoQlNETjBoUmpJM2t4TGU4ZjJPS3RlRjl6czFmQ1pHWXBsQVJYcG9OekhadW9JLXhQeWdlQkJfQTl6LTRoWUt4V1hCTUFlcDlzdF9za2xBYmVwYmRiOVJRa19uRWRQOURRMTZ1R2VGMmV6aGRTZHprR3NmdUl3bWVsUTgzV1NzSHJ6cGhJLVFqRkxmOWc?oc=5",
    "domain": "app.dealroom.co",
@@ -1745,23 +1823,6 @@
    "sources": [
     "CoStar",
     "Dealroom"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "HSBC says the time is right to buy Alphabet",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSHR0NTlIOXNsZ01TcEVUaWJUOXY2dVBDTXhQNFIxVEJaZHRzckNPdjUwUkFkQWJUQzRFbWVCNERYbzBrVEVvbjRyeERrTVpQQkVRemtBT1pKOGlKLXNVelFNTFdDRGlGd3lWWnZpbmlnSENDMGFOZHkzVjFZbl9VSHlrN3dwaXVXLXQySFRMMC1BOXh3ak5kcks4ZVFoc2NabktGLW5YNUpyZw?oc=5",
-   "domain": "tradingview.com",
-   "published": "2026-11-12T19:31:53+00:00",
-   "source": "TradingView",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "Seeking Alpha",
-    "TradingView"
    ],
    "status": "single"
   },
