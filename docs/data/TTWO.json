@@ -1,11 +1,11 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-13T19:57:27.644184+00:00",
+ "generated_at": "2026-11-13T21:40:38.111118+00:00",
  "sample": false,
  "intraday": {
-  "price": 228.415,
+  "price": 227.82,
   "prev_close": 226.95,
-  "time": 1794599836,
+  "time": 1794603600,
   "points": [
    {
     "t": 1794560400,
@@ -489,13 +489,108 @@
    },
    {
     "t": 1794599700,
-    "c": 228.4,
+    "c": 228.36,
     "s": "reg"
    },
    {
-    "t": 1794599836,
-    "c": 228.41,
+    "t": 1794600000,
+    "c": 228.35,
     "s": "reg"
+   },
+   {
+    "t": 1794600300,
+    "c": 227.88,
+    "s": "reg"
+   },
+   {
+    "t": 1794600600,
+    "c": 227.6,
+    "s": "reg"
+   },
+   {
+    "t": 1794600900,
+    "c": 227.35,
+    "s": "reg"
+   },
+   {
+    "t": 1794601200,
+    "c": 227.37,
+    "s": "reg"
+   },
+   {
+    "t": 1794601500,
+    "c": 227.2,
+    "s": "reg"
+   },
+   {
+    "t": 1794601800,
+    "c": 227.1,
+    "s": "reg"
+   },
+   {
+    "t": 1794602100,
+    "c": 226.73,
+    "s": "reg"
+   },
+   {
+    "t": 1794602400,
+    "c": 227.28,
+    "s": "reg"
+   },
+   {
+    "t": 1794602700,
+    "c": 227.58,
+    "s": "reg"
+   },
+   {
+    "t": 1794603000,
+    "c": 227.89,
+    "s": "reg"
+   },
+   {
+    "t": 1794603300,
+    "c": 227.86,
+    "s": "reg"
+   },
+   {
+    "t": 1794603600,
+    "c": 227.57,
+    "s": "post"
+   },
+   {
+    "t": 1794603900,
+    "c": 226.86,
+    "s": "post"
+   },
+   {
+    "t": 1794604200,
+    "c": 227.82,
+    "s": "post"
+   },
+   {
+    "t": 1794604500,
+    "c": 227.01,
+    "s": "post"
+   },
+   {
+    "t": 1794604800,
+    "c": 228.23,
+    "s": "post"
+   },
+   {
+    "t": 1794605400,
+    "c": 227.72,
+    "s": "post"
+   },
+   {
+    "t": 1794605700,
+    "c": 227.82,
+    "s": "post"
+   },
+   {
+    "t": 1794606020,
+    "c": 227.0,
+    "s": "post"
    }
   ],
   "pre": {
@@ -503,7 +598,11 @@
    "c": 231.0,
    "s": "pre"
   },
-  "post": null,
+  "post": {
+   "t": 1794606020,
+   "c": 227.0,
+   "s": "post"
+  },
   "periods": {
    "pre": {
     "start": 1794560400,
@@ -520,22 +619,22 @@
   }
  },
  "tech": {
-  "close": 228.415,
+  "close": 227.82,
   "prev_close": 226.95,
-  "chg_pct": 0.6455,
-  "sma20": 207.7847,
-  "sma50": 207.8591,
-  "sma200": 218.4221,
-  "rsi": 64.4129,
-  "macd_hist": 3.7173,
+  "chg_pct": 0.3833,
+  "sma20": 207.755,
+  "sma50": 207.8472,
+  "sma200": 218.4191,
+  "rsi": 64.086,
+  "macd_hist": 3.6793,
   "vol20_ann": 0.4467,
   "vol_median_1y": 0.3219,
-  "boll_up": 231.8148,
-  "boll_dn": 183.7547,
+  "boll_up": 231.6841,
+  "boll_dn": 183.8259,
   "hi52": 265.94,
-  "drawdown_pct": -14.1103,
+  "drawdown_pct": -14.3341,
   "avg_vol20": 3256945.0,
-  "volume": 1914913
+  "volume": 2984263
  },
  "verdict": {
   "score": 0.3,
@@ -571,7 +670,7 @@
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
     "value": 0.05,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.03 จาก 18 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "why": "ค่าเฉลี่ยโทนข่าว +0.03 จาก 19 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -584,52 +683,52 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 11,
-   "bear": 7,
-   "bull_pct": 61.1,
-   "watchers": 25328,
+   "bull": 9,
+   "bear": 8,
+   "bull_pct": 52.9,
+   "watchers": 25331,
    "sample": [
     {
      "tag": "Bullish",
-     "body": "$CRWV $TTWO CNBC talking about take two and GTA6. I need Jim Cramer to play this game on CNBC",
-     "user": "Cogsey",
-     "at": "2026-11-13T19:51:12Z"
+     "body": "$TTWO absolutely insane https://x.com/polymarketmoney/status/2121242343714263549?a=XGh8BxOz0YGYVBW8oA4&amp;s=46",
+     "user": "Jewstock",
+     "at": "2026-11-13T21:40:21Z"
     },
     {
      "tag": "Bearish",
-     "body": "$TTWO Gorgeous Short..... Wow. Glad I stumbled on to it.",
-     "user": "prd001",
-     "at": "2026-11-13T16:46:44Z"
+     "body": "$TTWO Down 10% year to date. Sell the news in theaters next week...",
+     "user": "amex_platinum",
+     "at": "2026-11-13T21:34:07Z"
     },
     {
      "tag": "Bearish",
-     "body": "$TTWO",
+     "body": "$TTWO That awkward moment when you realize I also trade options.",
      "user": "Ryuk",
-     "at": "2026-11-13T16:18:12Z"
+     "at": "2026-11-13T21:15:54Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO Handy day in the casino.",
-     "user": "cournioni",
-     "at": "2026-11-13T15:45:07Z"
+     "body": "@Ryuk The best time to short this was months ago (August) I am long $TTWO but even I was fully hedged and made a load! We will see how things shake out short term! Long term bull here!",
+     "user": "JOCO2025",
+     "at": "2026-11-13T21:15:10Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO 🤔",
-     "user": "No_one_special",
-     "at": "2026-11-13T15:24:01Z"
+     "body": "$TTWO the audacity of my boy Ryu, to call a green day on a red market &quot;dump&quot; for a 2% ahahahah its ok we got it you&#39;re mr wall street don&#39; worry darling",
+     "user": "djembollo",
+     "at": "2026-11-13T21:13:28Z"
     },
     {
-     "tag": "Bullish",
-     "body": "$TTWO 300",
-     "user": "Bunnyhop_Capital",
-     "at": "2026-11-13T15:10:03Z"
+     "tag": "Bearish",
+     "body": "$TTWO Lol. Playing a bounce with profits is greed now. The trade before this was +314%.",
+     "user": "Ryuk",
+     "at": "2026-11-13T21:03:33Z"
     }
    ]
   },
   "fear_greed": null,
   "vix": {
-   "value": 19.04,
+   "value": 19.3,
    "prev_close": 18.7,
    "week_ago": 25.64,
    "month_ago": 15.27
@@ -715,6 +814,10 @@
    {
     "t": "2026-11-13T19:57+00:00",
     "bull_pct": 61.1
+   },
+   {
+    "t": "2026-11-13T21:40+00:00",
+    "bull_pct": 52.9
    }
   ]
  },
@@ -748,13 +851,13 @@
   "range": {
    "1w": {
     "pct": 6.3,
-    "lo": 214.49,
-    "hi": 243.25
+    "lo": 213.93,
+    "hi": 242.61
    },
    "1m": {
     "pct": 12.9,
-    "lo": 200.78,
-    "hi": 259.85
+    "lo": 200.26,
+    "hi": 259.17
    }
   },
   "ai": null
@@ -770,7 +873,7 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 17,
+   "corroborated_by": 16,
    "sources": [
     "Benzinga",
     "BigGo Finance",
@@ -786,7 +889,6 @@
     "Take-Two IR (ทางการ)",
     "TipRanks",
     "Yahoo Finance",
-    "Yahoo Finance Singapore",
     "Yahoo! Finance Canada",
     "ad-hoc-news.de"
    ],
@@ -819,7 +921,7 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 45,
+   "corroborated_by": 42,
    "sources": [
     "Analytics Insight",
     "Barron's",
@@ -851,7 +953,6 @@
     "Notebookcheck",
     "OpenCritic",
     "Power Up Gaming",
-    "Simply Wall St",
     "Spiel Times",
     "TOKENPOST",
     "Tbreak UAE",
@@ -860,9 +961,7 @@
     "The Escapist",
     "TheGamer",
     "TipRanks",
-    "VGChartz",
     "Yahoo Finance",
-    "Yahoo Finance Singapore",
     "ad-hoc-news.de",
     "eTeknix",
     "se7en.ws"
@@ -916,7 +1015,7 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 8,
+   "corroborated_by": 7,
    "sources": [
     "Benzinga",
     "BigGo Finance",
@@ -924,8 +1023,7 @@
     "Business Insider",
     "Proactive financial news",
     "TipRanks",
-    "Yahoo Finance",
-    "Yahoo Finance Singapore"
+    "Yahoo Finance"
    ],
    "status": "single"
   },
@@ -981,6 +1079,24 @@
     "Benzinga",
     "BigGo Finance",
     "GamesRadar+"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "TTWO Nov 2026 210.000 call (TTWO261113C00210000) interactive stock chart",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE56dVFxSHRUb244aHRYT3ZWUXh5RmozRDZhVWxIZV9rUWZEY1hiQ3Vvd002ZS1ocV9wTEh0anI5T3N5UkI2eDJNTXc2c2p3MkZ0b0ZBWXJOYThLN2M4UmlHM1ZnRGdwaDFxV2tFM0R3?oc=5",
+   "domain": "uk.finance.yahoo.com",
+   "published": "2026-11-12T08:50:38+00:00",
+   "source": "Yahoo Finance UK",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 3,
+   "sources": [
+    "GuruFocus",
+    "Yahoo Finance",
+    "Yahoo Finance UK"
    ],
    "status": "single"
   },
@@ -1068,6 +1184,22 @@
    "status": "single"
   },
   {
+   "title": "Catalyst Watch: Anthropic IPO, Nvidia shockwaves, Nike event, and GTA 6 arrives (SPY:NYSEARCA)",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSUJzenNZZFFoSVZRRDRvUDVCWUJvUEZCNzlIUGZzVTlsakVmRVNqT1ByY0lPVFlNcFlMY0NXdWVDS3pqQ1pzazRuQzZnWDN4WE91TlNMMDd2ZWVSY3VhMm9nVW1XTjNsMGdKTHVScm9FLUFUVnl5eGZ0TnVXOTNOcW1NRm1YMzFjbzltTnRhNjBMWjJlazdFQWxmd3E1dW1RN3RqRVdGcTV3NUI4Y25HaFRyTQ?oc=5",
+   "domain": "seekingalpha.com",
+   "published": "2026-11-13T20:08:47+00:00",
+   "source": "Seeking Alpha",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Seeking Alpha"
+   ],
+   "status": "single"
+  },
+  {
    "title": "Kalshi is hiring a 'GTA VI Researcher' to livestream the game and study its economy",
    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQlR4S2QtZUc5QUlLSkxRb0lVWUVsWEw2OXBiMVE1SHkxUWV6Y1M0d1RRa2REdlRXWF9HRHlfM1RvTHRyR2hLZ2VlNVliMlgxX1VIOEJrQlY2VEtsdGxRZ3pYTkdxdnlXVHRKLXJlLVhaSEV6V0lGVUY5S2VmN01nQkVjMlV3OUppMzlXTkZERU82WW9weGQ2OWRMVFlkT1VXSFk1cGxWRk40LXJqQUQzRk14eFFYVm5UMWdoQlF4aV9VeUdpaW1LUUxQWGVKXzROWVc1WThXM2o?oc=5",
    "domain": "finance.yahoo.com",
@@ -1112,22 +1244,6 @@
    "corroborated_by": 1,
    "sources": [
     "Benzinga"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "TTWO261113P00220000 Interactive Stock Chart | TTWO Nov 2026 220.000 put Stock",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvZVFuUm1vUHQ2dENzVUpfOWJxUGJNVzBWMjV0UG90T1NDTW9HVUx4b0dUUlNfNzZuMnFhbXhPR0ViNnVYRUxiWDFISU1GMmVlVWlEM1VrWUVVS2ItUWNrQQ?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-12T03:31:52+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Yahoo Finance"
    ],
    "status": "single"
   }
@@ -4508,13 +4624,13 @@
    "o": 230.72,
    "h": 233.32,
    "l": 226.68,
-   "c": 228.415,
-   "v": 1914913,
-   "sma20": 207.785,
-   "sma50": 207.859,
-   "sma200": 218.422,
-   "rsi": 64.413,
-   "macd_hist": 3.717
+   "c": 227.82,
+   "v": 2984263,
+   "sma20": 207.755,
+   "sma50": 207.847,
+   "sma200": 218.419,
+   "rsi": 64.086,
+   "macd_hist": 3.679
   }
  ]
 }
