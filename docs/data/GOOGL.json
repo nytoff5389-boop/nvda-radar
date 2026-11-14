@@ -1,6 +1,6 @@
 {
  "ticker": "GOOGL",
- "generated_at": "2026-11-14T01:46:06.641623+00:00",
+ "generated_at": "2026-11-14T04:31:47.044445+00:00",
  "sample": false,
  "intraday": {
   "price": 295.77,
@@ -1017,7 +1017,7 @@
   "volume": 30712800
  },
  "verdict": {
-  "score": -2.5,
+  "score": -2.55,
   "level": "เสี่ยงมาก",
   "lean": "โน้มไปทาง SELL / ลดสถานะ",
   "key": "vbad",
@@ -1049,8 +1049,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.25,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.13 จาก 56 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.2,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.10 จาก 55 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -1074,11 +1074,23 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 7,
-   "bear": 2,
-   "bull_pct": 77.8,
-   "watchers": 239458,
+   "bull": 5,
+   "bear": 1,
+   "bull_pct": 83.3,
+   "watchers": 239466,
    "sample": [
+    {
+     "tag": "Bearish",
+     "body": "$GOOGL $MSFT $SPY $VZ $WMT - I told you it was a hack.. don’t believe government propaganda, this is a targeted attack.",
+     "user": "GTA_Terminal",
+     "at": "2026-11-14T02:14:10Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$GOOGL $AMZN Planes are back in the air.",
+     "user": "StockDudeIndy",
+     "at": "2026-11-14T01:55:13Z"
+    },
     {
      "tag": "Bullish",
      "body": "$GOOGL $MU $NVDA $QQQ $SPY Makes you wonder why our core infrastructure is so neglected. Multiple federal audits have confirmed that huge parts of our air traffic control network are 20–30 years behind—still relying on l",
@@ -1102,18 +1114,6 @@
      "body": "$GOOGL $GOOG days like this is when you load up. Not worried in the next 2 to 3 years. I have stocks and leap options. Buy and chill! No need to grind everyday!",
      "user": "masterbrucewayne",
      "at": "2026-11-13T22:23:56Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$AMZN $GOOGL Who in the hell would be selling after hours?? Anthropic IPO is next week!",
-     "user": "StockDudeIndy",
-     "at": "2026-11-13T22:18:04Z"
-    },
-    {
-     "tag": "Bearish",
-     "body": "$GOOGL what a waste of day. Whole fucking week grind to come to $300 and one candle all gone pufff 💨💨💨💨💩💩💩💩 😂😂",
-     "user": "SwingPlay",
-     "at": "2026-11-13T21:57:56Z"
     }
    ]
   },
@@ -1122,7 +1122,7 @@
    "value": 19.3,
    "prev_close": 18.7,
    "week_ago": 25.64,
-   "month_ago": 15.27
+   "month_ago": 16.87
   },
   "analysts": null,
   "history": [
@@ -1261,6 +1261,10 @@
    {
     "t": "2026-11-14T01:46+00:00",
     "bull_pct": 77.8
+   },
+   {
+    "t": "2026-11-14T04:31+00:00",
+    "bull_pct": 83.3
    }
   ]
  },
@@ -1452,91 +1456,37 @@
    "status": "official"
   },
   {
-   "title": "Form 4 Alphabet Inc Class A For: 13 November By Investing.com",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTWVHQks1VThKWWtfdG9BMVJOOHlJc0lySHhQVG53NDJSQW5NUVRPbXd1am1zemdJNVVvVlYzbkZsaHVpODlncHFWOUpHTFNxb0tHb2hKSGJ6MkgwVVFORWpIVzlsOGNCMUxVclA4enN1MzN4TVZEb1V0aE9EYTdPMVYyZ2FCWGhITDdfT1dtOG13d1RPNTU0YkllajRsNDlVNjNwbGdnYw?oc=5",
-   "domain": "in.investing.com",
-   "published": "2026-11-13T17:08:10+00:00",
-   "source": "Investing.com India",
-   "tier": 3,
+   "title": "Alphabet Inc., GOOG:NSQ summary - FT.com",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBGeDYzU2dEeDF1RmpuaF9wbWNfYTF4NWViZS1kOTlhSmRINmllNTBDLXpHYTc3OHpoVU9NajEzVVJ4Zl81SHQyaHdQcVdLRGJ3cm1ZU2xueWJJTHp4MHd6WFJaSGVxa3N0TzJ1cXJPY212N2dRa1ZBQTA1bF8?oc=5",
+   "domain": "ft.com",
+   "published": "2026-11-13T08:15:34+00:00",
+   "source": "Financial Times",
+   "tier": 1,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 4,
+   "corroborated_by": 3,
    "sources": [
     "Financial Times",
-    "Investing.com Australia",
     "Investing.com India",
-    "Investing.com UK"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "Alphabet Inc. (GOOG) Is a Trending Stock: Facts to Know Before Betting on It",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcmk0OU1mQjZsV3BhNTVCNmczZGcwdzFVV0NlYXUtYlgtbE9mSlk1eVpFVkY0aG1EbmZTbkVPVWV1VnMyN1JWVVhNYzBOQnIybTR3b3REQ0FxUllEcTd6RWlUVGVmTnpENW45MTlPa1F3LXp0aFF2RnA1NmlaX0VyU29CZ0w4LW9RTUI3VHFDMHV6bGZ3ZmR5RFFjcDNOdw?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-13T13:00:04+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "Financial Times",
-    "Yahoo Finance",
-    "Yahoo Finance Australia"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "42 ETFs Add to Alphabet (GOOG) on Wednesday",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRnVrY1piT1lsV2VhQ3hzUXBqeXliQjVLYzR6MkFocjFMR2RxQmR3SlRULWUxVjh6VnRndXRmUUVGSmdJS0FjTWRPWkZhQk1JUDNiNFpFOXVoVWNZSDRZeHIxNnhsYjFEQUtoQS1sbGFxU1JDSm9sTTd0aDJ0XzZnOHJvU0ppVl9IWTE3Sjg0QXdIckR2?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-13T11:02:03+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "Financial Times",
-    "Seeking Alpha",
     "Yahoo Finance"
    ],
    "status": "verified"
   },
   {
-   "title": "Google: Trending News, Latest Updates, Analysis",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0xcUZzWkVQekZacW03c3o4OVFVWWlFeUZubDlxenhEa3NYMmduMmVud2JmUkh6WXVqQndkbW1NX0xoN1UwWFoxZm1PTQ?oc=5",
-   "domain": "bloomberg.com",
-   "published": "2026-11-13T13:39:27+00:00",
-   "source": "Bloomberg",
+   "title": "Alphabet’s Wing to Build New Texas Factory for Delivery Drones",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZndfY1NQZk1HN3VPR3RQVDgyb3NJSFJNN0kyN3BmVW8tUl9sQTl4cVpXLTZwX3BDZFNDUGd5LV9KUGx1SUx1UjNZd216UmVySlZHcEhWdmJNU0VSM2NDVElCSTREVmw4Q2ZVaFV2VEc3NGpOMU1sZTh2UjVsX2NzUVZ4UDlhb19xTlN3N3lpSzIyeDlTcG43OUNTaXNQTm1pMm9CLUo2MGhxTVk?oc=5",
+   "domain": "wsj.com",
+   "published": "2026-11-13T09:51:25+00:00",
+   "source": "The Wall Street Journal",
    "tier": 1,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 2,
    "sources": [
-    "Bloomberg",
-    "The Information"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "Warby Parker bets on Google AI glasses for growth, but privacy fears still loom",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdEZUUGlzOUZwcFdtamtJMHBhWUVzaGNtV2ZDX052OU11RkVnRENCbmxnQlpPem5PTG1EYnR4RTRWM0wtcDB2MG1GTHI0akxGMUJZRUFRdzFtUW1hM0ZxOTRFcndMN0dUQnk4Q2pkS0s1aFR3UVk2bWdZcUt2OUE2OXhpVkM1NzZGWi1XYjNfaTFER2NqaThfY28tNjBaejd1NXlLOFc3R0hDal84LWc1WDJyS3FsVXpqOVJfZ3pwVXNoTFBjdzZz?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-12T20:16:11+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "Bloomberg",
-    "Reuters"
+    "Dealroom",
+    "The Wall Street Journal"
    ],
    "status": "verified"
   },
@@ -1550,36 +1500,16 @@
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 7,
+   "corroborated_by": 8,
    "sources": [
     "24/7 Wall St.",
     "Benzinga",
     "BigGo Finance",
-    "GuruFocus",
     "NAI500",
+    "StreetInsider",
     "The Motley Fool",
+    "Yahoo Finance",
     "Yahoo! Finance Canada"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Anthropic: Why You Should Consider Pre-IPO Ownership Via Alphabet (GOOG) (GOOGL) (ANT)",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcE9VOGxvQ2hlcDRaRzc1RExSRlg3eTc4WE1KOHd6T0xZR3ZraG5aQXZaN2I1dkE0T1B0LVd4MGEzMHE2Z2RiTVFlMHViTjJ6VHBwR01BQXVrNGJIQ2g4bkFqeVhTVDBDaUdVYTJ6R1B5akdKdXQ0RVk0LVhWR3g1dTdPemVrRmk1dzQta1ZXVHpQVVluYVRFbXdGQmFzdV9QZ1p3?oc=5",
-   "domain": "seekingalpha.com",
-   "published": "2026-11-13T16:58:09+00:00",
-   "source": "Seeking Alpha",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 6,
-   "sources": [
-    "GuruFocus",
-    "Howl.Link",
-    "Seeking Alpha",
-    "Stock Titan",
-    "The Motley Fool",
-    "Yahoo Finance Australia"
    ],
    "status": "single"
   },
@@ -1604,6 +1534,26 @@
    "status": "single"
   },
   {
+   "title": "Anthropic: Why You Should Consider Pre-IPO Ownership Via Alphabet (GOOG) (GOOGL) (ANT)",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcE9VOGxvQ2hlcDRaRzc1RExSRlg3eTc4WE1KOHd6T0xZR3ZraG5aQXZaN2I1dkE0T1B0LVd4MGEzMHE2Z2RiTVFlMHViTjJ6VHBwR01BQXVrNGJIQ2g4bkFqeVhTVDBDaUdVYTJ6R1B5akdKdXQ0RVk0LVhWR3g1dTdPemVrRmk1dzQta1ZXVHpQVVluYVRFbXdGQmFzdV9QZ1p3?oc=5",
+   "domain": "seekingalpha.com",
+   "published": "2026-11-13T16:58:09+00:00",
+   "source": "Seeking Alpha",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 5,
+   "sources": [
+    "Howl.Link",
+    "Seeking Alpha",
+    "Stock Titan",
+    "The Motley Fool",
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
    "title": "Alphabet stock: Google parent raises $3.8 billion in Asia bonds - ad-hoc-news.de",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQS1VQc1NWd3lZdUR6NThtR0JjTWJiT1VsZUU2SEVseDdOTU5pM3ZWN05lZ1kwUXN4bk9UQzRyQURUaV9VT1lyaGNZdWRxWnBSRkhaLUd6MEJmLVhsT2VMZzFqQWFXNnhfdml6djJBbGd4SFdMWWc0bC1kcEw4RUdENFVPT2NJZ0JZQXF5OEdRLVZwRDVMaF9zX1NwOFBjNVdaNTJLMmowZldWREFFTVo1dTBVclNkekxPZENWY2FNYzV2UQ?oc=5",
    "domain": "ad-hoc-news.de",
@@ -1616,9 +1566,9 @@
    "corroborated_by": 5,
    "sources": [
     "Channel Insider",
-    "GuruFocus",
     "Quartz",
     "Traders Union",
+    "Yahoo Finance",
     "ad-hoc-news.de"
    ],
    "status": "single"
@@ -1679,24 +1629,6 @@
    "status": "single"
   },
   {
-   "title": "If You Invest $1,000 in Alphabet Today, Here’s What It Could Be Worth by 2030",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdTl3bFhRMjlzclN3WUFoTTVhUUhkNERhU1dZVGw1TXhxWnJQd0tvUlJmV0I2b3pnNWI4ZXlzQlVuNzVrQjI0REMwbjBOcW5kQlpkUkhlZGsxRjRRaDkzejlTUUF3dUQxOFM1VjNCcGdEbVVHZUpKNE5VUTFrVlpPblBNRlBzdXBwODY0N2M3QUZfRDZPaWd3?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-13T14:33:40+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "Finanzen.net",
-    "Yahoo Finance",
-    "Yahoo Finance Australia"
-   ],
-   "status": "single"
-  },
-  {
    "title": "Institutional Flow in Alphabet (GOOGL): 54% of the Options Money Is in Puts",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNHRWLWl3UzZfVkd5YVg2VkRuNUxRdndVN1pqWW5aN0ZPUl9KUjczSHpSTHV3WEtZLWFEdzEtZ2RJMlcxLXpxRi1SbU9ROXlQU1BNUzJQRzdMUEpXVmFkdXVsdUkyYi15RDIyUVY4LWtmU2xFY0ozQy1Xeml1RXNacktfenRVMmduYkg5cEpjdk44UjBCM3lqODVwOUpfeU5acDg3OE9CUENkLUNNdTAwUmtaMC0?oc=5",
    "domain": "moomoo.com",
@@ -1711,24 +1643,6 @@
     "CNBC",
     "Moomoo",
     "Seeking Alpha"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Form 144 | Alphabet-C(GOOG.US) Insider Proposes to Sell 132.62 Million in Common Stocks",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUmlTTlk1Zk9IcHVTbTlUY0tGYm4wNmpHWjZoeWc1RXJoWjZ5dXJQOVBQVzBOUGw4T3pNWVdxZHNRTVo5Z0pnY1dkalZVcTV6SFo5bFg1Q3BKUUVobENKalQzbGxtRV8xYTBGYjV4TlRLd1N2MXZfN196cEZvR05xNmFlYVNhbkVNU2xSTHo5YXl0eWNGRE14TG9aa3BiRmQxU1E?oc=5",
-   "domain": "moomoo.com",
-   "published": "2026-11-12T21:24:11+00:00",
-   "source": "Moomoo",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "CEOWORLD magazine",
-    "Investing.com UK",
-    "Moomoo"
    ],
    "status": "single"
   },
@@ -1751,24 +1665,6 @@
    "status": "single"
   },
   {
-   "title": "Alphabet (GOOGL) Just Moved, What Is Driving Attention Now?",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTlRyeDhYRHNIeWxaZHR6S0R0eFZudlBGQm1GY2VmdmtHNVpkNlJDdENocVlvLUZxeTBQcUUyZWZNN21ORE1KVHIzdjIwZ0ZHU3JnbkFCdUFjSjRnbkM2LXBWbWZVbFhSU1R4YkFWdTAyUHFna0haaHhiRDlneHdvcUk5U0RjWEtPRjNyN3FLU2J3cjlZRU80SVF1amxZRms?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-12T16:13:05+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "Benzinga",
-    "Yahoo Finance",
-    "Yahoo Finance Australia"
-   ],
-   "status": "single"
-  },
-  {
    "title": "Dow's nearly 150-point rally led by gains in shares of Alphabet Inc. Cl A, Travelers",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQXdweXBfZmVHVV9hYWR6RVB4X1ZWX0paeXp5T05QaVhkaXZCNkYtSWZOUzhMdzVpLVFMbXVUNmxSV2dpb2FiY2VwMDc0QXFrZFhVUnUtUkdqdmFON1hIc0NQb0NoUFExcV9IYTVYV2ZJU0NOZ0ZVS2Z3ZzE3YWpaMjd1SU9Oa18wN0UxVHQwRFhXWnh3VGZVMVc0bHVmSnAyMTFqRVdObjlVMGhzUTZPSHJZUzg2cEhsZmxrRVBJNmt5M0xheXROQTNsRU5Rb05HMWUtQ2lNZXdaZw?oc=5",
    "domain": "marketwatch.com",
@@ -1782,6 +1678,23 @@
    "sources": [
     "MarketWatch",
     "NAI500"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "David Taylor reports Alphabet stock purchases By Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRU9hODNzbmRlWkxYY0RPMk5Gb0hsdHVpVi05X0kzMFNkV1NnQjhwRGRiUENDWFNxUmthWERLb0cwQlFHR1NLQlRuSkYtQTkwdVktTGxGaVozVTc4ak41ZE1nLXV4Y1B3WTE1NERheUFmZEFEeFdzN0ctVHVNMXZDZmtzUnN0VUZvYWtUODBMcWpPcG9JY3ZRVjE1SnZ2MTZnYlRUYjBxdXYyUQ?oc=5",
+   "domain": "au.investing.com",
+   "published": "2026-11-13T23:03:03+00:00",
+   "source": "Investing.com Australia",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "Investing.com Australia",
+    "Investing.com India"
    ],
    "status": "single"
   },
@@ -1820,6 +1733,23 @@
    "status": "single"
   },
   {
+   "title": "If You Invest $1,000 in Alphabet Today, Here’s What It Could Be Worth by 2030",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdTl3bFhRMjlzclN3WUFoTTVhUUhkNERhU1dZVGw1TXhxWnJQd0tvUlJmV0I2b3pnNWI4ZXlzQlVuNzVrQjI0REMwbjBOcW5kQlpkUkhlZGsxRjRRaDkzejlTUUF3dUQxOFM1VjNCcGdEbVVHZUpKNE5VUTFrVlpPblBNRlBzdXBwODY0N2M3QUZfRDZPaWd3?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-13T14:33:40+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "Finanzen.net",
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
    "title": "‘It’s just an attractive buying opportunity’: Ciero on Alphabet",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR2xGMWN0M01XQWMyQ1ViY1M1QXNVQm1CV3NScDFrTmJSWVg1UTB2NkRFTGJNN1VzZGJzM0g4LXdFSDc2NEtLbUhZWEFqRFpfaEZ2NFVhaHpzcDNjSFpUVWIxdzRrakR6TndTSkVHRlNNc21VV3NXemJvempRUmV6UktDTVc4NlB6bmsxZWU3UW03Vno2WExlemhGdzdfcVU1bEhsQlFkUGdRWWNRdlQ4WTdrbXdPZU1mMkM5b0JnNA?oc=5",
    "domain": "bnnbloomberg.ca",
@@ -1849,6 +1779,40 @@
    "corroborated_by": 2,
    "sources": [
     "Channel Insider",
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Form 144 | Alphabet-C(GOOG.US) Insider Proposes to Sell 132.62 Million in Common Stocks",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUmlTTlk1Zk9IcHVTbTlUY0tGYm4wNmpHWjZoeWc1RXJoWjZ5dXJQOVBQVzBOUGw4T3pNWVdxZHNRTVo5Z0pnY1dkalZVcTV6SFo5bFg1Q3BKUUVobENKalQzbGxtRV8xYTBGYjV4TlRLd1N2MXZfN196cEZvR05xNmFlYVNhbkVNU2xSTHo5YXl0eWNGRE14TG9aa3BiRmQxU1E?oc=5",
+   "domain": "moomoo.com",
+   "published": "2026-11-12T21:24:11+00:00",
+   "source": "Moomoo",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "CEOWORLD magazine",
+    "Moomoo"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "What's Going On With Alphabet Stock Thursday?",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPXy1WempBNjd2Z2M4WGNtbEtpbXpQWWNDVm1BdG1WS3psWW1QZm5pWDdtMmZJdXZiTl9qenllWHUzZ1lyTjBWNEsyWHpjMlprN0JDWks3dWQ0MGRXM0ZyRXVmREZ1SGRSU0IwUVdQQXdVYjRzX09vc1pPLXRJcEY5bWN2ZnhFWUt0X1d5a2p6d2RMRWViNngxUmNvaUZPU00?oc=5",
+   "domain": "benzinga.com",
+   "published": "2026-11-12T18:17:43+00:00",
+   "source": "Benzinga",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "Benzinga",
     "Yahoo Finance"
    ],
    "status": "single"
@@ -1888,22 +1852,6 @@
    "status": "single"
   },
   {
-   "title": "Alphabet’s Wing to Build New Texas Factory for Delivery Drones",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZndfY1NQZk1HN3VPR3RQVDgyb3NJSFJNN0kyN3BmVW8tUl9sQTl4cVpXLTZwX3BDZFNDUGd5LV9KUGx1SUx1UjNZd216UmVySlZHcEhWdmJNU0VSM2NDVElCSTREVmw4Q2ZVaFV2VEc3NGpOMU1sZTh2UjVsX2NzUVZ4UDlhb19xTlN3N3lpSzIyeDlTcG43OUNTaXNQTm1pMm9CLUo2MGhxTVk?oc=5",
-   "domain": "wsj.com",
-   "published": "2026-11-13T09:51:25+00:00",
-   "source": "The Wall Street Journal",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "The Wall Street Journal"
-   ],
-   "status": "single"
-  },
-  {
    "title": "OpenAI, Google, Anthropic hit with lawsuit seeking halt to frontier AI development",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWTR4ak5BdnRmV3hzYTZOcVhBYklWU01YRmtLak03b2hmeC1PMTd5blRQWUkxR2Q1ZXZWRC0xNkNxVDVoN2VOdTVlX1hFMXgwS1Y5TW1fUGt4NThQaEhRVFdna1YxUDhLTnBYUFJ6WTlFajlLM1BZTTRwNk5sWFMydkZtMlJNUnU4MWlDcUN6QmNtVHdUT1pLNXd6QXc4QVk0WmMtM1JxWU5XVC1PUGRIMVJNY2wzN1Z1d2N6WWJkbw?oc=5",
    "domain": "reuters.com",
@@ -1911,6 +1859,22 @@
    "source": "Reuters",
    "tier": 1,
    "sentiment": -1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Reuters"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Warby Parker bets on Google AI glasses for growth, but privacy fears still loom",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdEZUUGlzOUZwcFdtamtJMHBhWUVzaGNtV2ZDX052OU11RkVnRENCbmxnQlpPem5PTG1EYnR4RTRWM0wtcDB2MG1GTHI0akxGMUJZRUFRdzFtUW1hM0ZxOTRFcndMN0dUQnk4Q2pkS0s1aFR3UVk2bWdZcUt2OUE2OXhpVkM1NzZGWi1XYjNfaTFER2NqaThfY28tNjBaejd1NXlLOFc3R0hDal84LWc1WDJyS3FsVXpqOVJfZ3pwVXNoTFBjdzZz?oc=5",
+   "domain": "reuters.com",
+   "published": "2026-11-12T20:16:11+00:00",
+   "source": "Reuters",
+   "tier": 1,
+   "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
@@ -1968,10 +1932,26 @@
    "status": "single"
   },
   {
+   "title": "Run a Process Improvement Analysis with Google Gemini",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWnRnRFgycllMUUtDeGJzNEVYcDAxVjZWanc3TlMtdHdvN042eXg2YW8yemEtUThZZmUxdmZGazQyZVk2NHk5WDNfakwzQWhRTC1kZHhuNU1PWTg1b2drLTBNZ0VvYXZzS1Zwakgtd0p1MHplUHd0alltVVBEaXF4NkRuY2lKY09KUDllbThsUQ?oc=5",
+   "domain": "theinformation.com",
+   "published": "2026-11-12T14:27:00+00:00",
+   "source": "The Information",
+   "tier": 2,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "The Information"
+   ],
+   "status": "single"
+  },
+  {
    "title": "Alphabet City bookstore opens brick-and-mortar location in downtown Victoria",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZ1hQT242NGJJRzNubmFVZTJHQWNtdHcwNzd4ZThNdWQyZEhrQ2lUbjdicXlKYXh3TFFwZnN4UVNpMDlRU1BGQlAxMUlkNEVES1BWT1l6OTlEblNtY01SSG1KZVBYQXhVNTZKVVZYYjBTQ2hmWWdFNVZyYVpuUmFudG44VHE1dWZjTHlscG9IZm5TZzVRWnpVa2tOcmdPTUY3aVlfdV9Oc1BXdGVxS05R?oc=5",
    "domain": "victoriabuzz.com",
-   "published": "2026-11-13T23:07:37+00:00",
+   "published": "2026-11-13T23:08:30+00:00",
    "source": "Victoria Buzz",
    "tier": 3,
    "sentiment": 0.0,

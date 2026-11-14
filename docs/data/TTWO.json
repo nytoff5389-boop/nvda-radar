@@ -1,6 +1,6 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-14T01:46:11.677733+00:00",
+ "generated_at": "2026-11-14T04:31:51.406893+00:00",
  "sample": false,
  "intraday": {
   "price": 227.82,
@@ -740,7 +740,7 @@
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
     "value": 0.19,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.10 จาก 20 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "why": "ค่าเฉลี่ยโทนข่าว +0.09 จาก 20 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -753,11 +753,17 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 11,
+   "bull": 12,
    "bear": 6,
-   "bull_pct": 64.7,
+   "bull_pct": 66.7,
    "watchers": 25342,
    "sample": [
+    {
+     "tag": "Bullish",
+     "body": "$TTWO Think Netflix wants to buy them. They seem to have a close relationship!",
+     "user": "Annie_Preferred",
+     "at": "2026-11-14T02:12:08Z"
+    },
     {
      "tag": "Bullish",
      "body": "$TTWO",
@@ -787,12 +793,6 @@
      "body": "$TTWO absolutely insane https://x.com/polymarketmoney/status/2121242343714263549?a=XGh8BxOz0YGYVBW8oA4&amp;s=46",
      "user": "Jewstock",
      "at": "2026-11-13T21:40:21Z"
-    },
-    {
-     "tag": "Bearish",
-     "body": "$TTWO Down 10% year to date. Sell the news in theaters next week...",
-     "user": "amex_platinum",
-     "at": "2026-11-13T21:34:07Z"
     }
    ]
   },
@@ -801,7 +801,7 @@
    "value": 19.3,
    "prev_close": 18.7,
    "week_ago": 25.64,
-   "month_ago": 15.27
+   "month_ago": 16.87
   },
   "analysts": null,
   "history": [
@@ -892,6 +892,10 @@
    {
     "t": "2026-11-14T01:46+00:00",
     "bull_pct": 64.7
+   },
+   {
+    "t": "2026-11-14T04:31+00:00",
+    "bull_pct": 66.7
    }
   ]
  },
@@ -947,7 +951,7 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 16,
+   "corroborated_by": 17,
    "sources": [
     "Benzinga",
     "BigGo Finance",
@@ -964,7 +968,8 @@
     "TipRanks",
     "Yahoo Finance",
     "Yahoo! Finance Canada",
-    "ad-hoc-news.de"
+    "ad-hoc-news.de",
+    "scanx.trade"
    ],
    "status": "official"
   },
@@ -1007,7 +1012,6 @@
     "Business Insider",
     "Business Insider Africa",
     "Central Oregon Daily",
-    "Estadão",
     "GameByte",
     "GameSpot",
     "GamerBraves",
@@ -1025,6 +1029,7 @@
     "OpenCritic",
     "Power Up Gaming",
     "Spiel Times",
+    "Stocktwits",
     "TOKENPOST",
     "Tbreak UAE",
     "Tech4Gamers",
@@ -1061,7 +1066,7 @@
    "title": "LightShed's Brandon Ross: GTA 6 could be biggest video game launch ever",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaFVZUndCcWdUcHVzaUFydWtMYllic3RXLWFOZjk5eERCWjg4S3FMNXI4b21GQ2dRWHZSZlAxTXJZaXU0Q0Zsd05IYXF4R2tpaHpMc1BzVkhhUktMSnFZaVpocVJRUU5sM1lIS2dOSnhHU0JLVFotMUtNYUtpNGxieF9WN0hNTGhZV3JQT0wxMW9lNHc4Y2FwSHRSd3BoTmJZbkhqVUh0a2p1bUszbDBxUFRn?oc=5",
    "domain": "cnbc.com",
-   "published": "2026-11-13T22:26:35+00:00",
+   "published": "2026-11-13T22:26:36+00:00",
    "source": "CNBC",
    "tier": 2,
    "sentiment": 1.0,
@@ -1085,13 +1090,14 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 7,
+   "corroborated_by": 8,
    "sources": [
     "Benzinga",
     "BigGo Finance",
     "Blockonomi",
     "Business Insider",
     "Proactive financial news",
+    "Stocktwits",
     "TipRanks",
     "Yahoo Finance"
    ],
@@ -1138,7 +1144,7 @@
    "title": "PS5 passes 100 million units as Bank of America says GTA VI needs a $1.9 billion opening",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd1JtR3V2MWVfUXpTTDNpeVc2OE90QkkyR0ZoVmd6TG5KVVd5UEVYVnJLTjR3Q1U2bVlMUWJ2aXVWOURkTFVncllJWXJuNVphc2d4UGY1bUNZVndmWjBGNXk5T0hYVlZmZ045SXFxN2RpWW5ocDY2YkdjdUdxTWl1RmctbU42UGNyT21RdVFSRkRKQ3lpNW5WRTRHclFVeTJBYXg1ei0xb0lueHc?oc=5",
    "domain": "mlq.ai",
-   "published": "2026-11-13T21:52:26+00:00",
+   "published": "2026-11-13T21:52:10+00:00",
    "source": "MLQ.ai",
    "tier": 3,
    "sentiment": 0.0,
