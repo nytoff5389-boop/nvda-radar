@@ -1,6 +1,6 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-13T21:40:38.111118+00:00",
+ "generated_at": "2026-11-14T01:46:11.677733+00:00",
  "sample": false,
  "intraday": {
   "price": 227.82,
@@ -588,8 +588,78 @@
     "s": "post"
    },
    {
-    "t": 1794606020,
-    "c": 227.0,
+    "t": 1794606000,
+    "c": 227.22,
+    "s": "post"
+   },
+   {
+    "t": 1794606300,
+    "c": 228.8,
+    "s": "post"
+   },
+   {
+    "t": 1794606600,
+    "c": 228.99,
+    "s": "post"
+   },
+   {
+    "t": 1794606900,
+    "c": 228.82,
+    "s": "post"
+   },
+   {
+    "t": 1794607200,
+    "c": 228.7,
+    "s": "post"
+   },
+   {
+    "t": 1794607500,
+    "c": 228.96,
+    "s": "post"
+   },
+   {
+    "t": 1794607800,
+    "c": 228.84,
+    "s": "post"
+   },
+   {
+    "t": 1794608400,
+    "c": 229.0,
+    "s": "post"
+   },
+   {
+    "t": 1794609900,
+    "c": 228.25,
+    "s": "post"
+   },
+   {
+    "t": 1794610800,
+    "c": 228.29,
+    "s": "post"
+   },
+   {
+    "t": 1794612300,
+    "c": 227.89,
+    "s": "post"
+   },
+   {
+    "t": 1794612600,
+    "c": 227.89,
+    "s": "post"
+   },
+   {
+    "t": 1794616200,
+    "c": 228.1,
+    "s": "post"
+   },
+   {
+    "t": 1794617700,
+    "c": 228.06,
+    "s": "post"
+   },
+   {
+    "t": 1794617945,
+    "c": 228.06,
     "s": "post"
    }
   ],
@@ -599,8 +669,8 @@
    "s": "pre"
   },
   "post": {
-   "t": 1794606020,
-   "c": 227.0,
+   "t": 1794617945,
+   "c": 228.06,
    "s": "post"
   },
   "periods": {
@@ -634,10 +704,10 @@
   "hi52": 265.94,
   "drawdown_pct": -14.3341,
   "avg_vol20": 3256945.0,
-  "volume": 2984263
+  "volume": 3015400
  },
  "verdict": {
-  "score": 0.3,
+  "score": 0.44,
   "level": "ปกติ",
   "lean": "HOLD / รอสัญญาณ",
   "key": "neutral",
@@ -669,8 +739,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.05,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.03 จาก 19 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.19,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.10 จาก 20 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -683,11 +753,35 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 9,
-   "bear": 8,
-   "bull_pct": 52.9,
-   "watchers": 25331,
+   "bull": 11,
+   "bear": 6,
+   "bull_pct": 64.7,
+   "watchers": 25342,
    "sample": [
+    {
+     "tag": "Bullish",
+     "body": "$TTWO",
+     "user": "LexxF",
+     "at": "2026-11-14T00:22:29Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO bought more March $280 calls today @ $10.90. Averaged down and will sell some PMCCs when we hit $250 hopefully next week! 🤞👊🤑🏦",
+     "user": "Siccest1",
+     "at": "2026-11-14T00:17:38Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$SPCX $TTWO These guys have action!",
+     "user": "Annie_Preferred",
+     "at": "2026-11-13T23:48:13Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO do not expect a massive run before GTA6 launch. It will likely start moving higher to ATH after Christmas.",
+     "user": "Dreamworks27",
+     "at": "2026-11-13T21:57:00Z"
+    },
     {
      "tag": "Bullish",
      "body": "$TTWO absolutely insane https://x.com/polymarketmoney/status/2121242343714263549?a=XGh8BxOz0YGYVBW8oA4&amp;s=46",
@@ -699,30 +793,6 @@
      "body": "$TTWO Down 10% year to date. Sell the news in theaters next week...",
      "user": "amex_platinum",
      "at": "2026-11-13T21:34:07Z"
-    },
-    {
-     "tag": "Bearish",
-     "body": "$TTWO That awkward moment when you realize I also trade options.",
-     "user": "Ryuk",
-     "at": "2026-11-13T21:15:54Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "@Ryuk The best time to short this was months ago (August) I am long $TTWO but even I was fully hedged and made a load! We will see how things shake out short term! Long term bull here!",
-     "user": "JOCO2025",
-     "at": "2026-11-13T21:15:10Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO the audacity of my boy Ryu, to call a green day on a red market &quot;dump&quot; for a 2% ahahahah its ok we got it you&#39;re mr wall street don&#39; worry darling",
-     "user": "djembollo",
-     "at": "2026-11-13T21:13:28Z"
-    },
-    {
-     "tag": "Bearish",
-     "body": "$TTWO Lol. Playing a bounce with profits is greed now. The trade before this was +314%.",
-     "user": "Ryuk",
-     "at": "2026-11-13T21:03:33Z"
     }
    ]
   },
@@ -818,19 +888,15 @@
    {
     "t": "2026-11-13T21:40+00:00",
     "bull_pct": 52.9
+   },
+   {
+    "t": "2026-11-14T01:46+00:00",
+    "bull_pct": 64.7
    }
   ]
  },
  "outlook": {
   "themes": [
-   {
-    "key": "gta",
-    "label": "GTA 6 / วันวางขาย",
-    "count": 5,
-    "tone": 0.0,
-    "example": "Career Openings at Rockstar Games",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOWVlMU1hdFRjRWQySHQxUnBRR1YwaEJWX1ZsRzJLeE12UzVGcV9IS3hiMnJ4NnR0dkpmWlYtWWhINHBpOEZ3OFhTUExid0ZyZHdJMS1vNkJHWkc2SUlTUWdBLXFpMkxtLVkweDhWRFBHQksycE5DWGZ2MHREOVJrLWo5M3gySzNXUzl0YmstVHBmUnpodEtxaXZrYTBXU21OY040ektwcTNEMmlHSEtOYXF3V2g1MFhR?oc=5"
-   },
    {
     "key": "earnings",
     "label": "งบการเงิน / คาดการณ์รายได้",
@@ -846,6 +912,14 @@
     "tone": 0.0,
     "example": "Take-Two CEO Says GTA 6 Preorders Are “Vastly” Beating Expectations, and Another Big Game Is Paying the Price",
     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HN21hbm1GNU00TEFyTm5RbWVFWWZqdFZpM3RWWnplNUpnVjBjV3AyM1pyd3Rwc2hiUDMxTExUc0cxbExsMzluZ1dHektuRzJEZjFHX1pWNlhxZHJQTV9R?oc=5"
+   },
+   {
+    "key": "gta",
+    "label": "GTA 6 / วันวางขาย",
+    "count": 5,
+    "tone": 0.2,
+    "example": "Career Openings at Rockstar Games",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOWVlMU1hdFRjRWQySHQxUnBRR1YwaEJWX1ZsRzJLeE12UzVGcV9IS3hiMnJ4NnR0dkpmWlYtWWhINHBpOEZ3OFhTUExid0ZyZHdJMS1vNkJHWkc2SUlTUWdBLXFpMkxtLVkweDhWRFBHQksycE5DWGZ2MHREOVJrLWo5M3gySzNXUzl0YmstVHBmUnpodEtxaXZrYTBXU21OY040ektwcTNEMmlHSEtOYXF3V2g1MFhR?oc=5"
    }
   ],
   "range": {
@@ -921,7 +995,7 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 42,
+   "corroborated_by": 39,
    "sources": [
     "Analytics Insight",
     "Barron's",
@@ -932,16 +1006,13 @@
     "Bloomberg",
     "Business Insider",
     "Business Insider Africa",
-    "CNBC TV18",
     "Central Oregon Daily",
-    "ChannelNews.com.au",
+    "Estadão",
     "GameByte",
     "GameSpot",
     "GamerBraves",
     "GamesRadar+",
-    "GamingBolt",
     "GuruFocus",
-    "HOLR Magazine",
     "IGN India",
     "India News Network",
     "Insider Gaming",
@@ -978,30 +1049,29 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 4,
+   "corroborated_by": 3,
    "sources": [
     "Associated Press",
-    "Barron's",
     "Bloomberg",
     "CNBC"
    ],
    "status": "verified"
   },
   {
-   "title": "Strauss Zelnick Believes Arrogance Threatens Continued Success",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OUTI4MVFPLUUwbEVCcXFVd0JYRGp1OURTa2RyNEhHdTBpUGFQNmZKdHZnaE5QX1NhckVKUUdWRGpvRFdqOXhUcmdETXBMR1laSGV3UXFZNXg2OWpDcWZnQVZ0S3JLeno2NVRSalJBZlBPRFk3ZHFheWgxNA?oc=5",
-   "domain": "insider-gaming.com",
-   "published": "2026-11-12T22:05:20+00:00",
-   "source": "Insider Gaming",
-   "tier": 3,
-   "sentiment": 0.0,
+   "title": "LightShed's Brandon Ross: GTA 6 could be biggest video game launch ever",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaFVZUndCcWdUcHVzaUFydWtMYllic3RXLWFOZjk5eERCWjg4S3FMNXI4b21GQ2dRWHZSZlAxTXJZaXU0Q0Zsd05IYXF4R2tpaHpMc1BzVkhhUktMSnFZaVpocVJRUU5sM1lIS2dOSnhHU0JLVFotMUtNYUtpNGxieF9WN0hNTGhZV3JQT0wxMW9lNHc4Y2FwSHRSd3BoTmJZbkhqVUh0a2p1bUszbDBxUFRn?oc=5",
+   "domain": "cnbc.com",
+   "published": "2026-11-13T22:26:35+00:00",
+   "source": "CNBC",
+   "tier": 2,
+   "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 3,
    "sources": [
     "Bloomberg",
-    "Insider Gaming",
-    "eTeknix"
+    "CNBC",
+    "TheGamer"
    ],
    "status": "verified"
   },
@@ -1043,6 +1113,42 @@
     "Business Insider",
     "Dexerto",
     "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "TTWO Stock Rises Premarket: GTA 6 Boss Explains Why Keeping Its Satire Relevant Is Harder Than Ever",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcGxPNjNQazZ3NkNvNFZ5Qkp6M21Yb3V0aVdYa0Z4NGZpNGtuZkMtUVVWaUFmUkZuOTJGNXotZzFFcHhUdXQ3MDlEaFRmMVF1TTNRTVdaVUpoTDd6QnppNUFQMEhRUDJfcjlpQ3RuM0kyOUc0cjJFcFplalMwNVBwQXdNeUw0NXpRUEN3MjhFSjFZYm9QMHRWYTg5cVYyd1JyMmJrVUVFZVgyZkkwYnBacEpyazk1NmNVbTFJbWlOMERLR0hqekpzX0t0Q1NkdDkxZlRLYVBOcHk5WVMyRk9LaWM4SnRWYXkyaDBkRnA5OWtNWVVs?oc=5",
+   "domain": "stocktwits.com",
+   "published": "2026-11-13T23:57:52+00:00",
+   "source": "Stocktwits",
+   "tier": 3,
+   "sentiment": 1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 3,
+   "sources": [
+    "Stocktwits",
+    "TipRanks",
+    "UNILAD"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "PS5 passes 100 million units as Bank of America says GTA VI needs a $1.9 billion opening",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd1JtR3V2MWVfUXpTTDNpeVc2OE90QkkyR0ZoVmd6TG5KVVd5UEVYVnJLTjR3Q1U2bVlMUWJ2aXVWOURkTFVncllJWXJuNVphc2d4UGY1bUNZVndmWjBGNXk5T0hYVlZmZ045SXFxN2RpWW5ocDY2YkdjdUdxTWl1RmctbU42UGNyT21RdVFSRkRKQ3lpNW5WRTRHclFVeTJBYXg1ei0xb0lueHc?oc=5",
+   "domain": "mlq.ai",
+   "published": "2026-11-13T21:52:26+00:00",
+   "source": "MLQ.ai",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 3,
+   "sources": [
+    "MLQ.ai",
+    "Proactive financial news",
+    "TheStreet"
    ],
    "status": "single"
   },
@@ -1101,19 +1207,19 @@
    "status": "single"
   },
   {
-   "title": "Reason why GTA 6 launch day is a bigger problem for US employers than a few empty desks",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcGZHZUI3Um5kTzFiSnVyNnBpS052Y0M2RW1sVlVBcjhzYnVkTWIzMkhYVkNpSG5pQV9jSXpzVHNXRTM4T1JfNXcwbldLWjA2ZnV6aTR1WWdfdXhNV0xnSWhpb1FJZlV0X1BaMlJRcl96RXlzQnhDdHl5a0l6emhfS0NzUFM4UmM?oc=5",
-   "domain": "unilad.com",
-   "published": "2026-11-13T13:45:37+00:00",
-   "source": "UNILAD",
+   "title": "GTA 6 Online release window: Multiplayer could be launched in late 2027",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRGUwa1hyajhoRkM5QUhoVWQxWFl0dndSZ09felF6TWZSdkM4SW0wOERaQ0xtbEJ5ZEJySUVlMmk1b3F4M25Hc1dOY3RxQVBXYWJzZ3lGdG5OV1RkUzRZeWk0Y0w1Qjl5X1NmTjhYemJTTjFtQzVrVFd3eUJLTkZCQTZMT1NuQ2dNdGZfSkk2Q3Ftam05RkVOTWlGajAwZ3RlakhpMUUwWndlb2Rncl9wQUtjMVRfQWNvN0VPNnVpVlhEVlV3VmFLOEhtOXZTWXp0bzl3NHRZVm1YRjlma1NR0gHkAUFVX3lxTFBTekt3LXp5T0daMFh4dWhLQ21tSTk4TUNrbFZQeXdHMTRGWUI3VThhc09PUU5lN0xJbnNzZXN1MC1sSjZXT0R5MEpfVU1yUDVJc2tYbl9WdlN3d3pncTJCdi1wTXRMYWpnMlJ5R0dlUXRBRXFTWWVhSEdWdzBtMXppVHlfRUdmUDRQdUN5RGlwWGdxWTRPdlBrbERKS0ZOalRZRWpnX2NVamxjeDBEcm1pUWd5TGFmb3RNdGFCOUEyRjBmSElVZW81STVYYkJGWE5fVndWWXZ6c2lGZ2trdXNDdTZseg?oc=5",
+   "domain": "m.economictimes.com",
+   "published": "2026-11-13T20:16:57+00:00",
+   "source": "The Economic Times",
    "tier": 3,
-   "sentiment": 1.0,
+   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 2,
    "sources": [
-    "UNILAD",
-    "Yahoo Finance"
+    "The Economic Times",
+    "TipRanks"
    ],
    "status": "single"
   },
@@ -1131,6 +1237,23 @@
    "sources": [
     "The Financial Express",
     "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Strauss Zelnick Believes Arrogance Threatens Continued Success",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OUTI4MVFPLUUwbEVCcXFVd0JYRGp1OURTa2RyNEhHdTBpUGFQNmZKdHZnaE5QX1NhckVKUUdWRGpvRFdqOXhUcmdETXBMR1laSGV3UXFZNXg2OWpDcWZnQVZ0S3JLeno2NVRSalJBZlBPRFk3ZHFheWgxNA?oc=5",
+   "domain": "insider-gaming.com",
+   "published": "2026-11-12T22:05:20+00:00",
+   "source": "Insider Gaming",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "Insider Gaming",
+    "eTeknix"
    ],
    "status": "single"
   },
@@ -1168,22 +1291,6 @@
    "status": "single"
   },
   {
-   "title": "Watch Twitch CEO: GTA VI Could Be Our Biggest Moment",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdnVQVk1IODY3SU5udXN5cnkxQkw1TUZMVXdCS0pEdmhJaE5xdE9lc21nMElEQ3pXT1N6cF9TSV90dDliWWtCWWxId0RTcVd1SkFJaGhwTjQxaWYwRTNwaUYyb0tuR1JwcmFoRjFCTG50a1dYdmxuTjhfazFCZm1zMDNNUVFlNjJkczBlczRXekk0ZGJFREYzMlp4RDVFdm5MZVE?oc=5",
-   "domain": "bloomberg.com",
-   "published": "2026-11-12T19:10:14+00:00",
-   "source": "Bloomberg",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Bloomberg"
-   ],
-   "status": "single"
-  },
-  {
    "title": "Catalyst Watch: Anthropic IPO, Nvidia shockwaves, Nike event, and GTA 6 arrives (SPY:NYSEARCA)",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSUJzenNZZFFoSVZRRDRvUDVCWUJvUEZCNzlIUGZzVTlsakVmRVNqT1ByY0lPVFlNcFlMY0NXdWVDS3pqQ1pzazRuQzZnWDN4WE91TlNMMDd2ZWVSY3VhMm9nVW1XTjNsMGdKTHVScm9FLUFUVnl5eGZ0TnVXOTNOcW1NRm1YMzFjbzltTnRhNjBMWjJlazdFQWxmd3E1dW1RN3RqRVdGcTV3NUI4Y25HaFRyTQ?oc=5",
    "domain": "seekingalpha.com",
@@ -1196,22 +1303,6 @@
    "corroborated_by": 1,
    "sources": [
     "Seeking Alpha"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Kalshi is hiring a 'GTA VI Researcher' to livestream the game and study its economy",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQlR4S2QtZUc5QUlLSkxRb0lVWUVsWEw2OXBiMVE1SHkxUWV6Y1M0d1RRa2REdlRXWF9HRHlfM1RvTHRyR2hLZ2VlNVliMlgxX1VIOEJrQlY2VEtsdGxRZ3pYTkdxdnlXVHRKLXJlLVhaSEV6V0lGVUY5S2VmN01nQkVjMlV3OUppMzlXTkZERU82WW9weGQ2OWRMVFlkT1VXSFk1cGxWRk40LXJqQUQzRk14eFFYVm5UMWdoQlF4aV9VeUdpaW1LUUxQWGVKXzROWVc1WThXM2o?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-13T11:00:00+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Yahoo Finance"
    ],
    "status": "single"
   },
@@ -4621,11 +4712,11 @@
   },
   {
    "t": "2026-11-13",
-   "o": 230.72,
-   "h": 233.32,
+   "o": 230.29,
+   "h": 233.33,
    "l": 226.68,
    "c": 227.82,
-   "v": 2984263,
+   "v": 3015400,
    "sma20": 207.755,
    "sma50": 207.847,
    "sma200": 218.419,
