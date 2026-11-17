@@ -1,826 +1,396 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-17T06:02:52.411563+00:00",
+ "generated_at": "2026-11-17T17:14:34.182427+00:00",
  "sample": false,
  "intraday": {
-  "price": 213.47,
-  "prev_close": 227.82,
-  "time": 1794862801,
+  "price": 203.12,
+  "prev_close": 213.47,
+  "time": 1794935667,
   "points": [
    {
-    "t": 1794819600,
-    "c": 235.5,
+    "t": 1794906000,
+    "c": 215.62,
     "s": "pre"
    },
    {
-    "t": 1794819900,
-    "c": 236.62,
+    "t": 1794907200,
+    "c": 215.1,
     "s": "pre"
    },
    {
-    "t": 1794820200,
-    "c": 237.4,
+    "t": 1794907500,
+    "c": 215.48,
     "s": "pre"
    },
    {
-    "t": 1794820500,
-    "c": 237.63,
+    "t": 1794908700,
+    "c": 215.35,
     "s": "pre"
    },
    {
-    "t": 1794820800,
-    "c": 237.9,
+    "t": 1794910200,
+    "c": 215.25,
     "s": "pre"
    },
    {
-    "t": 1794821400,
-    "c": 237.5,
+    "t": 1794910800,
+    "c": 215.0,
     "s": "pre"
    },
    {
-    "t": 1794821700,
-    "c": 237.5,
+    "t": 1794911700,
+    "c": 214.76,
     "s": "pre"
    },
    {
-    "t": 1794822300,
-    "c": 237.74,
+    "t": 1794913800,
+    "c": 215.39,
     "s": "pre"
    },
    {
-    "t": 1794822600,
-    "c": 238.36,
+    "t": 1794914400,
+    "c": 215.6,
     "s": "pre"
    },
    {
-    "t": 1794822900,
-    "c": 238.83,
+    "t": 1794915000,
+    "c": 215.62,
     "s": "pre"
    },
    {
-    "t": 1794823200,
-    "c": 237.0,
+    "t": 1794915600,
+    "c": 216.38,
     "s": "pre"
    },
    {
-    "t": 1794824100,
-    "c": 236.26,
+    "t": 1794915900,
+    "c": 216.5,
     "s": "pre"
    },
    {
-    "t": 1794824400,
-    "c": 235.5,
+    "t": 1794916200,
+    "c": 216.21,
     "s": "pre"
    },
    {
-    "t": 1794824700,
-    "c": 235.9,
+    "t": 1794916500,
+    "c": 219.23,
     "s": "pre"
    },
    {
-    "t": 1794825600,
-    "c": 235.19,
+    "t": 1794916800,
+    "c": 218.0,
     "s": "pre"
    },
    {
-    "t": 1794826200,
-    "c": 235.18,
+    "t": 1794917100,
+    "c": 218.14,
     "s": "pre"
    },
    {
-    "t": 1794827100,
-    "c": 235.0,
+    "t": 1794917400,
+    "c": 218.1,
     "s": "pre"
    },
    {
-    "t": 1794827400,
-    "c": 234.79,
+    "t": 1794917700,
+    "c": 218.53,
     "s": "pre"
    },
    {
-    "t": 1794828000,
-    "c": 235.1,
+    "t": 1794918000,
+    "c": 218.0,
     "s": "pre"
    },
    {
-    "t": 1794828900,
-    "c": 234.99,
+    "t": 1794918600,
+    "c": 217.5,
     "s": "pre"
    },
    {
-    "t": 1794829200,
-    "c": 234.74,
+    "t": 1794918900,
+    "c": 218.26,
     "s": "pre"
    },
    {
-    "t": 1794829500,
-    "c": 234.81,
-    "s": "pre"
-   },
-   {
-    "t": 1794829800,
-    "c": 234.81,
-    "s": "pre"
-   },
-   {
-    "t": 1794830100,
-    "c": 234.8,
-    "s": "pre"
-   },
-   {
-    "t": 1794830400,
-    "c": 234.65,
-    "s": "pre"
-   },
-   {
-    "t": 1794830700,
-    "c": 234.8,
-    "s": "pre"
-   },
-   {
-    "t": 1794831000,
-    "c": 234.04,
-    "s": "pre"
-   },
-   {
-    "t": 1794831300,
-    "c": 234.37,
-    "s": "pre"
-   },
-   {
-    "t": 1794831600,
-    "c": 234.35,
-    "s": "pre"
-   },
-   {
-    "t": 1794831900,
-    "c": 234.25,
-    "s": "pre"
-   },
-   {
-    "t": 1794832200,
-    "c": 233.25,
-    "s": "pre"
-   },
-   {
-    "t": 1794832500,
-    "c": 233.0,
-    "s": "pre"
-   },
-   {
-    "t": 1794832800,
-    "c": 233.5,
-    "s": "pre"
-   },
-   {
-    "t": 1794833100,
-    "c": 233.28,
-    "s": "pre"
-   },
-   {
-    "t": 1794833400,
-    "c": 233.75,
-    "s": "pre"
-   },
-   {
-    "t": 1794833700,
-    "c": 234.0,
-    "s": "pre"
-   },
-   {
-    "t": 1794834000,
-    "c": 234.7,
-    "s": "pre"
-   },
-   {
-    "t": 1794834300,
-    "c": 234.51,
-    "s": "pre"
-   },
-   {
-    "t": 1794834600,
-    "c": 235.0,
-    "s": "pre"
-   },
-   {
-    "t": 1794834900,
-    "c": 234.9,
-    "s": "pre"
-   },
-   {
-    "t": 1794835200,
-    "c": 234.65,
-    "s": "pre"
-   },
-   {
-    "t": 1794835500,
-    "c": 234.21,
-    "s": "pre"
-   },
-   {
-    "t": 1794835800,
-    "c": 234.89,
-    "s": "pre"
-   },
-   {
-    "t": 1794836100,
-    "c": 234.24,
-    "s": "pre"
-   },
-   {
-    "t": 1794836400,
-    "c": 234.5,
-    "s": "pre"
-   },
-   {
-    "t": 1794836700,
-    "c": 233.77,
-    "s": "pre"
-   },
-   {
-    "t": 1794837000,
-    "c": 234.0,
-    "s": "pre"
-   },
-   {
-    "t": 1794837300,
-    "c": 233.9,
-    "s": "pre"
-   },
-   {
-    "t": 1794837600,
-    "c": 233.81,
-    "s": "pre"
-   },
-   {
-    "t": 1794837900,
-    "c": 233.85,
-    "s": "pre"
-   },
-   {
-    "t": 1794838200,
-    "c": 233.5,
-    "s": "pre"
-   },
-   {
-    "t": 1794838500,
-    "c": 233.65,
-    "s": "pre"
-   },
-   {
-    "t": 1794838800,
-    "c": 233.0,
-    "s": "pre"
-   },
-   {
-    "t": 1794839100,
-    "c": 233.5,
-    "s": "pre"
-   },
-   {
-    "t": 1794839400,
-    "c": 226.24,
-    "s": "pre"
-   },
-   {
-    "t": 1794839700,
-    "c": 223.4,
-    "s": "pre"
-   },
-   {
-    "t": 1794840000,
-    "c": 223.97,
-    "s": "pre"
-   },
-   {
-    "t": 1794840300,
-    "c": 225.1,
-    "s": "pre"
-   },
-   {
-    "t": 1794840600,
-    "c": 224.09,
-    "s": "pre"
-   },
-   {
-    "t": 1794840900,
-    "c": 224.25,
-    "s": "pre"
-   },
-   {
-    "t": 1794841200,
-    "c": 221.66,
-    "s": "pre"
-   },
-   {
-    "t": 1794841500,
-    "c": 221.98,
-    "s": "pre"
-   },
-   {
-    "t": 1794841800,
-    "c": 221.69,
-    "s": "pre"
-   },
-   {
-    "t": 1794842100,
-    "c": 222.44,
-    "s": "pre"
-   },
-   {
-    "t": 1794842400,
-    "c": 222.18,
-    "s": "pre"
-   },
-   {
-    "t": 1794842700,
-    "c": 221.62,
-    "s": "pre"
-   },
-   {
-    "t": 1794843000,
-    "c": 221.85,
-    "s": "pre"
-   },
-   {
-    "t": 1794843300,
-    "c": 222.26,
-    "s": "pre"
-   },
-   {
-    "t": 1794843600,
-    "c": 222.54,
-    "s": "pre"
-   },
-   {
-    "t": 1794843900,
-    "c": 220.67,
-    "s": "pre"
-   },
-   {
-    "t": 1794844200,
-    "c": 221.14,
-    "s": "pre"
-   },
-   {
-    "t": 1794844500,
-    "c": 220.8,
-    "s": "pre"
-   },
-   {
-    "t": 1794844800,
-    "c": 220.92,
-    "s": "pre"
-   },
-   {
-    "t": 1794845100,
-    "c": 220.7,
-    "s": "pre"
-   },
-   {
-    "t": 1794845400,
-    "c": 220.45,
-    "s": "pre"
-   },
-   {
-    "t": 1794845700,
-    "c": 221.12,
-    "s": "pre"
-   },
-   {
-    "t": 1794846000,
-    "c": 220.71,
-    "s": "pre"
-   },
-   {
-    "t": 1794846300,
-    "c": 221.53,
-    "s": "pre"
-   },
-   {
-    "t": 1794846600,
-    "c": 221.11,
-    "s": "pre"
-   },
-   {
-    "t": 1794846900,
-    "c": 221.1,
-    "s": "pre"
-   },
-   {
-    "t": 1794847200,
-    "c": 220.49,
-    "s": "pre"
-   },
-   {
-    "t": 1794847500,
-    "c": 220.64,
-    "s": "pre"
-   },
-   {
-    "t": 1794847800,
-    "c": 220.89,
-    "s": "pre"
-   },
-   {
-    "t": 1794848100,
-    "c": 221.15,
-    "s": "pre"
-   },
-   {
-    "t": 1794848400,
-    "c": 220.42,
-    "s": "pre"
-   },
-   {
-    "t": 1794848700,
-    "c": 220.16,
-    "s": "pre"
-   },
-   {
-    "t": 1794849000,
-    "c": 220.51,
-    "s": "pre"
-   },
-   {
-    "t": 1794849300,
-    "c": 220.71,
-    "s": "pre"
-   },
-   {
-    "t": 1794849600,
-    "c": 220.21,
-    "s": "pre"
-   },
-   {
-    "t": 1794849900,
-    "c": 220.08,
-    "s": "pre"
-   },
-   {
-    "t": 1794850200,
-    "c": 219.54,
-    "s": "pre"
-   },
-   {
-    "t": 1794850500,
-    "c": 219.37,
-    "s": "pre"
-   },
-   {
-    "t": 1794850800,
-    "c": 219.44,
-    "s": "pre"
-   },
-   {
-    "t": 1794851100,
-    "c": 219.6,
-    "s": "pre"
-   },
-   {
-    "t": 1794851400,
-    "c": 219.92,
-    "s": "pre"
-   },
-   {
-    "t": 1794851700,
-    "c": 219.9,
-    "s": "pre"
-   },
-   {
-    "t": 1794852000,
-    "c": 219.76,
-    "s": "pre"
-   },
-   {
-    "t": 1794852300,
-    "c": 219.74,
-    "s": "pre"
-   },
-   {
-    "t": 1794852600,
-    "c": 219.58,
-    "s": "pre"
-   },
-   {
-    "t": 1794852900,
-    "c": 219.43,
-    "s": "pre"
-   },
-   {
-    "t": 1794853200,
-    "c": 219.1,
-    "s": "pre"
-   },
-   {
-    "t": 1794853500,
-    "c": 218.79,
-    "s": "pre"
-   },
-   {
-    "t": 1794853800,
-    "c": 218.05,
-    "s": "pre"
-   },
-   {
-    "t": 1794854100,
-    "c": 217.94,
-    "s": "pre"
-   },
-   {
-    "t": 1794854400,
-    "c": 217.8,
-    "s": "pre"
-   },
-   {
-    "t": 1794854700,
+    "t": 1794919200,
     "c": 218.48,
     "s": "pre"
    },
    {
-    "t": 1794855000,
+    "t": 1794919500,
+    "c": 218.44,
+    "s": "pre"
+   },
+   {
+    "t": 1794920100,
+    "c": 218.0,
+    "s": "pre"
+   },
+   {
+    "t": 1794920400,
+    "c": 217.7,
+    "s": "pre"
+   },
+   {
+    "t": 1794920700,
+    "c": 218.25,
+    "s": "pre"
+   },
+   {
+    "t": 1794921000,
+    "c": 218.0,
+    "s": "pre"
+   },
+   {
+    "t": 1794921300,
     "c": 217.9,
     "s": "pre"
    },
    {
-    "t": 1794855300,
+    "t": 1794921600,
+    "c": 217.5,
+    "s": "pre"
+   },
+   {
+    "t": 1794921900,
+    "c": 217.73,
+    "s": "pre"
+   },
+   {
+    "t": 1794922200,
+    "c": 217.5,
+    "s": "pre"
+   },
+   {
+    "t": 1794922500,
+    "c": 217.8,
+    "s": "pre"
+   },
+   {
+    "t": 1794922800,
+    "c": 217.21,
+    "s": "pre"
+   },
+   {
+    "t": 1794923100,
     "c": 217.48,
     "s": "pre"
    },
    {
-    "t": 1794855600,
-    "c": 217.58,
+    "t": 1794923400,
+    "c": 218.25,
     "s": "pre"
    },
    {
-    "t": 1794855900,
-    "c": 216.6,
+    "t": 1794923700,
+    "c": 217.22,
     "s": "pre"
    },
    {
-    "t": 1794856200,
-    "c": 215.53,
+    "t": 1794924000,
+    "c": 217.42,
     "s": "pre"
    },
    {
-    "t": 1794856500,
-    "c": 216.07,
+    "t": 1794924300,
+    "c": 217.46,
     "s": "pre"
    },
    {
-    "t": 1794856800,
-    "c": 214.95,
+    "t": 1794924600,
+    "c": 217.28,
     "s": "pre"
    },
    {
-    "t": 1794857100,
-    "c": 214.44,
+    "t": 1794924900,
+    "c": 216.45,
     "s": "pre"
    },
    {
-    "t": 1794857400,
-    "c": 212.72,
+    "t": 1794925200,
+    "c": 216.02,
     "s": "pre"
    },
    {
-    "t": 1794857700,
-    "c": 214.9,
+    "t": 1794925500,
+    "c": 215.16,
     "s": "pre"
    },
    {
-    "t": 1794858000,
-    "c": 214.38,
-    "s": "pre"
+    "t": 1794925800,
+    "c": 218.29,
+    "s": "reg"
    },
    {
-    "t": 1794858300,
-    "c": 214.66,
-    "s": "pre"
+    "t": 1794926100,
+    "c": 216.62,
+    "s": "reg"
    },
    {
-    "t": 1794858600,
-    "c": 215.05,
-    "s": "pre"
+    "t": 1794926400,
+    "c": 213.01,
+    "s": "reg"
    },
    {
-    "t": 1794858900,
-    "c": 215.93,
-    "s": "pre"
+    "t": 1794926700,
+    "c": 210.38,
+    "s": "reg"
    },
    {
-    "t": 1794859200,
-    "c": 216.4,
-    "s": "pre"
+    "t": 1794927000,
+    "c": 211.77,
+    "s": "reg"
    },
    {
-    "t": 1794859500,
-    "c": 216.71,
-    "s": "pre"
+    "t": 1794927300,
+    "c": 212.76,
+    "s": "reg"
    },
    {
-    "t": 1794859800,
-    "c": 216.7,
-    "s": "pre"
+    "t": 1794927600,
+    "c": 211.46,
+    "s": "reg"
    },
    {
-    "t": 1794860100,
-    "c": 215.21,
-    "s": "pre"
+    "t": 1794927900,
+    "c": 211.28,
+    "s": "reg"
    },
    {
-    "t": 1794860400,
-    "c": 214.57,
-    "s": "pre"
+    "t": 1794928200,
+    "c": 211.41,
+    "s": "reg"
    },
    {
-    "t": 1794860700,
-    "c": 214.59,
-    "s": "pre"
+    "t": 1794928500,
+    "c": 211.17,
+    "s": "reg"
    },
    {
-    "t": 1794861000,
-    "c": 213.88,
-    "s": "pre"
+    "t": 1794928800,
+    "c": 211.43,
+    "s": "reg"
    },
    {
-    "t": 1794861300,
-    "c": 213.31,
-    "s": "pre"
+    "t": 1794929100,
+    "c": 210.66,
+    "s": "reg"
    },
    {
-    "t": 1794861600,
-    "c": 213.62,
-    "s": "pre"
+    "t": 1794929400,
+    "c": 209.37,
+    "s": "reg"
    },
    {
-    "t": 1794861900,
-    "c": 213.91,
-    "s": "pre"
+    "t": 1794929700,
+    "c": 209.42,
+    "s": "reg"
    },
    {
-    "t": 1794862200,
-    "c": 214.04,
-    "s": "pre"
+    "t": 1794930000,
+    "c": 207.93,
+    "s": "reg"
    },
    {
-    "t": 1794862500,
-    "c": 213.48,
-    "s": "pre"
+    "t": 1794930300,
+    "c": 207.0,
+    "s": "reg"
    },
    {
-    "t": 1794862800,
-    "c": 214.27,
-    "s": "pre"
+    "t": 1794930600,
+    "c": 206.87,
+    "s": "reg"
    },
    {
-    "t": 1794863100,
-    "c": 214.45,
-    "s": "pre"
+    "t": 1794930900,
+    "c": 207.55,
+    "s": "reg"
    },
    {
-    "t": 1794863400,
-    "c": 213.47,
-    "s": "pre"
+    "t": 1794931200,
+    "c": 208.21,
+    "s": "reg"
    },
    {
-    "t": 1794864300,
-    "c": 214.38,
-    "s": "pre"
+    "t": 1794931500,
+    "c": 208.49,
+    "s": "reg"
    },
    {
-    "t": 1794864600,
-    "c": 215.0,
-    "s": "pre"
+    "t": 1794931800,
+    "c": 208.48,
+    "s": "reg"
    },
    {
-    "t": 1794864900,
-    "c": 213.47,
-    "s": "pre"
+    "t": 1794932100,
+    "c": 208.03,
+    "s": "reg"
    },
    {
-    "t": 1794865200,
-    "c": 215.22,
-    "s": "pre"
+    "t": 1794932400,
+    "c": 207.5,
+    "s": "reg"
    },
    {
-    "t": 1794865500,
-    "c": 215.31,
-    "s": "pre"
+    "t": 1794932700,
+    "c": 207.03,
+    "s": "reg"
    },
    {
-    "t": 1794865800,
-    "c": 213.47,
-    "s": "pre"
+    "t": 1794933000,
+    "c": 206.54,
+    "s": "reg"
    },
    {
-    "t": 1794866100,
-    "c": 215.8,
-    "s": "pre"
+    "t": 1794933300,
+    "c": 206.55,
+    "s": "reg"
    },
    {
-    "t": 1794866400,
-    "c": 216.0,
-    "s": "pre"
+    "t": 1794933600,
+    "c": 206.37,
+    "s": "reg"
    },
    {
-    "t": 1794866700,
-    "c": 215.8,
-    "s": "pre"
+    "t": 1794933900,
+    "c": 205.08,
+    "s": "reg"
    },
    {
-    "t": 1794867000,
-    "c": 216.01,
-    "s": "pre"
+    "t": 1794934200,
+    "c": 204.06,
+    "s": "reg"
    },
    {
-    "t": 1794867900,
-    "c": 216.22,
-    "s": "pre"
+    "t": 1794934500,
+    "c": 204.09,
+    "s": "reg"
    },
    {
-    "t": 1794868200,
-    "c": 215.71,
-    "s": "pre"
+    "t": 1794934800,
+    "c": 202.31,
+    "s": "reg"
    },
    {
-    "t": 1794869100,
-    "c": 216.3,
-    "s": "pre"
+    "t": 1794935100,
+    "c": 203.01,
+    "s": "reg"
    },
    {
-    "t": 1794869400,
-    "c": 213.47,
-    "s": "pre"
+    "t": 1794935400,
+    "c": 203.07,
+    "s": "reg"
    },
    {
-    "t": 1794870000,
-    "c": 215.5,
-    "s": "pre"
-   },
-   {
-    "t": 1794870300,
-    "c": 215.5,
-    "s": "pre"
-   },
-   {
-    "t": 1794871500,
-    "c": 215.5,
-    "s": "pre"
-   },
-   {
-    "t": 1794871800,
-    "c": 214.5,
-    "s": "pre"
-   },
-   {
-    "t": 1794872100,
-    "c": 214.05,
-    "s": "pre"
-   },
-   {
-    "t": 1794872400,
-    "c": 213.47,
-    "s": "pre"
-   },
-   {
-    "t": 1794872700,
-    "c": 214.05,
-    "s": "pre"
-   },
-   {
-    "t": 1794873300,
-    "c": 215.0,
-    "s": "pre"
-   },
-   {
-    "t": 1794873900,
-    "c": 214.92,
-    "s": "pre"
-   },
-   {
-    "t": 1794875400,
-    "c": 214.94,
-    "s": "pre"
-   },
-   {
-    "t": 1794876300,
-    "c": 215.69,
-    "s": "pre"
-   },
-   {
-    "t": 1794876900,
-    "c": 214.26,
-    "s": "pre"
-   },
-   {
-    "t": 1794877148,
-    "c": 214.26,
-    "s": "pre"
+    "t": 1794935667,
+    "c": 203.12,
+    "s": "reg"
    }
   ],
   "pre": {
-   "t": 1794877148,
-   "c": 214.26,
+   "t": 1794925500,
+   "c": 215.16,
    "s": "pre"
   },
   "post": null,
@@ -840,25 +410,25 @@
   }
  },
  "tech": {
-  "close": 213.47,
-  "prev_close": 227.82,
-  "chg_pct": -6.2988,
-  "sma20": 208.1825,
-  "sma50": 207.8228,
-  "sma200": 218.385,
-  "rsi": 51.7405,
-  "macd_hist": 2.5054,
-  "vol20_ann": 0.5085,
+  "close": 203.12,
+  "prev_close": 213.47,
+  "chg_pct": -4.8485,
+  "sma20": 208.0035,
+  "sma50": 207.6194,
+  "sma200": 218.2915,
+  "rsi": 45.0062,
+  "macd_hist": 0.9613,
+  "vol20_ann": 0.5382,
   "vol_median_1y": 0.3219,
-  "boll_up": 232.1991,
-  "boll_dn": 184.1659,
+  "boll_up": 232.1148,
+  "boll_dn": 183.8922,
   "hi52": 265.94,
-  "drawdown_pct": -19.73,
-  "avg_vol20": 3278020.0,
-  "volume": 5982200
+  "drawdown_pct": -23.6219,
+  "avg_vol20": 3492585.0,
+  "volume": 2464527
  },
  "verdict": {
-  "score": -3.48,
+  "score": -2.71,
   "level": "เสี่ยงมาก",
   "lean": "โน้มไปทาง SELL / ลดสถานะ",
   "key": "vbad",
@@ -881,7 +451,7 @@
    {
     "name": "RSI",
     "value": 0,
-    "why": "RSI 52 อยู่ในช่วงปกติ"
+    "why": "RSI 45 อยู่ในช่วงปกติ"
    },
    {
     "name": "ความผันผวน",
@@ -890,8 +460,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": -0.23,
-    "why": "ค่าเฉลี่ยโทนข่าว -0.12 จาก 14 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.54,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.27 จาก 15 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -902,73 +472,73 @@
  },
  "anomalies": [
   {
-   "key": "z-2026-11-16",
+   "key": "dd-2026-11-17",
    "sev": 2,
-   "text": "ราคาเคลื่อนไหวผิดปกติ -6.30% (z-score -2.7 เทียบ 60 วัน)"
+   "text": "ราคาต่ำกว่าจุดสูงสุด 52 สัปดาห์ -23.6% (เข้าเขต bear market)"
   },
   {
-   "key": "hv-2026-11-16",
+   "key": "hv-2026-11-17",
    "sev": 2,
-   "text": "ความผันผวน 20 วัน 51% สูงกว่าปกติ (ค่ากลาง 1 ปี 32%)"
+   "text": "ความผันผวน 20 วัน 54% สูงกว่าปกติ (ค่ากลาง 1 ปี 32%)"
   },
   {
-   "key": "intra-2026-11-16--4",
+   "key": "intra-2026-11-17--3",
    "sev": 2,
-   "text": "ระหว่างวันราคาเปลี่ยนแปลง -6.30% จากราคาปิดก่อนหน้า"
+   "text": "ระหว่างวันราคาเปลี่ยนแปลง -4.85% จากราคาปิดก่อนหน้า"
   }
  ],
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 13,
-   "bear": 2,
-   "bull_pct": 86.7,
-   "watchers": 25633,
+   "bull": 12,
+   "bear": 6,
+   "bull_pct": 66.7,
+   "watchers": 25699,
    "sample": [
     {
+     "tag": "Bullish",
+     "body": "$TTWO that was genuinely painful to watch, 6 days to rise, 2 days to fall, im sure analysts wouldn&#39;t put a 270+ price target for the end of this year if it wasnt gonna happen.",
+     "user": "TheJaf",
+     "at": "2026-11-17T17:13:01Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO Get the dip, players",
+     "user": "stockscoper7890",
+     "at": "2026-11-17T17:05:23Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO way to go from a 34 billion market cap to 44 billion back down….",
+     "user": "TheJaf",
+     "at": "2026-11-17T17:04:11Z"
+    },
+    {
      "tag": "Bearish",
-     "body": "$TTWO",
+     "body": "$TTWO Ryuk was right.",
      "user": "Ryuk",
-     "at": "2026-11-17T05:26:41Z"
+     "at": "2026-11-17T16:56:17Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO 2 days until GTA VI. It’s starting to feel real.",
-     "user": "Jewstock",
-     "at": "2026-11-17T05:24:13Z"
+     "body": "$TTWO i feel lucky to have gotten back in here! Not sure why it&#39;s dying today. Go Vice City!",
+     "user": "PG710ford2",
+     "at": "2026-11-17T16:54:13Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO down 6%, see that the MM’s did there, for GTA6",
-     "user": "MrShort7",
-     "at": "2026-11-17T03:39:04Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO",
-     "user": "MikeyS2k",
-     "at": "2026-11-17T02:28:15Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "https://appgazers.com/reports/gta-6-revenue-sales-tracker $TTWO - quickly approaching that 1.9m whisper number for projected downloads with mix skewing much more “premium” This is buy opportunity. Overall market tape is ",
-     "user": "jkitna",
-     "at": "2026-11-17T02:23:51Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO To all the institutions, thank you for allowing me to buy this even lower. You think us retail gta bulls get scared of a little pullback?",
-     "user": "Fogy",
-     "at": "2026-11-17T02:18:41Z"
+     "body": "$TTWO GOING THE WRONG WAY BRO 🤣",
+     "user": "TALENT_ON_LOAN_FROM_GOD",
+     "at": "2026-11-17T16:53:52Z"
     }
    ]
   },
   "fear_greed": null,
   "vix": {
-   "value": 22.91,
-   "prev_close": 19.3,
-   "week_ago": 19.92,
-   "month_ago": 19.99
+   "value": 26.64,
+   "prev_close": 22.91,
+   "week_ago": 19.46,
+   "month_ago": 18.44
   },
   "analysts": null,
   "history": [
@@ -1079,69 +649,142 @@
    {
     "t": "2026-11-17T06:02+00:00",
     "bull_pct": 86.7
+   },
+   {
+    "t": "2026-11-17T17:14+00:00",
+    "bull_pct": 66.7
    }
   ]
  },
  "outlook": {
-  "themes": [],
+  "themes": [
+   {
+    "key": "earnings",
+    "label": "งบการเงิน / คาดการณ์รายได้",
+    "count": 1,
+    "tone": 0.0,
+    "example": "Take-Two Interactive Software, Inc. Reports Results for Fiscal Second Quarter 2027",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQWVnZlhUY1FTMjdhWTVodGVoZXJPSmJ4b0xtQ2tPdUJPRFlwQVVYdkpPTGtSYXRQZkZnSHFIcmlNRV9NWkduVkJkZ3p6RUlDVlNsOGJ5RHVwWmJfekRlVG1qTGprUDRVaFZza1ZkYjJEWlNLbDNhTE1jT1JUOGlnQUhEekxZaUR0QktHM1l4U0pQdUkyNlJz?oc=5"
+   },
+   {
+    "key": "gta",
+    "label": "GTA 6 / วันวางขาย",
+    "count": 2,
+    "tone": 0.5,
+    "example": "Grand Theft Auto VI is Now Set to Launch November 19, 2026",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZTBtaHBIYlRBTDY1bnNwT3JxUzBWcWRrRjZEdEhwaWV5Ql9xVFZmYkZwcFhzeHI5QXN1MHZseXhlbWZzSTJfYm1MenNFLU1ZVXRhQ2dySG84MVVlTW9rVml3YzljR0JOaHJjZE9JOXFvYXlPVlFBNmgydFZGNXBWaVhvbmZTbmV0cGlqYTVKeGtpcXhYOWRGd3paQTljSUZBZ09wMHhTWXB4Nk50V2ZNTzdtRkhhdU9DLWxZ?oc=5"
+   }
+  ],
   "range": {
    "1w": {
-    "pct": 7.2,
-    "lo": 198.71,
-    "hi": 229.32
+    "pct": 7.6,
+    "lo": 188.29,
+    "hi": 219.12
    },
    "1m": {
-    "pct": 14.7,
-    "lo": 184.32,
-    "hi": 247.22
+    "pct": 15.5,
+    "lo": 173.89,
+    "hi": 237.26
    }
   },
   "ai": null
  },
  "news": [
   {
-   "title": "Take-Two Interactive Stock Slips Ahead of GTA VI Drop",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZWZkOFJac2VQNWlpN3JRQ0xZOVpON1RGcXVHQW9Kb3AwQ2pFMkdQMGhBQWkycjNSSG9hT05zSUR3dUtDc0Q3alVsOG1RRFBVZWlVS2V1RkRUNDV0TXFFWjRwWXRuaGkwbVhvRTN5ZnVLNWNMQlRwbkJ1bDVGUE1seVFPWjFYcmMzRDlac3VtRURRWERxYlhxbHg5YjEzRkZ6eWp6OHhKYWQxWVpyLWxFUVdB?oc=5",
-   "domain": "schaeffersresearch.com",
-   "published": "2026-11-16T16:12:32+00:00",
-   "source": "Schaeffer's Investment Research",
-   "tier": 3,
-   "sentiment": -1.0,
+   "title": "Take-Two Interactive Software, Inc. Reports Results for Fiscal Second Quarter 2027",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQWVnZlhUY1FTMjdhWTVodGVoZXJPSmJ4b0xtQ2tPdUJPRFlwQVVYdkpPTGtSYXRQZkZnSHFIcmlNRV9NWkduVkJkZ3p6RUlDVlNsOGJ5RHVwWmJfekRlVG1qTGprUDRVaFZza1ZkYjJEWlNLbDNhTE1jT1JUOGlnQUhEekxZaUR0QktHM1l4U0pQdUkyNlJz?oc=5",
+   "domain": "take2games.com",
+   "published": "2026-11-17T17:13:49+00:00",
+   "source": "Take-Two IR (ทางการ)",
+   "tier": 1,
+   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 29,
+   "corroborated_by": 18,
    "sources": [
     "24/7 Wall St.",
     "Benzinga",
     "BigGo Finance",
     "CoinMarketCap",
-    "DLCompare.com",
-    "Finbold",
     "GuruFocus",
     "Investing.com Canada",
-    "Investing.com UK",
     "Invezz",
-    "Kalkine Media",
     "LinkedIn",
     "MLQ.ai",
-    "Pluang",
     "SSBCrack",
+    "Schaeffer's Investment Research",
+    "Take-Two IR (ทางการ)",
+    "The Globe and Mail",
+    "Traders Union",
+    "TradingView",
+    "Yahoo Finance",
+    "ad-hoc-news.de",
+    "scanx.trade"
+   ],
+   "status": "official"
+  },
+  {
+   "title": "Grand Theft Auto VI is Now Set to Launch November 19, 2026",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZTBtaHBIYlRBTDY1bnNwT3JxUzBWcWRrRjZEdEhwaWV5Ql9xVFZmYkZwcFhzeHI5QXN1MHZseXhlbWZzSTJfYm1MenNFLU1ZVXRhQ2dySG84MVVlTW9rVml3YzljR0JOaHJjZE9JOXFvYXlPVlFBNmgydFZGNXBWaVhvbmZTbmV0cGlqYTVKeGtpcXhYOWRGd3paQTljSUZBZ09wMHhTWXB4Nk50V2ZNTzdtRkhhdU9DLWxZ?oc=5",
+   "domain": "rockstargames.com",
+   "published": "2026-11-17T13:25:43+00:00",
+   "source": "Rockstar Games (ทางการ)",
+   "tier": 1,
+   "sentiment": 1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 11,
+   "sources": [
+    "Barron's",
+    "Benzinga",
+    "Bloomberg",
+    "Game Developer",
+    "GamingBolt",
+    "GuruFocus",
+    "LinkedIn",
+    "Reuters",
+    "Rockstar Games (ทางการ)",
+    "The New York Times",
+    "VGChartz"
+   ],
+   "status": "official"
+  },
+  {
+   "title": "Only two days out from GTA 6, its publisher Take-Two lay off staff at XCOM and Civilization developer Firaxis",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdS1iM2pnZkVRczdnZHM0ZlNiT0JfbEZ4SXZBOVlFS050dmFfXzEwTmQyZm5yRnNEckliV2lIUndBUlpVVkZ5bzZzVzBsZVEyQnBaSjBDUUVYa1RGVzBsN1ZXbVFubkxEdnVBUm9ELXRFZWdRTDZwMmZocUlRV3F4WFpEX2djRUgxY2NZQm93V3pSUWVxQTJyVk0zRjhyN1Qtdk8zYi1lbDE5c0J6YTVHc2drN2Mtc1E2d1dMUTJueVdibl9ucVh1Sy04SkdweHVCd2U0c2xzTzQ?oc=5",
+   "domain": "rockpapershotgun.com",
+   "published": "2026-11-17T17:02:50+00:00",
+   "source": "Rock Paper Shotgun",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 22,
+   "sources": [
+    "BigGo Finance",
+    "Bloomberg",
+    "DLCompare.com",
+    "Finbold",
+    "Game Developer",
+    "GuruFocus",
+    "Invezz",
+    "Kalkine Media",
+    "MLQ.ai",
+    "Pluang",
+    "Rock Paper Shotgun",
     "SVG",
     "Schaeffer's Investment Research",
     "Seeking Alpha",
-    "Tech4Gamers",
-    "The Globe and Mail",
     "TheStreet",
     "TipRanks",
-    "Traders Union",
     "TradingNEWS",
-    "TradingView",
     "Trefis",
+    "Video Games Chronicle",
     "Yahoo Finance",
     "Yahoo Tech",
     "ad-hoc-news.de"
    ],
-   "status": "single"
+   "status": "verified"
   },
   {
    "title": "Take-Two Shares Rise Monday: What's Going On?",
@@ -1153,47 +796,50 @@
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 9,
+   "corroborated_by": 10,
    "sources": [
     "24/7 Wall St.",
-    "Investing.com UK",
     "Invezz",
     "MLQ.ai",
     "Pluang",
     "TheStreet",
     "Traders Union",
     "TradingNEWS",
-    "TradingView"
+    "TradingView",
+    "Yahoo Finance",
+    "www.tokenpost.com"
    ],
    "status": "single"
   },
   {
-   "title": "Nvidia, Take-Two and airlines lead market moves as earnings and FAA disruption weigh",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORS1GS2ZFeEFEbjdUb2F2ZXRwQnlvUXQ2QlJNZWFxV0liXzlzdVMyUExsRm4wODA1MVhLd25aUlpkWXFqVHh5cy1COERjNWtuckI1aTN6M0xsaGp5UFpfOEIwZFdaM0JJbFZ3SDgwTG5KZEIyUGhBWUJuRXl4OVpXWkVUd2tkcFBEMnVjb3pWQXBBdw?oc=5",
-   "domain": "tradersunion.com",
-   "published": "2026-11-16T12:30:41+00:00",
-   "source": "Traders Union",
-   "tier": 3,
+   "title": "Nvidia, SpaceX, Sandisk, Take-Two, Disney, and More Stocks That Explain Today’s Market",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE40WDc2a09hb0xrR0ZaRFJXRjJHbG9WUmF5MXBuTEVFaXY4aEtieHduNV9NS0tzUGhpeV84M1E0eXRVNktoaFRwSjBBbXNzcVVLZlpFM1ZyM0lQeE1xSjc1Mkw1alM4Y0JjVFcwRDhsTQ?oc=5",
+   "domain": "barrons.com",
+   "published": "2026-11-17T11:36:00+00:00",
+   "source": "Barron's",
+   "tier": 2,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 6,
+   "corroborated_by": 8,
    "sources": [
-    "BigGo Finance",
+    "Barron's",
+    "Benzinga",
     "CoinMarketCap",
-    "MLQ.ai",
+    "LinkedIn",
     "SSBCrack",
     "Traders Union",
+    "Trefis",
     "ad-hoc-news.de"
    ],
    "status": "single"
   },
   {
-   "title": "Take-Two Announces NBA 2K27 x Grand Theft Auto VI Collaboration",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeVVPSXlqdFUwbG9Ib3JndXN2U1kxSmhrSkd1TEpIeUFRYVZ6ejJadXVwTlFTZ1pkMllBeFFYWnVJcVlncEV5aVR4RWJveC1xakIwUWlaQVFPU2Y1N0RZQ3IyV0cxbzZGQnk0NEdvdzhYMVVwZnhsZENXd01TOTgxREY2SHMxUFIzeFpvZWNMSE5UYW5vSkFUTjh6dV9tVlczazdGaEY5MA?oc=5",
-   "domain": "vgchartz.com",
-   "published": "2026-11-16T18:36:50+00:00",
-   "source": "VGChartz",
+   "title": "Why Analysts Expect Nearly 7% More Than Take-Two Does",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdzh1OUNlcjl1T0xfVmpFTF85bVdkUUNSdjQ5QUE0bll5WDE4ekJmNTlnWVlHV3RiSXljXzUzMmRnd1dFRVFFdjlOeEFobDBmLW9vZ2pTR1g0SDlCNHV2dFJ5Q3ZuSFllUUllTWhNeGxFS1NuU0N3eno5TktpdkdaYXp1cllKU3Q4VFRGb1hSSUFEMkZSMkRPNw?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-17T10:38:56+00:00",
+   "source": "Yahoo Finance",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
@@ -1201,83 +847,65 @@
    "corroborated_by": 5,
    "sources": [
     "Benzinga",
-    "GamingBolt",
-    "LinkedIn",
-    "VGChartz",
-    "Yahoo Finance UK"
+    "Invezz",
+    "Trefis",
+    "Yahoo Finance",
+    "ad-hoc-news.de"
    ],
    "status": "single"
   },
   {
-   "title": "Take-Two director Ellen Siminoff sells $73,323 in TTWO shares By Investing.com",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNS1RDMXhsN3ZCWFhCUjJac0Z4YXVKTkNiZGsxSThSNVZuNlRwbUJ1Mkp2allSZ0JQa2o4ZVUtRXFscTBsOFpteTNkSEZEYkxMVV9LZ3NEVDI2eHliblFVamNsR21PVzJVTjdZYVhsMEswYUJtWm5XTERucnJnTkp3S19oRXhLUFN5Vk9CUGdRSHpVNC1mTUk1d1VOOU9VMUNnNTJfWmllUFlKR0Z3dEx2TTFPdC1ZX2pGZGdj?oc=5",
-   "domain": "in.investing.com",
-   "published": "2026-11-15T13:52:24+00:00",
-   "source": "Investing.com India",
+   "title": "Former Take-Two CEO Ben Feder Says AAA is 'Under the Most Amount of Threat'",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcUJ6VE44aF9QZDhZNXZIbUdHZlZwWFBHT1lfU0stVUJyOFhvUE41cjBNRHA5MWtOQTk2dHFSbUNnNzFmb2szZzhRLVlzOWlndW9OSHVaQ1pUMzZJalR3NHpHSE0zLWtSc1JidFZqS05HcHBlSEhZVDhFZC0xaXM2TWFKa29fUThVbU41eG9TX0FGUDBwR0xibllVM3dBWTdjWUNUVDJKRDhrUGtfMGdPaW1QN3k?oc=5",
+   "domain": "vgchartz.com",
+   "published": "2026-11-17T15:57:06+00:00",
+   "source": "VGChartz",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 5,
-   "sources": [
-    "GuruFocus",
-    "Investing.com Canada",
-    "Investing.com India",
-    "Seeking Alpha",
-    "TipRanks"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "‘GTA 6’ Will Double ‘Cyberpunk 2077’ Pre-Orders With 90% Paying $100",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSENJOEZnMm1kanJIYk5ZcmZ4ZVlKYTdCSmt3SzNnWWVvYWNIemUzUjZ5MVIxTU5iajhjNTlNM3JvWkduM3BlbWEzS1dlYmhZRHZ0TW04aFRvdDUyaUQzOUdEbHNJWW11Wm1mQjF2b0xoZHVoZ2NYZjZfV0Y2TVVNcENnTUVIOWZROU1PY3U5WEthX0dKdVBsdjdKTQ?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-16T14:12:18+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
+   "corroborated_by": 4,
    "sources": [
     "DLCompare.com",
-    "Investing.com UK",
-    "Yahoo Finance"
+    "LinkedIn",
+    "The Game Business",
+    "VGChartz"
    ],
    "status": "single"
   },
   {
-   "title": "Post 21: TTWO Hype / GTA Release Week",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaUR5WjA3SHZDV09yYmF1eTNxdVpHeV9RVWh1OHZsRWd3TDR5VlEzMkRpbWItVnhOaThienExdnowZS00Vkd5amxfUjVOSXRSNVFCY3ZBNTZacDhqU19HdE53YWdPQXQ4bklCSXVDbmduZENOanYyaTFvMGdvczZHVkkzVEI0a1VDV1N3V0l1QXRrQQ?oc=5",
-   "domain": "moomoo.com",
-   "published": "2026-11-15T15:03:08+00:00",
-   "source": "Moomoo",
+   "title": "Take-Two Keeps Its Full-Year Target Intact as UBS Trims Price Goal to $295 - ad-hoc-news.de",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbUhpcUN1cDEwc2ZjUlg5OTliQzNQR253aEpxbnFFU0k0Y1hPYk15V2kySjJJTkZYWk80dWtBQXNqZlQtdVFnM2FGcmVkTUI3Z2sxVFhyWURpeG53TzVLRGk4SHpjWVhUZG4wTktaM2NzUDNpeGFYVUY2R182eEhyaklkZnBUUFNGRmlZY2VYd1Y3b2lxUzVEdXhIQnU2OEtGQWdaMHVlaUtNSlBLakJoOEc2eDBZdVdpNjhXTXRGQjVyUEdJZVFrSDFwaE9wWFBHLTRCVHpJOW5zYWdaRUE?oc=5",
+   "domain": "ad-hoc-news.de",
+   "published": "2026-11-16T07:20:57+00:00",
+   "source": "ad-hoc-news.de",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 3,
+   "corroborated_by": 4,
    "sources": [
-    "Moomoo",
-    "Seeking Alpha",
-    "TipRanks"
+    "CoinMarketCap",
+    "Foro3D",
+    "TradingNEWS",
+    "ad-hoc-news.de"
    ],
    "status": "single"
   },
   {
-   "title": "GTA 6 Publisher CEO Rejects Claims That Games Like GTA Encourage Violence",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTTlPSHgtVjZBWlRLaGhXQ2NVaVVHZEJ1NnluMjVOSnllaWdKeEotQlBqbDd0U3l6aUpLRE05NXVVMlBSQ3JqOExYNm9OUndXVVVXSjhUWVRYY0JKWVlndW9XMzI3MG5vYUpkYXhodlptaTRLY2xTRlRaZXoxbFNULVNObmFudDFfd1RvRV8tZjAzWXBYa2xoVg?oc=5",
-   "domain": "gtaboom.com",
-   "published": "2026-11-16T19:54:51+00:00",
-   "source": "GTA BOOM",
-   "tier": 3,
+   "title": "GTA VI: Gaming's billion-dollar bet",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZU5zampvVFhiUjdiNXBQOTFQbUpvR2UyblY0c2hYTXhDS1d0bEtuMWlwem9QT2tSR0JMOFlxQmYySkdDTGdtVmRFdExCREkyUlFtbzRyalRnUmhtQXNyUncxQnpaVmcwMmJnLUh5UDZvZ2czSUJ0VGRHRm05V2lWQUhR?oc=5",
+   "domain": "cnbc.com",
+   "published": "2026-11-17T05:18:11+00:00",
+   "source": "CNBC",
+   "tier": 2,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 2,
    "sources": [
-    "GTA BOOM",
-    "Tech4Gamers"
+    "CNBC",
+    "The Eastern Herald"
    ],
    "status": "single"
   },
@@ -1294,6 +922,23 @@
    "corroborated_by": 2,
    "sources": [
     "BigGo Finance",
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "‘GTA 6’ Will Double ‘Cyberpunk 2077’ Pre-Orders With 90% Paying $100",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSENJOEZnMm1kanJIYk5ZcmZ4ZVlKYTdCSmt3SzNnWWVvYWNIemUzUjZ5MVIxTU5iajhjNTlNM3JvWkduM3BlbWEzS1dlYmhZRHZ0TW04aFRvdDUyaUQzOUdEbHNJWW11Wm1mQjF2b0xoZHVoZ2NYZjZfV0Y2TVVNcENnTUVIOWZROU1PY3U5WEthX0dKdVBsdjdKTQ?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-16T14:12:18+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "DLCompare.com",
     "Yahoo Finance"
    ],
    "status": "single"
@@ -1316,23 +961,6 @@
    "status": "single"
   },
   {
-   "title": "Take-Two Keeps Its Full-Year Target Intact as UBS Trims Price Goal to $295 - ad-hoc-news.de",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbUhpcUN1cDEwc2ZjUlg5OTliQzNQR253aEpxbnFFU0k0Y1hPYk15V2kySjJJTkZYWk80dWtBQXNqZlQtdVFnM2FGcmVkTUI3Z2sxVFhyWURpeG53TzVLRGk4SHpjWVhUZG4wTktaM2NzUDNpeGFYVUY2R182eEhyaklkZnBUUFNGRmlZY2VYd1Y3b2lxUzVEdXhIQnU2OEtGQWdaMHVlaUtNSlBLakJoOEc2eDBZdVdpNjhXTXRGQjVyUEdJZVFrSDFwaE9wWFBHLTRCVHpJOW5zYWdaRUE?oc=5",
-   "domain": "ad-hoc-news.de",
-   "published": "2026-11-16T07:20:57+00:00",
-   "source": "ad-hoc-news.de",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "TradingNEWS",
-    "ad-hoc-news.de"
-   ],
-   "status": "single"
-  },
-  {
    "title": "Stock Movers: NVDA, TTWO, CRCL",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWDBQXzBVNF9uem1WUmQyUkgtZThVN2FneXpwV3hielo1Nk5sRjcxWVZib0N2XzJCblpoWEpLTDhHQlhEeWFoSGc1TDVsUm4zTUtia0p0ZHVoWmdTbXlMYWIxZlh2UkVPeHdrWVlpLWw3bF9nM3RiLVFMWDlscmdhU3JjeFl3ZjBqOXAyU2Y1SGJYYXBrOV9R?oc=5",
    "domain": "bloomberg.com",
@@ -1349,56 +977,42 @@
    "status": "single"
   },
   {
-   "title": "GTA 6: The potential business impact beyond gaming",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TQ09LLVNqemNnVHNBRDg5Wk40TFdncjdmYnNIQkZ0TDZaZERVMmNMazRwWXZyU3JNTXIzQWpfTWtwN2VEZTlabkEyUm05cnU3WVV2dl81ZjVCa1J5UFVhZGNOajNueURSeEVONWdRSEhJQjVz?oc=5",
-   "domain": "easternherald.com",
-   "published": "2026-11-16T23:48:45+00:00",
-   "source": "The Eastern Herald",
+   "title": "GTA 6 preorders: Zelnick says they top expectations",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY0lCMFNoS2MtUDZURF9jSkhJVXpXazlqbVVIdENLczRDamR1YmJpVmlNU0RkVk8tV2FzblB4Z25qcmdYNk1ZZkxZVTd1aWlYNGRWQS12SVpnZml1MU12WGJUZ2swSVVBeW5vcHVJalp5TmtYUXhoU254bkJIbm9kMFB3ZmtpQQ?oc=5",
+   "domain": "neoteo.com",
+   "published": "2026-11-17T08:34:30+00:00",
+   "source": "NeoTeo",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "The Eastern Herald"
+    "NeoTeo"
    ],
    "status": "single"
   },
   {
-   "title": "GTA VI Release Is A Bigger Threat To Streaming Than To Movie Theaters",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbWctUEhiM1FLRTY4b0U3VTAwMnBzZU41bVU4QXdNYm5DMFhqX2o5cVJSYVVZQlRrajgycERSNDVJbzVjdFdLT29kMkg3SXBTa1k0RmxqZi1ON0Z0T2xKcW1iUU1GWkNob3E3cnN6SzRpYTFiZDJOdTZOdF9lSDBrajJtemRVWGdldDdmdHRvUGNQOU5sU2pvU01kQ2Y?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-15T14:02:21+00:00",
-   "source": "Yahoo Finance",
+   "title": "GTA 6 Publisher CEO Rejects Claims That Games Cause Real World Violence",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTTlPSHgtVjZBWlRLaGhXQ2NVaVVHZEJ1NnluMjVOSnllaWdKeEotQlBqbDd0U3l6aUpLRE05NXVVMlBSQ3JqOExYNm9OUndXVVVXSjhUWVRYY0JKWVlndW9XMzI3MG5vYUpkYXhodlptaTRLY2xTRlRaZXoxbFNULVNObmFudDFfd1RvRV8tZjAzWXBYa2xoVg?oc=5",
+   "domain": "gtaboom.com",
+   "published": "2026-11-16T19:54:51+00:00",
+   "source": "GTA BOOM",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "Yahoo Finance"
+    "GTA BOOM"
    ],
    "status": "single"
   }
  ],
  "errors": [
-  "Official newsroom: HTTP Error 429: Too Many Requests",
   "SEC EDGAR: HTTP Error 403: Forbidden"
  ],
  "candles": [
-  {
-   "t": "2025-11-04",
-   "o": 256.06,
-   "h": 256.06,
-   "l": 250.33,
-   "c": 252.43,
-   "v": 1818500,
-   "sma20": 256.29,
-   "sma50": 251.012,
-   "sma200": 227.525,
-   "rsi": 46.881,
-   "macd_hist": -0.927
-  },
   {
    "t": "2025-11-05",
    "o": 253.71,
@@ -4765,6 +4379,19 @@
    "sma200": 218.385,
    "rsi": 51.741,
    "macd_hist": 2.505
+  },
+  {
+   "t": "2026-11-17",
+   "o": 215.69,
+   "h": 220.13,
+   "l": 201.66,
+   "c": 203.12,
+   "v": 2464527,
+   "sma20": 208.003,
+   "sma50": 207.619,
+   "sma200": 218.292,
+   "rsi": 45.006,
+   "macd_hist": 0.961
   }
  ]
 }
