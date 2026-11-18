@@ -1,6 +1,6 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-17T23:51:26.940393+00:00",
+ "generated_at": "2026-11-18T04:45:35.564993+00:00",
  "sample": false,
  "intraday": {
   "price": 203.93,
@@ -763,8 +763,48 @@
     "s": "post"
    },
    {
-    "t": 1794958585,
-    "c": 208.95,
+    "t": 1794959700,
+    "c": 207.77,
+    "s": "post"
+   },
+   {
+    "t": 1794960000,
+    "c": 207.98,
+    "s": "post"
+   },
+   {
+    "t": 1794960600,
+    "c": 207.45,
+    "s": "post"
+   },
+   {
+    "t": 1794961800,
+    "c": 207.5,
+    "s": "post"
+   },
+   {
+    "t": 1794962400,
+    "c": 208.18,
+    "s": "post"
+   },
+   {
+    "t": 1794962700,
+    "c": 207.98,
+    "s": "post"
+   },
+   {
+    "t": 1794963000,
+    "c": 207.5,
+    "s": "post"
+   },
+   {
+    "t": 1794963300,
+    "c": 208.0,
+    "s": "post"
+   },
+   {
+    "t": 1794963565,
+    "c": 208.0,
     "s": "post"
    }
   ],
@@ -774,8 +814,8 @@
    "s": "pre"
   },
   "post": {
-   "t": 1794958585,
-   "c": 208.95,
+   "t": 1794963565,
+   "c": 208.0,
    "s": "post"
   },
   "periods": {
@@ -809,10 +849,10 @@
   "hi52": 265.94,
   "drawdown_pct": -23.3173,
   "avg_vol20": 3493720.0,
-  "volume": 6190812
+  "volume": 6236700
  },
  "verdict": {
-  "score": -2.93,
+  "score": -2.84,
   "level": "เสี่ยงมาก",
   "lean": "โน้มไปทาง SELL / ลดสถานะ",
   "key": "vbad",
@@ -844,8 +884,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.32,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.16 จาก 14 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.41,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.20 จาก 16 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -874,46 +914,46 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 9,
-   "bear": 4,
-   "bull_pct": 69.2,
-   "watchers": 25764,
+   "bull": 14,
+   "bear": 2,
+   "bull_pct": 87.5,
+   "watchers": 25789,
    "sample": [
     {
      "tag": "Bullish",
-     "body": "$TTWO $QQQ $SPY Fly as hell",
-     "user": "dontebosley",
-     "at": "2026-11-17T23:37:50Z"
+     "body": "I just bought an Xbox Series X at Walmart to play GTA 6 this week-end. $MSFT $WMT $TTWO",
+     "user": "Dadou500",
+     "at": "2026-11-18T04:03:08Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$SPY $QQQ $TTWO are you switching your Xbox location to new Zealand to play gta 6 tomorrow or waiting till 19th?",
+     "user": "Jpp24",
+     "at": "2026-11-18T04:01:48Z"
     },
     {
      "tag": "Bullish",
      "body": "$TTWO",
-     "user": "OptionsPlayers",
-     "at": "2026-11-17T23:33:48Z"
+     "user": "PBR_streetgang_",
+     "at": "2026-11-18T03:27:44Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO its going to be a good day tomorrow.",
-     "user": "ValueFinderTrader",
-     "at": "2026-11-17T23:18:11Z"
+     "body": "$TTWO Sensor tower updated now... 15.88m copies sold up until the 15th. We&#39;re up to about 1m copies per day, with 4 days to go, assuming NO acceleration right before launch, which WILL happen. And then there&#39;s la",
+     "user": "excobito",
+     "at": "2026-11-18T02:38:30Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO $NVDA Nvidia earnings today. TTWO might as well do next earnings live on GTA6.",
-     "user": "BP_Legend",
-     "at": "2026-11-17T22:48:57Z"
-    },
-    {
-     "tag": "Bearish",
-     "body": "$TTWO shows how doomed this stock is. Up $4 afterhours which is retail investors. Come 930 tomorrow the hedge funds will sell and retail will be down again. They are having a field day with this stock.",
-     "user": "Greenzombie04",
-     "at": "2026-11-17T21:47:34Z"
+     "body": "$TTWO Strauss gives the Miami Heat free PS5s but his shareholders manipulation pain and suffering 😂 https://x.com/underdognba/status/2122872127632359921?a=JSIJX6xy7RKP1qxWihc&amp;s=46",
+     "user": "Jewstock",
+     "at": "2026-11-18T02:34:55Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO gta has 8 nominations at the game awards (they will sweep) Reviews come out tomorrow",
-     "user": "ValueFinderTrader",
-     "at": "2026-11-17T21:35:47Z"
+     "body": "$BTC.X $ANT $TTWO THE NOV. 19 CATALYST NO ONE&#39;S TALKING ABOUT? Everyone is watching Anthropic&#39;s IPO ($ANT) for a possible drain on Bitcoin liquidity. But GTA VI drops the very same Thursday. What if the market is",
+     "user": "KevinMatte9",
+     "at": "2026-11-18T00:53:01Z"
     }
    ]
   },
@@ -1045,6 +1085,10 @@
    {
     "t": "2026-11-17T23:51+00:00",
     "bull_pct": 69.2
+   },
+   {
+    "t": "2026-11-18T04:45+00:00",
+    "bull_pct": 87.5
    }
   ]
  },
@@ -1078,14 +1122,16 @@
    "title": "Grand Theft Auto VI is Now Set to Launch November 19, 2026",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZTBtaHBIYlRBTDY1bnNwT3JxUzBWcWRrRjZEdEhwaWV5Ql9xVFZmYkZwcFhzeHI5QXN1MHZseXhlbWZzSTJfYm1MenNFLU1ZVXRhQ2dySG84MVVlTW9rVml3YzljR0JOaHJjZE9JOXFvYXlPVlFBNmgydFZGNXBWaVhvbmZTbmV0cGlqYTVKeGtpcXhYOWRGd3paQTljSUZBZ09wMHhTWXB4Nk50V2ZNTzdtRkhhdU9DLWxZ?oc=5",
    "domain": "rockstargames.com",
-   "published": "2026-11-17T22:32:24+00:00",
+   "published": "2026-11-18T01:37:10+00:00",
    "source": "Rockstar Games (ทางการ)",
    "tier": 1,
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 9,
+   "corroborated_by": 12,
    "sources": [
+    "Barron's",
+    "Bloomberg",
     "Game Developer",
     "GamingBolt",
     "GuruFocus",
@@ -1094,7 +1140,8 @@
     "Rockstar Games (ทางการ)",
     "The Motley Fool Australia",
     "The New York Times",
-    "VGChartz"
+    "VGChartz",
+    "Yahoo Finance"
    ],
    "status": "official"
   },
@@ -1161,9 +1208,9 @@
     "Bloomberg",
     "CoinMarketCap",
     "GuruFocus",
-    "Investing.com Canada",
     "Invezz",
     "LinkedIn",
+    "MLQ.ai",
     "MarketWatch",
     "Quiver Quantitative",
     "Schaeffer's Investment Research",
@@ -1212,7 +1259,7 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 12,
+   "corroborated_by": 11,
    "sources": [
     "Barron's",
     "Benzinga",
@@ -1224,27 +1271,27 @@
     "Schaeffer's Investment Research",
     "TipRanks",
     "TradingNEWS",
-    "ad-hoc-news.de",
-    "scanx.trade"
+    "ad-hoc-news.de"
    ],
    "status": "single"
   },
   {
-   "title": "GTA 6 Preorders Hit an Estimated $1.5 Billion. Its Launch Could Boost DoorDash, Hurt Fortnite and Mobile Streaming",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQc0dkQWdiQl9HU0VTdUE0S3c3WVVsZ1Y1Tk5kUFZRMkd3LXAyV0lYVVFWYWNWMUNGa29pRTdRRjc3dHNPSFdKZWw1b3VXT2tOY2NzaU9WbU1Ibi1TOV9Dd0RjMW1vZkthYzl5STE2Y3hqN2U1TE9sLXBqcl9vU0lZckU0WTItTU9IVy1INEtjYXFFODM4VmE1OW5pRzZ6dw?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-17T21:55:11+00:00",
-   "source": "Yahoo Finance",
+   "title": "GTA 6 Preorders Near 15 Million Ahead of November 19 Launch",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNa3V3SjVzVV82U3dHeXhXcktLR2NJdnI4ajlmMlhCd1pxNW41V3J6MnJFNGhYTkFxTW9PZnRNREYtMnI4elNrU0FBUURoVlFjMnFEc2U1T3dTNllfazUwYXFuWlgxTk12RUZDRE52YnNHUDZqd3k4eEYxc1VESW5lNnU2V1Y4Q3JKNXd5R1BB?oc=5",
+   "domain": "udaipurkiran.com",
+   "published": "2026-11-18T03:57:53+00:00",
+   "source": "Udaipur Kiran",
    "tier": 3,
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 5,
+   "corroborated_by": 6,
    "sources": [
-    "Benzinga",
     "BigGo Finance",
     "Gadget Review",
-    "Trefis",
+    "Quiver Quantitative",
+    "TradingNEWS",
+    "Udaipur Kiran",
     "Yahoo Finance"
    ],
    "status": "single"
@@ -1327,6 +1374,71 @@
    "status": "single"
   },
   {
+   "title": "GTA VI: Gaming's billion-dollar bet",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZU5zampvVFhiUjdiNXBQOTFQbUpvR2UyblY0c2hYTXhDS1d0bEtuMWlwem9QT2tSR0JMOFlxQmYySkdDTGdtVmRFdExCREkyUlFtbzRyalRnUmhtQXNyUncxQnpaVmcwMmJnLUh5UDZvZ2czSUJ0VGRHRm05V2lWQUhR?oc=5",
+   "domain": "cnbc.com",
+   "published": "2026-11-17T05:18:11+00:00",
+   "source": "CNBC",
+   "tier": 2,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "CNBC",
+    "The Eastern Herald"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Stock Movers: NVDA, TTWO, CRCL",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWDBQXzBVNF9uem1WUmQyUkgtZThVN2FneXpwV3hielo1Nk5sRjcxWVZib0N2XzJCblpoWEpLTDhHQlhEeWFoSGc1TDVsUm4zTUtia0p0ZHVoWmdTbXlMYWIxZlh2UkVPeHdrWVlpLWw3bF9nM3RiLVFMWDlscmdhU3JjeFl3ZjBqOXAyU2Y1SGJYYXBrOV9R?oc=5",
+   "domain": "bloomberg.com",
+   "published": "2026-11-16T12:08:32+00:00",
+   "source": "Bloomberg",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Bloomberg"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "GTA 6 hacker Arion Kurtaj pleads guilty to the Rockstar breach and hacks of Uber and Revolut",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOEg3cmJtOVIycmQyTnotazVXXzI3Z2x1eVVIbERKMjZOT0RuM3dsMFRoMmp2ZG1VYU9zMTYtUGM4bEppWUx0azR6bmRLbFltcWtRSmpod0xQeS1kWF8tV0pwbHRMU1d6dWdjMFdVUVQ5bnBaZC1HMkRtLW4tTGQ4aWlDSFNCbWpFTTJ3eWxFTDhFTjN3WlRMVXFISlMxYndUZkhDZDlMQlBaUHM0bFRMUEtYRQ?oc=5",
+   "domain": "mlq.ai",
+   "published": "2026-11-17T22:11:31+00:00",
+   "source": "MLQ.ai",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "MLQ.ai"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Prediction market giant Kalshi is hiring someone to play GTA VI—no resume or cover letter is required, and it pays up to $135,000",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX3hNUk5DLXNvaENMcnNNN0ljSjdZeXl5MXNBUjNVaHRhMHpubDhlZ1BQWEpHR3J1TzZmdGZKM1BnME1OYkpjNDRpM2I4ZWtkMTVtem1aOUZkN0lXMi14YmhMMWY4R0JLOWpBTHhSejFBVjI4QjNFUmxHbHY2NGpCU3RUV3h4VENRQ1BxdVhqY1l1QXFGV1FWNDAtWl9xTmswRXN3?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-17T15:43:30+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
    "title": "GTA 6 preorders: Zelnick says they top expectations",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY0lCMFNoS2MtUDZURF9jSkhJVXpXazlqbVVIdENLczRDamR1YmJpVmlNU0RkVk8tV2FzblB4Z25qcmdYNk1ZZkxZVTd1aWlYNGRWQS12SVpnZml1MU12WGJUZ2swSVVBeW5vcHVJalp5TmtYUXhoU254bkJIbm9kMFB3ZmtpQQ?oc=5",
    "domain": "neoteo.com",
@@ -1343,22 +1455,6 @@
    "status": "single"
   },
   {
-   "title": "GTA 6: The potential business impact beyond gaming",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TQ09LLVNqemNnVHNBRDg5Wk40TFdncjdmYnNIQkZ0TDZaZERVMmNMazRwWXZyU3JNTXIzQWpfTWtwN2VEZTlabkEyUm05cnU3WVV2dl81ZjVCa1J5UFVhZGNOajNueURSeEVONWdRSEhJQjVz?oc=5",
-   "domain": "easternherald.com",
-   "published": "2026-11-16T23:48:45+00:00",
-   "source": "The Eastern Herald",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "The Eastern Herald"
-   ],
-   "status": "single"
-  },
-  {
    "title": "GTA 6 Publisher CEO Rejects Claims That Games Cause Real World Violence",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTTlPSHgtVjZBWlRLaGhXQ2NVaVVHZEJ1NnluMjVOSnllaWdKeEotQlBqbDd0U3l6aUpLRE05NXVVMlBSQ3JqOExYNm9OUndXVVVXSjhUWVRYY0JKWVlndW9XMzI3MG5vYUpkYXhodlptaTRLY2xTRlRaZXoxbFNULVNObmFudDFfd1RvRV8tZjAzWXBYa2xoVg?oc=5",
    "domain": "gtaboom.com",
@@ -1371,22 +1467,6 @@
    "corroborated_by": 1,
    "sources": [
     "GTA BOOM"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Grandthropic: GTA 6 and Anthropic’s I.P.O. Land on the Same Day",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mVE5aZFVnT0lWODh0YzY0WmRjZm8zX1lXLThtUWxsSnZvQ2ZlMmVzVWNNSzRmcmRwYzdtZHFPbnFfcjhkTTl4Q0NoamhBMWlOOGtqY3hlM0dQMzVyRXRFaHdvMTVBbndvSkRLaXZyMnRnVndp?oc=5",
-   "domain": "trendingtopics.eu",
-   "published": "2026-11-16T12:28:35+00:00",
-   "source": "www.trendingtopics.eu",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "www.trendingtopics.eu"
    ],
    "status": "single"
   }
@@ -4768,7 +4848,7 @@
    "h": 220.13,
    "l": 201.66,
    "c": 203.93,
-   "v": 6190812,
+   "v": 6236700,
    "sma20": 208.044,
    "sma50": 207.636,
    "sma200": 218.296,

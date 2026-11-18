@@ -1,6 +1,6 @@
 {
  "ticker": "GOOGL",
- "generated_at": "2026-11-17T23:51:21.332918+00:00",
+ "generated_at": "2026-11-18T04:45:30.761803+00:00",
  "sample": false,
  "intraday": {
   "price": 280.2,
@@ -898,8 +898,78 @@
     "s": "post"
    },
    {
-    "t": 1794959411,
-    "c": 283.3,
+    "t": 1794959400,
+    "c": 283.1,
+    "s": "post"
+   },
+   {
+    "t": 1794959700,
+    "c": 283.29,
+    "s": "post"
+   },
+   {
+    "t": 1794960000,
+    "c": 283.27,
+    "s": "post"
+   },
+   {
+    "t": 1794960300,
+    "c": 283.61,
+    "s": "post"
+   },
+   {
+    "t": 1794960600,
+    "c": 283.2,
+    "s": "post"
+   },
+   {
+    "t": 1794960900,
+    "c": 283.4,
+    "s": "post"
+   },
+   {
+    "t": 1794961200,
+    "c": 283.51,
+    "s": "post"
+   },
+   {
+    "t": 1794961500,
+    "c": 283.13,
+    "s": "post"
+   },
+   {
+    "t": 1794961800,
+    "c": 283.25,
+    "s": "post"
+   },
+   {
+    "t": 1794962100,
+    "c": 283.78,
+    "s": "post"
+   },
+   {
+    "t": 1794962400,
+    "c": 283.9,
+    "s": "post"
+   },
+   {
+    "t": 1794962700,
+    "c": 283.79,
+    "s": "post"
+   },
+   {
+    "t": 1794963000,
+    "c": 283.93,
+    "s": "post"
+   },
+   {
+    "t": 1794963300,
+    "c": 283.67,
+    "s": "post"
+   },
+   {
+    "t": 1794963599,
+    "c": 283.67,
     "s": "post"
    }
   ],
@@ -909,8 +979,8 @@
    "s": "pre"
   },
   "post": {
-   "t": 1794959411,
-   "c": 283.3,
+   "t": 1794963599,
+   "c": 283.67,
    "s": "post"
   },
   "periods": {
@@ -944,10 +1014,10 @@
   "hi52": 408.61,
   "drawdown_pct": -31.426,
   "avg_vol20": 41542695.0,
-  "volume": 31276136
+  "volume": 31998600
  },
  "verdict": {
-  "score": -2.83,
+  "score": -3.06,
   "level": "เสี่ยงมาก",
   "lean": "โน้มไปทาง SELL / ลดสถานะ",
   "key": "vbad",
@@ -979,8 +1049,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": -0.08,
-    "why": "ค่าเฉลี่ยโทนข่าว -0.04 จาก 48 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": -0.31,
+    "why": "ค่าเฉลี่ยโทนข่าว -0.16 จาก 45 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -1004,11 +1074,23 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 12,
-   "bear": 2,
-   "bull_pct": 85.7,
-   "watchers": 240011,
+   "bull": 7,
+   "bear": 0,
+   "bull_pct": 100.0,
+   "watchers": 240053,
    "sample": [
+    {
+     "tag": "Bullish",
+     "body": "I’m going to trim my positions by 10% I’m hearing rumblings of of head and shoulders tops and a 10-15% further decline in the Nasdaq $TQQQ $META $AMZN $GOOGL Still insanely bullish AI / SI Still short stuff like $IREN Or",
+     "user": "23bobsmith23",
+     "at": "2026-11-18T03:51:53Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$GOOGL Think about how the AI slide came. All Michael Burry and his Substack cronies bashing AI. Manipulating the market based on his one and only right call in the 2008-10 housing bubble. Hurts everyone around him for h",
+     "user": "MoneyManIII",
+     "at": "2026-11-18T00:57:09Z"
+    },
     {
      "tag": "Bullish",
      "body": "$GOOGL I bought calls before close this better hold them gains",
@@ -1032,18 +1114,6 @@
      "body": "$QQQ $SPY $SPCX $MSFT $GOOGL F*** YEAH! LOOK at her jacket!",
      "user": "GordonGekko888",
      "at": "2026-11-17T23:07:58Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$GOOGL Google keep saving the world it&#39;s obvious they need to launch a cloud security unit",
-     "user": "NowWeKnow",
-     "at": "2026-11-17T22:53:44Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$GOOGL",
-     "user": "herso",
-     "at": "2026-11-17T22:52:03Z"
     }
    ]
   },
@@ -1223,6 +1293,10 @@
    {
     "t": "2026-11-17T23:51+00:00",
     "bull_pct": 85.7
+   },
+   {
+    "t": "2026-11-18T04:45+00:00",
+    "bull_pct": 100.0
    }
   ]
  },
@@ -1233,8 +1307,8 @@
     "label": "Waymo / Other Bets",
     "count": 1,
     "tone": -1.0,
-    "example": "Waymo Halts Freeway Rides After Crackdown by California DMV",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeDBEVDAydTMwTEIxT3lSWVhKUXMzTVJkTUJ6X2FyV3RmYkVwY1p0cjlyTXJ2RmlTTmJwX0JxYXFsTFZtTDJaR25wZ0pXMkh6Y25UcndBbGVnWHo0VER1YVk1eFFMS1luenp1MGlWY2xsSkJNM29FeG8waDhXMGQtQnFJRkMwejJKZVZiZHNRQ2RLQXJKNHlXWk5DdFV5ZEFfclgzamE3amxEekptS1NCekxLbUZNM0swbFF6dUN2VkpFUU5kNnY2NmhGaTlwdw?oc=5"
+    "example": "Waymo Restricts Freeway Operations After California Ban",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRjZYT0NJOTQ0cFNycUFXRjNPeC1mVjFOeXZUYi1zVng0S1JkUmcxZGNtS1huZFJ1dkxfNDR2czBrSXNROEh1cGFsdkVvcWlobTlzOGphLUt3YzlxLW5TYTEtbzhiSFZtNDFKRGZpNEJmNXR4ZzJfOWVJQXJuTExnVDhhTldoZzhkS09NN2FIVzVjUkRjdXoteEVYLUJiLTVl?oc=5"
    },
    {
     "key": "ai_search",
@@ -1398,29 +1472,67 @@
    "status": "official"
   },
   {
-   "title": "Anthropic IPO Key Investors: Amazon, Alphabet Lead Holdings as Altimeter Plans $5 Billion Investment",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVVBKU3lDRTFGLWxEZlNmLVU3X292NC1NOWI2MWwtLTZ5TjMyTXFyaENBZzZFNHRCOGVjNzVEcEVMM2dyUDMwLUZDZDRPVTRtVF84aXJ5N2hzaVdfcUpxSE1WZjlzV1RQZjJLUV9JS2lVdi1lRU9neUFVZW5QcHV6emUyVm9lLXJDRUtDN0tYYVFrUDZxN2RTZ0c3d0hNbHcyWEo3RmxfWG92MzNMSmhIWXhqM2dGMW9xN25KUzlES0xuX2g3bXduZ3pRU3k4bnVSZjdnLWpn?oc=5",
-   "domain": "tradingkey.com",
-   "published": "2026-11-17T06:36:37+00:00",
-   "source": "TradingKey",
+   "title": "Alphabet, Amazon, and Nvidia All Have a Stake in Anthropic. Here’s the One I’d Buy If I Could Only Pick 1.",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZXdRRzZha1BuRE1oQzdNRlBWXzVVQm96Sm9kZmh4d3FUMFNxYi0tbWg5WFVjbXBQZjJQejZFMXBzbUttOVVxSzVVQWdTV2haYzI4QlZJeTcwdVI3Wkk3ZGJSMnNBc09WOUFwbkFHS25uRl9aX3hVSlBEajEzeUVUdG43dmliZ0dSX3BZd3cwelN5blRnZHBwQ0YtVm1pSlZoMEVMQUpBTjVoV2JTZ3RtMmlKMVNiQXo0T1hmbXlOTTVmVjJVUENIdkVKWWVSTXozTEEybzZ2SjZ5MXM?oc=5",
+   "domain": "fool.com",
+   "published": "2026-11-17T19:07:00+00:00",
+   "source": "The Motley Fool",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 12,
+   "corroborated_by": 7,
    "sources": [
+    "24/7 Wall St.",
     "Barron's",
     "Bloomberg",
     "CNBC",
-    "FXLeaders",
-    "TIKR.com",
     "The Motley Fool",
-    "Traders Union",
-    "TradingKey",
-    "TradingView",
     "Trefis",
+    "Yahoo Finance"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "Alphabet Stocks Move Lower as Anthropic IPO Filing Shows $121.3 Billion Google Commitment",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQLTFSQjNmU25zY1RkVmhnS2R0WW5MYkNtMGlfSDU2bklyQkVVd2pyamd0c1p6YkYxOHZsd1dsZ2J4eXM1WWxNb2M5OFktMDROUnZYc3otaXBkRGYwVk4zMDdJRUdjSzBDSVRYdms4MF9pLW1XZW1fZmVSS3lVZmRRS0oyam1YSVp2VlN1Z3prM2tYb3dJdTY0SUJqUjVpS05MYmlxS0tvOG52YmluckxHdVlseVZzVFBudGZMZnVYQ1Jmc3pPMjVyYW1UUFQ2d3g4NUxWSzVJUmswbFZ5TW1zbWVB?oc=5",
+   "domain": "tradingview.com",
+   "published": "2026-11-17T19:01:34+00:00",
+   "source": "TradingView",
+   "tier": 3,
+   "sentiment": -1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 7,
+   "sources": [
+    "Barron's",
+    "Bloomberg",
+    "FXLeaders",
+    "Traders Union",
+    "TradingView",
     "Yahoo Finance",
     "marketscreener.com"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "Waymo Restricts Freeway Operations After California Ban",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRjZYT0NJOTQ0cFNycUFXRjNPeC1mVjFOeXZUYi1zVng0S1JkUmcxZGNtS1huZFJ1dkxfNDR2czBrSXNROEh1cGFsdkVvcWlobTlzOGphLUt3YzlxLW5TYTEtbzhiSFZtNDFKRGZpNEJmNXR4ZzJfOWVJQXJuTExnVDhhTldoZzhkS09NN2FIVzVjUkRjdXoteEVYLUJiLTVl?oc=5",
+   "domain": "wsj.com",
+   "published": "2026-11-18T04:13:00+00:00",
+   "source": "The Wall Street Journal",
+   "tier": 1,
+   "sentiment": -1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 6,
+   "sources": [
+    "Barron's",
+    "BigGo Finance",
+    "Bloomberg",
+    "Gazetteer SF",
+    "Reuters",
+    "The Wall Street Journal"
    ],
    "status": "verified"
   },
@@ -1444,42 +1556,6 @@
    "status": "verified"
   },
   {
-   "title": "Anthropic IPO Costs About Twice Google Per Sales Dollar",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObkl1WVhVMFgyVVpoNWJLbGpEb1lxUG1ld3lvTjRUZ2pxaXUtb2Fxd2Rkd2poMG5FLVd2N3V2b0ctTEY3d0hyNkVQSTQ0RGZmNlI3d1RBV3JxLWRUdHhRbVV4X0FhY1RVRUJKaDVVV1U1ZlI1ZHBzdXcxZ2YyNXdCV240VXVDSjUzbXVGNjMzQTROVG92QjgwZHRmQ3o?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-17T11:29:48+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 4,
-   "sources": [
-    "Bloomberg",
-    "TradingView",
-    "Yahoo Finance",
-    "marketscreener.com"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "Waymo Halts Freeway Rides After Crackdown by California DMV",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeDBEVDAydTMwTEIxT3lSWVhKUXMzTVJkTUJ6X2FyV3RmYkVwY1p0cjlyTXJ2RmlTTmJwX0JxYXFsTFZtTDJaR25wZ0pXMkh6Y25UcndBbGVnWHo0VER1YVk1eFFMS1luenp1MGlWY2xsSkJNM29FeG8waDhXMGQtQnFJRkMwejJKZVZiZHNRQ2RLQXJKNHlXWk5DdFV5ZEFfclgzamE3amxEekptS1NCekxLbUZNM0swbFF6dUN2VkpFUU5kNnY2NmhGaTlwdw?oc=5",
-   "domain": "bloomberg.com",
-   "published": "2026-11-17T20:08:21+00:00",
-   "source": "Bloomberg",
-   "tier": 1,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "BigGo Finance",
-    "Bloomberg"
-   ],
-   "status": "verified"
-  },
-  {
    "title": "AI Drug Discovery Firm Isomorphic Raises $5 Billion, Largest Round Under Alphabet's Umbrella",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1id0R3UXRQZnpqU1JuMGNfQnV3SUM2MWZHVVF4VHBxTURlekFZOW1kdjg2UHhPcGFrVkdKREMyQWRJWWJVT1BQZ3dYdHMtazJabXpRT1QxNHpFandiekdxUkk4NUtQUjRreFhKc29fd0dOX0xMUmc?oc=5",
    "domain": "finance.biggo.com",
@@ -1489,9 +1565,10 @@
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 7,
+   "corroborated_by": 8,
    "sources": [
     "BigGo Finance",
+    "CASRAI",
     "CNBC",
     "Finimize",
     "NDTV",
@@ -1511,31 +1588,11 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 5,
+   "corroborated_by": 4,
    "sources": [
-    "AOL.com",
     "Pluang",
     "The Motley Fool",
     "Trefis",
-    "Yahoo Finance"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "If Nvidia’s Earnings Show Tightness, Alphabet and Amazon Could Rise 40% and 33% By The End of 2026, Respectively",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnEyWkxpUXBGUjJWeEFIWHRkcHo2WnR2SFhnRDZJZ0ViWnFMMmFrU28tbEVBNm85ektKV1V4MHI0TkludGJaOF90LURXRjNaZUxIMlJOazlUWFE2RUFvVHYtYkdCSkdDYkF2a3hqeWpQYk5FWENWQVRRWmpVVHdaMEdpdDh1RmEzVWdFeGZkeUU0MHpya3lZSGVSN2dzYWNmZWFHa2RSOA?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-17T15:45:27+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 4,
-   "sources": [
-    "24/7 Wall St.",
-    "Pluang",
-    "The Motley Fool",
     "Yahoo Finance"
    ],
    "status": "single"
@@ -1711,8 +1768,25 @@
    "summary_th": "",
    "corroborated_by": 2,
    "sources": [
-    "AOL.com",
+    "The Motley Fool",
     "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Anthropic IPO: AMZN, GOOGL Take On Greater AI Risk-Reward, As Marquee Investors See Windfall",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYV9sU0xpb2Q5N3lxbUdhbW5HSTM0SDBlS29Hbk5BRnVvZDhvdWxqcU5tZWtLeVVCUURiX1FMcGlQQ2FaZWIySmxvbGtMb3BZVGhZc1hGZ3g0UDYtSEpzOWZtMVNQSXZ2dkJrU2p1T21iU1g2UUNRXzNtT1kzNG1lYlJPeHk5bTAwSTY5N3BTTFh5VmFmNFZxYmFnSTU?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-17T10:02:10+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "Yahoo Finance",
+    "marketscreener.com"
    ],
    "status": "single"
   },
@@ -1765,18 +1839,18 @@
    "status": "single"
   },
   {
-   "title": "Will Alphabet (NASDAQ:GOOGL) Keep Moving Forward From Here?",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaVVfeDRGZTJCWmlPUFBTMllhbkZaeE1iNWVXdU9YSkFadXhzMDdYeDMtbXRGQjFJSXVXRUpyQzNxLVBrT0VLdmkwaE5QdUNEU09SOW5pcjlOd0lrdm54ejBkang1N1k3dlR4cnlUQzVzWVV1Zy1OYVQ0bTBYbG5RRFVVUkRwY3JkRDJod1hsZDZpLV9zMExETlRNb3hyQktBTW45R3BRYUdKRnFpSmc?oc=5",
-   "domain": "kalkinemedia.com",
-   "published": "2026-11-17T22:55:00+00:00",
-   "source": "Kalkine Media",
+   "title": "AI companies lost voters on narrative and execution, Alphabet’s Porat says",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaDhrSTdEaEdQQlRhazk4dFRHajhoOTJsd1JoSjVKYjZTZlBzMW9zM0RCYU8yaHFFRUR0UFNqSUJXemVqRDVjemstVWNmc3pkNHFydHcwS3pPci00SzlqN2tVNlktX0k5QUMwQ1pWSVpzald1cEh2dHc2SFROaEYxelhKeEs3Z0V4NldydUtzVHA5QzcxMklCRU84aUJqVTlZckdVMXZKdHVyTWtGM2VMRjhJRlJEQQ?oc=5",
+   "domain": "semafor.com",
+   "published": "2026-11-17T23:41:00+00:00",
+   "source": "Semafor",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "Kalkine Media"
+    "Semafor"
    ],
    "status": "single"
   },
@@ -1793,22 +1867,6 @@
    "corroborated_by": 1,
    "sources": [
     "Traders Union"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "AI companies lost voters on narrative and execution, Alphabet’s Porat says",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaDhrSTdEaEdQQlRhazk4dFRHajhoOTJsd1JoSjVKYjZTZlBzMW9zM0RCYU8yaHFFRUR0UFNqSUJXemVqRDVjemstVWNmc3pkNHFydHcwS3pPci00SzlqN2tVNlktX0k5QUMwQ1pWSVpzald1cEh2dHc2SFROaEYxelhKeEs3Z0V4NldydUtzVHA5QzcxMklCRU84aUJqVTlZckdVMXZKdHVyTWtGM2VMRjhJRlJEQQ?oc=5",
-   "domain": "semafor.com",
-   "published": "2026-11-17T20:02:00+00:00",
-   "source": "Semafor",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Semafor"
    ],
    "status": "single"
   },
@@ -1877,6 +1935,22 @@
    "status": "single"
   },
   {
+   "title": "RDDT vs. GOOGL: Which Digital Advertising Stock Has an Edge Right Now?",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZU5HdVYtMDE4TjVTenFhb1NibU05NkVRR3BtVmF4WDNrd1hOOWFCdXR3ZFV5NlZEc2hMbGpSRzVvSW42eDZBRHVHSHowMnpILWYxa3lkdGplUnVPX2trVUNxSVFod0RDUzJ6RzE0akZBeDl5Ujk1dlpFVFJsVHRlNVhQVlJ1bGQyTHhxMlFTQWFMWFdxQk1YRHdTUDhwZ3hDbGFWQU5LQUZtOUs5MTV2OXUzVU1aRkpzSGJBTlNTUzc?oc=5",
+   "domain": "tradingview.com",
+   "published": "2026-11-17T17:57:39+00:00",
+   "source": "TradingView",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "TradingView"
+   ],
+   "status": "single"
+  },
+  {
    "title": "Who Reaches $100 Billion in TPU Revenue First, Alphabet or Broadcom?",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc3A1bWpYQ2xYMVdHLVBoQ25EdndqSGNUUlk1UUkxak9YODQyRDRVVEtuY0pPR20zdkNmWU1UVXN3YUVpY3pNRzhzNzlUV203SEJpMklHUVhqV3dWQnEtX3BOay1zNTAyVlJ2YVFxXzhyaWxsc2hTRmU1WmlJZVRBV0pQR2FUVlcwdmRybm84NXoxeS0zdnBQU0xmV000UjVCVHpfMk9QZHVSNTBIREE?oc=5",
    "domain": "247wallst.com",
@@ -1889,22 +1963,6 @@
    "corroborated_by": 1,
    "sources": [
     "24/7 Wall St."
-   ],
-   "status": "single"
-  },
-  {
-   "title": "RDDT vs. GOOGL: Which Digital Advertising Stock Has an Edge Right Now?",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOcGhkZ0ZGWTdacVEtYUZTYm4zZUlFaU5wUGhmWXJVN25lZU5ueXJudjNta1dPYTZfXy1DaDdacHdCdm5ORTBuc21ETXBTamlIZTV2YWhlRXZRNVZYd3hoQVJJdWc3WDBxd2xVQm4ySDhSb2FsN19UWE50MlA1clU5S252ZlBleEtXZDVxYTcyZHlIOVhZUW9xRmNRWDlEUkpwcHdWTVk2cG1wREUyWU5iR0NKa0dleDFad09TSmVMMDRUMkcxZmU2czIza3dWcHN5SC1jbE9MVElHa1F4RzFPa2pscW5jNF9j?oc=5",
-   "domain": "theglobeandmail.com",
-   "published": "2026-11-17T17:22:36+00:00",
-   "source": "The Globe and Mail",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "The Globe and Mail"
    ],
    "status": "single"
   },
@@ -1973,18 +2031,18 @@
    "status": "single"
   },
   {
-   "title": "Quant ratings on Berkshire Hathaway’s top holdings: AAPL, AXP, KO, GOOGL, BAC",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZzZ2RFM0T2VHeW9TUkVPSlJKQkplaUFCV1RkckJEdHJKNFVJbEJaS1U0LWFWNlhlNWVxcTRnSzFWNm5LTUtqTzBoNUxSVGZ1UVFvaU1HNGlCcjJvVW5kY1hmeXFreFZHODNzQ0pva2V0VE50YjVmcDl1MTk5aTc2ek4wYjhpTHRqRDhhLThjNW5BNUNKM2hRV1RVRHJnU3o3ck8wa3pqVTJ4ZnNmOURrSFV6bGk4bkxHWl9IcUNIQ0Z1WW9BRlpSbTdWMDBtRGVi?oc=5",
-   "domain": "tradingview.com",
+   "title": "Quant ratings on Berkshire Hathaway’s top holdings: AAPL, AXP, KO, GOOGL, BAC (AAPL:NASDAQ)",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQY0JHWEFnQ3kxeklYRGJ6OFpSODlCcDVZRHN1bWQ3TTZ5ZkRPODNTcDZZektQazJwdHlzNmExTVpFRDMwVUUtNmlVUVVGLWZxbmtUc25MN041Y2FuaHc4eklUdlM2MjZrS283RmF5ejU2UUpsc2d0eVViZWZhQkxGMXprY2ZPb0d3VXpOQklOZDVZMjVxVmdzZDN0Nm9LSlo5RXFLN2I1OXZndTBDakE?oc=5",
+   "domain": "seekingalpha.com",
    "published": "2026-11-17T14:05:39+00:00",
-   "source": "TradingView",
+   "source": "Seeking Alpha",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "TradingView"
+    "Seeking Alpha"
    ],
    "status": "single"
   },
@@ -2049,38 +2107,6 @@
    "corroborated_by": 1,
    "sources": [
     "Seeking Alpha"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Alphabet Backs $3B Prepaid Energy Bonds",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVTFUdlBxWFJ3dk1RTWdiSGhDSFpWc2RJc01pYXB3NlVzNzU3ZmdaWE5jOTZCQW83YkRiOUxiTkNyVDNLNVlNclU0anJPRW1fOXRvU3Jpa0xUaGk0S256R3BwaV9BdTJRQkRIWlNleW8zUng5VUxYX2FHbWNkSDFIUmNubXpjNEsxWV9JRDRUMXE?oc=5",
-   "domain": "briefs.co",
-   "published": "2026-11-17T02:54:16+00:00",
-   "source": "Briefs Finance",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Briefs Finance"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Did TPU Orders Just Shift Google Stock's Investment Narrative?",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMnNZLWcxTUI2SzUyVlQyQU1RaVc1U2V0Z0JIaUZ1enlEUjRlYUxuYnRCb0JiSm1RTXlzSzBzeVZZS2JreUhIbXpRN2tyaFZDczQ3VzdpWmxmS0p6UWw4LVd4YXVzd25jQ1pjWXBZNDdaWUM5U3MyREppYWtEbjRKOFNfMHhRVHVGNUVITU5Odlc5WXdtaWpwdUVHamNrU0F5SEs1MmFoVnkwQkZ0UmY4WEhDRlVlUElaNFNERWRFdHM4WHPSAcgBQVVfeXFMTVZlS1JHdXJNbGlNemlnY3ljc3pqZ2ZxQjBEMFoyLTg4UDJZZ1h3UkV1YlhTeUxSZWNHSnFfSk5rOHRyME5yM0EwSTNMUFdNZk5UbUJtYnVodVhSdGZyRjhHZjd4c2l1QlhSeWFKLWxZc1E1WnVNcjc3WFVVejN3NGNzSHBLanJOVzlJV3JPLU15R1pXT3ZPS2pJNGJJdk92ZE9mSWcwWExhRFJlTWRzRExzbGQzXzJhRVNTR3FhcFFJWEdXdVZuVUY?oc=5",
-   "domain": "simplywall.st",
-   "published": "2026-11-16T23:23:52+00:00",
-   "source": "Simply Wall St",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Simply Wall St"
    ],
    "status": "single"
   }
@@ -5462,7 +5488,7 @@
    "h": 284.09,
    "l": 278.46,
    "c": 280.2,
-   "v": 31276136,
+   "v": 31998600,
    "sma20": 297.39,
    "sma50": 325.928,
    "sma200": 337.891,
