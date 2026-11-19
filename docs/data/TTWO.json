@@ -1,11 +1,11 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-19T16:56:56.933198+00:00",
+ "generated_at": "2026-11-19T20:54:26.564917+00:00",
  "sample": false,
  "intraday": {
-  "price": 217.06,
+  "price": 209.09,
   "prev_close": 216.61,
-  "time": 1795107399,
+  "time": 1795121660,
   "points": [
    {
     "t": 1795078800,
@@ -474,12 +474,247 @@
    },
    {
     "t": 1795107300,
-    "c": 217.0,
+    "c": 216.35,
     "s": "reg"
    },
    {
-    "t": 1795107399,
-    "c": 217.06,
+    "t": 1795107600,
+    "c": 215.05,
+    "s": "reg"
+   },
+   {
+    "t": 1795107900,
+    "c": 214.93,
+    "s": "reg"
+   },
+   {
+    "t": 1795108200,
+    "c": 214.66,
+    "s": "reg"
+   },
+   {
+    "t": 1795108500,
+    "c": 214.13,
+    "s": "reg"
+   },
+   {
+    "t": 1795108800,
+    "c": 215.93,
+    "s": "reg"
+   },
+   {
+    "t": 1795109100,
+    "c": 217.03,
+    "s": "reg"
+   },
+   {
+    "t": 1795109400,
+    "c": 217.68,
+    "s": "reg"
+   },
+   {
+    "t": 1795109700,
+    "c": 216.1,
+    "s": "reg"
+   },
+   {
+    "t": 1795110000,
+    "c": 214.04,
+    "s": "reg"
+   },
+   {
+    "t": 1795110300,
+    "c": 214.42,
+    "s": "reg"
+   },
+   {
+    "t": 1795110600,
+    "c": 214.38,
+    "s": "reg"
+   },
+   {
+    "t": 1795110900,
+    "c": 213.38,
+    "s": "reg"
+   },
+   {
+    "t": 1795111200,
+    "c": 213.57,
+    "s": "reg"
+   },
+   {
+    "t": 1795111500,
+    "c": 212.98,
+    "s": "reg"
+   },
+   {
+    "t": 1795111800,
+    "c": 212.46,
+    "s": "reg"
+   },
+   {
+    "t": 1795112100,
+    "c": 212.82,
+    "s": "reg"
+   },
+   {
+    "t": 1795112400,
+    "c": 213.12,
+    "s": "reg"
+   },
+   {
+    "t": 1795112700,
+    "c": 214.97,
+    "s": "reg"
+   },
+   {
+    "t": 1795113000,
+    "c": 214.68,
+    "s": "reg"
+   },
+   {
+    "t": 1795113300,
+    "c": 214.6,
+    "s": "reg"
+   },
+   {
+    "t": 1795113600,
+    "c": 214.18,
+    "s": "reg"
+   },
+   {
+    "t": 1795113900,
+    "c": 213.77,
+    "s": "reg"
+   },
+   {
+    "t": 1795114200,
+    "c": 214.07,
+    "s": "reg"
+   },
+   {
+    "t": 1795114500,
+    "c": 214.0,
+    "s": "reg"
+   },
+   {
+    "t": 1795114800,
+    "c": 214.48,
+    "s": "reg"
+   },
+   {
+    "t": 1795115100,
+    "c": 214.3,
+    "s": "reg"
+   },
+   {
+    "t": 1795115400,
+    "c": 214.59,
+    "s": "reg"
+   },
+   {
+    "t": 1795115700,
+    "c": 214.18,
+    "s": "reg"
+   },
+   {
+    "t": 1795116000,
+    "c": 215.15,
+    "s": "reg"
+   },
+   {
+    "t": 1795116300,
+    "c": 215.31,
+    "s": "reg"
+   },
+   {
+    "t": 1795116600,
+    "c": 214.18,
+    "s": "reg"
+   },
+   {
+    "t": 1795116900,
+    "c": 213.74,
+    "s": "reg"
+   },
+   {
+    "t": 1795117200,
+    "c": 213.68,
+    "s": "reg"
+   },
+   {
+    "t": 1795117500,
+    "c": 213.09,
+    "s": "reg"
+   },
+   {
+    "t": 1795117800,
+    "c": 213.09,
+    "s": "reg"
+   },
+   {
+    "t": 1795118100,
+    "c": 213.04,
+    "s": "reg"
+   },
+   {
+    "t": 1795118400,
+    "c": 212.01,
+    "s": "reg"
+   },
+   {
+    "t": 1795118700,
+    "c": 212.33,
+    "s": "reg"
+   },
+   {
+    "t": 1795119000,
+    "c": 212.27,
+    "s": "reg"
+   },
+   {
+    "t": 1795119300,
+    "c": 211.93,
+    "s": "reg"
+   },
+   {
+    "t": 1795119600,
+    "c": 211.16,
+    "s": "reg"
+   },
+   {
+    "t": 1795119900,
+    "c": 210.5,
+    "s": "reg"
+   },
+   {
+    "t": 1795120200,
+    "c": 209.47,
+    "s": "reg"
+   },
+   {
+    "t": 1795120500,
+    "c": 209.98,
+    "s": "reg"
+   },
+   {
+    "t": 1795120800,
+    "c": 209.6,
+    "s": "reg"
+   },
+   {
+    "t": 1795121100,
+    "c": 208.71,
+    "s": "reg"
+   },
+   {
+    "t": 1795121400,
+    "c": 209.16,
+    "s": "reg"
+   },
+   {
+    "t": 1795121660,
+    "c": 209.09,
     "s": "reg"
    }
   ],
@@ -505,25 +740,25 @@
   }
  },
  "tech": {
-  "close": 217.06,
+  "close": 209.1,
   "prev_close": 216.61,
-  "chg_pct": 0.2077,
-  "sma20": 209.029,
-  "sma50": 207.747,
-  "sma200": 218.3993,
-  "rsi": 53.7923,
-  "macd_hist": 0.656,
-  "vol20_ann": 0.5735,
+  "chg_pct": -3.4671,
+  "sma20": 208.631,
+  "sma50": 207.5878,
+  "sma200": 218.3595,
+  "rsi": 48.9183,
+  "macd_hist": 0.148,
+  "vol20_ann": 0.5879,
   "vol_median_1y": 0.3219,
-  "boll_up": 233.6507,
-  "boll_dn": 184.4073,
+  "boll_up": 232.9763,
+  "boll_dn": 184.2857,
   "hi52": 265.94,
-  "drawdown_pct": -18.3801,
-  "avg_vol20": 4234910.0,
-  "volume": 4390394
+  "drawdown_pct": -21.3732,
+  "avg_vol20": 4240075.0,
+  "volume": 6725425
  },
  "verdict": {
-  "score": -1.83,
+  "score": -2.48,
   "level": "เสี่ยง",
   "lean": "ระวัง / พิจารณาขายบางส่วน",
   "key": "bad",
@@ -546,7 +781,7 @@
    {
     "name": "RSI",
     "value": 0,
-    "why": "RSI 54 อยู่ในช่วงปกติ"
+    "why": "RSI 49 อยู่ในช่วงปกติ"
    },
    {
     "name": "ความผันผวน",
@@ -555,72 +790,77 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.42,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.21 จาก 23 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.27,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.14 จาก 25 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
-    "value": -0.5,
-    "why": "พบ 1 สัญญาณผิดปกติ"
+    "value": -1.0,
+    "why": "พบ 2 สัญญาณผิดปกติ"
    }
   ]
  },
  "anomalies": [
   {
+   "key": "dd-2026-11-19",
+   "sev": 2,
+   "text": "ราคาต่ำกว่าจุดสูงสุด 52 สัปดาห์ -21.4% (เข้าเขต bear market)"
+  },
+  {
    "key": "hv-2026-11-19",
    "sev": 2,
-   "text": "ความผันผวน 20 วัน 57% สูงกว่าปกติ (ค่ากลาง 1 ปี 32%)"
+   "text": "ความผันผวน 20 วัน 59% สูงกว่าปกติ (ค่ากลาง 1 ปี 32%)"
   }
  ],
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 11,
-   "bear": 6,
-   "bull_pct": 64.7,
-   "watchers": 26463,
+   "bull": 9,
+   "bear": 3,
+   "bull_pct": 75.0,
+   "watchers": 26491,
    "sample": [
     {
-     "tag": "Bearish",
-     "body": "$TTWO so after the big failure of their &#39;diverse game&#39; (GTA6) .. guess world can now short this ticker to whatever the bottom is, right?",
-     "user": "LudwigVanBeethoven",
-     "at": "2026-11-19T16:48:14Z"
-    },
-    {
      "tag": "Bullish",
-     "body": "$TTWO just did the mission where u collect rent from the girl with a big ass in thong bikini. Ass was shaking as she walked. 10/10 game",
-     "user": "Dazedconfused12",
-     "at": "2026-11-19T16:45:13Z"
+     "body": "$TTWO $MNKD .//.",
+     "user": "ParabolicPotential",
+     "at": "2026-11-19T20:53:56Z"
     },
     {
      "tag": "Bearish",
-     "body": "$TTWO Bulls are so weak. Is this the best you&#39;ve got?",
-     "user": "Ryuk",
-     "at": "2026-11-19T16:36:19Z"
+     "body": "$TTWO 200 next week",
+     "user": "CallsOnElon",
+     "at": "2026-11-19T20:44:48Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO @HugZnotDrugZz @Vergolinx Buy some... NFA",
-     "user": "amex_platinum",
-     "at": "2026-11-19T16:29:50Z"
+     "body": "$TTWO $BABA $PANW $ASTS ****",
+     "user": "GridironGainz",
+     "at": "2026-11-19T20:37:52Z"
+    },
+    {
+     "tag": "Bearish",
+     "body": "OMG. OMG. I have more information now, and I can say that I think, I just think, that ho boy, this is gonna be epic. $TTWO The folks who refuse to define the word &quot;women&quot; just might have destroyed yet another g",
+     "user": "Shlomo_The_Stock_Guy",
+     "at": "2026-11-19T20:35:25Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO Bears are fucked...",
-     "user": "amex_platinum",
-     "at": "2026-11-19T16:29:11Z"
+     "body": "$TTWO Bears about to get doggy",
+     "user": "SushiYoshi",
+     "at": "2026-11-19T20:20:34Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO BEST game ever, holy shit !!!",
-     "user": "amex_platinum",
-     "at": "2026-11-19T16:24:50Z"
+     "body": "The next 1,000% mega squeeze is starting -&gt; Ticker FGI FGI has less than 500k shares float and had great news recently. Every other low float ticker is running hundreds of percents within minutes!! Have you missed all",
+     "user": "Yopaka",
+     "at": "2026-11-19T20:19:10Z"
     }
    ]
   },
   "fear_greed": null,
   "vix": {
-   "value": 24.42,
+   "value": 28.28,
    "prev_close": 24.56,
    "week_ago": 18.7,
    "month_ago": 18.44
@@ -778,6 +1018,10 @@
    {
     "t": "2026-11-19T16:56+00:00",
     "bull_pct": 64.7
+   },
+   {
+    "t": "2026-11-19T20:54+00:00",
+    "bull_pct": 75.0
    }
   ]
  },
@@ -794,22 +1038,22 @@
    {
     "key": "gta",
     "label": "GTA 6 / วันวางขาย",
-    "count": 13,
-    "tone": 0.23,
+    "count": 11,
+    "tone": 0.18,
     "example": "Rockstar Games Announces Grand Theft Auto VI Now Available - Take-Two Interactive Software, Inc.",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQX3FHQlY3MmtfRllfdmdxWHhRZDVCaFZjcER0c0swV3NYcGxvRk1sakdvUWlyaHp4QVFwc3I0b201OXlyM29RWVYzWmc0RWJER2Z2REtYeFpCX3VKU2FOVUNjVzlQdTktZHJvUHVpNHhJQ01peWdjT2Zmd3pKYmgwQ09DRGFReVJSbWMxc1hQSXl1SGs4Vy1MZQ?oc=5"
    }
   ],
   "range": {
    "1w": {
-    "pct": 8.1,
-    "lo": 200.22,
-    "hi": 235.32
+    "pct": 8.3,
+    "lo": 192.48,
+    "hi": 227.15
    },
    "1m": {
-    "pct": 16.6,
-    "lo": 183.94,
-    "hi": 256.14
+    "pct": 17.0,
+    "lo": 176.46,
+    "hi": 247.78
    }
   },
   "ai": null
@@ -825,7 +1069,7 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 23,
+   "corroborated_by": 25,
    "sources": [
     "80 Level",
     "Associated Press",
@@ -834,17 +1078,19 @@
     "Finbold",
     "Fox Business",
     "Game World Observer",
-    "Global Banking & Finance Review",
     "GuruFocus",
     "Investing.com",
     "Kalkine",
+    "KuCoin",
+    "LevelUp",
+    "Nacionale",
+    "Reuters",
     "Rockstar Games (ทางการ)",
     "Seeking Alpha",
     "StreetInsider",
     "Take-Two IR (ทางการ)",
-    "The Motley Fool",
+    "The Globe and Mail",
     "The New York Times",
-    "The Wall Street Journal",
     "XTB.com",
     "Yahoo Finance",
     "games.gg",
@@ -870,13 +1116,13 @@
     "Finbold",
     "GuruFocus",
     "Kalkine",
+    "Reuters",
     "Rockstar Games (ทางการ)",
     "Seeking Alpha",
     "StreetInsider",
     "Take-Two IR (ทางการ)",
-    "The Motley Fool",
+    "The Globe and Mail",
     "The New York Times",
-    "The Wall Street Journal",
     "XTB.com",
     "Yahoo Finance",
     "games.gg"
@@ -900,13 +1146,13 @@
     "Finbold",
     "GuruFocus",
     "Kalkine",
+    "Reuters",
     "Rockstar Games (ทางการ)",
     "Seeking Alpha",
     "StreetInsider",
     "Take-Two IR (ทางการ)",
-    "The Motley Fool",
+    "The Globe and Mail",
     "The New York Times",
-    "The Wall Street Journal",
     "XTB.com",
     "Yahoo Finance",
     "games.gg"
@@ -914,40 +1160,10 @@
    "status": "official"
   },
   {
-   "title": "Grand Theft Auto VI is Now Set to Launch November 19, 2026",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZTBtaHBIYlRBTDY1bnNwT3JxUzBWcWRrRjZEdEhwaWV5Ql9xVFZmYkZwcFhzeHI5QXN1MHZseXhlbWZzSTJfYm1MenNFLU1ZVXRhQ2dySG84MVVlTW9rVml3YzljR0JOaHJjZE9JOXFvYXlPVlFBNmgydFZGNXBWaVhvbmZTbmV0cGlqYTVKeGtpcXhYOWRGd3paQTljSUZBZ09wMHhTWXB4Nk50V2ZNTzdtRkhhdU9DLWxZ?oc=5",
+   "title": "Grand Theft Auto VI",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSTjFrMUExdk94ZjZ4MjlJVXZUcldOTVNnMGgxWUs4X2ZjWHE3bTQwUmhKTW15akVvVGVkaWplRzBTcF8zTV9fMDBUWUlaaUQtY2Rr?oc=5",
    "domain": "rockstargames.com",
-   "published": "2026-11-19T13:50:09+00:00",
-   "source": "Rockstar Games (ทางการ)",
-   "tier": 1,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 15,
-   "sources": [
-    "Associated Press",
-    "Bloomberg",
-    "Finbold",
-    "GuruFocus",
-    "Kalkine",
-    "Rockstar Games (ทางการ)",
-    "Seeking Alpha",
-    "StreetInsider",
-    "Take-Two IR (ทางการ)",
-    "The Motley Fool",
-    "The New York Times",
-    "The Wall Street Journal",
-    "XTB.com",
-    "Yahoo Finance",
-    "games.gg"
-   ],
-   "status": "official"
-  },
-  {
-   "title": "How to change Grand Theft Auto VI settings",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUTNya1kwVHQxUFFJc2w2UHp5WXphTWZfLTNLNm9ESnVkQmc2SmhMWXNzWS16ZTAzVW1INndLbjZGOXFwS3dYaTZSRUttbXllb2tnWldzSTFHQkkzRmtadHBRUFV1d1VTQV9acDRUU0FTREUzN1ZrUUtodC03dmQ2TjhrR2VIRjFxaW5ncUVHTm9iY3hWN0JPVndVdWtqQ0tZY3g0LXhmNzVEcjBL?oc=5",
-   "domain": "rockstargames.com",
-   "published": "2026-11-19T01:09:48+00:00",
+   "published": "2026-11-19T14:04:22+00:00",
    "source": "Rockstar Games (ทางการ)",
    "tier": 1,
    "sentiment": 0.0,
@@ -960,13 +1176,13 @@
     "Finbold",
     "GuruFocus",
     "Kalkine",
+    "Reuters",
     "Rockstar Games (ทางการ)",
     "Seeking Alpha",
     "StreetInsider",
     "Take-Two IR (ทางการ)",
-    "The Motley Fool",
+    "The Globe and Mail",
     "The New York Times",
-    "The Wall Street Journal",
     "XTB.com",
     "Yahoo Finance",
     "games.gg"
@@ -974,74 +1190,46 @@
    "status": "official"
   },
   {
-   "title": "Grand Theft Auto VI Error Troubleshooting",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbEtja01IMlNaR2w4RFZKemFrOEpWY2RaSkJ2RjlIcjliV3hCSGYzUXFNVC1ESWV0TkE1QWZjcjVEZ3FTeERKRTEwOWlxcVdsWXozTnIzSElldXFHVnluUDlDSUNBdnRSN2tKR2wxZDRoaDYxTmpxZDloT01wbjN6YVpCVWJtYVlhb0ZDODczVjBLUE9jMGEwWVBFQmhqNHRtQ0dfT1Z0Wktkd0k?oc=5",
-   "domain": "rockstargames.com",
-   "published": "2026-11-19T00:26:01+00:00",
-   "source": "Rockstar Games (ทางการ)",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 15,
-   "sources": [
-    "Associated Press",
-    "Bloomberg",
-    "Finbold",
-    "GuruFocus",
-    "Kalkine",
-    "Rockstar Games (ทางการ)",
-    "Seeking Alpha",
-    "StreetInsider",
-    "Take-Two IR (ทางการ)",
-    "The Motley Fool",
-    "The New York Times",
-    "The Wall Street Journal",
-    "XTB.com",
-    "Yahoo Finance",
-    "games.gg"
-   ],
-   "status": "official"
-  },
-  {
-   "title": "Take-Two stock jumps more than 6% as GTA VI launches to near-perfect reviews",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xb0FzZllVMHRHN01zOEhJOHBWbTRWODNhUmpPU1hXOUQ2dUxUYVJsS1ozUTYzc3J3R0RwbTFfa1VHWnkzb0V6WXZtdjFfOHR3c0NfVndveUU3Tm1PMi1JTjM4d09Yd3d5V3c?oc=5",
-   "domain": "qz.com",
-   "published": "2026-11-19T12:53:48+00:00",
-   "source": "Quartz",
+   "title": "GTA 6 Release Drives Take-Two Stock Surge",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVmpyV0VPS19YZGM1RUUyMDZwQVJaYlZkTWZLTzRpOGdSMl9FaEtpS0xkV1VqbmludzY4eEpJZElsamxHRnc1a3lRakV1d1E5d001ZUhkMUJkcXpINkQ4dklsMnc5cFRDOEhMMFI2b2ZJUmJlQWNCQnRoRFI4M183OFIwTVpzT0I1?oc=5",
+   "domain": "chosun.com",
+   "published": "2026-11-19T04:52:05+00:00",
+   "source": "조선일보",
    "tier": 3,
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 31,
+   "corroborated_by": 33,
    "sources": [
+    "BeInCrypto",
     "Benzinga",
     "BigGo Finance",
     "Coin Gabbar",
+    "Complex",
     "Crypto Briefing",
-    "Cryptonews.net",
+    "CryptoTicker.io",
+    "Euronext Markets: Real-time Stock Market Data | live",
     "Fox Business",
-    "GuruFocus",
     "HOLR Magazine",
     "Hindustan Times",
-    "Hokanews",
     "International Business Times UK",
     "Investing.com",
     "Kalkine",
+    "KuCoin",
     "Kursiv Media Казахстан: последние новости Казахстана и мира",
+    "LevelUp",
     "MLQ.ai",
     "NDTV Profit",
+    "Nacionale",
+    "Opening Bell Daily",
     "Quartz",
     "Reuters",
     "Seeking Alpha",
     "Simply Wall St",
-    "StreetInsider",
-    "TalkEsport",
-    "The Defiant",
+    "The Globe and Mail",
     "Traders Union",
-    "TradingView",
-    "Variety",
-    "WNWN-FM",
+    "UA.NEWS",
+    "XTB.com",
     "Yahoo Finance",
     "games.gg",
     "kalkine.ca",
@@ -1059,12 +1247,13 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 4,
+   "corroborated_by": 5,
    "sources": [
     "BigGo Finance",
     "Bloomberg",
     "Fortune",
-    "TradingView"
+    "Nacionale",
+    "Stocktwits"
    ],
    "status": "verified"
   },
@@ -1081,26 +1270,9 @@
    "corroborated_by": 4,
    "sources": [
     "Benzinga",
+    "Euronext Markets: Real-time Stock Market Data | live",
     "Nacionale",
-    "Reuters",
-    "WNWN-FM"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "Marketers Level Up: The Unignorable Power of the Gamer Economy as ‘GTA VI’ Arrives",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaHlRVFYxSmVZUHNjRnR3ZWlLMExHeW5GQk9KdnpoTXFORGE4T0VJN2R0bFBvNjFocFlvdENKVGNBMUY0bnJVczk4eHRjWXRTTkxEbWhWVTV4UFJpelp1VXljZUVkcG5OQzZjT0lwXzJVa0dtRElsNmQxSndNX09UVE9RU3MtdlJ6WTJVbnZNVDZXMUszNWVmOUF2NVJBM19WX0RTd2xUZlhuX005MGd6NkJZbzV6RGVqUGc?oc=5",
-   "domain": "wsj.com",
-   "published": "2026-11-19T14:55:00+00:00",
-   "source": "The Wall Street Journal",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "Financial Times",
-    "The Wall Street Journal"
+    "Reuters"
    ],
    "status": "verified"
   },
@@ -1122,63 +1294,60 @@
    "status": "verified"
   },
   {
-   "title": "What Moved Take-Two Stock?",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcXV1M1lWUm41TXdqOGEzRlB2N1FETlFSb2ZZUjRPT2hhWHhfRTdISzlHZ19ia25QaktSY0gtTURCZWI0Ty1jLTI2YnZaM0xxT1BzWWEyU0duUUloLThfQ2Exb09HTDE5OE1obWM0S0g4Q2RmOC1nWUc0YjRvZEMtcUo1eE54UTg?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-19T12:33:13+00:00",
-   "source": "Yahoo Finance",
+   "title": "GTA6 Sells Over $1.65 Billion on Day One, but Take-Two's Real Bet Comes After Players Finish the Story",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OV3pZN0JCTy00a1l4dWxON3QzcVFDWGVSVFg1azhIemJXU0djTEFnN0tiemlMWnAtZEtNMldxeENISnhSaWYwWWlINC16bkI5NG9RQ0Y4R2lNaHc?oc=5",
+   "domain": "finance.biggo.com",
+   "published": "2026-11-19T13:08:00+00:00",
+   "source": "BigGo Finance",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 15,
+   "corroborated_by": 11,
    "sources": [
-    "80 Level",
     "Benzinga",
-    "Cryptonews.net",
-    "Global Banking & Finance Review",
-    "HOLR Magazine",
-    "Hokanews",
-    "Investing.com",
-    "Kursiv Media Казахстан: последние новости Казахстана и мира",
-    "Opening Bell Daily",
-    "Simply Wall St",
-    "The Defiant",
-    "The Globe and Mail",
-    "XTB.com",
-    "Yahoo Finance",
-    "조선일보"
+    "BigGo Finance",
+    "Coin Gabbar",
+    "Crypto Briefing",
+    "Euronext Markets: Real-time Stock Market Data | live",
+    "GamerBraves",
+    "Hindustan Times",
+    "LevelUp",
+    "Nacionale",
+    "Seeking Alpha",
+    "UA.NEWS"
    ],
    "status": "single"
   },
   {
-   "title": "Former Take-Two CEO Ben Feder Says One Toy Story-Style Hit Could Change Gamers'Perception Surrounding AI",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQVlicjVqMGRsZWk5WWV2TzRmaWNuZi13aGVDNGdhc0VhdWR4bTZ2MXZQZGx6bzgxU0c0OXE0TC1jbm5oODF1NmtGOHpMeUJreEs5Q3FZTHJhdUZUTUpJMGlmdm5VZENTVnlHV0EyX21aeDBiUHFtZjRycXNJTFIySC1tM3lJMGpJOUF3d2tTVDUwYnhMcjFzLVRwa091RmwwSFkzajJGZXM5THBKNDVfUDd4QWYwSFlLVFNjZGJCYWRfcEJuN3JKMFo1ODQ?oc=5",
-   "domain": "gamerbraves.com",
-   "published": "2026-11-19T08:28:24+00:00",
-   "source": "GamerBraves",
+   "title": "Take-Two (TTWO) Receives a Buy from Wells Fargo",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVmdudXJDY1I4VWdZeXpPTEotRUZncWZtVmdtVDBNOTNKSWo4QlhiSXJnektTVW5qSlB6Z21RMkNfRjFkZW9kSHRRbGxsS2dKUFFiVGZQQUNsY1NuNDg1cDRjbDVuNUlXSktKZExVY1dtVjdkTTV6X3BZMjB1X2hhTURqVkE4OWxNSkNKeUl3R2U4SVdVc3V1aGRjV3hIcGNxTXdIbFFsOHFEZXpvVkhvaHlHMlVKVUtDMjd3ZnB6NW41bHFUaEFqT2tR?oc=5",
+   "domain": "theglobeandmail.com",
+   "published": "2026-11-19T12:04:23+00:00",
+   "source": "The Globe and Mail",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 8,
+   "corroborated_by": 9,
    "sources": [
-    "80 Level",
-    "BigGo Finance",
-    "Game World Observer",
-    "GamerBraves",
-    "International Business Times UK",
-    "Simply Wall St",
-    "Variety",
-    "Yahoo Finance"
+    "GuruFocus",
+    "Investing.com",
+    "Invezz",
+    "Kalkine",
+    "Opening Bell Daily",
+    "Seeking Alpha",
+    "The Globe and Mail",
+    "Yahoo Finance",
+    "kalkine.ca"
    ],
    "status": "single"
   },
   {
-   "title": "Anthropic, Alphabet, Palo Alto, Bloom Energy, Take-Two, Walmart, and More Stocks That Explain Today’s Market",
+   "title": "Anthropic, AMD, Alphabet, Palo Alto, Take-Two, Walmart, and More Stocks That Explain Today’s Market",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JVzJDLTFPc2lrY2ZPcXR4NElkVklfRGRyUGpQaTM3ZVZMcDY1UExMSjJ6QW5SQmstMFhES0gzMUQwQTZvY0ZJYUR1X2hLMllkSHVjajk0MmtnSko1LVAtcERldVA?oc=5",
    "domain": "barrons.com",
-   "published": "2026-11-19T13:49:00+00:00",
+   "published": "2026-11-19T17:30:00+00:00",
    "source": "Barron's",
    "tier": 2,
    "sentiment": 0.0,
@@ -1187,59 +1356,19 @@
    "corroborated_by": 5,
    "sources": [
     "Barron's",
+    "Euronext Markets: Real-time Stock Market Data | live",
     "Investing.com",
-    "TalkEsport",
-    "Traders Union",
-    "kalkine.ca"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Stock Futures Climb Ahead Of Anthropic's Nasdaq Debut — NVDA, BABA, TTWO, SLS Stocks In Focus",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSUU3Q21qQlRnUlRQN0tBa0lKSGZFbU1IYlJhXzN6WUZ3dklzaXpMNzhUZVZmUnozR3pCM016d0dKalhZZGowbG9EekY1T1U0MC1MY2FFRF9yelNldm5kQ3Y1d2o2WFdPR2x3bkNxWktSdThRd0ZzMkh3cU44TXJuaXFDVXIxV244MkphWXJib0RZZlVFUnNsNUxuNzh1UWlYM01z?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-19T11:02:03+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 5,
-   "sources": [
-    "Benzinga",
-    "GuruFocus",
-    "Kalkine",
-    "Yahoo Finance",
-    "kalkine.ca"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Is TTWO a good stock to buy as GTA 6 launches?",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNelhpcmdMSTBxdEJnNDZ4Z0RqMWxlajNvaFpEdm14RFFsWi1xdE5wZlgtY054YnVXMk5OenFNQkptVGdmQTZLZXljTjdacHA2TUZ2Q09aOHB3c0ROWS1ZVThSXzh1d1g0d2Rjb1pGb2xBZkxYTVBFT1VrSW1Jb0VBMkVDWkQ5SGY5?oc=5",
-   "domain": "invezz.com",
-   "published": "2026-11-19T08:51:17+00:00",
-   "source": "Invezz",
-   "tier": 3,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 5,
-   "sources": [
-    "Investing.com",
-    "Invezz",
-    "Kalkine",
-    "The Globe and Mail",
-    "kalkine.ca"
+    "KuCoin",
+    "Traders Union"
    ],
    "status": "single"
   },
   {
    "title": "GTA VI publisher racks up nearly 3x Nvidia’s tokenized stock volume",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcGlDdG9KMkliNEVaLTc3bzBBM1Q4ZVdrbHZKeUY1eG9sZFJJLTdCdjlqZXFITDRqdVFhRTlrY2M2LTc2a2tOVDM0MS1HSi1mOWRMcE4tTU9ZNTRRYVMwY180VmlDXzBoZFhmUlhPUHZCa1RycTE5UUR1dnppUlVHMnFGaE9JOXVGdS1aYUVFa2ZwXzdZc2pDVkdWdElIWDZaR0pnMEsyWm1XZnFBVmc1SGFHY184SU5FY2RpM2dfSl9zNWJScGZTamR5MA?oc=5",
-   "domain": "tradingview.com",
-   "published": "2026-11-19T12:33:46+00:00",
-   "source": "TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5IMnEyUTUyVVM1R1VQaldtSFc0QWV5STI3Wjh4YTdhaTFkV2tDUjQ5OEYwUVJCd2VoX0IzTEJreThsUTRsdHoxTEduN21TWXFQaUxCUjl2aFE?oc=5",
+   "domain": "cryptonews.net",
+   "published": "2026-11-19T18:29:24+00:00",
+   "source": "Cryptonews.net",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
@@ -1248,8 +1377,8 @@
    "sources": [
     "BigGo Finance",
     "Crypto Briefing",
-    "Traders Union",
-    "TradingView"
+    "Cryptonews.net",
+    "Traders Union"
    ],
    "status": "single"
   },
@@ -1273,19 +1402,55 @@
    "status": "single"
   },
   {
-   "title": "Rockstar Needed 13 Years to Develop GTA VI. Here’s a Timeline.",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTEZQcG9lVEYxdHpLM1haeU9hRTdzRDBuVHJkU2Y1dEV6Z0Zfb2dsb0tuOV9TQVpqYURKcUxSS1lkckdQRWhPam4xYXU4QjNJU0dUTG8yR2V6WEZFOUUzRnBETTRYams3bWtxTVB4ZkRicWFld1dveFNsb2pvdVhRZGNBb3h2MGJ6SHJQTjlhTXdObHV4UENpT3RBWQ?oc=5",
-   "domain": "barrons.com",
-   "published": "2026-11-18T23:12:00+00:00",
-   "source": "Barron's",
-   "tier": 2,
+   "title": "The cat came back: Roaring Kitty tweet sends GameStop stock higher amid GTA VI fervor",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE01OHpsX2tWbEdxTDY5YXpFbS1CRkRnb3VtWHJBOGdCRE5HOENPN0N1TXpOQmlhRkdkcmxTajFFYmNPeV9RSWtNQi1wOWhCVm5ab0g3TURLdWplbnhFSzFzNTJkUHNZWXUwVUgxbGNjWHdXQ091WmxLN05Xaw?oc=5",
+   "domain": "aol.com",
+   "published": "2026-11-19T18:42:20+00:00",
+   "source": "AOL.com",
+   "tier": 3,
+   "sentiment": 1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 3,
+   "sources": [
+    "AOL.com",
+    "HOLR Magazine",
+    "Nacionale"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Stock Futures Climb Ahead Of Anthropic's Nasdaq Debut — NVDA, BABA, TTWO, SLS Stocks In Focus",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSUU3Q21qQlRnUlRQN0tBa0lKSGZFbU1IYlJhXzN6WUZ3dklzaXpMNzhUZVZmUnozR3pCM016d0dKalhZZGowbG9EekY1T1U0MC1MY2FFRF9yelNldm5kQ3Y1d2o2WFdPR2x3bkNxWktSdThRd0ZzMkh3cU44TXJuaXFDVXIxV244MkphWXJib0RZZlVFUnNsNUxuNzh1UWlYM01z?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-19T11:02:03+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 3,
+   "sources": [
+    "Kalkine",
+    "Yahoo Finance",
+    "kalkine.ca"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "GTA 6 Crypto Impact: Gaming Hype Hits Onchain Markets",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdkZ6RDVEU1l5cVlCdi1sSWlfN0hubHVvLXRFanRDazFCYUlIQTN3TGJHcC04M3Nva3hJdGRETmFVR1dFRnhuUlp4SWhpOEZ5QW1yOWpPNEpBMktCZmp5WW5MNWpCQjdIZ1U5ajNpOG1XTjBsTnVZd3lLdnJIZXFVQVFTeVJZa0FKRmtieVg5NFVCWHhBRjJOSklKZWlFMGFsR2N0Zi1jM3BndzRIWXJkcnVn?oc=5",
+   "domain": "tradingview.com",
+   "published": "2026-11-19T14:55:32+00:00",
+   "source": "TradingView",
+   "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 2,
    "sources": [
-    "Barron's",
-    "Fox Business"
+    "Traders Union",
+    "TradingView"
    ],
    "status": "single"
   },
@@ -1307,6 +1472,22 @@
    "status": "single"
   },
   {
+   "title": "Marketers Level Up: The Unignorable Power of the Gamer Economy as ‘GTA VI’ Arrives",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaHlRVFYxSmVZUHNjRnR3ZWlLMExHeW5GQk9KdnpoTXFORGE4T0VJN2R0bFBvNjFocFlvdENKVGNBMUY0bnJVczk4eHRjWXRTTkxEbWhWVTV4UFJpelp1VXljZUVkcG5OQzZjT0lwXzJVa0dtRElsNmQxSndNX09UVE9RU3MtdlJ6WTJVbnZNVDZXMUszNWVmOUF2NVJBM19WX0RTd2xUZlhuX005MGd6NkJZbzV6RGVqUGc?oc=5",
+   "domain": "wsj.com",
+   "published": "2026-11-19T14:55:00+00:00",
+   "source": "The Wall Street Journal",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "The Wall Street Journal"
+   ],
+   "status": "single"
+  },
+  {
    "title": "‘GTA VI’ preps the ultimate heist",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcmNiYndSbkFXb21kMmxIdHFydzd1STRzSjBaM0JHeER3cFVmZ2ZnQW5fUUFXNEJkRFg4STlsdTgxXzE5WFg3bGhVa0RjR2RUYWRnNGFmQS1rRGY2WUMxYUZUdFpHTEFnTFpwdFprVHBEUnNjSjBUSTZ2Y2dxSC1lcQ?oc=5",
    "domain": "reuters.com",
@@ -1323,7 +1504,7 @@
    "status": "single"
   },
   {
-   "title": "Morning Bid: Loading ... Claude and GTA VI",
+   "title": "Loading ... Claude and GTA VI",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lUWNXaXNEZTRSNUV5T2VRdk45RzFYdHVwSUFweEJlaW1RSVlsNXpNdGFQNGE3aFUwdHZ6OTloMnBTTndXVkViYWlkSE1UWlFGRjFYbW5tck9fR2ZkOVo4NjBhQnIwNmR2Wm42YjZ4bko5TnJqd0pEbmcwd0RzSE0?oc=5",
    "domain": "reuters.com",
    "published": "2026-11-19T05:35:00+00:00",
@@ -1342,7 +1523,7 @@
    "title": "GTA vs. James Bond: Which franchise is more valuable?",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRHdMY1BnZDVKUHgzNFBfU0VCb09IaHF1QkNFWHJoUTdyQ1NEaEQzNHliWVBHYjU3ZkxYWWVMbEROXzl3dkVVLUd4UThHeWtSTjJXVzZEc3d3RGtkeW5VQ2JnTWdMMWNCQ0JDT3RNSXFCNzZfRWxaR0Rkck5TUEpCY29ObmRfV0xqU3NXNE5hMl9FcV8yanRseA?oc=5",
    "domain": "cnbc.com",
-   "published": "2026-11-19T11:24:35+00:00",
+   "published": "2026-11-19T11:10:00+00:00",
    "source": "CNBC",
    "tier": 2,
    "sentiment": 0.0,
@@ -1351,6 +1532,70 @@
    "corroborated_by": 1,
    "sources": [
     "CNBC"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "How Long Has GTA 6 Been in Development? Full Timeline",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZUxmSmg4QkhaVGhRN3BfU1doOU5mVjcybTNqNUk1WkZJMGN3c241eF9QSkVnT3dlamNoa3BxVFpVeldOYWlzTWhFdFJBWmFLZTlZMGF4TW8zM2ZCM2xqdDllV0RvVkJRWk5OU0VHZXNhblVVMTdJcGtiSl9BdlliRw?oc=5",
+   "domain": "cryptoticker.io",
+   "published": "2026-11-19T20:49:37+00:00",
+   "source": "CryptoTicker.io",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "CryptoTicker.io"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "GTA 6: Which Console Runs It Best? PS5 Pro vs Xbox",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9YeUVNbk9ZU2Nndmd6S3F0bTMyZ0NKSGJFNDlfcUY1M212S3BVOWhjeFl0U1pOSDQ3dEkwUEhMSnJBQWNHaGhLTENDMFdodXc2cDlhR2xiLXNsNG5KRVVyS2htdVJERW4tcjZDZFJlelVTSTJxR2VUZm5Ldk1NQQ?oc=5",
+   "domain": "cryptoticker.io",
+   "published": "2026-11-19T19:36:07+00:00",
+   "source": "CryptoTicker.io",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "CryptoTicker.io"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Nike Stock Slides (NKE) Despite Teaming Up with Travis Scott on $130 GTA 6 Sneakers",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNFIzaExWb2g1NE5ackY2dE41Zm9wUTJ1U2hPVkV2WVlwTmd4OThMSTk2WWp0RzdHMU1xZlF2RlpwdkUwLWE1T01vakZyamUyWEZkWl9NWjZFTEY4WVhBX1ZPNlRXSVhsMktSU3F2N29UWnpMaXdDY1R3bkFCLTlKWEVhRTZzd3l4emNDSGkwaTJqb1pjOGVNNmdrNTRweXpobk54LWdSLVh4b3pRbEFB?oc=5",
+   "domain": "tipranks.com",
+   "published": "2026-11-19T15:05:40+00:00",
+   "source": "TipRanks",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "TipRanks"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Kannattaako ostaa TTWO-osaketta GTA 6:n julkaisun yhteydessä?",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSjJKM3lVV0JxX1o4QUJYcHN3Y2ZuVGlEVWlvRmxTaEhYWE5lYkVCRVczT2ZkQ3dnR3dnZ1VlMVRmVGxtRTIwLVJtZzFaVXB1MkY3MTQ1ZTBLOFNjWFN6MGxzLVlOVmtVZl84aW12NHdValBoX3pvUUZndHUyZjhvYTRJcldVMk9TakJKb09qUDB1OWZTWTczVm9yeWhOQk04bExZ?oc=5",
+   "domain": "invezz.com",
+   "published": "2026-11-19T08:55:35+00:00",
+   "source": "Invezz",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Invezz"
    ],
    "status": "single"
   }
@@ -4719,7 +4964,7 @@
    "h": 222.65,
    "l": 210.5,
    "c": 216.61,
-   "v": 12032400,
+   "v": 12135700,
    "sma20": 208.566,
    "sma50": 207.745,
    "sma200": 218.318,
@@ -4730,14 +4975,14 @@
    "t": "2026-11-19",
    "o": 213.865,
    "h": 225.57,
-   "l": 208.59,
-   "c": 217.06,
-   "v": 4390394,
-   "sma20": 209.029,
-   "sma50": 207.747,
-   "sma200": 218.399,
-   "rsi": 53.792,
-   "macd_hist": 0.656
+   "l": 208.29,
+   "c": 209.1,
+   "v": 6725425,
+   "sma20": 208.631,
+   "sma50": 207.588,
+   "sma200": 218.359,
+   "rsi": 48.918,
+   "macd_hist": 0.148
   }
  ]
 }
