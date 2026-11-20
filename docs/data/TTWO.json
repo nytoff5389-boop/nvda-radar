@@ -1,6 +1,6 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-19T23:23:18.475919+00:00",
+ "generated_at": "2026-11-20T04:04:37.015316+00:00",
  "sample": false,
  "intraday": {
   "price": 208.65,
@@ -846,6 +846,76 @@
     "t": 1795130100,
     "c": 209.54,
     "s": "post"
+   },
+   {
+    "t": 1795130400,
+    "c": 209.16,
+    "s": "post"
+   },
+   {
+    "t": 1795130700,
+    "c": 209.99,
+    "s": "post"
+   },
+   {
+    "t": 1795131000,
+    "c": 208.25,
+    "s": "post"
+   },
+   {
+    "t": 1795131300,
+    "c": 208.25,
+    "s": "post"
+   },
+   {
+    "t": 1795132500,
+    "c": 208.49,
+    "s": "post"
+   },
+   {
+    "t": 1795132800,
+    "c": 209.09,
+    "s": "post"
+   },
+   {
+    "t": 1795133100,
+    "c": 209.5,
+    "s": "post"
+   },
+   {
+    "t": 1795133700,
+    "c": 209.27,
+    "s": "post"
+   },
+   {
+    "t": 1795134000,
+    "c": 209.73,
+    "s": "post"
+   },
+   {
+    "t": 1795134300,
+    "c": 209.29,
+    "s": "post"
+   },
+   {
+    "t": 1795134900,
+    "c": 208.5,
+    "s": "post"
+   },
+   {
+    "t": 1795135200,
+    "c": 209.15,
+    "s": "post"
+   },
+   {
+    "t": 1795135800,
+    "c": 208.36,
+    "s": "post"
+   },
+   {
+    "t": 1795135926,
+    "c": 208.36,
+    "s": "post"
    }
   ],
   "pre": {
@@ -854,8 +924,8 @@
    "s": "pre"
   },
   "post": {
-   "t": 1795130100,
-   "c": 209.54,
+   "t": 1795135926,
+   "c": 208.36,
    "s": "post"
   },
   "periods": {
@@ -889,10 +959,10 @@
   "hi52": 265.94,
   "drawdown_pct": -21.5425,
   "avg_vol20": 4240075.0,
-  "volume": 8263099
+  "volume": 8283100
  },
  "verdict": {
-  "score": -2.21,
+  "score": -2.44,
   "level": "เสี่ยง",
   "lean": "ระวัง / พิจารณาขายบางส่วน",
   "key": "bad",
@@ -924,8 +994,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.54,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.27 จาก 24 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.31,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.16 จาก 25 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -949,46 +1019,46 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 11,
-   "bear": 2,
-   "bull_pct": 84.6,
-   "watchers": 26506,
+   "bull": 6,
+   "bear": 4,
+   "bull_pct": 60.0,
+   "watchers": 26517,
    "sample": [
     {
      "tag": "Bullish",
-     "body": "$TTWO Get the fuck out Im such happy to follow people like @MonkeyBananaGenius He know the games",
-     "user": "SushiYoshi",
-     "at": "2026-11-19T23:00:03Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO People yet, don&#39;t undetstand how X, twitch, tiktok, work and will make the game , spoiler, content anything you can think about all around the world. Yet , it&#39;s not even on pc, it&#39;s not mod, it&#39;s no",
-     "user": "SushiYoshi",
-     "at": "2026-11-19T22:57:05Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO a pretty unique perspective on potential problems here, but i&#39;m long https://www.zerohedge.com/political/gta-6-scores-99-critics-actual-gamers-are-calling-it-cuck-simulator",
-     "user": "PG710ford2",
-     "at": "2026-11-19T22:33:03Z"
+     "body": "$TTWO You too 😂",
+     "user": "amex_platinum",
+     "at": "2026-11-20T03:11:44Z"
     },
     {
      "tag": "Bearish",
-     "body": "$TTWO @cournioni the cuck great call on this steaming POS 🤣🍆💦 your wifes boyfriend pegged you extra hard",
-     "user": "bagholdking",
-     "at": "2026-11-19T22:31:54Z"
+     "body": "$TTWO game sucks",
+     "user": "Dawsonz",
+     "at": "2026-11-20T03:09:52Z"
+    },
+    {
+     "tag": "Bearish",
+     "body": "$TTWO bought a couple puts. Seems like the game has strayed from what made it good, got too woke.",
+     "user": "reyman22",
+     "at": "2026-11-20T02:51:14Z"
     },
     {
      "tag": "Bullish",
-     "body": "FGI BEGINNING TO SQUEEZE!!! 🔥🔥🔥🚀 $SNDK $TSLA $MSTR $TTWO &gt;&gt;",
-     "user": "GridironGainz",
-     "at": "2026-11-19T22:31:15Z"
+     "body": "$TTWO Its stunning and elaborate with excellent music 🎶",
+     "user": "wwwgill1",
+     "at": "2026-11-20T02:31:09Z"
     },
     {
      "tag": "Bullish",
-     "body": "$TTWO These stats can be flipped upside down. Trust me. @Stocktwits has rookies working on this part.",
-     "user": "amex_platinum",
-     "at": "2026-11-19T22:19:50Z"
+     "body": "$NVDA $TTWO $SPY $UVXY $VXX Hang in there everyone. This is the time to be accumulating. BTMFD especially if SPY sees the $680&#39;s, $690&#39;s or lower.",
+     "user": "TonyG6ix",
+     "at": "2026-11-20T02:07:46Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO this is by far the best game I&#39;ve ever played in my life.",
+     "user": "MikeyS2k",
+     "at": "2026-11-20T01:43:57Z"
     }
    ]
   },
@@ -1160,6 +1230,10 @@
    {
     "t": "2026-11-19T23:23+00:00",
     "bull_pct": 84.6
+   },
+   {
+    "t": "2026-11-20T04:04+00:00",
+    "bull_pct": 60.0
    }
   ]
  },
@@ -1176,8 +1250,8 @@
    {
     "key": "gta",
     "label": "GTA 6 / วันวางขาย",
-    "count": 10,
-    "tone": 0.3,
+    "count": 8,
+    "tone": 0.12,
     "example": "Rockstar Games Announces Grand Theft Auto VI Now Available - Take-Two Interactive Software, Inc.",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQX3FHQlY3MmtfRllfdmdxWHhRZDVCaFZjcER0c0swV3NYcGxvRk1sakdvUWlyaHp4QVFwc3I0b201OXlyM29RWVYzWmc0RWJER2Z2REtYeFpCX3VKU2FOVUNjVzlQdTktZHJvUHVpNHhJQ01peWdjT2Zmd3pKYmgwQ09DRGFReVJSbWMxc1hQSXl1SGs4Vy1MZQ?oc=5"
    }
@@ -1207,13 +1281,12 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 27,
+   "corroborated_by": 26,
    "sources": [
     "80 Level",
-    "Associated Press",
     "Bloomberg",
     "Crypto Briefing",
-    "Finbold",
+    "Foreign Policy Journal",
     "Game World Observer",
     "Global Banking & Finance Review",
     "GuruFocus",
@@ -1232,9 +1305,9 @@
     "The South Shore Press",
     "TheStreet",
     "XTB.com",
+    "Yahoo",
     "Yahoo Finance",
-    "games.gg",
-    "kalkine.ca",
+    "Yahoo Finance Singapore",
     "marketscreener.com"
    ],
    "status": "official"
@@ -1243,17 +1316,15 @@
    "title": "Grand Theft Auto VI is Now Set to Launch November 19, 2026",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZTBtaHBIYlRBTDY1bnNwT3JxUzBWcWRrRjZEdEhwaWV5Ql9xVFZmYkZwcFhzeHI5QXN1MHZseXhlbWZzSTJfYm1MenNFLU1ZVXRhQ2dySG84MVVlTW9rVml3YzljR0JOaHJjZE9JOXFvYXlPVlFBNmgydFZGNXBWaVhvbmZTbmV0cGlqYTVKeGtpcXhYOWRGd3paQTljSUZBZ09wMHhTWXB4Nk50V2ZNTzdtRkhhdU9DLWxZ?oc=5",
    "domain": "rockstargames.com",
-   "published": "2026-11-19T22:59:39+00:00",
+   "published": "2026-11-19T23:47:46+00:00",
    "source": "Rockstar Games (ทางการ)",
    "tier": 1,
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 17,
+   "corroborated_by": 15,
    "sources": [
-    "Associated Press",
     "Bloomberg",
-    "Finbold",
     "GuruFocus",
     "Kalkine",
     "Reuters",
@@ -1266,26 +1337,24 @@
     "The South Shore Press",
     "TheStreet",
     "XTB.com",
-    "Yahoo Finance",
-    "games.gg"
+    "Yahoo",
+    "Yahoo Finance"
    ],
    "status": "official"
   },
   {
-   "title": "Grand Theft Auto VI Now Available",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdXo0UWRqWURsRUhOWEV5VnprS0FEbTdBbWhoLWx1RUx5UXpKRG91OTcwa2pvc1RXNk5hTXdHb0ZTSVlPTjFaRDVrV25GRmRvSWtRa1Y4MzBwd2xXcnZ6V0NsMEpESHBLLWczLXp3aS1TTXNGb1o0SENMNEZuNGdLVHM3ZFZ6cnFZS2wyS0FMbENlNDlUa2VrbGRaQ3VtMVE?oc=5",
+   "title": "Grand Theft Auto VI",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9IS0ZaaU5sbmtnUGNXUVRxOHRtcnZQdGZWaTJ3UVJ2MFRHMDR5TjB4WWlQQ2NPQWQtaEcwcjZBMXJZcWI2MzcyX2xGN3VMUlFBSXhHTzIxZmJ4ZG9TeXZjaWY4Q1IwWFpY?oc=5",
    "domain": "rockstargames.com",
-   "published": "2026-11-19T15:27:37+00:00",
+   "published": "2026-11-19T23:33:49+00:00",
    "source": "Rockstar Games (ทางการ)",
    "tier": 1,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 17,
+   "corroborated_by": 15,
    "sources": [
-    "Associated Press",
     "Bloomberg",
-    "Finbold",
     "GuruFocus",
     "Kalkine",
     "Reuters",
@@ -1298,8 +1367,8 @@
     "The South Shore Press",
     "TheStreet",
     "XTB.com",
-    "Yahoo Finance",
-    "games.gg"
+    "Yahoo",
+    "Yahoo Finance"
    ],
    "status": "official"
   },
@@ -1313,11 +1382,9 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 17,
+   "corroborated_by": 15,
    "sources": [
-    "Associated Press",
     "Bloomberg",
-    "Finbold",
     "GuruFocus",
     "Kalkine",
     "Reuters",
@@ -1330,26 +1397,24 @@
     "The South Shore Press",
     "TheStreet",
     "XTB.com",
-    "Yahoo Finance",
-    "games.gg"
+    "Yahoo",
+    "Yahoo Finance"
    ],
    "status": "official"
   },
   {
-   "title": "Grand Theft Auto VI",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSTjFrMUExdk94ZjZ4MjlJVXZUcldOTVNnMGgxWUs4X2ZjWHE3bTQwUmhKTW15akVvVGVkaWplRzBTcF8zTV9fMDBUWUlaaUQtY2Rr?oc=5",
+   "title": "Grand Theft Auto VI Now Available",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOWdwZ19FWUxxVGJyMl9peEJpcWRaY3hMcHFDbXE3UzlNMzRhZUthNGY1dmkyOXJ3cndhQnl6dlk0bnpaMzlSNG94RFdscU94RVJzejcweXhmNlRjTjJoY04yQkVNalQwaW1UOVZRSi12b2t5T2pqc2J3cGpQNC1vUFozM3dzSWJVVDJ3UWFGLXE2RlE3MFVZR2FtOA?oc=5",
    "domain": "rockstargames.com",
-   "published": "2026-11-19T14:04:22+00:00",
+   "published": "2026-11-19T14:36:52+00:00",
    "source": "Rockstar Games (ทางการ)",
    "tier": 1,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 17,
+   "corroborated_by": 15,
    "sources": [
-    "Associated Press",
     "Bloomberg",
-    "Finbold",
     "GuruFocus",
     "Kalkine",
     "Reuters",
@@ -1362,36 +1427,39 @@
     "The South Shore Press",
     "TheStreet",
     "XTB.com",
-    "Yahoo Finance",
-    "games.gg"
+    "Yahoo",
+    "Yahoo Finance"
    ],
    "status": "official"
   },
   {
-   "title": "Take-Two tokenized stock trading volume jumps as GTA VI rollout lifts crypto market activity",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ0w0bDJ4S1dBNW9OdWsyMWtSVS1zdlNqdDV5XzdTaWZZdENibXdyZTVma1ltYXdRM2pzTTRPSWl5VmFFSDVVWXROa3kySk1odDJaWnF2TWwtVVh4aXlId1B5SS1VZkFVOHRNVmVsY1dndERseldUeHhkazhxUkZsTEQ2SHNVOXdrVVh5amktdV8tdk55VzFSdl9ObFQxaVUyZUJzbA?oc=5",
-   "domain": "tradersunion.com",
-   "published": "2026-11-19T12:46:30+00:00",
-   "source": "Traders Union",
+   "title": "Is Take-Two (NASDAQ:TTWO) Worth Buying Into GTA VI's Debut, Given Its 94% Buy Consensus and USD 290 Median Target?",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdHpmaFFKVXQzNzJQRTM1MkE5ejJwckMwaWpfMFVjT1hwaEk5bjBwZzE2cVZ6NlpqSlBpTG9TTHVoa1p2bXZQZng1WnEtcmtRS2FiVGJ4ZWxJSjM1NkljOWppcnBiU3Z1YmJ3bndzLV9ibWpHZjVQaHVnTEFrYTdQang5U1U0SDlrTUdXY1cyMmdiVzhEX0hnSWJsMXRBT3hWRUNBNHNfMElHay1hckVmNGpOa3NRQ1JVNll4R0hKbTlqOHhScm1wQmdEXzZFaWVBblZWZUVEaw?oc=5",
+   "domain": "kalkine.ca",
+   "published": "2026-11-19T12:39:00+00:00",
+   "source": "kalkine.ca",
    "tier": 3,
-   "sentiment": 1.0,
+   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 32,
+   "corroborated_by": 34,
    "sources": [
     "24/7 Wall St.",
-    "Barron's",
     "BeInCrypto",
     "Benzinga",
     "BigGo Finance",
-    "Coin Gabbar",
+    "BusinessToday Malaysia",
+    "CNA",
+    "CNBC",
     "Complex",
     "Crypto Briefing",
-    "Cryptonews.net",
     "Euronext Markets: Real-time Stock Market Data | live",
+    "Foreign Policy Journal",
+    "GuruFocus",
     "Hindustan Times",
     "International Business Times UK",
     "Investing.com",
+    "Invezz",
     "Kalkine",
     "KuCoin",
     "Kursiv Media Казахстан: последние новости Казахстана и мира",
@@ -1400,37 +1468,18 @@
     "NDTV Profit",
     "Nacionale",
     "Quartz",
-    "Reuters",
     "Seeking Alpha",
-    "Simply Wall St",
-    "Stocktwits",
+    "The Globe and Mail",
+    "The Straits Times",
     "TheStreet",
     "Traders Union",
-    "TradingView",
     "Yahoo Finance",
-    "games.gg",
+    "Yahoo Finance Singapore",
     "kalkine.ca",
+    "marketscreener.com",
     "조선일보"
    ],
-   "status": "verified"
-  },
-  {
-   "title": "When will Rockstar reveal GTA 6 sales? Possibly within days, and these are the records to beat",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPb3ZWYnJ0SHdkWWhIM0pWZ29NOWh0RjRfdThvZUhENUNVaFQ1VUg4aDBRazV2ZFNIb0FNeE9TWThwZjZuN2dmbFEtM0hPVmVxZGthYnZ3VmlQUFdyYndBVFl1U3NwRlMtNlBBV0xtM1ZZbXJ4SFVsUTJKTzQzMWVaVXJESHRfQXVWdVJsLS1vcEVPYlRGN0I5Mi1kVlVEMHFXV2xKTFZkcHhEMzNLdDdxamVIdmo?oc=5",
-   "domain": "nacionale.com",
-   "published": "2026-11-19T15:23:14+00:00",
-   "source": "Nacionale",
-   "tier": 3,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "Euronext Markets: Real-time Stock Market Data | live",
-    "Nacionale",
-    "Reuters"
-   ],
-   "status": "verified"
+   "status": "single"
   },
   {
    "title": "What Moved Take-Two Stock?",
@@ -1442,7 +1491,7 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 15,
+   "corroborated_by": 14,
    "sources": [
     "80 Level",
     "BeInCrypto",
@@ -1453,7 +1502,6 @@
     "Kursiv Media Казахстан: последние новости Казахстана и мира",
     "Nacionale",
     "Opening Bell Daily",
-    "Simply Wall St",
     "The Globe and Mail",
     "TheStreet",
     "XTB.com",
@@ -1477,10 +1525,10 @@
     "24/7 Wall St.",
     "Benzinga",
     "BigGo Finance",
-    "Coin Gabbar",
+    "BusinessToday Malaysia",
     "Crypto Briefing",
     "Euronext Markets: Real-time Stock Market Data | live",
-    "GamerBraves",
+    "Foreign Policy Journal",
     "Hindustan Times",
     "LevelUp",
     "Nacionale",
@@ -1490,22 +1538,42 @@
    "status": "single"
   },
   {
-   "title": "Is TTWO a good stock to buy as GTA 6 launches?",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNelhpcmdMSTBxdEJnNDZ4Z0RqMWxlajNvaFpEdm14RFFsWi1xdE5wZlgtY054YnVXMk5OenFNQkptVGdmQTZLZXljTjdacHA2TUZ2Q09aOHB3c0ROWS1ZVThSXzh1d1g0d2Rjb1pGb2xBZkxYTVBFT1VrSW1Jb0VBMkVDWkQ5SGY5?oc=5",
-   "domain": "invezz.com",
-   "published": "2026-11-19T08:51:17+00:00",
-   "source": "Invezz",
+   "title": "Anthropic, AMD, Alphabet, Palo Alto, Take-Two, Walmart, and More Stocks That Explain Today’s Market",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JVzJDLTFPc2lrY2ZPcXR4NElkVklfRGRyUGpQaTM3ZVZMcDY1UExMSjJ6QW5SQmstMFhES0gzMUQwQTZvY0ZJYUR1X2hLMllkSHVjajk0MmtnSko1LVAtcERldVA?oc=5",
+   "domain": "barrons.com",
+   "published": "2026-11-19T21:47:00+00:00",
+   "source": "Barron's",
+   "tier": 2,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 5,
+   "sources": [
+    "Barron's",
+    "Euronext Markets: Real-time Stock Market Data | live",
+    "Investing.com",
+    "KuCoin",
+    "Traders Union"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "When will Rockstar reveal GTA 6 sales? Possibly within days, and these are the records to beat",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPb3ZWYnJ0SHdkWWhIM0pWZ29NOWh0RjRfdThvZUhENUNVaFQ1VUg4aDBRazV2ZFNIb0FNeE9TWThwZjZuN2dmbFEtM0hPVmVxZGthYnZ3VmlQUFdyYndBVFl1U3NwRlMtNlBBV0xtM1ZZbXJ4SFVsUTJKTzQzMWVaVXJESHRfQXVWdVJsLS1vcEVPYlRGN0I5Mi1kVlVEMHFXV2xKTFZkcHhEMzNLdDdxamVIdmo?oc=5",
+   "domain": "nacionale.com",
+   "published": "2026-11-19T15:23:14+00:00",
+   "source": "Nacionale",
    "tier": 3,
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 5,
    "sources": [
-    "Investing.com",
-    "Invezz",
-    "Kalkine",
-    "The Globe and Mail",
-    "kalkine.ca"
+    "CNA",
+    "CNBC",
+    "Euronext Markets: Real-time Stock Market Data | live",
+    "Nacionale",
+    "The Straits Times"
    ],
    "status": "single"
   },
@@ -1513,7 +1581,7 @@
    "title": "The CEO behind GTA VI doesn’t play video games. He’s betting $1B on the decade’s biggest game launch",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNY1U5U2x4Vm9fS2xrOVNxOGZHSUtXeUdNMzY5RzZoaWJUbktQYzZjVUZVLUd5b243aEl5ZDJjVC0xYUlaNTVzSXNRd19Nc2VZdjFhVTdHeGtpYjlIdUZxM3FmaTd1N21GcWFRTjdqYU9DNmF2TGs1UWRtalhrd01mVU1QZTdoQWFwUWxmVnAwVWJuMmhOQkRlWURvVms0WmpTbGZPU1dDTi1EVnl0bGc?oc=5",
    "domain": "fortune.com",
-   "published": "2026-11-19T15:44:22+00:00",
+   "published": "2026-11-19T19:54:40+00:00",
    "source": "Fortune",
    "tier": 3,
    "sentiment": 1.0,
@@ -1525,6 +1593,25 @@
     "Fortune",
     "Nacionale",
     "TradingView"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "GTA VI publisher racks up nearly 3x Nvidia’s tokenized stock volume",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5IMnEyUTUyVVM1R1VQaldtSFc0QWV5STI3Wjh4YTdhaTFkV2tDUjQ5OEYwUVJCd2VoX0IzTEJreThsUTRsdHoxTEduN21TWXFQaUxCUjl2aFE?oc=5",
+   "domain": "cryptonews.net",
+   "published": "2026-11-19T18:29:24+00:00",
+   "source": "Cryptonews.net",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 4,
+   "sources": [
+    "BigGo Finance",
+    "Crypto Briefing",
+    "Cryptonews.net",
+    "Traders Union"
    ],
    "status": "single"
   },
@@ -1541,9 +1628,9 @@
    "corroborated_by": 4,
    "sources": [
     "Benzinga",
+    "Foreign Policy Journal",
     "Seeking Alpha",
-    "Yahoo Finance",
-    "kalkine.ca"
+    "Yahoo Finance"
    ],
    "status": "single"
   },
@@ -1584,24 +1671,6 @@
    "status": "single"
   },
   {
-   "title": "Nasdaq, Dow, S&P 500 Futures Climb Ahead Of Anthropic’s Record Debut: SLS, GLD, TTWO, UNH In Focus",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY0liZW51aW40T212cVowY3BzeWNqcmlScjBfc0pHcm5KR3JhUWJiaERFMkxZaDZMU2Q2Y1RjUjQ5V083VWlEaTgtbWxLenlBMnM4V3pqR1lsWmZtdnZqbGJ1RU9wVEZycjYzaV8tU1hnbG45aFpNcnBIUUY4aWRnbldnSjhkMHRuZGZ2czJvUjluSWs?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-19T04:15:00+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "Kalkine",
-    "Yahoo Finance",
-    "kalkine.ca"
-   ],
-   "status": "single"
-  },
-  {
    "title": "Roaring Kitty is back on X with a 'Cat Mario' post, and GameStop stock edges up on GTA 6 day",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMzJSU1E1Z2l1OUtSbnpvOWwzWl8yN0NTZ25rY1VPT3hPMjhwMW5RaERBWW1IMWVzYW1TMW14bTdaMV8xVXRkLVlVWW1KVzhpbkx5M0l4YU42djIzaHU3ZE02LVVQZFZtdXA3WldMTVZscWdsS3h2LUx4VWpTSnZUTmM0VUQ1OFFybUgydzJnVEhzU25JNW5uSjJ3WjFOVEd5WkRtd3RTaw?oc=5",
    "domain": "nacionale.com",
@@ -1615,6 +1684,23 @@
    "sources": [
     "AOL.com",
     "Nacionale"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "GTA 6 Crypto Impact: Gaming Hype Hits Onchain Markets",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdkZ6RDVEU1l5cVlCdi1sSWlfN0hubHVvLXRFanRDazFCYUlIQTN3TGJHcC04M3Nva3hJdGRETmFVR1dFRnhuUlp4SWhpOEZ5QW1yOWpPNEpBMktCZmp5WW5MNWpCQjdIZ1U5ajNpOG1XTjBsTnVZd3lLdnJIZXFVQVFTeVJZa0FKRmtieVg5NFVCWHhBRjJOSklKZWlFMGFsR2N0Zi1jM3BndzRIWXJkcnVn?oc=5",
+   "domain": "tradingview.com",
+   "published": "2026-11-19T14:55:32+00:00",
+   "source": "TradingView",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "Traders Union",
+    "TradingView"
    ],
    "status": "single"
   },
@@ -1732,7 +1818,7 @@
    "status": "single"
   },
   {
-   "title": "GTA 6: Which Console Runs It Best? PS5 Pro vs Xbox",
+   "title": "GTA 6: which console runs it best, and where to buy PS5 Pro, Xbox and the game",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9YeUVNbk9ZU2Nndmd6S3F0bTMyZ0NKSGJFNDlfcUY1M212S3BVOWhjeFl0U1pOSDQ3dEkwUEhMSnJBQWNHaGhLTENDMFdodXc2cDlhR2xiLXNsNG5KRVVyS2htdVJERW4tcjZDZFJlelVTSTJxR2VUZm5Ldk1NQQ?oc=5",
    "domain": "cryptoticker.io",
    "published": "2026-11-19T19:36:07+00:00",
@@ -5121,11 +5207,11 @@
   },
   {
    "t": "2026-11-19",
-   "o": 213.865,
-   "h": 225.57,
+   "o": 214.73,
+   "h": 225.69,
    "l": 208.2,
    "c": 208.65,
-   "v": 8263099,
+   "v": 8283100,
    "sma20": 208.608,
    "sma50": 207.579,
    "sma200": 218.357,
