@@ -1,6 +1,6 @@
 {
  "ticker": "GOOGL",
- "generated_at": "2026-11-21T03:31:27.479690+00:00",
+ "generated_at": "2026-11-21T05:10:38.212852+00:00",
  "sample": false,
  "intraday": {
   "price": 265.29,
@@ -649,7 +649,7 @@
    },
    {
     "t": 1795203600,
-    "c": 271.51,
+    "c": 271.5,
     "s": "reg"
    },
    {
@@ -1017,7 +1017,7 @@
   "volume": 57302800
  },
  "verdict": {
-  "score": -2.96,
+  "score": -3.09,
   "level": "เสี่ยงมาก",
   "lean": "โน้มไปทาง SELL / ลดสถานะ",
   "key": "vbad",
@@ -1049,8 +1049,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.29,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.15 จาก 40 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.16,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.08 จาก 37 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -1077,8 +1077,20 @@
    "bull": 5,
    "bear": 0,
    "bull_pct": 100.0,
-   "watchers": 240631,
+   "watchers": 240640,
    "sample": [
+    {
+     "tag": "Bullish",
+     "body": "$GOOGL Free money sale. When do you buy? When it takes a deep breath.",
+     "user": "NoBStrading",
+     "at": "2026-11-21T04:27:19Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "I think we are close to a tradable bounce, not a confirmed bottom yet. Elevated VIX and oversold market set up a potential Thanksgiving-week relief rally—with $GOOGL already rebounding toward $270+ after hours, but a ral",
+     "user": "EquityDad",
+     "at": "2026-11-21T03:58:54Z"
+    },
     {
      "tag": "Bullish",
      "body": "Is it always that saying in this place that whenever the stock market goes down, you should be happy and buy everything at discount as if it were an analogy of a grocery store. However, it&#39;s in this moment where ever",
@@ -1096,18 +1108,6 @@
      "body": "$GOOGL This is going to have a hard bounce next week",
      "user": "Punkinpower",
      "at": "2026-11-20T23:51:48Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$NVDA if your not buying now your a fucking chump $PLTR $GOOGL $CRWV $IREN",
-     "user": "eu_lern",
-     "at": "2026-11-20T23:25:25Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$GOOGL Never did i think this will have retraced under 300 from 420+",
-     "user": "MisterMoje",
-     "at": "2026-11-20T23:00:27Z"
     }
    ]
   },
@@ -1116,7 +1116,7 @@
    "value": 35.89,
    "prev_close": 28.44,
    "week_ago": 19.3,
-   "month_ago": 16.68
+   "month_ago": 17.31
   },
   "analysts": null,
   "history": [
@@ -1351,6 +1351,10 @@
    {
     "t": "2026-11-21T03:31+00:00",
     "bull_pct": 100.0
+   },
+   {
+    "t": "2026-11-21T05:10+00:00",
+    "bull_pct": 100.0
    }
   ]
  },
@@ -1359,7 +1363,7 @@
    {
     "key": "ai_search",
     "label": "AI แข่งกับ Search (OpenAI, Gemini)",
-    "count": 3,
+    "count": 2,
     "tone": 0.0,
     "example": "How Watch Duty is using Gemini to get wildfire alerts out faster",
     "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/watch-duty-gemini-tool/"
@@ -1379,14 +1383,6 @@
     "tone": 0.0,
     "example": "Waymo recalls self-driving cars over closed freeway lanes, manual traffic control",
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTlhWdHBVZmpJb2tVT2NkNzBsSlE3V190NnozVjVsdTc3NGJhYlY1ZE4weXplUmVXYjF5c2VZeWFLTmtSa05TRlRwUTFXVDZrYmFOcHh2a1psQ19XeVlFeFZMR0ltdHNGS3dWcE5hR1otUmZGakdRblpwRENQdnB5MGllYmhFZElhYkU0YUxQYy1kemVxSDhJa2ZwNWs2NjlHRXVNTElhQnJYeEpoeGltZ2dhckZfLXBkNkUwMkc0ZWlla3QxWXRKQUN2SWlQZw?oc=5"
-   },
-   {
-    "key": "valuation",
-    "label": "ราคาแพง / ฟองสบู่ AI",
-    "count": 1,
-    "tone": 0.0,
-    "example": "Nvidia's share slide knocks it below Alphabet in valuation",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR1lHWVFlSnZTcW9OVTZGU0lwdDdreE5TSm94Z0FTZDktRHRLOEU0LVBTTHpOZ1lYYmFCZ041UWUtTEh6VEFhczZFd2xlSjNLRlNNMHhDd2tFcDl2N1BIMndRY1VaN09HeHowT0hVblhkd1ZpUGxTakdwVFk4cjFWTzlTRnJQeWNGUW92YUxWUG9XR3BzM0hrZDdaWU5vUHJyMVdRcDktdWNMSUlkLS1Nek1SZjYxQQ?oc=5"
    }
   ],
   "range": {
@@ -1437,22 +1433,6 @@
    "status": "official"
   },
   {
-   "title": "Introducing Tool Retrieval in the Gemini API",
-   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-   "domain": "blog.google",
-   "published": "2026-11-19T18:00:00+00:00",
-   "source": "Google Blog (ทางการ)",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Google Blog (ทางการ)"
-   ],
-   "status": "official"
-  },
-  {
    "title": "Alphabet Raises C$6 Billion in Four-Tranche Canadian Bond Sale",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE82QWtPa0tFalBIWEZ0RmYzWjVLYUt1VXNsTUl4aXhodlZaRHpkSHZkS2h5bUwzY1MyNjEwREs2d3NaczJYcGx5YlpaS014Ui1CdWdnb2ZxbHNoREU4Rk10SGhJdWdUY1ozRDJSdXRwaVJEWThHVVE?oc=5",
    "domain": "finance.biggo.com",
@@ -1486,21 +1466,42 @@
    "status": "verified"
   },
   {
-   "title": "Nvidia's share slide knocks it below Alphabet in valuation",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR1lHWVFlSnZTcW9OVTZGU0lwdDdreE5TSm94Z0FTZDktRHRLOEU0LVBTTHpOZ1lYYmFCZ041UWUtTEh6VEFhczZFd2xlSjNLRlNNMHhDd2tFcDl2N1BIMndRY1VaN09HeHowT0hVblhkd1ZpUGxTakdwVFk4cjFWTzlTRnJQeWNGUW92YUxWUG9XR3BzM0hrZDdaWU5vUHJyMVdRcDktdWNMSUlkLS1Nek1SZjYxQQ?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-20T15:31:27+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.0,
+   "title": "From No. 1 to No. 4: Nvidia falls behind Apple, Microsoft and Alphabet as shares tumble",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSC13YndDZ2dLTHEydjVTNE93WF8wOGo1Zl9EVklybHhoNkhuUXR6bVdOcmVpaTdoY3NtSklnRTJhNF9tV1EyazBPV0pOSmoweWotX1ZGWUNWZzM4T1YyUGdiVl9PTGliaDBrRUtPY2lwWkcxSmk5UjBrUVYzYnFMMXlkUHlBdHYweVV6cVczMVhnX0dBSjZ0ZXNMcGQ1Njd2MFRaWERQT3RoQ2NZOTk1ZmtOZGNKNGdOdDZORW0xZlFqVW9xSDkyX3FOZGdiaDluX0QyTFdFWdIB3AFBVV95cUxORkM1b004VGFkTmRGdWF2eEFwYUtXb1lKaHNXTTA3VmxLbWlCdTlGa1VuRnVPTnZvb1hCenREZWo1NDA1VXRkcE1tX3k1MHBLVXR3UzZiN00tWWNXaW8zMjFoOElzQWZGMmJXbXhmYmNUMGdoQUNySlRsMHktb3pSNk52Zm9wQlN3UEI0cGtkRVNNSG9rMlYwV01zSEdseGFUeGcxY05ra0JiLUoyZVljMkwyT2FKbUc4LTMyUGZ5RFNBX0NZSVY1dFAtellyZTFPeG9CcnlNQ2Jjblla?oc=5",
+   "domain": "moneycontrol.com",
+   "published": "2026-11-21T04:23:00+00:00",
+   "source": "Moneycontrol.com",
+   "tier": 3,
+   "sentiment": -1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 6,
+   "sources": [
+    "Global Banking & Finance Review",
+    "Investing.com",
+    "Moneycontrol.com",
+    "Reuters",
+    "Traders Union",
+    "Yahoo Finance"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "Nvidia falls below Alphabet to become fourth most valuable U.S. company",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTFJ2OGdoU1dkaWh3Mm96MlE5OUxHSC1KcXIzbTBQNFAzOVpqcFNPR2tsSmp6NkxDSXlrWGtDMTRxb0VraFAzXzMyUWRoSWRCZmpReWxESWt0QmRrVzUwQWFGUmdSbkNlSHRkel84eDJWek81Uk1ZTjkwVmw2anJFWjVoN1lIY0JWQUFqRHJPaHVwZlExR2YwQ2hUS2VnRFAxVTJtenU1S2hpVzQtdlBPUVZBbEp3MHlsMko2OWNieVFCeW5I?oc=5",
+   "domain": "investing.com",
+   "published": "2026-11-20T15:35:05+00:00",
+   "source": "Investing.com",
+   "tier": 3,
+   "sentiment": -1.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 4,
    "sources": [
-    "Global Banking & Finance Review",
+    "Crypto Briefing",
     "Investing.com",
     "Reuters",
-    "Traders Union"
+    "finance.biggo.com"
    ],
    "status": "verified"
   },
@@ -1558,47 +1559,25 @@
    "status": "verified"
   },
   {
-   "title": "Nvidia Plunges 14% in a Single Day, Down 46% Over Seven Weeks; Market Cap Overtaken by Alphabet, Slips to Fourth",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5zUDZHMzdob05DS3hHcTRMZk1QdnFmWFVjWEVFQXdobjJURXMzX1R5eWpobm14NVg5bmFKNzdGSFJSUFR5ZkhSMUZ2OTRRdDI5U0R0S3NQZV9kTnZsT3EyQXRCOG5rejJoWjlZVTB0dkVJdXlhaFE?oc=5",
-   "domain": "finance.biggo.com",
-   "published": "2026-11-20T23:25:00+00:00",
-   "source": "BigGo Finance",
+   "title": "Nvidia slips below Alphabet in market value, on course for its longest weekly losing streak since 2008",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZUJVLUM5eTNnTkhaaTA3NVdnaVlEWHRSRWlfUk90dTgwamNwMkljX1cwS25GSFB3X2txaUFaNzJjRmNLdDZ5dmxaZVNmOW5rc3dxdmdyMW1FS0luUmlXRjFzamdjQ3lnQ1ZaczMzak04UnAyNnNMMExGZWdVX3k4Wm9PYkZJcTdTS3FPYUVmSFdWUXZUcndaY2lmV2RHMC1KdmdzaFprSzhMU1pDYWZ2Y2dEaFBBeXNJdlVySVY4MA?oc=5",
+   "domain": "mlq.ai",
+   "published": "2026-11-20T18:53:47+00:00",
+   "source": "MLQ.ai",
    "tier": 3,
-   "sentiment": -1.0,
+   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 8,
    "sources": [
     "Crypto Briefing",
-    "Investing.com",
     "MLQ.ai",
-    "Nacionale",
+    "MarketWatch",
+    "The Financial Express",
     "The Globe and Mail",
     "The Motley Fool",
     "Yahoo Finance",
     "finance.biggo.com"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Alphabet just overtook Nvidia in market value for the first time in over 2 years",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVEV2bnZhM1lUSGg0MzlnLWhRSXhYaGhMd1ZjeDJialdyaV9HUnV1cWRTVlNmOWh6RlhfT3p1V1JIbjQwenUyaHlfODRfWGNtZTBCTjAwUk5nekNhRGxmeHhXRUpfa1V3NkFnRVlXSUZacXlhNjdfdVZCLUd5ZV91WUp5WHJxRW9qaWYwSi1oY0YySWU4M0YtQS1xbERYaWJGRlVQbTRTdWF4Y0g0eF9OSTdJOEdwM2NTRGh3cjlOYzA?oc=5",
-   "domain": "marketwatch.com",
-   "published": "2026-11-20T19:23:00+00:00",
-   "source": "MarketWatch",
-   "tier": 2,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 7,
-   "sources": [
-    "Crypto Briefing",
-    "MLQ.ai",
-    "MarketWatch",
-    "The Globe and Mail",
-    "The Motley Fool",
-    "Traders Union",
-    "Yahoo Finance"
    ],
    "status": "single"
   },
@@ -1799,23 +1778,6 @@
    "status": "single"
   },
   {
-   "title": "Nvidia Slips to No. 4 as Alphabet Overtakes It; Stock Headed for Longest Weekly Losing Streak Since 2008",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlMVJnMWtNY25XUVhTRkhXa3VEMVV1bDg4aDg1QzFXQ01IWjN0ck9HTnIwNklxQjlicDBRRFFwNXhyTHBrdlFQbXJKVFM2OEk3NFBHRVlwQXpEbFFDMDE1cEYzWUdoQmJzcERtUVNfV0N2TDg1cFE?oc=5",
-   "domain": "finance.biggo.com",
-   "published": "2026-11-20T16:11:36+00:00",
-   "source": "BigGo Finance",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "MLQ.ai",
-    "finance.biggo.com"
-   ],
-   "status": "single"
-  },
-  {
    "title": "Waymo recalls self-driving cars over closed freeway lanes, manual traffic control",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTlhWdHBVZmpJb2tVT2NkNzBsSlE3V190NnozVjVsdTc3NGJhYlY1ZE4weXplUmVXYjF5c2VZeWFLTmtSa05TRlRwUTFXVDZrYmFOcHh2a1psQ19XeVlFeFZMR0ltdHNGS3dWcE5hR1otUmZGakdRblpwRENQdnB5MGllYmhFZElhYkU0YUxQYy1kemVxSDhJa2ZwNWs2NjlHRXVNTElhQnJYeEpoeGltZ2dhckZfLXBkNkUwMkc0ZWlla3QxWXRKQUN2SWlQZw?oc=5",
    "domain": "reuters.com",
@@ -1867,7 +1829,7 @@
    "title": "Cheerleaders Distract With Alphabet",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa0p1WWd4MmdpVHpMLTFKN2NHUHJweTZtMTBKVzEta2dpS3VydG9WRmhMamhMRm1sUHJ5SlJtNmY4LUpLeEJLZUVmU1B2QmZkRTdWUW1hWEZ4RWlrVWdJV0xkX1hha0xIOVlsbi1ZWERETDJNRk5rVVBzdGMwOXFRRg?oc=5",
    "domain": "1029thebuzz.com",
-   "published": "2026-11-20T22:30:00+00:00",
+   "published": "2026-11-20T22:34:09+00:00",
    "source": "102.9 The Buzz",
    "tier": 3,
    "sentiment": 0.0,
@@ -2004,22 +1966,6 @@
    "corroborated_by": 1,
    "sources": [
     "TipRanks"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Stanley Druckenmiller dumps Google stock in a bid to ‘not lose money’ as the outlook darkens. Here’s what he’s buying",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWl8yVmdkbWtPQ0VwT19NbWhtUW9WUzJkUF9IM2ZkSFQ1cEkyZU5nck5RMUgtLVVlMld5dDUxV0FMMnFmdnUxVDVCM05RamJLOUhzREpINVZfTVlFaldORzBjNnVLMkFqSUE5X2pWaG84anVzS1JUZVBqclhtUzNBdDFiMmZUQW9BQ2tnQW9hejFJWER4YWFxZ21nVlNrelJxWGl3Ti1nN3c?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-20T12:15:00+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Yahoo Finance"
    ],
    "status": "single"
   },
