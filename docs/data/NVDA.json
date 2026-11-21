@@ -1,6 +1,6 @@
 {
  "ticker": "NVDA",
- "generated_at": "2026-11-20T22:46:32.032722+00:00",
+ "generated_at": "2026-11-21T03:31:22.699532+00:00",
  "sample": false,
  "intraday": {
   "price": 125.53,
@@ -834,12 +834,142 @@
    },
    {
     "t": 1795214700,
+    "c": 129.34,
+    "s": "post"
+   },
+   {
+    "t": 1795215000,
+    "c": 129.3,
+    "s": "post"
+   },
+   {
+    "t": 1795215300,
+    "c": 129.1,
+    "s": "post"
+   },
+   {
+    "t": 1795215600,
+    "c": 129.84,
+    "s": "post"
+   },
+   {
+    "t": 1795215900,
+    "c": 129.94,
+    "s": "post"
+   },
+   {
+    "t": 1795216200,
+    "c": 129.78,
+    "s": "post"
+   },
+   {
+    "t": 1795216500,
+    "c": 129.7,
+    "s": "post"
+   },
+   {
+    "t": 1795216800,
+    "c": 130.3,
+    "s": "post"
+   },
+   {
+    "t": 1795217100,
+    "c": 130.39,
+    "s": "post"
+   },
+   {
+    "t": 1795217400,
+    "c": 130.34,
+    "s": "post"
+   },
+   {
+    "t": 1795217700,
+    "c": 130.29,
+    "s": "post"
+   },
+   {
+    "t": 1795218000,
+    "c": 129.34,
+    "s": "post"
+   },
+   {
+    "t": 1795218300,
+    "c": 129.54,
+    "s": "post"
+   },
+   {
+    "t": 1795218600,
+    "c": 129.32,
+    "s": "post"
+   },
+   {
+    "t": 1795218900,
+    "c": 129.39,
+    "s": "post"
+   },
+   {
+    "t": 1795219200,
+    "c": 129.51,
+    "s": "post"
+   },
+   {
+    "t": 1795219500,
+    "c": 129.74,
+    "s": "post"
+   },
+   {
+    "t": 1795219800,
+    "c": 129.82,
+    "s": "post"
+   },
+   {
+    "t": 1795220100,
+    "c": 129.66,
+    "s": "post"
+   },
+   {
+    "t": 1795220400,
+    "c": 129.59,
+    "s": "post"
+   },
+   {
+    "t": 1795220700,
+    "c": 129.5,
+    "s": "post"
+   },
+   {
+    "t": 1795221000,
     "c": 129.65,
     "s": "post"
    },
    {
-    "t": 1795214783,
-    "c": 129.57,
+    "t": 1795221300,
+    "c": 130.02,
+    "s": "post"
+   },
+   {
+    "t": 1795221600,
+    "c": 130.14,
+    "s": "post"
+   },
+   {
+    "t": 1795221900,
+    "c": 130.09,
+    "s": "post"
+   },
+   {
+    "t": 1795222200,
+    "c": 130.09,
+    "s": "post"
+   },
+   {
+    "t": 1795222500,
+    "c": 130.01,
+    "s": "post"
+   },
+   {
+    "t": 1795222798,
+    "c": 130.01,
     "s": "post"
    }
   ],
@@ -849,8 +979,8 @@
    "s": "pre"
   },
   "post": {
-   "t": 1795214783,
-   "c": 129.57,
+   "t": 1795222798,
+   "c": 130.01,
    "s": "post"
   },
   "periods": {
@@ -884,10 +1014,10 @@
   "hi52": 243.37,
   "drawdown_pct": -48.4201,
   "avg_vol20": 259982135.0,
-  "volume": 620250840
+  "volume": 626373200
  },
  "verdict": {
-  "score": -3.38,
+  "score": -3.49,
   "level": "เสี่ยงมาก",
   "lean": "โน้มไปทาง SELL / ลดสถานะ",
   "key": "vbad",
@@ -919,8 +1049,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": -0.63,
-    "why": "ค่าเฉลี่ยโทนข่าว -0.32 จาก 45 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": -0.74,
+    "why": "ค่าเฉลี่ยโทนข่าว -0.37 จาก 46 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -969,46 +1099,46 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 9,
-   "bear": 6,
-   "bull_pct": 60.0,
-   "watchers": 691085,
+   "bull": 3,
+   "bear": 4,
+   "bull_pct": 42.9,
+   "watchers": 691242,
    "sample": [
     {
-     "tag": "Bullish",
-     "body": "$NVDA spoken like a true amateur.",
-     "user": "Golfpimp4017",
-     "at": "2026-11-20T22:46:13Z"
+     "tag": "Bearish",
+     "body": "$NVDA avoid Nvidia for now...wait until dust settles .dont buy the dead cat bounce..too many issues and uncertainty in Nvidia after jensen outed by regime change psyop.",
+     "user": "kamenrider888",
+     "at": "2026-11-21T03:30:00Z"
     },
     {
      "tag": "Bearish",
-     "body": "$NVDA The way is climbing is sneaky 🤣🤣🤣🤣 Collecting more and more money. Be careful!!!!!!",
-     "user": "Adamm01",
-     "at": "2026-11-20T22:45:38Z"
+     "body": "$NVDA another problem with Nvidia is ..if the new ceo does go thru with anthropic philosophy of closed source and not open source, alot of Linux users will try avoid Nvidia computers and laptops and linux gamers. Under J",
+     "user": "kamenrider888",
+     "at": "2026-11-21T03:28:52Z"
     },
     {
      "tag": "Bullish",
-     "body": "$NVDA The rebounce will be huge. 📈",
-     "user": "Ferbie333",
-     "at": "2026-11-20T22:45:15Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$NVDA $SMH $INTC $AMD $MRVL This is one of the Worst Semiconductor selloffs in the last 25 years. Worse than COVID. That&#39;s INSANE! SOXX Peak-to-Bottom Historical Declines: ------------------------------------ 2008 Fi",
-     "user": "JJNN",
-     "at": "2026-11-20T22:45:14Z"
+     "body": "$NVDA Blackrock owns over 8% of outstanding shares of nvdia. They have only trimmed .05%. They are the largest sharholder",
+     "user": "Hopenitsgood",
+     "at": "2026-11-21T03:28:08Z"
     },
     {
      "tag": "Bearish",
-     "body": "$NVDA More pain ahead",
-     "user": "TheRockIsCooking",
-     "at": "2026-11-20T22:45:11Z"
+     "body": "$NVDA The writing is on the wall: once Democrats take control of the House and Senate in January 2027, NVIDIA will face a full-scale investigation. The market is already pricing in that risk. See you below $100",
+     "user": "GMExTeddy",
+     "at": "2026-11-21T03:27:30Z"
     },
     {
      "tag": "Bullish",
-     "body": "$NVDA guess who panic sold today and is gonna regret it heheh me",
-     "user": "TrumpTheUnyielding",
-     "at": "2026-11-20T22:44:20Z"
+     "body": "$NVDA $MU $SKHY $SPY Yeah &quot;AI is in a bubble&quot; while Apollo and Goldman are literally closed a fresh 44B GPU financing deal for spaceX today right as AI stocks crashed this month. Matter of fact, it was oversubs",
+     "user": "VIN1P",
+     "at": "2026-11-21T03:24:52Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$NVDA Buyback potential",
+     "user": "rahod",
+     "at": "2026-11-21T03:18:32Z"
     }
    ]
   },
@@ -1017,7 +1147,7 @@
    "value": 35.89,
    "prev_close": 28.44,
    "week_ago": 19.3,
-   "month_ago": 17.31
+   "month_ago": 16.68
   },
   "analysts": null,
   "history": [
@@ -1284,6 +1414,10 @@
    {
     "t": "2026-11-20T22:46+00:00",
     "bull_pct": 60.0
+   },
+   {
+    "t": "2026-11-21T03:31+00:00",
+    "bull_pct": 42.9
    }
   ]
  },
@@ -1292,34 +1426,42 @@
    {
     "key": "regulation",
     "label": "กฎหมาย / คดี / ภาครัฐ",
-    "count": 2,
+    "count": 1,
     "tone": -1.0,
-    "example": "Watch Nvidia Plunges as SEC Probe Deepens AI Market Selloff | Closing Bell",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZDlpZDd5Tk1WUDBidVlyd2VOcURuaTc3V2lSRE9adVlTb2RmU3l5UDlGQVdBRjc3aGdrZ2c3MEMwMkRUd1p4bXZJQTlXZlI5dXpiQzJlY3JYdGtuNUlhaFhjSkE1NXh6Ylp4eUpzMDhGZ2dySV9qYmdYRWlnd2tHVHlqYWVjbXZ1V1NYMGRHZTJKYmZZQ1ExUzlCNA?oc=5"
+    "example": "Nvidia’s Stock Slide Deepens After Report of SEC Accounting Probe",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5INVNuU2E4Z3Bsa0FYa0RqbHNYM3ZlS1lZV3BlODA2Q2F2ejlxMllHQnl2YzhmMm5IeW5RdU9tUzhGUUdlVTJtMUozbkJYZGZOMFpnMmRaWWxpRDY0OVF3a1JiTVBrZmNWMkJsTVotRERzWUZvQVNV?oc=5"
    },
    {
     "key": "valuation",
     "label": "ราคาแพง / ฟองสบู่ AI",
     "count": 1,
     "tone": -1.0,
-    "example": "Watch Nvidia Plunges as SEC Probe Deepens AI Market Selloff | Closing Bell",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZDlpZDd5Tk1WUDBidVlyd2VOcURuaTc3V2lSRE9adVlTb2RmU3l5UDlGQVdBRjc3aGdrZ2c3MEMwMkRUd1p4bXZJQTlXZlI5dXpiQzJlY3JYdGtuNUlhaFhjSkE1NXh6Ylp4eUpzMDhGZ2dySV9qYmdYRWlnd2tHVHlqYWVjbXZ1V1NYMGRHZTJKYmZZQ1ExUzlCNA?oc=5"
+    "example": "Nvidia shares plunge as Anthropic can't stop the AI selloff",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9lT3pUcFhra290UDVtQVlwcVBjeDdBX1NLX1lPMGVjM3lPRHZDZk04eHI3cDk1STFLejBDODdHZWYtVFJzRnd3Q2ZDLW5EdjN1RTZzT3ZLblNoa004bmN6bjRSWXF4Y0RoQWs1UGR4UThYR004a1hWcw?oc=5"
    },
    {
     "key": "china",
     "label": "จีน / กฎส่งออกชิป",
-    "count": 2,
-    "tone": -0.5,
+    "count": 3,
+    "tone": -0.33,
     "example": "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWVNwbUpEZjJtY1NaOWc5Z1ZfYUo2QXJqdl9WVGhJVnFvajdCTGV5RFJwNzNQTFVSeENSNzdUQ2ctRjB5Sl9ybmJqb3FfZENLMEZkeFdYSUJMa1FSamFBS2pqTGpjQzAwWHBza2JHOXBzdmV2ZG1icEgzQXp1aW4zRDFLWnN1Rm1USW9zZ3I4V2NZZ05RN2tBa295b0I4c1VIME1OR3N0VXlZc0ZxOUcwb2lrOA?oc=5"
    },
    {
     "key": "earnings",
     "label": "งบการเงิน / คาดการณ์รายได้",
+    "count": 2,
+    "tone": 0.0,
+    "example": "Nvidia Earnings, Anthropic IPO Ahead in New Test for AI Economy",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbjM3c3k5Q2otRklJTDllbEJZR1N1VUMwQ3NoajUtV1k0bWkyZmg1eDJZbkxZRmlWdzBCSko1d0laWnVQaFhYN2RYNFAyUjN1R0VxaU1GbjcteC0tQ252bkRZWFhSb3ZjWEhNd2JMdVRwR0hXVmM5SzliNmtiWU5IN3Y2Y3ZHSmdURWZnY1doTzA2cmdVLXExYUNrMXU3VGw5WXNUblBR?oc=5"
+   },
+   {
+    "key": "competition",
+    "label": "คู่แข่ง (AMD, Intel, ชิปของ Big Tech)",
     "count": 1,
-    "tone": 1.0,
-    "example": "Nvidia’s Strong Results Do Little to Settle Questions About Its Future",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMU1ZSS1sYUtTTlkwMVhodlljcjFvQkR1VHItVFc1N2N2WUEtWUxhbWVaVGFFV1pjNWZ0RUFZLU5GV0tjNG45WVBzSXpDVTcwa1B6aklTVFR4b2RLMHpOU240LV9Sd1FLcFI5SlAzaTF0MU1JRnpqSXRVSUlMTWFmVGdrR25ick9OTWRhaDlZMXVRQXh6RVVJbjVPd0d2X2c3bkNLR2RYZw?oc=5"
+    "tone": 0.0,
+    "example": "Could Jensen Huang Land At Nvidia Rival Intel?",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYkhHQm5ncjdJOUttaW5CRkVUV0RWTlE4c29LVlRFVnRqWmwtcWhOWmdXeTB5bVlIZExWb3ZSLW1IVWIwM0ZkS3pIZTgxOHNOOGtiVHlWWEhrbVZOV1ZHVGZnY3p4U2U0eWJWeVBvV2Zyc3lOM0h0ZDhmV3NaQ2prLXU3eUdJTVh3ZnI0dmZHbXBLdw?oc=5"
    }
   ],
   "range": {
@@ -1338,56 +1480,28 @@
  },
  "news": [
   {
-   "title": "Trump Calls for Nvidia to Rehire Jensen Huang",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcFpjZTl5Ni1VV2k4MndkZFgxbG5sWVNfZ1R2bWpubThpOXZsaW9sMjdrR0JnU01rN0g4NV94WUtyWnU0TUZLSXJSTEJQQWJnTDFrQWxpQlVtOGgwNTlSNXZnZDMwbXkwZmhWSC1XZDhTZTFxQkZxUnpyOFV5cVY5dTFTRlZiMk9odnVTYUs1cDU4RjlzZ2FGUXJJbnZGNE9SS090OU9JeGRCb19O?oc=5",
-   "domain": "wsj.com",
-   "published": "2026-11-20T19:55:54+00:00",
-   "source": "The Wall Street Journal",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 17,
-   "sources": [
-    "Barron's",
-    "Bloomberg",
-    "C-SPAN",
-    "Fox Business",
-    "France 24",
-    "Investing.com",
-    "Investor's Business Daily",
-    "Kalshi News",
-    "NBC News",
-    "Newsweek",
-    "PBS",
-    "Politico",
-    "The New York Times",
-    "The Wall Street Journal",
-    "Traders Union",
-    "U.S. News & World Report",
-    "Yahoo Finance"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "Watch Nvidia Plunges as SEC Probe Deepens AI Market Selloff | Closing Bell",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZDlpZDd5Tk1WUDBidVlyd2VOcURuaTc3V2lSRE9adVlTb2RmU3l5UDlGQVdBRjc3aGdrZ2c3MEMwMkRUd1p4bXZJQTlXZlI5dXpiQzJlY3JYdGtuNUlhaFhjSkE1NXh6Ylp4eUpzMDhGZ2dySV9qYmdYRWlnd2tHVHlqYWVjbXZ1V1NYMGRHZTJKYmZZQ1ExUzlCNA?oc=5",
-   "domain": "bloomberg.com",
-   "published": "2026-11-20T22:12:21+00:00",
-   "source": "Bloomberg",
-   "tier": 1,
+   "title": "Nvidia’s Stock Slide Deepens After Report of SEC Accounting Probe",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5INVNuU2E4Z3Bsa0FYa0RqbHNYM3ZlS1lZV3BlODA2Q2F2ejlxMllHQnl2YzhmMm5IeW5RdU9tUzhGUUdlVTJtMUozbkJYZGZOMFpnMmRaWWxpRDY0OVF3a1JiTVBrZmNWMkJsTVotRERzWUZvQVNV?oc=5",
+   "domain": "barrons.com",
+   "published": "2026-11-20T21:43:00+00:00",
+   "source": "Barron's",
+   "tier": 2,
    "sentiment": -1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 10,
+   "corroborated_by": 14,
    "sources": [
-    "Axios",
+    "24/7 Wall St.",
+    "Barron's",
     "Bloomberg",
-    "CNBC",
     "Crypto Briefing",
+    "Financial Times",
+    "Forbes",
     "Investing.com",
     "The Globe and Mail",
     "The Motley Fool",
+    "The New York Times",
+    "The Verge",
     "Traders Union",
     "Yahoo Finance",
     "investingLive"
@@ -1395,33 +1509,156 @@
    "status": "verified"
   },
   {
-   "title": "Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QczVTbUQzdjZ0WHN0QjYwRXJidGl2YmJzeFVVOGhEV0FoZHp3QkJ1dng1REtUS21Qa2lYSGdUejlhbGtfNzlQT1V6Zm45NDltc2hKeEowZ3NtcHdsaUNvN2ttTTJXWUgzNkF3SGZUUjdFX1FiRHc?oc=5",
-   "domain": "wsj.com",
-   "published": "2026-11-20T22:42:14+00:00",
-   "source": "The Wall Street Journal",
-   "tier": 1,
+   "title": "WATCH: Trump says he would love former Nvidia CEO Jensen Huang to 'be given a second chance'",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNU3BVTXVMUXRwSVVLdFdsX25kbXFDaVhDSWUyRFkwODBqblBzVEF2Z09nZVVSNE4wN0ExY2QwWGtIRGVEc1kwMG50ZDNQdlMwdjVqeno5UXRTTmZsWFc0SS1XekZxYmh1Y2VRWnVLdzBiWW1sOU9Cc09mT0RqTU5DckJrZ2M1VTlPSk10enFsQmxkMlRad2Z1NEhSY0UzX21DQm5Pd211ODVuYjItdVpNc3VlNDJtTkZDOEZpYmJjdHpmRmR1MXfSAcsBQVVfeXFMTmVCc29jeC0zU2R3U1I4d0cwbmtSTU5kbG9hQVdlNTZ6aHRCVmg1N0VYaTVwek9qbUNfcThZcXFBMnhlTC05a1ZJOFVjSVI3UFdaZ09mTkpibUVIdDZEVFFteXZNYndoZklIVU1uc0xnN3FPQlh3clUyZWU5VFhMZ0pCZmhsY3g4cE5zVGZRVU1pSW9YdnRfMHN1LUV4Vk5yWU5yXy1LTXBKRmlJejRLeEIyYzhvcVVMX1pya2ZPMjVhSHhvUEdyUnBPNDA?oc=5",
+   "domain": "pbs.org",
+   "published": "2026-11-20T20:34:56+00:00",
+   "source": "PBS",
+   "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 7,
+   "corroborated_by": 13,
    "sources": [
+    "Al Jazeera",
     "Barron's",
-    "C-SPAN",
-    "Kalshi News",
+    "Benzinga",
+    "Bloomberg",
+    "Fox Business",
+    "Mashable",
     "Newsweek",
     "PBS",
+    "Politico",
+    "Reuters",
+    "The Verge",
+    "The Wall Street Journal",
+    "Yahoo Finance"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "Trump says Huang should apologize and return to Nvidia",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT1lTcjlCWHBKVXVnNmtPSFkyVXQtWnFGdHlEY3owYzVKbUw2bzRDREpVUFMzMWZHLWlxNGE2dUdrdkxqWmEybFdWRlhQWU95QXc3a0lmYml1c0VCT1pBM29hWmo0MHlsUHpwMG1EaXZDQkVIRllsaVdMbllTQllob2NLY2Z3aFVGcTdFeEhnUlNQOE1GUk1BWjN3dmUtZE9QenRDbVVoemRLUko4RUsxMw?oc=5",
+   "domain": "investing.com",
+   "published": "2026-11-20T18:58:53+00:00",
+   "source": "Investing.com",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 9,
+   "sources": [
+    "Al Jazeera",
+    "Bloomberg",
+    "Fox Business",
+    "Investing.com",
+    "Newsweek",
+    "Politico",
+    "Reuters",
     "The New York Times",
     "The Wall Street Journal"
    ],
    "status": "verified"
   },
   {
-   "title": "Nvidia Shares Sink to 52-Week Low After Report SEC Is Probing Accounting",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbEx6c1BUSEpEMUF5OHd4d3prVHYwYnJxdzNWbTdvNl80QWVOaWZHX2F1UVFxTy1UQU9pMmhLdzVfTk9zSS1mWElBR0lWdDExWkNINEtNemJSZmQxcUhxWXlwN01RaHBBZGVmcHNnek1jSEZVQUVuaEx3VXFBS1VkV3hIcWpxRC1IcnNOLURVa1RsdVQxLUE?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-20T20:36:54+00:00",
-   "source": "Yahoo Finance",
+   "title": "Nvidia shares plunge as Anthropic can't stop the AI selloff",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9lT3pUcFhra290UDVtQVlwcVBjeDdBX1NLX1lPMGVjM3lPRHZDZk04eHI3cDk1STFLejBDODdHZWYtVFJzRnd3Q2ZDLW5EdjN1RTZzT3ZLblNoa004bmN6bjRSWXF4Y0RoQWs1UGR4UThYR004a1hWcw?oc=5",
+   "domain": "axios.com",
+   "published": "2026-11-20T22:32:03+00:00",
+   "source": "Axios",
+   "tier": 3,
+   "sentiment": -1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 5,
+   "sources": [
+    "Axios",
+    "Bloomberg",
+    "CNBC",
+    "Coinpaper",
+    "Traders Union"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "Could Jensen Huang Land At Nvidia Rival Intel?",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYkhHQm5ncjdJOUttaW5CRkVUV0RWTlE4c29LVlRFVnRqWmwtcWhOWmdXeTB5bVlIZExWb3ZSLW1IVWIwM0ZkS3pIZTgxOHNOOGtiVHlWWEhrbVZOV1ZHVGZnY3p4U2U0eWJWeVBvV2Zyc3lOM0h0ZDhmV3NaQ2prLXU3eUdJTVh3ZnI0dmZHbXBLdw?oc=5",
+   "domain": "investors.com",
+   "published": "2026-11-20T21:28:00+00:00",
+   "source": "Investor's Business Daily",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 4,
+   "sources": [
+    "Al Jazeera",
+    "Fox Business",
+    "Investor's Business Daily",
+    "The Wall Street Journal"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "Nvidia Earnings, Anthropic IPO Ahead in New Test for AI Economy",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbjM3c3k5Q2otRklJTDllbEJZR1N1VUMwQ3NoajUtV1k0bWkyZmg1eDJZbkxZRmlWdzBCSko1d0laWnVQaFhYN2RYNFAyUjN1R0VxaU1GbjcteC0tQ252bkRZWFhSb3ZjWEhNd2JMdVRwR0hXVmM5SzliNmtiWU5IN3Y2Y3ZHSmdURWZnY1doTzA2cmdVLXExYUNrMXU3VGw5WXNUblBR?oc=5",
+   "domain": "wsj.com",
+   "published": "2026-11-21T02:38:00+00:00",
+   "source": "The Wall Street Journal",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 3,
+   "sources": [
+    "Coinpaper",
+    "The Wall Street Journal",
+    "Traders Union"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWVNwbUpEZjJtY1NaOWc5Z1ZfYUo2QXJqdl9WVGhJVnFvajdCTGV5RFJwNzNQTFVSeENSNzdUQ2ctRjB5Sl9ybmJqb3FfZENLMEZkeFdYSUJMa1FSamFBS2pqTGpjQzAwWHBza2JHOXBzdmV2ZG1icEgzQXp1aW4zRDFLWnN1Rm1USW9zZ3I4V2NZZ05RN2tBa295b0I4c1VIME1OR3N0VXlZc0ZxOUcwb2lrOA?oc=5",
+   "domain": "apnews.com",
+   "published": "2026-11-20T22:36:00+00:00",
+   "source": "Associated Press",
+   "tier": 1,
+   "sentiment": -1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 3,
+   "sources": [
+    "Associated Press",
+    "The New York Times",
+    "Yahoo Finance"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "Jensen Huang to testify publicly before Senate banking panel, Chairman Scott says",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5pMXhjNGZWSzBrd3N1V1hTdFF0Y0ZyVmtKTVJ3ZmNaS2ZvMW9uNDhMOEpxUENleUZ1U3hmWFV6U3p2b2t4aEcyUnBQc2ZoSDN1RlZFSWhCa00zd2hmbnE1bm1KdXFzamJUb2J1TVZ1QkhQVDdOZzZjSjdoUDIxQdIBgwFBVV95cUxNaERDUVEwb2NkMjNwOFRsSDA4TEdrZVVMeERweUJWQU5QT0lPNjVVSmUzQ2xIbVBKNmh3a2QxNk9kYm1SOTV2M1RCM2VvdFktcE1QM19rWC1VUHpfWUFXME5qX055NWg3ZkoxeXNZS1RneFJ2OXk4bEVubExubmhMTzJOVQ?oc=5",
+   "domain": "cnbc.com",
+   "published": "2026-11-20T19:27:38+00:00",
+   "source": "CNBC",
+   "tier": 2,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 3,
+   "sources": [
+    "Benzinga",
+    "CNBC",
+    "Reuters"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "Nvidia Stock Just Lost $900 Billion in Its Worst Week Since 2008. The Last Time the SEC Examined Nvidia's Accounting, the Stock Fell 81% in a Year",
+   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOdnJqR3F2T2k5WWJrSkpOeGZHOG9TcWdPaU9Oei1JT0UzakQ2dUhzOElPdlpQZmhLc1Ryc3dYSGVuVnhjWnRFYUlxSGNlRjV3d0VPTmQ3QjEyUDdlVTliTkZkMzBkc0Q2MV9qci1YUWVtMzNGRjd2czYtZVpQNHYyeW1qTWNyWWI3WVNSejZkZnFSODE5SDhPN1JCY1ZoVU9GQ0RJbnc0Wmg1YUxOUTJhREswWFM2djRKbE9vWW80SDI1QmhGRmtzVEFnZkpFYjdZX3J1YzI3cWxkNkJqclgzVmFKem1najNPSmxtOTBGeVJuU3llUkJhaS0wVjFWTHFkeW1nVVhTNjZNRTFqNWZiRDc4VQ?oc=5",
+   "domain": "247wallst.com",
+   "published": "2026-11-20T21:33:00+00:00",
+   "source": "24/7 Wall St.",
    "tier": 3,
    "sentiment": -1.0,
    "impact": 1,
@@ -1429,250 +1666,132 @@
    "corroborated_by": 7,
    "sources": [
     "24/7 Wall St.",
-    "Bloomberg",
-    "Forbes",
     "Investing.com",
-    "The Globe and Mail",
-    "Yahoo Finance",
-    "investingLive"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "Former Nvidia CEO Huang agreed to testify at public US Senate hearing, senator's aide says",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVXRKZGYxUkVSVnNCbGJHOG9wWjFSY1puTVMtdUMyeGg4VTFXR2xhRXd1ZmxYZ1g5QlBZRzljX1F0V1R5WERUOGdhb09IWXE0MTJXWXl3Z0F1czYyck1OT1NHc012Rm1PaDdXR1BQSkVRTkNqQkpCVUZZSUdTMnY1S1Zsa0kwYV8tai16c1Z3QnBwb0JZNjA5QXA1TkllMFhacFZMcm9MNHoyYU1LNHBlY2ZiN1lHUElQSURVSFo5aw?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-20T19:21:45+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 5,
-   "sources": [
-    "C-SPAN",
-    "CNBC",
-    "Kalshi News",
-    "PBS",
-    "Reuters"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "As Nvidia became wealthier and wealthier in recent years, the co-founder Jensen Huang grew increasingly frustrated with his staff, with his belittling behavior goes back decades. One executive said Huang “terrorized” staff.",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeXRkR1lxVzNKZVlvWkh0RTZVNFBoa2ZWNnFaTnBzWmRrek1XcmJDWk1vaW1ZdDBSYkp2MGg4X1JPNUZzcGR6Qzd0eDViRnZTZDJvbkNCb3dXZlpmZTRpT2VZVEkxVEluYWJoSUdnVkFzMVh4dVVIcEN0Q1dyS3A0Rk5iT3BxclpLSkxLZF83OGs5OEk3bk5ScUFUOWk2VExtWmh4NUp2ZGZKb1p4RXBpd1dEMHB6R282NTFlNnBLQXJVZjRXclFUeWxYeDVaY29iSnI5dA?oc=5",
-   "domain": "facebook.com",
-   "published": "2026-11-20T19:40:12+00:00",
-   "source": "Facebook",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 5,
-   "sources": [
-    "Bloomberg",
-    "Facebook",
-    "Fox Business",
-    "NBC News",
-    "WIRED"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "Nvidia faces US regulator’s probe into its accounting",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZWJsU0wwemxtMW1PcWVVZlpsNXdhODhIZkZSZGd5NGNacmE5UWhTVnphVUR2NGVuWmhpQnJtUUsxQ1VLRnJkTUl6QVhjdDFEak96YUhwbVpmUHA4WGwtY3czNWstelpTdnhaTk1zSkE2SGhfTmtsNlROVE9BNHhMNnZwX1Y?oc=5",
-   "domain": "ft.com",
-   "published": "2026-11-20T21:58:08+00:00",
-   "source": "Financial Times",
-   "tier": 1,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "Bloomberg",
-    "Financial Times",
-    "investingLive"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "Nvidia stock extends $2.7 trillion rout as SEC probe reportedly investigates its accounting",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQS25iVW9uNHFsc3lYdkNPRTJyTUhYcWRVbjhOZlR4QUpLZGs4RkE0d1lSLTEtN2x6N0ZxZnlZdE9KaTQxeS1TbWRFaGFpd0hGc0ZKWmF5OEVRdnFDX1NNWFlBTl9rdVRUVFlxSVRIelpPNmluWVdUVElhQzh1NWtjemJaUnlhRnJ2N3Q2dDNVYlhVYWtXbkswbXhYLWdiOHE0V1dkQ2xjNjFsTlpEQ0hzRDBja0RqV0VFX0FZaXdKRVZ2RHdGVUUtS2VzanJrTkhiSVcxeGVCRXNlUUhSVWJ3?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-20T21:35:24+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 5,
-   "sources": [
-    "Investing.com",
-    "The Globe and Mail",
-    "The Motley Fool",
-    "Yahoo Finance",
-    "investingLive"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Nvidia Stock Drops Below $150 Support After Jensen Huang Scandal: Key Levels to Watch",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNldhalBiZklRZ3ExMXViMU1CTWExTFh5SHhRSEVaSWJ0UmVlQS1lQnNsRVIwTDNtVHFuYVFXcGpnbkJ4V0ZDNmg4Y2dMSzBFV1BMNEJRSkRwTVd1bFRIZTlnOFhDdFhsakh0dlpkNml5aVU4TVJzSXFQNjUzNmY1ZXRZQjlpNnEtQVE?oc=5",
-   "domain": "barrons.com",
-   "published": "2026-11-20T21:33:00+00:00",
-   "source": "Barron's",
-   "tier": 2,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 4,
-   "sources": [
-    "Barron's",
-    "Fox Business",
-    "PBS",
-    "Traders Union"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Nvidia stock plunges 12%, rides longest weekly losing streak since 2008 financial crisis",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSXJZbEJSVExtUGxySHJ5eFBaLTRFV0dTRWFjY244NWdhVTZ5cENMNXBqcVhBS08xLS1oSG5jbVJTME9QdWZKcXlzOXpTN3ZmMFZrREtNVzhHUVFMZXBmTndDUklLWFFrOGlpNTc5Y3dQR25mMjhXdGlSbl9SNVBfbFVOVXhCZTg3a3gtVUwyN1FWOVZ6NWIwRXUxZTdReG56V1MxeGdIONIBrAFBVV95cUxNN3pqQmZoNHdVc1M2SHpMWERNaDNHOUVyRGNDM3dlVzdGR19IaVdyRG5mQ0p6SzBZYlpWemdoZDN1M3NzZVpVVWpNVkFGa2ZpT3g0YVR1aFBLb0RoWm5mM0EwMkRkdmEtNndicG9iTHNLTGU4VUg4XzdPNWpDd0tYMWItNFM1NDNuMTN5OHEwbWFBNUloZEh6ekdsYW5WY2FXSHZjcmgxS3M5Tmx0?oc=5",
-   "domain": "cnbc.com",
-   "published": "2026-11-20T19:26:29+00:00",
-   "source": "CNBC",
-   "tier": 2,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 4,
-   "sources": [
-    "CNBC",
+    "Investor's Business Daily",
     "MarketWatch",
-    "Quartz",
+    "The Globe and Mail",
+    "The Verge",
     "Yahoo Finance"
    ],
    "status": "single"
   },
   {
-   "title": "Why Is Nvidia Stock Down Today? Shares Fall 7% as Anthropic IPO Fails to Revive the AI Trade",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaU9mQWt5bnE4TVg0V1lMTkR4OEY0MzM4QXZ1bG1Kc0pqS0xnS2RSd0dQMDVSa2RDZGxLYjY1UlZFQVVTdEFaQ0tHQ3ZrSTJvNUtkWDBEUlZjcU9kd0IyWlFuRWViRExLSUtmdUZLMkZfcVZiNU1ONUlSYnZqcjJXMXdBd2E5emI4eU1XenlhSE9oSFZjWVQtaUpJT2V0ZTRKMXhOVDZZZzlLZWM2cE9aRjNB?oc=5",
-   "domain": "aroundprague.cz",
-   "published": "2026-11-20T17:53:02+00:00",
-   "source": "Around Prague",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 4,
-   "sources": [
-    "Around Prague",
-    "Axios",
-    "Traders Union",
-    "Yahoo Finance"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Congressman Sold Nvidia Stock Two Weeks Before Jensen Huang Exit — Here’s What He Bought Instead",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdlVROGVyMHI1c3B2SnlMV3BSdGplcU13TWJfMlJrcUtjYjMtV1JhTDR5MEdodmF4MTlnd25ESEdpWW94aUNZQ19KMzdMR3dEZEZ5U21YMXNBc3dsQTlUNnZDOVZJMG5BbE10RVp1Vk5WWDMyaEpVR09sa2Ewc1haVWNDcG03eGdSdVlmLUktSjU5R2E1SDdhNTlZbHRIOGo1TTFMa1NuXzkyc2pheGJPbHNsRUpHcGdrRVAtWnVMQU1YenhsLTRmRlIwYzB3bW9wR1o5a0xmQzZwRVJWNDhOSkFDTEM?oc=5",
-   "domain": "benzinga.com",
-   "published": "2026-11-20T21:31:07+00:00",
-   "source": "Benzinga",
+   "title": "The Federal Government Is Investigating Nvidia for \"Accounting Issues\"",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbThiS2taZDludnlJdTZ4ZDlKRHZuZlR5MTRWTUZvQW93SHkzU2taNWZCZ1U0TG1KZlRKc0ZLTDZncXoyZWhabTQxN1J5Y3F3TDhaUFZ1QXFhRm1xRWp4U2NuWk80RHk0elR2ZGhSTXdiam4yaGN5WUkwdFpqQVhTdy16UlpGTF9reWZYTkg2Y3FnelUxQXN4S2IxQQ?oc=5",
+   "domain": "futurism.com",
+   "published": "2026-11-20T20:18:23+00:00",
+   "source": "Futurism",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 3,
    "sources": [
-    "Benzinga",
-    "CNBC",
-    "Yahoo Finance"
+    "Forbes",
+    "Futurism",
+    "investingLive"
    ],
    "status": "single"
   },
   {
-   "title": "Tech selloff accelerates as Nvidia plunges, Nasdaq erases 2026 gains",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSVJpazBQcGV4enp1R2VOMXF1VXFXNURuQk9KYnJpUEJCQWhTRE9GUjFDNjVjT1BjV3hjLXRwZVlITXFLcjBSQzV6TUhFcjZfakx2X3RrYkgwQTlnRXozRDQ0UWthWU9JSndqd1Nnbm1nYWVoa0thMWk0RlhDNVRKTWF4LTNQTlNqd2dQRm8zUnFJdnd6Qi1nWnZkSEU1alE2ZWJJSk1kRFJOaDNmbXJz?oc=5",
-   "domain": "cnbc.com",
-   "published": "2026-11-20T21:08:50+00:00",
-   "source": "CNBC",
-   "tier": 2,
-   "sentiment": -0.3333333333333333,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "Benzinga",
-    "CNBC"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Alphabet just overtook Nvidia in market value for the first time in over 2 years",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVEV2bnZhM1lUSGg0MzlnLWhRSXhYaGhMd1ZjeDJialdyaV9HUnV1cWRTVlNmOWh6RlhfT3p1V1JIbjQwenUyaHlfODRfWGNtZTBCTjAwUk5nekNhRGxmeHhXRUpfa1V3NkFnRVlXSUZacXlhNjdfdVZCLUd5ZV91WUp5WHJxRW9qaWYwSi1oY0YySWU4M0YtQS1xbERYaWJGRlVQbTRTdWF4Y0g0eF9OSTdJOEdwM2NTRGh3cjlOYzA?oc=5",
+   "title": "Nvidia’s stock clinches a stretch of weekly losses not seen since 2008",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQ3BGMW5Lb01ZOGs0XzdFbWZBYlRzZ1pJRnRzNG1rMG9vNF9XU0pfb3lSSm1fZnk1bzlYemp3YWkweUE0YVVPX1ZhVDl5VWFVZHpkajRzMEhuVHVWcWw2d1RLYWV1U1l0bjNlSTZZc1lNTGdFWTYwSEtYUFNfdmRPYk41b1VIaEdlMjItNHhXRTZGakg0a0NKY3diODMzcjJaSHBLQUVxeGFuZEN3bFB4aQ?oc=5",
    "domain": "marketwatch.com",
-   "published": "2026-11-20T19:23:00+00:00",
+   "published": "2026-11-20T21:58:00+00:00",
    "source": "MarketWatch",
    "tier": 2,
-   "sentiment": 0.0,
+   "sentiment": -1.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 2,
    "sources": [
-    "24/7 Wall St.",
+    "CNBC",
     "MarketWatch"
    ],
    "status": "single"
   },
   {
-   "title": "Broadcom Stock Falls on Report Google is Cutting AI Chip Shipments",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Cd2w3NzJtb0xha0ZJazRHS09nRUVPanNPN192RmRWOGVxdW52QThWZzVwbG9VVmNpT1F6MkZaQVdjV09aMU9razJCVUpfckppUllpQWZCN3hIeHh6VkhhLWRWRC11QWRkSjhMaFlQQ1pyWVFCZ0VsQ2RiWmw?oc=5",
-   "domain": "barrons.com",
-   "published": "2026-11-20T17:42:00+00:00",
-   "source": "Barron's",
-   "tier": 2,
+   "title": "NVDA Stock Sees Biggest Fall In 22 Months, But Top Analyst Says Nvidia’s AI Boom Isn’t Over Yet — Here Are 5 Reasons Why",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbDBWLTd5T3R4NFVNLWI0Vm9nWEJmd1FHdDdqLUdfWjJJdXBOWFU1d2x1Nk1NUjNCVW5OT1IzY0hLUnRIbkIxZXBsd1pNMV9MQUppQ2twZmRQT2EwT3Q3V0I2dVVLX1EyOEN6cjdSOTJHWmkydGJ6bFpfb2VaN295ekRxWDM3SXhqcVdOZlhoVzlma3VSOERiaA?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-21T02:48:00+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
    "sentiment": -1.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 2,
    "sources": [
-    "Barron's",
+    "Around Prague",
     "Yahoo Finance"
    ],
    "status": "single"
   },
   {
-   "title": "Chip Stocks' Worst Two Months Since 2001: This Week On Wall Street - NVIDIA (NASDAQ:NVDA)",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORjVQNkUwT1ljUzdNeTFEdHhLenN4WUUzT2tYbHplVG5abDRUWmJEbGVKRXc1TG1yVlJuZUptVTUxT0xSeTdnSFZmRGhTSzNvUzZaLS0yT0h4c2ozR2V0bkFZZ21mTF9MQ09FakY1N094RXFPOUlIbUFBM3VmZlpqdTQtUzlHQ1NocU82XzE3T0JmYVU1Z1hKQlltaE91eFR2b2Fid1l6eXJOS1Q0QmtRZ3Jra2ZxSUF4OElyMVJ1VG41enlNaTFoZTU5NFpEc1FKMWltcEtxZnA2TnRSQ2hnVQ?oc=5",
-   "domain": "benzinga.com",
-   "published": "2026-11-20T20:50:27+00:00",
-   "source": "Benzinga",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "24/7 Wall St.",
-    "Benzinga"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "SpaceX Lands Record $44B Financing to Buy Nvidia Vera Rubin AI Chips - BASENOR",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdUtKLXpxNUhkb1lCLXpKOXp2ekhWYWdZc3VCS0VHUDluV1g3YXVXRldXT29STVJ0SjFTeU9Pcm9TWEpGXzZ2T2JhVC0tTW5ZUFVGbmZVQnk0cFVZNG9WWEE3NVJJWmNfRE8zcXo3ZnJFYVNIdVk4ZkZoaU92ZVJFc3RZRk10Q2dUR2Jaa0tKeDdmWFk2RTN6SXNTSzJfeWZWWDBoRw?oc=5",
-   "domain": "basenor.com",
-   "published": "2026-11-20T20:04:20+00:00",
-   "source": "BASENOR - Tesla Accessories",
+   "title": "Officials approved the sale of 580,000 Nvidia chips to Chinese companies",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYTNWdm5ZVVFLUDV0SDQtRy1KMzV3dlVUVDg5aTJaMXNZTXpxRmY4Z3VKUFA2dVhKclpKbml2MjQxZmdLdEgyMGE2dkRzdnJnSzRkU0ItdVNuSnpVMHhSeHdzZXM3Y2ZJaGZsVzJ2cVRWTFNZWGlmckVxcUk1eTNSdzVZZ0hnNDE0cHlsblcxVGJuNnYtTUMwNFpISUktUGNyMWZlTGRwWlV0QW5kN3ZWV0wxNnRYQQ?oc=5",
+   "domain": "washingtonpost.com",
+   "published": "2026-11-21T02:17:34+00:00",
+   "source": "The Washington Post",
    "tier": 3,
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 2,
    "sources": [
-    "BASENOR - Tesla Accessories",
-    "The Motley Fool"
+    "The Washington Post",
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Here's How Much Nvidia Stock Is Worth Without Jensen Huang, According to Dan Ives",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOc2EzQlkxdW1vRXFOOUVjNmIyNHRNdWViMEpRaWNJQ0N1M1NJOXBZOGw5NkgzbU1BSGhRcjZFQWwwNGQzMW96ZklZLUlCVk55SUs2eWdLQ1p2Q1ZzcWNXUmtyQUZxZ1V2am5hSlpfSkZFR2g1WkUxQ2k5ZU1pN2JJUGJUTklQZzdJZ3VRQy1RRFoyUE0yMkxnbFN3?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-21T00:30:00+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "Benzinga",
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Jensen Huang is out at Nvidia. His children still have prominent roles.",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPR0ZNTThHTnp0bXNLNFEtRGU3dUFtYzdGQlE0dnhjRUpXZnZVT1RHbnJGSlo1aVp4UE1XUjd4TWFQc2hpVWZFZUpRSEZBYmdCcUQ4SGtDZHZWNURGQ2FjajZDVDFJLUxScHEtWEFvMzMyYXFVY2JVNmZKdGtXOC11Ujk0YnN1Q19UMTdpbWJ3NGJNaVNnRkdpSGk3c1dWU1ZoVjdWc1NIdGFrN2NzZzM4WlpR?oc=5",
+   "domain": "nbcnews.com",
+   "published": "2026-11-20T21:06:43+00:00",
+   "source": "NBC News",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "NBC News",
+    "WIRED"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Nvidia drops 12%, Broadcom and AMD extend declines as the AI trade melts down",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMHB0U3N0WnlCMjZCUFZ3QlNZSEhXZnVVbUdMSElkZTJ3TkszdTFxQnlpMkpZV05ZajNXM0VJYXlDM293OEdkUWl4RHVTZXRvSG1rQnJMWVJrMEp3a00zSm9VbTF6eHByZmpwNGMxcFlEQ3ZFSDQwU0FpNHlzV2xDRndWMnVzdDUzbkdDamxKX2FZeWNBbTJBamg2SVFwamZWdEh1elZ3?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-20T20:21:19+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": -1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "Around Prague",
+    "Yahoo Finance"
    ],
    "status": "single"
   },
@@ -1694,39 +1813,6 @@
    "status": "single"
   },
   {
-   "title": "Anthropic And Nvidia Are Saying The AI Bubble Is Finally Popping",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOExsYVF5bHI3Rm9XQTZoMTFJTVhEbFJ5bnhMdjJIdEVzRFBJc21STEhyVTdNLUpjZ3FYVVcwdWRMTWs3V1pHQXEzUTVPZXR3X2daWUV6UXFWMmE2aXR0eDlQVmUtYlc5ems1aWtEdGg0UzVFSlVNWXQ1NW94bFFzdnk4eGN5aml6Rkt3SE44R2k0WTNzR2JnUEU4bWk5d0xjSkRod3RrdWM?oc=5",
-   "domain": "seekingalpha.com",
-   "published": "2026-11-20T18:22:12+00:00",
-   "source": "Seeking Alpha",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "Seeking Alpha",
-    "Traders Union"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWVNwbUpEZjJtY1NaOWc5Z1ZfYUo2QXJqdl9WVGhJVnFvajdCTGV5RFJwNzNQTFVSeENSNzdUQ2ctRjB5Sl9ybmJqb3FfZENLMEZkeFdYSUJMa1FSamFBS2pqTGpjQzAwWHBza2JHOXBzdmV2ZG1icEgzQXp1aW4zRDFLWnN1Rm1USW9zZ3I4V2NZZ05RN2tBa295b0I4c1VIME1OR3N0VXlZc0ZxOUcwb2lrOA?oc=5",
-   "domain": "apnews.com",
-   "published": "2026-11-20T22:36:00+00:00",
-   "source": "Associated Press",
-   "tier": 1,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Associated Press"
-   ],
-   "status": "single"
-  },
-  {
    "title": "EXCLUSIVE: Nvidia's accounting is a focus of US SEC investigation, sources say",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMzlPdFVTT2cyVkhmMFVKNWZ1MnpNT0NLcURnblg4THMwUWNuYTRBLWUxU0ZSSUR5bk1zNnBmVlhIUjByNkN6TzVBNC1uaXQxM0dwY2FkMzZQdm00a0xyMXo3NFNpSUNPdERZWU82aGZLa0lNZHpMOXVnVDBVQW9lMmNrWEVRczVYS1Racm1NNlNERDBJeTFJRG1pZVRfTC1LTy1pNjhpVzRaeGRrY25kSzQ1aDNUUQ?oc=5",
    "domain": "reuters.com",
@@ -1743,13 +1829,13 @@
    "status": "single"
   },
   {
-   "title": "Nvidia’s Strong Results Do Little to Settle Questions About Its Future",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMU1ZSS1sYUtTTlkwMVhodlljcjFvQkR1VHItVFc1N2N2WUEtWUxhbWVaVGFFV1pjNWZ0RUFZLU5GV0tjNG45WVBzSXpDVTcwa1B6aklTVFR4b2RLMHpOU240LV9Sd1FLcFI5SlAzaTF0MU1JRnpqSXRVSUlMTWFmVGdrR25ick9OTWRhaDlZMXVRQXh6RVVJbjVPd0d2X2c3bkNLR2RYZw?oc=5",
+   "title": "Nvidia’s Finance Chief Kress to Lead First Earnings Call Following Huang’s Ouster",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYWNSeEVqX0dfVEF1QnBYdks5Tk92TU9mWEdlYkZ1a285YnBfOThIeGkybjZSTG9oSkJIYUE5WFgwYlZtdzBuVUQwQzJZTm1fcEtCeFBWd242RkVIVThYaVFaSm5sV1ppZlBWdGdtUkVNRXRUZ1dCWVpBd2hzMlhISWhyNms4R1BSUzM4S282SG5NT2J3VExlWjVtb015ZUd1UEpoQVh3US1oZGotRlQ0LWJrZUItbmtiWjlEcg?oc=5",
    "domain": "wsj.com",
-   "published": "2026-11-20T21:21:55+00:00",
+   "published": "2026-11-20T21:26:09+00:00",
    "source": "The Wall Street Journal",
    "tier": 1,
-   "sentiment": 1.0,
+   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
@@ -1759,18 +1845,18 @@
    "status": "single"
   },
   {
-   "title": "Stock Movers: Anthropic, Nvidia, GAP",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQT0FoTGZUZHh2Z1VTVFhWdlU4UWtIZ3Z6N0t4dWR1bDhqMU5yMXYwRGF5SXJCSUVRbEZ2TlFHMF83VUZINUxFX2hJS2ZOSkZVbi13WE9HcHZucW1HUGNnY2VtLXltYjNGSlFVYVdJZjcteGR0V2d4emk4djdaTGJLdmNfWGFSNjZrbmJvVVNQc01maXc?oc=5",
-   "domain": "bloomberg.com",
-   "published": "2026-11-20T20:18:03+00:00",
-   "source": "Bloomberg",
+   "title": "The Leadership Message in the Nvidia Saga",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY0VXeGFZa195aFBScDY1b3h5eXlLTmRkUDRpT0dTWnF6d19CUGtMandKU2J3Xy16QjJNbFJrakczT0RWVjU4VHp3U0g0M2ZEYm1lRmlua2NPd0tNWGhEamUyaGlsTlFBMVV5U1JxYXF6MUlpRE1XR25TdWo2d3d5SXV2Ym42QQ?oc=5",
+   "domain": "wsj.com",
+   "published": "2026-11-20T21:06:25+00:00",
+   "source": "The Wall Street Journal",
    "tier": 1,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "Bloomberg"
+    "The Wall Street Journal"
    ],
    "status": "single"
   },
@@ -1791,26 +1877,10 @@
    "status": "single"
   },
   {
-   "title": "American State Capitalism Helped Produce the Nvidia Scandal",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcXNBZkpGWU1HSkdWRk55aHc3bjRCTE9YY2h6Tjhqc3Vha3EyZzYxVW9SeU9tNmRRdlRESzItdjN5R3dQNVQ3TDktNFhOZHZHbkx5WnpmNHVlSW5NZUFtNnRiaDlfS01jMnl1Qnl6T0FSWFZsZE82SkF4S3RQUXFOSHRFcUNNa3YxNk5DR3VYeE8zUHJaZWtXTXhrLVU?oc=5",
-   "domain": "wsj.com",
-   "published": "2026-11-20T17:08:00+00:00",
-   "source": "The Wall Street Journal",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "The Wall Street Journal"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "The Stock Market Is Bigger Than Nvidia. But What About Anthropic?",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ3hvLVN0dVZKMTV2YVNERXMzVkZxcWZ1d19kWUpsM0RnRDJaWlZrcFhEVVZFRTZwR3lsbnNDWlNGbkdtakZKaW5mZm9BQ2NKRC1NaXJlVlF3UjBZMjRfQVM0c25Yb3hEMXlHeEF0MUNtZW5jY0E1N1QyWW5qRHptbw?oc=5",
+   "title": "Nvidia Can Rebound to $200, Analyst Says. Plus, L3Harris and 4 More Stocks.",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdUpRRjhDajVrdGlHVlBqQkEtdjhjYzkweFdYNXk5Tjc1LVZmMnBJSmRrX2xwVzZ1U3had2xxSW1sbDBIS1B6dFZ0LUNUdGExaGV3LWJKZWtZMWdQZU95LTRzc2FncDhfMHF5VTc1b2prX3VXV0dVM25GME42djJCVGlsYXUwVEZ5bkM5eGo5Qk9wNXFqaFhFeld1TDVzLURhUm1mSGJoOHNUelJIODRYT253?oc=5",
    "domain": "barrons.com",
-   "published": "2026-11-20T21:54:33+00:00",
+   "published": "2026-11-20T23:25:00+00:00",
    "source": "Barron's",
    "tier": 2,
    "sentiment": 0.0,
@@ -1819,6 +1889,38 @@
    "corroborated_by": 1,
    "sources": [
     "Barron's"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Final Trade: GILD, QQQ, RSP, NVDA",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9WYm1KTHJROWpRRzdJQjFDQjBiM3hzZGRXQ0pGNTZLck9Ic0VRQmVXU0o5WUFWb1RTZms5ZDJaX3R6Q1VzY0I5d2JlU3had2d1ck5vZDZTTGsxQ0pHTU85bkZ5WDhvZnJzelpLQk1YUzhBOENMMUlTUGp0dVg?oc=5",
+   "domain": "cnbc.com",
+   "published": "2026-11-20T23:19:50+00:00",
+   "source": "CNBC",
+   "tier": 2,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "CNBC"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Stocks Often Prosper After an Abrupt C.E.O. Exit. Is Nvidia Different?",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcUZlU0tOLVI2d1NzZWVxWk0zOEVLZ0JmZy1HXzh5cTlZemVlWFZiQ3pyRGdEOERwaTY0WHM3WXRRSHN5WjF5UHo3WVZQVVk4WHd1eVFsc09qUjYwSWpJbGlTX2lZaVRIMkdlTnU5MlR6MVM0VW4zNnJFck0wbnFjaVYxbHhhSjdNbGxRckZ2YjlNcTQ?oc=5",
+   "domain": "nytimes.com",
+   "published": "2026-11-20T22:11:57+00:00",
+   "source": "The New York Times",
+   "tier": 2,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "The New York Times"
    ],
    "status": "single"
   },
@@ -1835,6 +1937,22 @@
    "corroborated_by": 1,
    "sources": [
     "Barron's"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Tech selloff accelerates as Nvidia plunges, Nasdaq erases 2026 gains",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSVJpazBQcGV4enp1R2VOMXF1VXFXNURuQk9KYnJpUEJCQWhTRE9GUjFDNjVjT1BjV3hjLXRwZVlITXFLcjBSQzV6TUhFcjZfakx2X3RrYkgwQTlnRXozRDQ0UWthWU9JSndqd1Nnbm1nYWVoa0thMWk0RlhDNVRKTWF4LTNQTlNqd2dQRm8zUnFJdnd6Qi1nWnZkSEU1alE2ZWJJSk1kRFJOaDNmbXJz?oc=5",
+   "domain": "cnbc.com",
+   "published": "2026-11-20T21:07:43+00:00",
+   "source": "CNBC",
+   "tier": 2,
+   "sentiment": -0.3333333333333333,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "CNBC"
    ],
    "status": "single"
   },
@@ -1871,22 +1989,6 @@
    "status": "single"
   },
   {
-   "title": "Uncomfortable recommending Nvidia even at these levels, says Bernstein's Stacy Rasgon",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNlBDWlJpalVMUTNtSm5JSFBNekdsdTFhLVFSa1E3bzM1NWlFUXlHckVCWmJoekJuZVZRZFdDZ2QxLUdvOGZtXzRUdDlnOEo0TmtKNFhQLUpXVVJIS1JzWUdydkVHbDYtaHlhbGkzQW9GZTUxMmFxSVVJWV9HU20xUG9hb2VkZ2YtV25QUnVtY19wS3R3d0JVREZ6X3FfYlpTZVBZNGxMY0FBaFBxc0QxQVNtWm1oN2ctQ2NiRHJMSUN3T0Nr?oc=5",
-   "domain": "cnbc.com",
-   "published": "2026-11-20T20:02:50+00:00",
-   "source": "CNBC",
-   "tier": 2,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "CNBC"
-   ],
-   "status": "single"
-  },
-  {
    "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX0toMGVmM0R0bkh1eXExSVJoR2VvUF9QS2dtWEVZaXVndExOSFRpZ2Fka2NwVU8tRTYxY09uWTJYTHl4WWZ4eThvSFpydVkzMm1KN0lUYVZFUWVVRUJucGhVcWdHTHVlUmpFdWhzYWNuTzhJYlJod1FxRWxiZHo0dFZIa21vUnhtaTNQU3RUY0pfSHZhSDIxRVA1TWhFejdkbVNVMklsZWk0TFROSFJQTk02RFFyQQ?oc=5",
    "domain": "marketwatch.com",
@@ -1903,10 +2005,10 @@
    "status": "single"
   },
   {
-   "title": "Nvidia's legal woes are adding up: What you should know",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOG80M3hJRlhXdEFpU2VUcGg5NUJXa0RmR0lTZVNqOUNMMUJ6VDktVlp5d3NhcHZoYTgxR2tuV0xvdFpqblI4Q2xjUkxEV3UtNXJmV2tQZ2pKbFo1TzlpQ0hiQm1ZNlVrUy1PZUV6cWVmUXdEel9nZ3BpbTJKZFFXMjdmdURUYnQzNkNDU1BycGlqQnhyYWxPZG8xZkQ?oc=5",
+   "title": "Uncomfortable recommending Nvidia even at these levels, says Bernstein's Stacy Rasgon",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNlBDWlJpalVMUTNtSm5JSFBNekdsdTFhLVFSa1E3bzM1NWlFUXlHckVCWmJoekJuZVZRZFdDZ2QxLUdvOGZtXzRUdDlnOEo0TmtKNFhQLUpXVVJIS1JzWUdydkVHbDYtaHlhbGkzQW9GZTUxMmFxSVVJWV9HU20xUG9hb2VkZ2YtV25QUnVtY19wS3R3d0JVREZ6X3FfYlpTZVBZNGxMY0FBaFBxc0QxQVNtWm1oN2ctQ2NiRHJMSUN3T0Nr?oc=5",
    "domain": "cnbc.com",
-   "published": "2026-11-20T19:08:56+00:00",
+   "published": "2026-11-20T19:47:58+00:00",
    "source": "CNBC",
    "tier": 2,
    "sentiment": 0.0,
@@ -1919,34 +2021,162 @@
    "status": "single"
   },
   {
-   "title": "Micron Stock: 3 Catalysts Set to Boost the Memory Chip Maker Beyond Nvidia Earnings",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1EUkd4T0FNR1lpSjgxY2pQMm5jR1dJYU1WLU9PT0tybjhIcGpFTTBqemF5djRKUFd2T0gzaENGQU9QUXhuQXhpQmdUNmlZcG50Q1RJMjhFSlRIUlhQWmpGZFZKWWVjRm8wcGk0WmFJaUxVeEkwdnQxQXVaX3g?oc=5",
-   "domain": "barrons.com",
-   "published": "2026-11-20T17:54:00+00:00",
-   "source": "Barron's",
+   "title": "Nvidia's legal woes are adding up: What you should know",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOG80M3hJRlhXdEFpU2VUcGg5NUJXa0RmR0lTZVNqOUNMMUJ6VDktVlp5d3NhcHZoYTgxR2tuV0xvdFpqblI4Q2xjUkxEV3UtNXJmV2tQZ2pKbFo1TzlpQ0hiQm1ZNlVrUy1PZUV6cWVmUXdEel9nZ3BpbTJKZFFXMjdmdURUYnQzNkNDU1BycGlqQnhyYWxPZG8xZkQ?oc=5",
+   "domain": "cnbc.com",
+   "published": "2026-11-20T19:08:00+00:00",
+   "source": "CNBC",
    "tier": 2,
-   "sentiment": 1.0,
+   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "Barron's"
+    "CNBC"
    ],
    "status": "single"
   },
   {
-   "title": "Officials approved the sale of 580,000 Nvidia chips to Chinese companies",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYTNWdm5ZVVFLUDV0SDQtRy1KMzV3dlVUVDg5aTJaMXNZTXpxRmY4Z3VKUFA2dVhKclpKbml2MjQxZmdLdEgyMGE2dkRzdnJnSzRkU0ItdVNuSnpVMHhSeHdzZXM3Y2ZJaGZsVzJ2cVRWTFNZWGlmckVxcUk1eTNSdzVZZ0hnNDE0cHlsblcxVGJuNnYtTUMwNFpISUktUGNyMWZlTGRwWlV0QW5kN3ZWV0wxNnRYQQ?oc=5",
-   "domain": "washingtonpost.com",
-   "published": "2026-11-20T21:47:34+00:00",
-   "source": "The Washington Post",
+   "title": "NVIDIA's Market Cap Evaporates, Equaling Amazon's, Amid Tech Selloff",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcTdadUI0enFBWjYtVHlGcTEzT0I4UV9VcE96LW15eWt5WjFrM3lkUmhjVXlobFhhRFdpQTF4cjVqN3JMWTBjWjFtelBYTzRINFNYaTRYZktZWWQ3RDRtOGNkSDZMdnJhNEZnX1hqakg3S2FZWEd3RzVjOGlwbDd0MGNsRE9Mc3ozenV0OTBB?oc=5",
+   "domain": "chosun.com",
+   "published": "2026-11-21T02:24:36+00:00",
+   "source": "조선일보",
    "tier": 3,
-   "sentiment": 1.0,
+   "sentiment": -1.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "The Washington Post"
+    "조선일보"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Here's Why Nvidia Stock Crashed on Friday",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbW1CMk1XTHhHT0lSUXppY2dQTk5mQjIya210cVc5T0hHcWpnamxVT0YycF9EZU9YeEZ4bG0yQWZxVXhsbDlVMVI3ekZCY01LR0JKeW5qNnQ4dFJURl9jS09HVFRnYkRsaVdWaHBIcWlUS3dnRGlYMWJsTmNxMWgxMUNlUjNGbUVIU0NBNm5sRHZGSTFjVTYyaGllZw?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-21T01:45:00+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Prediction: Nvidia Stock Will Do This in the 6 Months After a New CEO Takes Over, According to History",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNLW9ZM3F2c2phdDRwLURNU0NzTHpXRjJTY28yTTdNT0xiVjZOczIxQXNYcTJmemMyN2Vod09MYUdnZUZaSl9saFhHdFBuWWlZRHFVOXFqSkVUSlNJSERBdEdETmxnNnZNeHktR1NpZldpRjVtWmtIQk16WHZLa3VrZUpmcUl6WnNzV3RfRmpobVpSbVBwMFQ5UUJkalFyQQ?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-21T00:02:00+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Nvidia’s Colette Kress Signals the End of No-Strings A.I. Financing",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSWNqNWJ3NXRQX25mei1JdmlTaldHZTYweTJjYUtJcWxuMmlLMlBlbTlCNFlhSGVZMlR5bW5YakRYckhXTlUzdGk1YXhCOW5kQVZERWV2OXRoSm5QN21Db19IaDFOdm0wb2dWVGNVLW5xWGlQREV5RGxWXzZ0akRyZkhiSkgwMnQyejBOZ2ZyeEt2VWRXQW82T1hmMA?oc=5",
+   "domain": "observer.com",
+   "published": "2026-11-20T23:22:26+00:00",
+   "source": "Observer",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Observer"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "U.S. stocks close | Plunged 5.28%! The Nasdaq turned lower for the year, and the VIX rose above 35; the Philadelphia Semiconductor Index tumbled 11%, and NVIDIA posted its seventh consecutive weekly decline after hitting a record high; gold narrowly held",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNT3FLemNQRENoOW5qTHM2Zk1sbmZod3B0cnF5WkxVT2xNUnZuZzJHUnBjbGJHbDdXeWIyNkRIWUZiRGtYRlZDMjUzaGh3Q0pjem5GRHJvWW5GRTc2LWdZdVF1UVlMaTUwdy14OVN0aGlmUnhsc3ZjUllFRXlKSU1LX2NNRVdza3VaVHZ5UXhRVEdRQlp2a0dTWWVlQQ?oc=5",
+   "domain": "news.futunn.com",
+   "published": "2026-11-20T23:06:00+00:00",
+   "source": "富途牛牛",
+   "tier": 3,
+   "sentiment": -0.3333333333333333,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "富途牛牛"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Trump Reportedly Traded Over $97 Million Worth of Nvidia Stock in 2 Years — Elizabeth Warren Wants Congress to Force Him to ‘Divest’ (UPDATED)",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSWxzejQ5eTkzajlLd09JcWVkd2xSbTBUVTVEcTBLU21YZVhWdDFUQmh2blg0dVNzdkFkRXlhbzhYdEZKMUo5WnJtOVRHT2lRZ0ZrbDBGOV9RS19Bd3hFX3hmNS1zZUtVQlZueE1xcEpHR0I0ell0dGlocEVVcFU1UC1hLVhfeUc2TGNKdDVUc1JyYWIxNXpfRzVYc1Y?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-20T23:00:05+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "How Lutnick Gave Nvidia’s CEO a Direct Line to Trump",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRzNZQ2MwWTROcjhjNG5OUVpPTnJjaVRwWlBiZko5VGNxYmJWTzVla0hWajVUWXlBMlJpYlV2aHZ5bjRIT0M4U3dtQThwVFlyTUZZOG5laHVod0t6YlZNV0doUm1OaW1aSC1XN3NHbjNmNW5rSlZMNGpGdzRqRFVhQ2pMNzY2aGprSkRXa0xwVQ?oc=5",
+   "domain": "readsludge.com",
+   "published": "2026-11-20T22:00:37+00:00",
+   "source": "Sludge",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Sludge"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Nvidia Stock Keeps Falling As California Opens A Probe Into Its China Risk",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNTVpcmh6bWdjckZEdGUxVWtQQy01NlJ2N3E3ZWxoU0dGNlRiQ3lSYThneV83dnNjTy1QT3FSMUpHcDdYQmUyNDFIQk1wbXJDWjE4RndCd3ZrMEdCMTBnckhrQlhFQlp3QllaN3E2N2F1LWlWVjZ0VU1rZ19MMzVZZFpqdkhOLXNfYnlaRkZpYUNfOHdmTzE1d0RPVHdwNDdzN2x0aA?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-20T21:42:00+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": -1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "SpaceX Sells $32 Bil Of Debt For AI Chips. But Yields, Orbital Deployment Raise Concerns.",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdnpWWjMyRktmbkp0QXYyWnBRNnJDU0hOZXoxeG9oQmw4QUFDVll5WnVQbklIZzFTdXZyeFFXdE5PWjdzcU1NLUhjSExHWHRwSXNXb1FyX0cwcEFQal9OUm4zUG96SFZtZzN4UlpFdjQwYlgwWmJPOWNBQi1aaEkzRjgyVFhxdkRHazRoX0Q4SkRoRHhqUzNqQVlPamFTYW1tem9TT0l5LVhhMWE2SjhWUEZkdTlYS0ttYkd5dQ?oc=5",
+   "domain": "investors.com",
+   "published": "2026-11-20T21:25:00+00:00",
+   "source": "Investor's Business Daily",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Investor's Business Daily"
    ],
    "status": "single"
   },
@@ -2031,38 +2261,6 @@
    "status": "single"
   },
   {
-   "title": "What We Missed: Nvidia CEO Scandal Rocks AI Industry",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOc1o4T2cyUFc2aXc1c01oRFJ6bFRwXzYtclh4b0RiRE1KVjNCM1VKM0h1Ukc2a2ZoanQ4MXlCVGVIdWdHQ01pajdoQmpZVU50LUFxai1URWI2cUp3WWhxS21kcnlYbEQwRFhPTUFLTEQtY0lzTzVzcGI0VzNuRzlVaVlLZ0FBUk0zWVB4cGtxdjFRUjdl?oc=5",
-   "domain": "darkreading.com",
-   "published": "2026-11-20T19:28:12+00:00",
-   "source": "Dark Reading",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Dark Reading"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Nvidia gets go-ahead from Santa Clara officials for new HQ building",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPanM3eEo5NndmZzY3RnBDaEtoX1hGLVBPeGVtUGVVVGpKbUlpOGhvRHN4cTMzMEdQU2RzUnplZzZCdWsxT2NvR3hHM1B3d3VWcmxNX0Q5am5oRTBPbFA3ci1oTUY2V3Fqa1FBOV9PYnUxemp0WWdya1FvNGpvajRZOHYzMndKVUxhQ0FUSG9nMG5La1Rxd3VDTmdOaWtQeGlEX2c?oc=5",
-   "domain": "therealdeal.com",
-   "published": "2026-11-20T19:13:00+00:00",
-   "source": "The Real Deal",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "The Real Deal"
-   ],
-   "status": "single"
-  },
-  {
    "title": "Wall Street Bloodbath Sends Nvidia NVDA Down 7%, Putting $130 Floor at Risk",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQejNqSHkwVjdwNUFsTHBnbldPTHdwNEc4UXkwSGgwWU8tRmpUQ3RhUlZwWk9pbUlIQ0RndDM3OUZseEpmYVJWR3dtdzYzeUNBZDJIU3JLWHh5SjB2ejk1aEFBbU9xUTRSckJxMEw2dEZKWHV5aHVWU0daYXNVQjF5V1V6clR3MThKZFQyWnVVVGIySjhFYkFnM1hyVVlsSWJZS05TMGFXZXlCNDJINkFDektpdmI0dw?oc=5",
    "domain": "fxleaders.com",
@@ -2075,54 +2273,6 @@
    "corroborated_by": 1,
    "sources": [
     "FXLeaders"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "NVIDIA Is Down 37% in a Month. Can NVDA Stock Get Back to $200?",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNkdNSmhOWTNyRUc1NnRDTTJOZFRkVGRRMTM3M0h6cGs2Mnk2SXV5WjdpWUJfUlRIaElnQXdmYTdCSVZQdzJQbjFpcGduSEJjeGIzSzlTbm9naTkxdTRKQ04weHVNWEtubEhBT0VyLTUxV21tbTVqTGVCQkJPbkhmcENQMTNzSkg4VXc3am9ieEZFMzFBUWF3ZVRxM25xYWZxN3BuaXZB?oc=5",
-   "domain": "247wallst.com",
-   "published": "2026-11-20T18:02:00+00:00",
-   "source": "24/7 Wall St.",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "24/7 Wall St."
-   ],
-   "status": "single"
-  },
-  {
-   "title": "If I Could Only Own 1 Trillion-Dollar Artificial Intelligence (AI) Stock Through 2030, It Would Be Anthropic, Nvidia, or Alphabet. Here’s My Top Pick.",
-   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOWHEwZzB6MUFKZDF0OW41SjF6OGtoOWs3N3RhZ2NRVzBVVkhjV1hhVFhEeWtteTZxVjVVVVY0Zk96LUw4SlNiMEFsRnM1eXhDRi1ULTh0UXpicWYzZHlCTXlsVmhLSVp4YjByeHluMWpVYUNkbFBRN3dueGdrVzh3R0RGeGlITGFacmNDZkhzM28yNEdVMTlDRl9IY1BiTXEzLU9yeExrTXlGcVZsemVkQTlsRi1EVVNaYUdoOXdqVDJBX0lfbmJ2ZFc3aHZUcmM2MjViZXVFNFJydHJOODZzUmJnMHd4UTZoYUR2bEF4MjRGbHp1eFRDZF9jUDlPZFZrZnF5QlkzMzBkQTl3VllnbTFUVWU?oc=5",
-   "domain": "fool.com",
-   "published": "2026-11-20T18:00:02+00:00",
-   "source": "The Motley Fool",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "The Motley Fool"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Democrats aim to intensify the focus on Nvidia in new Congress",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZFBCLV9RMUFFaGhQS1ZCWlNvMkFoOGlPZG5hOXVHMWFJaFVWQzV6N1NYeVQtNWJjWGdiUlN1cVBScjNBZnNuNkhYNDQ3THE1OUV4T1ZYMEpUNGg1d2RuVmJGRXpVcjlLY0JLY3ZLVmVTZEh1cm92djduUGNDamZocFFGVmFVWkhxUklKbWx6MVRRUXYyT1VGRS1fbmo5RWE3OHRwU1JudU5FNExaQ0lnZEhRZURld2ZnU0E?oc=5",
-   "domain": "washingtonpost.com",
-   "published": "2026-11-20T18:00:00+00:00",
-   "source": "The Washington Post",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "The Washington Post"
    ],
    "status": "single"
   }
@@ -5500,11 +5650,11 @@
   },
   {
    "t": "2026-11-20",
-   "o": 143.57,
-   "h": 143.725,
+   "o": 143.52,
+   "h": 143.73,
    "l": 124.5,
    "c": 125.53,
-   "v": 620250840,
+   "v": 626373200,
    "sma20": 181.457,
    "sma50": 207.0,
    "sma200": 203.345,
