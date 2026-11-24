@@ -1,6 +1,6 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-24T00:12:09.069458+00:00",
+ "generated_at": "2026-11-24T04:26:49.186769+00:00",
  "sample": false,
  "intraday": {
   "price": 209.36,
@@ -791,6 +791,36 @@
     "t": 1795477200,
     "c": 208.2,
     "s": "post"
+   },
+   {
+    "t": 1795478400,
+    "c": 208.49,
+    "s": "post"
+   },
+   {
+    "t": 1795479300,
+    "c": 208.0,
+    "s": "post"
+   },
+   {
+    "t": 1795480200,
+    "c": 208.0,
+    "s": "post"
+   },
+   {
+    "t": 1795481100,
+    "c": 207.73,
+    "s": "post"
+   },
+   {
+    "t": 1795481700,
+    "c": 207.33,
+    "s": "post"
+   },
+   {
+    "t": 1795481855,
+    "c": 207.33,
+    "s": "post"
    }
   ],
   "pre": {
@@ -799,8 +829,8 @@
    "s": "pre"
   },
   "post": {
-   "t": 1795477200,
-   "c": 208.2,
+   "t": 1795481855,
+   "c": 207.33,
    "s": "post"
   },
   "periods": {
@@ -833,11 +863,11 @@
   "boll_dn": 185.1151,
   "hi52": 265.94,
   "drawdown_pct": -21.2755,
-  "avg_vol20": 4989795.0,
-  "volume": 6424147
+  "avg_vol20": 4991215.0,
+  "volume": 6433300
  },
  "verdict": {
-  "score": -3.06,
+  "score": -2.98,
   "level": "เสี่ยงมาก",
   "lean": "โน้มไปทาง SELL / ลดสถานะ",
   "key": "vbad",
@@ -869,8 +899,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.69,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.35 จาก 22 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.77,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.38 จาก 25 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -894,46 +924,46 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 9,
-   "bear": 3,
-   "bull_pct": 75.0,
+   "bull": 5,
+   "bear": 2,
+   "bull_pct": 71.4,
    "watchers": 26644,
    "sample": [
+    {
+     "tag": "Bearish",
+     "body": "$TTWO You got scammed it’s really Sim 6",
+     "user": "Themadogtrader",
+     "at": "2026-11-24T02:15:12Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "@contangoz Yep this price action is beyond rigged &amp; manipulated! I am just wondering if this is a shake out as many as possible then watch it whipsaw up into new ALL-TIME highs! There’s no chance this is a $200 stock",
+     "user": "JOCO2025",
+     "at": "2026-11-24T02:09:56Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO 39Million just on Playstation 😂 https://x.com/playstation/status/2125009125322957131?a=KYPtp6uEBrNTM0VeQkc&amp;s=46",
+     "user": "Jewstock",
+     "at": "2026-11-24T00:57:06Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO Strauss Strauss Strauss",
+     "user": "Jewstock",
+     "at": "2026-11-24T00:55:32Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO NO ONE IS PLAYING THIS WOKE GARBAGE 🤭 https://www.pcgamer.com/games/grand-theft-auto/sony-gta-6-set-record-for-highest-number-of-concurrent-players-for-any-game-on-playstation-ever/",
+     "user": "Robomage",
+     "at": "2026-11-24T00:47:57Z"
+    },
     {
      "tag": "Bearish",
      "body": "$TTWO PC developers have gotten the leaked GTA6 copy booting up in 3 hours, Discord with 200k members working on project. Rockstar better move up release date FAST, projected hacked version to be available to the public ",
      "user": "TortillaJackson",
      "at": "2026-11-24T00:00:50Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO Woke? The game is filled with stereotypes, violence, sex, and banger songs.",
-     "user": "wwwgill1",
-     "at": "2026-11-23T23:34:04Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO it won’t be a good one until the official one is released. A good PC port needs a lot settings the Ps5 or Xbox lack. It still won’t matter though. That will just get more people to go out and buy the real PC versio",
-     "user": "August_West",
-     "at": "2026-11-23T22:56:56Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO I agree. The anti-woke narrative is not really accurate unless you consider a guy having a girlfriend “woke”. All GTA games try to capture the zeitgeist so to speak. It’s not really about pumping a political narrat",
-     "user": "August_West",
-     "at": "2026-11-23T22:53:28Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO You&#39;re dumb bro. &quot;Go woke, go broke&quot; is your only bear thesis. Thats all the bears have to go on. And its not even woke, its freaking Grand Theft Auto and sales is king",
-     "user": "MoLongJohnson",
-     "at": "2026-11-23T22:10:53Z"
-    },
-    {
-     "tag": "Bearish",
-     "body": "$TTWO Go woke go Broke",
-     "user": "Justin2541",
-     "at": "2026-11-23T22:08:06Z"
     }
    ]
   },
@@ -1141,6 +1171,10 @@
    {
     "t": "2026-11-24T00:12+00:00",
     "bull_pct": 75.0
+   },
+   {
+    "t": "2026-11-24T04:26+00:00",
+    "bull_pct": 71.4
    }
   ]
  },
@@ -1149,8 +1183,8 @@
    {
     "key": "gta",
     "label": "GTA 6 / วันวางขาย",
-    "count": 4,
-    "tone": 0.25,
+    "count": 2,
+    "tone": 0.5,
     "example": "Grand Theft Auto VI Launch Updates (PS5 / XBOX Series X|S)",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaHlkTnpqQm9PWWxPaGVFTS1veDV1OUNUVVFPdDJ3LWtpbU1zMTZGMHFpajM2TVJYWHI2cS1xOGZnX2t5R09Ja2FuNEpDdnNpYXUxbmpSZEFCemZQR2lLNUt1NWRrT3VsRDdMSDkzZ01NSnY1bWR2R1AyU0lQQ2pDbHNIODBWci1GSENjX0lfRjRlaHRrZllKWDVQS2tCWS1XNWgtU1MyM1lFbmJHd1JjQU9JVFFqbmJXQ3pKbGg0TQ?oc=5"
    },
@@ -1188,7 +1222,7 @@
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 9,
+   "corroborated_by": 12,
    "sources": [
     "Bloomberg",
     "Dark Horizons",
@@ -1196,9 +1230,12 @@
     "Quartz",
     "Rockstar Games (ทางการ)",
     "Seeking Alpha",
+    "The Express Tribune",
     "The Malaysian Reserve",
     "The Wall Street Journal",
-    "Traders Union"
+    "TipRanks",
+    "Traders Union",
+    "TradingView"
    ],
    "status": "official"
   },
@@ -1206,13 +1243,13 @@
    "title": "Grand Theft Auto VI: The Album (Deluxe Edition)",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMy1WQ21GcGpGQTlTblpRemlIb2pJZ2RBdlhNRFBqYVlMenJwWEVNb0ZPVG4tTFJwUjBBXzE0Y1BhdzJJMl9LUjZoREt2N29WSlhmU1RVS3haTVg0WDJKOW1kdEJCdHlnZnNHVUdfdWZHNG1iR05XdUxrS3R6a01pMks2NkhvZFhLTmNxcUtFSHEyS0RYYlA2d2RWSDhvV0xiaEFwUVh5QTdEQQ?oc=5",
    "domain": "rockstargames.com",
-   "published": "2026-11-23T14:46:33+00:00",
+   "published": "2026-11-23T14:06:16+00:00",
    "source": "Rockstar Games (ทางการ)",
    "tier": 1,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 9,
+   "corroborated_by": 12,
    "sources": [
     "Bloomberg",
     "Dark Horizons",
@@ -1220,75 +1257,71 @@
     "Quartz",
     "Rockstar Games (ทางการ)",
     "Seeking Alpha",
+    "The Express Tribune",
     "The Malaysian Reserve",
     "The Wall Street Journal",
-    "Traders Union"
+    "TipRanks",
+    "Traders Union",
+    "TradingView"
    ],
    "status": "official"
   },
   {
-   "title": "Grand Theft Auto VI",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93cmtLZTFGZ3dKeEV0bjdBbi1WYm16RmQxaGRwa2UwZXZ2R2Y3b215STZmb3M5WUM2eUN4QnpwcDgtb0E2QTA4NHBkaDlVNXVTSVBZMWRPLXhaV3pHajZOUnEtUUttNWVwakE?oc=5",
+   "title": "Red Dead Redemption 2 Reviews",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSHl0aVRHSGJ3TG5CX1lyZnJyRVpjeUVEZUtjN0RJOFF6cGhzcklSckd6dmU4RkRYdkxxTm1uamxTeWFTOFRoWlVlbnVCYk8yM0tkbi10cmthcHpmY3Y4YjdJb3lZakkyQUkxVEdWSHgzZEF6bVhDanMtTXJtV3FDVHhiSzJLelc2a2FQRkFYcU1wbkVMa1hRZXNZemNqOWxLOTRBajVza0g3TTVnVDhsaHBLS21yUEl4TGFDeEY2aGJsVGVjMTMwajlTZW5fbHMyWmRZbUdEU1hZMjN3S015WkM2ZGxYR1pScno4?oc=5",
    "domain": "rockstargames.com",
-   "published": "2026-11-23T02:27:03+00:00",
+   "published": "2026-11-22T17:22:34+00:00",
    "source": "Rockstar Games (ทางการ)",
    "tier": 1,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 9,
+   "corroborated_by": 1,
    "sources": [
-    "Bloomberg",
-    "Dark Horizons",
-    "Financial Times",
-    "Quartz",
-    "Rockstar Games (ทางการ)",
-    "Seeking Alpha",
-    "The Malaysian Reserve",
-    "The Wall Street Journal",
-    "Traders Union"
-   ],
-   "status": "official"
-  },
-  {
-   "title": "Guía de GTA+ // GTA Online Guides",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZ1BCaEZIMm9CLTJCanUyRjJXVy1lOUdsb0FEWGU0TFhMaUN1WllRbXFDVUR1RGJTSmh0TzJlRFRpRWsydk1WakFUOFNaUlNYVzdBR3JSTGpOcnY2dkY3QThyeGZJLTEyNU92ZU5uMkFETnlPWEp6TUl6TU5LNW9SV3FpckpkdkxfSTRJYi15SzNlODIxdEEzSThhSm9CdFRjLXFRWmFkWHJ2VEZha0F4M0VaeGVGQ2gwMHZJNzBhSmlSYUVoSURhblluOE1YYVAtSk9CS1FQVjBTeTRuaGhoWVJuNFhlM0FxeUNrM1pMVGtUUQ?oc=5",
-   "domain": "rockstargames.com",
-   "published": "2026-11-22T06:24:54+00:00",
-   "source": "Rockstar Games (ทางการ)",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "GameSpot",
     "Rockstar Games (ทางการ)"
    ],
    "status": "official"
   },
   {
-   "title": "Bank of America Raises Take-Two Interactive (TTWO) Outlook After GTA 6 Launch",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbHBjM2hmOXhGc1ppbHBraldIdWo3QUUxVThDQVBTM2pSVHFyZEJYN3E5ZlNRVFdfZlBlc05HZVdnUVdiV2ctMy1TUWYyeHQwZlNkMVVZTjhwRFpxSTlpSFJlQjlwRjV6U1VjbkNMcnlWcUlmLTlUM1lBb1I2MWN4MUt2MldONl9TVmdIWl84QzV3eFdGZkI5NWtZLXNvbW1TYWdyT0FfWUYwQk9Zd3czSFhlZw?oc=5",
+   "title": "Bluewater Marsh by Haran76 in Red Dead Online",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1KVU1Ra044NlpPbk5ka19WYzd2eE9hMHBVMjM2eC1iOS1oWGJaRFd6a1lyRVVLTWZ2VmZkaFB1SGg0WU5LYWFBWk1RZ0k3aHZvTHV4clEtSzFZUHFQbmJXRzdtRkNQY2ZTc2taTWRyb21FSllHUW9ZUWdB?oc=5",
+   "domain": "rockstargames.com",
+   "published": "2026-11-22T08:11:08+00:00",
+   "source": "Rockstar Games (ทางการ)",
+   "tier": 1,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Rockstar Games (ทางการ)"
+   ],
+   "status": "official"
+  },
+  {
+   "title": "Take-Two Interactive's GTA VI Launch Sets Record with $3.79B Day One Sales, Ticker TTWO",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNkNELVNZWjc5bWx2bGJwNzNzRGdqekR3Y0k2Vk5mQlJoYktfNzRBWlFXRkNJa2FjVlNWVWpsN1VDTm5rZkpoRVNlWGVOOEtZQk5yVEdOWDRLNlYwQUFFNXloVUo0cTVFLWdjbEhHZlVQYkR0T3JCQkhNOGNyZG1PQWYzQjBlYXR6bFNRSnlHTFFlNnI5YVprWFNoZXY0UGlGaElnS1pCaUl5MWJyYXAyRVlLclowSTFNM2xmbEJR?oc=5",
    "domain": "gurufocus.com",
-   "published": "2026-11-23T18:13:58+00:00",
+   "published": "2026-11-22T16:35:59+00:00",
    "source": "GuruFocus",
    "tier": 3,
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 28,
+   "corroborated_by": 36,
    "sources": [
     "24/7 Wall St.",
+    "Basic Tutorials",
+    "BigGo Finance",
     "CoinGecko",
     "CoinMarketCap",
     "Demócrata",
-    "GameSpot",
+    "FandomWire",
     "GuruFocus",
-    "IMDb",
     "Investing.com",
-    "Investing.com Australia",
+    "Investing.com Canada",
     "Investing.com India",
+    "Investing.com UK",
     "JournalArta",
     "Kalkine Media",
     "Kazi Magazine",
@@ -1296,47 +1329,22 @@
     "Make Tech Easier",
     "Nacionale",
     "PRESS Insider",
-    "Proactive financial news",
     "Push Square",
+    "Quartz",
     "Seeking Alpha",
     "Simply Wall St",
     "The Escapist",
-    "Traders Union",
-    "TradingView",
-    "Yahoo Finance",
-    "iXBT.games",
-    "marketscreener.com",
-    "shattered.io"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "GTA 6 Sales Figures: $3.79 Billion on Launch Day",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPckRydk9Falo0N2w5SFJFWUNFdkkzeTRIVnhGcE1GY3V3YUZpbzFfNHYyM1RpZXN1ZENDcXhhd3Nrb1BqeDRJVHBHRXN1UUNyMWJRUDkyT0JzWmJIT2huYzVGLUFUUm9DN25tOGl6NEhBVjEzQm1IXzRDR2FYejM5Q08wV3paYWM?oc=5",
-   "domain": "basic-tutorials.com",
-   "published": "2026-11-23T03:11:14+00:00",
-   "source": "Basic Tutorials",
-   "tier": 3,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 16,
-   "sources": [
-    "Basic Tutorials",
-    "BigGo Finance",
-    "Everything Edinburgh",
-    "Kazi Magazine",
-    "MIXED News",
-    "Make Tech Easier",
-    "PRESS Insider",
-    "Proactive financial news",
-    "Quartz",
-    "The Escapist",
     "The Malaysian Reserve",
     "The Rundown AI",
+    "The Twelfth Magpie",
     "TheStreet",
+    "TipRanks",
     "Traders Union",
+    "TradingKey",
+    "TradingView",
     "Yahoo Finance",
+    "ad-hoc-news.de",
+    "marketscreener.com",
     "shattered.io"
    ],
    "status": "single"
@@ -1351,91 +1359,111 @@
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 6,
+   "corroborated_by": 7,
    "sources": [
-    "CoinGecko",
     "CoinMarketCap",
-    "Proactive financial news",
+    "GuruFocus",
     "TipRanks",
     "TradingView",
+    "Yahoo Finance",
+    "ad-hoc-news.de",
     "marketscreener.com"
    ],
    "status": "single"
   },
   {
-   "title": "GTA 6's $3.79B first-day haul tops Avengers Endgame's entire box office run by $850 million",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUUxNaWRiNlp1MVR0M2hUS2FYYXJPWlBiS0FoTGtnM21rWkdBWTNQSGM3R3l1Zkh3cTVoSnI4R2dZTXI5UXdLbFVEQjB5bUtKOC1HNWpFdTZSQmdlYzd2MkNQR2dBLVdfODFCVVg1MFFEOFROY2NRbTlfSmZ5UmtLbVVpeGh5NldtU3dmNEw3OA?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-22T17:10:00+00:00",
-   "source": "Yahoo Finance",
+   "title": "Take-Two's Bull Case Rests on a Game Nobody Has Announced Yet - ad-hoc-news.de",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYXMyOG5QVHRrOXBmTkpqeG5xelNJWE1mRDUwUUg5azdUZHNkTTU4Z2VEMkpSbVNFcjdyS2ZSbE9tUWNyVEhkRFFoNm1HMHc5eWV2UG56ckFZWEVhS1VCMUc1N0Y0Qk1CdzBsQndna0xudkJXZjFVamdSUWEtd0R3Z0ZpaFhRVm82NjdEY2lRa01KX2VuNmRaN2lYZ2VmTFZKcFU0djFyZWh2c1FiMG9raU9heWF1ZjZ4ZlR1N184REowZVlabzFYd3gtNFZlZw?oc=5",
+   "domain": "ad-hoc-news.de",
+   "published": "2026-11-24T02:41:59+00:00",
+   "source": "ad-hoc-news.de",
    "tier": 3,
-   "sentiment": 1.0,
+   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 6,
    "sources": [
-    "Everything Edinburgh",
+    "Demócrata",
+    "FandomWire",
+    "MIXED News",
+    "Nacionale",
+    "TipRanks",
+    "ad-hoc-news.de"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "GTA 6 sold 5 trillion won worth of copies on its first day… Vacation requests up 32%",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5uYjdYYjF0c2V3M3lBTENGQlVzYkMxamNzOEFnb3M4VERhcGhudWVsV2NPandqQ2R2dFNwTmJMWkNWZjdyZ01lMXE2ZHZicFg0YTNXM3hjd2hNQy10UTVhZFZXQ2h3NURUY0ozT0txandQZHYzRS04cA?oc=5",
+   "domain": "mt.co.kr",
+   "published": "2026-11-22T07:44:19+00:00",
+   "source": "머니투데이",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 6,
+   "sources": [
     "Make Tech Easier",
     "PRESS Insider",
     "Traders Union",
     "Yahoo Finance",
-    "shattered.io"
+    "shattered.io",
+    "머니투데이"
    ],
    "status": "single"
   },
   {
-   "title": "Former Take-Two boss predicts a “Toy Story moment” for AI in video games",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSHBRQnJrajlHMlo0ZXY3OHpySTJOYmxhakhaT3NxVUc0YU8tYTBLQWNGWlZ5MzM0S2JwRmpmRVM0dzdfNmF5T055cFR0Q081bmUtU09TTFczX0ZXV1o4ejVfaTR6U21DeDh1TkNDRERWVjRXWlBZb20zR0I1bXV3Y0pnTHV0Sk9XeWc?oc=5",
-   "domain": "mixed-news.com",
-   "published": "2026-11-23T17:53:22+00:00",
-   "source": "MIXED News",
+   "title": "GTA 6 Online Could Be Bigger Than Fortnite, Bank Of America Stock Analyst Says",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORVVZaXBEU2J3MXZvYTJKajQ5SlVlWVpiaS1ZQWhJeE9DalhYM3lGRWkxdXk1UVdrbUNiUDBzeVRmNWM3Qy0xY01QUk82N255bm9nTlhnM3JIX0M4WVp5bF9OSzl1QTdkejBrVnFnemlqWXJqTTlISXNIXzJIVzJrUF9DVFhQVWRqcGY3elY5VFFSbHZuSWxYWmQ3V28yYXl3UnNoOXNUcnBZRVBVVUxDdGZR?oc=5",
+   "domain": "gamespot.com",
+   "published": "2026-11-23T20:29:38+00:00",
+   "source": "GameSpot",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 4,
    "sources": [
-    "IMDb",
-    "MIXED News",
-    "Nacionale",
-    "Push Square"
+    "GameSpot",
+    "GuruFocus",
+    "Seeking Alpha",
+    "TradingView"
    ],
    "status": "single"
   },
   {
-   "title": "GTA 6 is breaking sales records! Should I buy this S&P 500 stock for my ISA?",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbzdFSDZLWGZhNEh4SngtV1hpZTc4NXlBRGk0R3R4NXl1M3VmLVBnY0ZNVVVvdXVMY19sWHk0dHB3eUFSSk8tSlpzWENqWHE3MU42VXg2MXo3QUw2NkNzVzNpTGZsTGQwT3lCcnZCRTI5QTBRaEtjT0xCWmJ1VkItWjFuOA?oc=5",
-   "domain": "uk.finance.yahoo.com",
-   "published": "2026-11-22T10:17:29+00:00",
-   "source": "Yahoo Finance UK",
+   "title": "Weekly Recap: Game earns $2.36 billion and TTWO token trading surges",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTnhXNm5FbS0zM0libUs0b0ZhczNVbGFJYmE2cnhkNkp0MTF3SFdHZm5zaEdjdlhscHRqZ2VVZlNqeDVWOXIwVUJlNU1QMkZCRHdSRkhBY29FNDNrd0ZzYWZiaHJmVzQydWVVVnJVYWM0a1pvak9MY2lPcFZkeGUtakVDYTJqYlZUc1Z1enN2RjRhMXZCUVhEYndXbGZCSHdCVDdIZUxnYXVTT0ZiUm1vMWhPM05yNGxvUHJQRldTUzIxVXE4S2tB?oc=5",
+   "domain": "tradingview.com",
+   "published": "2026-11-23T11:00:00+00:00",
+   "source": "TradingView",
    "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 4,
-   "sources": [
-    "Investing.com Australia",
-    "Investing.com India",
-    "PRESS Insider",
-    "Yahoo Finance UK"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "TTWO Dec 2026 195.000 call (TTWO261224C00195000) interactive stock chart",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1oNWpuNS1ILTc4VUJGamJUYklzbDRzSi1LOTdfd0lsUFFjUWExZEkyZVB6OHQycVFXWE5NV3dZeXBnV3VmVUhIY2pVdDA3RC1hOW5WTXk4T2hwMW4wMGlpWS0xTy11cUtqQk0taUVR?oc=5",
-   "domain": "au.finance.yahoo.com",
-   "published": "2026-11-23T06:57:58+00:00",
-   "source": "Yahoo Finance Australia",
-   "tier": 3,
-   "sentiment": 0.0,
+   "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 3,
    "sources": [
-    "Yahoo Finance Australia",
-    "Yahoo Finance UK",
-    "Yahoo! Finance Canada"
+    "JournalArta",
+    "TipRanks",
+    "TradingView"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "S&P 500, Nasdaq End Best Session Since April Last Year On Optimism Led By Jensen Huang’s Reinstatement — NVDA, NASA, TTWO, AMZN In Focus",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWjI5NzZ0c2t3SEVKaUlNZUFPb0NnRURkeHBTT1QxTWJvVHNTRERkSzVoeGp5QURjV2FXbUUwb28wT210Mm51SGlMTUY0RUdzb0pTVDdKMjZET2FyY3gxaGd2bjhBWXZnTHY4U2RfX1g3cmhPbGhpYVhsLTN1RTZQQ1NUZ0JXdWRVUXBLZUNudw?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-23T23:33:25+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "Kalkine Media",
+    "Yahoo Finance"
    ],
    "status": "single"
   },
@@ -1474,28 +1502,11 @@
    "status": "single"
   },
   {
-   "title": "Weekly Recap: Game earns $2.36 billion and TTWO token trading surges",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTnhXNm5FbS0zM0libUs0b0ZhczNVbGFJYmE2cnhkNkp0MTF3SFdHZm5zaEdjdlhscHRqZ2VVZlNqeDVWOXIwVUJlNU1QMkZCRHdSRkhBY29FNDNrd0ZzYWZiaHJmVzQydWVVVnJVYWM0a1pvak9MY2lPcFZkeGUtakVDYTJqYlZUc1Z1enN2RjRhMXZCUVhEYndXbGZCSHdCVDdIZUxnYXVTT0ZiUm1vMWhPM05yNGxvUHJQRldTUzIxVXE4S2tB?oc=5",
-   "domain": "tradingview.com",
-   "published": "2026-11-23T11:00:00+00:00",
-   "source": "TradingView",
-   "tier": 3,
-   "sentiment": 1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "JournalArta",
-    "TradingView"
-   ],
-   "status": "single"
-  },
-  {
    "title": "ANT, BABA, PANW, TTWO, ZS: Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPRDBDNVhneDlWY1YzMEtUM0Zqb0RUMC1VVEh3QTAzNC1jcElKOHMtNTBPbDdEOXNiMUJEN2RtMzJkbVBqTmQ1djRJaDBmWmxLMV9ib1ZJRTBQZXpnTmtVMHFBYlRuVHZRZ0k4Z3BJLUFuWTFZY1o0X3JvSHJxcDRtWjJpVWk1RGZ1b2hBQnRTZUtkczFBQldmSmVYUkNfNmlVSW84aFR1OXNOMWZHTEpZTEhHRDIxZDhwUnJrWkxuazNPUTBXVEV1ODFSRzVyaTRiWkpjZHc3eTJiaWlPVG0wOHlmSnlHY3NJ?oc=5",
-   "domain": "tradingview.com",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVVU4SEdUSE5lUmJxakFvVUVtNnUtUWdXakZxLWtQM1hudHlCcTc1eTlXU1lzWFF5V2ZkT2tjVm8zVTlZQlMxU2JsY25mcXlEMGhnV1U1WllCdkdiQ1B6cWtBenFJdGxUTWUzUThYb3dRbHdnTFJXcUhqZXdsTlBSTWFEX09Tc25ENy1hS0E4R29vY1BMWmY1RDkySnoxNTRUeDduMFVGaVdDQVBxNmh3dXNzbV9NTlR4WDBGdFVmZVJ0czhGTzk0R3RZWE9scXJseTBmdnVNQ0NmQmh6OTdFV2Nna0xnN1BDMm9Jdw?oc=5",
+   "domain": "stocktwits.com",
    "published": "2026-11-23T02:08:00+00:00",
-   "source": "TradingView",
+   "source": "Stocktwits",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
@@ -1503,7 +1514,7 @@
    "corroborated_by": 2,
    "sources": [
     "Kalkine Media",
-    "TradingView"
+    "Stocktwits"
    ],
    "status": "single"
   },
@@ -1540,18 +1551,18 @@
    "status": "single"
   },
   {
-   "title": "The most interesting references and Easter eggs in GTA VI — from Red Hulk to saving aliens",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOLVNGVEFrbXk4YTh0R2gyOTA0bTY4YU43VXQwN0VLUnNKNWNFR1hWS1h0OXBxN2c1cFlRdUhXTEgyVnpCREVEVTE1dDduYlJSMGhtSHJuTzhLSEJDX3lkaHVKZEZhclcxZ0tqQ2NPeVhPU0IySjZZd2JHZ1pPeF9paUN6Z3Y4WjZUWnBwSlJwUFozWmZHSFVFalRDbDZabkQ0bUpSbmNHT3dlbDRzZzNacG5IVFllRmRhYUU1RWJWamw5Ri1UU2MwX2x2QUJVcnU5TGJIRVBB0gHWAUFVX3lxTE4tU0ZUQWtteThhOHRHaDI5MDRtNjhhTjdVdDA3RUtSc0o1Y0VHWFZLWHQ5cHE3ZzVwWVF1SFdMSDJWekJERURVMTV0N25iUlIwaG1Icm5POEtIQkNfeWRodUpkRmFyVzFnS2pDY095WE9TQjJKNll3YkdnWk94X2lpQ3pndjhaNlRacHBKUnBQWjNaZkdIVUVqVENsNlpuRDRtSlJuY0dPd2VsNHNnM1pwbkhUWWVGZGFhRTVFYlZqbDlGLVRTYzBfbHZBQlVydTlMYkhFUEE?oc=5",
-   "domain": "ixbt.games",
-   "published": "2026-11-23T12:53:00+00:00",
-   "source": "iXBT.games",
+   "title": "GTA 6 Players May Be Sharing More Personal Data Than They Realize",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcjlpaHJzdjBGRWJvWndTVS1HWG1xRnQ2YW5ZWUo4ZGJZQU5uU3pDNG5FUUs2a3VkTXB4d2wwMnJMM1hPRXNKRlBKNER0dWpyM2xFb2NXRHZnMmJnSTNjUXVrRmFicHlSN2F2cl9sOWdUOU9WODRHTG9NWVJxMHpLck9wOVhCd1Bfb0l6MzE4Qk82WV9PVnFiZEpRNTRJbHdvYW000gGoAUFVX3lxTE1wTHB0NXloNG9PX1l4azJ2V2piV1lLQ3JZRkQyM01GYXYteG9NZ002dm1wSVRUR0xsZno0UTByLXcwQ25FWktMTGFGNEhRdGNoU1pqRXByMFEwbkxWQk5WUUlKeWVNZ3pCUFV1XzhTdldUZE9VTkVkUWMzNUtDRjVaRHdrTW9LakM5VUc5X1hKZF90alNMNTF1MFFJaXB3QjNoazFUbktGaA?oc=5",
+   "domain": "propakistani.pk",
+   "published": "2026-11-23T15:27:58+00:00",
+   "source": "ProPakistani",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "iXBT.games"
+    "ProPakistani"
    ],
    "status": "single"
   },
@@ -1572,22 +1583,6 @@
    "status": "single"
   },
   {
-   "title": "TAKE-TWO INTERACT. SOFTW. (TTWO.SW) company profile and facts",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XR3J5c1pOWHZmQUN5RVhxVDk1d2w1SG9xTHk2Z0dYaVRvUUtyQ3FWdy05MjRRYzRKTGp4OEVXSlE2eEJGX0sxbFQyRHJiSlgxSUJ5WmhvWm5xdVhxM0t5WA?oc=5",
-   "domain": "uk.finance.yahoo.com",
-   "published": "2026-11-23T09:53:16+00:00",
-   "source": "Yahoo Finance UK",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Yahoo Finance UK"
-   ],
-   "status": "single"
-  },
-  {
    "title": "Who owns Take-Two, Rockstar's parent? Index funds lead, a Saudi gaming group holds 6%",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSll3ZGpucEozcEU0UWk0RHFKQV8xamVrMGViLXkwTnpCY19leTE2SlNsaHJlODdOdkFVTnJ2Zl83RjdNNC1jYU5NbmRwT2tZdnFtS29vOGY0cEUyeHpMRlFzQ2pUN0J0SVVFUERfaTdLTzA3UTlSc2NHa2RnbWdTYXZIczZhaWZkRnAtbm9JYTl5QUlCZjI0ZElFTElYbXFzQVdfQmctOGdTc0twLXdibFRnNHJvbkNXUi1Ta0pZT1lRUQ?oc=5",
    "domain": "nacionale.com",
@@ -1604,18 +1599,98 @@
    "status": "single"
   },
   {
-   "title": "Investigation reveals GTA 6 owner’s corporate ties to ‘Israel’",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZThRY0U5ckxnMGxuYlI5Vmw3b3pzbzJMdXdmTDdmRFdiR3NWSlhoN1VzNmUtSnV5UFYtT0xVM2dKbTh1V2FhOUtMYXpEclYyUkFDdEMyRHk3YUlhdXlhOUFRS29veGlZc0VPQUdZTE1PS05FM2ZlUUZBTHUwZFM4azdBb2Z1eTZfWjY4S3N1SkpNdGN1ZTdGMTVSNTRIWG9XREo4QUxVUW9PZjJrZDZhb1ZQbHR0MGtjY2p4MQ?oc=5",
-   "domain": "en.royanews.tv",
-   "published": "2026-11-22T04:17:12+00:00",
-   "source": "Roya News",
+   "title": "Elon Musk Reacts as Stealing a Tesla in GTA VI Goes Horribly Wrong After Car Calls the Cops and Drives Pl",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWUpIQXBWMmo4bklIMXZ0eUozc2Mzb3ByNTlLWXUyWmlWUlY4eVhjc1RLNDdIQmJkZUg0MHZqNXN1c2l2c19XZ3RxYUdRdWphWjVpRTNob2t1WU9WelVyVE5GbHp4Y2dSZk9JSEdOdEo5aGdxbTlKb1JWXzJvWTdTSGF3alJwZ0dFeHZsb0F6dnp1S1BpV3QxQVd3?oc=5",
+   "domain": "benzinga.com",
+   "published": "2026-11-23T06:56:30+00:00",
+   "source": "Benzinga",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Benzinga"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Strauss Zelnick Skips Games, Ships GTA VI: $1B+ Est.",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT254TDk1Y1J4QlBLSjM2cmJ4YUZ1cHJDWEVDaFNHYnB6WTM1T3E0QkpRdktyalp3cXBnd1lZWTlNZkZnRzZTbmNXN3hYVEw4bTBXVXZNalNpWkp3SndDWW9iaUo3Q3lXUzMzMTA4QU9ZTWJYLW15d3ZnaEhkREZqT09aWGxYM2M3OGhXUFFpTXc0cVpHWUQwTFMxWDM?oc=5",
+   "domain": "shattered.io",
+   "published": "2026-11-22T15:20:17+00:00",
+   "source": "shattered.io",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "shattered.io"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "‘GTA 6’ Shows Brands What Happens When Creators Run With An Idea",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZnlyTnZKUTNNYlRhWVZnOUFISXFUZF9PTkNmWHEyZG1mRTRTbnRsb0k1V0VxX0JIVkRyVERNcHVDM0EtV2psY0JlbHpJOTRfVHNWSlhGSVJ5RmlxT1N0TXFkMUdZa3FhaDhJdmJfUk9heVZEMTZMU3FNUWV4VExaU296NTg4WE54V0Zzb2c3c2didDIxcDJUNlR4MA?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-22T08:42:45+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "GTA 6 linked to Israel in new investigation - Al-Bawaba",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMTVPTl9Rdm5uSkIwdUNHS0ZISkFjNVFINnF6Z2RZbFJlVmdwNEY0MEg2NkV5NGtGdHFMTTg4R2dTWUdBR3JrNEtSYVM2RzI4ZktVZ2lQS0lBcjMxcjlMbnlsLTYtMWlMVk1jRUJmTFczSjREZmo0eXRTTXpBanoyc3ZQbEdGV28tclJnTw?oc=5",
+   "domain": "albawaba.com",
+   "published": "2026-11-22T08:03:06+00:00",
+   "source": "Al-Bawaba",
    "tier": 3,
    "sentiment": -1.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "Roya News"
+    "Al-Bawaba"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Top five fastest cars in GTA 6 - Ranked by speed",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAxZFN3UHRNR19wZDRIem5zdndLODlWSmRFeUJ3cGt5YkoxMXdtNm8wOF9UeGFDTGZzU1Y0UDB5R1JxdURYZktObHFHYl9ZaVRmMlRCRU5nRlppQ055NFZadllaOG5BUTR1NnlPamF1bw?oc=5",
+   "domain": "khelnow.com",
+   "published": "2026-11-22T06:12:00+00:00",
+   "source": "Khel Now",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Khel Now"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Take-Two Links Israel Ties to Aid Donation",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUVF1azRsSjlDU1VmU21TMmRCU011YjRRazZnTkZUc2pTbXpUdDZNMXpMbFFoZFlMT0xGR0VOUnhqblVuZWdFQ1hfc2pJQXp5dFBFRFlZamZRVUtKS0JGM3MyblJPWWtnSVh5bkx0Z2pVc0ZhQm51clZwdkRqSmNHODFmNUU?oc=5",
+   "domain": "wisevoter.com",
+   "published": "2026-11-22T05:00:31+00:00",
+   "source": "Wisevoter",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Wisevoter"
    ],
    "status": "single"
   }
@@ -4984,7 +5059,7 @@
    "h": 218.69,
    "l": 200.01,
    "c": 210.0,
-   "v": 10616000,
+   "v": 10644400,
    "sma20": 208.924,
    "sma50": 207.469,
    "sma200": 218.441,
@@ -4993,11 +5068,11 @@
   },
   {
    "t": "2026-11-23",
-   "o": 209.64,
-   "h": 214.34,
-   "l": 202.746,
+   "o": 209.71,
+   "h": 214.36,
+   "l": 202.75,
    "c": 209.36,
-   "v": 6424147,
+   "v": 6433300,
    "sma20": 209.224,
    "sma50": 207.198,
    "sma200": 218.51,
