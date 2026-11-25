@@ -1,11 +1,11 @@
 {
  "ticker": "GOOGL",
- "generated_at": "2026-11-25T18:18:28.633957+00:00",
+ "generated_at": "2026-11-25T21:59:12.608210+00:00",
  "sample": false,
  "intraday": {
-  "price": 270.88,
+  "price": 273.1,
   "prev_close": 279.05,
-  "time": 1795630702,
+  "time": 1795640402,
   "points": [
    {
     "t": 1795597200,
@@ -564,13 +564,233 @@
    },
    {
     "t": 1795630500,
-    "c": 270.96,
+    "c": 271.01,
     "s": "reg"
    },
    {
-    "t": 1795630702,
-    "c": 270.88,
+    "t": 1795630800,
+    "c": 271.17,
     "s": "reg"
+   },
+   {
+    "t": 1795631100,
+    "c": 271.23,
+    "s": "reg"
+   },
+   {
+    "t": 1795631400,
+    "c": 270.51,
+    "s": "reg"
+   },
+   {
+    "t": 1795631700,
+    "c": 270.73,
+    "s": "reg"
+   },
+   {
+    "t": 1795632000,
+    "c": 271.06,
+    "s": "reg"
+   },
+   {
+    "t": 1795632300,
+    "c": 272.08,
+    "s": "reg"
+   },
+   {
+    "t": 1795632600,
+    "c": 271.9,
+    "s": "reg"
+   },
+   {
+    "t": 1795632900,
+    "c": 271.65,
+    "s": "reg"
+   },
+   {
+    "t": 1795633200,
+    "c": 272.3,
+    "s": "reg"
+   },
+   {
+    "t": 1795633500,
+    "c": 272.53,
+    "s": "reg"
+   },
+   {
+    "t": 1795633800,
+    "c": 272.19,
+    "s": "reg"
+   },
+   {
+    "t": 1795634100,
+    "c": 272.29,
+    "s": "reg"
+   },
+   {
+    "t": 1795634400,
+    "c": 272.46,
+    "s": "reg"
+   },
+   {
+    "t": 1795634700,
+    "c": 273.04,
+    "s": "reg"
+   },
+   {
+    "t": 1795635000,
+    "c": 272.29,
+    "s": "reg"
+   },
+   {
+    "t": 1795635300,
+    "c": 272.77,
+    "s": "reg"
+   },
+   {
+    "t": 1795635600,
+    "c": 271.8,
+    "s": "reg"
+   },
+   {
+    "t": 1795635900,
+    "c": 272.43,
+    "s": "reg"
+   },
+   {
+    "t": 1795636200,
+    "c": 272.89,
+    "s": "reg"
+   },
+   {
+    "t": 1795636500,
+    "c": 272.15,
+    "s": "reg"
+   },
+   {
+    "t": 1795636800,
+    "c": 272.24,
+    "s": "reg"
+   },
+   {
+    "t": 1795637100,
+    "c": 272.13,
+    "s": "reg"
+   },
+   {
+    "t": 1795637400,
+    "c": 271.86,
+    "s": "reg"
+   },
+   {
+    "t": 1795637700,
+    "c": 271.95,
+    "s": "reg"
+   },
+   {
+    "t": 1795638000,
+    "c": 272.18,
+    "s": "reg"
+   },
+   {
+    "t": 1795638300,
+    "c": 272.1,
+    "s": "reg"
+   },
+   {
+    "t": 1795638600,
+    "c": 271.85,
+    "s": "reg"
+   },
+   {
+    "t": 1795638900,
+    "c": 271.79,
+    "s": "reg"
+   },
+   {
+    "t": 1795639200,
+    "c": 272.16,
+    "s": "reg"
+   },
+   {
+    "t": 1795639500,
+    "c": 272.25,
+    "s": "reg"
+   },
+   {
+    "t": 1795639800,
+    "c": 272.54,
+    "s": "reg"
+   },
+   {
+    "t": 1795640100,
+    "c": 272.95,
+    "s": "reg"
+   },
+   {
+    "t": 1795640400,
+    "c": 273.22,
+    "s": "post"
+   },
+   {
+    "t": 1795640700,
+    "c": 272.88,
+    "s": "post"
+   },
+   {
+    "t": 1795641000,
+    "c": 273.1,
+    "s": "post"
+   },
+   {
+    "t": 1795641300,
+    "c": 273.1,
+    "s": "post"
+   },
+   {
+    "t": 1795641600,
+    "c": 273.51,
+    "s": "post"
+   },
+   {
+    "t": 1795641900,
+    "c": 273.43,
+    "s": "post"
+   },
+   {
+    "t": 1795642200,
+    "c": 273.45,
+    "s": "post"
+   },
+   {
+    "t": 1795642500,
+    "c": 273.18,
+    "s": "post"
+   },
+   {
+    "t": 1795642800,
+    "c": 273.2,
+    "s": "post"
+   },
+   {
+    "t": 1795643100,
+    "c": 273.01,
+    "s": "post"
+   },
+   {
+    "t": 1795643400,
+    "c": 272.41,
+    "s": "post"
+   },
+   {
+    "t": 1795643700,
+    "c": 272.95,
+    "s": "post"
+   },
+   {
+    "t": 1795643804,
+    "c": 272.88,
+    "s": "post"
    }
   ],
   "pre": {
@@ -578,7 +798,11 @@
    "c": 265.13,
    "s": "pre"
   },
-  "post": null,
+  "post": {
+   "t": 1795643804,
+   "c": 272.88,
+   "s": "post"
+  },
   "periods": {
    "pre": {
     "start": 1795597200,
@@ -595,25 +819,25 @@
   }
  },
  "tech": {
-  "close": 270.88,
+  "close": 273.1,
   "prev_close": 279.05,
-  "chg_pct": -2.9278,
-  "sma20": 282.9375,
-  "sma50": 318.1964,
-  "sma200": 336.3048,
-  "rsi": 36.018,
-  "macd_hist": 0.4688,
-  "vol20_ann": 0.5948,
+  "chg_pct": -2.1322,
+  "sma20": 283.0485,
+  "sma50": 318.2408,
+  "sma200": 336.3159,
+  "rsi": 36.9292,
+  "macd_hist": 0.6105,
+  "vol20_ann": 0.5919,
   "vol_median_1y": 0.2984,
-  "boll_up": 298.6283,
-  "boll_dn": 267.2467,
+  "boll_up": 298.4248,
+  "boll_dn": 267.6722,
   "hi52": 408.61,
-  "drawdown_pct": -33.707,
-  "avg_vol20": 46562590.0,
-  "volume": 23513069
+  "drawdown_pct": -33.1636,
+  "avg_vol20": 46567775.0,
+  "volume": 40440510
  },
  "verdict": {
-  "score": -3.58,
+  "score": -3.25,
   "level": "เสี่ยงมาก",
   "lean": "โน้มไปทาง SELL / ลดสถานะ",
   "key": "vbad",
@@ -636,7 +860,7 @@
    {
     "name": "RSI",
     "value": 0,
-    "why": "RSI 36 อยู่ในช่วงปกติ"
+    "why": "RSI 37 อยู่ในช่วงปกติ"
    },
    {
     "name": "ความผันผวน",
@@ -645,8 +869,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": -0.33,
-    "why": "ค่าเฉลี่ยโทนข่าว -0.16 จาก 43 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.0,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.00 จาก 3 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -659,12 +883,12 @@
   {
    "key": "gap-2026-11-25",
    "sev": 2,
-   "text": "ราคาเปิดกระโดด (gap) -4.95% จากราคาปิดวันก่อน"
+   "text": "ราคาเปิดกระโดด (gap) -5.00% จากราคาปิดวันก่อน"
   },
   {
    "key": "dd-2026-11-25",
    "sev": 2,
-   "text": "ราคาต่ำกว่าจุดสูงสุด 52 สัปดาห์ -33.7% (เข้าเขต bear market)"
+   "text": "ราคาต่ำกว่าจุดสูงสุด 52 สัปดาห์ -33.2% (เข้าเขต bear market)"
   },
   {
    "key": "hv-2026-11-25",
@@ -675,52 +899,52 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 7,
-   "bear": 0,
-   "bull_pct": 100.0,
-   "watchers": 241257,
+   "bull": 3,
+   "bear": 3,
+   "bull_pct": 50.0,
+   "watchers": 241275,
    "sample": [
     {
      "tag": "Bullish",
-     "body": "$GOOGL CALL GOOGL 2027MAR19 275.00 will be at $28 a contract again 🚀🚀🚀",
-     "user": "Dsaad11",
-     "at": "2026-11-25T18:04:30Z"
+     "body": "$GOOGL I spaced out several orders for $GGLL before my 2 week vacation but most didn&#39;t get filled. My GGLL average is $61.55, which is down only -2.8%. $GOOGL is down -33% from 52 week high, and to me this is a big d",
+     "user": "AlphaBull_10M",
+     "at": "2026-11-25T21:41:08Z"
     },
     {
      "tag": "Bullish",
-     "body": "$GOOGL GONNA BE GREEN TODAY",
-     "user": "Dsaad11",
-     "at": "2026-11-25T18:04:07Z"
+     "body": "$GOOGL great buy opportunity.",
+     "user": "JustInTheMarket",
+     "at": "2026-11-25T21:29:39Z"
+    },
+    {
+     "tag": "Bearish",
+     "body": "$GOOGL this stinky pos gunna give it all back on friday innit? $GOOG",
+     "user": "MuskyFlex",
+     "at": "2026-11-25T21:13:36Z"
     },
     {
      "tag": "Bullish",
-     "body": "$GOOGL CALL GOOGL 2027MAR19 275.00 GONNA GO TO $28 a contract",
-     "user": "Dsaad11",
-     "at": "2026-11-25T17:55:17Z"
+     "body": "$GOOGL 280 eow cmon",
+     "user": "Squidwood",
+     "at": "2026-11-25T21:04:09Z"
     },
     {
-     "tag": "Bullish",
-     "body": "$GOOGL LETS GOOOO",
-     "user": "Dsaad11",
-     "at": "2026-11-25T17:54:18Z"
+     "tag": "Bearish",
+     "body": "$GOOGL ain’t touching this garbage…",
+     "user": "itsrucka",
+     "at": "2026-11-25T20:27:31Z"
     },
     {
-     "tag": "Bullish",
-     "body": "$META $AMZN $GOOGL $FNGU $NVDA Buy the best*",
-     "user": "23bobsmith23",
-     "at": "2026-11-25T17:43:50Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$NUAI Here. We. Go. $SPY $ANT $GOOG $GOOGL Contact soon? We can all get rich off this. 🤑",
-     "user": "Steve_Lattimer",
-     "at": "2026-11-25T17:37:00Z"
+     "tag": "Bearish",
+     "body": "$GOOGL what a pos $GOOG",
+     "user": "MuskyFlex",
+     "at": "2026-11-25T20:02:37Z"
     }
    ]
   },
   "fear_greed": null,
   "vix": {
-   "value": 29.55,
+   "value": 28.29,
    "prev_close": 26.36,
    "week_ago": 24.56,
    "month_ago": 18.39
@@ -998,6 +1222,10 @@
    {
     "t": "2026-11-25T18:18+00:00",
     "bull_pct": 100.0
+   },
+   {
+    "t": "2026-11-25T21:57+00:00",
+    "bull_pct": 50.0
    }
   ]
  },
@@ -1010,26 +1238,18 @@
     "tone": 0.0,
     "example": "How Gemini is changing the game for Golden State's organization and fans.",
     "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/"
-   },
-   {
-    "key": "antitrust",
-    "label": "คดีผูกขาด / กฎหมาย (DOJ, EU)",
-    "count": 1,
-    "tone": 0.0,
-    "example": "Malaysia regulator seeks $146 million damages from Google over 'harmful' content",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTE14N1VWUVJlZHQ1QW1ZcDlhOF8ybW5qTlg3VFUyN2x3NkNrdng0SlZaR2kzLVlMT08wN3ZxdWZhTW1Sako5LUE2ZFhxZzdrNllScjdfazh6eFIzN3NmYU9RTmQxTXlpTUNXblQtTjM3eXhNV2FJcWQ5VFpCUHpvUWdNWEsxaVBhVlZVZHVaMGYxb0pFOWVNZGg1cG16MWE5Z2RjanljM2MyTWw3YVNTMmZFZ3hET2E0UW1XVjh3OTdpUnpK?oc=5"
    }
   ],
   "range": {
    "1w": {
-    "pct": 8.4,
-    "lo": 249.11,
-    "hi": 294.55
+    "pct": 8.3,
+    "lo": 251.25,
+    "hi": 296.85
    },
    "1m": {
-    "pct": 17.2,
-    "lo": 228.14,
-    "hi": 321.63
+    "pct": 17.1,
+    "lo": 230.2,
+    "hi": 323.99
    }
   },
   "ai": null
@@ -1082,694 +1302,10 @@
     "Google Blog (ทางการ)"
    ],
    "status": "official"
-  },
-  {
-   "title": "Form 4 Alphabet Inc Class A For: 25 November By Investing.com",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeWNIQVNlX1YwbURCN3I2MVZELTBPTzhManIxNXZmeVpHS09MTUZYWk5PclZnUXZ6cS11SnBfWXhPRnJiV3dXRVZPRDYzQ3hJTGxJaW1yam9ST1hDWUs0SWF5dnM5dWg5Sm9vQ1J3MTQ3V2M3NmlRLXE2clZ2WWo3eXVkS21lS2hLOUJDbmQ3TWpzRFh1aV8taGdvX1N1NmFpYXRMSVFLbw?oc=5",
-   "domain": "in.investing.com",
-   "published": "2026-11-25T08:52:23+00:00",
-   "source": "Investing.com India",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 5,
-   "sources": [
-    "Bloomberg",
-    "Investing.com India",
-    "The National Law Review",
-    "TradingKey",
-    "WBOC TV"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "Malaysia regulator seeks $146 million damages from Google over 'harmful' content",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTE14N1VWUVJlZHQ1QW1ZcDlhOF8ybW5qTlg3VFUyN2x3NkNrdng0SlZaR2kzLVlMT08wN3ZxdWZhTW1Sako5LUE2ZFhxZzdrNllScjdfazh6eFIzN3NmYU9RTmQxTXlpTUNXblQtTjM3eXhNV2FJcWQ5VFpCUHpvUWdNWEsxaVBhVlZVZHVaMGYxb0pFOWVNZGg1cG16MWE5Z2RjanljM2MyTWw3YVNTMmZFZ3hET2E0UW1XVjh3OTdpUnpK?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-25T05:44:00+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 4,
-   "sources": [
-    "Reuters",
-    "The Wall Street Journal",
-    "TradingView",
-    "ad-hoc-news.de"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "Why is Alphabet stock sliding today?",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRnIyVXZ2TXRFdTk4VF9abVhaeDhJcF9LOUFfVXhuak9fcXc4dzZOMmI3Mk5NdUtZMkdCMURjNFQ4WU43NjhZbE94N3ljS3NWRVR1NWxTMXQzdEtqT3ZaeVRvNTM2RUxyZ1VzMkJlcjBSaXl2WXMwUlBpNXYtS19waDRqVjFuRHMwT19Xb0VzYWVkSXczaGRiRlhGNE1Xdw?oc=5",
-   "domain": "investing.com",
-   "published": "2026-11-25T15:22:26+00:00",
-   "source": "Investing.com",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "Around Prague",
-    "Bloomberg",
-    "Investing.com"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "Alphabet Buys London King's Cross Office",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOT3ZvTTVGQ25HVXRIS3RBc0JLbXM5REYzWGRHekpPN2pkc19aVkg1ZjlFNFFKQndGa0s1RzJpNVhJRDJISWt5OGlhM1lFbHM4OVJTdTZvNUtaX1VJd0tYTmNhUFRucldnSUc4SEtqb0NZcTRUZk8tSnhuOTRURlZ2TUZtMlAwUGljSVJScm9YdTg5QQ?oc=5",
-   "domain": "briefs.co",
-   "published": "2026-11-24T23:02:16+00:00",
-   "source": "Briefs Finance",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "Bloomberg",
-    "Briefs Finance",
-    "CNBC"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "Billionaire Stanley Druckenmiller Sold 94% of His TSMC Stake and All of His Alphabet Shares in Q3. Here’s the Brilliant Stock He Added.",
-   "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxPV09vZTF5NlpJSGVwcDlUbUFiUU52LU43UmZ2clI4SlVDZ3BZNDNxb1owaTZDVW81dmx1RTRwSDA3UjdrdXlfT3BsMllWYy1mUXBMakxVZXllTTZYTDJlY0xqUzU3d19OMnlFaHJGOGtPYWtCN3Y4am9YdkxPeXlGZHY3MWdoS05wSUNyOXFZSU1kdDN3amdGZDA5NllvMzdaVG0tMWdYN1M1SGZJbzljcmVndHlZOVpCdUpzcEFob2FGWV8tb1NpNnJmbFdlUXhpcEtKYjBNS01XcHFWUmxONUZGc2lidVR2ZEtucmZjY1B4emVsa0FyQTZ2N3djNDNoM0lUVm0zLThQOENyWG53STZKTXdyOU5CQlg5RHJYUWtDTUJndl9hSDR4SEdxRm5RV2F5TUxiZFhMSVU?oc=5",
-   "domain": "theglobeandmail.com",
-   "published": "2026-11-25T16:41:10+00:00",
-   "source": "The Globe and Mail",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 5,
-   "sources": [
-    "24/7 Wall St.",
-    "CEOWORLD magazine",
-    "Crypto Briefing",
-    "The Globe and Mail",
-    "Yahoo Finance"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Kaplan Fox Notifies Investors of Alphabet Inc. (NASDAQ: GOOGL, GO",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVEVjWVVXM0ItSG82ZmlEUjNhcGsxLVBrcUIyY0p5X2ZYZDM3V2R4OGFxbGRVSFduVnJoUWk5blJSenJLZFJhbXNzUHpCSmR0T21QdjFxZ0tIWDY3bkMtanJoV3lvbnNiX1I3bG9qLUZVclJiZ1Rza3VuOUh5SjRBakJYTy1FWTYtU3F6ekFITVBJa0Rxek5BTE5vcHBDRzN0YW9jeEROaGRmM3Z3QksydjF2V1pSZw?oc=5",
-   "domain": "natlawreview.com",
-   "published": "2026-11-25T01:11:51+00:00",
-   "source": "The National Law Review",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 5,
-   "sources": [
-    "ChartMill",
-    "The National Law Review",
-    "TradingKey",
-    "WBOC TV",
-    "Yahoo Finance UK"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Alphabet stock plunges as Google walks away from a big Australian news deal",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVm1fYklFbThWU09DR0ctc1c0d2ZVZUw2MnVxcjladDk0aF9idWVkZUZSRHZILWJGcXVvVWhQQktOaXNyRDlvR3NmV1ZHSXkxdHNsdUlCMjU4RW5WQ25sLU5GcnEwMUM2TENiclVjVjU2MEhDTEdSWTY5NlFFeURKUTNNTC1xaHQ3OHdnTmpIMW1SUWQ1dG16ejNNVnprY3VfNWNlTmRGZFFybHNJLTZZOFRWX2k?oc=5",
-   "domain": "gurufocus.com",
-   "published": "2026-11-25T17:22:27+00:00",
-   "source": "GuruFocus",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 4,
-   "sources": [
-    "Around Prague",
-    "GuruFocus",
-    "TIKR.com",
-    "TradingView"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Alphabet, NVIDIA, Microsoft and AWS Lead the AI for",
-   "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOajg3dUowN3hOVHpTNGJuTDg0NXZKWWhTV2dLRUhnSFZKNjdQaVJHby1LTFF1MllZcGpkaWZzT2FqdDdtdGJmdnFCakZFdWZQTGhUTS1rUWVBTndVbG1VSlQtNkhnWFU5QXowRUpTcGtlU0tuVkNLWHI1MUdOd3lBaVdHeG9xdGR2cVUtUnhzZkdMTThYT0pseFFRMlVrQ3B2eU9saFFoNTIteUhSbkh0WXVMbi1nT1NGeXpUQ0t5V0JPRWkzN25yMmMxZkZhRlJNUHZyMWYxYlZha0JlNFQxLUt5dzhONWR0Q2ZZQ3B5bDVwX2dFS3RBcXpHUWpkcDMtQUJURGZoVTlUZGxGRUd6R0Z1OFFHZFREWmc?oc=5",
-   "domain": "globenewswire.com",
-   "published": "2026-11-25T15:00:00+00:00",
-   "source": "GlobeNewswire",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 4,
-   "sources": [
-    "GlobeNewswire",
-    "Investing.com",
-    "Seeking Alpha",
-    "Yahoo Finance"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Billionaire Charlie Munger’s Protege Li Lu: Himalaya Capital Has 45% of Its $3.78 Billion Portfolio in Alphabet",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUDl4NGdTTElhWlBveHRvenFsbUt6Ry1TeFdWa09TS29nT3B5RER1VWRTUmhlZ2JRdFVESnJXZFpibkdZV1JPQTlwSGUwTV9oTjk1VHVfclZSeG0tbklHZTA2Z3RxVXJjQ0JILURBYUxuMW9UU1NOdmZRTTR3ZVdHOWFjZ0hrUjh6RnJfUDZTT09aZW16UWRFTnVpR3FoZjNaS1Y0bw?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-24T21:58:58+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 4,
-   "sources": [
-    "24/7 Wall St.",
-    "CEOWORLD magazine",
-    "The Motley Fool",
-    "Yahoo Finance"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Dow's 1100-point drop led by losses in NVIDIA Corp., Alphabet Inc. Cl A stocks",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYzRqQ29yaXNWc0IxaEtnMC1PM1JMbG5ONi1RTVBhb01vcTJzRXlSR253QU5qS0ZpeF9CSk12UWZXeEdvdjRLV3podlJTQmt1Y2I5alQ2a0Q1WWxiSDctU1hpNnhnd0hacDlZREotTGF0WTQxbkxYVEJaaHJtQWZyWnZZNGI5ekJaUXhERWtmdDJjVmpnVVp1Yy1FOUV5ZUdSNUtaQkwxdzZfdW03ZklTQzViNE5tZkxCdnBKZXFCa2x2QklrR05GcGRoUzRQMGQw?oc=5",
-   "domain": "marketwatch.com",
-   "published": "2026-11-25T14:45:00+00:00",
-   "source": "MarketWatch",
-   "tier": 2,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "MarketWatch",
-    "WBOC TV",
-    "Yahoo Finance"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Alphabet Stock GOOG Breaks Key $270 Support as Tiger Global Cut, AI Spending and Competition Weigh on Google",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQS1JISFZhNHFtemV3REI1LUV3OTFLT2JDMzNPUVpvVWNEbHBOSURkbUl3UkEwV2dHU05SYVN0TVoxRFVzUVVXSnJlTUdXYTl3SlJkelFZdXB4dmx6cE1oTHE3TUhtOVRIOHZIY25fQ1lOd25ZUTgxYmZNWjJPTW1OT2ZISEgzNWNsUVVzdjliYTVTRkR6Skdld1E3ZkY0WHVMT2VzMFNOb080ck9WWnRNbms4NmVheXFkS0FPeFNzbEtDX0JOYVlrSWxYamd2RnFTRjRyRUNqcXh3NEtweUZaU09lQQ?oc=5",
-   "domain": "fxleaders.com",
-   "published": "2026-11-25T17:58:59+00:00",
-   "source": "FXLeaders",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "FXLeaders",
-    "TIKR.com",
-    "TradingKey"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "GOOGL Nov 2026 332.500 call (GOOGL261123C00332500) Interactive Stock Chart - Yahoo Finance",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50NW1tMWRENXlBRm9ZTUp2b2tabzh1SllkQXdfUjAzNEFWUUxFSnkzZXpwVG5kUm9XdnVVaE5zUXU4aTV4djdUQzI2VzJvZG9ZWUpTNzRWU2htVHRQVWF4OHJBMFprYl9QemhNRjdwVQ?oc=5",
-   "domain": "ca.finance.yahoo.com",
-   "published": "2026-11-25T11:10:40+00:00",
-   "source": "Yahoo! Finance Canada",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
-    "Yahoo Finance Singapore",
-    "Yahoo Finance UK",
-    "Yahoo! Finance Canada"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Waymo says recall prompted by 11 new incidents of robotaxis entering closed freeway lanes",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTWNEMGNteHFqMnNPa2tBYUVlNE13VHhobUpPYUZiUnp3RjlMLWt4OU5rVHVCZ3JwTnJjQmRMUE02a2FuR241cmQycW1nWjh3YkgxR012OGRNcWdGSlFPSTN5RkxOTndMSGRtMTJtNHJNQnNmWlRkTi0tYkRFOVN5Sk51MU5DMlpfbDhGa0Y3NjMwVzZ4NXU0bGNJR1Y1MU5nYjZF0gGoAUFVX3lxTE4tQjBTMUZILTBqRGg3M0tOeTlmSm1LbDQzSE5yUElwbU0zaXJPZG1veHZzWTRjcjlBVjFGNDRtMmp2YnU0NU1BaXpTS09ISG1GaDBScnZaaUM1RzhsZmcyT21HdzJBUjFDc3ZDQW5XbXlRNDNzZUxmd2NpREI5UjlMRThRTHZwQ2czQzlUb2FiU2tCNFQyOVBMbGpnSlNFajR4Y1U1S1FBSQ?oc=5",
-   "domain": "cnbc.com",
-   "published": "2026-11-24T17:28:37+00:00",
-   "source": "CNBC",
-   "tier": 2,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "CNBC",
-    "MarketWatch"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Cathie Wood Just Bought $17 Million of Alphabet Across 2 ARK Funds",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRUlwS0pQd2ZBVGQtZWN2dUpaZ2NZSWdmS3lsMG9YWUxXUWZsb0o4dDRIWWxrU1VNNDgxRkZMUnVqOG45aEo3UTBnaHB6LV83enlvTElOT2h5ZjRWSm5pSVFpejZ1Y1pRSHhSejVOSm1mMEgwWWpGdnNJMVZTc0RDbFIxYUpkbVNGYXdsclE5UmpBbWJWbnZFQk5QSnV0NjBLTUExTm1EdHVRbm9BVUtMYlR6Yldlc0ZrcmpiTQ?oc=5",
-   "domain": "tikr.com",
-   "published": "2026-11-25T17:08:42+00:00",
-   "source": "TIKR.com",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "Investing.com",
-    "TIKR.com"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Alphabet Falls 4% on AI Credit Fears as Strategist Warns Capex Is “As Good as It Gets”",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYTJmLVlWMHRUUEJ1YkRBamlVT2dxZGpFTmZRd3Q5YU1SX2RBZjNmc3JkXzNZUnVzNWdLNXdsWThOVHZIa0FScC1DUmh0VFVZenlSb2VpTjAydlpNeEJGWnhtdU1ab1YtenV1UzZDaTgtZGN6VU9SUkJxd1dXbDZFVWtlWFoxRjdPREgwVms4SGE4MHJQNXNHcXBuZXE0QXl1ZTJFaUNVS19VTkwzSy1GMjVFTDN3ek5SRkY5SlBkTQ?oc=5",
-   "domain": "tikr.com",
-   "published": "2026-11-25T15:54:27+00:00",
-   "source": "TIKR.com",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "TIKR.com",
-    "Yahoo Finance"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Alphabet shares drop amid a broader market selloff lawsuits",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdmpEbW92LTlaQU5Yc0Zfd1dCbjNkeTBELUV0NktiZC1ydHB5a2cweXd5X0ZTWjJjYmF2R2tvVTR1UTJ6dlBMV0dRM0w2U2ZybzgzdkNnc1Fvb1lrSEFCaWtqZmNqeWxXRTNnUTh5OWxHTFc5MDVNWGhVQWlkcmVtSzJYX1FOb0w3NkYzNWh2YXpjQzNKU3JxUDVLUE5NQXZLaGJhRWRmTm04TFRCeTlneWlrMA?oc=5",
-   "domain": "streetinsider.com",
-   "published": "2026-11-25T15:21:51+00:00",
-   "source": "StreetInsider",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "Around Prague",
-    "StreetInsider"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Google Earnings Date: When Does Alphabet Report Earnings? Time, Results History and Stock Reaction",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLUZoYnJ1TTZocVdGbFNPZFY3M3VSNU56S2t1NmVMUC1PdWNobHhDY1NRYTZjSGVlU1RLZTQxTEV0TkdYVDY5bmoxNmg2Mm9jUG9VRUIyZjA5MmtfM2NvSmM1RHQweDhwM3BWREgzRU5sM3h5OWxDdXJvT0x3SDZ6ODVmVnRzSWZ6aEoyOWtn?oc=5",
-   "domain": "mexc.com",
-   "published": "2026-11-25T15:10:04+00:00",
-   "source": "MEXC",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "MEXC",
-    "Zacks Investment Research"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Google Stock (GOOGL) Falls 1.1% as Tech Stocks Retreat (Nov 24)",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYUtSRC1BdWFqSTFqdjBWLThDSjA3b2M5NmJNcDBORUZUbXQ2a3BXUXduR240eENPZHNqMEZYTjBQc3BQQXM0dHJhOVBkSWcwZGlyekhYVVJvS3R3MUlLc1R5OEtqUEJmWTg4cW1WSXA4V2FDV0ZYZWdubDQ3SVBnRUNB?oc=5",
-   "domain": "heygotrade.com",
-   "published": "2026-11-25T04:00:00+00:00",
-   "source": "Gotrade",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "Around Prague",
-    "Gotrade"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Your $300,000 in XLC Holds $130,206 in Just Meta and Alphabet",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNazhWUGpPVnZMT3FaRHBOT3Q1Y29DTXVKOEJvUlZDMUJxZlNoRzlnUWZST0NjQnplcGhYYjB3YkxQZWNYZ0ZOcWRCdHhCVG9ETmhiazZXdENDZktzQVlDc1N2QlQyMW92SEJSUE4xcU9jRlF0Qmo0ZFN3T3RVY2JPUHI1RFNNY0NIQm5fdHctSF9nX25fVERwQ1Z5TkZNMlJhY0tGQlFGWV8?oc=5",
-   "domain": "247wallst.com",
-   "published": "2026-11-25T01:04:00+00:00",
-   "source": "24/7 Wall St.",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "24/7 Wall St.",
-    "Yahoo Finance"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Analyst downgrade may deepen margin pressures for Alphabet and weigh on investor confidence",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNlVkcHBYLXlIS1hITGtVQ0ZwMlU2YmJVUDVJVmJqQ1pPbFdfc29BRHZicjJ5QUN4X2tsQzA3cml4YTZjUDNqQkdqbWFLaEVCSENZbWpwZ2V6N21hMHhBMjlVUDFZLUtzRmlEUmxrNkNhNm43SVBodjh2SmFlN0NwYlF6djBJZw?oc=5",
-   "domain": "tradersunion.com",
-   "published": "2026-11-24T20:45:32+00:00",
-   "source": "Traders Union",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "Traders Union",
-    "WBOC TV"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Jim Cramer Adds to Alphabet Stake, Citing Valuation",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYVgtS0NBT0V2c25tMWxrVmJtQmpZWkxLUGRtVG16MEZhamJYZUttTWtmMHJmTTlSUDBXbzdOTUZPY3R5MnljelZGakQwY2I4THhxUkVWREktSjg3VV9lZU1xZEt6ZjZnd2tGcE43dVRMT3VZSThMTDB5YkVMU3RKRDlmTjNaVFVnOGRta0Q4cGtScS04TEJidkoxTkhkLU9CRk5nMlFFQ2w4bm9sWnFyUHpfMA?oc=5",
-   "domain": "tradingview.com",
-   "published": "2026-11-24T17:42:46+00:00",
-   "source": "TradingView",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "TradingView",
-    "qz.com"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Alphabet Vs Meta: Which Stock Is The Better Buy?",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb3RxakNEejI1NUwtVDNCenVSQjV5X2VqUU5PdU1PVzJnVmxIdVl1RUdQOXFwSTJrbXlrclNfNmhsRnFOOG5DSnFOaWJHcmxlU0NfbVo2QUN6YjI5Q3Bjb2RQdk1QNGRnWF90bHVnanlvZWptT2RmVkN0SW5JX2xpQWJvd3hIVkRKX0FtU3BFalZXQ0NnaXFsUWVEbkFvNmZqa0hnSjZsc0dXYmd3?oc=5",
-   "domain": "trefis.com",
-   "published": "2026-11-24T09:06:59+00:00",
-   "source": "Trefis",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "Investing.com",
-    "Trefis"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Prediction: Alphabet Will Be the World’s Most Valuable Company by 2031",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYjB2RVN6Q0Q2M1FVa2FMWVVTc2RHNnZJangtNUdnal9mTExEQkw3dTdrTUJsNXNlZ0dDVE5WaHNtUEZrQS14dkFzX2RZNUpGbGZUc3AzRkpnX1VTdHQyaUphcjU5dUNfZXNyNk52a19NX3hoOTBFOTRRd244cDZZLXJYVllmUkhVbzEyQ215YV9Hb2hQQVBJbVhLN3hpUm5oQ19oczBnTnk1Rm5aX1NUUDF3?oc=5",
-   "domain": "fool.com",
-   "published": "2026-11-24T08:50:02+00:00",
-   "source": "The Motley Fool",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "The Motley Fool",
-    "Yahoo Finance"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Alphabet Inc. Cl C stock underperforms Tuesday when compared to competitors",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPTXpoX25SOVlpMjcyTHJkc0QwaHdJbjBQVGRTNEJiRHphdWpMVGNBQy1xaE92aEVZN2dQYTBabzhhZ0V4eFdjcU5TOWVYeVhZWXRXZW1wU3Ayd3VVbThnSF9DaktneGtCSlJ1NWR1YklNbDZlWEdFZ3lWZ3BKcjJaOGxzSEJuanNOTHd4UlJkN09JbHNfUktjN0xsZUctSGt5ekp4N1gxUm9DQWRkUW1ndEdDM0xaUjZQdmdMOGRuX0F2VHEyY0cyMHF1dWREODlpdzAtMTdIVmx1dF90MVhiVEhFUUdWcEE?oc=5",
-   "domain": "marketwatch.com",
-   "published": "2026-11-24T21:31:00+00:00",
-   "source": "MarketWatch",
-   "tier": 2,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "MarketWatch"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Dow Jones Losers in Today's Session: NVDA, AMZN and GOOGL Decline",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONnZBbjN0eXpsQTg0cU9qRnRyelpSRXl2blBXSGhXMUM2ZkJfalpEZFdBVUtJOWswTFVVdkdJN0k2aDhnSzhUaWVQd1pfc3JFX2RTNS14U2hsMjR5aXNHR2c5d2JlcjNyTDNtNGlpY2JnREN6WnRhYVB6TmotMkRVM1YwZnFSTHJXYUV5UFdxN1JJV0xjSkFsQlFfR3NBQjlnZzMtdWNLbEFHZ0ZudXY1NmN3?oc=5",
-   "domain": "chartmill.com",
-   "published": "2026-11-25T17:40:56+00:00",
-   "source": "ChartMill",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "ChartMill"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Alphabet Stock Slips: What's Going On?",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONzV3WFpHQl90VnFfWjdzeTQ5VVNhMkVaNVFzTHZfZWE4VGd6UFNzNHF0Y2JsbkJqMVNod05lLWZIUlVXUEtKY0ctQ2kycXRwSVVscVpvcjhlNlplXzhkYVlKbHd6ZmJ0UWFXLTNHSEpBbXkyVFFkWFdXN01TT054SUNndVNJbW9uT2lOLTZJTlQ3Vlh2d1VNbU5lRVc?oc=5",
-   "domain": "benzinga.com",
-   "published": "2026-11-25T16:12:47+00:00",
-   "source": "Benzinga",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Benzinga"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "$Alphabet - C(GOOG.US)Today’s drop looks more like broader…",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBTdGpDTTVmTWFtX3hkX3ZyRk5WX3FIRFk3bUQtMllkX1hJNGFpTnc2SjhUc0l6MDBpNzM5cU9YTllKNUs0RmJQalpqR2xsVWp6MV85RUpWdVc?oc=5",
-   "domain": "longbridge.com",
-   "published": "2026-11-25T15:01:51+00:00",
-   "source": "Longbridge",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Longbridge"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Alphabet stock falls amid seller pressure near $276.85 support",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPV1BjSnVDNjN1cGhEUmFEZWV0QWhiQWxJb3lYMWRZM05Hd3JHaE9XMnlyU255Q09oTGhBT1FHRWFUUDdqZzVTUWVYdExRM3ExdkVyOEZTR1hEUUIzVDJiV3Q0STYzekFQUVpDb1VDRGd3d0hnakZBdHM0dHhKMkVRZkVJenRpX0xkOW8teXcydzI0aEsxQkE?oc=5",
-   "domain": "tradersunion.com",
-   "published": "2026-11-25T14:58:33+00:00",
-   "source": "Traders Union",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Traders Union"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Google Is Turning AI Performance Into a Price War Anthropic Can’t Ignore",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZXZiRkUtTHZWMGozaGVrc0s5QWNCNmxrVkVNcDJhVlNpSUhYdHhHMTRYYmFwcDN5Tk5XMXN6ZHVrYzZ4QW9XeFlYS2dGaDZnaFlsMkFCWDRXUFdDQmdZaXRzWE1tVXRraUpucFpxLWNCQ1Z3aGlUbTNTLV9YaGRmcFZLbjhDcFkydmVtdjhvZXVSdFVrcTV3UFVR?oc=5",
-   "domain": "benzinga.com",
-   "published": "2026-11-25T14:38:22+00:00",
-   "source": "Benzinga",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Benzinga"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Jim Chanos Says Alphabet Is the Only Hyperscaler “Actually Putting Up Those Numbers.” Time to Buy?",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVGhUV0VabnYxY2hmZ2NtVWRqOEw0eG1fZ1BuZDlqVFhPcmtaOGNyLURNUzBrUmtERFNBN2Z5RWJrbmVucWpqRHhzbVI4UENFNGZyWVgyd0JJeS0wX3NXUWc5ZjU1QVRaWi1qYXR4bEctX0huVDJRMHlOSFBTQjVUMV9LdU9YQlNYRjRIem0xYWxhbUZSRWJ1Y0hUTXFZbXZrWVR0bkg1T3NNZDdnMVRpbk5iT29Yc0dZaEE?oc=5",
-   "domain": "tikr.com",
-   "published": "2026-11-25T14:08:11+00:00",
-   "source": "TIKR.com",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "TIKR.com"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Yahoo CEO Bets on AI Search Comeback After 17 Years of Relying on Microsoft, Sets Sights on Google: 'We Own Our Own Destiny'",
-   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOeWRlenV0MFNaYl9TeXRxcGxZOVI3VnA1eE1PekE1Smg2NzZabmh5Wi1VS005MENVbjJNQ0JtVURWU2RYNEZna0Y2YWFkQmtuRTdyY0Z4TUV1OTZxaTJyeTJDc2ExMmUyTllDbzdpTWF0QmFZR2xFY2lFT1hJNWF6UFRJNnl0R2VxRzZrZXpkZGpMNU0ydEdWLTNYbUpILWNHOU01UUVLUHR4RFFCcm5MLUdrQV9ndkFoZTJZUE1CY05vY0tpQWNNTFQ1cDV1bUJGNDlPSTFXdnZPMndyWE1HTGptcmdTNmRvOTBfUFZwVDYwcVZKSTNaT1hFSGtUbGc5bjFicmNYYU9wdnc?oc=5",
-   "domain": "tradingview.com",
-   "published": "2026-11-25T13:29:03+00:00",
-   "source": "TradingView",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "TradingView"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Key facts: Alphabet capex $51.4B; Cloud revenue up 103%; Malaysia $15B",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVlVzbUJNMUNBcnRzRkRNSGo3SDQyLXcwZTlBcHd2ak9GRGdlZC0yTDFUOHFxbWVsRXpBZjJvYTU5ZFkxTGgzcTR4R0RjMXRBNHE1MHNjdmRwRTdCNG9XYV92UUY1aDZHbGFsenZzam5PN1hkWTJaZGZPSEpfa1F1Q3NKdF92dEJKOUR3dHBRdVMtdXBzbW5DaTc5VUQtZF9iV1BncWJwMWZIUFluOTltWWNwQmhQUXpNNWgwSEpSWUVHNzZx?oc=5",
-   "domain": "tradingview.com",
-   "published": "2026-11-25T08:00:00+00:00",
-   "source": "TradingView",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "TradingView"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "The Heart of the Alphabet",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE04TTJuXzhqU1lfOHdKLWZFQnlNLW5jWVU3Y3BidnFlM3RVbThTd3N2eGZvLWE1NkFNalU2QU1LS2tHZnhzaHRHSURPZ1k5LU1ieDh5MDhMUjZWaXN4RkNXbkZZUnBUUERKOGl2eWY3UVlxUUE?oc=5",
-   "domain": "reformedjournal.com",
-   "published": "2026-11-25T06:25:54+00:00",
-   "source": "Reformed Journal",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Reformed Journal"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "GOOG stock falls 1.06% as Google TPU report hits chips",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObXlwa0dlaS1wZllNU015Zm5OUEN5SHVGbUhyeEpjNlBXbW5PcXFwNUpvSVlMcWxKVzk3VjE3bndfbHkyckRjTFRpVHVXM0tWVy12S3VnVm5oeFh0SnlkS2ItdW81Q0ZkWUg2S2pkQ2tod3JRbWVDSXJLSlVuVW9QQzE2STQxclJMM0tOTUpoUldOVC1xaERyelAyMGxCRGdiUGp6ZGZLSVN3OG5FeGc?oc=5",
-   "domain": "journalarta.com",
-   "published": "2026-11-25T02:25:38+00:00",
-   "source": "JournalArta",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "JournalArta"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Zara Larsson Teaches Elmo the Swedish Alphabet, Then He Asks for a Hug",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQU0pLVk5RZ0txdktES1kwbm56LWhtRlVJOVJKWVN1dVl2TzZ6WGFFdGlyVklHQU9qcFlfZXkyejY1N2VqYzJBSnNoWVFud0c5WEZiVHNPS3hXYmEybVk2cVplbmg0VHk4aEpTZlVJSlYwWE5VQ29CdjlEOEVBcEs5ampCUG1aeFhUamxDdnBMYW8zcWF6QXdjNQ?oc=5",
-   "domain": "yahoo.com",
-   "published": "2026-11-25T01:30:00+00:00",
-   "source": "Yahoo",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Yahoo"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "GOOGL, GOOG DEADLINE NOTICE: ROSEN, REGARDED INVESTOR",
-   "url": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxNM1lPOWM0Mk9YdElpTUFMS0VYdWoxUEtpVzk1Wk9KY1NRY0I3V0xicGE2VHp2MlNlT2NPYTRTUk9kOVFER19YSjJfMVJ6NUlGdENHM0t3eFpHQ1p1cklpdHRQZlhLdTQxRzdOLXF6UE8xMXpNMHNHVHJuTzNPX3d6RDlxZGMtZ3ZmaUMwN0lGTjdaQWY1MXR2bnVqWk1tbzkzNERyVmtId0RvSnZiMDB0YWF4ellIUG9zS1RFZkZEZ0U4OElNVkpTMDhuYTc5VnV6ZW9WbDhlcWFQXzNwUENYNzFxNXJpS0FGU3NVemZfeXUwTjU5S2d0bkxGOC1SMFFaNi1IMVIzRzBHM21ScXRxcW5DUEhodWNkSjN5dWdJbm1UUlk5SmVHZU80WHNQcmptQ0tJdHd2QTV5SlcteGFkdmxUQ21OMDZBY1laWjNaMkVQaV9EbGRsYXpwYkZGenF1TjZ3WkwtRzhxaTJaUXRr?oc=5",
-   "domain": "globenewswire.com",
-   "published": "2026-11-25T00:49:00+00:00",
-   "source": "GlobeNewswire",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "GlobeNewswire"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Alphabet Closes C$6 Billion Canadian Dollar Senior Notes Offering",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOa0J6Zk5CX1lRUXhvZFlTT0hGRXRjc2RydE9IVU12dDRWajN5YmtDdzhKMm53N0hEWEM4aEVNMjd4WEJEVnRvNjhxSTlJcFdBdzJhS0g4UWZyZHNqM3V4b3prUHZtTUEyVVdJNXdJRzhZQVFyQTJrOFY0S2JtZDliWnNGcGhhRFNZREdVUEEwLTFaNERJUHlJSEhuQm5PMGZNb0VwbDR6VThRVU1mLVRBUEt3MS1hR08zYXJNV0I2YjRFWTd5cGc?oc=5",
-   "domain": "tradingview.com",
-   "published": "2026-11-24T21:53:08+00:00",
-   "source": "TradingView",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "TradingView"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "How Meta Platforms Stacks Up Against Alphabet And Reddit, And The Rest Of The Interactive Media & Service",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSnBfLW5KOHRFS1lkWXlmeXJDQTBzT3ZTSVhtVDJ2VUJtVVM2QTBJOXIwX0dpTHhiSHJJWnJnNWhlcnRsS1VlbXJLcWt2OXBCMGQtLWlzVmFDVl9qQTVFdVRSLVg1VnRwY3NvTU1LdjNhZlZ3VXhWWUpPQVhOZ1ZPLUVYNExBT3FYNFdvSzZSajZQeTMzQU1mdnU1ZTFibkVVc1RoSDdOVG0wZXVuNnNycWc4TUx5Y2ljOF9ERFcydGlqR0Y4TnZ0T0FqV0w5aW9aSU5yVzVHS3RtQmxpeENORmxLeTVqMUR4UkVJ?oc=5",
-   "domain": "benzinga.com",
-   "published": "2026-11-24T17:56:16+00:00",
-   "source": "Benzinga",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Benzinga"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Prepays still attractive despite delayed Alphabet-tied deals",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUV9VMTNXWW9ncGl4bEpkSG1PNEp4a2NGRWtRWUFyZmcxNi1ONWpJS2MzRUd3N29rQ1puNzBseUpYc3F6T2M2UTV0aU5makFLcWVIMnhhbnhtbEh6R2RSQi1vMzJGWXRkUTd5aTlKLTFiZlZrYXdJdW1mOUZqMmtfSG1Ca1FOanprdzllMWpYeWhaaERlZ3c?oc=5",
-   "domain": "bondbuyer.com",
-   "published": "2026-11-24T17:47:47+00:00",
-   "source": "Bond Buyer",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Bond Buyer"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "GOOY: Options Income Through Synthetic Exposure To GOOGL",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPamhHdER1SjNqRWtXNWNUaUJSbS1wQllrVTUxMUtxUlJudG5ONDVPRzBPSXdGN2F3V05kTGxsRHVyUmc2dWhxMGc1Ql9sQ2M4aVVYd0RzMEZMNXFMeEMxWUwtYkRuMnBQTmVvaEtvRkFmelp6bVVJUG5rczNwMkg2cmUwbmJhbDZBalItTUd3MHlsYW01N0hQTHNUX2I?oc=5",
-   "domain": "seekingalpha.com",
-   "published": "2026-11-24T16:58:56+00:00",
-   "source": "Seeking Alpha",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Seeking Alpha"
-   ],
-   "status": "single"
   }
  ],
  "errors": [
+  "Google News: 14 Google News queries failed",
   "SEC EDGAR: HTTP Error 403: Forbidden"
  ],
  "candles": [
@@ -5133,7 +4669,7 @@
    "h": 281.78,
    "l": 276.03,
    "c": 279.05,
-   "v": 33820500,
+   "v": 33924200,
    "sma20": 285.638,
    "sma50": 319.636,
    "sma200": 336.543,
@@ -5142,16 +4678,16 @@
   },
   {
    "t": "2026-11-25",
-   "o": 265.25,
-   "h": 271.46,
+   "o": 265.1,
+   "h": 273.62,
    "l": 262.73,
-   "c": 270.88,
-   "v": 23513069,
-   "sma20": 282.938,
-   "sma50": 318.196,
-   "sma200": 336.305,
-   "rsi": 36.018,
-   "macd_hist": 0.469
+   "c": 273.1,
+   "v": 40440510,
+   "sma20": 283.049,
+   "sma50": 318.241,
+   "sma200": 336.316,
+   "rsi": 36.929,
+   "macd_hist": 0.611
   }
  ]
 }
