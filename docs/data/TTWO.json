@@ -1,6 +1,6 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-26T17:59:12.627608+00:00",
+ "generated_at": "2026-11-26T21:50:14.687867+00:00",
  "sample": false,
  "intraday": {
   "price": 227.34,
@@ -89,7 +89,7 @@
    },
    {
     "t": 1795611300,
-    "c": 218.6,
+    "c": 218.32,
     "s": "pre"
    },
    {
@@ -677,7 +677,7 @@
   "volume": 4892500
  },
  "verdict": {
-  "score": -0.07,
+  "score": -0.01,
   "level": "ปกติ",
   "lean": "HOLD / รอสัญญาณ",
   "key": "neutral",
@@ -709,8 +709,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.18,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.09 จาก 16 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.24,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.12 จาก 18 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -729,11 +729,35 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 14,
+   "bull": 15,
    "bear": 2,
-   "bull_pct": 87.5,
-   "watchers": 26657,
+   "bull_pct": 88.2,
+   "watchers": 26659,
    "sample": [
+    {
+     "tag": "Bullish",
+     "body": "Reading a lot of comments about GTA6 copies sold this week and more to sell in the Christmas season, about the game its to woke, about is burning consoles bla bla. But all I need to know is where the price is, and it’s g",
+     "user": "Enriqueztrader",
+     "at": "2026-11-26T19:18:37Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO My concern isn&#39;t some nerds beefing up an emulator&#39;s FPS with AI/GPUs with no GTAO access but rather that we are approaching limits prior to GTAO. Let&#39;s assume that there are 100 million PS5s + PS5 Pros",
+     "user": "Abstractionist",
+     "at": "2026-11-26T18:34:58Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO @contangoz How do we know if it is just DLSS (Deep Learning Super Sampling) or AMD FSR frame generation i.e. frame/multi-frame generation? Where the GPU basically makes an intermediary frame or intermediary frames.",
+     "user": "Abstractionist",
+     "at": "2026-11-26T18:29:49Z"
+    },
+    {
+     "tag": "Bullish",
+     "body": "$TTWO",
+     "user": "bagholder56",
+     "at": "2026-11-26T18:26:49Z"
+    },
     {
      "tag": "Bullish",
      "body": "$TTWO happy Thanksgiving to all my Strauss lovers out there.",
@@ -745,30 +769,6 @@
      "body": "$TTWO broke my xbox series X but the game is a genuine masterpiece. Only up from here.",
      "user": "DelBoyInvesting",
      "at": "2026-11-26T17:00:46Z"
-    },
-    {
-     "tag": "Bearish",
-     "body": "$TTWO $SPY $QQQ $NVDA $SLV 💯 GTA 6 will be involved with the social credit score in someway it’s tracking your behaviour. What you say and what you do and feeding it back to the Jews, just saying. https://www.facebook.co",
-     "user": "Themadogtrader",
-     "at": "2026-11-26T16:35:47Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO Great day to buy into stock ticker PAIN - Vector Science and Therapeutics! (Toronto Stock Exchange traded stock)",
-     "user": "Geo103",
-     "at": "2026-11-26T13:17:15Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO I am just circling back to TTWO. I wanted to give you what I think is good news on Thanksgiving. I know this is a little bit sketchy but if we take take Alinea’s 44.9 million copies sold through Sunday 22nd Nov, th",
-     "user": "Abstractionist",
-     "at": "2026-11-26T12:54:20Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO",
-     "user": "jan96",
-     "at": "2026-11-26T12:15:14Z"
     }
    ]
   },
@@ -1020,6 +1020,10 @@
    {
     "t": "2026-11-26T17:59+00:00",
     "bull_pct": 87.5
+   },
+   {
+    "t": "2026-11-26T21:50+00:00",
+    "bull_pct": 88.2
    }
   ]
  },
@@ -1050,23 +1054,22 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 64,
+   "corroborated_by": 59,
    "sources": [
     "80 Level",
+    "ABP Live English",
     "Beebom",
     "Benzinga",
     "BigGo Finance",
     "CoinMarketCap",
     "Coingecko",
     "CryptoDaily",
+    "Decrypt",
     "DualShockers",
     "ETV Bharat",
     "Foreign Policy Journal",
     "Fortune",
-    "FourWeekMBA",
-    "GLITCHED",
     "GamesRadar+",
-    "GuruFocus",
     "Happy Gamer",
     "Hindustan Times",
     "HotHardware",
@@ -1079,9 +1082,6 @@
     "Kalkine Media",
     "Livemint",
     "MLQ.ai",
-    "Make Tech Easier",
-    "MarketWatch",
-    "Mashable SEA",
     "Meteora Web",
     "Mezha",
     "Mezha.net",
@@ -1092,27 +1092,26 @@
     "NoobFeed",
     "Notebookcheck",
     "PC Guide",
-    "PCMag Middle East",
     "Pasquale Pillitteri",
     "TalkEsport",
     "Tech4Gamers",
+    "TechEBlog -",
     "TechSpot",
     "TechStory",
     "The Economic Times",
     "The Motley Fool",
+    "The Times of India",
     "Times Now",
-    "TipRanks",
     "Tom's Hardware",
     "TweakTown",
-    "TwistedVoxel",
     "Udaipur Kiran",
     "VideoCardz.com",
     "XTB.com",
     "Yahoo Finance",
-    "Yahoo Finance Australia",
-    "Yahoo Tech",
     "YugaTech",
+    "ad-hoc-news.de",
     "cwibc.co.id",
+    "games.gg",
     "heise online",
     "shattered.io",
     "stupidDOPE"
@@ -1131,17 +1130,17 @@
    "summary_th": "",
    "corroborated_by": 13,
    "sources": [
+    "ABP Live English",
     "Beebom",
     "ETV Bharat",
-    "GLITCHED",
     "IGN",
     "Instant Gaming News",
-    "Mashable SEA",
     "News9live",
     "PC Guide",
+    "TechEBlog -",
     "TechSpot",
+    "The Times of India",
     "Tom's Hardware",
-    "TwistedVoxel",
     "heise online",
     "stupidDOPE"
    ],
@@ -1157,8 +1156,9 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 8,
+   "corroborated_by": 10,
    "sources": [
+    "Coingecko",
     "Foreign Policy Journal",
     "GuruFocus",
     "Kalkine Media",
@@ -1166,70 +1166,49 @@
     "TalkEsport",
     "The Motley Fool",
     "TipRanks",
-    "Yahoo Finance"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Take-Two CEO Strauss Zelnick To Talk ‘Grand Theft Auto VI’ At SXSW London 2027; More Speakers Announced",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa2p4d0pzai1GZk9MWkNUNjdOQmVpN2dkXzdkZTdldm5LOVlza0hjV3h2OFVWNzlyemo2N3dyXzBJTVhQeUJiRVBiZEdrcy02ZGR1bWFXUXhyTXdhdEhQdlBwc1loME1ibTE5dnlCWElMbEM4WUFvRVFDNjZsNWtGOUR6OEM1VEdya2JuT1JnYkhRcEJpS01UR1o2VmNiM0V0OVE?oc=5",
-   "domain": "deadline.com",
-   "published": "2026-11-24T23:39:00+00:00",
-   "source": "Deadline",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 8,
-   "sources": [
-    "Deadline",
-    "Foreign Policy Journal",
-    "Fortune",
-    "GamesRadar+",
-    "Happy Gamer",
-    "Kalkine Media",
-    "NewsBytes",
-    "玩具人 TOY PEOPLE"
+    "Yahoo Finance",
+    "ad-hoc-news.de"
    ],
    "status": "single"
   },
   {
    "title": "Did Take-Two Stock Beat A Falling Market?",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdkRQQzJEVkUzXzJ4WENsZWJfdGhhWlhnakx4UDB2cm1qZ3JMSl92TG1pVWpiUmtSTzRDZEJ6V0x1QnhCS3d4aEwtQmRaUW1JdzAxMG1oc2dhSktnaHJNM283d3c5RHd1ckUtVER2eUVKbEZjQUxCMXA5R0YwbDFMLXh1UUlPUFAwb3ZLenRDN2Z3VUhyVWRPcjVfMEFYbVBKd2Z3?oc=5",
-   "domain": "trefis.com",
-   "published": "2026-11-25T12:21:58+00:00",
-   "source": "Trefis",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeDJMZml0YXRSLXhCbHFMa1JHUzdObWQwYlM5TzdFM2tmeU9JUDlsY0ZDM01sMHNKd21WSGgyQ2NXYmVxbDJvYUhXVzB2S2ZYX0N2eWZWQXlITTIwSFNfbGNNUDVzYUFwaWZEbmIyRHZCc0dEOXBVNGYtSlVlMm9zcFNUaDMwdHVMd3BUS0ZnRC1zYzZiSEE?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-25T13:04:29+00:00",
+   "source": "Yahoo Finance",
    "tier": 3,
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 5,
+   "corroborated_by": 6,
    "sources": [
+    "Coingecko",
     "Kalkine Media",
     "The Economic Times",
-    "Trefis",
     "Yahoo Finance",
+    "ad-hoc-news.de",
     "shattered.io"
    ],
    "status": "single"
   },
   {
-   "title": "GTA 6 Project Leonida Collapses After Creator Quits, but Other PC Efforts Go On",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOT2wyMWdMMzdmZ2FIQTVTOE9jbk02b191WnhtRk5rbmRhQ0JXM3h3YlUxS2I4VnQ4Q1Y5Rnc0VjBxbnJTdVJieHdzdTdkc3Nzenc4Q2QxdjVkY1dKd1BaTThDUWc4a2Ixc1RUMTBCeHE3d3BDX2E4VXB4VVd4WW9PVERMREVObWExVDBaeGx5S19hZXZoYTdXZFZHUUNGQW9GOVJPM29LemloUGRtQlVwT0Viaw?oc=5",
-   "domain": "aroundprague.cz",
-   "published": "2026-11-24T23:38:40+00:00",
-   "source": "Around Prague",
+   "title": "Panini’s Grand Theft Auto VI Sports Trading Cards Bring In-Game Athletes to Life With a One-of-One Gold Chase",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9MeHFYRWRGVy1vRUdJYmNSTEdPMXpBR3hvbEZDVy05WXFXcG9JMEtqVzFEWUhYcmF2bDlDQkF0S2czUzJsaFZTQS1MYzk1d3RV?oc=5",
+   "domain": "toy-people.com",
+   "published": "2026-11-26T09:20:59+00:00",
+   "source": "玩具人 TOY PEOPLE",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 5,
    "sources": [
-    "Around Prague",
-    "IGN",
-    "Make Tech Easier",
-    "News18",
-    "News9live"
+    "Foreign Policy Journal",
+    "GamesRadar+",
+    "Kalkine Media",
+    "NewsBytes",
+    "玩具人 TOY PEOPLE"
    ],
    "status": "single"
   },
@@ -1248,7 +1227,7 @@
     "25YearsLaterSite.com",
     "JournalArta",
     "Livemint",
-    "NeoTeo"
+    "ad-hoc-news.de"
    ],
    "status": "single"
   },
@@ -1289,6 +1268,57 @@
    "status": "single"
   },
   {
+   "title": "GTA 6 gets its first unofficial PC mod menu and launcher",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLS14N1FnSFE5Sm1La1U0UGJNdzc4NHBLb2c2V09nZ2VTcTZkQ084enFLQXRWTFVZU3phcmVLSjYwOG5qdTk1b1E1UTJwRXFKN2k4OFR6NjFPZjFoZlpFLVJUWEVMS3R5Nm5OLTBfVnF0aTh5SWtWT1A1M1BHaWRraThnRVVVaS1GNHdoM1puTi12azZVWkdEeXVTSzN4Q1lVWGlEaXVYWjM?oc=5",
+   "domain": "tweaktown.com",
+   "published": "2026-11-26T18:30:03+00:00",
+   "source": "TweakTown",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "TweakTown",
+    "heise online"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "TTWO Nov 2026 235.000 put (TTWO261127P00235000) interactive stock chart",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HZEN1MW1iYVB1T1ZPZFNZTDBSam9hMXdIVGNVRXJKZ2ZvUFZJajJkelVlLUt5bFBJR2xoVXNYcGZjQ1FvMi1haWRScXlZMUt2VkxKaVpSZGlXY3ltTWcyb1pqTkdLUjBYdUxyWGNn?oc=5",
+   "domain": "uk.finance.yahoo.com",
+   "published": "2026-11-26T02:48:31+00:00",
+   "source": "Yahoo Finance UK",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "The Motley Fool",
+    "Yahoo Finance UK"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Sony Stock Rises After PlayStation Reports a Massive Launch for GTA VI",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOblVMTE5oVGlwaDR4MFM0TjdKdjFaTkszQ2NVTU8xU1dLWWtUSkNhN1JzVWk3MVBRRnNDM0h4WldnNmh6eXJBelhOT0tuMUQ1djNzUmY3YnAyXy1FRHpNajAwVk9hUl9ycXF3YVhDRmFla2pxSmJ2aHVUc2Vua2tYVWI4dk11LTRWblBxbEt4R00zZFV4c1ZNRDYxM3h1RHNxMmc?oc=5",
+   "domain": "tipranks.com",
+   "published": "2026-11-25T18:43:16+00:00",
+   "source": "TipRanks",
+   "tier": 3,
+   "sentiment": 1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "JournalArta",
+    "TipRanks"
+   ],
+   "status": "single"
+  },
+  {
    "title": "'GTA 6' or an Anthropic share? You can get both for about $80.",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQV9QQWc1ckFOeWJudmFjd2swVmF2MmhVLXlrM2tSMm4tci1SZE9pRG1RdGNyb29TdkZvX0xKZVYtcXhUTjZMTEFDVll2ZWRWbXhxRVliQTlTUENtbVdmNklWUl9JVXZyZ1dHSm9TaUV1R29nR190MXdaRFZ0WWF0bnprT2U3V25XTmU1WlZGZ2pJem5wYW5lU0VB?oc=5",
    "domain": "businessinsider.com",
@@ -1317,25 +1347,24 @@
    "summary_th": "",
    "corroborated_by": 2,
    "sources": [
-    "GamesRadar+",
-    "Kryptomagazin"
+    "Kryptomagazin",
+    "TweakTown"
    ],
    "status": "single"
   },
   {
-   "title": "GTA 6 Stock Market: Is There One, and How Do You Make Money?",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOS2JfSjJuMnBUOUs1cjhxZzdBS1lDQmp2SndocTFjZ0ZCY2FaVlo2VHljeEg3Nm9uOUxHQ2NMblJyTENDVlgxd2x5c1ZlWnV5SzlyQ2lLUlRLV2tMZm5ONVd2S1lmNlIzQjRucUs0cjU5NG83bkFqVkYyaDE1dlBkNVBaMlp6bWgwdkJuR200QWU2ZFRrOWdFaDU1NGRKZzAtV3c?oc=5",
-   "domain": "games.gg",
-   "published": "2026-11-25T04:20:09+00:00",
-   "source": "games.gg",
+   "title": "Best Weapon in GTA 6: Top Picks, Stats and Locations",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR3dOOXpiOXhnOEFzTWhVUWRWQXB3c3JzZ0tXYVpjRnlwd2hPd1BuY09JV3Y3Qy1SMmtVaGNzNE05dDVlX3NFX3VJcGdfVl8zNVRCMWJqOC1aNEtEd2VvNXBSZVNxYzJXRHlPc2ZKazFCVzFRcF9HVkk4TjNTSkJSR2VhZ1NWTnIxOEw5c2pXT0FxN0dGd2c?oc=5",
+   "domain": "egamersworld.com",
+   "published": "2026-11-26T20:16:09+00:00",
+   "source": "EGamersWorld",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 2,
+   "corroborated_by": 1,
    "sources": [
-    "GamesRadar+",
-    "games.gg"
+    "EGamersWorld"
    ],
    "status": "single"
   },
@@ -1388,18 +1417,18 @@
    "status": "single"
   },
   {
-   "title": "The difference between The Witcher 3 and Witcher 4 will be 'comparable' to that of GTA 5 and GTA 6, CD Projekt boss says: 'I mean, it's been 11 years'",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcFRqNG5uTGhWRGtEVXcwb1ZGaWlDUFhIVjZNRS1nWG9Vcm9ueEhRQ2dLb0E0M1M5cXNVaE10Y2ZaSzNHQUhEZnFueWFNLTFPU1BITkdxWEM2QlItU0xFUDJiOGthMXBpQTRJQnZqbmgxZnY1YXhwWDlSak4yQW84YlBJNlNZcWVReF9yWENTa0lrdHZncmFGS3hDYnVyOWxrSUhGUndraw?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-24T23:03:45+00:00",
-   "source": "Yahoo Finance",
+   "title": "GTA 6 Stock Market: Is There One, and How Do You Make Money?",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOS2JfSjJuMnBUOUs1cjhxZzdBS1lDQmp2SndocTFjZ0ZCY2FaVlo2VHljeEg3Nm9uOUxHQ2NMblJyTENDVlgxd2x5c1ZlWnV5SzlyQ2lLUlRLV2tMZm5ONVd2S1lmNlIzQjRucUs0cjU5NG83bkFqVkYyaDE1dlBkNVBaMlp6bWgwdkJuR200QWU2ZFRrOWdFaDU1NGRKZzAtV3c?oc=5",
+   "domain": "games.gg",
+   "published": "2026-11-25T04:20:09+00:00",
+   "source": "games.gg",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "Yahoo Finance"
+    "games.gg"
    ],
    "status": "single"
   }
