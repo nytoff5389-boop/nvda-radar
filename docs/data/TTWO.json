@@ -1,6 +1,6 @@
 {
  "ticker": "TTWO",
- "generated_at": "2026-11-26T21:50:14.687867+00:00",
+ "generated_at": "2026-11-27T01:32:44.505794+00:00",
  "sample": false,
  "intraday": {
   "price": 227.34,
@@ -89,7 +89,7 @@
    },
    {
     "t": 1795611300,
-    "c": 218.32,
+    "c": 218.6,
     "s": "pre"
    },
    {
@@ -677,7 +677,7 @@
   "volume": 4892500
  },
  "verdict": {
-  "score": -0.01,
+  "score": -0.04,
   "level": "ปกติ",
   "lean": "HOLD / รอสัญญาณ",
   "key": "neutral",
@@ -709,8 +709,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": 0.24,
-    "why": "ค่าเฉลี่ยโทนข่าว +0.12 จาก 18 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.21,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.10 จาก 17 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -729,11 +729,17 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 15,
+   "bull": 13,
    "bear": 2,
-   "bull_pct": 88.2,
-   "watchers": 26659,
+   "bull_pct": 86.7,
+   "watchers": 26663,
    "sample": [
+    {
+     "tag": "Bullish",
+     "body": "$TTWO imagine being bearish on a multi decade cultural phenomenon",
+     "user": "No_one_special",
+     "at": "2026-11-27T00:08:46Z"
+    },
     {
      "tag": "Bullish",
      "body": "Reading a lot of comments about GTA6 copies sold this week and more to sell in the Christmas season, about the game its to woke, about is burning consoles bla bla. But all I need to know is where the price is, and it’s g",
@@ -763,12 +769,6 @@
      "body": "$TTWO happy Thanksgiving to all my Strauss lovers out there.",
      "user": "Jewstock",
      "at": "2026-11-26T17:04:55Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$TTWO broke my xbox series X but the game is a genuine masterpiece. Only up from here.",
-     "user": "DelBoyInvesting",
-     "at": "2026-11-26T17:00:46Z"
     }
    ]
   },
@@ -1024,6 +1024,10 @@
    {
     "t": "2026-11-26T21:50+00:00",
     "bull_pct": 88.2
+   },
+   {
+    "t": "2026-11-27T01:32+00:00",
+    "bull_pct": 86.7
    }
   ]
  },
@@ -1054,7 +1058,7 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 59,
+   "corroborated_by": 58,
    "sources": [
     "80 Level",
     "ABP Live English",
@@ -1100,7 +1104,6 @@
     "TechStory",
     "The Economic Times",
     "The Motley Fool",
-    "The Times of India",
     "Times Now",
     "Tom's Hardware",
     "TweakTown",
@@ -1119,34 +1122,6 @@
    "status": "single"
   },
   {
-   "title": "GTA VI PC Port: Unofficial Ports Hit 6 to 20fps In-Game, Nov 26 Update",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNXpDRllVYWdWNlk0cmJVeU5CTENmaElyb19qSlEtd0c0OWR1UHM0WHRXVTF1YWZGaVExdkNHYldzYlc5Y1R6TFd4RXdBdWVLcVBBUjN4YUhEYmpVYXRnWDgxYmQ2bFVkOTRJRmFkdzhKekt4WDFpbVk2RUg2MXdTQTBNT2Jkal9SWHp0QTdqWWxQeGVlOHdUTXpPTENxWk4tMm9QT3JZTlZURDQyMWRFcnBySXlyb2x5X2xETTNOUnllSmNwZmIw?oc=5",
-   "domain": "stupiddope.com",
-   "published": "2026-11-26T14:42:32+00:00",
-   "source": "stupidDOPE",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 13,
-   "sources": [
-    "ABP Live English",
-    "Beebom",
-    "ETV Bharat",
-    "IGN",
-    "Instant Gaming News",
-    "News9live",
-    "PC Guide",
-    "TechEBlog -",
-    "TechSpot",
-    "The Times of India",
-    "Tom's Hardware",
-    "heise online",
-    "stupidDOPE"
-   ],
-   "status": "single"
-  },
-  {
    "title": "Take-Two (TTWO) vs. Roblox (RBLX): Analysts See Upside in Only One of These Gaming Stocks",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQloxdjBuZlZBRUFvWHVNV2RGY0xMd1FFV244SzJTTnBkWk1xd0pSRzRYSFpLaHlhaVJsZldPblhWTml3di1jVkFRZERsUXYtZDJabHJQeksyWmNTQWFscFBUcjZoOTE4ZFhlUnpMcXpTVlJEdjFRLTNPLUFEbGh0WFlWUmZGOUZEUERYYVhobDljVVhlaDNNNDJxbnFNSllkUTU5Ml9ORkJtcWZWelZ6aHpPMlplQnQxMTNWamxn?oc=5",
    "domain": "tipranks.com",
@@ -1156,7 +1131,7 @@
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 10,
+   "corroborated_by": 9,
    "sources": [
     "Coingecko",
     "Foreign Policy Journal",
@@ -1166,8 +1141,28 @@
     "TalkEsport",
     "The Motley Fool",
     "TipRanks",
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Panini’s Grand Theft Auto VI Sports Trading Cards Bring In-Game Athletes to Life With a One-of-One Gold Chase",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9MeHFYRWRGVy1vRUdJYmNSTEdPMXpBR3hvbEZDVy05WXFXcG9JMEtqVzFEWUhYcmF2bDlDQkF0S2czUzJsaFZTQS1MYzk1d3RV?oc=5",
+   "domain": "toy-people.com",
+   "published": "2026-11-26T09:20:59+00:00",
+   "source": "玩具人 TOY PEOPLE",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 6,
+   "sources": [
+    "Foreign Policy Journal",
+    "GamesRadar+",
+    "Kalkine Media",
+    "NewsBytes",
     "Yahoo Finance",
-    "ad-hoc-news.de"
+    "玩具人 TOY PEOPLE"
    ],
    "status": "single"
   },
@@ -1189,26 +1184,6 @@
     "Yahoo Finance",
     "ad-hoc-news.de",
     "shattered.io"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Panini’s Grand Theft Auto VI Sports Trading Cards Bring In-Game Athletes to Life With a One-of-One Gold Chase",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9MeHFYRWRGVy1vRUdJYmNSTEdPMXpBR3hvbEZDVy05WXFXcG9JMEtqVzFEWUhYcmF2bDlDQkF0S2czUzJsaFZTQS1MYzk1d3RV?oc=5",
-   "domain": "toy-people.com",
-   "published": "2026-11-26T09:20:59+00:00",
-   "source": "玩具人 TOY PEOPLE",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 5,
-   "sources": [
-    "Foreign Policy Journal",
-    "GamesRadar+",
-    "Kalkine Media",
-    "NewsBytes",
-    "玩具人 TOY PEOPLE"
    ],
    "status": "single"
   },
@@ -1268,23 +1243,6 @@
    "status": "single"
   },
   {
-   "title": "GTA 6 gets its first unofficial PC mod menu and launcher",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLS14N1FnSFE5Sm1La1U0UGJNdzc4NHBLb2c2V09nZ2VTcTZkQ084enFLQXRWTFVZU3phcmVLSjYwOG5qdTk1b1E1UTJwRXFKN2k4OFR6NjFPZjFoZlpFLVJUWEVMS3R5Nm5OLTBfVnF0aTh5SWtWT1A1M1BHaWRraThnRVVVaS1GNHdoM1puTi12azZVWkdEeXVTSzN4Q1lVWGlEaXVYWjM?oc=5",
-   "domain": "tweaktown.com",
-   "published": "2026-11-26T18:30:03+00:00",
-   "source": "TweakTown",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "TweakTown",
-    "heise online"
-   ],
-   "status": "single"
-  },
-  {
    "title": "TTWO Nov 2026 235.000 put (TTWO261127P00235000) interactive stock chart",
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HZEN1MW1iYVB1T1ZPZFNZTDBSam9hMXdIVGNVRXJKZ2ZvUFZJajJkelVlLUt5bFBJR2xoVXNYcGZjQ1FvMi1haWRScXlZMUt2VkxKaVpSZGlXY3ltTWcyb1pqTkdLUjBYdUxyWGNn?oc=5",
    "domain": "uk.finance.yahoo.com",
@@ -1302,19 +1260,19 @@
    "status": "single"
   },
   {
-   "title": "Sony Stock Rises After PlayStation Reports a Massive Launch for GTA VI",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOblVMTE5oVGlwaDR4MFM0TjdKdjFaTkszQ2NVTU8xU1dLWWtUSkNhN1JzVWk3MVBRRnNDM0h4WldnNmh6eXJBelhOT0tuMUQ1djNzUmY3YnAyXy1FRHpNajAwVk9hUl9ycXF3YVhDRmFla2pxSmJ2aHVUc2Vua2tYVWI4dk11LTRWblBxbEt4R00zZFV4c1ZNRDYxM3h1RHNxMmc?oc=5",
-   "domain": "tipranks.com",
-   "published": "2026-11-25T18:43:16+00:00",
-   "source": "TipRanks",
+   "title": "TAKE-TWO INTERACT. SOFTW. (TTWO.SW) Stock Major Holders - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZSDFhWlpkNHJvdW4xSlVDMXE0elVoZWxUMThsRHhNVEc3R1gwMkMydkV3Z193TmY2MnYtQy11X1NCVDgtUVFaUkpUcEVmRTNDaU1iWV9QbjJDY0otQVZNcA?oc=5",
+   "domain": "ca.finance.yahoo.com",
+   "published": "2026-11-25T16:11:52+00:00",
+   "source": "Yahoo! Finance Canada",
    "tier": 3,
-   "sentiment": 1.0,
+   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 2,
    "sources": [
-    "JournalArta",
-    "TipRanks"
+    "Yahoo Finance",
+    "Yahoo! Finance Canada"
    ],
    "status": "single"
   },
@@ -1332,23 +1290,6 @@
    "sources": [
     "Business Insider",
     "GamesRadar+"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "GTA 6 Makes History With Over 39 Million Players in Just Four Days",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU2xKVUhiNDdFUkZuWmRWREdweGJXTmtZYlJ4NVU3ZDhEZEt5d0NaMjN2cTFVMWtmQ2NwZ3dFQkNBbnRIQ1JCRzFESWhFLWtzTWlsbmVScDNEOG51RklZeW9YTWI0dU4tZVMyOHctZEF3U2hONEhlR2YzM244dnUwamh5ZmRhRWZDV3J1d0FZanNCZGpiS2laZmE1NA?oc=5",
-   "domain": "kryptomagazin.cz",
-   "published": "2026-11-25T08:33:01+00:00",
-   "source": "Kryptomagazin",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 2,
-   "sources": [
-    "Kryptomagazin",
-    "TweakTown"
    ],
    "status": "single"
   },
@@ -1385,6 +1326,22 @@
    "status": "single"
   },
   {
+   "title": "Dua Lipa released Go Easy on November 19 as GTA VI single - ad-hoc-news.de",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbzViSk12RzNjbXNqR1cxZEJ4QU1Ka3VNakp6Rk5ReVBxZ1AzbHQ0TVNjWWtmV3o3WDlMRHRrZDFqTFdaeERGRkxBX0VvZ1hsclE4TGFJTi1Lc0M0X2lRV0NBeXZfREIyWmFRdWdKQlM1VGVmamdyQ29Td0VEWld2SlM4bUczWnI2ajlRNjFwOHNBajVacEtFU3hWM1M3S1BlQkdTNGR1cG1BRmtNUmR0OHBB?oc=5",
+   "domain": "ad-hoc-news.de",
+   "published": "2026-11-26T10:24:19+00:00",
+   "source": "ad-hoc-news.de",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "ad-hoc-news.de"
+   ],
+   "status": "single"
+  },
+  {
    "title": "GTA VI Is A Smash Hit. Its Stock Is Another Story.",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPd2Y2RDFMdDFiX0FmWHpXdm9ieGVFeUlXRndqU2VJcV85MDFQSFVsNFlSVnc2V012eTg5akNtb2xDVi1PX0tMMG5lNDYxUHlOV1h5cFB5ZTBlOWRCbWRVTDNPcU8xOXJMTloySHV0ZFhpeWxWS3lpRFk3aWswLTFhRzNyaw?oc=5",
    "domain": "finimize.com",
@@ -1397,6 +1354,22 @@
    "corroborated_by": 1,
    "sources": [
     "Finimize"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "GTA VI units sold count prediction: 48M+ is overpriced",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9qWlNFbFdJUnBZSnJaRTB6TElkOGdRb3dtS1IycVRyZWFDa1NFdW1GMmJ2NnFsR1I0SThZYjVRUXBRUHhyVGE0Z1lVaC1ZZnFzbUl3T1dwQURuYmsw?oc=5",
+   "domain": "spilled.gg",
+   "published": "2026-11-25T22:34:41+00:00",
+   "source": "Spilled",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Spilled"
    ],
    "status": "single"
   },
@@ -1417,18 +1390,18 @@
    "status": "single"
   },
   {
-   "title": "GTA 6 Stock Market: Is There One, and How Do You Make Money?",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOS2JfSjJuMnBUOUs1cjhxZzdBS1lDQmp2SndocTFjZ0ZCY2FaVlo2VHljeEg3Nm9uOUxHQ2NMblJyTENDVlgxd2x5c1ZlWnV5SzlyQ2lLUlRLV2tMZm5ONVd2S1lmNlIzQjRucUs0cjU5NG83bkFqVkYyaDE1dlBkNVBaMlp6bWgwdkJuR200QWU2ZFRrOWdFaDU1NGRKZzAtV3c?oc=5",
-   "domain": "games.gg",
-   "published": "2026-11-25T04:20:09+00:00",
-   "source": "games.gg",
+   "title": "GTA 6 Makes History With Over 39 Million Players in Just Four Days",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPU2xKVUhiNDdFUkZuWmRWREdweGJXTmtZYlJ4NVU3ZDhEZEt5d0NaMjN2cTFVMWtmQ2NwZ3dFQkNBbnRIQ1JCRzFESWhFLWtzTWlsbmVScDNEOG51RklZeW9YTWI0dU4tZVMyOHctZEF3U2hONEhlR2YzM244dnUwamh5ZmRhRWZDV3J1d0FZanNCZGpiS2laZmE1NA?oc=5",
+   "domain": "kryptomagazin.cz",
+   "published": "2026-11-25T08:33:01+00:00",
+   "source": "Kryptomagazin",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "games.gg"
+    "Kryptomagazin"
    ],
    "status": "single"
   }
