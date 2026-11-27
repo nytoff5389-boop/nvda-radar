@@ -1,981 +1,546 @@
 {
  "ticker": "NVDA",
- "generated_at": "2026-11-27T06:13:21.187779+00:00",
+ "generated_at": "2026-11-27T17:44:02.866835+00:00",
  "sample": false,
  "intraday": {
-  "price": 149.3,
-  "prev_close": 155.38,
-  "time": 1795640401,
+  "price": 149.036,
+  "prev_close": 149.3,
+  "time": 1795801434,
   "points": [
    {
-    "t": 1795597200,
-    "c": 148.68,
+    "t": 1795770000,
+    "c": 156.19,
     "s": "pre"
    },
    {
-    "t": 1795597500,
-    "c": 148.59,
+    "t": 1795770300,
+    "c": 156.27,
     "s": "pre"
    },
    {
-    "t": 1795597800,
-    "c": 147.8,
+    "t": 1795770600,
+    "c": 156.37,
     "s": "pre"
    },
    {
-    "t": 1795598100,
-    "c": 147.82,
+    "t": 1795770900,
+    "c": 156.63,
     "s": "pre"
    },
    {
-    "t": 1795598400,
-    "c": 148.01,
+    "t": 1795771200,
+    "c": 156.64,
     "s": "pre"
    },
    {
-    "t": 1795598700,
-    "c": 147.15,
+    "t": 1795771500,
+    "c": 156.43,
     "s": "pre"
    },
    {
-    "t": 1795599000,
-    "c": 147.35,
+    "t": 1795771800,
+    "c": 156.82,
     "s": "pre"
    },
    {
-    "t": 1795599300,
-    "c": 147.11,
+    "t": 1795772100,
+    "c": 156.71,
     "s": "pre"
    },
    {
-    "t": 1795599600,
-    "c": 146.81,
+    "t": 1795772400,
+    "c": 156.88,
     "s": "pre"
    },
    {
-    "t": 1795599900,
-    "c": 146.83,
+    "t": 1795772700,
+    "c": 155.72,
     "s": "pre"
    },
    {
-    "t": 1795600200,
-    "c": 147.5,
+    "t": 1795773000,
+    "c": 155.68,
     "s": "pre"
    },
    {
-    "t": 1795600500,
-    "c": 147.62,
+    "t": 1795773300,
+    "c": 154.8,
     "s": "pre"
    },
    {
-    "t": 1795600800,
-    "c": 147.62,
+    "t": 1795773600,
+    "c": 154.8,
     "s": "pre"
    },
    {
-    "t": 1795601100,
-    "c": 147.3,
+    "t": 1795773900,
+    "c": 154.79,
     "s": "pre"
    },
    {
-    "t": 1795601400,
-    "c": 147.06,
+    "t": 1795774200,
+    "c": 155.0,
     "s": "pre"
    },
    {
-    "t": 1795601700,
-    "c": 147.74,
+    "t": 1795774500,
+    "c": 155.09,
     "s": "pre"
    },
    {
-    "t": 1795602000,
-    "c": 147.37,
+    "t": 1795774800,
+    "c": 155.53,
     "s": "pre"
    },
    {
-    "t": 1795602300,
-    "c": 147.07,
+    "t": 1795775100,
+    "c": 155.45,
     "s": "pre"
    },
    {
-    "t": 1795602600,
-    "c": 147.59,
+    "t": 1795775400,
+    "c": 155.41,
     "s": "pre"
    },
    {
-    "t": 1795602900,
-    "c": 147.64,
+    "t": 1795775700,
+    "c": 155.55,
     "s": "pre"
    },
    {
-    "t": 1795603200,
-    "c": 147.85,
+    "t": 1795776000,
+    "c": 155.53,
     "s": "pre"
    },
    {
-    "t": 1795603500,
-    "c": 147.7,
+    "t": 1795776300,
+    "c": 155.72,
     "s": "pre"
    },
    {
-    "t": 1795603800,
-    "c": 147.4,
+    "t": 1795776600,
+    "c": 155.69,
     "s": "pre"
    },
    {
-    "t": 1795604100,
-    "c": 148.15,
+    "t": 1795776900,
+    "c": 155.73,
     "s": "pre"
    },
    {
-    "t": 1795604400,
-    "c": 148.42,
+    "t": 1795777200,
+    "c": 154.97,
     "s": "pre"
    },
    {
-    "t": 1795604700,
-    "c": 148.43,
+    "t": 1795777500,
+    "c": 155.17,
     "s": "pre"
    },
    {
-    "t": 1795605000,
-    "c": 148.09,
+    "t": 1795777800,
+    "c": 155.13,
     "s": "pre"
    },
    {
-    "t": 1795605300,
-    "c": 148.7,
+    "t": 1795778100,
+    "c": 154.9,
     "s": "pre"
    },
    {
-    "t": 1795605600,
-    "c": 148.19,
+    "t": 1795778400,
+    "c": 154.84,
     "s": "pre"
    },
    {
-    "t": 1795605900,
-    "c": 147.93,
+    "t": 1795778700,
+    "c": 154.77,
     "s": "pre"
    },
    {
-    "t": 1795606200,
-    "c": 147.85,
+    "t": 1795779000,
+    "c": 154.75,
     "s": "pre"
    },
    {
-    "t": 1795606500,
-    "c": 147.54,
+    "t": 1795779300,
+    "c": 154.4,
     "s": "pre"
    },
    {
-    "t": 1795606800,
-    "c": 147.57,
+    "t": 1795779600,
+    "c": 153.13,
     "s": "pre"
    },
    {
-    "t": 1795607100,
-    "c": 147.97,
+    "t": 1795779900,
+    "c": 151.5,
     "s": "pre"
    },
    {
-    "t": 1795607400,
-    "c": 147.73,
+    "t": 1795780200,
+    "c": 152.65,
     "s": "pre"
    },
    {
-    "t": 1795607700,
-    "c": 147.51,
+    "t": 1795780500,
+    "c": 152.9,
     "s": "pre"
    },
    {
-    "t": 1795608000,
-    "c": 146.85,
+    "t": 1795780800,
+    "c": 152.06,
     "s": "pre"
    },
    {
-    "t": 1795608300,
-    "c": 147.18,
+    "t": 1795781100,
+    "c": 151.95,
     "s": "pre"
    },
    {
-    "t": 1795608600,
-    "c": 147.15,
+    "t": 1795781400,
+    "c": 152.39,
     "s": "pre"
    },
    {
-    "t": 1795608900,
-    "c": 146.9,
+    "t": 1795781700,
+    "c": 152.73,
     "s": "pre"
    },
    {
-    "t": 1795609200,
-    "c": 147.35,
+    "t": 1795782000,
+    "c": 152.75,
     "s": "pre"
    },
    {
-    "t": 1795609500,
-    "c": 147.12,
+    "t": 1795782300,
+    "c": 152.7,
     "s": "pre"
    },
    {
-    "t": 1795609800,
-    "c": 147.47,
+    "t": 1795782600,
+    "c": 153.21,
     "s": "pre"
    },
    {
-    "t": 1795610100,
-    "c": 147.5,
+    "t": 1795782900,
+    "c": 153.23,
     "s": "pre"
    },
    {
-    "t": 1795610400,
-    "c": 147.09,
+    "t": 1795783200,
+    "c": 153.41,
     "s": "pre"
    },
    {
-    "t": 1795610700,
-    "c": 146.69,
+    "t": 1795783500,
+    "c": 153.49,
     "s": "pre"
    },
    {
-    "t": 1795611000,
-    "c": 146.38,
+    "t": 1795783800,
+    "c": 153.74,
     "s": "pre"
    },
    {
-    "t": 1795611300,
-    "c": 146.55,
+    "t": 1795784100,
+    "c": 153.87,
     "s": "pre"
    },
    {
-    "t": 1795611600,
-    "c": 146.79,
+    "t": 1795784400,
+    "c": 154.09,
     "s": "pre"
    },
    {
-    "t": 1795611900,
-    "c": 147.09,
+    "t": 1795784700,
+    "c": 153.91,
     "s": "pre"
    },
    {
-    "t": 1795612200,
-    "c": 147.07,
+    "t": 1795785000,
+    "c": 153.73,
     "s": "pre"
    },
    {
-    "t": 1795612500,
-    "c": 147.13,
+    "t": 1795785300,
+    "c": 153.2,
     "s": "pre"
    },
    {
-    "t": 1795612800,
-    "c": 147.32,
+    "t": 1795785600,
+    "c": 152.78,
     "s": "pre"
    },
    {
-    "t": 1795613100,
-    "c": 147.38,
+    "t": 1795785900,
+    "c": 152.85,
     "s": "pre"
    },
    {
-    "t": 1795613400,
-    "c": 146.22,
+    "t": 1795786200,
+    "c": 152.85,
     "s": "pre"
    },
    {
-    "t": 1795613700,
-    "c": 146.75,
+    "t": 1795786500,
+    "c": 152.97,
     "s": "pre"
    },
    {
-    "t": 1795614000,
-    "c": 145.9,
+    "t": 1795786800,
+    "c": 152.78,
     "s": "pre"
    },
    {
-    "t": 1795614300,
-    "c": 145.94,
+    "t": 1795787100,
+    "c": 152.86,
     "s": "pre"
    },
    {
-    "t": 1795614600,
-    "c": 145.62,
+    "t": 1795787400,
+    "c": 153.21,
     "s": "pre"
    },
    {
-    "t": 1795614900,
-    "c": 145.4,
+    "t": 1795787700,
+    "c": 152.94,
     "s": "pre"
    },
    {
-    "t": 1795615200,
-    "c": 145.54,
+    "t": 1795788000,
+    "c": 152.17,
     "s": "pre"
    },
    {
-    "t": 1795615500,
-    "c": 146.48,
+    "t": 1795788300,
+    "c": 152.41,
     "s": "pre"
    },
    {
-    "t": 1795615800,
-    "c": 146.94,
+    "t": 1795788600,
+    "c": 152.67,
     "s": "pre"
    },
    {
-    "t": 1795616100,
-    "c": 146.41,
+    "t": 1795788900,
+    "c": 152.21,
     "s": "pre"
    },
    {
-    "t": 1795616400,
-    "c": 146.7,
+    "t": 1795789200,
+    "c": 152.0,
     "s": "pre"
    },
    {
-    "t": 1795616700,
-    "c": 144.0,
+    "t": 1795789500,
+    "c": 151.9,
     "s": "pre"
    },
    {
-    "t": 1795617000,
-    "c": 142.13,
-    "s": "pre"
-   },
-   {
-    "t": 1795617300,
-    "c": 142.44,
-    "s": "pre"
-   },
-   {
-    "t": 1795617600,
-    "c": 141.65,
-    "s": "pre"
-   },
-   {
-    "t": 1795617900,
-    "c": 142.56,
-    "s": "pre"
-   },
-   {
-    "t": 1795618200,
-    "c": 143.77,
-    "s": "pre"
-   },
-   {
-    "t": 1795618500,
-    "c": 145.62,
-    "s": "pre"
-   },
-   {
-    "t": 1795618800,
-    "c": 145.44,
-    "s": "pre"
-   },
-   {
-    "t": 1795619100,
-    "c": 143.7,
-    "s": "pre"
-   },
-   {
-    "t": 1795619400,
-    "c": 144.55,
-    "s": "pre"
-   },
-   {
-    "t": 1795619700,
-    "c": 144.11,
-    "s": "pre"
-   },
-   {
-    "t": 1795620000,
-    "c": 143.69,
-    "s": "pre"
-   },
-   {
-    "t": 1795620300,
-    "c": 143.28,
-    "s": "pre"
-   },
-   {
-    "t": 1795620600,
-    "c": 144.0,
-    "s": "pre"
-   },
-   {
-    "t": 1795620900,
-    "c": 142.99,
-    "s": "pre"
-   },
-   {
-    "t": 1795621200,
-    "c": 142.65,
-    "s": "pre"
-   },
-   {
-    "t": 1795621500,
-    "c": 142.76,
-    "s": "pre"
-   },
-   {
-    "t": 1795621800,
-    "c": 142.9,
-    "s": "pre"
-   },
-   {
-    "t": 1795622100,
-    "c": 142.48,
-    "s": "pre"
-   },
-   {
-    "t": 1795622400,
-    "c": 142.62,
-    "s": "pre"
-   },
-   {
-    "t": 1795622700,
-    "c": 141.91,
-    "s": "pre"
-   },
-   {
-    "t": 1795623000,
-    "c": 142.38,
-    "s": "pre"
-   },
-   {
-    "t": 1795623300,
-    "c": 141.53,
-    "s": "pre"
-   },
-   {
-    "t": 1795623600,
-    "c": 142.04,
-    "s": "pre"
-   },
-   {
-    "t": 1795623900,
-    "c": 142.11,
-    "s": "pre"
-   },
-   {
-    "t": 1795624200,
-    "c": 142.03,
-    "s": "pre"
-   },
-   {
-    "t": 1795624500,
-    "c": 142.11,
-    "s": "pre"
-   },
-   {
-    "t": 1795624800,
-    "c": 141.53,
-    "s": "pre"
-   },
-   {
-    "t": 1795625100,
-    "c": 141.68,
-    "s": "pre"
-   },
-   {
-    "t": 1795625400,
-    "c": 141.88,
-    "s": "pre"
-   },
-   {
-    "t": 1795625700,
-    "c": 142.14,
-    "s": "pre"
-   },
-   {
-    "t": 1795626000,
-    "c": 143.04,
-    "s": "pre"
-   },
-   {
-    "t": 1795626300,
-    "c": 143.94,
-    "s": "pre"
-   },
-   {
-    "t": 1795626600,
-    "c": 144.71,
-    "s": "pre"
-   },
-   {
-    "t": 1795626900,
-    "c": 145.24,
-    "s": "pre"
-   },
-   {
-    "t": 1795627200,
-    "c": 144.0,
-    "s": "pre"
-   },
-   {
-    "t": 1795627500,
-    "c": 143.77,
-    "s": "pre"
-   },
-   {
-    "t": 1795627800,
-    "c": 143.74,
-    "s": "pre"
-   },
-   {
-    "t": 1795628100,
-    "c": 144.1,
-    "s": "pre"
-   },
-   {
-    "t": 1795628400,
-    "c": 144.76,
-    "s": "pre"
-   },
-   {
-    "t": 1795628700,
-    "c": 144.79,
-    "s": "pre"
-   },
-   {
-    "t": 1795629000,
-    "c": 146.04,
-    "s": "pre"
-   },
-   {
-    "t": 1795629300,
-    "c": 145.65,
-    "s": "pre"
-   },
-   {
-    "t": 1795629600,
-    "c": 145.96,
-    "s": "pre"
-   },
-   {
-    "t": 1795629900,
-    "c": 146.34,
-    "s": "pre"
-   },
-   {
-    "t": 1795630200,
-    "c": 146.19,
-    "s": "pre"
-   },
-   {
-    "t": 1795630500,
-    "c": 147.48,
-    "s": "pre"
-   },
-   {
-    "t": 1795630800,
-    "c": 147.23,
-    "s": "pre"
-   },
-   {
-    "t": 1795631100,
-    "c": 147.46,
-    "s": "pre"
-   },
-   {
-    "t": 1795631400,
-    "c": 147.25,
-    "s": "pre"
-   },
-   {
-    "t": 1795631700,
-    "c": 147.16,
-    "s": "pre"
-   },
-   {
-    "t": 1795632000,
-    "c": 147.7,
-    "s": "pre"
-   },
-   {
-    "t": 1795632300,
-    "c": 148.18,
-    "s": "pre"
-   },
-   {
-    "t": 1795632600,
-    "c": 148.32,
-    "s": "pre"
-   },
-   {
-    "t": 1795632900,
-    "c": 147.85,
-    "s": "pre"
-   },
-   {
-    "t": 1795633200,
-    "c": 148.12,
-    "s": "pre"
-   },
-   {
-    "t": 1795633500,
-    "c": 148.32,
-    "s": "pre"
-   },
-   {
-    "t": 1795633800,
-    "c": 147.4,
-    "s": "pre"
-   },
-   {
-    "t": 1795634100,
-    "c": 147.1,
-    "s": "pre"
-   },
-   {
-    "t": 1795634400,
-    "c": 147.65,
-    "s": "pre"
-   },
-   {
-    "t": 1795634700,
-    "c": 148.08,
-    "s": "pre"
-   },
-   {
-    "t": 1795635000,
-    "c": 148.24,
-    "s": "pre"
-   },
-   {
-    "t": 1795635300,
-    "c": 148.32,
-    "s": "pre"
-   },
-   {
-    "t": 1795635600,
-    "c": 147.97,
-    "s": "pre"
-   },
-   {
-    "t": 1795635900,
-    "c": 147.68,
-    "s": "pre"
-   },
-   {
-    "t": 1795636200,
-    "c": 148.46,
-    "s": "pre"
-   },
-   {
-    "t": 1795636500,
-    "c": 147.84,
-    "s": "pre"
-   },
-   {
-    "t": 1795636800,
-    "c": 147.92,
-    "s": "pre"
-   },
-   {
-    "t": 1795637100,
-    "c": 147.87,
-    "s": "pre"
-   },
-   {
-    "t": 1795637400,
-    "c": 148.06,
-    "s": "pre"
-   },
-   {
-    "t": 1795637700,
-    "c": 147.99,
-    "s": "pre"
-   },
-   {
-    "t": 1795638000,
-    "c": 148.08,
-    "s": "pre"
-   },
-   {
-    "t": 1795638300,
-    "c": 148.18,
-    "s": "pre"
-   },
-   {
-    "t": 1795638600,
-    "c": 147.71,
-    "s": "pre"
-   },
-   {
-    "t": 1795638900,
-    "c": 147.43,
-    "s": "pre"
-   },
-   {
-    "t": 1795639200,
+    "t": 1795789800,
     "c": 147.72,
-    "s": "pre"
+    "s": "reg"
    },
    {
-    "t": 1795639500,
-    "c": 148.52,
-    "s": "pre"
+    "t": 1795790100,
+    "c": 147.12,
+    "s": "reg"
    },
    {
-    "t": 1795639800,
-    "c": 149.01,
-    "s": "pre"
+    "t": 1795790400,
+    "c": 147.57,
+    "s": "reg"
    },
    {
-    "t": 1795640100,
-    "c": 149.29,
-    "s": "pre"
+    "t": 1795790700,
+    "c": 145.97,
+    "s": "reg"
    },
    {
-    "t": 1795640400,
-    "c": 149.51,
-    "s": "pre"
+    "t": 1795791000,
+    "c": 146.66,
+    "s": "reg"
    },
    {
-    "t": 1795640700,
-    "c": 148.96,
-    "s": "pre"
+    "t": 1795791300,
+    "c": 146.33,
+    "s": "reg"
    },
    {
-    "t": 1795641000,
+    "t": 1795791600,
+    "c": 145.99,
+    "s": "reg"
+   },
+   {
+    "t": 1795791900,
+    "c": 146.26,
+    "s": "reg"
+   },
+   {
+    "t": 1795792200,
+    "c": 147.21,
+    "s": "reg"
+   },
+   {
+    "t": 1795792500,
+    "c": 146.96,
+    "s": "reg"
+   },
+   {
+    "t": 1795792800,
+    "c": 146.94,
+    "s": "reg"
+   },
+   {
+    "t": 1795793100,
+    "c": 146.97,
+    "s": "reg"
+   },
+   {
+    "t": 1795793400,
+    "c": 146.7,
+    "s": "reg"
+   },
+   {
+    "t": 1795793700,
+    "c": 147.9,
+    "s": "reg"
+   },
+   {
+    "t": 1795794000,
+    "c": 147.95,
+    "s": "reg"
+   },
+   {
+    "t": 1795794300,
+    "c": 147.76,
+    "s": "reg"
+   },
+   {
+    "t": 1795794600,
+    "c": 147.29,
+    "s": "reg"
+   },
+   {
+    "t": 1795794900,
+    "c": 147.45,
+    "s": "reg"
+   },
+   {
+    "t": 1795795200,
+    "c": 148.04,
+    "s": "reg"
+   },
+   {
+    "t": 1795795500,
+    "c": 148.21,
+    "s": "reg"
+   },
+   {
+    "t": 1795795800,
+    "c": 148.0,
+    "s": "reg"
+   },
+   {
+    "t": 1795796100,
+    "c": 148.12,
+    "s": "reg"
+   },
+   {
+    "t": 1795796400,
+    "c": 148.37,
+    "s": "reg"
+   },
+   {
+    "t": 1795796700,
+    "c": 148.77,
+    "s": "reg"
+   },
+   {
+    "t": 1795797000,
+    "c": 149.25,
+    "s": "reg"
+   },
+   {
+    "t": 1795797300,
+    "c": 148.59,
+    "s": "reg"
+   },
+   {
+    "t": 1795797600,
+    "c": 148.87,
+    "s": "reg"
+   },
+   {
+    "t": 1795797900,
     "c": 148.98,
-    "s": "pre"
+    "s": "reg"
    },
    {
-    "t": 1795641300,
-    "c": 148.95,
-    "s": "pre"
-   },
-   {
-    "t": 1795641600,
+    "t": 1795798200,
     "c": 149.48,
-    "s": "pre"
+    "s": "reg"
    },
    {
-    "t": 1795641900,
-    "c": 149.43,
-    "s": "pre"
+    "t": 1795798500,
+    "c": 148.86,
+    "s": "reg"
    },
    {
-    "t": 1795642200,
-    "c": 149.18,
-    "s": "pre"
+    "t": 1795798800,
+    "c": 148.38,
+    "s": "reg"
    },
    {
-    "t": 1795642500,
-    "c": 149.48,
-    "s": "pre"
+    "t": 1795799100,
+    "c": 148.87,
+    "s": "reg"
    },
    {
-    "t": 1795642800,
+    "t": 1795799400,
+    "c": 148.91,
+    "s": "reg"
+   },
+   {
+    "t": 1795799700,
+    "c": 149.24,
+    "s": "reg"
+   },
+   {
+    "t": 1795800000,
     "c": 149.45,
-    "s": "pre"
+    "s": "reg"
    },
    {
-    "t": 1795643100,
-    "c": 149.08,
-    "s": "pre"
+    "t": 1795800300,
+    "c": 149.35,
+    "s": "reg"
    },
    {
-    "t": 1795643400,
-    "c": 149.0,
-    "s": "pre"
+    "t": 1795800600,
+    "c": 149.16,
+    "s": "reg"
    },
    {
-    "t": 1795643700,
-    "c": 148.52,
-    "s": "pre"
+    "t": 1795800900,
+    "c": 148.79,
+    "s": "reg"
    },
    {
-    "t": 1795644000,
-    "c": 148.5,
-    "s": "pre"
+    "t": 1795801200,
+    "c": 148.9,
+    "s": "reg"
    },
    {
-    "t": 1795644300,
-    "c": 148.6,
-    "s": "pre"
-   },
-   {
-    "t": 1795644600,
-    "c": 148.55,
-    "s": "pre"
-   },
-   {
-    "t": 1795644900,
-    "c": 148.58,
-    "s": "pre"
-   },
-   {
-    "t": 1795645200,
-    "c": 148.71,
-    "s": "pre"
-   },
-   {
-    "t": 1795645500,
-    "c": 148.84,
-    "s": "pre"
-   },
-   {
-    "t": 1795645800,
-    "c": 149.2,
-    "s": "pre"
-   },
-   {
-    "t": 1795646100,
-    "c": 149.39,
-    "s": "pre"
-   },
-   {
-    "t": 1795646400,
-    "c": 149.47,
-    "s": "pre"
-   },
-   {
-    "t": 1795646700,
-    "c": 150.51,
-    "s": "pre"
-   },
-   {
-    "t": 1795647000,
-    "c": 150.2,
-    "s": "pre"
-   },
-   {
-    "t": 1795647300,
-    "c": 149.92,
-    "s": "pre"
-   },
-   {
-    "t": 1795647600,
-    "c": 149.7,
-    "s": "pre"
-   },
-   {
-    "t": 1795647900,
-    "c": 149.75,
-    "s": "pre"
-   },
-   {
-    "t": 1795648200,
-    "c": 149.53,
-    "s": "pre"
-   },
-   {
-    "t": 1795648500,
-    "c": 149.69,
-    "s": "pre"
-   },
-   {
-    "t": 1795648800,
-    "c": 149.73,
-    "s": "pre"
-   },
-   {
-    "t": 1795649100,
-    "c": 149.65,
-    "s": "pre"
-   },
-   {
-    "t": 1795649400,
-    "c": 150.0,
-    "s": "pre"
-   },
-   {
-    "t": 1795649700,
-    "c": 150.24,
-    "s": "pre"
-   },
-   {
-    "t": 1795650000,
-    "c": 150.3,
-    "s": "pre"
-   },
-   {
-    "t": 1795650300,
-    "c": 150.0,
-    "s": "pre"
-   },
-   {
-    "t": 1795650600,
-    "c": 150.34,
-    "s": "pre"
-   },
-   {
-    "t": 1795650900,
-    "c": 150.52,
-    "s": "pre"
-   },
-   {
-    "t": 1795651200,
-    "c": 150.38,
-    "s": "pre"
-   },
-   {
-    "t": 1795651500,
-    "c": 150.91,
-    "s": "pre"
-   },
-   {
-    "t": 1795651800,
-    "c": 151.34,
-    "s": "pre"
-   },
-   {
-    "t": 1795652100,
-    "c": 151.42,
-    "s": "pre"
-   },
-   {
-    "t": 1795652400,
-    "c": 151.87,
-    "s": "pre"
-   },
-   {
-    "t": 1795652700,
-    "c": 151.75,
-    "s": "pre"
-   },
-   {
-    "t": 1795653000,
-    "c": 151.82,
-    "s": "pre"
-   },
-   {
-    "t": 1795653300,
-    "c": 151.84,
-    "s": "pre"
-   },
-   {
-    "t": 1795653600,
-    "c": 151.47,
-    "s": "pre"
-   },
-   {
-    "t": 1795653900,
-    "c": 151.53,
-    "s": "pre"
-   },
-   {
-    "t": 1795654200,
-    "c": 151.42,
-    "s": "pre"
-   },
-   {
-    "t": 1795654500,
-    "c": 151.22,
-    "s": "pre"
-   },
-   {
-    "t": 1795654799,
-    "c": 151.22,
-    "s": "pre"
+    "t": 1795801434,
+    "c": 149.04,
+    "s": "reg"
    }
   ],
   "pre": {
-   "t": 1795654799,
-   "c": 151.22,
+   "t": 1795789500,
+   "c": 151.9,
    "s": "pre"
   },
   "post": null,
@@ -995,25 +560,25 @@
   }
  },
  "tech": {
-  "close": 149.3,
-  "prev_close": 155.38,
-  "chg_pct": -3.913,
-  "sma20": 172.4775,
-  "sma50": 203.6544,
-  "sma200": 202.8741,
-  "rsi": 37.4514,
-  "macd_hist": -0.6741,
-  "vol20_ann": 1.2402,
+  "close": 148.985,
+  "prev_close": 149.3,
+  "chg_pct": -0.211,
+  "sma20": 169.2438,
+  "sma50": 202.2473,
+  "sma200": 202.6688,
+  "rsi": 37.345,
+  "macd_hist": -0.1878,
+  "vol20_ann": 1.241,
   "vol_median_1y": 0.3722,
-  "boll_up": 218.9961,
-  "boll_dn": 125.9589,
+  "boll_up": 212.7562,
+  "boll_dn": 125.7313,
   "hi52": 243.37,
-  "drawdown_pct": -38.6531,
-  "avg_vol20": 337302960.0,
-  "volume": 366571900
+  "drawdown_pct": -38.7825,
+  "avg_vol20": 350980045.0,
+  "volume": 148186837
  },
  "verdict": {
-  "score": -3.55,
+  "score": -3.92,
   "level": "เสี่ยงมาก",
   "lean": "โน้มไปทาง SELL / ลดสถานะ",
   "key": "vbad",
@@ -1025,8 +590,8 @@
    },
    {
     "name": "แนวโน้มระยะกลาง",
-    "value": 0.5,
-    "why": "SMA50 > SMA200"
+    "value": -0.5,
+    "why": "SMA50 < SMA200"
    },
    {
     "name": "โมเมนตัม MACD",
@@ -1045,8 +610,8 @@
    },
    {
     "name": "ข่าว (sentiment ถ่วงน้ำหนัก)",
-    "value": -0.3,
-    "why": "ค่าเฉลี่ยโทนข่าว -0.15 จาก 51 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
+    "value": 0.33,
+    "why": "ค่าเฉลี่ยโทนข่าว +0.16 จาก 54 ข่าว (ข่าวแหล่งเดียวนับครึ่งเดียว)"
    },
    {
     "name": "ความผิดปกติของกราฟ",
@@ -1057,17 +622,17 @@
  },
  "anomalies": [
   {
-   "key": "gap-2026-11-25",
-   "sev": 2,
-   "text": "ราคาเปิดกระโดด (gap) -7.29% จากราคาปิดวันก่อน"
+   "key": "dx-2026-11-27",
+   "sev": 3,
+   "text": "Death Cross: SMA50 ตัดลงใต้ SMA200 (2026-11-27)"
   },
   {
-   "key": "dd-2026-11-25",
+   "key": "dd-2026-11-27",
    "sev": 2,
-   "text": "ราคาต่ำกว่าจุดสูงสุด 52 สัปดาห์ -38.7% (เข้าเขต bear market)"
+   "text": "ราคาต่ำกว่าจุดสูงสุด 52 สัปดาห์ -38.8% (เข้าเขต bear market)"
   },
   {
-   "key": "hv-2026-11-25",
+   "key": "hv-2026-11-27",
    "sev": 2,
    "text": "ความผันผวน 20 วัน 124% สูงกว่าปกติ (ค่ากลาง 1 ปี 37%)"
   }
@@ -1075,55 +640,55 @@
  "sentiment": {
   "stocktwits": {
    "messages": 30,
-   "bull": 18,
-   "bear": 1,
-   "bull_pct": 94.7,
-   "watchers": 695330,
+   "bull": 10,
+   "bear": 8,
+   "bull_pct": 55.6,
+   "watchers": 695531,
    "sample": [
     {
-     "tag": "Bullish",
-     "body": "$NVDA stacking NvDa and $MU 🥂 💎 Santa Rally 🧑‍🎄 🚀",
-     "user": "DocMP",
-     "at": "2026-11-27T06:12:08Z"
+     "tag": "Bearish",
+     "body": "$NVDA ok!! Loaded puts for 12/11! Should sell off shortly and I expect a massive drop when 10Q is filed next week",
+     "user": "Nvidiato85",
+     "at": "2026-11-27T17:43:38Z"
+    },
+    {
+     "tag": "Bearish",
+     "body": "$NVDA $SPY $QQQ $DJT https://www.economist.com/the-world-in-brief/2026/11/26/b2d4bc93-91f1-4f31-8b28-0ad903530532",
+     "user": "HydrogenH2",
+     "at": "2026-11-27T17:43:07Z"
     },
     {
      "tag": "Bullish",
-     "body": "$NVDA You have much to learn grasshopper. A company&#39;s market cap can increase by $1.22 trillion without $1.22 trillion of new money entering the stock. Market cap is simply: Share Price × Shares Outstanding If buyers",
-     "user": "jimandjr",
-     "at": "2026-11-27T06:11:50Z"
+     "body": "$PARA $ANT $NVDA Wondering how AI investment translates into real-world commercial applications? Here&#39;s a demonstration of Parabolic Technologies&#39; newly launched OpenReel AI agent. Don&#39;t just talk about the p",
+     "user": "Q_007",
+     "at": "2026-11-27T17:42:59Z"
     },
     {
      "tag": "Bullish",
-     "body": "$NVDA rocket mannnnnn 🚀",
-     "user": "Stonksgoup11",
-     "at": "2026-11-27T06:10:48Z"
+     "body": "$NVDA hey bears, just cause media makes hit pieces that doesn&#39;t create grounds for a harassing investigation against Jensen or Nvidia. It has been repeatedly stated there is NO EVIDENCE of any wrongdoing or any expor",
+     "user": "danglino",
+     "at": "2026-11-27T17:42:49Z"
     },
     {
-     "tag": "Bullish",
-     "body": "$NVDA Big shorts covered and are long now.",
-     "user": "BigCheeze2014",
-     "at": "2026-11-27T06:10:37Z"
-    },
-    {
-     "tag": "Bullish",
-     "body": "$AMD $NVDA $BB $SPY $QQQ",
-     "user": "TheUnmaker",
-     "at": "2026-11-27T06:09:41Z"
-    },
-    {
-     "tag": "Bullish",
+     "tag": "Bearish",
      "body": "$NVDA",
-     "user": "johnnys_enchiladas",
-     "at": "2026-11-27T06:09:30Z"
+     "user": "Bullish17",
+     "at": "2026-11-27T17:42:35Z"
+    },
+    {
+     "tag": "Bearish",
+     "body": "$NVDA $SPY $DJT https://www.ms.now/news/lawmakers-lining-up-investigate-nvidia-jensen-huang",
+     "user": "HydrogenH2",
+     "at": "2026-11-27T17:42:18Z"
     }
    ]
   },
   "fear_greed": null,
   "vix": {
-   "value": 26.8,
-   "prev_close": 28.29,
-   "week_ago": 28.44,
-   "month_ago": 18.39
+   "value": 24.5,
+   "prev_close": 26.8,
+   "week_ago": 35.89,
+   "month_ago": 17.52
   },
   "analysts": null,
   "history": [
@@ -1462,247 +1027,189 @@
    {
     "t": "2026-11-27T06:13+00:00",
     "bull_pct": 94.7
+   },
+   {
+    "t": "2026-11-27T17:43+00:00",
+    "bull_pct": 55.6
    }
   ]
  },
  "outlook": {
   "themes": [
    {
+    "key": "china",
+    "label": "จีน / กฎส่งออกชิป",
+    "count": 1,
+    "tone": 0.0,
+    "example": "Jensen Huang Said Nvidia's Blackwell Chips Were Too Big to Smuggle. Bloomberg Just Found Them in China.",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVFFxcDZScGhzNVF0WnNxUDh6TXFibTdpaFc2NWxjS2EwcnQyc0FYWGRTTk56YUpxWnRyT1RHNlQxWEpHVmRURmJic1lRaUNXNEVrLUFpLVlsM2xwaXU1ZHo0d24xcGV2ZjBkUjc0dTJKNHZCZjJrb29MbDJ3b19WSVpPdGVZTjFQMHFjT1FVN3U3RHEwanB2aG45VmV4bHRBZzVzclJVdDVubDYtSk93YUIzcjN5aFQxNExVbTFwMTQ4R0pwbjN5RWRUUVNYb1hVS3hNYmtsRTIzQUhi?oc=5"
+   },
+   {
     "key": "demand",
     "label": "ดีมานด์ AI / Data center",
     "count": 1,
-    "tone": -1.0,
-    "example": "Nvidia stops AI GPU shipments to Southeast Asia amid purported China cloud access ban, report claims — data centers in Singapore, other countries, in trouble as Commerce Department requires cloud providers to obtain export license",
-    "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxPdGpodGZZZkhBY0lBaUZWMkM4QTFrYmJSaHM0ZVRKX2RtYW5UcE5EeERHbHBSZ1QwY0xUaGIybEcxY2pFU0J3dXQtV1lXWkRFbHZOOGFha1hiOEJyb18xb0tjV3NadDR0c015SjdvZ2VvVXJPN1BrSDJsZm9OWWtBSkFpN0g1R0RYRFB6bXJZS0hQVUl6TXdNSDVKa2lVSlJfYUtkLUVRWlVLLWx6MEdkN2FpSUVqeU5zSHVyeUV3Q3RhRGFXZ2lMZnFOSlg1ZzFUdmRiTVhPUk9ZM1EwMzBjWU0zV3k2bzNOZ21sQnE5NkFaODNISE41Q1BfMWwxNUtWbWFXZmNYQjQyYVdXaXI0cDdvcVIwMjV0T2Y2N3l4b09ST0NLbnM0ZnVsbXNsY3hmSWV4bldvT0VMUXg0MTEyZDV6NXNFTkpEQVJiQlhKYWxXeDNwQlNSbg?oc=5"
-   },
-   {
-    "key": "china",
-    "label": "จีน / กฎส่งออกชิป",
-    "count": 2,
-    "tone": -0.5,
-    "example": "Nvidia stops AI GPU shipments to Southeast Asia amid purported China cloud access ban, report claims — data centers in Singapore, other countries, in trouble as Commerce Department requires cloud providers to obtain export license",
-    "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxPdGpodGZZZkhBY0lBaUZWMkM4QTFrYmJSaHM0ZVRKX2RtYW5UcE5EeERHbHBSZ1QwY0xUaGIybEcxY2pFU0J3dXQtV1lXWkRFbHZOOGFha1hiOEJyb18xb0tjV3NadDR0c015SjdvZ2VvVXJPN1BrSDJsZm9OWWtBSkFpN0g1R0RYRFB6bXJZS0hQVUl6TXdNSDVKa2lVSlJfYUtkLUVRWlVLLWx6MEdkN2FpSUVqeU5zSHVyeUV3Q3RhRGFXZ2lMZnFOSlg1ZzFUdmRiTVhPUk9ZM1EwMzBjWU0zV3k2bzNOZ21sQnE5NkFaODNISE41Q1BfMWwxNUtWbWFXZmNYQjQyYVdXaXI0cDdvcVIwMjV0T2Y2N3l4b09ST0NLbnM0ZnVsbXNsY3hmSWV4bldvT0VMUXg0MTEyZDV6NXNFTkpEQVJiQlhKYWxXeDNwQlNSbg?oc=5"
+    "tone": 0.0,
+    "example": "Jensen Huang Said Nvidia's Blackwell Chips Were Too Big to Smuggle. Bloomberg Just Found Them in China.",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVFFxcDZScGhzNVF0WnNxUDh6TXFibTdpaFc2NWxjS2EwcnQyc0FYWGRTTk56YUpxWnRyT1RHNlQxWEpHVmRURmJic1lRaUNXNEVrLUFpLVlsM2xwaXU1ZHo0d24xcGV2ZjBkUjc0dTJKNHZCZjJrb29MbDJ3b19WSVpPdGVZTjFQMHFjT1FVN3U3RHEwanB2aG45VmV4bHRBZzVzclJVdDVubDYtSk93YUIzcjN5aFQxNExVbTFwMTQ4R0pwbjN5RWRUUVNYb1hVS3hNYmtsRTIzQUhi?oc=5"
    }
   ],
   "range": {
    "1w": {
     "pct": 17.5,
-    "lo": 125.37,
-    "hi": 177.8
+    "lo": 125.09,
+    "hi": 177.44
    },
    "1m": {
     "pct": 35.8,
-    "lo": 104.37,
-    "hi": 213.57
+    "lo": 104.13,
+    "hi": 213.17
    }
   },
   "ai": null
  },
  "news": [
   {
-   "title": "Come for the Games, Stay for the Community With GeForce NOW",
-   "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
-   "domain": "nvidianews.nvidia.com",
-   "published": "2026-11-26T14:00:22+00:00",
-   "source": "NVIDIA Newsroom (ทางการ)",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "NVIDIA Newsroom (ทางการ)"
-   ],
-   "status": "official"
-  },
-  {
-   "title": "Nvidia ends Jensen Huang's hopes for return as CEO",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE03QnFOcVdTcXE4Nmtyem9SSFZwY2tFcU9JdHh6dWVjMDJRWG9hQVhXZ0JjZUxJQVc3dThXVXBrMmVlWDViLVFvQkc3UW1sUGFmbmdkUTl4ZUdnU1Vabi0tVDVxakNZSVBPVG1LV2Rsd3R6Q0FuU0JER0JR?oc=5",
-   "domain": "mashable.com",
-   "published": "2026-11-26T23:39:06+00:00",
-   "source": "Mashable",
+   "title": "Nvidia stock surges 31.5% as Jensen Huang returns as CEO",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fQjh4UzNpX1pnNFRpcEZBV2REalAxUG0tZkx6T2EybTVCVmNqejRseC1GenhzdHl4THdhaE1pdTFJbjZOOTVJTVB3czFKMlBWT1JCS1A3d3NfWHJLZTB5WW8wZnpwRHpLeWFtQi1XUXo2Q0l2VlJLUVotWEk?oc=5",
+   "domain": "cryptobriefing.com",
+   "published": "2026-11-27T12:07:26+00:00",
+   "source": "Crypto Briefing",
    "tier": 3,
-   "sentiment": 0.0,
+   "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 16,
+   "corroborated_by": 15,
    "sources": [
-    "ABC News - Breaking News, Latest News and Videos",
-    "Barron's",
-    "CBS News",
-    "Daily Freeman",
-    "Fox Business",
-    "MarketWatch",
-    "Mashable",
-    "Reuters",
-    "The Economist",
-    "The Hill",
-    "The New York Times",
-    "The Times",
-    "The Verge",
-    "Tokenist",
-    "Tom's Hardware",
-    "Yahoo Finance"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "Nvidia stops AI GPU shipments to Southeast Asia amid purported China cloud access ban, report claims — data centers in Singapore, other countries, in trouble as Commerce Department requires cloud providers to obtain export license",
-   "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxPdGpodGZZZkhBY0lBaUZWMkM4QTFrYmJSaHM0ZVRKX2RtYW5UcE5EeERHbHBSZ1QwY0xUaGIybEcxY2pFU0J3dXQtV1lXWkRFbHZOOGFha1hiOEJyb18xb0tjV3NadDR0c015SjdvZ2VvVXJPN1BrSDJsZm9OWWtBSkFpN0g1R0RYRFB6bXJZS0hQVUl6TXdNSDVKa2lVSlJfYUtkLUVRWlVLLWx6MEdkN2FpSUVqeU5zSHVyeUV3Q3RhRGFXZ2lMZnFOSlg1ZzFUdmRiTVhPUk9ZM1EwMzBjWU0zV3k2bzNOZ21sQnE5NkFaODNISE41Q1BfMWwxNUtWbWFXZmNYQjQyYVdXaXI0cDdvcVIwMjV0T2Y2N3l4b09ST0NLbnM0ZnVsbXNsY3hmSWV4bldvT0VMUXg0MTEyZDV6NXNFTkpEQVJiQlhKYWxXeDNwQlNSbg?oc=5",
-   "domain": "tomshardware.com",
-   "published": "2026-11-26T16:00:00+00:00",
-   "source": "Tom's Hardware",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 11,
-   "sources": [
-    "Barron's",
-    "Benzinga",
+    "Bloomberg",
     "CNBC",
-    "Forbes",
-    "Forbes Africa",
-    "PCMag",
-    "TechCrunch",
-    "The New York Times",
-    "The Wall Street Journal",
-    "Tom's Hardware",
-    "Yahoo Finance"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "NVIDIA, Jensen Huang’s Comeback, and Cancer: How AI Is Transforming Oncology",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1WOVVfVmZNVjZrcDBnbzRhRHVxRlVkQjdPUlF2SldtRXNLZF9nbVRTNDh2b0hDTWt4UGJFZ1dXSExHeTE4WUVvMldoQ1RGaVBpQXdGU2VNanc2Y3FDa01BcmNWckhDYWk1THdWcVVPUjVQMTlyUzRlVGRUWEU?oc=5",
-   "domain": "oncodaily.com",
-   "published": "2026-11-26T21:07:25+00:00",
-   "source": "Oncodaily",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 7,
-   "sources": [
-    "Barron's",
-    "Financial Times",
-    "Oncodaily",
-    "The Economist",
-    "The Times",
-    "Tokenist",
-    "Yahoo Finance"
-   ],
-   "status": "verified"
-  },
-  {
-   "title": "Trump says Huang is excited about his 'second term' at Nvidia (NVDA:NASDAQ)",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSkZtTnozZk54bWk3aGktOHJicl9GVm1JcF85X21kNVVNOHVIcUJHc0I4X1hqTGR6MlBYR0NUVUkzZTBfdEtkc2dRY3BpTHIxY2plZ1pzQTg5NEZJcUtOazEtUzFlaG5rUV9FdjhUZXJtSjNPbDlWOEJwS1hKUjIyR1QwcllKM1hiRFE2M3N1Ry1rRjhuazg2UFc1alNHdw?oc=5",
-   "domain": "seekingalpha.com",
-   "published": "2026-11-27T04:32:25+00:00",
-   "source": "Seeking Alpha",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 3,
-   "sources": [
+    "Center for American Progress",
+    "Crypto Briefing",
+    "Fox Business",
+    "Investor's Business Daily",
+    "MarketWatch",
+    "PrimeXBT",
     "Reuters",
-    "Seeking Alpha",
-    "Yahoo! Finance Canada"
+    "SiliconANGLE",
+    "The American Bazaar",
+    "The Globe and Mail",
+    "The Wall Street Journal",
+    "WBUR",
+    "Yahoo Finance"
    ],
    "status": "verified"
   },
   {
-   "title": "Denny's brings back plaque celebrating Nvidia chief Jensen Huang",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRmVBTi1nckNpeUFQb1RoU0NTbWt1MVVYSVdZNjhueVI4NHZuT05hSmJ4MmVWSjNoUi01cVAzNnQ5Vl84d0FOOTV0aW5xOXcwODFra085b1MyS3gzOExyRnFzSk9Dc1M0ZTE2WnlReFZmSmlVVWZjenZDQzhpZUQyNHVOSVlzMmpFYUwyMm8xQ3lxdXdNNVZrdGRRTFd4ZlB0SEZvRDg5N3Eycks5LTdtcGlaWEM?oc=5",
-   "domain": "politico.com",
-   "published": "2026-11-26T11:27:00+00:00",
-   "source": "Politico",
+   "title": "Jensen Huang Said Nvidia's Blackwell Chips Were Too Big to Smuggle. Bloomberg Just Found Them in China.",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVFFxcDZScGhzNVF0WnNxUDh6TXFibTdpaFc2NWxjS2EwcnQyc0FYWGRTTk56YUpxWnRyT1RHNlQxWEpHVmRURmJic1lRaUNXNEVrLUFpLVlsM2xwaXU1ZHo0d24xcGV2ZjBkUjc0dTJKNHZCZjJrb29MbDJ3b19WSVpPdGVZTjFQMHFjT1FVN3U3RHEwanB2aG45VmV4bHRBZzVzclJVdDVubDYtSk93YUIzcjN5aFQxNExVbTFwMTQ4R0pwbjN5RWRUUVNYb1hVS3hNYmtsRTIzQUhi?oc=5",
+   "domain": "247wallst.com",
+   "published": "2026-11-27T15:50:00+00:00",
+   "source": "24/7 Wall St.",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 9,
    "sources": [
+    "24/7 Wall St.",
+    "Anadolu Ajansı",
+    "Bloomberg",
+    "CNBC",
+    "Decrypt",
     "Fox Business",
-    "MarketWatch",
-    "Politico",
-    "The Economist",
-    "The Hill",
-    "The New York Times",
-    "The Verge",
-    "Tom's Hardware",
-    "Yahoo Finance"
+    "Gizmodo",
+    "New York Post",
+    "The Wall Street Journal"
    ],
-   "status": "single"
+   "status": "verified"
   },
   {
-   "title": "A Retiree Who Bought 1,000 Nvidia Shares at $122 Just Watched Jensen Huang Get a 'Second Chance.' Here's What Theirs Looks Like After a $117,000 Gain Nearly Vanished",
-   "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQdHJtLXJ6UGtVUXlGN2ZaanMySTE5ZEwwVVlQMTNUUWU1Yzc1UEJYVzVmTl9IZGhWX0w0ZWtJUU1BbmJHT2ZoOVljZ1RmaWpCcmNVQ2lWOXJ6ZXJfSWxBOVBrZW5jT1hXT3oyelN5Q3hudHVvX2R5TDhESHpkWXV6MVVCRTBTbkE4SGptRy0yb05LQUNQWTlrQnA3MXZlWUpuQ08xWjhOXzY3d0xGRlBCMG5mQmp0U3B5cUZZV2ZQTVJ6QVpsblRRN0pZS1U2eHhvR3FFeC1fN01qa1JQVG9wUERnYkRWelk0VlRyVDZ4OXQtNWJjSG1JMmJiRnJteVYxeG1ja0R1dFJUeFdkbWJIVWU5ZGxxb0szMVBoODNxQXpkZFE4NzRldA?oc=5",
-   "domain": "247wallst.com",
-   "published": "2026-11-26T16:38:00+00:00",
-   "source": "24/7 Wall St.",
+   "title": "Jensen Huang's hearings in DC will be a major test of the market, tech bull Dan Ives says",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeGV5M0pnMVZReF81VHhFUlRONDRkMW9lWmRKWlVTOU1PRUs1Ujk1WTU4azlYYjBMeWJFTEZ1TlhJTGZpcDBYMTI0UXZ5R3d0Q1c3N3Jfei1fdVc0V2QzUDI3dTRIU09CRHRyOVFveV9vb0VyZFJxWTRydlg4YU9HMTRzaVlXZnJGRVVGZ1V2VWZraEFBam5hcVJNZXBhdTZCX0xN?oc=5",
+   "domain": "businessinsider.com",
+   "published": "2026-11-27T16:05:00+00:00",
+   "source": "Business Insider",
    "tier": 3,
-   "sentiment": 1.0,
+   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 8,
    "sources": [
-    "24/7 Wall St.",
-    "MarketWatch",
-    "Mashable",
-    "The Motley Fool",
-    "The Verge",
-    "Tokenist",
-    "Tom's Hardware",
-    "Yahoo Finance"
+    "Benzinga",
+    "Business Insider",
+    "CNBC",
+    "Fortune",
+    "Fox Business",
+    "Investor's Business Daily",
+    "Oninvest",
+    "Reuters"
    ],
-   "status": "single"
+   "status": "verified"
   },
   {
-   "title": "China may not have planned Jensen Huang's affair with accused Chinese spy",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcFM1eWZxOFJEbHZVYmpkcEFxTEVyTkFVRUpVaTBtMU83d3hBNzVFMG1Scnoydjd2RTNxejBfZjdXaHYxQnFxa3RET0t3a29CSjhBOWEwZGhieWJraHo2ZlJqMHZhMlhwRC1aRllBXzQzaDhxaldFMU41N2M5a2lya0tHWVM?oc=5",
-   "domain": "mashable.com",
-   "published": "2026-11-27T05:05:28+00:00",
-   "source": "Mashable",
+   "title": "Jensen Huang set to testify before Congress next week: Here’s what to expect",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObWtRNHEyWkllczUySkpIb0RDM1VpVWxqZ0ZfM0xEY0dlLUdMaXJaVXFJOHFKQlNYOUNOSG1LVzNZS293SnlEQ3k4ZUs5LUtCSWxNOXo2X3lodjhLQmpRQzdveUkxOTI0V0ZFMVFsaGZ6SkEzeVJvXzVOekhULTJZbC1selg2T0V1R3pObDI1N3RaSXhkaENMNUhLS3U?oc=5",
+   "domain": "cnbc.com",
+   "published": "2026-11-27T15:53:07+00:00",
+   "source": "CNBC",
+   "tier": 2,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 6,
+   "sources": [
+    "Benzinga",
+    "CNBC",
+    "The Globe and Mail",
+    "The Wall Street Journal",
+    "The Washington Post",
+    "WBUR"
+   ],
+   "status": "verified"
+  },
+  {
+   "title": "Trump floats pardon for Nvidia's Jensen Huang; AZ sisters killed in Mexico crash l Morning News Brief",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN2h5cWNUU2ZFUWxnUmpxWkM3dV9FM2xPdEZNVGJOMmh3OUM4MmVnM2xlTGx5cHIyN1pnU3RwUWcwT1NJYkF2UG9VMG5kNTl0bmF4bWVqbUZYZDAydEt6NkNyVk5FZVpzU3I1bGwwS1VabnQ2WTc1TmYwZDBEeWRGNTdiUXA3LXk2N1lLUGFCbkZMVmYtQmZiTGE5S2pMRHFRekNZR2Q1WDgtSVdBQWxzUGU4bk85SXgzbVdha1Ficng3Zw?oc=5",
+   "domain": "fox10phoenix.com",
+   "published": "2026-11-27T16:45:49+00:00",
+   "source": "FOX 10 Phoenix",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 5,
+   "corroborated_by": 6,
    "sources": [
-    "Barron's",
-    "Mashable",
-    "The Economist",
-    "The Times",
-    "Yahoo Finance"
+    "CNBC",
+    "Center for American Progress",
+    "FOX 10 Phoenix",
+    "Fox Business",
+    "PrimeXBT",
+    "The Wall Street Journal"
    ],
-   "status": "single"
+   "status": "verified"
   },
   {
-   "title": "Why are Texas lawmakers calling for Jensen Huang to testify? - San Antonio Express-News",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaE9vSHhvcTBlMXhZQllZdHhjNlZINDhZNnF6WlNEN2cwZEd3eFBrMXBWSl9QMl9VdDhoUjdNU2lWcWlJb2ppckdGQTQwNXZGRVphWWdWTWF4NXlRRXF6YlZoRXVvbEdyOEdyay1wanZDbUhjakdQQWtHcTl2V3l0V3VvRDFhTEpyOXdYeGZkVQ?oc=5",
-   "domain": "expressnews.com",
-   "published": "2026-11-26T20:14:10+00:00",
-   "source": "San Antonio Express-News",
+   "title": "Trump Nvidia Stock Gain: What the Estimate Means",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZHdZTFdocm81bjk0TG4zQmRtY1duOWNrcG94US1jc1BMUXZWbXJWZmV0TEhQZ3hxYzRXS3FoMGJVdTFWMVRHZENTc3Zmc1JSbEFNM3JGMnA0RFM5ckNGS1VjcUtvUW4wQVBjd0dlbWw4cTY5QTZGUU1vdEp6MVpGLWx0UE9OY2hZSnZz?oc=5",
+   "domain": "neoteo.com",
+   "published": "2026-11-27T16:38:35+00:00",
+   "source": "NeoTeo",
    "tier": 3,
-   "sentiment": 0.0,
+   "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 4,
+   "corroborated_by": 3,
    "sources": [
-    "ABC News - Breaking News, Latest News and Videos",
-    "Barron's",
-    "MarketWatch",
-    "San Antonio Express-News"
+    "BigGo Finance",
+    "NeoTeo",
+    "WBUR"
    ],
    "status": "single"
   },
   {
-   "title": "Learn Why The Bull Case For Nvidia Stock Could Change Following CEO Reinstatement",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbEtfekZpU3YzbUh2eENiaGtONGRtOXVzcC0zWkJlOEJENW1mOGdkUC04VTd1Q0gybTFaNWpiZm5kRHMzel9RVGdXWmlia1prbXBkWnVXbnRoTkV4amJzRXBjMW1tcXNSZTlya2hka0hwQlpqZWpBaU9WdlZhU2VHX1JXcDRJeGZ0MF8ydjJZS0VEWUtwQ1E?oc=5",
+   "title": "Chip stocks lead a Black Friday rally, but Nvidia misses out: AlphaCheck",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbkxyTV9zSklTSFBpa3A3S0o3YnNudHVjamUtNlBVQWUyZ0xIb3FrS1ptbVNiR1dESHlSVGFLUERKUFZXeHlVLVlNSDVvQ3gyNDJ6UnlZUTFvOW9iTjMycG9TLWhuSUFCdjQ0X3BWelR1UXZSbjlKNHkwRDVzNW1qWlFiVkItanAwV1BsVWJYd19jVkdsYkFpYTRSUGRxdkhHLVBHZDVxV2Izbmg0NHo0R3JSakJEczB4cHd0LUxwQkxNWTBZckE?oc=5",
    "domain": "finance.yahoo.com",
-   "published": "2026-11-27T05:14:00+00:00",
+   "published": "2026-11-27T14:57:27+00:00",
    "source": "Yahoo Finance",
    "tier": 3,
    "sentiment": 0.0,
@@ -1710,211 +1217,187 @@
    "summary_th": "",
    "corroborated_by": 3,
    "sources": [
-    "CBS News",
-    "Tom's Hardware",
+    "CryptoRank",
+    "Yahoo Finance",
+    "Yahoo Finance Singapore"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Nvidia freezing chip orders to four Southeast Asian countries",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMXpmSjR3UFdsdWltYVJSbC1EdmNHT3pDZDVwNUkxMnNaQ3NWSElhNUd6WF9lM2gzNjVtWHJiTFhfMzIwVmh4THJEN01DMnBfYXFMcExvc2NxTlp3aktUR3R2VHotSUNFM0I4dEJUZ1pPcGZVUGdQUEJPbXc3Y0VfMXVJaWtwRmxBYW44bjZvSXpRN1RzaUhrVl9JZGF4bUVjYmlMUkphTkZvWU9W?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-27T14:00:11+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 3,
+   "sources": [
+    "Business Insurance",
+    "TODAY.com",
     "Yahoo Finance"
    ],
    "status": "single"
   },
   {
-   "title": "Cartoon: Donald Trump helps Jensen Huang retake the wheel at Nvidia",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLUlPdGZuLUF5cDFBSGRESTdibnFoaXVPUFFJRnROTTdNZ3J2T2tkUDVTblRsWWZvTWZSVlRmMEZ5V1VMcDk4U2MwbDJTc2pXbnFQREktNWZwRFBfNFFWNE96OGlEdTZzUExoVnZXd1hXRUs5cUdaUU9Wd0F4UGZsOVplazRJbzVmdFNXUi1zTmpOTVg2VUZreTQ0RmRSaDc1QjRvUkRTeE9VTVczd0dLWTRWUG0ycW1hUEdlenE1bm4?oc=5",
-   "domain": "economist.com",
-   "published": "2026-11-26T13:45:02+00:00",
-   "source": "The Economist",
+   "title": "President Donald Trump Just Floated the Idea of the U.S. Government Buying a Stake in Nvidia -- but It Wouldn't Fix the Company's Biggest Flaw",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNjJrdzluTE9jeFp5SG85VDJrQ2xueG5IVndSck5kbWw5dXJvbkhQVldYYU16LUhlMVdoaGhWeGl0M2dwUE5MT2g4WElfT0RPSEEycUpjQV9FVm5KS2Vqek1rVjlCYmpIa05CaXh6Q3I5N2llYURZbFJucHNiNUtrSHRxR2VRUVZrei1hY2htb0hsTHY2WGY2S2taZFZzQkVYMUE?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-27T12:26:02+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 3,
+   "sources": [
+    "Decrypt",
+    "PrimeXBT",
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "D.A. Davidson’s Gil Luria: There’s no doubt that Nvidia’s most advanced chip ended up in China",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNT28xckxxLW5zMHpOek9fMmNucGIwOUgwQzJFVHZSYWlIMGY1dEhSXy15c1pSRFZVVGx0Z1E0R3ZHRVR0OGVyd25ER2NnRHBsem4tU19na25UY01zbHBuMld6NDl0NndyNkxBaklRZjZoQTJCODlZcmVlSGpuSzhoSV9RRjFmcU5xT2NiMHctN3cyR3dzTnNoUnRmVF9vSjZHRjVuT2FfSlo1MFJ3a29DcGc0M1g4SWd1Q1lLT1cxVDd1VkxQU1hXNnYtNVZpRG1Q?oc=5",
+   "domain": "cnbc.com",
+   "published": "2026-11-27T15:21:45+00:00",
+   "source": "CNBC",
    "tier": 2,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 2,
    "sources": [
-    "The Economist",
-    "Yahoo Finance"
+    "CNBC",
+    "Gizmodo"
    ],
    "status": "single"
   },
   {
-   "title": "Nvidia's stock made a historic comeback. But who actually helped make it happen? Executive editor Joe Ciolli examines the events behind the company's dramatic rally and why President Donald Trump's involvement is raising bigger questions about corporat",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQODM4X3ZBWGdoR1l5dEhyaDhNNDNJejJ6RHNCM01yY1FER2RjamNhWjFjNy15Q1ZoZGUxM3FOX2dKZXkxVHFDNklSeDJLbE5aaGZHTTd6bHFfRWI5REl2QW9meEtxYlNHdFYtMjRRYlZOYUVwV04tYXppeEVFRHQyTFB1eXFjZGdMbzA1b1FnVDgxVE95anVhcmpMOC1tZGx3RWhLYjltdjdHc25HdXZXMV9xZ0hWOXBWdjIw?oc=5",
-   "domain": "linkedin.com",
-   "published": "2026-11-26T19:00:13+00:00",
-   "source": "LinkedIn",
+   "title": "Why Is Nvidia (NASDAQ:NVDA) Stock Falling Today Despite a Broader AI Chip Rally?",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrM0FkUGJHZTNjRkFTZV80TGZrQlJ3bWdkM3hiNF9nS2EtUWpfS1lpYW1BMGlCQ29MTzFwNDY3cnJFSmxWZkMzWjdlMjFKVGVRRmF0UGp6RHhGdS14bFZYYjZzUjB5Z1hoLWRxa3JLVUxTdHp0RDh5SjlTRmNyU00?oc=5",
+   "domain": "stocksdownunder.com",
+   "published": "2026-11-27T16:52:19+00:00",
+   "source": "Stocks Down Under",
    "tier": 3,
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 2,
    "sources": [
-    "LinkedIn",
+    "Benzinga",
+    "Stocks Down Under"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Prediction: This Overlooked AI Stock Could Be a Big Winner in Nvidia’s Shadow",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVHhteVdfcTRKd3FhTXpHWEpHY2s1clRfV3BKTlJ4UFR5MTVaY3B3WjBVekE1elhVczlwZWpMV0V4R19ic0xkSjd1RlpwcFRvVnhaRHVWb012dHd2MEpwSkJjY3FOY3EyV3NKdVQwYWplUUpoY1o1TjM3cjdocmpNRFpXWUNHaFRvTDMyV1pMYkR3cnR0YTB3bTZaRVVEOUNUdnZCRklqeEdCVFhyVDM4ay16NWNZWHhWNWhR?oc=5",
+   "domain": "247wallst.com",
+   "published": "2026-11-27T15:33:00+00:00",
+   "source": "24/7 Wall St.",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "24/7 Wall St.",
     "Yahoo Finance"
    ],
    "status": "single"
   },
   {
-   "title": "Opinion | Zohran Mamdani Has a Nvidia Revelation",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdnl6N1ExaU5KTHh3TnFTYzlHN1JBYk9OdkdSa3d4RE1TRklBcndIMGpXWlBRZTFHWnZrZTduQkxsLVVoQ3pqTzlMT2pJRVQ3SHhPaGdkY1dTdEQ3UlRBNU5XUWRudlhsSDQwdFB4Q3owYjVYeFlpMlgxajhxVUFSRg?oc=5",
-   "domain": "wsj.com",
-   "published": "2026-11-26T19:05:00+00:00",
-   "source": "The Wall Street Journal",
-   "tier": 1,
+   "title": "Nvidia Stock Had Its Best Day in 23 Years. Huang’s Return Revives the AI Bull Case.",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMzY0Zi1XeWw5NUZOZ3RSWHNRM29JQVk0TGNTVkxLZWRWLXBKdk5aVWhpMC02Uk9Wc3lhSWdIbUU5QmlhenBrdGRKY2FEUFNZZlVfUUxuUHh5cTdrNHNCZlhVb05STFVycWNHY1NTVkVydm04NVk5dkprSk1sczZQd1FfOWE3Z3d0OUxRVWF3cmVQaEVMOGRXTngzY293dGp0NWxZSFEtemIxWHluOGJtZjhLX3c2WTVBb25DQ05fbXIwQQ?oc=5",
+   "domain": "barchart.com",
+   "published": "2026-11-27T15:30:03+00:00",
+   "source": "Barchart.com",
+   "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
-   "corroborated_by": 1,
+   "corroborated_by": 2,
    "sources": [
-    "The Wall Street Journal"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Opinion | Does Nvidia Really Need Its Brilliant Nutjob?",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQWtFWC1COVRvQTMzbUtZQzl1SWVhbmQtUHViSFZaUjFQUzJOMDBXVVVvdkVlekhCVjYyNk1yZTRyOXd1ZU1OejRhSGJIR3hFNUFGaWltT3dwTmIyV29jZkVSOWtwN2dUVVJCb2FfRUpCSkNTdlFrMFpEUjJlZ3FQV2JqZUlhdGYw?oc=5",
-   "domain": "wsj.com",
-   "published": "2026-11-26T18:10:00+00:00",
-   "source": "The Wall Street Journal",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "The Wall Street Journal"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "A New Figure Emerges in the Nvidia Chip-Smuggling Saga",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlhNXzR5WjJQLVh5WHE1dW1mdFE4MmZreUtrNHRhOVh1NEd5d2p5cjNkSlZRYzY0eU9wZUlfNms4NXM2Z1VnUDdUdnZkR20tekRUX1B4Mm01ZEJTVmFyMWdEdnFjVWFiMkFNZm5tTWtPVmJZV3ktMmdjQjdKQWY0blA1V210MGl3Q0ExTnRsZHpiakQyNWEw?oc=5",
-   "domain": "wsj.com",
-   "published": "2026-11-26T13:03:14+00:00",
-   "source": "The Wall Street Journal",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "The Wall Street Journal"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Nvidia’s ‘great man theory’ is flawed",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSHd4NWdic2VObXZYQmM1Q25PbHVDNDdOUFluUjI3aEZ4V0Q4MDJKc0dzUnBtclprYVppaTV4VmlKM3lNS2p4R2F5WjhEUEV2Uy03S2tYOEhHLVBhMjQ5ay0wcWRpYjA0ZjREak8wa0xVZVBabUVCdUJueV9RYmJlY0l5YmY?oc=5",
-   "domain": "ft.com",
-   "published": "2026-11-26T12:56:10+00:00",
-   "source": "Financial Times",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Financial Times"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Breakingviews - COMMENTARY: UAE's Nvidia free pass is less free than it was",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM0U5aFdVVFZINnhmMG15dG1aQnowQnl5R3Q2TTZscmlOZjYwOEltdy10TVlxb2RuVkF4X0VXVnVwdF90LXAyY0FKb2Q3bTFmcEUwQnlER3c3c0pENkR3MUljQTRISlEtSV9VTmpYRUowWTJ6dWxaVTVOb25acjh3ellEVVZEeHJqTmNNdEVxTXJ0V29FYXdNWUlYc1R4UUotSkswNzRFQTNOdk0?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-26T11:18:03+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Reuters"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "China's Weimob plans own GPU cluster with Nvidia's RTX PRO 5500",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdDJDTURTXzhBM01qbWY1b2IyN3JBcFN5a0lLRWtWU3hndEMxT2xpRkVScDZJLW1TUXNFOWhzUnpyTkN4THlTOG9HV0hmYWU1TDlGVXhVQUdqOWRESTFZMHM0MUE1ME9LNWREc1VsWEVpcVJhaEliZWVvZG1ZckpKV3RmZlQxZlBZVWVndHlrVF8tbHR6RnNxYUhCcTNCcm54dTdkNThzbXpzeHU0NTdwN2dCVFNaQWs?oc=5",
-   "domain": "reuters.com",
-   "published": "2026-11-26T11:00:40+00:00",
-   "source": "Reuters",
-   "tier": 1,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Reuters"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "'King Is Back': Nvidia Boss's Return Sparks Fresh AI Deepfake Deluge",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX3REQU92MUxwR0NrMVJUc1otS29wN3hHTWttYm9VOHJlVFhxbXdxUDducHFUcUt3c05SOTQyNHNybFJXTzY2Nm56RHRkQmtOQW96Nzl2UXFvU1hveFp4RV9fYUxvSnRBclgtUHdkdG1jRU82Rk1mcXVkNWROazdsY0dWYTFzUXFfTTdKT1E1T3NOdnByQnI4Y0tSN2djRUk0eVhPSEx3?oc=5",
-   "domain": "barrons.com",
-   "published": "2026-11-26T19:59:00+00:00",
-   "source": "Barron's",
-   "tier": 2,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Barron's"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Nvidia, Kioxia team on AI server memory as alternative to South Korean chips",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNjFCSjA5NEktUE5YYlJCR2ZxMVNaTE1QQTRUMXdFM2VBZU83UkFvMlBXWE9DOHI3WnFKZDB0emNyNUFWYVByWkxxeHRHcnhKTzg0dVhqMnNLVHBSTk40ajlBWUZmcGlxdXZqMDlabXVxVERxUlA2Vzl6VEtrajFNa243cWY5ZC1kMzM4ellUNnM4Nmljcnk5OUNLdjhMTHNkWnZNN0VlU2NFbjFYckVzNXNaSFFyTzBNUEFqSEdxcFJVYXJNTlpv?oc=5",
-   "domain": "asia.nikkei.com",
-   "published": "2026-11-26T17:15:00+00:00",
-   "source": "Nikkei Asia",
-   "tier": 2,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Nikkei Asia"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX25IV1otSXF1N2JqSWF2MDlxaUJtanYtaE1hcUF6SE9tdDg3YzZtXy1tbFhTQm84cXBtdG1TTmxaUUxSYzZockR4dXZ1TjlfYnhDVFJMVXJ5eVBPNTZFeHBSb0NaRnZqZjFqQXhYRVFWTDc5ZmZOa0FDV2hXSm54ejQxZGhwUnp1RlBDQlIyS3FVMm51M3doTHd30gGfAUFVX3lxTE1jYVNXRlpkVERiTmJDMWJLN3dsTzI5M0VNUkZEckFOeFBlUGNMZUVFaG13VmVWdmpsbTVucUhERmRXZkk0MGQ2RFAwdVBjT0dpSE5lUWVGUGZoRS04RFRYTzU5ZEw4MnJRUFZ2NVhwMWVVb1l3UnVNcFBaY21abll1MHVxcXEzV2FfRnlSeVZkZWhkRFdoa054b0hEM0w5OA?oc=5",
-   "domain": "cnbc.com",
-   "published": "2026-11-26T16:00:01+00:00",
-   "source": "CNBC",
-   "tier": 2,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
+    "Barchart.com",
     "CNBC"
    ],
    "status": "single"
   },
   {
-   "title": "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ydHdQWUpYRU16SjgyRXBibzZ6UFN4RThEMUV3VkRJV0NCNmk1Nm1wTFlvTnpsLS1VVHdmczlIQjZRN0RKZnlBdm5oSmFUY0lCaWV5dTY2bDBiRHcyV0lfMjk3ZS1TQW1oM3F0TTJFRdIBdEFVX3lxTE1hb0dnX1V6U3RzcVduQUhNcHBONFFMMVVaaThOcEc5dy1EOVMwUXBVM1lSMWljNm12aTJXT0FvMWdkaUdyTEZyZGY0dHJ0R3kxQllKQ2RaMl9MYmxIY2pHcTh6TWVDRkhCSkVqUVUtbVFOam81?oc=5",
-   "domain": "cnbc.com",
-   "published": "2026-11-26T15:34:08+00:00",
-   "source": "CNBC",
-   "tier": 2,
+   "title": "Data Center Capital, NVIDIA CEO, LQMs: The Week in AI",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQkZfQmpVNDU4WnFrSk1tRzc4OHl1R1VzLU5wZ3dRWnFFRVpYOTdNbFpyRV9BWXpXcW0yY21USzhubDJSWFRlczlzQzdkQWwwMVVFWWJGYWJGQjF6VE8tNjNObEJnaGszemxSc2MyTnhqQkRaekZOS1BjanFPZUZTRHhTeERjYzI5MU9ydkNQRXUxaDg?oc=5",
+   "domain": "mexicobusiness.news",
+   "published": "2026-11-27T14:10:11+00:00",
+   "source": "Mexico Business News",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "Gizmodo",
+    "Mexico Business News"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Jensen Huang Says Business as Usual at Nvidia ($NVDA) while Samson Mow Pushes for Bitcoin focused Board Seat",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWmhDV3B4U01NYlJkMVV3UDEyM0k4eV9MT3hVNjB2aTdoNXo5TzJBOXdodzFtYVNvTl9VRnhNTUdyZ2tpUzhadTQxeHVEbTNkMTdCY3JXSHZkTVdIXzhwR0pwNUNtb1VVZ0lIUk96VlIxVHpvNXZOaW90S0xsMlVQRzB2ZHBndGdTXzZvYnVldkhOVExqVzVKbXE5QWdkNktGLUR2dTRHS3B2NjZoZ3kzbjVfU0kyaEpZM0xSb0xoVHZxMHNzMG9ZSFgtaU9MTlNSWWFqR1FTaHN3bmhyMVpoOHd6ZFNqc2ZOclE?oc=5",
+   "domain": "crowdfundinsider.com",
+   "published": "2026-11-27T12:24:15+00:00",
+   "source": "Crowdfund Insider",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 2,
+   "sources": [
+    "Crowdfund Insider",
+    "Fortune"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Nvidia’s Rally Ripples Across Markets",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbmRrWGlNNEhKN1FYMEt2NmxkREM3N2toWEt1QW9NOW5ULUt5MHpuRmdjMnI2MnpzbnFIdVdTcFhXMEJDZkNFenAxSWM5aWdaYVZyLVFwTjhFODJ0dUNIWGdmdkZ2ZFhBSnE4YjJZYXFDSWRZc3NTcHJSb0FvcEduX3Y4M1JINDZRaDlKMEZLbkJjLXRMMGM0Skt6V2FXZXlTZFV3bE93?oc=5",
+   "domain": "wsj.com",
+   "published": "2026-11-27T17:16:13+00:00",
+   "source": "The Wall Street Journal",
+   "tier": 1,
+   "sentiment": 1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "The Wall Street Journal"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Is Nvidia Becoming a Government-Sponsored Enterprise?",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQandkMDZHXzV5SWJBdDRQSHpVVER5YWxfVWkzTUZYM2p1S3JmdV9ldjNBUnMwYXFycFNKc2MxUUpENThSTThhWkpGMTRYRFVJcWZuTFByYjhsRk1DMWh1OHhTZEc1a3hZV1dwSE1vRUhFYTQwWERrS01XOTRhWllnN1dvYVQ3T1liMmNTcnM1ckwzdnYzOUxDNnlpSDVPUQ?oc=5",
+   "domain": "wsj.com",
+   "published": "2026-11-27T13:53:22+00:00",
+   "source": "The Wall Street Journal",
+   "tier": 1,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "CNBC"
+    "The Wall Street Journal"
    ],
    "status": "single"
   },
   {
-   "title": "Opinion: Nvidia and the whole AI trade aren’t out of the woods — not by a long shot",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNckRMcWF2UHFHa1RwWmRiX1VTdVh4c0ZVYXpKbnpETjNxT1NSU1VBcDRKQmQtT3FTbHBNNF84Sm8tbXpBa25VQXNqMC05S1puSkxiODVMSWdYT3NocXl6MEE3WE5VU2NwZzlFdjFyeWhodUxTN0pPQXVMcDdNTzRzRDA0UmVUZFVRNWVMaWtYQ3N4QTVLWEItalN0YkFqbV9aMjdmRGo1R0lWQktqWGlaMkZNSk8?oc=5",
+   "title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMWh2ems4azAwYlZLLXh2X20zd0RsLWR4RFc1N1BmZ0NQTFpka096dVROdlZlYkV3SUQwcFdTNldWci1lZk9UeGlrTHNQRWo0RS15eE41Qm53N3c0LVBXNm9UOVJDV2RCUmQ1cmRIcW5xdEZMam5pakRtV0ZtY1FwSldDUmJTbG5rZnhmZVNybU5HWGRyRFB0V3l6NDJmZXBhYWVjai0tazBpN1hibE85bjFDRWV0WEdHcm9CZUJvWllEY0RrajlqZw?oc=5",
    "domain": "marketwatch.com",
-   "published": "2026-11-26T14:00:00+00:00",
+   "published": "2026-11-27T15:52:00+00:00",
    "source": "MarketWatch",
    "tier": 2,
    "sentiment": 0.0,
@@ -1927,141 +1410,109 @@
    "status": "single"
   },
   {
-   "title": "World in Brief: Trump proposes fresh tariffs; S&P puts Nvidia on downgrade watchlist",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaWFRZEFtU0Fkd1RTUW96WlpFY2xXSDgtZ0F4d2paVU5VdUlvY3d6ZmVPUTlnbGI5QmJGY20waE9rX3hRQkVQNnJzQ09PQllKTmN3NE5jak5CUndwMXVHZmpVN3RjVUtCUHNJUlVicDVxMERxTURSQ2hpTVdTRHltZmFDa01tUlZ2SzFnSXRJS1lsSUk5TzhV?oc=5",
-   "domain": "economist.com",
-   "published": "2026-11-26T11:11:22+00:00",
-   "source": "The Economist",
+   "title": "Nvidia Stock Slips. It’s Still Finding Its Floor With Huang 2.0.",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1qVUI0cGtEYUtyUERNQk1nMElsa0dsZzBGOUJoM0Z3SGFpZE1saHJ3QTVBM0N5M29ISzJhc3RhaUw4cmkwa2Q4UHBoV3V1TzA3LTlHU3dpMEF3d0dJd0YxVDIzWXM5eWhUY24xSVkxeEFkR25R?oc=5",
+   "domain": "barrons.com",
+   "published": "2026-11-27T15:26:00+00:00",
+   "source": "Barron's",
    "tier": 2,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "The Economist"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "The Nvidia Scandal Exposes a Bigger Failure",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMVVhX1RLVGl0MGZ0bXYwbFVXRkZBVzZYT2YyNDJMd2FxZHhjVjBkRmVwbFFSTThEbWZnREpPdVd3NExTWERFTldPOEttRGw5WHlZZW8ydHlvMTV3eFg2djRPT1lodHhvS21tejUtNUthTDNndGplTWFIRHFmenB4SEV4Y0VxM1U0TFVr?oc=5",
-   "domain": "thedispatch.com",
-   "published": "2026-11-27T06:09:06+00:00",
-   "source": "The Dispatch",
-   "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "The Dispatch"
+    "Barron's"
    ],
    "status": "single"
   },
   {
-   "title": "Opinion - Bill Straub: Despite Trump’s downplaying of CEO’s transgressions, his Nvidia problem isn’t going away",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeTV1TjBRZmNOWHhsNDJEdzNwZ2JIUDhDZXRyRDZvVkgtbEE2eW96OXFIYmJIcVdoM3l1V0psTVVGdjFqTWJyUlJkRDZ5Z3JYNDFCdkZOZXQ1S1ZvOXd6YV9qWmRRdEFETXpXUEgwMUVNTmVLNm5BcFRRcEpzak5zZVpDVGg1S0VEUUlvYWtSS0VvRGVybTRiT2ZDaWN6amlNSDNRWV9hS0lyc2taU1hrQVctLVlUTFowb0ZjUHR2N3Q3UEFOTHVmQVZpQk1Rb3NrSWc?oc=5",
-   "domain": "nkytribune.com",
-   "published": "2026-11-27T05:30:22+00:00",
-   "source": "Northern Kentucky Tribune",
-   "tier": 3,
+   "title": "Sandisk, Bloom, Marvell, AMD, Nvidia, HP, and More Stocks That Explain Today’s Market",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14UUVNa2RYOGJ2eHdTeDh6WnpuZFJrU2ViWTVwak00dUxXU1R2RlI1YW9INk12TTBwbnNhS1pWMl9Kc0UxaWFoVU1mY3lLRjd0UWpEanExVHVOM2pWc01qMExaRWM?oc=5",
+   "domain": "barrons.com",
+   "published": "2026-11-27T14:56:00+00:00",
+   "source": "Barron's",
+   "tier": 2,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "Northern Kentucky Tribune"
+    "Barron's"
    ],
    "status": "single"
   },
   {
-   "title": "Gazette-Mail editorial: Nvidia to Grand Theft Auto: Hypocrisy abounds - Charleston Gazette-Mail",
-   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNVWNhWEpYMWQ3cS1BZWJqaDhRc2h3RTZtOXhFZEc4OVdJTUkzTTI0NGxUbldmbzNWWnlNZ010OG15Z0wzcVZMNHZhS054eWNqOEVaTjg4WTkxdWpGcVh4TDRBcXJKUTU2cG5pbHg3V05jdFB5RWJhWlF6NHRmcFJ6Si02N0JDZDRmQXlucldhV25wb3J2VFFWdzNYYjRqM1JocEh0VXB1cmNfT19zdjBjRnpVNm1DOVJmWTJpc2xQX0ZYZENMaUx3T1MtQkNnb2QyTkQyQnFESlBTN2NSY3pQNWtKbmFUQ3pwaUswRksyVGZfb0NxZEUwLQ?oc=5",
-   "domain": "wvgazettemail.com",
-   "published": "2026-11-27T05:30:00+00:00",
-   "source": "Charleston Gazette-Mail",
-   "tier": 3,
+   "title": "Nvidia’s stock has tumbled 28% over one chaotic month. The next big test lies in the week ahead",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeURNTkpvdzc0bWdfT2lqa1k5OHMtYm8yWnBCQUllWk45bUp2d0lVazFWV3hQTUVMWVRVdjV3c0d3MFBJUWxfb0RRY283eXE5M3U5ektvSnhfV1FFNkpST3Rvb0JYRWw3bmVlMUVWMHZlSEQxOUFkVXEwV19zNi1ZXzJNMWhNblpLUW9DV29NcHljT3VJNnRLeWZwanRSMGl1X0c2YUVwaGlWX3hUOWEzZUI2VVA3R2ZIV3BZcEZjQThzMk1yWThBUFl2bmI2Y1ZV?oc=5",
+   "domain": "marketwatch.com",
+   "published": "2026-11-27T14:56:00+00:00",
+   "source": "MarketWatch",
+   "tier": 2,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "Charleston Gazette-Mail"
+    "MarketWatch"
    ],
    "status": "single"
   },
   {
-   "title": "AI Bubble Bear Market: Tech 20% Off Highs, Nvidia 9x",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVzZwbDRLZWxHbFVTVEpNbDdiM0h6SmRKVS1MblZXbHFwT1J4U3lhSEhZbklRMjBfZ2FIbzdqcEhvVVFKNWQwdjhRb2NSeGhpRDV1eGcxQ3NPZkxFeWxaMVZESkYtM0tZN0U5cGNGMGx3WVVQY2N2dUxNWU5nQXJrQXhnMmFjTm1wbURLR1pHNno4c2xwSUl3?oc=5",
-   "domain": "shattered.io",
-   "published": "2026-11-27T04:49:59+00:00",
-   "source": "shattered.io",
-   "tier": 3,
+   "title": "Watch CNBC’s full discussion with the ‘Squawk on the Street’ crew on markets and Nvidia updates",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNM0pva2RDQ29yRERXaEZqckx2b3YzM042SEU1dVRuSmxTdm9wVmozMmlvV2tTRV92Nl9CTWlQLU5JMHAybUlqYV96X2t5SFlWdXMtZ3NHMVBtMjFoWlVJdHNneng2U1c3b0RBd1pMUzZaWjROY2Mza2M4U3U3ZElsUUZYX1JmcEFBcm05OGNDd3ZoV2ZDNUNTZ2Jtc1J4cG1Mb1VFSmhldXpKNTVWUVVxT2x0RGVneEdQaVAyQkJDRjdqelBHUElGUzB6N0FCa3Z3MUVGMw?oc=5",
+   "domain": "cnbc.com",
+   "published": "2026-11-27T14:28:46+00:00",
+   "source": "CNBC",
+   "tier": 2,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "shattered.io"
+    "CNBC"
    ],
    "status": "single"
   },
   {
-   "title": "DOJ subpoenas Nvidia in probe of customer's alleged China chip transfers",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNmhZTGtKcUI0SWw5VHdmUUVlUHdZZ3NQRmU0QlJlVm85YnFSbTdVNmVTRUhjaGFqeFQwY3hPQ2ZiTVgtazFITGxYZ3RDSF9Jb2lSeTF1WE1Zd2dYSUFkVFdzVjdIc1p1RThZUEItYXlUb2ZyUVIza1YxUFhYTmJWM0VLZnV6d1Y5VVJJQzZzaGFiRk16ekZFR1c5THM1a2ZYcmpWNks3eENHaDlDQjhocWlySW9ZUQ?oc=5",
-   "domain": "cbs19.tv",
-   "published": "2026-11-27T04:30:08+00:00",
-   "source": "cbs19.tv",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "cbs19.tv"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Nvidia (NVDA) Stock Fair Value Falls After Analysts Reassess Leadership And Regulatory Risks",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMm9pLVhQZmpyYU9BaFMzX1hIRk1jdDNIblcxQXFHVjh3SXZhZUFlRVhNRmhNaDlZYkJFVUotS3Bvbm53VGYzbjIwcUYwdVhHbzJEWWhWdG5jdjlmN1IwWTg3UlZ2TmNFR3YxWTZ2dFdQU21kMkFydFBTTERwXzNuLVZOV2VpTkU1d3oxaUdOYTk0eS0yejVDMw?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-27T04:23:00+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Yahoo Finance"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "State investigations into NVIDIA widen",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT0s4cEhWMGZjVDdiLXVYSmZSN3hUNnVWblBsV0RTTDBNR1JKSHhjQ1NpN2NkSnYyRFF4QlhCUV91Vk9nY2hPNVBLLWFhVUkwSmJ4WDZLS0w5M251OURFLXd3Vk1jU2JoRUFJeDI4ckhNQ2lsUVNkaFJwY0xYMXhtVGtNbkIzN0NSUFJvRDc4RGVrZ1dCenMyM3Q5bEpDWURoVFdFMEs1aGN4eGYxSURQbEs4VHc1akk?oc=5",
-   "domain": "news8000.com",
-   "published": "2026-11-27T04:19:00+00:00",
-   "source": "news8000.com",
-   "tier": 3,
+   "title": "Lead Edge Capital's Mitchell Green on Nvidia and the global AI ecosystem",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSmJWS1V3b25FTVlRUTVvTmlneGs0S24xWGpSQnFodHN6dFNIQUZ0aVZRZWwwdUozMVF0V3hfZlZFcjZUMnhrR2l6OGNxU2Q4d2ZudHlRTDVldzIyQVpKX0RPWnotSWlRanJzSFRNbHFVVTBPdENRZHZsZjhLcnVrb0ZWSjhIdERPNlJpNHpUWVQ4S2tBb2ViY24tOWxnVmdoRUMzdXpOd01wQVIzVTBhNGNiZl8?oc=5",
+   "domain": "cnbc.com",
+   "published": "2026-11-27T13:01:54+00:00",
+   "source": "CNBC",
+   "tier": 2,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "news8000.com"
+    "CNBC"
    ],
    "status": "single"
   },
   {
-   "title": "Nvidia Is Down 35% From Its All-Time High, Tied for Its Biggest Drop Since the AI Boom Began. Is It a Buy?",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZzFndHNoRTl5ak1qTEtMYm5UNlZib3hqc2ZpZWFRcWE5ZjZlVGxvUWFReGpLdUpGT25BVVl0Smo4VzE5ZzYyb0sxSE80Yng4SlNLQUF5eFdFTUc4SEZ2a3RfRVZscE1ub3BibVpiclRfWTE3anc2Qk5saUtCV2Y2eDNJMExEeVc5eFBUdU9ILWVxZDN0VExKVW5mMXBiZVo5enZmVW91RzJ5TEVOeDZKRTZsLVVFNHVTcUJpek1qNUhaTE5vZ2NIdVhrOVBsenoxX1V6S1BielFIZ0pPcFE?oc=5",
+   "title": "‘My life is in the stock market’: Recent volatility is shaking up holiday spending plans for these shoppers",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNcE9mOFpzWmp4WWRTX0NlTmluWXViNlRBUGFXcllTOWV6T0lHRkhfV0tsRndZS1dfQ09KaEo2djg2dFpjamN2UWVLSVVQSTllU3NHb09CUVlIT2RVdjE5VzE3NDJvdVJqMHpRcWhDd0dMckszQlJ5TVViMU9sa1R0eDBLMkhoaHlFNDFXMVNCWjhWTUpLUkVlcDZWM3VmRG9HTTA1MjhHaG1ySS1fNTVpYkFtQjJzcll2cElWbk95dFRMZDVKVmNVSmh6dUNtd3llMnoyUXRSa1NKaFNhdlgweQ?oc=5",
+   "domain": "marketwatch.com",
+   "published": "2026-11-27T12:22:00+00:00",
+   "source": "MarketWatch",
+   "tier": 2,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "MarketWatch"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Not AMD. This Is the 1 Company Nvidia Should Worry About Most.",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcGppNUlRdlVSeF85amlHWjUwWU5XTXFiLVRmSy12SlQyVEpzU05MLXB4NlVuaWgxcmFkUmpLOEJ6UXpKeXFWNkY0LUo1OGw5aEZ3RmhpTGxnUlk4RXhPRkVzalFvc2YyU3o1U0NEM05MNy1BeWsyZmYtLVRuWEZhLUFKYUxRNk5nVnlQVzU1ajdkQ0poaWx4XzRyY05VM2hjZkNHYm1n?oc=5",
    "domain": "fool.com",
-   "published": "2026-11-27T03:00:00+00:00",
+   "published": "2026-11-27T17:15:02+00:00",
    "source": "The Motley Fool",
    "tier": 3,
-   "sentiment": -1.0,
+   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
@@ -2071,10 +1522,122 @@
    "status": "single"
   },
   {
-   "title": "SpaceX turns to Apollo and Goldman Sachs for record Nvidia GPU financing",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdDkwWmdUcUtHdGd4OUQtX1gtZGVzQlV1TFhJdXJTdGJFMS1KQnU1YzFnVER1NWN2NkJiY2RxajNENkNiSEh1Wng1ZUp3amstZ2gtbUY4aHZ2eFdGQUxwWEtpVnptRE1VUkNOLVR2UktfTk9rNmxUOWlNR3ctVUhkaEx0STBjWC1maVhrbE9CRXVGWHI2bGtDSjZoVXlvZw?oc=5",
+   "title": "Nvidia Expects Physical AI Revenue To Top $25 Billion In Fiscal 2027",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcUR6NURlUWd5S01YbXFwSzFvRVNOS1gzOExEUkwzSmFCS1VOdkM0cklhUHR5dFcwelN2Mkw4Uk55U1VEcXhrcmhmR1NmWmh1WnRPQlh2S3R0U3FvOXdkN0RVN1VjRU9BM0xpZjNiU25iQjFwZU1pbTNldmNfVjBScDdvM0JKRzFMdWZtYkdfN3lhc0o1?oc=5",
+   "domain": "dataconomy.com",
+   "published": "2026-11-27T16:27:15+00:00",
+   "source": "Dataconomy",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Dataconomy"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Nvidia Corporation: Strategic AI Technology Front-Runner (NASDAQ:NVDA)",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNGZQQ0c2MEdQbDd0WGUxUlBsVXhuTS1EOVlMMV9acXB0QTdBeW5ZVm5fV090VWwyN2VMZ0RQNS1sN2N1MVhCUzlfT0ptOUNjdUF3dzlmb19YUi03dkUyNnl1WFVTTDF4U3d3eUdYVC1jUDYzYjdjQTlya0I5S0dOSm1yMHN6SVBCbmE2ZmlYOGRBbEo2c0UxTmdZNkg?oc=5",
+   "domain": "seekingalpha.com",
+   "published": "2026-11-27T16:18:04+00:00",
+   "source": "Seeking Alpha",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Seeking Alpha"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Jensen Huang's Nvidia comeback may herald an 'age of resentment,' top economist Steve Hanke says",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdGpCLVpoQ2RnUWFwZUE4dWVmM240U2pCZ1l0WUZ5Z05tcVhhUXBvcEprMGQtUTR5YmR3VTdlYmhtZ19QOW11N1V0WndfQjhsVGZhYUl6Y0puYUFZNEtBS0MzSzFyWFB6NkJIeVFBY1paUVFHOG9LOVVtckVvU3VETHgwc1c1YTdRODZ4cGxZMU1Va2RKZGZFcHM2Wm84Q1dPNlBQYTNMUHQ?oc=5",
+   "domain": "businessinsider.com",
+   "published": "2026-11-27T16:04:00+00:00",
+   "source": "Business Insider",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Business Insider"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Nvidia: Valuing The Jensen-Sized Void (NASDAQ:NVDA)",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORkJ3aDZ6WTFiU3BtZmN5ODNWYU02WE9TU0VNT2NJNnM0WmJIemZkaEE0RkFMQV83TnhMalJaeHYydHJvT0tzOHo0d1B3VXhQckdFaEtHellRTV9qX2FzcVpwRmc5R25vYmloaHAxX193RFRvM1U0Z2lqbjRIX3FCbkpEZw?oc=5",
+   "domain": "seekingalpha.com",
+   "published": "2026-11-27T15:40:43+00:00",
+   "source": "Seeking Alpha",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Seeking Alpha"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Nvidia stock falls after premarket gains as volatile week nears its end (NVDA:NASDAQ)",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOVJpOU01RldtZlAxbERQS3dmUjk4OUl5ZmdMc1hURjdicFJQRnFvVjUxaTdNODl5SjNRemhoVUY2dHFidHNBenlwdVY1T3VaOWhoNVVheERSdGIteWFvVGhERy0wZW5vVzBtSFV3MUZMZmU4YWNOcUhBNHd3c2NiV3JNc2UyZmhOSGczQVpSeTd1UVJrUFI0cFY3OTJOUXRPOXc?oc=5",
+   "domain": "seekingalpha.com",
+   "published": "2026-11-27T15:25:19+00:00",
+   "source": "Seeking Alpha",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Seeking Alpha"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "All these Nvidia headlines are just noise: Why you should keep watching AI spending",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUjM0aGdmZWNoQ0tNekhYaU9iS0xETlRCMWpuSmp1blZyUlFNMGJHVFpWZFRSYWYyMUJCYTI5WVVDd09ibWdwWVNTNXFlbmRJV1VuUnFDNHdYSG41S1FOVjZWMnk4bFN3LUNXNWJFem9aS3BEOGdLX3VhTVR6NHZyblNxeG9Ja0VialZrNEhZWDRha0Zocm1XSUhVdVNFVFF5bFR0U1Y1ZkJlOURLMzNLWDhmNWtMNGR6OFhBNFUwbFBqU2xXbUVnUA?oc=5",
    "domain": "finance.yahoo.com",
-   "published": "2026-11-27T02:10:00+00:00",
+   "published": "2026-11-27T15:22:36+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "‘I’m a Micron Fan,’ Says Jim Cramer. MU Stock Jumps 19% as Nvidia’s Supply Commitments Hit $390 Billion.",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbGFOMGU3VHB1V0Rvcm1DOWpWcDRtN1hDMXVZT2hPTWZwdlprRVV1MnpXMktSMXNuMjFGOGZiZEU3RzcyNVRYN2hxVm9kX3hUZmY0V3dCSDVaeUcyQTA5RUwxOE53LTdieWZoVmhDZER3Q3ZPYlRsSmRGeS1ISG9RSUM0ZkZXMGkzSjNkRGNLbHN6cmsydXU4N2pub09rOFlfdEdJazBmcFNCSFBwdXRUNlhFUk5WeDFwTzR5bjN0VDVsVHlrbjVFeG96SW1QSGRfeFF6YThn?oc=5",
+   "domain": "barchart.com",
+   "published": "2026-11-27T15:21:16+00:00",
+   "source": "Barchart.com",
+   "tier": 3,
+   "sentiment": 1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Barchart.com"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Stocks snap from a $6 trillion washout to a $3 trillion surge as Nvidia, Micron, and SpaceX bounce back",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQnNIN21ZLWU4dTFmYXh6TnluRXFFY3cxNGJ6ZGZ3QnFTdmdVUF9POFExV01NQVM1Z2tTdW1KekwtOXlXeExfQmtWcVNLcE5TSEQ3Nnd5b0UxZVQ0SEVLeW1fOXFXbGxWVmlUaTE4SzZPQ01kaFAyS093VVlIaXRheHdiYVBnRndvUHRlaXlRYU56dmVGRkN4NkF0eC13R3k1VUk4eV94Q1YzY2R3akR6SXNMajV3RTNVQ2tHOU5QT3R1YU5JTFJ4eVRxSFlnelU1STFtSm5yRVdNUllYZ1F5UTJ4bWF2RzB5akFSNQ?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-27T15:12:18+00:00",
    "source": "Yahoo Finance",
    "tier": 3,
    "sentiment": 1.0,
@@ -2087,170 +1650,138 @@
    "status": "single"
   },
   {
-   "title": "Bought Nvidia stock during the 2017 crypto boom? You could qualify for a $290 million settlement",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVjY5bnM1eURUWEthM1Z6c3JtTk1CMzBfZERPdVBtVWlnWUlLRU4wd2FxamFDMl9JYkZuYU5RUktuMlNqc2FJb0tuWlB2TXhNRm1ZWlhJdUgtT0dRY3ZRNGhnc2E5bUd6d3hjTmxwRXZPQ1VoeXNNWTZIWEE2X29uME1kXzYySURuWWxYYWdrSzA5dkZNWUEyTw?oc=5",
-   "domain": "cryptoslate.com",
-   "published": "2026-11-27T02:10:00+00:00",
-   "source": "CryptoSlate",
+   "title": "Nvidia halts sales to SE Asia, SpaceX surges on Musk's share promise",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUEZiY01ybEpCUmlueVNrSVdVQjlzTFJRNVFwaV9qN3Z4SHB0NVNxeUZPYmo4bE5lZ1J5NFJfV2RaYUR1SWJUXzJrYS1DcHVTbjRqQjJGRGJPd1JsMDNVZ2piRzBUMzloenpSbnIxajF6VVppVERzVXVqY1A4a0M3Z09VY0FsQXV0bXc3ckJEdzZvVnNXc04wbEhROHlKdmhUX1laRVVKazNrNWhsQ3ljY2haQQ?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-27T15:10:01+00:00",
+   "source": "Yahoo Finance",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "CryptoSlate"
+    "Yahoo Finance"
    ],
    "status": "single"
   },
   {
-   "title": "Not Nvidia. Not Micron. If I Could Buy and Hold Only 1 Artificial Intelligence (AI) Semiconductor Stock Through 2030, This Would Be It.",
-   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOaTBJZmFiVkpRU3Y1MVlZZXVvamVQMWZsaXlOaEdmaWtLX29ndlEyc25HNG8ybFloV3Bhd0gzSGM0S1pWbnRoUmV5RVBpSWlFVkdzMW9GbnlFM1d3clVXX2dhckd6SC02RG9pMldmbXZpUjBKNlFEYkJmSWhhVjY0bVdJdnlsaE9tWnQ3S1pfTExKZHAwUmMzenJlakF6YlB2bFNYd2tueXVOUWU0MXcyU0NhdGk2VDlfdjJudW5lbDdDaDloYkZob21VTUtmNHlXMVFxMC1ZXzZObFF2UFNYbXhuYm1hOUIxV3A5MXU2X2V0WXYxYWFwR3I0MXZkRXBxQVE?oc=5",
-   "domain": "fool.com",
-   "published": "2026-11-26T22:54:44+00:00",
-   "source": "The Motley Fool",
+   "title": "Jim Cramer offers an unusual explanation for Nvidia stock’s price",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMXA2ekFKRHh2WktXb0FyeGlfcTVUS0tYbHZTMzlnQWlReDNIbUR5VFl4T3oxZ2kzM0d0dHFXVDdfckJ6aktOblhrQWhzUldDWnNqQ1lHQVgtdnphdUVVb3pPbmZkWk5tTEhXTWZkWTVGVjltek5kT0VqYlgxYU9OR0pKSmZESlVNeUxCeFFwcU1zNXZMZVNMQTBTUkJpWDJUaWhnZQ?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-27T15:07:00+00:00",
+   "source": "Yahoo Finance",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "The Motley Fool"
+    "Yahoo Finance"
    ],
    "status": "single"
   },
   {
-   "title": "Nvidia Is the Worst-Performing \"Magnificent Seven\" Stock This Year. Is It a Buy Before 2027?",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPb1JfZkFPMnBSbjY3ekF0ZUpIUHpVVUgzTDdSbEgzeGIweHFfTFRuVWc1T3hZQ1R0Ynh5UkFJRFEwRmJNMjJ2OEJIS1pRcnZkcWczcEoyMk5QYTh2MzdaTkFSekx5cUNHZHdmRXZ6NUdXbGRZSUx4VmZob3ZMeGhYblpVcW44NHVMbnUzX09XYmVWYUp1SE1NaTl3WWpsZWQzX3l6MEtjZnlXTFdkRDVuaXJ4TDFwMjNUcXUzYkFvNHh6c0NXUzNKYUh0NA?oc=5",
-   "domain": "fool.com",
-   "published": "2026-11-26T22:30:49+00:00",
-   "source": "The Motley Fool",
+   "title": "Neocloud firms face tighter terms than Nvidia’s old 50% AI chip cutoff",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaXNGdU1wdXhyTWF4UmExUkhJMnBhakVUMy15d1ZVUmJwNjliNkNOUVhnSVpHaHhUR04xNGxHRFIyaV9TNzZxVzB6N01oaDFIMUp5NXpQUkxnaHROU2Z6a0dldEk2QmRnbXJadTNSMkxfV242UHJZUzFnbUVwckJrN1ljTUJqbGxIX3dMVVctSlQyamVTRnp4R25QbDBXdw?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-27T15:04:00+00:00",
+   "source": "Yahoo Finance",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "The Motley Fool"
+    "Yahoo Finance"
    ],
    "status": "single"
   },
   {
-   "title": "Nvidia clamps down on export rules with new National Security and Export Control Oversight Committee",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdU81WXJHcjlsWnZSdXU0Q0lTRTVFTU9XVmZHMndiZEVpNjJmT29iLVNDRi1idzcwdUpRdE5HamFFWFJ2aGZwb2Rab2VUeEQ0X2Y0SEloNDZ1b2V1Y2xfNVJzVU9YdEVCOUFFam1KRXg5akpHZDgyUDVRYWo0ak56REVNUnEzQmE3Um81Z2hCV1RyRWRjaU5KWFpOWFNNWVhoMzFHVDFYeXZPRE55NzNObGFNd1p4VzVpU2lfU0laNUdaTlZpZzJIbkdpMDVmLUpVcWlBelpUUHZjanJmVkNEN3RB?oc=5",
-   "domain": "complianceweek.com",
-   "published": "2026-11-26T22:24:16+00:00",
-   "source": "Compliance Week",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Compliance Week"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Trump to visit Arizona manufacturer of semiconductor chips, including Nvidia's",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNb2dNdkwwaDE2YkhqYkRWTjJqNWozQzM1dmc2Ymg5TUR6eEVIYVZiaE5YXzNMVGg3Zm1yZW1YRzd4eTBsaGJaeWdnV1JYb2R1U05Hak9TbGdhY0xjaWJpTktHbnlPbXdwRjFZWktOdXU0ZlRXNkNsd0ZXQUczQkY3Rll1Zi1GdEtfOFJOTw?oc=5",
-   "domain": "cbsnews.com",
-   "published": "2026-11-26T21:46:00+00:00",
-   "source": "CBS News",
+   "title": "Will Nvidia stock hold above $148 support as downside pressure continues?",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbjdaUjhvT0loRkQzRGZZNWZ5bHJfbWh0MjBWbjVIY0tXQW00NFExb2Z1d2xnOVdWYThLbWFKUGI0dExYOTRGTUlwcnhpbjhiMDN6R1AwaXZ2Mm1VZGV5aHRoUHZVR2ZCMDBUUlVyMFkzMkpkOFNnX3lyMHhrX2VGUC1zVEFwNlBpSlAxTk8ya0h4dw?oc=5",
+   "domain": "tradersunion.com",
+   "published": "2026-11-27T15:02:35+00:00",
+   "source": "Traders Union",
    "tier": 3,
    "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "CBS News"
+    "Traders Union"
    ],
    "status": "single"
   },
   {
-   "title": "Report sheds light on China ties of some US-based Nvidia partners",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMnJTZlV2ZVJpaTFmcUh5c1Y2MXd2cGdxT1hYLTVmYlVaWW5WTzhIY2JWZmF2TmN2eUpOTHA5aDI5RlVYcV9ORWhvcFQ3TXU4em9sTDlzR1ZfLVR3eTVBWURaUUxIajNaQXc2RG12cFpsX19uS0JWYWlVT21ONGc1Q3Jtdkwzdy1qV2phdjZlaWMxTU5xel9Od003YWZWRVJmUDdKbQ?oc=5",
-   "domain": "siliconangle.com",
-   "published": "2026-11-26T21:13:00+00:00",
-   "source": "SiliconANGLE",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "SiliconANGLE"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Is NVIDIA Stock Underperforming the Dow?",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSU9JS2ctSTktQ0NhMzM1T0FvVk9WcXpJX0NDdWRZT0c0ZjFKcGpmenpZLWF1Q3NzN3FPdGQwd2NUX3Z6UHllZU9HcGtXOFhGcDl1bFdxMTlKM1A2ZVNLUGc2M1lJWHhXcGRrVFVOVHhTTlJKc09DU2h3aHNDVlZhR1llZE4zWEx5QnBJ?oc=5",
-   "domain": "barchart.com",
-   "published": "2026-11-26T19:44:18+00:00",
-   "source": "Barchart.com",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Barchart.com"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Nvidia CEO's comeback fuels debate over misogyny and impunity for the rich and powerful",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPczJXQXdpU1J5eDIxR1BmcjBHY0x4Z1hGeEowT1B3NnprRm0zSndubl9CanBVTHpKMzdDcmFac2FEc2tWNExZMTQtcXdUU2JGT2czRVdOeGhfUjVKbkhrQ0NocXEwQVNfVHNFMU5LaGdJbVIybldJc0MzbFg4SElvVTZaeVVEQUZLWlpaMldPWkFTXzNTUkxISUs2TVdJa05ua3M1VWlnVjl1dk03U3RiMTFuZEpiRlR5R29OY2RoYw?oc=5",
-   "domain": "pbs.org",
-   "published": "2026-11-26T19:33:22+00:00",
-   "source": "PBS",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "PBS"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Nvidia Cut Its Intel Stake and Bought More SpaceX. Cathie Wood Is Buying Too. Why SPCX Stock Faces a Big Test on December 8.",
-   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPeURyQjB4VEdiXzVtVDFONG9nVmF3YTM0ellFUjdNb1gwQ0tHQ2syXzRhT25oSVRMbnlNcXhfMFJpQXoxbUN3RktVb3NmWnNwdVdEWGhQWlNCV2IyXzhvdzI5emNhbEtOcm1vcVJjSXJWWkNnVlJucFUzdzhMcTJ2OUcyVEwycHFYS0hvZGg1eGpKX2pHdE1rSHR1TnNCZlhEd1FrWG5qQy11bHRoZUxyRTVkTkFxUVpKVHZndTN2V1RsQlYyd1NkeFJnamp2QzZsOUpLb1Z0cEI2Rkx2VlYyRnM4UnJrbzR5TTVpTjUtT2dWTVIwczlSUw?oc=5",
-   "domain": "barchart.com",
-   "published": "2026-11-26T19:30:03+00:00",
-   "source": "Barchart.com",
-   "tier": 3,
-   "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Barchart.com"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Editorial: Nvidia needs more than a strong CEO. It needs a board with backbone.",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWUM1RnFBYkZpb2tvNXhGMUNOWDFkYUN5RlFvQkZBYWg1ME9nWEhRN2lHb2ZkMVJHNEdaSzdxRVk4dXlpYVpQSDFvZkgzejlRRkJLUUt5TWhjQThjM0hMTmZla0Q1TktBcmc0a1RvMEhKWUZmSXBodU1TWWRDWXE2UWVTTkdZR3IzdU1DaFNSUUlxWURIY0RSRkQxWldMMV9VbllnREI2UTNFZ2prOUJ4dTZCeFpEWUJjOXN2MFREOWZYQUk?oc=5",
-   "domain": "mercurynews.com",
-   "published": "2026-11-26T18:29:31+00:00",
-   "source": "The Mercury News",
+   "title": "NVIDIA Short Interest Rises As Bears Move Toward September Peak",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOekV5SkZlUWxtOVREd1RTWWxnNW1sZmZIV0VlbTdqcmJDS1UxSEZLbmZWbDJZOUJUa19xQkpkd3VZTmkyaWtkQkZZV3V6eVZya0pnalFYUlctRnhIZDdaUlRidjVVS2RkMmszWDZVQ0RveDN1MHpwTzZSZ0FkNl92eVN5OTJKbl9uOWVxQ0dESzlrYTVtN3VKNm9wWnpySUw4cUpuRlJfMVduT2xtWDVRUmlHbkwtWDNLNFh2bWtaMWRfZHp4N2tzSg?oc=5",
+   "domain": "benzinga.com",
+   "published": "2026-11-27T15:00:27+00:00",
+   "source": "Benzinga",
    "tier": 3,
    "sentiment": 1.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "The Mercury News"
+    "Benzinga"
    ],
    "status": "single"
   },
   {
-   "title": "Big News For Nvidia Stock Fans",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUDBaakkzZEg5cldvZFN6QVo3dmhwM3BmVXlVRVVjSFZ1Y0RMSUFNOGVvUGJ1Y1g5UmhSNnA4MGdPVTU0Rzh4NWRUZzZ6U2FOV3RFeG9qUWthVm9LT1BEcXdpWFNWS1pLZW5iZU51Y0tCakRZMl9jTTRTMUNzUnFNd3o4TWlid25EbmxfaDlvcmtrNC14?oc=5",
+   "title": "Nvidia Stock: 5 Reasons The AI Trade Has Only Begun (NASDAQ:NVDA)",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNN2o0b2xkdHNBUUlES1pQNVBVQ281SjNoQzlqcmRrVHRZY0xnX3poUnVaZWpiVWRpc2UtOUFuR0FfNEhoOU9wdDRRVVhBUGF1bG5jX1pfbUFMSXpaTDNLZ1hKakxlM2JvRGhXV1UyOGpjemdJQlRZZnUxb01ORVQ2eFpEandobGxJV1BLQl8zUGxzVi0wTGc?oc=5",
+   "domain": "seekingalpha.com",
+   "published": "2026-11-27T14:55:47+00:00",
+   "source": "Seeking Alpha",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Seeking Alpha"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "SA analyst upgrades/downgrades: NVDA, MSFT, GOOG, SNDK (SP500:) (MSFT:NASDAQ)",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNUJoZTQtYW8xZmhEM3Rwd09hZ0VxUjFNQ0lmZjBjcktDeWRjTGZyVzUwbUd2dVFFQlVWUEhPUVhfTF9Ha1VEQnlDYWZGZGR3cWZENTR1c01RdDdLX3dIZTVGdGdCRmhsRmpVbXg4SjVzazVaUzE0VlplOGE0VExLUVJkWVRmVzI3UlUwUng0blFxZw?oc=5",
+   "domain": "seekingalpha.com",
+   "published": "2026-11-27T14:41:54+00:00",
+   "source": "Seeking Alpha",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Seeking Alpha"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Fire Sale: Here's Why Now May Be the Perfect Time to Buy Nvidia Stock",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNOGZlQml6RjdIR25jUV9rYW5YTWtjSWZnT0RQOUxtTlVTQlhYSkVYNEtFYXhfc0pKOW5WZmFrR2lFaWhUMjZ0alJBRG9KSXNqS050Qk95RzFxMVZZbUxLRnRNc241anJ3RDhROXhtUmF3UmNmSlZjZzFHaU5BM1JONVdWbXRuSGVfTnZtc3N3NVdiWkxvSUZkY0l6bVg3SHdFaVdNcFgtenZzOGlBTmEzc2VEUjJzdTRoaVZ3WUxxOTZtbXltM0lfeHM2RWJaZUJfN3FhYWR6VS1WNFRLblV3dTJoMklVOHlVX0E?oc=5",
+   "domain": "theglobeandmail.com",
+   "published": "2026-11-27T14:38:18+00:00",
+   "source": "The Globe and Mail",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "The Globe and Mail"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Nvidia Stock Is Rising Again. Why Huang's Comeback Hasn't Ended the Uncertainty",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQW1fbWNzNFR6NHRLbFo0UzNmbzJ6ZldvSWYya212NFQ5LUVNM3lUaGVFazNYTDF5ZUU2alE1cnJCazZ0TGNKeDVMbHZsa1doRzFYVmFHcF93MjU0U1BSc082SF9FU1BSeGIyekpCRlBVZDJ1R3RoRWtPSTZjZjU0eFhNc2hwZW9FYVA0dWI4SXJjWnZjX2JhSkxsSm5ON0NxeU9hMmVfV0g0RHpNai00LUFfckdOY19JUGRDM1pzaVNDR1JEVnFraXlZR1ktbjFnVUVvQg?oc=5",
    "domain": "tradingview.com",
-   "published": "2026-11-26T18:14:00+00:00",
+   "published": "2026-11-27T14:35:20+00:00",
    "source": "TradingView",
    "tier": 3,
    "sentiment": 0.0,
@@ -2263,10 +1794,74 @@
    "status": "single"
   },
   {
-   "title": "Nvidia Stock Has Found Its Next Big Catalyst, Making the Stock a Once-in-a-Decade Buying Opportunity.",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNlYtanViOVZ0ZUxOeUxTeXpWaXE5Slc5R2tLNjU4UDI3YzVEUnV0ckNfQ1QtOGxySUI1REtKd3JSQ3RqOF9ab0VCVDlrMk9maFFTbEtNRHdtbHJPTzM3MHlENl81WjFYdUJueGdtQ3F5Q05lMTJIWnRtaFR1OG41a0VoVGtTN0JwaUI5WTN4SnJhV1VfRFZ5S200TUxISFZKYmZJNjh0bWxMLTktaERMX0FWN1JxLWl0dFNNeXY4a3BabHVIMlQ2QkNXSVhYZldJZUJzVEtuc2NxZw?oc=5",
+   "title": "Kioxia Stock Has Soared 21% in Two Days After an Nvidia SSD Test",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOEtOWU9IX1pkT3VPQ3A1UzlMLWpUa01YdGlxV1E4YmluLWdBM3BfQ0M1RU9kM0pZZnVmVkxxS1FoblZLUXFQcUFnSUpHcTRoLVJkcnZBX01hS244SkhkUlRqNmRwUjlKbWpnU2pLdEVsc00xd2k3V0EtSHFUSzNNcDgzNkdSWWRJSmh3N3Nsa1Ytb0xCNWc?oc=5",
+   "domain": "finance.yahoo.com",
+   "published": "2026-11-27T14:28:28+00:00",
+   "source": "Yahoo Finance",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Yahoo Finance"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "NVIDIA founder Jensen Huang honored by Denny's with restored co-founding booth plaque",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wUlZGZ1VSNi1SbjhxZWJRV0hXNGhYSml0ZFdfNzNMSVphck9OSmhJdm4tLWZ6d2NISGpoVDNnd1R0ZVBJbl9ZYUE5SlhZdlFpZG1KdWNDazM0Mjg?oc=5",
+   "domain": "foxbusiness.com",
+   "published": "2026-11-27T14:13:17+00:00",
+   "source": "Fox Business",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Fox Business"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Bet on 3 Momentum Anomaly Stocks Amid NVIDIA Volte-Face, Tariff Threat",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ1RTMzhZNTM1Zjc2enlmUlZHNnRRQVFyYzJvVnpJcmtNMy1SWEhzQ09LaDh4MFh3Q3h3T1VwUFh6R25RbEFUMG9BYWNJNWYwcVFGX2JhQlBHX3lIZnU3enVVVy1teHIyMldoYXhnekhUd3VqNEhMWExXT2gyYnhheU9fYUI?oc=5",
+   "domain": "au.finance.yahoo.com",
+   "published": "2026-11-27T14:12:00+00:00",
+   "source": "Yahoo Finance Australia",
+   "tier": 3,
+   "sentiment": -1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Yahoo Finance Australia"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "The Decline in Nvidia Stock Was Equal to 8% of the U.S. GDP. How Vital Is NVDA to the U.S. Economy?",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQM09XSXlGQVhhdWVOZnE3WFVtY3lDUlVYbnpPakR3VE1USmRjNHNnNVkzb2EzZGpXQm13cEdVVGNlSmdlMlgxcW5oaU05MGoyalFHeVpjbXVlN2k1cjFhRFN4YUkyLVVtaDVEVTZUYUNwZ2ZRc0JidWlkNUphSk9OaFBIb0tLOTQ1MDRhbjRkX201N1lpRmNRcVB1YVgwbThCQ3NkSFRXVlFGWlVwUng5Zl9jZEF3YWNuZ0haQ2VEMUxsak1JY2RPTEYxczJ6cVZQYnBoWA?oc=5",
+   "domain": "barchart.com",
+   "published": "2026-11-27T14:00:02+00:00",
+   "source": "Barchart.com",
+   "tier": 3,
+   "sentiment": -1.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Barchart.com"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Is Nvidia a Screaming Buy or a Value Trap?",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN0JHZHBUZXJlWmx3RkU1bGtCdktFSURpdjlOWGNEc3VhSTJ5ZkR4OUFMRUdmUEpyamhjOWRMSFJuZ2pmQUJENHFUWmNzc0tuMGVwYXZHQUR2RENGTDV5QUtzM2t1QzJESDFrVUp3WkVqWm9GNkxLQTRVOEF5R0lRRU5hc3lPMmdNLTJ2bA?oc=5",
    "domain": "fool.com",
-   "published": "2026-11-26T17:57:02+00:00",
+   "published": "2026-11-27T13:05:02+00:00",
    "source": "The Motley Fool",
    "tier": 3,
    "sentiment": 0.0,
@@ -2279,10 +1874,42 @@
    "status": "single"
   },
   {
-   "title": "Should You Buy Nvidia After Its Sharp Decline? Warren Buffett’s Long-Held Investment Philosophy Provides a Clear Answer",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT3ZDaWhTMllvUEx6RzRWLUpFQW11TnpqYXZiTi1VZzdjUVl2aUhYUUVVeHctWVdiMmJCXzVaRDhFX2xmS2k1QWM2M1VpcWtqQVBiUDV2dXRXNWQ3MEI4N2pmcjB3UVo5bXNqbDFMMG5MOU9sWVIyTlk4b3ZhRTVUZDEwd3prLVVxX092d2xZc1dqZmYwcE5yemF5S2s?oc=5",
+   "title": "What's Next For Nvidia Stock - Wall Street Weighs",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTm1jbHptd1FfbHNzeE5QRWQ5a3pfWVBjbE5YU2dmUkVQUDBwYUx2UkJxRzVyeUU2X0laZHk2QUh4UVFma3FNc0swbWFTd1NmRjJBZFN3NHczWG9BSC1CdjVBd3I4Y0NwME1qeUlaZkZKTGhLdU4xampXLTFqNmlGSHBMcXFhV1dLY2hIVTZuX3NYbjZSWWJHREdNUlpyUjlN?oc=5",
+   "domain": "benzinga.com",
+   "published": "2026-11-27T12:55:46+00:00",
+   "source": "Benzinga",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "Benzinga"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Trump Weighs-in on Veto Power, Nvidia, Iran War and Putin",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSWN0aVZ5dzYxNS0wOXo3Wm1YcWdDYTZMREZUQUh6SC12SlNkeDFYNzdzdjVMWnhkNXd3dlJCelp2dzlKVnhIWEZiRzBNYndzT1NlUDFoSWprZ043clpiUUhUYWlpUXVUUzRGblJudk1ZUWxMTUZFNTVrRWJvamJUdmhqTFJ0TDltd0xGMlUyZjRFLUkycFZZZ1BVY0s?oc=5",
+   "domain": "today.com",
+   "published": "2026-11-27T12:22:46+00:00",
+   "source": "TODAY.com",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "TODAY.com"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Dell, Super Micro Under Pressure as Nvidia Halts Shipments to 4 Asian Countries",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeUZzdkFULXNudy10WndCWXlCaG5tV29hbE45XzQ3UXJnZndLeG9kN0ZURWFKcURLTl8tNGhJMHBPbUtYczZsWUdNQ2JHX1VvYkVMdEtHdFI3TW9FMmNDU2VvV29ZTUVuSXhDVzNIYlRLUExraTVZSTZWUTlaVm9zTjBvTmFOdjBYMHJQMDZpYnNaZFBncF80?oc=5",
    "domain": "finance.yahoo.com",
-   "published": "2026-11-26T17:35:02+00:00",
+   "published": "2026-11-27T12:22:03+00:00",
    "source": "Yahoo Finance",
    "tier": 3,
    "sentiment": -1.0,
@@ -2295,26 +1922,42 @@
    "status": "single"
   },
   {
-   "title": "Nvidia faces credit rating review as S&P flags governance concerns",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUFRfRXJRVDVpMGNCbDFuaHpxUXJSM1dTQjM1ZEJZN3M2MjkwemdhTjZrZEtZLUFiTFlBdWw3dkZ6TFZsRFFzbFFUREloei1fTHQ4bENQZVBnVGRaS01MZlM4bVRHQ21XRzBVdzZJQzgzYlMwV19zWlRKbUdKNllCM09wazItZ1RJT2c?oc=5",
-   "domain": "ca.finance.yahoo.com",
-   "published": "2026-11-26T17:16:00+00:00",
-   "source": "Yahoo! Finance Canada",
+   "title": "Making Elliott Wave Sense of Nvidia’s November In Hell",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1hVVJRTE91bldfU19sbFc0WE81eDZGQlpsZWc2dFlGeWxUa2luWlBqUFJudjIyckt6V2p5RXpSWThjNGliWUFOMXY1SnBmSjMxR1l5WlEyTkdIcDc0MkhSaEYweXRRcUZsbkI2VnRfcjVfWUxvRHlNb1NsYlBwUQ?oc=5",
+   "domain": "ewminteractive.com",
+   "published": "2026-11-27T12:20:34+00:00",
+   "source": "EWM Interactive",
+   "tier": 3,
+   "sentiment": 0.0,
+   "impact": 1,
+   "summary_th": "",
+   "corroborated_by": 1,
+   "sources": [
+    "EWM Interactive"
+   ],
+   "status": "single"
+  },
+  {
+   "title": "Tech Sell-Off: 1 Unstoppable Stock-Split Stock to Buy Before It Joins Nvidia, Alphabet, Microsoft, and Apple in the $3 Trillion Club",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZTcxSkFQTk9fTnVOMV9YMUstU3lhRTFqZDYzLVRKd1NVVVk4MzVFSXh4OXUtdV94cE5FVmU2UlBpX1dwT0s1YXcwTTJsZktiOGJPQzRDY0huc2lOWV85ZTFZMUpFV0tmZEo1M0hYeTNCaUlHSlYxUExqbHJFNDFvZENOc0pJUDVpejdvRkI5emFJSUQ3VlJYTmlDQjFTZ215RDZqTXh0QjZyY3NZcDV4N2x6bVFJR0ZqblY4dV9idms5Z0NmaDRrWlpfMlk1N1NhckFscEU2OHhfaGJ0bkE3M2l5SkY2cnZrZWtzbw?oc=5",
+   "domain": "fool.com",
+   "published": "2026-11-27T12:17:02+00:00",
+   "source": "The Motley Fool",
    "tier": 3,
    "sentiment": -1.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
    "sources": [
-    "Yahoo! Finance Canada"
+    "The Motley Fool"
    ],
    "status": "single"
   },
   {
-   "title": "Nvidia Just Revealed a Major $19 Billion Vote of Confidence in Intel Stock",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORHU2RFNjQk1ablhVU1NGdWZxNUItMGxNMURqb2tpSFpNQ2FfejBXa2c4V0U1bnFmZzQyTTc4d1NudlF5WG4wRnhBTm5fZjI0UjRxcDd6NG9wZ1NIUl9HQmpzTG5NUmF2akQwbmpjaXRVdXlweURNbmFrUUNkczVzVkl6S2xZX1NjZzlLOUVURFhISDRCd3pQRFFn?oc=5",
+   "title": "How Much Of Big Tech's AI Spending Reaches Nvidia?",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONGxDV2IxX2lRMzZ4ZUVmOTlrN0VsUXhWd2hXRU5LRDBwazUwVXpCbTVJdE9aTHhvS2tQX3FybjU4LUlmeDVwczg0MDBYNXVxalRFenMtdlJiTTZUNlNmSjhGeGJOQkNycGtuQkplRF9zSlFkOUZUa2F3NDFMbUppSG5yOVhfSTdrYzB5SUVuTm1RWDd2?oc=5",
    "domain": "finance.yahoo.com",
-   "published": "2026-11-26T16:30:03+00:00",
+   "published": "2026-11-27T11:48:38+00:00",
    "source": "Yahoo Finance",
    "tier": 3,
    "sentiment": 0.0,
@@ -2327,45 +1970,13 @@
    "status": "single"
   },
   {
-   "title": "S&P’s NVIDIA Warning is Backward Looking Governance Theater That Gives Everyone an Opportunity to Buy at $150",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxON3BILVhfUlhTUXBIWVQ3THFMX0s4OWpnd0g0M1VBMnZJeDdYOHBTaERHcWM1Vk82cXdSY1dGamp1VWo0WnlTYVkwUkM2SkpOcEJrZWM3V2NHSEl6T0dLQnVHRC1lYnVuVEx6VEVWSzVJakVUR25oM1ZSTURYdEloSC00UDRJM1dqT3liaGk0TG5wbHhmVmJPU21Fd1EzNlU?oc=5",
+   "title": "Nvidia agrees to $290 million settlement over 2018 crypto mining GPU sales — ends eight-year investor lawsuit without admitting wrongdoing",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdWdiVzhFeExEaXgzSjVHNUwyYWtRT2NnZGEzOTlWelZLbl9RbEdhYmxjZlp6QUd1NWVsaklVWnRCVkZOdV80aXZ1UFhJZ3Y4ZktHUzlCVEdhLTg2UTRwWGltWlVIZUgtLXVEQVhtN1ptMG16RnJmOGp0M3ZqczFsUjh0dkVUcE9WQ2NucG4yM3FpN09UOHVqMXF0djlxQllFa3dF?oc=5",
    "domain": "finance.yahoo.com",
-   "published": "2026-11-26T15:45:38+00:00",
+   "published": "2026-11-27T11:30:00+00:00",
    "source": "Yahoo Finance",
    "tier": 3,
    "sentiment": -1.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Yahoo Finance"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Wall Street Is Suffering a $2 Trillion Huangover. Is It Time to Buy Nvidia Stock?",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNN04zQkhBbm1EVF9KRl9WLTlOdGJ2d3RFbFI1VkNQNk8xTVNqSXpkWmlJYkxITDFVak11cUJxMzFXQmVRUUE0ZEozekFkcmFQYjFfSHByR0hkd3dMWXpGSFMtUHBFYzkyMG1FVm5rcWNhempVekZZdENyVTh1MHpEaUZ0ZVhGUXUzWXdKTmZ6ek1Vb3FBajJMNjJuUGxpdw?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-26T14:30:03+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 0.0,
-   "impact": 1,
-   "summary_th": "",
-   "corroborated_by": 1,
-   "sources": [
-    "Yahoo Finance"
-   ],
-   "status": "single"
-  },
-  {
-   "title": "Nvidia’s Reliance on Huang Could Now Hurt Its Credit Rating",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeVVqNUdiSGg2dlVYWnVYQ0hDdUdRd3VjLWdKWGJsTERUNHVBT01hSlVIWUhLZTBMTXJJMWU1MnJWMFNQZWdOTUNvYnhMdHVnblNhUnI3a2ZuT2JKM21yRGtEalRHVXJQN2tuWnhJVGRoYlNtTWRtclhHVHlwM2g4azhSYmNkQmlmaHowQmlNbzRlT3BOTVFCYy1JMVo?oc=5",
-   "domain": "finance.yahoo.com",
-   "published": "2026-11-26T14:17:28+00:00",
-   "source": "Yahoo Finance",
-   "tier": 3,
-   "sentiment": 0.0,
    "impact": 1,
    "summary_th": "",
    "corroborated_by": 1,
@@ -2379,19 +1990,6 @@
   "SEC EDGAR: HTTP Error 403: Forbidden"
  ],
  "candles": [
-  {
-   "t": "2025-11-13",
-   "o": 191.05,
-   "h": 191.44,
-   "l": 183.85,
-   "c": 186.86,
-   "v": 207423100,
-   "sma20": 192.527,
-   "sma50": 185.145,
-   "sma200": 150.863,
-   "rsi": 46.413,
-   "macd_hist": -1.258
-  },
   {
    "t": "2025-11-14",
    "o": 182.86,
@@ -5758,6 +5356,19 @@
    "sma200": 202.874,
    "rsi": 37.451,
    "macd_hist": -0.674
+  },
+  {
+   "t": "2026-11-27",
+   "o": 151.94,
+   "h": 151.98,
+   "l": 145.39,
+   "c": 148.985,
+   "v": 148186837,
+   "sma20": 169.244,
+   "sma50": 202.247,
+   "sma200": 202.669,
+   "rsi": 37.345,
+   "macd_hist": -0.188
   }
  ]
 }
